@@ -1,0 +1,15 @@
+.button {
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  font-family: "Uni Neue";
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.primary {
+  background-color: red;
+}
