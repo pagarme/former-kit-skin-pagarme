@@ -37,6 +37,8 @@
     "react-dom": "15.6.1",
     "react-error-overlay": "1.0.10",
     "style-loader": "0.18.2",
+    "stylelint": "8.0.0",
+    "stylelint-config-pagarme-react": "1.0.0",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.5.9",
     "webpack": "3.5.1",
@@ -47,7 +49,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "lint": "eslint src/**/*.js config/**/*.js",
+    "lint": "eslint './src/**/*.js'; stylelint './src/**/*.css'",
     "test": "node scripts/test.js --env=jsdom",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -92,5 +94,8 @@
   },
   "eslintConfig": {
     "extends": "pagarme-react"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-pagarme-react"
   }
 }

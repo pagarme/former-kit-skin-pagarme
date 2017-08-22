@@ -9,6 +9,7 @@ const InterpolateHtmlPlugin = require('react-dev-utils/InterpolateHtmlPlugin');
 const WatchMissingNodeModulesPlugin = require('react-dev-utils/WatchMissingNodeModulesPlugin');
 const eslintFormatter = require('react-dev-utils/eslintFormatter');
 const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
+const stylelintFormatter = require('./stylelintFormatter');
 const getClientEnvironment = require('./env');
 const paths = require('./paths');
 
@@ -122,6 +123,22 @@ module.exports = {
               
             },
             loader: require.resolve('eslint-loader'),
+          },
+        ],
+        include: paths.appSrc,
+      },
+      {
+        test: /\.css$/,
+        enforce: 'pre',
+        use: [
+          {
+            options: {
+              formatter: stylelintFormatter,
+              plugins: () => [
+                require('stylelint'),
+              ],
+            },
+            loader: require.resolve('postcss-loader'),
           },
         ],
         include: paths.appSrc,
