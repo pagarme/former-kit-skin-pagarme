@@ -1,0 +1,155 @@
+:root {
+  --color-light-green-primary-100: #43a047;
+  --color-light-green-primary-200: #2e7d32;
+  --color-light-green-primary-300: #235f26;
+
+  --color-light-green-primary-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-green-primary-300) 10%,
+      var(--color-light-green-primary-100) 90%
+    );
+
+  --color-light-green-secondary-100: #689f38;
+  --color-light-green-secondary-200: #558b2f;
+  --color-light-green-secondary-300: #3d6b22;
+
+  --color-light-green-secondary-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-green-secondary-300) 10%,
+      var(--color-light-green-secondary-100) 90%
+    );
+
+  --color-light-green-dark-100: #005849;
+  --color-light-green-dark-200: #004d40;
+  --color-light-green-dark-300: #004237;
+
+  --color-light-green-dark-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-green-dark-300) 10%,
+      var(--color-light-green-dark-100) 90%
+    );
+
+  --color-light-green-dark-accent-100: #3ed2a4;
+  --color-light-green-dark-accent-200: #4fc6b0;
+
+  --color-light-green-dark-accent-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-green-dark-accent-200) 10%,
+      var(--color-light-green-dark-accent-100) 90%
+    );
+
+  --color-light-silver-100: #8f8f8f;
+  --color-light-silver-200: #757575;
+  --color-light-silver-300: #606060;
+
+  --color-light-silver-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-silver-300) 10%,
+      var(--color-light-silver-100) 90%
+    );
+
+  --color-light-silver-accent-100: #949494;
+  --color-light-silver-accent-200: #767676;
+
+  --color-light-silver-accent-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-silver-accent-200) 10%,
+      var(--color-light-silver-accent-100) 90%
+    );
+
+  --color-light-plumb-100: #58656c;
+  --color-light-plumb-200: #37474f;
+  --color-light-plumb-300: #323f46;
+
+  --color-light-plumb-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-plumb-200) 10%,
+      var(--color-light-plumb-100) 90%
+    );
+
+  --color-light-yellow-100: #b38400;
+  --color-light-yellow-200: #9e6c00;
+  --color-light-yellow-300: #865100;
+
+  --color-light-yellow-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-yellow-200) 10%,
+      var(--color-light-yellow-100) 90%
+    );
+
+  --color-light-yellow-accent-100: #ce8500;
+
+  --color-light-red-100: #dd7b00;
+  --color-light-red-200: #e65100;
+  --color-light-red-300: #d14800;
+
+  --color-light-red-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-red-200) 10%,
+      var(--color-light-red-100) 90%
+    );
+
+  --color-light-blue-100: #039fdb;
+  --color-light-blue-200: #039be5;
+  --color-light-blue-300: #038fe2;
+
+  --color-light-blue-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-blue-200) 10%,
+      var(--color-light-blue-100) 90%
+    );
+
+  --color-light-blue-accent-100: #0097a7;
+  --color-light-blue-accent-200: #007bc7;
+
+  --color-light-blue-accent-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-blue-accent-200) 10%,
+      var(--color-light-blue-accent-100) 90%
+    );
+
+  --color-light-purple-100: #7b45c5;
+  --color-light-purple-200: #673ab7;
+  --color-light-purple-300: #532fa9;
+
+  --color-light-purple-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-purple-200) 10%,
+      var(--color-light-purple-100) 90%
+    );
+
+  --color-light-purple-accent-100: #8457d6;
+
+  --color-light-pink-100: #ff2e88;
+  --color-light-pink-200: #ff1744;
+  --color-light-pink-300: #ee0001;
+
+  --color-light-pink-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-pink-200) 10%,
+      var(--color-light-pink-100) 90%
+    );
+
+  --color-light-pink-accent-100: #e52525;
+  --color-light-pink-accent-200: #db5f5f;
+
+  --color-light-pink-accent-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-pink-accent-200) 10%,
+      var(--color-light-pink-accent-100) 90%
+    );
+}

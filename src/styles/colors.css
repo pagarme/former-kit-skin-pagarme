@@ -1,0 +1,9 @@
+@import "./colors/dark.css";
+@import "./colors/light.css";
+
+:root {
+  --color-background-light: #ffffff;
+  --color-background-dark: #cccccc;
+
+  --gradient-angle: 145deg;
+}
