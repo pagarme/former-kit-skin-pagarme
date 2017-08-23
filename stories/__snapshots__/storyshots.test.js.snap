@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button primary 1`] = `
+<button
+  className={undefined}
+>
+  Primary Button
+</button>
+`;

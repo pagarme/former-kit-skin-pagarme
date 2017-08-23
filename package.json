@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "@storybook/addon-actions": "3.2.0",
+    "@storybook/addon-storyshots": "3.2.0",
+    "@storybook/addons": "3.2.0",
+    "@storybook/channels": "3.2.0",
     "@storybook/react": "3.2.4",
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
@@ -36,6 +39,7 @@
     "react-dev-utils": "3.1.0",
     "react-dom": "15.6.1",
     "react-error-overlay": "1.0.10",
+    "react-test-renderer": "15.6.1",
     "style-loader": "0.18.2",
     "stylelint": "8.0.0",
     "stylelint-config-pagarme-react": "1.0.0",
@@ -62,8 +66,8 @@
       "<rootDir>/config/polyfills.js"
     ],
     "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.js?(x)",
-      "<rootDir>/src/**/?(*.)(spec|test).js?(x)"
+      "<rootDir>/src/**/?(*.)(spec|test).js?(x)",
+      "<rootDir>/stories/storyshots.test.js"
     ],
     "testEnvironment": "node",
     "testURL": "http://localhost",
