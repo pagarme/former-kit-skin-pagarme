@@ -45,7 +45,7 @@
     "react-test-renderer": "15.6.1",
     "style-loader": "0.18.2",
     "stylelint": "8.0.0",
-    "stylelint-config-pagarme-react": "1.0.1",
+    "stylelint-config-pagarme-react": "1.0.3",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.5.9",
     "webpack": "3.5.1",

@@ -7155,9 +7155,9 @@ style-search@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
 
-stylelint-config-pagarme-react@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/stylelint-config-pagarme-react/-/stylelint-config-pagarme-react-1.0.1.tgz#d6120e1dc0ac14c715ffc4571b6d22fdf718fdf9"
+stylelint-config-pagarme-react@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/stylelint-config-pagarme-react/-/stylelint-config-pagarme-react-1.0.3.tgz#204b9d9f48b6e4eb8266fa2f75493ec1dd00dad8"
   dependencies:
     stylelint-config-standard "17.0.0"
 
