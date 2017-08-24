@@ -1,0 +1,45 @@
+@import "./properties.css";
+
+.card {
+  background: #ffffff;
+  box-shadow: var(--card-shadow);
+  margin: 0;
+  padding: 0;
+  border-radius: var(--card-border-radius);
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.title {
+  padding: var(--card-title-padding);
+}
+
+.title > h4,
+.title > h3,
+.title > h2,
+.title > h1 {
+  margin: 0;
+}
+
+.content {
+  padding: var(--card-content-padding);
+}
+
+.graphic,
+.graphic > img {
+  width: 100%;
+}
+
+.actions {
+  padding: var(--card-actions-padding);
+}
+
+.actions > * {
+  margin-left: var(--card-spacing-medium);
+}
+
+.actions > *:first-child {
+  margin-left: unset;
+}
+

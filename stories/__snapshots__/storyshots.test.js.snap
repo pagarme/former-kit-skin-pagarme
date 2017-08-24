@@ -8,6 +8,115 @@ exports[`Storyshots Button primary 1`] = `
 </button>
 `;
 
+exports[`Storyshots Cards Graphic, title, text and actions 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      <img
+        alt="placeholder"
+        src="https://maxicharts.com/wp-content/uploads/2017/07/banner-1544x500.png"
+      />
+    </div>
+    <div
+      className={undefined}
+    >
+      <h3>
+        Lorem ipsum dolor sit amet
+      </h3>
+    </div>
+    <div
+      className={undefined}
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+    </div>
+    <div
+      className={undefined}
+    >
+      <button>
+        Action
+      </button>
+      <button>
+        Action
+      </button>
+      <button>
+        Action
+      </button>
+      <button>
+        Action
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards Title and text 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      <h3>
+        Lorem ipsum dolor sit amet
+      </h3>
+    </div>
+    <div
+      className={undefined}
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards Title, text and actions 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      <h3>
+        Lorem ipsum dolor sit amet
+      </h3>
+    </div>
+    <div
+      className={undefined}
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+    </div>
+    <div
+      className={undefined}
+    >
+      <button>
+        Action
+      </button>
+      <button>
+        Action
+      </button>
+      <button>
+        Action
+      </button>
+      <button>
+        Action
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Colors Dark background color 1`] = `
 <div
   className={undefined}
