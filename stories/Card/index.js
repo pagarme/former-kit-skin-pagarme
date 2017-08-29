@@ -13,6 +13,8 @@ import {
   CardActions,
 } from '../../src/components/Card'
 
+import Button from '../../src/components/Button'
+
 
 const TitleText = () => (
   <div className={style.showcase}>
@@ -47,10 +49,10 @@ const TitleTextActions = () => (
         feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
       </CardText>
       <CardActions>
-        <button>Action</button>
-        <button>Action</button>
-        <button>Action</button>
-        <button>Action</button>
+        <Button>Action</Button>
+        <Button>Action</Button>
+        <Button>Action</Button>
+        <Button>Action</Button>
       </CardActions>
     </Card>
   </div>
@@ -77,10 +79,10 @@ const GraphicTitleTextActions = () => (
         feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
       </CardText>
       <CardActions>
-        <button>Action</button>
-        <button>Action</button>
-        <button>Action</button>
-        <button>Action</button>
+        <Button>Action</Button>
+        <Button>Action</Button>
+        <Button>Action</Button>
+        <Button>Action</Button>
       </CardActions>
     </Card>
   </div>

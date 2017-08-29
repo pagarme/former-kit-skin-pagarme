@@ -38,16 +38,24 @@ exports[`Storyshots Cards Graphic, title, text and actions 1`] = `
     <div
       className={undefined}
     >
-      <button>
+      <button
+        className={undefined}
+      >
         Action
       </button>
-      <button>
+      <button
+        className={undefined}
+      >
         Action
       </button>
-      <button>
+      <button
+        className={undefined}
+      >
         Action
       </button>
-      <button>
+      <button
+        className={undefined}
+      >
         Action
       </button>
     </div>
@@ -100,16 +108,24 @@ exports[`Storyshots Cards Title, text and actions 1`] = `
     <div
       className={undefined}
     >
-      <button>
+      <button
+        className={undefined}
+      >
         Action
       </button>
-      <button>
+      <button
+        className={undefined}
+      >
         Action
       </button>
-      <button>
+      <button
+        className={undefined}
+      >
         Action
       </button>
-      <button>
+      <button
+        className={undefined}
+      >
         Action
       </button>
     </div>
