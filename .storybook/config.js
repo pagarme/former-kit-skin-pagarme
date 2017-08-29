@@ -1,9 +1,17 @@
 /* eslint-disable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
 
-import { configure } from '@storybook/react';
+import { configure, setAddon, getStorybook } from '@storybook/react'
+import createPercyAddon from '@percy-io/percy-storybook'
+
+
+const { percyAddon, serializeStories } = createPercyAddon()
 
 function loadStories() {
-  require('../stories');
+  require('../stories')
 }
 
-configure(loadStories, module);
+configure(loadStories, module)
+setAddon(percyAddon)
+
+serializeStories(getStorybook)
+
