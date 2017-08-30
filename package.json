@@ -102,7 +102,10 @@
     ]
   },
   "eslintConfig": {
-    "extends": "pagarme-react"
+    "extends": "pagarme-react",
+    "env": {
+      "jest": true
+    }
   },
   "stylelint": {
     "extends": "stylelint-config-pagarme-react"
