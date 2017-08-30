@@ -1,5 +1,325 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Alerts/dark error 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className=""
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width="1em"
+    >
+      <g>
+        <path
+          d="m31.6 10.7l-9.3 9.3 9.3 9.3-2.3 2.3-9.3-9.3-9.3 9.3-2.3-2.3 9.3-9.3-9.3-9.3 2.3-2.3 9.3 9.3 9.3-9.3z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <p>
+      <strong>
+        Error
+      </strong>
+       something went wrong!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Alerts/dark info 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className=""
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width="1em"
+    >
+      <g>
+        <path
+          d="m18.4 15v-3.4h3.2v3.4h-3.2z m1.6 18.4c7.3 0 13.4-6.1 13.4-13.4s-6.1-13.4-13.4-13.4-13.4 6.1-13.4 13.4 6.1 13.4 13.4 13.4z m0-30c9.2 0 16.6 7.4 16.6 16.6s-7.4 16.6-16.6 16.6-16.6-7.4-16.6-16.6 7.4-16.6 16.6-16.6z m-1.6 25v-10h3.2v10h-3.2z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <p>
+      <strong>
+        Info
+      </strong>
+       you can do it better!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Alerts/dark success 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className=""
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width="1em"
+    >
+      <g>
+        <path
+          d="m15 27l17.7-17.7 2.3 2.3-20 20-9.3-9.3 2.3-2.3z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <p>
+      <strong>
+        Success
+      </strong>
+       awesome, it worked!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Alerts/dark warning 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className=""
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width="1em"
+    >
+      <g>
+        <path
+          d="m21.6 23.4v-6.8h-3.2v6.8h3.2z m0 6.6v-3.4h-3.2v3.4h3.2z m-20 5l18.4-31.6 18.4 31.6h-36.8z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <p>
+      <strong>
+        Warning
+      </strong>
+       something is going on!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Alerts/light error 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className=""
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width="1em"
+    >
+      <g>
+        <path
+          d="m31.6 10.7l-9.3 9.3 9.3 9.3-2.3 2.3-9.3-9.3-9.3 9.3-2.3-2.3 9.3-9.3-9.3-9.3 2.3-2.3 9.3 9.3 9.3-9.3z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <p>
+      <strong>
+        Error
+      </strong>
+       something went wrong!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Alerts/light info 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className=""
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width="1em"
+    >
+      <g>
+        <path
+          d="m18.4 15v-3.4h3.2v3.4h-3.2z m1.6 18.4c7.3 0 13.4-6.1 13.4-13.4s-6.1-13.4-13.4-13.4-13.4 6.1-13.4 13.4 6.1 13.4 13.4 13.4z m0-30c9.2 0 16.6 7.4 16.6 16.6s-7.4 16.6-16.6 16.6-16.6-7.4-16.6-16.6 7.4-16.6 16.6-16.6z m-1.6 25v-10h3.2v10h-3.2z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <p>
+      <strong>
+        Info
+      </strong>
+       you can do it better!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Alerts/light success 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className=""
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width="1em"
+    >
+      <g>
+        <path
+          d="m15 27l17.7-17.7 2.3 2.3-20 20-9.3-9.3 2.3-2.3z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <p>
+      <strong>
+        Success
+      </strong>
+       awesome, it worked!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Alerts/light warning 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className=""
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width="1em"
+    >
+      <g>
+        <path
+          d="m21.6 23.4v-6.8h-3.2v6.8h3.2z m0 6.6v-3.4h-3.2v3.4h3.2z m-20 5l18.4-31.6 18.4 31.6h-36.8z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <p>
+      <strong>
+        Warning
+      </strong>
+       something is going on!
+    </p>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Botão/Claro Contorno 1`] = `
 <div
   className={undefined}
@@ -2101,6 +2421,83 @@ exports[`Storyshots Colors Dark background color 1`] = `
       </div>
     </div>
   </div>
+  <div>
+    <h1>
+      Named Colors
+    </h1>
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+      >
+        <div>
+          <div
+            className={undefined}
+            style={
+              Object {
+                "background": "var(--color-dark-warning)",
+              }
+            }
+          >
+            <div
+              className={undefined}
+            >
+              --color-dark-warning
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className={undefined}
+            style={
+              Object {
+                "background": "var(--color-dark-error)",
+              }
+            }
+          >
+            <div
+              className={undefined}
+            >
+              --color-dark-error
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className={undefined}
+            style={
+              Object {
+                "background": "var(--color-dark-info)",
+              }
+            }
+          >
+            <div
+              className={undefined}
+            >
+              --color-dark-info
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className={undefined}
+            style={
+              Object {
+                "background": "var(--color-dark-success)",
+              }
+            }
+          >
+            <div
+              className={undefined}
+            >
+              --color-dark-success
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;
 
@@ -3004,6 +3401,83 @@ exports[`Storyshots Colors Light background color 1`] = `
               className={undefined}
             >
               --color-light-pink-accent-gradient
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h1>
+      Named Colors
+    </h1>
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+      >
+        <div>
+          <div
+            className={undefined}
+            style={
+              Object {
+                "background": "var(--color-light-warning)",
+              }
+            }
+          >
+            <div
+              className={undefined}
+            >
+              --color-light-warning
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className={undefined}
+            style={
+              Object {
+                "background": "var(--color-light-error)",
+              }
+            }
+          >
+            <div
+              className={undefined}
+            >
+              --color-light-error
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className={undefined}
+            style={
+              Object {
+                "background": "var(--color-light-info)",
+              }
+            }
+          >
+            <div
+              className={undefined}
+            >
+              --color-light-info
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className={undefined}
+            style={
+              Object {
+                "background": "var(--color-light-success)",
+              }
+            }
+          >
+            <div
+              className={undefined}
+            >
+              --color-light-success
             </div>
           </div>
         </div>
