@@ -128,6 +128,17 @@ const darkBackgroundColors = {
         ],
       ],
     },
+    {
+      title: 'Named Colors',
+      colors: [
+        [
+          'var(--color-dark-warning)',
+          'var(--color-dark-error)',
+          'var(--color-dark-info)',
+          'var(--color-dark-success)',
+        ]
+      ]
+    },
   ],
 }
 
@@ -250,6 +261,17 @@ const lightBackgroundColors = {
           'var(--color-light-pink-accent-gradient)',
         ],
       ],
+    },
+    {
+      title: 'Named Colors',
+      colors: [
+        [
+          'var(--color-light-warning)',
+          'var(--color-light-error)',
+          'var(--color-light-info)',
+          'var(--color-light-success)',
+        ]
+      ]
     },
   ],
 }

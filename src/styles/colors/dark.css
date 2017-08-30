@@ -160,4 +160,9 @@
       var(--color-dark-pink-accent-200) 10%,
       var(--color-dark-pink-accent-100) 90%
     );
+
+  --color-dark-warning: var(--color-dark-yellow-200);
+  --color-dark-error: var(--color-dark-red-200);
+  --color-dark-info: var(--color-dark-blue-200);
+  --color-dark-success: var(--color-dark-green-secondary-200);
 }

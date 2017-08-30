@@ -152,4 +152,9 @@
       var(--color-light-pink-accent-200) 10%,
       var(--color-light-pink-accent-100) 90%
     );
+
+  --color-light-warning: var(--color-light-yellow-200);
+  --color-light-error: var(--color-light-red-200);
+  --color-light-info: var(--color-light-blue-200);
+  --color-light-success: var(--color-light-green-secondary-200);
 }
