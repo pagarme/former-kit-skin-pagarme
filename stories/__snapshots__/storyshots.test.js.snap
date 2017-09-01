@@ -2526,74 +2526,6 @@ exports[`Storyshots Colors Light background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-light-green-contrast-300)",
-              }
-            }
-          >
-            <div
-              className={undefined}
-            >
-              --color-light-green-contrast-300
-            </div>
-          </div>
-        </div>
-        <div>
-          <div
-            className={undefined}
-            style={
-              Object {
-                "background": "var(--color-light-green-contrast-200)",
-              }
-            }
-          >
-            <div
-              className={undefined}
-            >
-              --color-light-green-contrast-200
-            </div>
-          </div>
-        </div>
-        <div>
-          <div
-            className={undefined}
-            style={
-              Object {
-                "background": "var(--color-light-green-contrast-100)",
-              }
-            }
-          >
-            <div
-              className={undefined}
-            >
-              --color-light-green-contrast-100
-            </div>
-          </div>
-        </div>
-        <div>
-          <div
-            className={undefined}
-            style={
-              Object {
-                "background": "var(--color-light-green-contrast-gradient)",
-              }
-            }
-          >
-            <div
-              className={undefined}
-            >
-              --color-light-green-contrast-gradient
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className={undefined}
-      >
-        <div>
-          <div
-            className={undefined}
-            style={
-              Object {
                 "background": "var(--color-light-green-primary-300)",
               }
             }
@@ -2718,6 +2650,74 @@ exports[`Storyshots Colors Light background color 1`] = `
               className={undefined}
             >
               --color-light-green-secondary-gradient
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div>
+          <div
+            className={undefined}
+            style={
+              Object {
+                "background": "var(--color-light-green-contrast-300)",
+              }
+            }
+          >
+            <div
+              className={undefined}
+            >
+              --color-light-green-contrast-300
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className={undefined}
+            style={
+              Object {
+                "background": "var(--color-light-green-contrast-200)",
+              }
+            }
+          >
+            <div
+              className={undefined}
+            >
+              --color-light-green-contrast-200
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className={undefined}
+            style={
+              Object {
+                "background": "var(--color-light-green-contrast-100)",
+              }
+            }
+          >
+            <div
+              className={undefined}
+            >
+              --color-light-green-contrast-100
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className={undefined}
+            style={
+              Object {
+                "background": "var(--color-light-green-contrast-gradient)",
+              }
+            }
+          >
+            <div
+              className={undefined}
+            >
+              --color-light-green-contrast-gradient
             </div>
           </div>
         </div>

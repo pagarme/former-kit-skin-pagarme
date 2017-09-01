@@ -150,12 +150,6 @@ const lightBackgroundColors = {
       title: 'Green',
       colors: [
         [
-          'var(--color-light-green-contrast-300)',
-          'var(--color-light-green-contrast-200)',
-          'var(--color-light-green-contrast-100)',
-          'var(--color-light-green-contrast-gradient)',
-        ],
-        [
           'var(--color-light-green-primary-300)',
           'var(--color-light-green-primary-200)',
           'var(--color-light-green-primary-100)',
@@ -166,6 +160,12 @@ const lightBackgroundColors = {
           'var(--color-light-green-secondary-200)',
           'var(--color-light-green-secondary-100)',
           'var(--color-light-green-secondary-gradient)',
+        ],
+        [
+          'var(--color-light-green-contrast-300)',
+          'var(--color-light-green-contrast-200)',
+          'var(--color-light-green-contrast-100)',
+          'var(--color-light-green-contrast-gradient)',
         ],
         [
           'var(--color-light-green-accent-100)',
