@@ -27,14 +27,14 @@
 .light-flat:hover,
 .light-gradient,
 .light-gradient:hover {
-  color: var(--color-light-text);
+  color: var(--color-text-light);
 }
 
 .dark-flat,
 .dark-flat:hover,
 .dark-gradient,
 .dark-gradient:hover {
-  color: var(--color-dark-text);
+  color: var(--color-text-dark);
 }
 
 .dashed {
@@ -58,8 +58,8 @@
 .block,
 .block:hover {
   width: 100%;
-  color: var(--color-grey-text);
-  background: var(--color-grey-back);
+  color: var(--color-text-grey);
+  background: var(--color-background-grey);
   border-radius: 0;
 }
 

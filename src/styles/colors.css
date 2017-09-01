@@ -4,6 +4,11 @@
 :root {
   --color-background-light: #ffffff;
   --color-background-dark: #cccccc;
+  --color-background-grey: #f4f4f4;
 
   --gradient-angle: 145deg;
+
+  --color-text-light: #ffffff;
+  --color-text-dark: #333333;
+  --color-text-grey: #777777;
 }
