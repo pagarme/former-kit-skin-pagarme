@@ -11,6 +11,7 @@ const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const eslintFormatter = require('react-dev-utils/eslintFormatter');
 const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const stylelintFormatter = require('./stylelintFormatter');
+const postcssUrlRebase = require('./postcssUrlRebase');
 const paths = require('./paths');
 const getClientEnvironment = require('./env');
 
@@ -206,6 +207,10 @@ module.exports = {
                         ident: 'postcss',
                         plugins: () => [
                           require('postcss-import'),
+                          // This is necessary because postcss-url doesn't add
+                          // a trailing ./ to rebased URLs, causing relative imports
+                          // to stop working.
+                          require('postcss-url')({ url: postcssUrlRebase }),
                           require('postcss-cssnext'),
                         ],
                       },

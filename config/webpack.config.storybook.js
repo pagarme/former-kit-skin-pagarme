@@ -1,5 +1,6 @@
 const paths = require('./paths.js')
 const eslintFormatter = require('react-dev-utils/eslintFormatter')
+const postcssUrlRebase = require('./postcssUrlRebase')
 
 module.exports = {
   module: {
@@ -33,16 +34,21 @@ module.exports = {
           {
             loader: require.resolve('postcss-loader'),
             options: {
-              // Necessary for external CSS imports to work
-              // https://github.com/facebookincubator/create-react-app/issues/2677
               ident: 'postcss',
               plugins: () => [
                 require('postcss-import'),
-                // We don't transpile CSS variables module in Storybook
+                require('postcss-url')({ url: postcssUrlRebase }),
               ],
             },
           },
         ],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|svg)$/,
+        loader: require.resolve('file-loader'),
+        options: {
+          name: 'static/media/[name].[hash:8].[ext]',
+        },
       },
     ],
   },

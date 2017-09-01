@@ -10,6 +10,7 @@ const WatchMissingNodeModulesPlugin = require('react-dev-utils/WatchMissingNodeM
 const eslintFormatter = require('react-dev-utils/eslintFormatter');
 const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const stylelintFormatter = require('./stylelintFormatter');
+const postcssUrlRebase = require('./postcssUrlRebase');
 const getClientEnvironment = require('./env');
 const paths = require('./paths');
 
@@ -193,6 +194,10 @@ module.exports = {
                   ident: 'postcss',
                   plugins: () => [
                     require('postcss-import'),
+                    // This is necessary because postcss-url doesn't add
+                    // a trailing ./ to rebased URLs, causing relative imports
+                    // to stop working.
+                    require('postcss-url')({ url: postcssUrlRebase }),
                     require('postcss-cssnext'),
                   ],
                 },
