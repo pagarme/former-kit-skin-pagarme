@@ -8,7 +8,7 @@
 
   --color-text-title: #000000;
   --color-text-body: #000000;
-  --color-text-link: var(--color-dark-green-light-accent-100);
+  --color-text-link: var(--color-dark-green-contrast-100);
 
   --gradient-angle: 145deg;
 

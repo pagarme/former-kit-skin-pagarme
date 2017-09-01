@@ -9,9 +9,14 @@
   --display-4-font-size: 72px;
   --caption-font-size: 12px;
   --body-font-size: 16px;
+  --blockquote-border-radius: 2px;
+  --blockquote-border: 5px solid var(--color-light-green-accent-100);
 
   --title-font-family: "Uni Neue";
+  --title-font-weight: bold;
+  --title-font-style: italic;
   --body-font-family: "Open Sans";
+  --body-link-color: var(--color-light-green-accent-100);
 }
 
 /* stylelint-disable */
@@ -26,8 +31,12 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: var(--body-font-family);
+h6,
+.display,
+.headline {
+  font-family: var(--title-font-family);
+  font-weight: var(--title-font-weight);
+  font-style: var(--title-font-style);
   color: var(--color-text-title);
 }
 
@@ -52,7 +61,7 @@ p {
 
 a {
   font-weight: bold;
-  color: var(--color-text-link);
+  color: var(--body-link-color);
   text-decoration: unset;
 }
 
@@ -70,8 +79,8 @@ li {
 }
 
 blockquote {
-  border-radius: 2px;
-  border-left: 5px solid var(--color-light-green-dark-accent-100);
+  border-radius: var(--blockquote-border-radius);
+  border-left: var(--blockquote-border);
   padding-left: var(--spacing-small);
   margin: 0;
 }
