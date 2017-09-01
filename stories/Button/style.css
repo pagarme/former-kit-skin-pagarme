@@ -1,0 +1,14 @@
+.buttonColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.buttonColumn > button,
+.buttonCollection > button {
+  margin: 5px;
+}
+
+.buttonBlock {
+  width: 244px;
+}

@@ -1,0 +1,16 @@
+@import "../../styles/colors.css";
+
+:root {
+  --color-light-text: #ffffff;
+  --color-dark-text: #333333;
+  --color-grey-text: #777777;
+  --color-grey-back: #f4f4f4;
+  --color-light-green-contrast-100: var(--color-light-green-dark-100);
+  --color-light-green-contrast-200: var(--color-light-green-dark-200);
+  --color-light-green-contrast-300: var(--color-light-green-dark-300);
+  --color-light-green-contrast-gradient: var(--color-light-green-dark-gradient);
+  --color-dark-green-contrast-100: var(--color-dark-green-light-100);
+  --color-dark-green-contrast-200: var(--color-dark-green-light-200);
+  --color-dark-green-contrast-300: var(--color-dark-green-light-300);
+  --color-dark-green-contrast-gradient: var(--color-dark-green-light-gradient);
+}
