@@ -3486,3 +3486,89 @@ exports[`Storyshots Colors Light background color 1`] = `
   </div>
 </div>
 `;
+
+exports[`Storyshots Switch checked 1`] = `
+<div>
+  <p>
+    <div>
+      <div
+        className=""
+      >
+        <input
+          checked={true}
+          className={undefined}
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className={undefined}
+        >
+          on
+        </span>
+      </div>
+    </div>
+  </p>
+  <p>
+    <div>
+      <div
+        className=""
+      >
+        <input
+          checked={false}
+          className={undefined}
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className={undefined}
+        >
+          off
+        </span>
+      </div>
+    </div>
+  </p>
+</div>
+`;
+
+exports[`Storyshots Switch disabled 1`] = `
+<div>
+  <p>
+    <div>
+      <div
+        className="undefined"
+      >
+        <input
+          checked={true}
+          className={undefined}
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className={undefined}
+        >
+          on
+        </span>
+      </div>
+    </div>
+  </p>
+  <p>
+    <div>
+      <div
+        className="undefined"
+      >
+        <input
+          checked={false}
+          className={undefined}
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className={undefined}
+        >
+          off
+        </span>
+      </div>
+    </div>
+  </p>
+</div>
+`;
