@@ -1644,14 +1644,14 @@ exports[`Storyshots Colors Dark background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-dark-green-light-300)",
+                "background": "var(--color-dark-green-contrast-300)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-dark-green-light-300
+              --color-dark-green-contrast-300
             </div>
           </div>
         </div>
@@ -1660,14 +1660,14 @@ exports[`Storyshots Colors Dark background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-dark-green-light-200)",
+                "background": "var(--color-dark-green-contrast-200)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-dark-green-light-200
+              --color-dark-green-contrast-200
             </div>
           </div>
         </div>
@@ -1676,14 +1676,14 @@ exports[`Storyshots Colors Dark background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-dark-green-light-100)",
+                "background": "var(--color-dark-green-contrast-100)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-dark-green-light-100
+              --color-dark-green-contrast-100
             </div>
           </div>
         </div>
@@ -1692,14 +1692,14 @@ exports[`Storyshots Colors Dark background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-dark-green-light-gradient)",
+                "background": "var(--color-dark-green-contrast-gradient)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-dark-green-light-gradient
+              --color-dark-green-contrast-gradient
             </div>
           </div>
         </div>
@@ -1712,14 +1712,14 @@ exports[`Storyshots Colors Dark background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-dark-green-light-accent-100)",
+                "background": "var(--color-dark-green-accent-100)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-dark-green-light-accent-100
+              --color-dark-green-accent-100
             </div>
           </div>
         </div>
@@ -1728,14 +1728,14 @@ exports[`Storyshots Colors Dark background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-dark-green-light-accent-200)",
+                "background": "var(--color-dark-green-accent-200)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-dark-green-light-accent-200
+              --color-dark-green-accent-200
             </div>
           </div>
         </div>
@@ -1744,14 +1744,14 @@ exports[`Storyshots Colors Dark background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-dark-green-light-accent-gradient)",
+                "background": "var(--color-dark-green-accent-gradient)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-dark-green-light-accent-gradient
+              --color-dark-green-accent-gradient
             </div>
           </div>
         </div>
@@ -2526,14 +2526,14 @@ exports[`Storyshots Colors Light background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-light-green-dark-300)",
+                "background": "var(--color-light-green-contrast-300)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-light-green-dark-300
+              --color-light-green-contrast-300
             </div>
           </div>
         </div>
@@ -2542,14 +2542,14 @@ exports[`Storyshots Colors Light background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-light-green-dark-200)",
+                "background": "var(--color-light-green-contrast-200)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-light-green-dark-200
+              --color-light-green-contrast-200
             </div>
           </div>
         </div>
@@ -2558,14 +2558,14 @@ exports[`Storyshots Colors Light background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-light-green-dark-100)",
+                "background": "var(--color-light-green-contrast-100)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-light-green-dark-100
+              --color-light-green-contrast-100
             </div>
           </div>
         </div>
@@ -2574,14 +2574,14 @@ exports[`Storyshots Colors Light background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-light-green-dark-gradient)",
+                "background": "var(--color-light-green-contrast-gradient)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-light-green-dark-gradient
+              --color-light-green-contrast-gradient
             </div>
           </div>
         </div>
@@ -2730,14 +2730,14 @@ exports[`Storyshots Colors Light background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-light-green-dark-accent-100)",
+                "background": "var(--color-light-green-accent-100)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-light-green-dark-accent-100
+              --color-light-green-accent-100
             </div>
           </div>
         </div>
@@ -2746,14 +2746,14 @@ exports[`Storyshots Colors Light background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-light-green-dark-accent-200)",
+                "background": "var(--color-light-green-accent-200)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-light-green-dark-accent-200
+              --color-light-green-accent-200
             </div>
           </div>
         </div>
@@ -2762,14 +2762,14 @@ exports[`Storyshots Colors Light background color 1`] = `
             className={undefined}
             style={
               Object {
-                "background": "var(--color-light-green-dark-accent-gradient)",
+                "background": "var(--color-light-green-accent-gradient)",
               }
             }
           >
             <div
               className={undefined}
             >
-              --color-light-green-dark-accent-gradient
+              --color-light-green-accent-gradient
             </div>
           </div>
         </div>

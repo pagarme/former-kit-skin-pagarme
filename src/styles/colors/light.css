@@ -21,25 +21,25 @@
       var(--color-light-green-secondary-100) 90%
     );
 
-  --color-light-green-dark-100: #005849;
-  --color-light-green-dark-200: #004d40;
-  --color-light-green-dark-300: #004237;
+  --color-light-green-contrast-100: #005849;
+  --color-light-green-contrast-200: #004d40;
+  --color-light-green-contrast-300: #004237;
 
-  --color-light-green-dark-gradient:
+  --color-light-green-contrast-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-green-dark-300) 10%,
-      var(--color-light-green-dark-100) 90%
+      var(--color-light-green-contrast-300) 10%,
+      var(--color-light-green-contrast-100) 90%
     );
 
-  --color-light-green-dark-accent-100: #3ed2a4;
-  --color-light-green-dark-accent-200: #4fc6b0;
+  --color-light-green-accent-100: #3ed2a4;
+  --color-light-green-accent-200: #4fc6b0;
 
-  --color-light-green-dark-accent-gradient:
+  --color-light-green-accent-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-green-dark-accent-200) 10%,
-      var(--color-light-green-dark-accent-100) 90%
+      var(--color-light-green-accent-200) 10%,
+      var(--color-light-green-accent-100) 90%
     );
 
   --color-light-silver-100: #8f8f8f;
