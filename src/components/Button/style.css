@@ -1,10 +1,9 @@
 @import "./colors.css";
-@import "./sizeVariables.css";
 
 .button {
   border: none;
   border-radius: 3px;
-  font-family: "Uni Neue";
+  font-family: var(--button-font-family);
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -68,26 +67,26 @@
 }
 
 .micro {
-  padding: var(--padding-button-micro);
-  font-size: var(--font-size-button-micro);
+  padding: var(--button-padding-micro);
+  font-size: var(--button-font-size-micro);
 }
 
 .tiny {
-  padding: var(--padding-button-tiny);
-  font-size: var(--font-size-button-tiny);
+  padding: var(--button-padding-tiny);
+  font-size: var(--button-font-size-tiny);
 }
 
 .small {
-  padding: var(--padding-button-small);
-  font-size: var(--font-size-button-small);
+  padding: var(--button-padding-small);
+  font-size: var(--button-font-size-small);
 }
 
 .medium {
-  padding: var(--padding-button-medium);
-  font-size: var(--font-size-button-medium);
+  padding: var(--button-padding-medium);
+  font-size: var(--button-font-size-medium);
 }
 
 .large {
-  padding: var(--padding-button-large);
-  font-size: var(--font-size-button-large);
+  padding: var(--button-padding-large);
+  font-size: var(--button-font-size-large);
 }

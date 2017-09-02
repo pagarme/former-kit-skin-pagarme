@@ -320,7 +320,7 @@ exports[`Storyshots Alerts/light warning 1`] = `
 </div>
 `;
 
-exports[`Storyshots Botão/Claro Contorno 1`] = `
+exports[`Storyshots Botão/Aplicações Base Clara Contorno 1`] = `
 <div
   className={undefined}
   style={
@@ -393,7 +393,7 @@ exports[`Storyshots Botão/Claro Contorno 1`] = `
 </div>
 `;
 
-exports[`Storyshots Botão/Claro Gradiente 1`] = `
+exports[`Storyshots Botão/Aplicações Base Clara Gradiente 1`] = `
 <div
   className={undefined}
   style={
@@ -466,7 +466,7 @@ exports[`Storyshots Botão/Claro Gradiente 1`] = `
 </div>
 `;
 
-exports[`Storyshots Botão/Claro Plano (padrão) 1`] = `
+exports[`Storyshots Botão/Aplicações Base Clara Plano (padrão) 1`] = `
 <div
   className={undefined}
   style={
@@ -539,7 +539,7 @@ exports[`Storyshots Botão/Claro Plano (padrão) 1`] = `
 </div>
 `;
 
-exports[`Storyshots Botão/Claro Sem fundo 1`] = `
+exports[`Storyshots Botão/Aplicações Base Clara Sem fundo 1`] = `
 <div
   className={undefined}
   style={
@@ -612,7 +612,7 @@ exports[`Storyshots Botão/Claro Sem fundo 1`] = `
 </div>
 `;
 
-exports[`Storyshots Botão/Claro Tracejado 1`] = `
+exports[`Storyshots Botão/Aplicações Base Clara Tracejado 1`] = `
 <div
   className={undefined}
   style={
@@ -685,7 +685,7 @@ exports[`Storyshots Botão/Claro Tracejado 1`] = `
 </div>
 `;
 
-exports[`Storyshots Botão/Escuro Contorno 1`] = `
+exports[`Storyshots Botão/Aplicações Base Escura Contorno 1`] = `
 <div
   className={undefined}
   style={
@@ -758,7 +758,7 @@ exports[`Storyshots Botão/Escuro Contorno 1`] = `
 </div>
 `;
 
-exports[`Storyshots Botão/Escuro Gradiente 1`] = `
+exports[`Storyshots Botão/Aplicações Base Escura Gradiente 1`] = `
 <div
   className={undefined}
   style={
@@ -831,7 +831,7 @@ exports[`Storyshots Botão/Escuro Gradiente 1`] = `
 </div>
 `;
 
-exports[`Storyshots Botão/Escuro Plano (padrão) 1`] = `
+exports[`Storyshots Botão/Aplicações Base Escura Plano (padrão) 1`] = `
 <div
   className={undefined}
   style={
@@ -904,7 +904,7 @@ exports[`Storyshots Botão/Escuro Plano (padrão) 1`] = `
 </div>
 `;
 
-exports[`Storyshots Botão/Escuro Sem fundo 1`] = `
+exports[`Storyshots Botão/Aplicações Base Escura Sem fundo 1`] = `
 <div
   className={undefined}
   style={
@@ -977,7 +977,7 @@ exports[`Storyshots Botão/Escuro Sem fundo 1`] = `
 </div>
 `;
 
-exports[`Storyshots Botão/Escuro Tracejado 1`] = `
+exports[`Storyshots Botão/Aplicações Base Escura Tracejado 1`] = `
 <div
   className={undefined}
   style={

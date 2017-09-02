@@ -3,13 +3,15 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
 import stylesheet from './style.css'
+import './properties.css'
 
-function Button ({ onClick, style, theme, color, size, children }) {
+
+function Button ({ onClick, variant, base, color, size, children }) {
   const className = classNames(
     stylesheet.button,
-    stylesheet[style],
-    stylesheet[`${theme}-${style}`],
-    stylesheet[`${theme}-${color}`],
+    stylesheet[variant],
+    stylesheet[`${base}-${variant}`],
+    stylesheet[`${base}-${color}`],
     stylesheet[size]
   )
 
@@ -22,16 +24,16 @@ function Button ({ onClick, style, theme, color, size, children }) {
 
 Button.propTypes = {
   onClick: PropTypes.func,
-  style: PropTypes.oneOf([
+  variant: PropTypes.oneOf([
     'flat', 'gradient', 'outline', 'dashed', 'clean', 'block',
   ]),
-  theme: PropTypes.oneOf([
+  base: PropTypes.oneOf([
     'dark', 'light',
   ]),
   color: PropTypes.oneOf([
-    'greenPrimary', 'greenSecondary', 'greenContrast', 'greenAccent',
+    'green-primary', 'green-secondary', 'green-contrast', 'green-accent',
     'silver', 'plumb', 'yellow', 'red', 'blue',
-    'purple', 'purpleAccent', 'pink', 'pinkAccent',
+    'purple', 'purple-accent', 'pink', 'pink-accent',
   ]),
   size: PropTypes.oneOf([
     'micro', 'tiny', 'small', 'medium', 'large',
@@ -45,9 +47,9 @@ Button.propTypes = {
 
 Button.defaultProps = {
   onClick: null,
-  style: 'flat',
-  theme: 'light',
-  color: 'greenPrimary',
+  variant: 'flat',
+  base: 'light',
+  color: 'green-primary',
   size: 'medium',
 }
 
