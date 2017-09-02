@@ -21,10 +21,10 @@ const icons = {
 function Alert ({
   type,
   children,
-  theme,
+  base,
 }) {
   const Icon = icons[type]
-  const iconClassName = classnames(style.icon, style[`${theme}-${type}`])
+  const iconClassName = classnames(style.icon, style[`${base}-${type}`])
 
   return (
     <div className={style.alert}>
@@ -48,14 +48,14 @@ Alert.propTypes = {
     'success',
   ]).isRequired,
   children: element.isRequired,
-  theme: oneOf([
+  base: oneOf([
     'dark',
     'light',
   ]),
 }
 
 Alert.defaultProps = {
-  theme: 'light',
+  base: 'light',
 }
 
 export default Alert
