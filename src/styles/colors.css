@@ -6,6 +6,10 @@
   --color-background-dark: #cccccc;
   --color-background-grey: #f4f4f4;
 
+  --color-text-title: #000000;
+  --color-text-body: #000000;
+  --color-text-link: var(--color-dark-green-light-accent-100);
+
   --gradient-angle: 145deg;
 
   --color-text-light: #ffffff;
