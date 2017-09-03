@@ -1,8 +1,16 @@
+@import "./webfonts/unineue/index.css";
 @import "./webfonts/opensans/index.css";
 
 :root {
+  --headline-font-size: 30px;
+  --display-1-font-size: 36px;
+  --display-2-font-size: 48px;
+  --display-3-font-size: 60px;
+  --display-4-font-size: 72px;
+  --caption-font-size: 12px;
   --body-font-size: 16px;
 
+  --title-font-family: "Uni Neue";
   --body-font-family: "Open Sans";
 }
 
@@ -11,6 +19,35 @@ body {
   font-family: var(--body-font-family);
   font-size: var(--body-font-size);
   color: var(--color-text-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--body-font-family);
+  color: var(--color-text-title);
+}
+
+h1 {
+  font-size: 24px;
+  margin: var(--spacing-medium) 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin: var(--spacing-medium) 0;
+}
+
+h3 {
+  font-size: 18px;
+  margin: var(--spacing-small) 0;
+}
+
+p {
+  margin-bottom: 1em;
 }
 
 a {
