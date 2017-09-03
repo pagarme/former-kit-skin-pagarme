@@ -1,0 +1,42 @@
+@import "./webfonts/opensans/index.css";
+
+:root {
+  --body-font-size: 16px;
+
+  --body-font-family: "Open Sans";
+}
+
+/* stylelint-disable */
+body {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  color: var(--color-text-body);
+}
+
+a {
+  font-weight: bold;
+  color: var(--color-text-link);
+  text-decoration: unset;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  padding: 0 var(--spacing-medium);
+}
+
+li {
+  list-style-type: disc;
+}
+
+blockquote {
+  border-radius: 2px;
+  border-left: 5px solid var(--color-light-green-dark-accent-100);
+  padding-left: var(--spacing-small);
+  margin: 0;
+}
+/* stylelint-enable */
+
