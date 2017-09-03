@@ -1,0 +1,21 @@
+:root {
+  --tabbar-background: var(--color-background-grey);
+  --tabbar-text: var(--color-text-grey);
+  --tabbar-highlight: var(--color-light-green-accent-100);
+  --tabbar-highlight-background: var(--color-background-light);
+
+  --tabbar-font-family: "Uni Neue";
+  --tabbar-tab-font-size: 16px;
+
+  --tabbar-tab-width: 200px;
+
+  --tabbar-tab-padding: 12px;
+  --tabbar-highlight-size: 2px;
+  --tabbar-highlight-padding: calc(var(--tabbar-tab-padding) - var(--tabbar-highlight-size));
+
+  --tabbar-padding: 20px;
+  --tabbar-tablist-padding-fix: 0 calc(var(--tabbar-padding) * -1);
+
+  --tabbar-icon-margin: 5px;
+  --tabbar-icon-size: 20px;
+}

@@ -1,0 +1,41 @@
+@import "../../styles/colors.css";
+@import "./properties.css";
+
+.tabBar {
+  border: solid 1px var(--tabbar-background);
+  border-top: none;
+  display: inline-block;
+  padding: var(--tabbar-padding);
+  padding-top: 0;
+}
+
+.tabList {
+  margin: var(--tabbar-tablist-padding-fix);
+}
+
+.tabItem {
+  border: none;
+  font-family: var(--tabbar-font-family);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  width: var(--tabbar-tab-width);
+  color: var(--tabbar-text);
+  background: var(--tabbar-background);
+  padding: var(--tabbar-tab-padding);
+  font-size: var(--tabbar-tab-font-size);
+}
+
+.icon {
+  margin-bottom: var(--tabbar-icon-margin);
+  font-size: var(--tabbar-icon-size);
+}
+
+.selected {
+  color: var(--tabbar-highlight);
+  background: var(--tabbar-highlight-background);
+  border-top: solid var(--tabbar-highlight-size) var(--tabbar-highlight);
+  padding-top: var(--tabbar-highlight-padding);
+}
