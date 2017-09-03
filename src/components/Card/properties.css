@@ -1,7 +1,7 @@
 :root {
-  --card-spacing-large: 32px;
-  --card-spacing-medium: 24px;
-  --card-spacing-small: 16px;
+  --card-spacing-large: var(--spacing-large);
+  --card-spacing-medium: var(--spacing-medium);
+  --card-spacing-small: var(--spacing-small);
   --card-shadow: 0 2px 5px 0 rgba(67, 67, 67, 0.26);
   --card-border-radius: 3px;
 
