@@ -1,3 +1,5 @@
+@import "../../styles/colors.css";
+@import "./properties.css";
 @import "./colors.css";
 
 .button {

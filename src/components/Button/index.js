@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
 import stylesheet from './style.css'
-import './properties.css'
 
 
 function Button ({ onClick, variant, base, color, size, children }) {

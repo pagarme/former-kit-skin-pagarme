@@ -1,4 +1,6 @@
 :root {
+  --button-font-family: "Uni Neue";
+
   --button-font-size-micro: 12px;
   --button-font-size-tiny: 13px;
   --button-font-size-small: 14px;
