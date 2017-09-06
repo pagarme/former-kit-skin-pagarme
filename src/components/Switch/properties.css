@@ -1,0 +1,20 @@
+@import "../../styles/colors.css";
+
+:root {
+  --switch-label-left: 15px;
+  --switch-width: 40px;
+  --switch-height: 20px;
+  --switch-radius: 10px;
+  --switch-bullet-width: 11px;
+  --switch-bullet-height: 11px;
+  --switch-bullet-off: 5px;
+  --switch-bullet-on: calc(var(--switch-width) - 15px);
+
+  --switch-border-color: var(--color-light-silver-200);
+  --switch-bullet-on-color: #ffffff;
+  --switch-bullet-off-color: var(--color-dark-green-accent-100);
+  --switch-bullet-on-background: var(--color-dark-green-accent-100);
+  --switch-bullet-off-background: #ffffff;
+  --switch-disabled-color: var(--color-light-silver-200);
+  --switch-disabled-background: #ffffff;
+}
