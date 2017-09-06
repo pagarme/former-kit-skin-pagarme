@@ -1,0 +1,19 @@
+@import "../../styles/colors.css";
+
+:root {
+  --progress-circular-size: 200px;
+  --progress-circular-dasharray: 730px;
+  --progress-circular-stroke-width: 6px;
+
+  --progress-circular-stroke-back-enabled: #ff0000;
+  --progress-circular-stroke-fill-enabled: #999999;
+  --progress-circular-percent-enabled: #999999;
+  --progress-circular-label-enabled: #cccccc;
+
+  --progress-circular-stroke-back-disabled: #ff0000;
+  --progress-circular-stroke-fill-disabled: #999999;
+  --progress-circular-percent-disabled: #999999;
+  --progress-circular-label-disabled: #cccccc;
+
+  --progress-circular-font-family: "Uni Neue";
+}

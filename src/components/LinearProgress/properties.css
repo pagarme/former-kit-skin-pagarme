@@ -1,0 +1,18 @@
+@import "../../styles/colors.css";
+
+:root {
+  --progress-linear-width: 300px;
+  --progress-linear-height: 25px;
+
+  --progress-linear-fill-height: 6px;
+
+  --progress-linear-fill-disabled: var(--color-text-grey);
+  --progress-linear-back-disabled: var(--color-background-grey);
+  --progress-linear-color-disabled: var(--color-text-grey);
+
+  --progress-linear-fill-enabled: var(--color-light-red-gradient);
+  --progress-linear-back-enabled: var(--color-background-grey);
+  --progress-linear-color-enabled: var(--color-light-red-300);
+  --progress-linear-font-family: "Uni Neue";
+}
+
