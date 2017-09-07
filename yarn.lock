@@ -6,11 +6,12 @@
   version "3.0.9"
   resolved "https://registry.yarnpkg.com/@hypnosphi/fuse.js/-/fuse.js-3.0.9.tgz#ea99f6121b4a8f065b4c71f85595db2714498807"
 
-"@percy-io/percy-storybook@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@percy-io/percy-storybook/-/percy-storybook-1.2.0.tgz#f9e41c59f1f75aef754c79f36c3b56eff50acd0f"
+"@percy-io/percy-storybook@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@percy-io/percy-storybook/-/percy-storybook-1.2.3.tgz#54b0f400afa3352456a30171122c3abda39abf30"
   dependencies:
     "@percy-io/react-percy-api-client" "^0.2.0"
+    babel-runtime "^6.26.0"
     debug "^2.6.3"
     es6-error "^4.0.2"
     es6-promise-pool "^2.4.4"
