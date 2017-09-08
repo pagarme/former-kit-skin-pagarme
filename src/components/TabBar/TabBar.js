@@ -9,22 +9,22 @@ import {
 class TabBar extends React.Component {
   constructor (props) {
     super(props)
-    this.state = { content: null, currentKey: null }
     this.cloneChild = this.cloneChild.bind(this)
   }
 
-  cloneChild (tabItemChild, key) {
-    const { currentKey } = this.state
-    const { children } = tabItemChild.props
-    const onTabChange =
-      this.handleTabChange.bind(this, key, children)
+  getContent () {
+    const chosen = this.props.children[this.props.index]
+    return chosen.props.children
+  }
 
+  cloneChild (tabItemChild, key) {
     return React.cloneElement(
       tabItemChild,
       {
+        index: key,
         variant: this.props.variant,
-        onTabChange,
-        selected: currentKey === key,
+        onTabChange: this.props.onTabChange,
+        selected: this.props.index === key,
       }
     )
   }
@@ -36,17 +36,13 @@ class TabBar extends React.Component {
     )
   }
 
-  handleTabChange (key, content) {
-    this.setState({ currentKey: key, content })
-  }
-
   render () {
     return (
       <div className={style.tabBar}>
         <div className={style.tabList}>
           {this.populateChildren()}
         </div>
-        {this.state.content}
+        {this.getContent()}
       </div>
     )
   }

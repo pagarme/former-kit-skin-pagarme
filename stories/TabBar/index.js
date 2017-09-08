@@ -67,17 +67,29 @@ const clicked = action('clicked')
 
 variantList.forEach((variant) => {
   storiesOf(`${i18n.TabBar}`, module)
-    .add(variant.name, () => buildTabBar(variant.code))
+    .add(variant.name, () => <Tab variant={variant.code} />)
 })
 
-const buildTabBar = (variant) => {
-  return (
-    <TabBar variant={variant}>
-      {tabList.map(( tab ) =>
-        <TabItem icon={tab.icon} text={tab.text} onClick={clicked}>
-          {tab.content}
-        </TabItem>
-      )}
-    </TabBar>
-  )
+class Tab extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { theChosen: 1 }
+    this.changeTab = this.changeTab.bind(this)
+  }
+
+  changeTab (theChosen) {
+    this.setState({ theChosen })
+  }
+
+  render() {
+    return (
+      <TabBar variant={this.props.variant} index={this.state.theChosen} onTabChange={this.changeTab}>
+        {tabList.map(( tab ) =>
+          <TabItem icon={tab.icon} text={tab.text} onClick={clicked}>
+            {tab.content}
+          </TabItem>
+        )}
+      </TabBar>
+    )
+  }
 }

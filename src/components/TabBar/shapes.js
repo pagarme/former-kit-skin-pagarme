@@ -43,9 +43,11 @@ export const TabItemDefaultProps = {
 export const TabBarPropTypes = {
   variant: oneOf(variantList),
   children: oneOfType([TabItem]).isRequired,
+  index: number,
 }
 
 export const TabBarDefaultProps = {
   variant: variantDefault,
+  index: 0,
 }
 

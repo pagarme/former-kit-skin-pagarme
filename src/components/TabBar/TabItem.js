@@ -15,14 +15,13 @@ class TabItem extends React.Component {
 
   handleClick () {
     const {
-      key,
+      index,
       onClick,
       onTabChange,
-      children,
     } = this.props
 
     if (onTabChange) {
-      onTabChange(key, children)
+      onTabChange(index)
     }
 
     if (onClick) {

@@ -22,6 +22,7 @@ describe('TabBar', () => {
   it('should change content', () => {
     component.find(TabItem).first().simulate('click')
     expect(onClick).toHaveBeenCalled()
-    expect(component.state('content')).toEqual(content1)
+    expect(component.contains(content1)).toBeTruthy()
+    expect(component.contains(content2)).toBeFalsy()
   })
 })
