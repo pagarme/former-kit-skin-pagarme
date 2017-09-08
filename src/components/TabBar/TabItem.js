@@ -1,7 +1,10 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
+import {
+  TabItemPropTypes,
+  TabItemDefaultProps,
+} from './shapes'
 import style from './style.css'
 
 class TabItem extends React.Component {
@@ -47,31 +50,7 @@ class TabItem extends React.Component {
   }
 }
 
-TabItem.propTypes = {
-  key: PropTypes.number,
-  selected: PropTypes.bool,
-  onTabChange: PropTypes.func,
-  onClick: PropTypes.func,
-  icon: PropTypes.element,
-  text: PropTypes.string,
-  children: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.node,
-    PropTypes.arrayOf(PropTypes.node),
-  ]).isRequired,
-  variant: PropTypes.oneOf([
-    'just-text', 'text-icon', 'just-icon',
-  ]),
-}
-
-TabItem.defaultProps = {
-  key: null,
-  selected: false,
-  onClick: null,
-  onTabChange: null,
-  icon: null,
-  text: null,
-  variant: 'text-icon',
-}
+TabItem.propTypes = TabItemPropTypes
+TabItem.defaultProps = TabItemDefaultProps
 
 export default TabItem

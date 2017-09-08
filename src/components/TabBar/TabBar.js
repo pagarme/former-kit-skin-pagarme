@@ -1,8 +1,10 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import style from './style.css'
-import TabItem from './TabItem'
+import {
+  TabBarPropTypes,
+  TabBarDefaultProps,
+} from './shapes'
 
 class TabBar extends React.Component {
   constructor (props) {
@@ -20,7 +22,6 @@ class TabBar extends React.Component {
     return React.cloneElement(
       tabItemChild,
       {
-        key,
         variant: this.props.variant,
         onTabChange,
         selected: currentKey === key,
@@ -51,13 +52,7 @@ class TabBar extends React.Component {
   }
 }
 
-TabBar.propTypes = {
-  variant: TabItem.propTypes.variant,
-  children: PropTypes.oneOfType([TabItem]).isRequired,
-}
-
-TabBar.defaultProps = {
-  variant: TabItem.defaultProps.variant,
-}
+TabBar.propTypes = TabBarPropTypes
+TabBar.defaultProps = TabBarDefaultProps
 
 export default TabBar
