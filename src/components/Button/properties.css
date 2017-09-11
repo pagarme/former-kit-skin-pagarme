@@ -1,5 +1,7 @@
 :root {
-  --button-font-family: "Uni Neue";
+  --button-font-family: var(--title-font-family);
+  --button-font-weight: var(--title-font-weight);
+  --button-font-style: var(--title-font-style);
 
   --button-font-size-micro: 12px;
   --button-font-size-tiny: 13px;

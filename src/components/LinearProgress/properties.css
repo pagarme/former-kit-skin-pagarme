@@ -13,6 +13,6 @@
   --progress-linear-fill-enabled: var(--color-light-red-gradient);
   --progress-linear-back-enabled: var(--color-background-grey);
   --progress-linear-color-enabled: var(--color-light-red-300);
-  --progress-linear-font-family: "Uni Neue";
+  --progress-linear-font-family: var(--title-font-family);
 }
 

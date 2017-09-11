@@ -1,5 +1,7 @@
 @import "./webfonts/unineue/index.css";
 @import "./webfonts/opensans/index.css";
+@import "./spacing.css";
+@import "./colors.css";
 
 :root {
   --headline-font-size: 30px;

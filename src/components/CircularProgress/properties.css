@@ -15,5 +15,5 @@
   --progress-circular-percent-disabled: #999999;
   --progress-circular-label-disabled: #cccccc;
 
-  --progress-circular-font-family: "Uni Neue";
+  --progress-circular-font-family: var(--title-font-family);
 }

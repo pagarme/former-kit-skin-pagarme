@@ -1,4 +1,5 @@
 @import "./properties.css";
+@import "../../styles/typography.css";
 
 .linear {
   width: var(--progress-linear-width);
