@@ -1,3 +1,5 @@
+@import "../../styles/spacing.css";
+
 :root {
   --card-spacing-large: var(--spacing-large);
   --card-spacing-medium: var(--spacing-medium);
