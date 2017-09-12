@@ -1,0 +1,49 @@
+@import "./properties.css";
+
+.root {
+  display: flex;
+  border-radius: var(--context-switch-border-radius);
+}
+
+.item {
+  position: relative;
+}
+
+.itemInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.itemLabel {
+  background-color: var(--context-switch-white);
+  padding: var(--context-switch-padding);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-family: var(--context-switch-font-family);
+  cursor: pointer;
+  font-size: var(--context-switch-label-font-size);
+  color: var(--context-switch-label-color);
+  display: block;
+  z-index: 0;
+  position: relative;
+  box-shadow: 0 0 4.8px 0.2px var(--context-switch-label-shadow-color);
+}
+
+.item:first-child .itemLabel {
+  border-radius: var(--context-switch-border-radius) 0 0 var(--context-switch-border-radius);
+}
+
+.item:last-child .itemLabel {
+  border-radius: 0 var(--context-switch-border-radius) var(--context-switch-border-radius) 0;
+}
+
+.itemInput:checked + .itemLabel {
+  box-shadow: inset 0 2px 9px 0 rgba(0, 0, 0, 0.25);
+  background-color: var(--context-switch-checked-label-shadow-color);
+  color: var(--context-switch-white);
+  z-index: 1;
+}
+
