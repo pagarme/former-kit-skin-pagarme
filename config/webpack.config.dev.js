@@ -135,6 +135,11 @@ module.exports = {
               formatter: stylelintFormatter,
               plugins: () => [
                 require('stylelint'),
+                require('postcss-import'),
+                require('postcss-url')({
+                  url: postcssUrlRebase,
+                }),
+                require('postcss-cssnext'),
               ],
             },
             loader: require.resolve('postcss-loader'),

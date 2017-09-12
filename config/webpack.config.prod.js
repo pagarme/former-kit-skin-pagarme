@@ -123,7 +123,6 @@ module.exports = {
             options: {
               formatter: eslintFormatter,
               eslintPath: require.resolve('eslint'),
-              
             },
             loader: require.resolve('eslint-loader'),
           },
@@ -139,6 +138,11 @@ module.exports = {
               formatter: stylelintFormatter,
               plugins: () => [
                 require('stylelint'),
+                require('postcss-import'),
+                require('postcss-url')({
+                  url: postcssUrlRebase,
+                }),
+                require('postcss-cssnext'),
               ],
             },
             loader: require.resolve('postcss-loader'),

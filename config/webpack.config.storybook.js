@@ -1,5 +1,6 @@
 const paths = require('./paths.js')
 const eslintFormatter = require('react-dev-utils/eslintFormatter')
+const stylelintFormatter = require('./stylelintFormatter')
 const postcssUrlRebase = require('./postcssUrlRebase')
 
 module.exports = {
@@ -15,6 +16,33 @@ module.exports = {
               eslintPath: require.resolve('eslint'),
             },
             loader: require.resolve('eslint-loader'),
+          },
+        ],
+        include: paths.appSrc,
+      },
+      {
+        test: /\.css$/,
+        enforce: 'pre',
+        use: [
+          {
+            options: {
+              formatter: stylelintFormatter,
+              plugins: () => [
+                require('stylelint'),
+                require('postcss-import'),
+                require('postcss-url')({
+                  url: postcssUrlRebase,
+                }),
+                require('postcss-cssnext')({
+                  features: {
+                    customProperties: {
+                      strict: false,
+                    },
+                  },
+                }),
+              ],
+            },
+            loader: require.resolve('postcss-loader'),
           },
         ],
         include: paths.appSrc,
@@ -37,7 +65,15 @@ module.exports = {
               ident: 'postcss',
               plugins: () => [
                 require('postcss-import'),
-                require('postcss-url')({ url: postcssUrlRebase }),
+                require('postcss-url')({
+                  url: postcssUrlRebase,
+                }),
+                require('postcss-cssnext')({
+                  // We don't transpile CSS variables module in Storybook
+                  features: {
+                    customProperties: false,
+                  },
+                }),
               ],
             },
           },
