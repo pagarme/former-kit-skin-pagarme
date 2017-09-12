@@ -64,7 +64,6 @@ const tabList = [
 
 const clicked = action('clicked')
 
-
 variantList.forEach((variant) => {
   storiesOf(`${i18n.TabBar}`, module)
     .add(variant.name, () => <Tab variant={variant.code} />)

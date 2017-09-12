@@ -2,23 +2,34 @@ import React from 'react'
 import classNames from 'classnames'
 
 import {
-  TabItemPropTypes,
-  TabItemDefaultProps,
+  number,
+  bool,
+  func,
+  element,
+  string,
+  oneOf,
+} from 'prop-types'
+
+import {
+  variantList,
+  variantDefault,
 } from './shapes'
+
 import style from './style.css'
 
-class TabItem extends React.Component {
-  constructor (props) {
-    super(props)
-    this.handleClick = this.handleClick.bind(this)
-  }
+function TabItem (props) {
+  const className = classNames(
+    style.tabItem,
+    style[props.variant],
+    { [style.selected]: props.selected }
+  )
 
-  handleClick () {
+  function handleClick () {
     const {
       index,
       onClick,
       onTabChange,
-    } = this.props
+    } = props
 
     if (onTabChange) {
       onTabChange(index)
@@ -29,27 +40,36 @@ class TabItem extends React.Component {
     }
   }
 
-  render () {
-    const className = classNames(
-      style.tabItem,
-      style[this.props.variant],
-      { [style.selected]: this.props.selected }
-    )
-
-    return (
-      <button className={className} onClick={this.handleClick}>
-        {
-          this.props.variant !== 'just-text'
-            ? <div className={style.icon}>{this.props.icon}</div>
-            : null
-        }
-        {this.props.variant !== 'just-icon' ? this.props.text : null}
-      </button>
-    )
-  }
+  return (
+    <button className={className} onClick={handleClick}>
+      {
+        props.variant !== 'just-text'
+          ? <div className={style.icon}>{props.icon}</div>
+          : null
+      }
+      {props.variant !== 'just-icon' ? props.text : null}
+    </button>
+  )
 }
 
-TabItem.propTypes = TabItemPropTypes
-TabItem.defaultProps = TabItemDefaultProps
+TabItem.propTypes = {
+  index: number,
+  selected: bool,
+  onTabChange: func,
+  onClick: func,
+  icon: element,
+  text: string,
+  variant: oneOf(variantList),
+}
+
+TabItem.defaultProps = {
+  index: null,
+  selected: false,
+  onTabChange: null,
+  onClick: null,
+  icon: null,
+  text: null,
+  variant: variantDefault,
+}
 
 export default TabItem
