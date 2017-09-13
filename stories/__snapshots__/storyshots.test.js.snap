@@ -4661,7 +4661,9 @@ exports[`Storyshots TabBar Texto 1`] = `
   </div>
   <h2>
     Você está em: 
+     
     Documentação
+     
     <svg
       fill="currentColor"
       height="1em"
@@ -4782,7 +4784,9 @@ exports[`Storyshots TabBar Texto e Ícone 1`] = `
   </div>
   <h2>
     Você está em: 
+     
     Documentação
+     
     <svg
       fill="currentColor"
       height="1em"
@@ -4900,7 +4904,9 @@ exports[`Storyshots TabBar Ícone 1`] = `
   </div>
   <h2>
     Você está em: 
+     
     Documentação
+     
     <svg
       fill="currentColor"
       height="1em"
