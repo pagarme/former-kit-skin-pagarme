@@ -6,8 +6,8 @@
   --color-light-green-primary-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-green-primary-300) 10%,
-      var(--color-light-green-primary-100) 90%
+      var(--color-light-green-primary-100) 10%,
+      var(--color-light-green-primary-300) 90%
     );
 
   --color-light-green-secondary-100: #689f38;
@@ -17,8 +17,8 @@
   --color-light-green-secondary-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-green-secondary-300) 10%,
-      var(--color-light-green-secondary-100) 90%
+      var(--color-light-green-secondary-100) 10%,
+      var(--color-light-green-secondary-300) 90%
     );
 
   --color-light-green-contrast-100: #005849;
@@ -28,8 +28,8 @@
   --color-light-green-contrast-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-green-contrast-300) 10%,
-      var(--color-light-green-contrast-100) 90%
+      var(--color-light-green-contrast-100) 10%,
+      var(--color-light-green-contrast-300) 90%
     );
 
   --color-light-green-accent-100: #3ed2a4;
@@ -38,8 +38,8 @@
   --color-light-green-accent-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-green-accent-200) 10%,
-      var(--color-light-green-accent-100) 90%
+      var(--color-light-green-accent-100) 10%,
+      var(--color-light-green-accent-200) 90%
     );
 
   --color-light-silver-100: #8f8f8f;
@@ -49,8 +49,8 @@
   --color-light-silver-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-silver-300) 10%,
-      var(--color-light-silver-100) 90%
+      var(--color-light-silver-100) 10%,
+      var(--color-light-silver-300) 90%
     );
 
   --color-light-silver-accent-100: #949494;
@@ -59,8 +59,8 @@
   --color-light-silver-accent-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-silver-accent-200) 10%,
-      var(--color-light-silver-accent-100) 90%
+      var(--color-light-silver-accent-100) 10%,
+      var(--color-light-silver-accent-200) 90%
     );
 
   --color-light-plumb-100: #58656c;
@@ -70,8 +70,8 @@
   --color-light-plumb-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-plumb-200) 10%,
-      var(--color-light-plumb-100) 90%
+      var(--color-light-plumb-100) 10%,
+      var(--color-light-plumb-200) 90%
     );
 
   --color-light-yellow-100: #b38400;
@@ -81,8 +81,8 @@
   --color-light-yellow-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-yellow-200) 10%,
-      var(--color-light-yellow-100) 90%
+      var(--color-light-yellow-100) 10%,
+      var(--color-light-yellow-200) 90%
     );
 
   --color-light-yellow-accent-100: #ce8500;
@@ -94,8 +94,8 @@
   --color-light-red-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-red-200) 10%,
-      var(--color-light-red-100) 90%
+      var(--color-light-red-100) 10%,
+      var(--color-light-red-200) 90%
     );
 
   --color-light-blue-100: #039fdb;
@@ -105,8 +105,8 @@
   --color-light-blue-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-blue-200) 10%,
-      var(--color-light-blue-100) 90%
+      var(--color-light-blue-100) 10%,
+      var(--color-light-blue-200) 90%
     );
 
   --color-light-blue-accent-100: #0097a7;
@@ -115,8 +115,8 @@
   --color-light-blue-accent-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-blue-accent-200) 10%,
-      var(--color-light-blue-accent-100) 90%
+      var(--color-light-blue-accent-100) 10%,
+      var(--color-light-blue-accent-200) 90%
     );
 
   --color-light-purple-100: #7b45c5;
@@ -126,8 +126,8 @@
   --color-light-purple-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-purple-200) 10%,
-      var(--color-light-purple-100) 90%
+      var(--color-light-purple-100) 10%,
+      var(--color-light-purple-200) 90%
     );
 
   --color-light-purple-accent-100: #8457d6;
@@ -139,8 +139,8 @@
   --color-light-pink-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-pink-200) 10%,
-      var(--color-light-pink-100) 90%
+      var(--color-light-pink-100) 10%,
+      var(--color-light-pink-200) 90%
     );
 
   --color-light-pink-accent-100: #e52525;
@@ -149,8 +149,8 @@
   --color-light-pink-accent-gradient:
     linear-gradient(
       var(--gradient-angle),
-      var(--color-light-pink-accent-200) 10%,
-      var(--color-light-pink-accent-100) 90%
+      var(--color-light-pink-accent-100) 10%,
+      var(--color-light-pink-accent-200) 90%
     );
 
   --color-light-warning: var(--color-light-yellow-200);
