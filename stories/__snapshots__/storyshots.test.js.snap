@@ -1645,7 +1645,7 @@ exports[`Storyshots CheckboxGroup default 1`] = `
       className="undefined"
     >
       <input
-        checked={false}
+        checked={true}
         disabled={false}
         id="nerone"
         name="pessoas"
@@ -1688,7 +1688,7 @@ exports[`Storyshots CheckboxGroup default 1`] = `
   </div>
   <p>
     Selecionado: 
-    
+    nerone
   </p>
 </div>
 `;
@@ -1723,7 +1723,7 @@ exports[`Storyshots CheckboxGroup disabled 1`] = `
       className=""
     >
       <input
-        checked={false}
+        checked={true}
         disabled={true}
         id="nerone"
         name="pessoas"
@@ -1766,7 +1766,7 @@ exports[`Storyshots CheckboxGroup disabled 1`] = `
   </div>
   <p>
     Selecionado: 
-    
+    nerone
   </p>
 </div>
 `;
@@ -1805,7 +1805,7 @@ exports[`Storyshots CheckboxGroup error 1`] = `
       className="undefined"
     >
       <input
-        checked={false}
+        checked={true}
         disabled={false}
         id="nerone"
         name="pessoas"
@@ -1848,7 +1848,7 @@ exports[`Storyshots CheckboxGroup error 1`] = `
   </div>
   <p>
     Selecionado: 
-    
+    nerone
   </p>
 </div>
 `;
@@ -1887,7 +1887,7 @@ exports[`Storyshots CheckboxGroup success 1`] = `
       className="undefined"
     >
       <input
-        checked={false}
+        checked={true}
         disabled={false}
         id="nerone"
         name="pessoas"
@@ -1930,7 +1930,7 @@ exports[`Storyshots CheckboxGroup success 1`] = `
   </div>
   <p>
     Selecionado: 
-    
+    nerone
   </p>
 </div>
 `;
@@ -6668,6 +6668,346 @@ exports[`Storyshots Progress/Linear normal 1`] = `
       </div>
     </div>
   </div>
+</div>
+`;
+
+exports[`Storyshots RadioGroup default 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <label
+      className={undefined}
+      htmlFor="predio"
+    >
+      <input
+        checked={false}
+        className={undefined}
+        disabled={false}
+        id="predio"
+        name="artefatos"
+        onChange={[Function]}
+        type="radio"
+        value="predio"
+      />
+      <span
+        className={undefined}
+      />
+      <span
+        className={undefined}
+      >
+        Prédio
+      </span>
+    </label>
+    <label
+      className={undefined}
+      htmlFor="casa"
+    >
+      <input
+        checked={true}
+        className={undefined}
+        disabled={false}
+        id="casa"
+        name="artefatos"
+        onChange={[Function]}
+        type="radio"
+        value="casa"
+      />
+      <span
+        className={undefined}
+      />
+      <span
+        className={undefined}
+      >
+        Casa
+      </span>
+    </label>
+    <label
+      className={undefined}
+      htmlFor="sofa"
+    >
+      <input
+        checked={false}
+        className={undefined}
+        disabled={false}
+        id="sofa"
+        name="artefatos"
+        onChange={[Function]}
+        type="radio"
+        value="sofa"
+      />
+      <span
+        className={undefined}
+      />
+      <span
+        className={undefined}
+      >
+        Sofá
+      </span>
+    </label>
+    
+  </div>
+  <p>
+    Selecionado: 
+    casa
+  </p>
+</div>
+`;
+
+exports[`Storyshots RadioGroup disabled 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <label
+      className={undefined}
+      htmlFor="predio"
+    >
+      <input
+        checked={true}
+        className={undefined}
+        disabled={true}
+        id="predio"
+        name="artefatos"
+        onChange={[Function]}
+        type="radio"
+        value="predio"
+      />
+      <span
+        className={undefined}
+      />
+      <span
+        className={undefined}
+      >
+        Prédio
+      </span>
+    </label>
+    <label
+      className={undefined}
+      htmlFor="casa"
+    >
+      <input
+        checked={true}
+        className={undefined}
+        disabled={true}
+        id="casa"
+        name="artefatos"
+        onChange={[Function]}
+        type="radio"
+        value="casa"
+      />
+      <span
+        className={undefined}
+      />
+      <span
+        className={undefined}
+      >
+        Casa
+      </span>
+    </label>
+    <label
+      className={undefined}
+      htmlFor="sofa"
+    >
+      <input
+        checked={false}
+        className={undefined}
+        disabled={true}
+        id="sofa"
+        name="artefatos"
+        onChange={[Function]}
+        type="radio"
+        value="sofa"
+      />
+      <span
+        className={undefined}
+      />
+      <span
+        className={undefined}
+      >
+        Sofá
+      </span>
+    </label>
+    
+  </div>
+  <p>
+    Selecionado: 
+    casa
+  </p>
+</div>
+`;
+
+exports[`Storyshots RadioGroup error 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <label
+      className={undefined}
+      htmlFor="predio"
+    >
+      <input
+        checked={false}
+        className={undefined}
+        disabled={false}
+        id="predio"
+        name="artefatos"
+        onChange={[Function]}
+        type="radio"
+        value="predio"
+      />
+      <span
+        className={undefined}
+      />
+      <span
+        className={undefined}
+      >
+        Prédio
+      </span>
+    </label>
+    <label
+      className={undefined}
+      htmlFor="casa"
+    >
+      <input
+        checked={true}
+        className={undefined}
+        disabled={false}
+        id="casa"
+        name="artefatos"
+        onChange={[Function]}
+        type="radio"
+        value="casa"
+      />
+      <span
+        className={undefined}
+      />
+      <span
+        className={undefined}
+      >
+        Casa
+      </span>
+    </label>
+    <label
+      className={undefined}
+      htmlFor="sofa"
+    >
+      <input
+        checked={false}
+        className={undefined}
+        disabled={false}
+        id="sofa"
+        name="artefatos"
+        onChange={[Function]}
+        type="radio"
+        value="sofa"
+      />
+      <span
+        className={undefined}
+      />
+      <span
+        className={undefined}
+      >
+        Sofá
+      </span>
+    </label>
+    <p
+      className={undefined}
+    >
+      Erro!
+    </p>
+  </div>
+  <p>
+    Selecionado: 
+    casa
+  </p>
+</div>
+`;
+
+exports[`Storyshots RadioGroup success 1`] = `
+<div>
+  <div
+    className="undefined"
+  >
+    <label
+      className={undefined}
+      htmlFor="predio"
+    >
+      <input
+        checked={false}
+        className={undefined}
+        disabled={false}
+        id="predio"
+        name="artefatos"
+        onChange={[Function]}
+        type="radio"
+        value="predio"
+      />
+      <span
+        className={undefined}
+      />
+      <span
+        className={undefined}
+      >
+        Prédio
+      </span>
+    </label>
+    <label
+      className={undefined}
+      htmlFor="casa"
+    >
+      <input
+        checked={false}
+        className={undefined}
+        disabled={false}
+        id="casa"
+        name="artefatos"
+        onChange={[Function]}
+        type="radio"
+        value="casa"
+      />
+      <span
+        className={undefined}
+      />
+      <span
+        className={undefined}
+      >
+        Casa
+      </span>
+    </label>
+    <label
+      className={undefined}
+      htmlFor="sofa"
+    >
+      <input
+        checked={true}
+        className={undefined}
+        disabled={false}
+        id="sofa"
+        name="artefatos"
+        onChange={[Function]}
+        type="radio"
+        value="sofa"
+      />
+      <span
+        className={undefined}
+      />
+      <span
+        className={undefined}
+      >
+        Sofá
+      </span>
+    </label>
+    <p
+      className={undefined}
+    >
+      Sucesso!
+    </p>
+  </div>
+  <p>
+    Selecionado: 
+    sofa
+  </p>
 </div>
 `;
 
