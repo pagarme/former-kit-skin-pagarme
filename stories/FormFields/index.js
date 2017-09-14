@@ -1,1 +1,2 @@
+import './CheckboxGroup'
 import './Checkbox'

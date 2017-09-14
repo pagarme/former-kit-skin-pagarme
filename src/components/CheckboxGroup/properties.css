@@ -1,0 +1,6 @@
+@import "../../styles/colors.css";
+
+:root {
+  --checkbox-group-secondary-text-font-size: 12px;
+  --checkbox-group-secondary-text-margin-left: 10px;
+}

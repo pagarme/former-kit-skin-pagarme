@@ -1,0 +1,15 @@
+@import "./properties.css";
+
+.secondaryText {
+  font-size: var(--checkbox-group-secondary-text-font-size);
+  margin: 0;
+  margin-left: var(--checkbox-group-secondary-text-margin-left);
+}
+
+.error {
+  color: var(--color-light-error);
+}
+
+.success {
+  color: var(--color-light-success);
+}
