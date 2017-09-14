@@ -11,6 +11,12 @@
   font-family: var(--switch-label-font-family);
 }
 
+.switch,
+.switch:before,
+.switch:after {
+  box-sizing: border-box;
+}
+
 .switch:before,
 .switch:after {
   content: "";

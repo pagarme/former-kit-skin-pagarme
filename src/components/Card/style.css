@@ -11,6 +11,10 @@
   overflow: hidden;
 }
 
+.card * {
+  box-sizing: border-box;
+}
+
 .title {
   padding: var(--card-title-padding);
 }

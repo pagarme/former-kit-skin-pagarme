@@ -1,6 +1,11 @@
 @import "../../styles/colors.css";
 @import "../../styles/typography.css";
 
+.alert * {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .alert {
   font-size: 1em;
   display: flex;
@@ -14,10 +19,6 @@
 .content {
   margin-left: 19px;
   margin-right: 19px;
-}
-
-.content * {
-  margin: 0;
 }
 
 .icon {

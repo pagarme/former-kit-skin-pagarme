@@ -9,6 +9,10 @@
   padding-top: 0;
 }
 
+.tabBar * {
+  box-sizing: border-box;
+}
+
 .tabList {
   margin: var(--tabbar-tablist-padding-fix);
 }

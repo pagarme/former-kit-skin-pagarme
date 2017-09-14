@@ -6,6 +6,10 @@
   margin-left: var(--checkbox-group-secondary-text-margin-left);
 }
 
+.secondaryText * {
+  box-sizing: border-box;
+}
+
 .error {
   color: var(--color-light-error);
 }

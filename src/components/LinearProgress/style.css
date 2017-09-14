@@ -8,6 +8,10 @@
   overflow: hidden;
 }
 
+.linear * {
+  box-sizing: border-box;
+}
+
 .back {
   height: var(--progress-linear-fill-height);
 }
