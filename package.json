@@ -49,6 +49,7 @@
     "react-icons": "2.2.5",
     "react-motion": "0.5.1",
     "react-test-renderer": "15.6.1",
+    "react-icons": "2.2.5",
     "style-loader": "0.18.2",
     "stylelint": "8.0.0",
     "stylelint-config-pagarme-react": "1.1.0",
