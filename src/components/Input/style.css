@@ -204,7 +204,7 @@
 }
 
 .boxed ~ .secondaryText {
-  padding-left: var(--input-boxes-padding-left);
+  padding-left: var(--input-boxed-padding-left);
 }
 
 .error > textarea:focus ~ label,
