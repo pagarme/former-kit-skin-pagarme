@@ -7013,7 +7013,13 @@ exports[`Storyshots RadioGroup success 1`] = `
 
 exports[`Storyshots Switch checked 1`] = `
 <div>
-  <p>
+  <div
+    style={
+      Object {
+        "padding": "0.5em",
+      }
+    }
+  >
     <div>
       <div
         className=""
@@ -7031,8 +7037,14 @@ exports[`Storyshots Switch checked 1`] = `
         </span>
       </div>
     </div>
-  </p>
-  <p>
+  </div>
+  <div
+    style={
+      Object {
+        "padding": "0.5em",
+      }
+    }
+  >
     <div>
       <div
         className=""
@@ -7050,13 +7062,19 @@ exports[`Storyshots Switch checked 1`] = `
         </span>
       </div>
     </div>
-  </p>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Switch disabled 1`] = `
 <div>
-  <p>
+  <div
+    style={
+      Object {
+        "padding": "0.5em",
+      }
+    }
+  >
     <div>
       <div
         className="undefined"
@@ -7074,8 +7092,14 @@ exports[`Storyshots Switch disabled 1`] = `
         </span>
       </div>
     </div>
-  </p>
-  <p>
+  </div>
+  <div
+    style={
+      Object {
+        "padding": "0.5em",
+      }
+    }
+  >
     <div>
       <div
         className="undefined"
@@ -7093,7 +7117,7 @@ exports[`Storyshots Switch disabled 1`] = `
         </span>
       </div>
     </div>
-  </p>
+  </div>
 </div>
 `;
 

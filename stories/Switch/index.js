@@ -5,6 +5,10 @@ import { action } from '@storybook/addon-actions'
 
 import Switch from '../../src/components/Switch'
 
+const Row = ({ children })=> (
+  <div style={{ padding: '0.5em' }}>{children}</div>
+)
+
 
 class SwitchMeWell extends Component {
   constructor (props) {
@@ -31,22 +35,22 @@ class SwitchMeWell extends Component {
 storiesOf('Switch', module)
   .add('checked', () => (
     <div>
-      <p>
+      <Row>
         <SwitchMeWell checked />
-      </p>
+      </Row>
 
-      <p>
+      <Row>
         <SwitchMeWell checked={false} />
-      </p>
+      </Row>
     </div>
   ))
   .add('disabled', () => (
     <div>
-      <p>
+      <Row>
         <SwitchMeWell disabled checked /> 
-      </p>
-      <p>
+      </Row>
+      <Row>
         <SwitchMeWell disabled checked={false} /> 
-      </p>
+      </Row>
     </div>
   ))
