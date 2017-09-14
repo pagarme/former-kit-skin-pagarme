@@ -3939,6 +3939,419 @@ exports[`Storyshots Colors Light background color 1`] = `
 </div>
 `;
 
+exports[`Storyshots Dropdown default 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <div
+      className={undefined}
+    >
+      <label
+        className={undefined}
+        htmlFor="pessoas"
+      >
+        Pessoas da Pagarme
+      </label>
+      <svg
+        className={undefined}
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": "#000",
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m11.6 16.6h16.8l-8.4 8.4z"
+          />
+        </g>
+      </svg>
+      <div
+        className={undefined}
+      >
+        Selecione
+        <select
+          disabled={false}
+          onChange={[Function]}
+        >
+          
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="felquis"
+          >
+            Felquis
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+      </div>
+      
+    </div>
+  </div>
+  <p>
+    Selecionado: 
+    
+  </p>
+</div>
+`;
+
+exports[`Storyshots Dropdown default with title 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <div
+      className={undefined}
+    >
+      <label
+        className={undefined}
+        htmlFor="pessoas"
+      >
+        Pessoas da Pagarme
+      </label>
+      <svg
+        className={undefined}
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": "#000",
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m11.6 16.6h16.8l-8.4 8.4z"
+          />
+        </g>
+      </svg>
+      <div
+        className={undefined}
+      >
+        Selecione alguem maninho doido
+        <select
+          disabled={false}
+          onChange={[Function]}
+        >
+          <option
+            className=""
+            disabled={true}
+          >
+            Selecione alguem maninho doido
+          </option>
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="felquis"
+          >
+            Felquis
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+      </div>
+      
+    </div>
+  </div>
+  <p>
+    Selecionado: 
+    
+  </p>
+</div>
+`;
+
+exports[`Storyshots Dropdown disabled 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <div
+      className={undefined}
+    >
+      <label
+        className={undefined}
+        htmlFor="pessoas"
+      >
+        Pessoas da Pagarme
+      </label>
+      <svg
+        className={undefined}
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": "#c5c5c5",
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m11.6 16.6h16.8l-8.4 8.4z"
+          />
+        </g>
+      </svg>
+      <div
+        className={undefined}
+      >
+        Selecione alguem
+        <select
+          disabled={true}
+          onChange={[Function]}
+        >
+          <option
+            className=""
+            disabled={true}
+          >
+            Selecione alguem
+          </option>
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="felquis"
+          >
+            Felquis
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+      </div>
+      
+    </div>
+  </div>
+  <p>
+    Selecionado: 
+    
+  </p>
+</div>
+`;
+
+exports[`Storyshots Dropdown error 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <div
+      className={undefined}
+    >
+      <label
+        className={undefined}
+        htmlFor="pessoas"
+      >
+        Pessoas da Pagarme
+      </label>
+      <svg
+        className={undefined}
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": "#000",
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m11.6 16.6h16.8l-8.4 8.4z"
+          />
+        </g>
+      </svg>
+      <div
+        className={undefined}
+      >
+        Selecione
+        <select
+          disabled={false}
+          onChange={[Function]}
+        >
+          
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="felquis"
+          >
+            Felquis
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+      </div>
+      <p
+        className={undefined}
+      >
+        Pessoa feia!
+      </p>
+    </div>
+  </div>
+  <p>
+    Selecionado: 
+    
+  </p>
+</div>
+`;
+
+exports[`Storyshots Dropdown success 1`] = `
+<div>
+  <div
+    className="undefined"
+  >
+    <div
+      className={undefined}
+    >
+      <label
+        className={undefined}
+        htmlFor="pessoas"
+      >
+        Pessoas da Pagarme
+      </label>
+      <svg
+        className={undefined}
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": "#000",
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m11.6 16.6h16.8l-8.4 8.4z"
+          />
+        </g>
+      </svg>
+      <div
+        className={undefined}
+      >
+        Selecione
+        <select
+          disabled={false}
+          onChange={[Function]}
+        >
+          
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="felquis"
+          >
+            Felquis
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+      </div>
+      <p
+        className={undefined}
+      >
+        Pessoa bonita
+      </p>
+    </div>
+  </div>
+  <p>
+    Selecionado: 
+    
+  </p>
+</div>
+`;
+
 exports[`Storyshots Progress/Circular disabled 1`] = `
 <div
   style={
