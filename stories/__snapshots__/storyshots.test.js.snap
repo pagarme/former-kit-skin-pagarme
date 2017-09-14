@@ -4352,6 +4352,1265 @@ exports[`Storyshots Dropdown success 1`] = `
 </div>
 `;
 
+exports[`Storyshots Input/Password field default 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <input
+        className=""
+        disabled={false}
+        id="nodejs"
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        type="password"
+        value="Leo"
+      />
+      <svg
+        className={undefined}
+        fill="currentColor"
+        height="1em"
+        onClick={[Function]}
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m20 15c2.7 0 5 2.3 5 5s-2.3 5-5 5-5-2.3-5-5 2.3-5 5-5z m0 13.4c4.6 0 8.4-3.8 8.4-8.4s-3.8-8.4-8.4-8.4-8.4 3.8-8.4 8.4 3.8 8.4 8.4 8.4z m0-20.9c8.4 0 15.5 5.2 18.4 12.5-2.9 7.3-10 12.5-18.4 12.5s-15.5-5.2-18.4-12.5c2.9-7.3 10-12.5 18.4-12.5z"
+          />
+        </g>
+      </svg>
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Texto secundario
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Password field disabled 1`] = `
+<div
+  className="undefined"
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <input
+        className=""
+        disabled={true}
+        id="nodejs"
+        onChange={null}
+        placeholder="eae"
+        type="password"
+        value=""
+      />
+      <label
+        className=""
+        htmlFor="nodejs"
+      >
+        Digite sua senha
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Minimo de 12 pixels
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Password field error 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <input
+        className=""
+        disabled={false}
+        id="nodejs"
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        type="password"
+        value="Leo"
+      />
+      <svg
+        className={undefined}
+        fill="currentColor"
+        height="1em"
+        onClick={[Function]}
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m20 15c2.7 0 5 2.3 5 5s-2.3 5-5 5-5-2.3-5-5 2.3-5 5-5z m0 13.4c4.6 0 8.4-3.8 8.4-8.4s-3.8-8.4-8.4-8.4-8.4 3.8-8.4 8.4 3.8 8.4 8.4 8.4z m0-20.9c8.4 0 15.5 5.2 18.4 12.5-2.9 7.3-10 12.5-18.4 12.5s-15.5-5.2-18.4-12.5c2.9-7.3 10-12.5 18.4-12.5z"
+          />
+        </g>
+      </svg>
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Digite mais caracteres
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Password field success 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className="undefined"
+    >
+      <input
+        className=""
+        disabled={false}
+        id="nodejs"
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        type="password"
+        value="Leo"
+      />
+      <svg
+        className={undefined}
+        fill="currentColor"
+        height="1em"
+        onClick={[Function]}
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m20 15c2.7 0 5 2.3 5 5s-2.3 5-5 5-5-2.3-5-5 2.3-5 5-5z m0 13.4c4.6 0 8.4-3.8 8.4-8.4s-3.8-8.4-8.4-8.4-8.4 3.8-8.4 8.4 3.8 8.4 8.4 8.4z m0-20.9c8.4 0 15.5 5.2 18.4 12.5-2.9 7.3-10 12.5-18.4 12.5s-15.5-5.2-18.4-12.5c2.9-7.3 10-12.5 18.4-12.5z"
+          />
+        </g>
+      </svg>
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Boa rapá
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field boxed default 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <input
+        className=""
+        disabled={false}
+        id="nodejs"
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        type="text"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field boxed disabled 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <input
+        className=""
+        disabled={true}
+        id="nodejs"
+        onChange={null}
+        placeholder="eaee"
+        type="text"
+        value=""
+      />
+      <label
+        className=""
+        htmlFor="nodejs"
+      >
+        Digite seu nome
+      </label>
+    </div>
+    
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field boxed error 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <input
+        className=""
+        disabled={false}
+        id="nodejs"
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        type="text"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Tá pegando fogo bixo
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field boxed multiline default 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <textarea
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        rows="1"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+      <div
+        className={undefined}
+      >
+        Leo
+        <br />
+      </div>
+    </div>
+    
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field boxed multiline disabled 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <textarea
+        className=""
+        disabled={true}
+        onChange={null}
+        placeholder="eae"
+        rows="1"
+        value=""
+      />
+      <label
+        className=""
+        htmlFor="nodejs"
+      >
+        Fale tudo
+      </label>
+      <div
+        className={undefined}
+      >
+        
+        <br />
+      </div>
+    </div>
+    
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field boxed multiline error 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <textarea
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        rows="1"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+      <div
+        className={undefined}
+      >
+        Leo
+        <br />
+      </div>
+    </div>
+    <p
+      className={undefined}
+    >
+      Erro!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field boxed multiline success 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className="undefined"
+    >
+      <textarea
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        rows="1"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+      <div
+        className={undefined}
+      >
+        Leo
+        <br />
+      </div>
+    </div>
+    <p
+      className={undefined}
+    >
+      Sucesso!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field boxed success 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className="undefined"
+    >
+      <input
+        className=""
+        disabled={false}
+        id="nodejs"
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        type="text"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Oloco meu
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field default 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <input
+        className=""
+        disabled={false}
+        id="nodejs"
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        type="text"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Texto secundario
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field disabled 1`] = `
+<div
+  className="undefined"
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <input
+        className=""
+        disabled={true}
+        id="nodejs"
+        onChange={null}
+        placeholder="eae"
+        type="text"
+        value=""
+      />
+      <label
+        className=""
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Texto secundário
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field error 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <input
+        className=""
+        disabled={false}
+        id="nodejs"
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        type="text"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Email no formato errado
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field multiline default 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <textarea
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        rows="1"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+      <div
+        className={undefined}
+      >
+        Leo
+        <br />
+      </div>
+    </div>
+    <p
+      className={undefined}
+    >
+      Texto secundario
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field multiline disabled 1`] = `
+<div
+  className="undefined"
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <textarea
+        className=""
+        disabled={true}
+        onChange={null}
+        placeholder="eae"
+        rows="1"
+        value=""
+      />
+      <label
+        className=""
+        htmlFor="nodejs"
+      >
+        Fale tudo
+      </label>
+      <div
+        className={undefined}
+      >
+        
+        <br />
+      </div>
+    </div>
+    
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field multiline error 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <textarea
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        rows="1"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+      <div
+        className={undefined}
+      >
+        Leo
+        <br />
+      </div>
+    </div>
+    <p
+      className={undefined}
+    >
+      Erro!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field multiline success 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className="undefined"
+    >
+      <textarea
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        rows="1"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+      <div
+        className={undefined}
+      >
+        Leo
+        <br />
+      </div>
+    </div>
+    <p
+      className={undefined}
+    >
+      Sucesso!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field success 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className="undefined"
+    >
+      <input
+        className=""
+        disabled={false}
+        id="nodejs"
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        type="text"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Good jobi lirou frendi
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field with icon default 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <svg
+      fill="currentColor"
+      height={20}
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width={20}
+    >
+      <g>
+        <path
+          d="m19.9 1.4l20 8v2.6h-2.7q0 0.6-0.4 1t-1 0.4h-31.7q-0.6 0-1-0.4t-0.4-1h-2.7v-2.6z m-14.6 13.3h5.3v15.9h2.7v-15.9h5.3v15.9h2.7v-15.9h5.3v15.9h2.6v-15.9h5.3v15.9h1.3q0.6 0 1 0.4t0.4 1v1.3h-34.5v-1.3q0-0.6 0.4-1t1-0.4h1.2v-15.9z m33.1 19.9q0.6 0 1 0.4t0.5 0.9v2.7h-39.9v-2.7q0-0.5 0.4-0.9t1-0.4h37z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <input
+        className=""
+        disabled={false}
+        id="nodejs"
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        type="text"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Texto secundario
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field with icon disabled 1`] = `
+<div
+  className="undefined"
+>
+  <div
+    className={undefined}
+  >
+    <svg
+      fill="currentColor"
+      height={20}
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width={20}
+    >
+      <g>
+        <path
+          d="m19.9 1.4l20 8v2.6h-2.7q0 0.6-0.4 1t-1 0.4h-31.7q-0.6 0-1-0.4t-0.4-1h-2.7v-2.6z m-14.6 13.3h5.3v15.9h2.7v-15.9h5.3v15.9h2.7v-15.9h5.3v15.9h2.6v-15.9h5.3v15.9h1.3q0.6 0 1 0.4t0.4 1v1.3h-34.5v-1.3q0-0.6 0.4-1t1-0.4h1.2v-15.9z m33.1 19.9q0.6 0 1 0.4t0.5 0.9v2.7h-39.9v-2.7q0-0.5 0.4-0.9t1-0.4h37z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <input
+        className=""
+        disabled={true}
+        id="nodejs"
+        onChange={null}
+        placeholder="eaee"
+        type="text"
+        value=""
+      />
+      <label
+        className=""
+        htmlFor="nodejs"
+      >
+        Digite seu nome
+      </label>
+    </div>
+    
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field with icon error 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <svg
+      fill="currentColor"
+      height={20}
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width={20}
+    >
+      <g>
+        <path
+          d="m19.9 1.4l20 8v2.6h-2.7q0 0.6-0.4 1t-1 0.4h-31.7q-0.6 0-1-0.4t-0.4-1h-2.7v-2.6z m-14.6 13.3h5.3v15.9h2.7v-15.9h5.3v15.9h2.7v-15.9h5.3v15.9h2.6v-15.9h5.3v15.9h1.3q0.6 0 1 0.4t0.4 1v1.3h-34.5v-1.3q0-0.6 0.4-1t1-0.4h1.2v-15.9z m33.1 19.9q0.6 0 1 0.4t0.5 0.9v2.7h-39.9v-2.7q0-0.5 0.4-0.9t1-0.4h37z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <input
+        className=""
+        disabled={false}
+        id="nodejs"
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        type="text"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Erro!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field with icon multiline default 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <svg
+      fill="currentColor"
+      height={20}
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width={20}
+    >
+      <g>
+        <path
+          d="m19.9 1.4l20 8v2.6h-2.7q0 0.6-0.4 1t-1 0.4h-31.7q-0.6 0-1-0.4t-0.4-1h-2.7v-2.6z m-14.6 13.3h5.3v15.9h2.7v-15.9h5.3v15.9h2.7v-15.9h5.3v15.9h2.6v-15.9h5.3v15.9h1.3q0.6 0 1 0.4t0.4 1v1.3h-34.5v-1.3q0-0.6 0.4-1t1-0.4h1.2v-15.9z m33.1 19.9q0.6 0 1 0.4t0.5 0.9v2.7h-39.9v-2.7q0-0.5 0.4-0.9t1-0.4h37z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <textarea
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        rows="1"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+      <div
+        className={undefined}
+      >
+        Leo
+        <br />
+      </div>
+    </div>
+    <p
+      className={undefined}
+    >
+      Texto secundario
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field with icon multiline disabled 1`] = `
+<div
+  className="undefined"
+>
+  <div
+    className={undefined}
+  >
+    <svg
+      fill="currentColor"
+      height={20}
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width={20}
+    >
+      <g>
+        <path
+          d="m19.9 1.4l20 8v2.6h-2.7q0 0.6-0.4 1t-1 0.4h-31.7q-0.6 0-1-0.4t-0.4-1h-2.7v-2.6z m-14.6 13.3h5.3v15.9h2.7v-15.9h5.3v15.9h2.7v-15.9h5.3v15.9h2.6v-15.9h5.3v15.9h1.3q0.6 0 1 0.4t0.4 1v1.3h-34.5v-1.3q0-0.6 0.4-1t1-0.4h1.2v-15.9z m33.1 19.9q0.6 0 1 0.4t0.5 0.9v2.7h-39.9v-2.7q0-0.5 0.4-0.9t1-0.4h37z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <textarea
+        className=""
+        disabled={true}
+        onChange={null}
+        placeholder="eae"
+        rows="1"
+        value=""
+      />
+      <label
+        className=""
+        htmlFor="nodejs"
+      >
+        Fale tudo
+      </label>
+      <div
+        className={undefined}
+      >
+        
+        <br />
+      </div>
+    </div>
+    
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field with icon multiline error 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <svg
+      fill="currentColor"
+      height={20}
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width={20}
+    >
+      <g>
+        <path
+          d="m19.9 1.4l20 8v2.6h-2.7q0 0.6-0.4 1t-1 0.4h-31.7q-0.6 0-1-0.4t-0.4-1h-2.7v-2.6z m-14.6 13.3h5.3v15.9h2.7v-15.9h5.3v15.9h2.7v-15.9h5.3v15.9h2.6v-15.9h5.3v15.9h1.3q0.6 0 1 0.4t0.4 1v1.3h-34.5v-1.3q0-0.6 0.4-1t1-0.4h1.2v-15.9z m33.1 19.9q0.6 0 1 0.4t0.5 0.9v2.7h-39.9v-2.7q0-0.5 0.4-0.9t1-0.4h37z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <textarea
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        rows="1"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+      <div
+        className={undefined}
+      >
+        Leo
+        <br />
+      </div>
+    </div>
+    <p
+      className={undefined}
+    >
+      Erro!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field with icon multiline success 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <svg
+      fill="currentColor"
+      height={20}
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width={20}
+    >
+      <g>
+        <path
+          d="m19.9 1.4l20 8v2.6h-2.7q0 0.6-0.4 1t-1 0.4h-31.7q-0.6 0-1-0.4t-0.4-1h-2.7v-2.6z m-14.6 13.3h5.3v15.9h2.7v-15.9h5.3v15.9h2.7v-15.9h5.3v15.9h2.6v-15.9h5.3v15.9h1.3q0.6 0 1 0.4t0.4 1v1.3h-34.5v-1.3q0-0.6 0.4-1t1-0.4h1.2v-15.9z m33.1 19.9q0.6 0 1 0.4t0.5 0.9v2.7h-39.9v-2.7q0-0.5 0.4-0.9t1-0.4h37z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <div
+      className="undefined"
+    >
+      <textarea
+        className=""
+        disabled={false}
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        rows="1"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+      <div
+        className={undefined}
+      >
+        Leo
+        <br />
+      </div>
+    </div>
+    <p
+      className={undefined}
+    >
+      Sucesso!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input/Text field with icon success 1`] = `
+<div
+  className=""
+>
+  <div
+    className={undefined}
+  >
+    <svg
+      fill="currentColor"
+      height={20}
+      preserveAspectRatio="xMidYMid meet"
+      style={
+        Object {
+          "color": undefined,
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 40 40"
+      width={20}
+    >
+      <g>
+        <path
+          d="m19.9 1.4l20 8v2.6h-2.7q0 0.6-0.4 1t-1 0.4h-31.7q-0.6 0-1-0.4t-0.4-1h-2.7v-2.6z m-14.6 13.3h5.3v15.9h2.7v-15.9h5.3v15.9h2.7v-15.9h5.3v15.9h2.6v-15.9h5.3v15.9h1.3q0.6 0 1 0.4t0.4 1v1.3h-34.5v-1.3q0-0.6 0.4-1t1-0.4h1.2v-15.9z m33.1 19.9q0.6 0 1 0.4t0.5 0.9v2.7h-39.9v-2.7q0-0.5 0.4-0.9t1-0.4h37z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    className={undefined}
+  >
+    <div
+      className="undefined"
+    >
+      <input
+        className=""
+        disabled={false}
+        id="nodejs"
+        onChange={[Function]}
+        placeholder="nome@email.com"
+        type="text"
+        value="Leo"
+      />
+      <label
+        className="undefined"
+        htmlFor="nodejs"
+      >
+        Digite seu email
+      </label>
+    </div>
+    <p
+      className={undefined}
+    >
+      Sucesso!
+    </p>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Progress/Circular disabled 1`] = `
 <div
   style={
