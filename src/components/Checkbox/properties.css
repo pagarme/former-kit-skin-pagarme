@@ -1,0 +1,29 @@
+@import "../../styles/colors.css";
+
+:root {
+  --checkbox-label-font-size: 14px;
+  --checkbox-label-default-color: var(--color-light-plumb-200);
+  --checkbox-label-disabled-color: var(--color-light-silver-100);
+
+  --checkbox-box-width: 20px;
+  --checkbox-box-height: 20px;
+  --checkbox-box-background-color: #ffffff;
+  --checkbox-box-border-color: var(--color-light-silver-200);
+  --checkbox-box-border-color-disabled: var(--color-light-silver-100);
+  --checkbox-box-border-color-checked: var(--color-light-green-accent-100);
+  --checkbox-box-border-radius: 3px;
+
+  --checkbox-margin-right: 16px;
+
+  --checkbox-marker-rotation: -45deg;
+  --checkbox-marker-color: var(--color-light-green-accent-100);
+  --checkbox-marker-width: 19px;
+  --checkbox-marker-height: 9px;
+  --checkbox-marker-border-color: var(--color-light-green-accent-100);
+
+  --checkbox-checked-background-color: #d9f4ec;
+
+  --checkbox-spacing: 10px;
+
+  --checkbox-secondary-text-font-size: 12px;
+}

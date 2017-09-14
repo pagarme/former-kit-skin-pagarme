@@ -1483,6 +1483,138 @@ exports[`Storyshots Cards Title, text and actions 1`] = `
 </div>
 `;
 
+exports[`Storyshots Checkbox default 1`] = `
+<div>
+  <div
+    className="undefined"
+  >
+    <input
+      checked={false}
+      disabled={false}
+      id="leo"
+      name="pessoa"
+      onChange={[Function]}
+      type="checkbox"
+      value="leo"
+    />
+    <label
+      htmlFor="leo"
+    >
+      <i
+        className={undefined}
+      />
+      Leonardo
+    </label>
+    
+  </div>
+  <p>
+    Selecionado: 
+    false
+  </p>
+</div>
+`;
+
+exports[`Storyshots Checkbox disabled 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <input
+      checked={false}
+      disabled={true}
+      id="leo"
+      name="pessoa"
+      onChange={[Function]}
+      type="checkbox"
+      value="leo"
+    />
+    <label
+      htmlFor="leo"
+    >
+      <i
+        className={undefined}
+      />
+      Leonardo
+    </label>
+    
+  </div>
+  <p>
+    Selecionado: 
+    false
+  </p>
+</div>
+`;
+
+exports[`Storyshots Checkbox error 1`] = `
+<div>
+  <div
+    className="undefined"
+  >
+    <input
+      checked={false}
+      disabled={false}
+      id="leo"
+      name="pessoa"
+      onChange={[Function]}
+      type="checkbox"
+      value="leo"
+    />
+    <label
+      htmlFor="leo"
+    >
+      <i
+        className={undefined}
+      />
+      Leonardo
+    </label>
+    <p
+      className=""
+    >
+      Errou!
+    </p>
+  </div>
+  <p>
+    Selecionado: 
+    false
+  </p>
+</div>
+`;
+
+exports[`Storyshots Checkbox success 1`] = `
+<div>
+  <div
+    className="undefined"
+  >
+    <input
+      checked={false}
+      disabled={false}
+      id="leo"
+      name="pessoa"
+      onChange={[Function]}
+      type="checkbox"
+      value="leo"
+    />
+    <label
+      htmlFor="leo"
+    >
+      <i
+        className={undefined}
+      />
+      Leonardo
+    </label>
+    <p
+      className="undefined"
+    >
+      Eae sucesso
+    </p>
+  </div>
+  <p>
+    Selecionado: 
+    false
+  </p>
+</div>
+`;
+
 exports[`Storyshots Colors Dark background color 1`] = `
 <div
   className={undefined}
