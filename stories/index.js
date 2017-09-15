@@ -8,3 +8,5 @@ import './TabBar'
 import './Typography'
 import './FormFields'
 import './ContextSwitch'
+import './DateRange'
+
