@@ -5,12 +5,12 @@
   --switch-label-font-family: var(--title-font-family);
 
   --switch-width: 40px;
-  --switch-height: 20px;
+  --switch-height: 21px;
   --switch-radius: 10px;
   --switch-bullet-width: 11px;
   --switch-bullet-height: 11px;
   --switch-bullet-off: 5px;
-  --switch-bullet-on: calc(var(--switch-width) - 15px);
+  --switch-bullet-on: calc(var(--switch-width) - 16px);
 
   --switch-border-color: var(--color-light-silver-200);
   --switch-bullet-on-color: #ffffff;
