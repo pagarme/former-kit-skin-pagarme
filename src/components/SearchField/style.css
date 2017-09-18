@@ -1,0 +1,44 @@
+@import "./properties.css";
+
+.root,
+.root * {
+  box-sizing: border-box;
+  outline: none;
+}
+
+.root {
+  display: inline-flex;
+  box-shadow: var(--search-field-box-shadow);
+  font-size: var(--search-field-font-size);
+  padding: 1px;
+  border: 1px solid var(--search-field-border-color);
+  border-radius: 3px;
+}
+
+.input {
+  padding: var(--search-field-input-padding);
+  border: none;
+}
+
+.button {
+  background: var(--search-field-button-background);
+  border: none;
+  border-radius: 0 2px 2px 0;
+  display: flex;
+  padding: var(--search-field-input-padding);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: var(--search-field-button-icon-size);
+  color: var(--search-field-button-color);
+}
+
+.input:disabled,
+.input:disabled + .button {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button:active {
+  background-color: var(--search-field-button-active-background-color);
+}

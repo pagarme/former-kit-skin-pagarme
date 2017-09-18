@@ -1,0 +1,12 @@
+@import "../../styles/typography.css";
+
+:root {
+  --search-field-border-color: #e5e5e5;
+  --search-field-box-shadow: 0.5px 0.9px 0 0 rgba(85, 99, 116, 0.1);
+  --search-field-font-size: 14px;
+  --search-field-input-padding: 8px;
+  --search-field-button-background: #e5e5e5;
+  --search-field-button-icon-size: 20px;
+  --search-field-button-active-background-color: #bfbebe;
+  --search-field-button-color: #556374;
+}
