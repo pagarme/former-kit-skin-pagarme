@@ -19,13 +19,11 @@ const Grey = ({ children }) => (
 storiesOf('ContextSwitch', module)
   .add('Two Options', () => (
     <Grey>
-      <p>
-        <ContextSwitch
-          items={['test', 'live']}
-          onChange={action('ContextSwitch Changed')}
-          name="live-test"
-        />
-      </p>
+      <ContextSwitch
+        items={['test', 'live']}
+        onChange={action('ContextSwitch Changed')}
+        name="live-test"
+      />
     </Grey>
   ))
   .add('More Options', () => (
