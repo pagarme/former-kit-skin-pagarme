@@ -1,5 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import classnames from 'classnames'
+import {
+  ifElse,
+  is,
+  always,
+  merge,
+} from 'ramda'
 
 import style from './style.css'
 
@@ -10,13 +17,47 @@ const Card = ({ children }) => (
   </div>
 )
 
-const CardTitle = ({ children }) => (
-  <div className={style.title}>
-    <h3>{children}</h3>
-  </div>
-)
+const CardTitle = ({ title, icon, children, onClick }) => {
+  const titleContent = (
+    <div className={style.title}>
+      {icon}
+      <h3>{title}</h3>
 
-const CardText = ({ children }) => (
+      {children}
+    </div>
+  )
+
+  const cardTitleClasses = classnames(style.titlePadding, {
+    [style.cursor]: onClick,
+  })
+
+  const defaultProps = {
+    className: cardTitleClasses,
+  }
+
+  const isInteractiveProps = {
+    role: 'button',
+    tabIndex: '0',
+    onClick,
+    onKeyUp: onClick,
+  }
+
+  const getProps = ifElse(
+    is(Function),
+    () => merge(defaultProps, isInteractiveProps),
+    always(defaultProps)
+  )
+
+  return (
+    <div
+      {...getProps(onClick)}
+    >
+      {titleContent}
+    </div>
+  )
+}
+
+const CardContent = ({ children }) => (
   <div className={style.content}>
     {children}
   </div>
@@ -35,19 +76,24 @@ const CardActions = ({ children }) => (
 )
 
 Card.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.node),
-    PropTypes.string,
-    PropTypes.node,
-  ]).isRequired,
+  children: PropTypes.node.isRequired,
 }
 
 CardTitle.propTypes = {
-  children: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  icon: PropTypes.element,
+  children: PropTypes.node,
+  onClick: PropTypes.func,
 }
 
-CardText.propTypes = {
-  children: PropTypes.string.isRequired,
+CardTitle.defaultProps = {
+  icon: null,
+  children: null,
+  onClick: null,
+}
+
+CardContent.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 CardGraphic.propTypes = {
@@ -55,12 +101,12 @@ CardGraphic.propTypes = {
 }
 
 CardActions.propTypes = {
-  children: PropTypes.arrayOf(PropTypes.node).isRequired,
+  children: PropTypes.node.isRequired,
 }
 
 export {
   Card,
-  CardText,
+  CardContent,
   CardGraphic,
   CardTitle,
   CardActions,

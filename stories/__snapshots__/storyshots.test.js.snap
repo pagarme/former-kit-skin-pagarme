@@ -1350,7 +1350,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Tamanhos 1`] = `
 </div>
 `;
 
-exports[`Storyshots Cards Graphic, title, text and actions 1`] = `
+exports[`Storyshots Cards Graphic, title, content and actions 1`] = `
 <div
   className={undefined}
 >
@@ -1366,11 +1366,15 @@ exports[`Storyshots Cards Graphic, title, text and actions 1`] = `
       />
     </div>
     <div
-      className={undefined}
+      className=""
     >
-      <h3>
-        Lorem ipsum dolor sit amet
-      </h3>
+      <div
+        className={undefined}
+      >
+        <h3>
+          Lorem ipsum dolor sit amet
+        </h3>
+      </div>
     </div>
     <div
       className={undefined}
@@ -1409,7 +1413,7 @@ exports[`Storyshots Cards Graphic, title, text and actions 1`] = `
 </div>
 `;
 
-exports[`Storyshots Cards Title and text 1`] = `
+exports[`Storyshots Cards Title and content 1`] = `
 <div
   className={undefined}
 >
@@ -1417,11 +1421,15 @@ exports[`Storyshots Cards Title and text 1`] = `
     className={undefined}
   >
     <div
-      className={undefined}
+      className=""
     >
-      <h3>
-        Lorem ipsum dolor sit amet
-      </h3>
+      <div
+        className={undefined}
+      >
+        <h3>
+          Lorem ipsum dolor sit amet
+        </h3>
+      </div>
     </div>
     <div
       className={undefined}
@@ -1432,7 +1440,7 @@ exports[`Storyshots Cards Title and text 1`] = `
 </div>
 `;
 
-exports[`Storyshots Cards Title, text and actions 1`] = `
+exports[`Storyshots Cards Title on event handler 1`] = `
 <div
   className={undefined}
 >
@@ -1440,11 +1448,19 @@ exports[`Storyshots Cards Title, text and actions 1`] = `
     className={undefined}
   >
     <div
-      className={undefined}
+      className="undefined"
+      onClick={[Function]}
+      onKeyUp={[Function]}
+      role="button"
+      tabIndex="0"
     >
-      <h3>
-        Lorem ipsum dolor sit amet
-      </h3>
+      <div
+        className={undefined}
+      >
+        <h3>
+          Click here and watch the action logger
+        </h3>
+      </div>
     </div>
     <div
       className={undefined}
@@ -1478,6 +1494,107 @@ exports[`Storyshots Cards Title, text and actions 1`] = `
       >
         Action
       </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards Title, content and actions 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <h3>
+          Lorem ipsum dolor sit amet
+        </h3>
+      </div>
+    </div>
+    <div
+      className={undefined}
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+    </div>
+    <div
+      className={undefined}
+    >
+      <button
+        className=""
+        onClick={null}
+      >
+        Action
+      </button>
+      <button
+        className=""
+        onClick={null}
+      >
+        Action
+      </button>
+      <button
+        className=""
+        onClick={null}
+      >
+        Action
+      </button>
+      <button
+        className=""
+        onClick={null}
+      >
+        Action
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards Title, icon and content 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m31.6 31.6v-18.2h-23.2v18.2h23.2z m-5-30h3.4v3.4h1.6c1.8 0 3.4 1.6 3.4 3.4v23.2c0 1.8-1.6 3.4-3.4 3.4h-23.2c-1.9 0-3.4-1.6-3.4-3.4v-23.2c0-1.8 1.5-3.4 3.4-3.4h1.6v-3.4h3.4v3.4h13.2v-3.4z m1.8 18.4v8.4h-8.4v-8.4h8.4z"
+            />
+          </g>
+        </svg>
+        <h3>
+          Lorem ipsum dolor sit amet
+        </h3>
+      </div>
+    </div>
+    <div
+      className={undefined}
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
     </div>
   </div>
 </div>

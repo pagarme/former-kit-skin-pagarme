@@ -1,3 +1,4 @@
+@import "./../../styles/colors.css";
 @import "./properties.css";
 
 .card {
@@ -16,7 +17,22 @@
 }
 
 .title {
+  display: flex;
+  align-items: center;
+  outline: 0;
+}
+
+.title > svg:first-child {
+  margin-right: var(--card-title-icon-margin);
+}
+
+.titlePadding {
+  outline: none;
   padding: var(--card-title-padding);
+}
+
+.cursor {
+  cursor: pointer;
 }
 
 .title > h4,
@@ -24,6 +40,11 @@
 .title > h2,
 .title > h1 {
   margin: 0;
+}
+
+.title > h3 {
+  color: var(--color-light-green-accent-100);
+  margin-right: var(--card-title-icon-margin);
 }
 
 .content {
