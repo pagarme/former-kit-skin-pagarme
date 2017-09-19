@@ -7,4 +7,5 @@
   --context-switch-border-radius: 20px;
   --context-switch-padding: 5px 14px;
   --context-switch-white: #ffffff;
+  --context-switch-box-shadow: var(--box-shadow);
 }

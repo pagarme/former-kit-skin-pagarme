@@ -2,7 +2,7 @@
 
 :root {
   --search-field-border-color: var(--color-dark-silver-100);
-  --search-field-box-shadow: 0.5px 0.9px 0 0 var(--color-dark-silver-300);
+  --search-field-box-shadow: var(--box-shadow);
   --search-field-font-size: 16px;
   --search-field-input-padding: 8px;
   --search-field-button-background: var(--color-dark-silver-100);

@@ -32,8 +32,8 @@ const items = [
   },
 ]
 
-storiesOf('DateRange', module)
-  .add('todos', () => (
+storiesOf('Toolbox', module)
+  .add('DateRange', () => (
     <div>
       <div>
         Com item pre-selecionado:<br />

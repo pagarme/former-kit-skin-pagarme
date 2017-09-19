@@ -3,6 +3,7 @@
 .root {
   display: flex;
   border-radius: var(--context-switch-border-radius);
+  box-shadow: var(--context-switch-box-shadow);
 }
 
 .item {

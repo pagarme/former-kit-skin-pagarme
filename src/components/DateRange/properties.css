@@ -10,4 +10,5 @@
   --date-offset-label-padding: 7px 11px;
   --date-offset-label-background: var(--color-background-light);
   --date-offset-label-checked-background: var(--color-light-red-gradient);
+  --date-offset-box-shadow: var(--box-shadow);
 }

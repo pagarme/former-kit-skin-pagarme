@@ -11,13 +11,14 @@ const Grey = ({ children }) => (
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    flexDirection: 'column',
   }}>
     {children}
   </div>
 )
 
-storiesOf('ContextSwitch', module)
-  .add('Two Options', () => (
+storiesOf('Toolbox', module)
+  .add('ContextSwitch', () => (
     <Grey>
       <p>
         <ContextSwitch
@@ -26,16 +27,13 @@ storiesOf('ContextSwitch', module)
           name="live-test"
         />
       </p>
+      <p>  
+        <ContextSwitch
+          items={['test', 'live', 'super-test', 'extra-live']}
+          onChange={action('ContextSwitch Changed')}
+          selected="super-test"
+          name="super-extra"
+        />
+      </p>
     </Grey>
   ))
-  .add('More Options', () => (
-    <Grey>
-      <ContextSwitch
-        items={['test', 'live', 'super-test', 'extra-live']}
-        onChange={action('ContextSwitch Changed')}
-        selected="super-test"
-        name="super-extra"
-      />
-    </Grey>
-  ))
-
