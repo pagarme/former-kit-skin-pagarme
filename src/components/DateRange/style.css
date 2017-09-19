@@ -1,3 +1,4 @@
+@import "./../../styles/colors.css";
 @import "./properties.css";
 
 .root,
@@ -7,7 +8,7 @@
 
 .root {
   display: inline-flex;
-  background-color: var(--date-offset-background);
+  background-color: var(--date-offset-background-color);
   border-radius: 3px;
   border: 1px solid var(--date-offset-border-color);
   z-index: 0;
