@@ -1,4 +1,3 @@
-
 import React from 'react'
 
 import { storiesOf } from '@storybook/react'
@@ -11,24 +10,46 @@ import '../../src/styles/index.css'
 import style from './style.css'
 
 const maxColumns = 12
-const equalDistributionExamples = [1, 2, 3, 4, 6, 12]
 
 storiesOf('Grid', module)
   .add('Flexible', () => (
     <div className={style.background}>
       <Grid>
-        <Row>
-          {range(0, 2).map(i => (
-            <Col
-              key={i}
-              tv={2}
-              desktop={2}
-              tablet={2}
-              palm={2}
-            >
-              <CardSample size={2} />
-            </Col>
-          ))}
+        <Row flex>
+          <Col tv={6} desk={8} tablet={10} palm={12}>
+            <CardSample>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+              vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+              no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </CardSample>
+          </Col>
+          <Col>
+            <CardSample />
+          </Col>
+        </Row>
+        <Row flex>
+          <Col>
+            <CardSample>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+              vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+              no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </CardSample>
+          </Col>
+          <Col>
+            <CardSample />
+          </Col>
+        </Row>
+        <Row flex>
+          <Col>
+            <CardSample>
+              Loremipsumdolorsitamet,consetetursadipscingelitr,seddiamnonumyeirmodtemporinviduntutlaboreetdolorem,seddiamvoluptua.Atveroeosetaccusametjustoduodoloresetearebum.
+            </CardSample>
+          </Col>
+          <Col>
+            <CardSample />
+          </Col>
         </Row>
       </Grid>
     </div>

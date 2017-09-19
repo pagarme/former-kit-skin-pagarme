@@ -29,6 +29,7 @@ module.exports = {
               formatter: stylelintFormatter,
               plugins: () => [
                 require('stylelint'),
+                require('postcss-sass-each'),
                 require('postcss-import'),
                 require('postcss-url')({
                   url: postcssUrlRebase,
@@ -64,6 +65,7 @@ module.exports = {
             options: {
               ident: 'postcss',
               plugins: () => [
+                require('postcss-sass-each'),
                 require('postcss-import'),
                 require('postcss-url')({
                   url: postcssUrlRebase,

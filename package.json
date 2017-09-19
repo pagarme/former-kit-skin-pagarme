@@ -38,6 +38,7 @@
     "postcss-cssnext": "3.0.2",
     "postcss-import": "10.0.0",
     "postcss-loader": "2.0.6",
+    "postcss-sass-each": "0.1.0",
     "postcss-url": "7.1.2",
     "promise": "8.0.1",
     "prop-types": "15.5.10",
@@ -118,6 +119,13 @@
     }
   },
   "stylelint": {
-    "extends": "stylelint-config-pagarme-react"
+    "extends": "stylelint-config-pagarme-react",
+    "rules": {
+      "at-rule-no-unknown": [ true, {
+        "ignoreAtRules": [
+          "each"
+        ]
+      }]
+    }
   }
 }

@@ -135,6 +135,7 @@ module.exports = {
               formatter: stylelintFormatter,
               plugins: () => [
                 require('stylelint'),
+                require('postcss-sass-each'),
                 require('postcss-import'),
                 require('postcss-url')({
                   url: postcssUrlRebase,
@@ -189,6 +190,7 @@ module.exports = {
                 options: {
                   importLoaders: 1,
                   modules: 1,
+                  localIdentName: '[path]-[name]-[local]',
                 },
               },
               {
@@ -198,6 +200,7 @@ module.exports = {
                   // https://github.com/facebookincubator/create-react-app/issues/2677
                   ident: 'postcss',
                   plugins: () => [
+                    require('postcss-sass-each'),
                     require('postcss-import'),
                     // This is necessary because postcss-url doesn't add
                     // a trailing ./ to rebased URLs, causing relative imports

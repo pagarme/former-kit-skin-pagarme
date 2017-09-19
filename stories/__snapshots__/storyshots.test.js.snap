@@ -4469,6 +4469,1703 @@ exports[`Storyshots Dropdown success 1`] = `
 </div>
 `;
 
+exports[`Storyshots Grid Column sizes 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              2 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              3 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              4 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              5 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              6 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              7 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              8 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              9 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              10 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              11 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              12 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Grid Flexible 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className="undefined"
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="undefined"
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="undefined"
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              Loremipsumdolorsitamet,consetetursadipscingelitr,seddiamnonumyeirmodtemporinviduntutlaboreetdolorem,seddiamvoluptua.Atveroeosetaccusametjustoduodoloresetearebum.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Grid Proportional sizes 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              12 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              6 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              6 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              4 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              4 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              4 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              3 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              3 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              3 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              3 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              2 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              2 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              2 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              2 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              2 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              2 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              1 column
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Grid Responsive 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#cc0000",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#cc0000",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#cc0000",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#cc0000",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#00cc00",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#0000cc",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#0000cc",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#cccc00",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+              >
+                <div
+                  className={undefined}
+                  style={
+                    Object {
+                      "backgroundColor": "#cc00cc",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className=""
+          >
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+              >
+                <div
+                  className={undefined}
+                  style={
+                    Object {
+                      "backgroundColor": "#cc00cc",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className=""
+          >
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+              >
+                <div
+                  className={undefined}
+                  style={
+                    Object {
+                      "backgroundColor": "#cc00cc",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className=""
+          >
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+              >
+                <div
+                  className={undefined}
+                  style={
+                    Object {
+                      "backgroundColor": "#cc00cc",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Grid Size combinations 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              3 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              9 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              4 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              8 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              5 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              7 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              6 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              6 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              7 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              5 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              8 columns
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+            >
+              4 columns
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Input/Password field default 1`] = `
 <div
   className=""

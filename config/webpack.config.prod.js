@@ -138,6 +138,7 @@ module.exports = {
               formatter: stylelintFormatter,
               plugins: () => [
                 require('stylelint'),
+                require('postcss-sass-each'),
                 require('postcss-import'),
                 require('postcss-url')({
                   url: postcssUrlRebase,
@@ -211,6 +212,7 @@ module.exports = {
                         ident: 'postcss',
                         plugins: () => [
                           require('postcss-import'),
+                          require('postcss-sass-each'),
                           // This is necessary because postcss-url doesn't add
                           // a trailing ./ to rebased URLs, causing relative imports
                           // to stop working.
