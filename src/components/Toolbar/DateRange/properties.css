@@ -1,0 +1,7 @@
+@import "./../../../styles/colors.css";
+@import "./../../../styles/typography.css";
+@import "../properties.css";
+
+:root {
+  --date-range-label-padding: 7px 11px;
+}

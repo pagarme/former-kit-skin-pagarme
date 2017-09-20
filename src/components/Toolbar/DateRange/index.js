@@ -12,6 +12,7 @@ import {
 } from 'prop-types'
 
 import style from './style.css'
+import toolItemStyle from '../style.css'
 
 class DateRange extends React.Component {
   constructor (props) {
@@ -29,7 +30,7 @@ class DateRange extends React.Component {
     } = this.props
 
     return (
-      <div className={style.root}>
+      <div className={toolItemStyle.root}>
         {items.map(({ label, value }) => (
           <label
             className={style.item}

@@ -1,19 +1,5 @@
 @import "./properties.css";
-
-.root,
-.root * {
-  box-sizing: border-box;
-  outline: none;
-}
-
-.root {
-  display: inline-flex;
-  box-shadow: var(--search-field-box-shadow);
-  font-size: var(--search-field-font-size);
-  padding: 1px;
-  border: 1px solid var(--search-field-border-color);
-  border-radius: 3px;
-}
+@import "../properties.css";
 
 .input {
   padding: var(--search-field-input-padding);
@@ -23,13 +9,16 @@
 .button {
   background: var(--search-field-button-background);
   border: none;
-  border-radius: 0 2px 2px 0;
+  border-radius:
+    0
+    calc(var(--toolitem-border-radius) - 1px)
+    calc(var(--toolitem-border-radius) - 1px)
+    0;
   display: flex;
-  padding: var(--search-field-input-padding);
+  font-size: var(--search-field-button-icon-size);
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  font-size: var(--search-field-button-icon-size);
   color: var(--search-field-button-color);
 }
 
@@ -37,6 +26,11 @@
 .input:disabled + .button {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+.input:focus ~ .button {
+  background-image: var(--toolitem-active-background);
+  color: var(--toolitem-background-color);
 }
 
 .button:active {

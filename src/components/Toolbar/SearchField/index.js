@@ -7,13 +7,14 @@ import {
 } from 'prop-types'
 
 import style from './style.css'
+import toolItemStyle from '../style.css'
 
 const SearchField = ({
   disabled,
   onChange,
   value,
 }) => (
-  <div className={style.root}>
+  <div className={toolItemStyle.root}>
     <input
       disabled={disabled}
       onChange={e => !disabled && onChange(e.target.value)}

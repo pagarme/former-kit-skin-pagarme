@@ -1,0 +1,54 @@
+@import "./properties.css";
+@import "../properties.css";
+
+.item {
+  position: relative;
+  display: inline-block;
+}
+
+.item:first-child .label:before {
+  display: none;
+}
+
+.input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.label {
+  padding: var(--date-range-label-padding);
+  background-color: var(--toolitem-background-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  height: 100%;
+  border-radius: calc(var(--toolitem-border-radius) - 1px);
+  user-select: none;
+}
+
+.label:before {
+  content: "";
+  height: 60%;
+  position: absolute;
+  left: -1px;
+  border-right: 1px solid var(--toolitem-border-color);
+}
+
+.input:checked + .label {
+  background-image: var(--toolitem-active-background);
+  color: #ffffff;
+  z-index: 1;
+}
+
+.input:disabled + .label {
+  opacity: 0.5;
+}
+
+.input:checked + .label:before {
+  display: none;
+}

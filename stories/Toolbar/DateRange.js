@@ -2,7 +2,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import IconCalendar from 'react-icons/lib/fa/calendar'
-import DateRange from '../../src/components/DateRange'
+import DateRange from '../../src/components/Toolbar/DateRange'
 
 const onChange = action('Changed DateRange')
 const items = [
@@ -32,11 +32,11 @@ const items = [
   },
 ]
 
-storiesOf('Toolbox', module)
+storiesOf('Toolbar', module)
   .add('DateRange', () => (
     <div>
       <div>
-        Com item pre-selecionado:<br />
+        <p>Com item pre-selecionado:</p>
         <DateRange
           items={items}
           onChange={onChange}
@@ -44,14 +44,7 @@ storiesOf('Toolbox', module)
         />
       </div>
       <div>
-        <DateRange
-          items={items}
-          onChange={onChange}
-          selected={0}
-        />
-      </div>
-      <div>
-        Desabilitado:<br />
+        <p>Desabilitado:</p>
 
         <DateRange
           items={items}

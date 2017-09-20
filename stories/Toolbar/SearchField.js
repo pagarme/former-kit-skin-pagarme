@@ -3,7 +3,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 
-import SearchField from '../../src/components/SearchField'
+import SearchField from '../../src/components/Toolbar/SearchField'
 
 class SearchFieldState extends React.Component {
   constructor (props) {
@@ -24,12 +24,12 @@ class SearchFieldState extends React.Component {
   }
 }
 
-storiesOf('Toolbox', module)
+storiesOf('Toolbar', module)
   .add('SearchField', () => (
     <div>
       <div>
         <p>Input de busca</p>
-        
+
         <SearchFieldState />
       </div>
       <div>

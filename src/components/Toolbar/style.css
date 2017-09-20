@@ -1,0 +1,20 @@
+@import "./properties.css";
+
+.root,
+.root * {
+  box-sizing: border-box;
+  outline: none;
+}
+
+.root {
+  display: inline-flex;
+  background-color: var(--toolitem-background-color);
+  border-radius: 3px;
+  border: 1px solid var(--toolitem-border-color);
+  z-index: 0;
+  padding: 1px;
+  box-shadow: var(--toolitem-box-shadow);
+  font-family: var(--toolitem-font-family);
+  font-size: var(--toolitem-font-size: 14px);
+}
+
