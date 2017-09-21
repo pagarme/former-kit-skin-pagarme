@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react'
+
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
+
 import IconCalendar from 'react-icons/lib/fa/calendar'
 import DateRange from '../../src/components/Toolbar/DateRange'
 
@@ -32,26 +34,46 @@ const items = [
   },
 ]
 
-storiesOf('Toolbar', module)
-  .add('DateRange', () => (
-    <div>
-      <div>
-        <p>Com item pre-selecionado:</p>
-        <DateRange
-          items={items}
-          onChange={onChange}
-          selected={'calendar'}
-        />
-      </div>
-      <div>
-        <p>Desabilitado:</p>
+class DateRangeState extends Component {
+  constructor (props) {
+    super(props)
 
-        <DateRange
-          items={items}
-          onChange={onChange}
-          disabled
-          selected={7}
-        />
+    this.state = {
+      selected: 'calendar',
+    }
+
+    this.handleChange = this.handleChange.bind(this)
+  }
+
+  handleChange (selected) {
+    this.setState({ selected })
+  }
+
+  render () {
+    return (
+      <div>
+        <div>
+          <p>Com item pre-selecionado:</p>
+          <DateRange
+            items={items}
+            onChange={this.handleChange}
+            selected={this.state.selected}
+          />
+        </div>
+        <div>
+          <p>Desabilitado:</p>
+
+          <DateRange
+            items={items}
+            onChange={onChange}
+            disabled
+            selected={7}
+          />
+        </div>
       </div>
-    </div>
-  ))
+    )
+  }
+}
+
+storiesOf('Toolbar', module)
+  .add('DateRange', () => <DateRangeState />)

@@ -9254,8 +9254,8 @@ exports[`Storyshots Toolbar DateRange 1`] = `
         htmlFor="always-the-same-string-0"
       >
         <input
+          checked={false}
           className={undefined}
-          defaultChecked={false}
           disabled={false}
           id="always-the-same-string-0"
           name="always-the-same-string"
@@ -9274,8 +9274,8 @@ exports[`Storyshots Toolbar DateRange 1`] = `
         htmlFor="always-the-same-string-7"
       >
         <input
+          checked={false}
           className={undefined}
-          defaultChecked={false}
           disabled={false}
           id="always-the-same-string-7"
           name="always-the-same-string"
@@ -9294,8 +9294,8 @@ exports[`Storyshots Toolbar DateRange 1`] = `
         htmlFor="always-the-same-string-15"
       >
         <input
+          checked={false}
           className={undefined}
-          defaultChecked={false}
           disabled={false}
           id="always-the-same-string-15"
           name="always-the-same-string"
@@ -9314,8 +9314,8 @@ exports[`Storyshots Toolbar DateRange 1`] = `
         htmlFor="always-the-same-string-30"
       >
         <input
+          checked={false}
           className={undefined}
-          defaultChecked={false}
           disabled={false}
           id="always-the-same-string-30"
           name="always-the-same-string"
@@ -9334,8 +9334,8 @@ exports[`Storyshots Toolbar DateRange 1`] = `
         htmlFor="always-the-same-string-60"
       >
         <input
+          checked={false}
           className={undefined}
-          defaultChecked={false}
           disabled={false}
           id="always-the-same-string-60"
           name="always-the-same-string"
@@ -9354,8 +9354,8 @@ exports[`Storyshots Toolbar DateRange 1`] = `
         htmlFor="always-the-same-string-calendar"
       >
         <input
+          checked={true}
           className={undefined}
-          defaultChecked={true}
           disabled={false}
           id="always-the-same-string-calendar"
           name="always-the-same-string"
@@ -9401,8 +9401,8 @@ exports[`Storyshots Toolbar DateRange 1`] = `
         htmlFor="always-the-same-string-0"
       >
         <input
+          checked={false}
           className={undefined}
-          defaultChecked={false}
           disabled={true}
           id="always-the-same-string-0"
           name="always-the-same-string"
@@ -9421,8 +9421,8 @@ exports[`Storyshots Toolbar DateRange 1`] = `
         htmlFor="always-the-same-string-7"
       >
         <input
+          checked={true}
           className={undefined}
-          defaultChecked={true}
           disabled={true}
           id="always-the-same-string-7"
           name="always-the-same-string"
@@ -9441,8 +9441,8 @@ exports[`Storyshots Toolbar DateRange 1`] = `
         htmlFor="always-the-same-string-15"
       >
         <input
+          checked={false}
           className={undefined}
-          defaultChecked={false}
           disabled={true}
           id="always-the-same-string-15"
           name="always-the-same-string"
@@ -9461,8 +9461,8 @@ exports[`Storyshots Toolbar DateRange 1`] = `
         htmlFor="always-the-same-string-30"
       >
         <input
+          checked={false}
           className={undefined}
-          defaultChecked={false}
           disabled={true}
           id="always-the-same-string-30"
           name="always-the-same-string"
@@ -9481,8 +9481,8 @@ exports[`Storyshots Toolbar DateRange 1`] = `
         htmlFor="always-the-same-string-60"
       >
         <input
+          checked={false}
           className={undefined}
-          defaultChecked={false}
           disabled={true}
           id="always-the-same-string-60"
           name="always-the-same-string"
@@ -9501,8 +9501,8 @@ exports[`Storyshots Toolbar DateRange 1`] = `
         htmlFor="always-the-same-string-calendar"
       >
         <input
+          checked={false}
           className={undefined}
-          defaultChecked={false}
           disabled={true}
           id="always-the-same-string-calendar"
           name="always-the-same-string"
