@@ -10,13 +10,16 @@ import classNames from 'classnames'
 
 import style from './style.css'
 
-const columnClassNames = ({ desk, tv, tablet, palm }) =>
+const columnClasses = ({ desk, tv, tablet, palm, alignEnd }) =>
   classNames(
     style.col,
     style[`col-desk-${desk}`],
     style[`col-tv-${tv}`],
     style[`col-tablet-${tablet}`],
-    style[`col-palm-${palm}`]
+    style[`col-palm-${palm}`],
+    {
+      [style.alignEnd]: alignEnd,
+    }
   )
 
 const rowClassNames = ({ flex }) =>
@@ -37,8 +40,8 @@ export const Row = ({ children, flex }) => (
   </div>
 )
 
-export const Col = ({ children, desk, tv, tablet, palm }) => (
-  <div className={columnClassNames({ desk, tv, tablet, palm })}>
+export const Col = ({ children, desk, tv, tablet, palm, alignEnd }) => (
+  <div className={columnClasses({ desk, tv, tablet, palm, alignEnd })}>
     {children}
   </div>
 )
@@ -67,6 +70,7 @@ Col.propTypes = {
   tv: number,
   tablet: number,
   palm: number,
+  alignEnd: bool,
 }
 
 Col.defaultProps = {
@@ -75,4 +79,5 @@ Col.defaultProps = {
   tv: null,
   tablet: null,
   palm: null,
+  alignEnd: false,
 }
