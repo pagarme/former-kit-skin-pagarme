@@ -1,5 +1,5 @@
 import React from 'react'
-import { mount } from 'enzyme'
+import { shallow } from 'enzyme'
 
 import CheckboxGroup from './index'
 
@@ -19,14 +19,13 @@ describe('CheckboxGroup', () => {
     },
   ]
 
-  const values = ['sofa']
-
-  const { value } = options[0]
-
-  it('should trigger onChange', () => {
+  it('should call onChange with checked value', () => {
     const onChange = jest.fn()
 
-    const component = mount(
+    const values = ['sofa']
+    const { value } = options[0]
+
+    const component = shallow(
       <CheckboxGroup
         options={options}
         name="pessoas"
@@ -38,25 +37,42 @@ describe('CheckboxGroup', () => {
     )
 
     component
-      .find('input')
-      .first()
+      .find('[name="pessoas-predio"]')
       .simulate('change')
 
     expect(onChange).toHaveBeenCalled()
     expect(onChange).toHaveBeenLastCalledWith(['sofa', value])
+  })
+
+  it('should call onChange without unchecked value', () => {
+    const onChange = jest.fn()
+
+    const values = ['sofa', 'predio']
+
+    const component = shallow(
+      <CheckboxGroup
+        options={options}
+        name="pessoas"
+        onChange={onChange}
+        values={values}
+        error="error"
+        success="success"
+      />
+    )
 
     component
-      .find('input')
-      .first()
+      .find('[name="pessoas-predio"]')
       .simulate('change')
 
     expect(onChange).toHaveBeenLastCalledWith(['sofa'])
   })
 
-  it('should not trigger onChange', () => {
+  it('should not call onChange when disabled', () => {
     const onChange = jest.fn()
 
-    const component = mount(
+    const values = ['sofa', 'predio']
+
+    const component = shallow(
       <CheckboxGroup
         options={options}
         name="pessoas"
@@ -69,12 +85,11 @@ describe('CheckboxGroup', () => {
     )
 
     component
-      .find('input')
+      .find('input[type="radio"]')
       .first()
       .simulate('change')
 
     expect(onChange).not.toHaveBeenCalled()
-    expect(onChange).not.toHaveBeenLastCalledWith(['sofa', value])
   })
 })
 

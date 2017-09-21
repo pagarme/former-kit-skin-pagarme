@@ -1608,14 +1608,14 @@ exports[`Storyshots Checkbox default 1`] = `
     <input
       checked={false}
       disabled={false}
-      id="leo"
+      id="pessoa-leo"
       name="pessoa"
       onChange={[Function]}
       type="checkbox"
       value="leo"
     />
     <label
-      htmlFor="leo"
+      htmlFor="pessoa-leo"
     >
       <i
         className={undefined}
@@ -1639,14 +1639,14 @@ exports[`Storyshots Checkbox disabled 1`] = `
     <input
       checked={false}
       disabled={true}
-      id="leo"
+      id="pessoa-leo"
       name="pessoa"
       onChange={[Function]}
       type="checkbox"
       value="leo"
     />
     <label
-      htmlFor="leo"
+      htmlFor="pessoa-leo"
     >
       <i
         className={undefined}
@@ -1670,14 +1670,14 @@ exports[`Storyshots Checkbox error 1`] = `
     <input
       checked={false}
       disabled={false}
-      id="leo"
+      id="pessoa-leo"
       name="pessoa"
       onChange={[Function]}
       type="checkbox"
       value="leo"
     />
     <label
-      htmlFor="leo"
+      htmlFor="pessoa-leo"
     >
       <i
         className={undefined}
@@ -1705,14 +1705,14 @@ exports[`Storyshots Checkbox success 1`] = `
     <input
       checked={false}
       disabled={false}
-      id="leo"
+      id="pessoa-leo"
       name="pessoa"
       onChange={[Function]}
       type="checkbox"
       value="leo"
     />
     <label
-      htmlFor="leo"
+      htmlFor="pessoa-leo"
     >
       <i
         className={undefined}
@@ -1734,7 +1734,9 @@ exports[`Storyshots Checkbox success 1`] = `
 
 exports[`Storyshots CheckboxGroup default 1`] = `
 <div>
-  <div>
+  <div
+    className={undefined}
+  >
     
     <div
       className="undefined"
@@ -1742,14 +1744,14 @@ exports[`Storyshots CheckboxGroup default 1`] = `
       <input
         checked={false}
         disabled={false}
-        id="leo"
-        name="pessoas"
+        id="pessoas-leo-leo"
+        name="pessoas-leo"
         onChange={[Function]}
         type="checkbox"
         value="leo"
       />
       <label
-        htmlFor="leo"
+        htmlFor="pessoas-leo-leo"
       >
         <i
           className={undefined}
@@ -1764,14 +1766,14 @@ exports[`Storyshots CheckboxGroup default 1`] = `
       <input
         checked={true}
         disabled={false}
-        id="nerone"
-        name="pessoas"
+        id="pessoas-nerone-nerone"
+        name="pessoas-nerone"
         onChange={[Function]}
         type="checkbox"
         value="nerone"
       />
       <label
-        htmlFor="nerone"
+        htmlFor="pessoas-nerone-nerone"
       >
         <i
           className={undefined}
@@ -1786,14 +1788,14 @@ exports[`Storyshots CheckboxGroup default 1`] = `
       <input
         checked={false}
         disabled={false}
-        id="hi"
-        name="pessoas"
+        id="pessoas-hi-hi"
+        name="pessoas-hi"
         onChange={[Function]}
         type="checkbox"
         value="hi"
       />
       <label
-        htmlFor="hi"
+        htmlFor="pessoas-hi-hi"
       >
         <i
           className={undefined}
@@ -1812,7 +1814,9 @@ exports[`Storyshots CheckboxGroup default 1`] = `
 
 exports[`Storyshots CheckboxGroup disabled 1`] = `
 <div>
-  <div>
+  <div
+    className={undefined}
+  >
     
     <div
       className=""
@@ -1820,14 +1824,14 @@ exports[`Storyshots CheckboxGroup disabled 1`] = `
       <input
         checked={false}
         disabled={true}
-        id="leo"
-        name="pessoas"
+        id="pessoas-leo-leo"
+        name="pessoas-leo"
         onChange={[Function]}
         type="checkbox"
         value="leo"
       />
       <label
-        htmlFor="leo"
+        htmlFor="pessoas-leo-leo"
       >
         <i
           className={undefined}
@@ -1842,14 +1846,14 @@ exports[`Storyshots CheckboxGroup disabled 1`] = `
       <input
         checked={true}
         disabled={true}
-        id="nerone"
-        name="pessoas"
+        id="pessoas-nerone-nerone"
+        name="pessoas-nerone"
         onChange={[Function]}
         type="checkbox"
         value="nerone"
       />
       <label
-        htmlFor="nerone"
+        htmlFor="pessoas-nerone-nerone"
       >
         <i
           className={undefined}
@@ -1864,14 +1868,14 @@ exports[`Storyshots CheckboxGroup disabled 1`] = `
       <input
         checked={false}
         disabled={true}
-        id="hi"
-        name="pessoas"
+        id="pessoas-hi-hi"
+        name="pessoas-hi"
         onChange={[Function]}
         type="checkbox"
         value="hi"
       />
       <label
-        htmlFor="hi"
+        htmlFor="pessoas-hi-hi"
       >
         <i
           className={undefined}
@@ -1890,7 +1894,9 @@ exports[`Storyshots CheckboxGroup disabled 1`] = `
 
 exports[`Storyshots CheckboxGroup error 1`] = `
 <div>
-  <div>
+  <div
+    className={undefined}
+  >
     <p
       className=""
     >
@@ -1902,14 +1908,14 @@ exports[`Storyshots CheckboxGroup error 1`] = `
       <input
         checked={false}
         disabled={false}
-        id="leo"
-        name="pessoas"
+        id="pessoas-leo-leo"
+        name="pessoas-leo"
         onChange={[Function]}
         type="checkbox"
         value="leo"
       />
       <label
-        htmlFor="leo"
+        htmlFor="pessoas-leo-leo"
       >
         <i
           className={undefined}
@@ -1924,14 +1930,14 @@ exports[`Storyshots CheckboxGroup error 1`] = `
       <input
         checked={true}
         disabled={false}
-        id="nerone"
-        name="pessoas"
+        id="pessoas-nerone-nerone"
+        name="pessoas-nerone"
         onChange={[Function]}
         type="checkbox"
         value="nerone"
       />
       <label
-        htmlFor="nerone"
+        htmlFor="pessoas-nerone-nerone"
       >
         <i
           className={undefined}
@@ -1946,14 +1952,14 @@ exports[`Storyshots CheckboxGroup error 1`] = `
       <input
         checked={false}
         disabled={false}
-        id="hi"
-        name="pessoas"
+        id="pessoas-hi-hi"
+        name="pessoas-hi"
         onChange={[Function]}
         type="checkbox"
         value="hi"
       />
       <label
-        htmlFor="hi"
+        htmlFor="pessoas-hi-hi"
       >
         <i
           className={undefined}
@@ -1972,7 +1978,9 @@ exports[`Storyshots CheckboxGroup error 1`] = `
 
 exports[`Storyshots CheckboxGroup success 1`] = `
 <div>
-  <div>
+  <div
+    className={undefined}
+  >
     <p
       className="undefined"
     >
@@ -1984,14 +1992,14 @@ exports[`Storyshots CheckboxGroup success 1`] = `
       <input
         checked={false}
         disabled={false}
-        id="leo"
-        name="pessoas"
+        id="pessoas-leo-leo"
+        name="pessoas-leo"
         onChange={[Function]}
         type="checkbox"
         value="leo"
       />
       <label
-        htmlFor="leo"
+        htmlFor="pessoas-leo-leo"
       >
         <i
           className={undefined}
@@ -2006,14 +2014,14 @@ exports[`Storyshots CheckboxGroup success 1`] = `
       <input
         checked={true}
         disabled={false}
-        id="nerone"
-        name="pessoas"
+        id="pessoas-nerone-nerone"
+        name="pessoas-nerone"
         onChange={[Function]}
         type="checkbox"
         value="nerone"
       />
       <label
-        htmlFor="nerone"
+        htmlFor="pessoas-nerone-nerone"
       >
         <i
           className={undefined}
@@ -2028,14 +2036,14 @@ exports[`Storyshots CheckboxGroup success 1`] = `
       <input
         checked={false}
         disabled={false}
-        id="hi"
-        name="pessoas"
+        id="pessoas-hi-hi"
+        name="pessoas-hi"
         onChange={[Function]}
         type="checkbox"
         value="hi"
       />
       <label
-        htmlFor="hi"
+        htmlFor="pessoas-hi-hi"
       >
         <i
           className={undefined}

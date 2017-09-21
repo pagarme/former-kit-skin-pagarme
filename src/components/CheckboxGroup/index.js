@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-import { partial } from 'ramda'
+import { append, contains, equals, filter, pipe, not, partial } from 'ramda'
 import Checkbox from '../Checkbox'
 
 import style from './style.css'
@@ -9,55 +9,56 @@ import style from './style.css'
 class CheckboxGroup extends React.Component {
   constructor (props) {
     super(props)
-    this.state = { values: new Set() }
-
     this.handleChange = this.handleChange.bind(this)
   }
 
-  componentWillMount () {
-    if (this.props.values.length > 0) {
-      this.setState({ values: new Set(this.props.values) })
-    }
-  }
-
   handleChange (value) {
-    if (this.props.disabled) return
+    const { disabled, values, onChange } = this.props
 
-    const newValues = this.state.values
+    if (disabled) return
 
-    if (this.state.values.has(value)) {
-      newValues.delete(value)
-    } else {
-      newValues.add(value)
-    }
+    const valueIndex = values.indexOf(value)
 
-    this.setState({ values: newValues })
-    this.props.onChange(Array.from(newValues))
+    const nextValues = valueIndex >= 0
+      ? filter(pipe(equals(value), not), values)
+      : append(value, values)
+
+    onChange(nextValues)
   }
 
   render () {
+    const {
+      disabled,
+      name,
+      values,
+      error,
+      success,
+      options,
+    } = this.props
+
     const secondaryTextClass = classnames(style.secondaryText, {
-      [style.error]: this.props.error,
-      [style.success]: this.props.success,
+      [style.error]: error,
+      [style.success]: success,
     })
 
-    const checkboxes = this.props.options.map(({ value, label }) => (
+    const checkboxes = options.map(({ value, label }) => (
       <Checkbox
-        key={value}
-        name={this.props.name}
+        key={`${name}-${value}`}
+        name={`${name}-${value}`}
+        id={`${name}-${value}`}
         value={value}
         label={label}
-        checked={this.state.values.has(value)}
+        checked={contains(value, values)}
         onChange={partial(this.handleChange, [value])}
-        disabled={this.props.disabled}
+        disabled={disabled}
       />
     ))
 
     return (
       <div>
-        {(this.props.success || this.props.error) &&
+        {(success || error) &&
           <p className={secondaryTextClass}>
-            {this.props.success || this.props.error}
+            {success || error}
           </p>
         }
 

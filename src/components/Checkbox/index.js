@@ -21,13 +21,13 @@ const Checkbox = (props) => {
         type="checkbox"
         name={props.name}
         value={props.value}
-        id={props.value}
+        id={`${props.name}-${props.value}`}
         checked={props.checked}
         disabled={props.disabled}
         onChange={e => !props.disabled && props.onChange(e.target.value)}
       />
       <label
-        htmlFor={props.value}
+        htmlFor={`${props.name}-${props.value}`}
       >
         <i className={style.iconCheck} />
         {props.label}
