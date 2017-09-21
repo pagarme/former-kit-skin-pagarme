@@ -55,7 +55,7 @@ class CheckboxGroup extends React.Component {
     ))
 
     return (
-      <div>
+      <div className={style.root}>
         {(success || error) &&
           <p className={secondaryTextClass}>
             {success || error}
