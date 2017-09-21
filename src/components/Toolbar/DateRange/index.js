@@ -44,7 +44,7 @@ class DateRange extends React.Component {
               value={value}
               disabled={disabled}
               onChange={() => !disabled && onChange(value)}
-              defaultChecked={selected === value}
+              checked={selected === value}
               className={style.input}
             />
 
