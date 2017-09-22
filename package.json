@@ -46,7 +46,7 @@
     "react": "15.6.1",
     "react-dev-utils": "4.0.1",
     "react-dom": "15.6.1",
-    "react-error-overlay": "2.0.1",
+    "react-error-overlay": "1.0.10",
     "react-icons": "2.2.5",
     "react-motion": "0.5.1",
     "react-test-renderer": "15.6.1",
