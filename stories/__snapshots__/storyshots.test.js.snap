@@ -1472,10 +1472,10 @@ exports[`Storyshots Cards Graphic, title, content and actions 1`] = `
   className={undefined}
 >
   <div
-    className={undefined}
+    className=""
   >
     <div
-      className={undefined}
+      className=""
     >
       <img
         alt="placeholder"
@@ -1486,7 +1486,7 @@ exports[`Storyshots Cards Graphic, title, content and actions 1`] = `
       className=""
     >
       <div
-        className={undefined}
+        className=""
       >
         <h3>
           Lorem ipsum dolor sit amet
@@ -1494,12 +1494,12 @@ exports[`Storyshots Cards Graphic, title, content and actions 1`] = `
       </div>
     </div>
     <div
-      className={undefined}
+      className=""
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
     </div>
     <div
-      className={undefined}
+      className=""
     >
       <button
         className=""
@@ -1539,13 +1539,13 @@ exports[`Storyshots Cards Title and content 1`] = `
   className={undefined}
 >
   <div
-    className={undefined}
+    className=""
   >
     <div
       className=""
     >
       <div
-        className={undefined}
+        className=""
       >
         <h3>
           Lorem ipsum dolor sit amet
@@ -1553,7 +1553,7 @@ exports[`Storyshots Cards Title and content 1`] = `
       </div>
     </div>
     <div
-      className={undefined}
+      className=""
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
     </div>
@@ -1566,7 +1566,7 @@ exports[`Storyshots Cards Title on event handler 1`] = `
   className={undefined}
 >
   <div
-    className={undefined}
+    className=""
   >
     <div
       className="undefined"
@@ -1576,7 +1576,7 @@ exports[`Storyshots Cards Title on event handler 1`] = `
       tabIndex="0"
     >
       <div
-        className={undefined}
+        className=""
       >
         <h3>
           Click here and watch the action logger
@@ -1584,12 +1584,12 @@ exports[`Storyshots Cards Title on event handler 1`] = `
       </div>
     </div>
     <div
-      className={undefined}
+      className=""
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
     </div>
     <div
-      className={undefined}
+      className=""
     >
       <button
         className=""
@@ -1629,13 +1629,13 @@ exports[`Storyshots Cards Title, content and actions 1`] = `
   className={undefined}
 >
   <div
-    className={undefined}
+    className=""
   >
     <div
       className=""
     >
       <div
-        className={undefined}
+        className=""
       >
         <h3>
           Lorem ipsum dolor sit amet
@@ -1643,12 +1643,12 @@ exports[`Storyshots Cards Title, content and actions 1`] = `
       </div>
     </div>
     <div
-      className={undefined}
+      className=""
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
     </div>
     <div
-      className={undefined}
+      className=""
     >
       <button
         className=""
@@ -1688,13 +1688,13 @@ exports[`Storyshots Cards Title, icon and content 1`] = `
   className={undefined}
 >
   <div
-    className={undefined}
+    className=""
   >
     <div
       className=""
     >
       <div
-        className={undefined}
+        className=""
       >
         <svg
           fill="currentColor"
@@ -1721,7 +1721,7 @@ exports[`Storyshots Cards Title, icon and content 1`] = `
       </div>
     </div>
     <div
-      className={undefined}
+      className=""
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
     </div>
@@ -4780,10 +4780,10 @@ exports[`Storyshots Grid Column sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -4806,10 +4806,10 @@ exports[`Storyshots Grid Column sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -4832,10 +4832,10 @@ exports[`Storyshots Grid Column sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -4858,10 +4858,10 @@ exports[`Storyshots Grid Column sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -4884,10 +4884,10 @@ exports[`Storyshots Grid Column sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -4910,10 +4910,10 @@ exports[`Storyshots Grid Column sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -4936,10 +4936,10 @@ exports[`Storyshots Grid Column sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -4962,10 +4962,10 @@ exports[`Storyshots Grid Column sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -4988,10 +4988,10 @@ exports[`Storyshots Grid Column sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5014,10 +5014,10 @@ exports[`Storyshots Grid Column sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5040,10 +5040,10 @@ exports[`Storyshots Grid Column sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5066,10 +5066,10 @@ exports[`Storyshots Grid Column sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5103,10 +5103,10 @@ exports[`Storyshots Grid Flexible 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5125,10 +5125,10 @@ exports[`Storyshots Grid Flexible 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5149,10 +5149,10 @@ exports[`Storyshots Grid Flexible 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5171,10 +5171,10 @@ exports[`Storyshots Grid Flexible 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5195,10 +5195,10 @@ exports[`Storyshots Grid Flexible 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5217,10 +5217,10 @@ exports[`Storyshots Grid Flexible 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5252,10 +5252,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5278,10 +5278,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5300,10 +5300,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5326,10 +5326,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5348,10 +5348,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5370,10 +5370,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5396,10 +5396,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5418,10 +5418,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5440,10 +5440,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5462,10 +5462,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5488,10 +5488,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5510,10 +5510,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5532,10 +5532,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5554,10 +5554,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5576,10 +5576,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5598,10 +5598,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5624,10 +5624,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5646,10 +5646,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5668,10 +5668,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5690,10 +5690,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5712,10 +5712,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5734,10 +5734,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5756,10 +5756,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5778,10 +5778,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5800,10 +5800,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5822,10 +5822,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5844,10 +5844,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5866,10 +5866,10 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5903,10 +5903,10 @@ exports[`Storyshots Grid Responsive 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5923,10 +5923,10 @@ exports[`Storyshots Grid Responsive 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5943,10 +5943,10 @@ exports[`Storyshots Grid Responsive 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5963,10 +5963,10 @@ exports[`Storyshots Grid Responsive 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -5987,10 +5987,10 @@ exports[`Storyshots Grid Responsive 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6011,10 +6011,10 @@ exports[`Storyshots Grid Responsive 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6031,10 +6031,10 @@ exports[`Storyshots Grid Responsive 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6055,10 +6055,10 @@ exports[`Storyshots Grid Responsive 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6081,10 +6081,10 @@ exports[`Storyshots Grid Responsive 1`] = `
             className=""
           >
             <div
-              className={undefined}
+              className=""
             >
               <div
-                className={undefined}
+                className=""
               >
                 <div
                   className={undefined}
@@ -6101,10 +6101,10 @@ exports[`Storyshots Grid Responsive 1`] = `
             className=""
           >
             <div
-              className={undefined}
+              className=""
             >
               <div
-                className={undefined}
+                className=""
               >
                 <div
                   className={undefined}
@@ -6121,10 +6121,10 @@ exports[`Storyshots Grid Responsive 1`] = `
             className=""
           >
             <div
-              className={undefined}
+              className=""
             >
               <div
-                className={undefined}
+                className=""
               >
                 <div
                   className={undefined}
@@ -6141,10 +6141,10 @@ exports[`Storyshots Grid Responsive 1`] = `
             className=""
           >
             <div
-              className={undefined}
+              className=""
             >
               <div
-                className={undefined}
+                className=""
               >
                 <div
                   className={undefined}
@@ -6178,10 +6178,10 @@ exports[`Storyshots Grid Size combinations 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6200,10 +6200,10 @@ exports[`Storyshots Grid Size combinations 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6226,10 +6226,10 @@ exports[`Storyshots Grid Size combinations 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6248,10 +6248,10 @@ exports[`Storyshots Grid Size combinations 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6274,10 +6274,10 @@ exports[`Storyshots Grid Size combinations 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6296,10 +6296,10 @@ exports[`Storyshots Grid Size combinations 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6322,10 +6322,10 @@ exports[`Storyshots Grid Size combinations 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6344,10 +6344,10 @@ exports[`Storyshots Grid Size combinations 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6370,10 +6370,10 @@ exports[`Storyshots Grid Size combinations 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6392,10 +6392,10 @@ exports[`Storyshots Grid Size combinations 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6418,10 +6418,10 @@ exports[`Storyshots Grid Size combinations 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}
@@ -6440,10 +6440,10 @@ exports[`Storyshots Grid Size combinations 1`] = `
         className=""
       >
         <div
-          className={undefined}
+          className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
               className={undefined}

@@ -11,15 +11,15 @@ import {
 import style from './style.css'
 
 
-const Card = ({ children }) => (
-  <div className={style.card}>
+const Card = ({ className, children }) => (
+  <div className={classnames(className, style.card)}>
     {children}
   </div>
 )
 
-const CardTitle = ({ title, icon, children, onClick }) => {
+const CardTitle = ({ title, icon, className, children, onClick }) => {
   const titleContent = (
-    <div className={style.title}>
+    <div className={classnames(className, style.title)}>
       {icon}
       <h3>{title}</h3>
 
@@ -57,51 +57,73 @@ const CardTitle = ({ title, icon, children, onClick }) => {
   )
 }
 
-const CardContent = ({ children }) => (
-  <div className={style.content}>
+const CardContent = ({ className, children }) => (
+  <div className={classnames(className, style.content)}>
     {children}
   </div>
 )
 
-const CardGraphic = ({ children }) => (
-  <div className={style.graphic}>
+const CardGraphic = ({ className, children }) => (
+  <div className={classnames(className, style.graphic)}>
     {children}
   </div>
 )
 
-const CardActions = ({ children }) => (
-  <div className={style.actions}>
+const CardActions = ({ className, children }) => (
+  <div className={classnames(className, style.actions)}>
     {children}
   </div>
 )
 
 Card.propTypes = {
   children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+}
+
+Card.defaultProps = {
+  className: null,
 }
 
 CardTitle.propTypes = {
   title: PropTypes.string.isRequired,
   icon: PropTypes.element,
+  className: PropTypes.string,
   children: PropTypes.node,
   onClick: PropTypes.func,
 }
 
 CardTitle.defaultProps = {
   icon: null,
+  className: null,
   children: null,
   onClick: null,
 }
 
 CardContent.propTypes = {
   children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+}
+
+CardContent.defaultProps = {
+  className: null,
 }
 
 CardGraphic.propTypes = {
   children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+}
+
+CardGraphic.defaultProps = {
+  className: null,
 }
 
 CardActions.propTypes = {
   children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+}
+
+CardActions.defaultProps = {
+  className: null,
 }
 
 export {
