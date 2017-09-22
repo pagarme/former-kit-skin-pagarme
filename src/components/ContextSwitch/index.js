@@ -34,7 +34,7 @@ const ContextSwitch = ({
           name={`${style.item}-${name}`}
           value={item}
           type="radio"
-          defaultChecked={selected === item}
+          checked={selected === item}
           onChange={() => onChange(item, index)}
         />
 
