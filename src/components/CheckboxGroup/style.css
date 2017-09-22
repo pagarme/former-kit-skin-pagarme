@@ -1,11 +1,11 @@
 @import "./properties.css";
 
-.root {
+.root > div {
   display: flex;
   flex-wrap: wrap;
 }
 
-.root > * {
+.root > div > * {
   margin-right: 5px;
   margin-bottom: 5px;
 }

@@ -1867,71 +1867,73 @@ exports[`Storyshots CheckboxGroup default 1`] = `
     className={undefined}
   >
     
-    <div
-      className="undefined"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="pessoas-leo-leo"
-        name="pessoas-leo"
-        onChange={[Function]}
-        type="checkbox"
-        value="leo"
-      />
-      <label
-        htmlFor="pessoas-leo-leo"
+    <div>
+      <div
+        className="undefined"
       >
-        <i
-          className={undefined}
+        <input
+          checked={false}
+          disabled={false}
+          id="pessoas-leo-leo"
+          name="pessoas-leo"
+          onChange={[Function]}
+          type="checkbox"
+          value="leo"
         />
-        Leo
-      </label>
-      
-    </div>
-    <div
-      className="undefined"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="pessoas-nerone-nerone"
-        name="pessoas-nerone"
-        onChange={[Function]}
-        type="checkbox"
-        value="nerone"
-      />
-      <label
-        htmlFor="pessoas-nerone-nerone"
+        <label
+          htmlFor="pessoas-leo-leo"
+        >
+          <i
+            className={undefined}
+          />
+          Leo
+        </label>
+        
+      </div>
+      <div
+        className="undefined"
       >
-        <i
-          className={undefined}
+        <input
+          checked={true}
+          disabled={false}
+          id="pessoas-nerone-nerone"
+          name="pessoas-nerone"
+          onChange={[Function]}
+          type="checkbox"
+          value="nerone"
         />
-        Nerone
-      </label>
-      
-    </div>
-    <div
-      className="undefined"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="pessoas-hi-hi"
-        name="pessoas-hi"
-        onChange={[Function]}
-        type="checkbox"
-        value="hi"
-      />
-      <label
-        htmlFor="pessoas-hi-hi"
+        <label
+          htmlFor="pessoas-nerone-nerone"
+        >
+          <i
+            className={undefined}
+          />
+          Nerone
+        </label>
+        
+      </div>
+      <div
+        className="undefined"
       >
-        <i
-          className={undefined}
+        <input
+          checked={false}
+          disabled={false}
+          id="pessoas-hi-hi"
+          name="pessoas-hi"
+          onChange={[Function]}
+          type="checkbox"
+          value="hi"
         />
-        hi
-      </label>
-      
+        <label
+          htmlFor="pessoas-hi-hi"
+        >
+          <i
+            className={undefined}
+          />
+          hi
+        </label>
+        
+      </div>
     </div>
   </div>
   <p>
@@ -1947,71 +1949,73 @@ exports[`Storyshots CheckboxGroup disabled 1`] = `
     className={undefined}
   >
     
-    <div
-      className=""
-    >
-      <input
-        checked={false}
-        disabled={true}
-        id="pessoas-leo-leo"
-        name="pessoas-leo"
-        onChange={[Function]}
-        type="checkbox"
-        value="leo"
-      />
-      <label
-        htmlFor="pessoas-leo-leo"
+    <div>
+      <div
+        className=""
       >
-        <i
-          className={undefined}
+        <input
+          checked={false}
+          disabled={true}
+          id="pessoas-leo-leo"
+          name="pessoas-leo"
+          onChange={[Function]}
+          type="checkbox"
+          value="leo"
         />
-        Leo
-      </label>
-      
-    </div>
-    <div
-      className=""
-    >
-      <input
-        checked={true}
-        disabled={true}
-        id="pessoas-nerone-nerone"
-        name="pessoas-nerone"
-        onChange={[Function]}
-        type="checkbox"
-        value="nerone"
-      />
-      <label
-        htmlFor="pessoas-nerone-nerone"
+        <label
+          htmlFor="pessoas-leo-leo"
+        >
+          <i
+            className={undefined}
+          />
+          Leo
+        </label>
+        
+      </div>
+      <div
+        className=""
       >
-        <i
-          className={undefined}
+        <input
+          checked={true}
+          disabled={true}
+          id="pessoas-nerone-nerone"
+          name="pessoas-nerone"
+          onChange={[Function]}
+          type="checkbox"
+          value="nerone"
         />
-        Nerone
-      </label>
-      
-    </div>
-    <div
-      className=""
-    >
-      <input
-        checked={false}
-        disabled={true}
-        id="pessoas-hi-hi"
-        name="pessoas-hi"
-        onChange={[Function]}
-        type="checkbox"
-        value="hi"
-      />
-      <label
-        htmlFor="pessoas-hi-hi"
+        <label
+          htmlFor="pessoas-nerone-nerone"
+        >
+          <i
+            className={undefined}
+          />
+          Nerone
+        </label>
+        
+      </div>
+      <div
+        className=""
       >
-        <i
-          className={undefined}
+        <input
+          checked={false}
+          disabled={true}
+          id="pessoas-hi-hi"
+          name="pessoas-hi"
+          onChange={[Function]}
+          type="checkbox"
+          value="hi"
         />
-        hi
-      </label>
-      
+        <label
+          htmlFor="pessoas-hi-hi"
+        >
+          <i
+            className={undefined}
+          />
+          hi
+        </label>
+        
+      </div>
     </div>
   </div>
   <p>
@@ -2031,71 +2035,73 @@ exports[`Storyshots CheckboxGroup error 1`] = `
     >
       Errou!
     </p>
-    <div
-      className="undefined"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="pessoas-leo-leo"
-        name="pessoas-leo"
-        onChange={[Function]}
-        type="checkbox"
-        value="leo"
-      />
-      <label
-        htmlFor="pessoas-leo-leo"
+    <div>
+      <div
+        className="undefined"
       >
-        <i
-          className={undefined}
+        <input
+          checked={false}
+          disabled={false}
+          id="pessoas-leo-leo"
+          name="pessoas-leo"
+          onChange={[Function]}
+          type="checkbox"
+          value="leo"
         />
-        Leo
-      </label>
-      
-    </div>
-    <div
-      className="undefined"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="pessoas-nerone-nerone"
-        name="pessoas-nerone"
-        onChange={[Function]}
-        type="checkbox"
-        value="nerone"
-      />
-      <label
-        htmlFor="pessoas-nerone-nerone"
+        <label
+          htmlFor="pessoas-leo-leo"
+        >
+          <i
+            className={undefined}
+          />
+          Leo
+        </label>
+        
+      </div>
+      <div
+        className="undefined"
       >
-        <i
-          className={undefined}
+        <input
+          checked={true}
+          disabled={false}
+          id="pessoas-nerone-nerone"
+          name="pessoas-nerone"
+          onChange={[Function]}
+          type="checkbox"
+          value="nerone"
         />
-        Nerone
-      </label>
-      
-    </div>
-    <div
-      className="undefined"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="pessoas-hi-hi"
-        name="pessoas-hi"
-        onChange={[Function]}
-        type="checkbox"
-        value="hi"
-      />
-      <label
-        htmlFor="pessoas-hi-hi"
+        <label
+          htmlFor="pessoas-nerone-nerone"
+        >
+          <i
+            className={undefined}
+          />
+          Nerone
+        </label>
+        
+      </div>
+      <div
+        className="undefined"
       >
-        <i
-          className={undefined}
+        <input
+          checked={false}
+          disabled={false}
+          id="pessoas-hi-hi"
+          name="pessoas-hi"
+          onChange={[Function]}
+          type="checkbox"
+          value="hi"
         />
-        hi
-      </label>
-      
+        <label
+          htmlFor="pessoas-hi-hi"
+        >
+          <i
+            className={undefined}
+          />
+          hi
+        </label>
+        
+      </div>
     </div>
   </div>
   <p>
@@ -2115,71 +2121,73 @@ exports[`Storyshots CheckboxGroup success 1`] = `
     >
       Eae sucesso
     </p>
-    <div
-      className="undefined"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="pessoas-leo-leo"
-        name="pessoas-leo"
-        onChange={[Function]}
-        type="checkbox"
-        value="leo"
-      />
-      <label
-        htmlFor="pessoas-leo-leo"
+    <div>
+      <div
+        className="undefined"
       >
-        <i
-          className={undefined}
+        <input
+          checked={false}
+          disabled={false}
+          id="pessoas-leo-leo"
+          name="pessoas-leo"
+          onChange={[Function]}
+          type="checkbox"
+          value="leo"
         />
-        Leo
-      </label>
-      
-    </div>
-    <div
-      className="undefined"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="pessoas-nerone-nerone"
-        name="pessoas-nerone"
-        onChange={[Function]}
-        type="checkbox"
-        value="nerone"
-      />
-      <label
-        htmlFor="pessoas-nerone-nerone"
+        <label
+          htmlFor="pessoas-leo-leo"
+        >
+          <i
+            className={undefined}
+          />
+          Leo
+        </label>
+        
+      </div>
+      <div
+        className="undefined"
       >
-        <i
-          className={undefined}
+        <input
+          checked={true}
+          disabled={false}
+          id="pessoas-nerone-nerone"
+          name="pessoas-nerone"
+          onChange={[Function]}
+          type="checkbox"
+          value="nerone"
         />
-        Nerone
-      </label>
-      
-    </div>
-    <div
-      className="undefined"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="pessoas-hi-hi"
-        name="pessoas-hi"
-        onChange={[Function]}
-        type="checkbox"
-        value="hi"
-      />
-      <label
-        htmlFor="pessoas-hi-hi"
+        <label
+          htmlFor="pessoas-nerone-nerone"
+        >
+          <i
+            className={undefined}
+          />
+          Nerone
+        </label>
+        
+      </div>
+      <div
+        className="undefined"
       >
-        <i
-          className={undefined}
+        <input
+          checked={false}
+          disabled={false}
+          id="pessoas-hi-hi"
+          name="pessoas-hi"
+          onChange={[Function]}
+          type="checkbox"
+          value="hi"
         />
-        hi
-      </label>
-      
+        <label
+          htmlFor="pessoas-hi-hi"
+        >
+          <i
+            className={undefined}
+          />
+          hi
+        </label>
+        
+      </div>
     </div>
   </div>
   <p>

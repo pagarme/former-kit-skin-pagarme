@@ -61,8 +61,9 @@ class CheckboxGroup extends React.Component {
             {success || error}
           </p>
         }
-
-        {checkboxes}
+        <div>
+          {checkboxes}
+        </div>
       </div>
     )
   }
