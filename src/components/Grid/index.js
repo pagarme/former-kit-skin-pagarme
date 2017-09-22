@@ -24,11 +24,14 @@ const colClassNames = ({ className, desk, tv, tablet, palm, alignEnd }) =>
     }
   )
 
-const rowClassNames = ({ flex, className }) =>
+const rowClassNames = ({ flex, stretch, className }) =>
   classNames(
     className,
     style.row,
-    { [style.flex]: flex }
+    {
+      [style.flex]: flex,
+      [style.stretch]: stretch,
+    }
   )
 
 const gridClassNames = ({ className }) =>
@@ -43,8 +46,8 @@ export const Grid = ({ children, className }) => (
   </div>
 )
 
-export const Row = ({ children, flex, className }) => (
-  <div className={rowClassNames({ flex, className })}>
+export const Row = ({ children, flex, stretch, className }) => (
+  <div className={rowClassNames({ flex, stretch, className })}>
     {children}
   </div>
 )
@@ -68,12 +71,14 @@ Grid.defaultProps = {
 Row.propTypes = {
   children: node,
   flex: bool,
+  stretch: bool,
   className: string,
 }
 
 Row.defaultProps = {
   children: null,
   flex: false,
+  stretch: false,
   className: null,
 }
 
