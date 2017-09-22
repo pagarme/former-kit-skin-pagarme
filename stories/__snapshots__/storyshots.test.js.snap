@@ -333,60 +333,70 @@ exports[`Storyshots Botão/Aplicações Base Clara Contorno 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
@@ -406,60 +416,70 @@ exports[`Storyshots Botão/Aplicações Base Clara Gradiente 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
@@ -479,60 +499,70 @@ exports[`Storyshots Botão/Aplicações Base Clara Plano (padrão) 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
@@ -552,60 +582,70 @@ exports[`Storyshots Botão/Aplicações Base Clara Sem fundo 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
@@ -625,60 +665,70 @@ exports[`Storyshots Botão/Aplicações Base Clara Tracejado 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
@@ -698,60 +748,70 @@ exports[`Storyshots Botão/Aplicações Base Escura Contorno 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Contorno
   </button>
@@ -771,60 +831,70 @@ exports[`Storyshots Botão/Aplicações Base Escura Gradiente 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Gradiente
   </button>
@@ -844,60 +914,70 @@ exports[`Storyshots Botão/Aplicações Base Escura Plano (padrão) 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Plano (padrão)
   </button>
@@ -917,60 +997,70 @@ exports[`Storyshots Botão/Aplicações Base Escura Sem fundo 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Sem fundo
   </button>
@@ -990,60 +1080,70 @@ exports[`Storyshots Botão/Aplicações Base Escura Tracejado 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão Tracejado
   </button>
@@ -1057,6 +1157,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Bloco 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão
      
@@ -1065,6 +1166,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Bloco 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão
      
@@ -1073,6 +1175,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Bloco 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão
      
@@ -1088,6 +1191,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Com ícones 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     <svg
       fill="currentColor"
@@ -1113,6 +1217,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Com ícones 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     <svg
       fill="currentColor"
@@ -1138,6 +1243,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Com ícones 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     <svg
       fill="currentColor"
@@ -1163,6 +1269,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Com ícones 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     <svg
       fill="currentColor"
@@ -1188,6 +1295,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Com ícones 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     <svg
       fill="currentColor"
@@ -1213,6 +1321,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Com ícones 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     <svg
       fill="currentColor"
@@ -1238,6 +1347,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Com ícones 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     <svg
       fill="currentColor"
@@ -1263,6 +1373,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Com ícones 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     <svg
       fill="currentColor"
@@ -1288,6 +1399,7 @@ exports[`Storyshots Botão/Tamanhos e Formas Com ícones 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     <svg
       fill="currentColor"
@@ -1320,30 +1432,35 @@ exports[`Storyshots Botão/Tamanhos e Formas Tamanhos 1`] = `
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão
   </button>
   <button
     className=""
     onClick={[Function]}
+    type="button"
   >
     Botão
   </button>
@@ -1387,24 +1504,28 @@ exports[`Storyshots Cards Graphic, title, content and actions 1`] = `
       <button
         className=""
         onClick={null}
+        type="button"
       >
         Action
       </button>
       <button
         className=""
         onClick={null}
+        type="button"
       >
         Action
       </button>
       <button
         className=""
         onClick={null}
+        type="button"
       >
         Action
       </button>
       <button
         className=""
         onClick={null}
+        type="button"
       >
         Action
       </button>
@@ -1473,24 +1594,28 @@ exports[`Storyshots Cards Title on event handler 1`] = `
       <button
         className=""
         onClick={null}
+        type="button"
       >
         Action
       </button>
       <button
         className=""
         onClick={null}
+        type="button"
       >
         Action
       </button>
       <button
         className=""
         onClick={null}
+        type="button"
       >
         Action
       </button>
       <button
         className=""
         onClick={null}
+        type="button"
       >
         Action
       </button>
@@ -1528,24 +1653,28 @@ exports[`Storyshots Cards Title, content and actions 1`] = `
       <button
         className=""
         onClick={null}
+        type="button"
       >
         Action
       </button>
       <button
         className=""
         onClick={null}
+        type="button"
       >
         Action
       </button>
       <button
         className=""
         onClick={null}
+        type="button"
       >
         Action
       </button>
       <button
         className=""
         onClick={null}
+        type="button"
       >
         Action
       </button>

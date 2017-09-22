@@ -5,7 +5,7 @@ import classNames from 'classnames'
 import stylesheet from './style.css'
 
 
-function Button ({ onClick, variant, base, color, size, children }) {
+function Button ({ onClick, variant, base, color, size, children, type }) {
   const className = classNames(
     stylesheet.button,
     stylesheet[variant],
@@ -15,13 +15,14 @@ function Button ({ onClick, variant, base, color, size, children }) {
   )
 
   return (
-    <button className={className} onClick={onClick}>
+    <button className={className} onClick={onClick} type={type}>
       {children}
     </button>
   )
 }
 
 Button.propTypes = {
+  type: PropTypes.string,
   onClick: PropTypes.func,
   variant: PropTypes.oneOf([
     'flat', 'gradient', 'outline', 'dashed', 'clean', 'block',
@@ -50,6 +51,7 @@ Button.defaultProps = {
   base: 'light',
   color: 'green-primary',
   size: 'medium',
+  type: 'button',
 }
 
 export default Button
