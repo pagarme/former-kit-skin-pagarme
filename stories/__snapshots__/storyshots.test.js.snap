@@ -4634,7 +4634,7 @@ exports[`Storyshots Grid Column sizes 1`] = `
   className={undefined}
 >
   <div
-    className={undefined}
+    className=""
   >
     <div
       className=""
@@ -4957,7 +4957,7 @@ exports[`Storyshots Grid Flexible 1`] = `
   className={undefined}
 >
   <div
-    className={undefined}
+    className=""
   >
     <div
       className="undefined"
@@ -5106,7 +5106,7 @@ exports[`Storyshots Grid Proportional sizes 1`] = `
   className={undefined}
 >
   <div
-    className={undefined}
+    className=""
   >
     <div
       className=""
@@ -5757,7 +5757,7 @@ exports[`Storyshots Grid Responsive 1`] = `
   className={undefined}
 >
   <div
-    className={undefined}
+    className=""
   >
     <div
       className=""
@@ -6032,7 +6032,7 @@ exports[`Storyshots Grid Size combinations 1`] = `
   className={undefined}
 >
   <div
-    className={undefined}
+    className=""
   >
     <div
       className=""

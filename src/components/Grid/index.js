@@ -4,14 +4,16 @@ import {
   bool,
   node,
   number,
+  string,
 } from 'prop-types'
 
 import classNames from 'classnames'
 
 import style from './style.css'
 
-const columnClasses = ({ desk, tv, tablet, palm, alignEnd }) =>
+const colClassNames = ({ className, desk, tv, tablet, palm, alignEnd }) =>
   classNames(
+    className,
     style.col,
     style[`col-desk-${desk}`],
     style[`col-tv-${tv}`],
@@ -22,46 +24,57 @@ const columnClasses = ({ desk, tv, tablet, palm, alignEnd }) =>
     }
   )
 
-const rowClassNames = ({ flex }) =>
+const rowClassNames = ({ flex, className }) =>
   classNames(
+    className,
     style.row,
     { [style.flex]: flex }
   )
 
-export const Grid = ({ children }) => (
-  <div className={style.grid}>
+const gridClassNames = ({ className }) =>
+  classNames(
+    style.grid,
+    className
+  )
+
+export const Grid = ({ children, className }) => (
+  <div className={gridClassNames({ className })}>
     {children}
   </div>
 )
 
-export const Row = ({ children, flex }) => (
-  <div className={rowClassNames({ flex })}>
+export const Row = ({ children, flex, className }) => (
+  <div className={rowClassNames({ flex, className })}>
     {children}
   </div>
 )
 
-export const Col = ({ children, desk, tv, tablet, palm, alignEnd }) => (
-  <div className={columnClasses({ desk, tv, tablet, palm, alignEnd })}>
+export const Col = ({ children, desk, tv, tablet, palm, alignEnd, className }) => (
+  <div className={colClassNames({ desk, tv, tablet, palm, alignEnd, className })}>
     {children}
   </div>
 )
 
 Grid.propTypes = {
   children: node,
+  className: string,
 }
 
 Grid.defaultProps = {
   children: null,
+  className: null,
 }
 
 Row.propTypes = {
   children: node,
   flex: bool,
+  className: string,
 }
 
 Row.defaultProps = {
   children: null,
   flex: false,
+  className: null,
 }
 
 Col.propTypes = {
@@ -71,6 +84,7 @@ Col.propTypes = {
   tablet: number,
   palm: number,
   alignEnd: bool,
+  className: string,
 }
 
 Col.defaultProps = {
@@ -80,4 +94,5 @@ Col.defaultProps = {
   tablet: null,
   palm: null,
   alignEnd: false,
+  className: null,
 }
