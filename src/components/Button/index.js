@@ -22,7 +22,7 @@ function Button ({ onClick, variant, base, color, size, children, type }) {
 }
 
 Button.propTypes = {
-  type: PropTypes.string,
+  type: PropTypes.oneOf(['button', 'submit', 'reset']),
   onClick: PropTypes.func,
   variant: PropTypes.oneOf([
     'flat', 'gradient', 'outline', 'dashed', 'clean', 'block',
