@@ -39,7 +39,7 @@ const CardTitle = ({ title, icon, className, children, onClick }) => {
     role: 'button',
     tabIndex: '0',
     onClick,
-    onKeyUp: onClick,
+    onKeyUp: event => event.keyCode === 32 && onClick(),
   }
 
   const getProps = ifElse(
