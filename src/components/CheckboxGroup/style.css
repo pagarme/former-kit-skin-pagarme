@@ -5,11 +5,6 @@
   flex-wrap: wrap;
 }
 
-.root > div > * {
-  margin-right: 5px;
-  margin-bottom: 5px;
-}
-
 .secondaryText {
   font-size: var(--checkbox-group-secondary-text-font-size);
   margin: 0;
