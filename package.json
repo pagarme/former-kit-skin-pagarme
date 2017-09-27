@@ -121,11 +121,14 @@
   "stylelint": {
     "extends": "stylelint-config-pagarme-react",
     "rules": {
-      "at-rule-no-unknown": [ true, {
-        "ignoreAtRules": [
-          "each"
-        ]
-      }]
+      "at-rule-no-unknown": [
+        true,
+        {
+          "ignoreAtRules": [
+            "each"
+          ]
+        }
+      ]
     }
   }
 }
