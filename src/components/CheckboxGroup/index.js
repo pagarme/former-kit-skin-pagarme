@@ -1,7 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-import { append, contains, equals, filter, pipe, not, partial } from 'ramda'
+import {
+  append,
+  contains,
+  equals,
+  filter,
+  pipe,
+  not,
+  partial,
+  splitEvery,
+} from 'ramda'
 import Checkbox from '../Checkbox'
 
 import style from './style.css'
@@ -34,6 +43,8 @@ class CheckboxGroup extends React.Component {
       error,
       success,
       options,
+      className,
+      columns,
     } = this.props
 
     const secondaryTextClass = classnames(style.secondaryText, {
@@ -41,21 +52,40 @@ class CheckboxGroup extends React.Component {
       [style.success]: success,
     })
 
-    const checkboxes = options.map(({ value, label }) => (
-      <Checkbox
-        key={`${name}-${value}`}
-        name={`${name}-${value}`}
-        id={`${name}-${value}`}
-        value={value}
-        label={label}
-        checked={contains(value, values)}
-        onChange={partial(this.handleChange, [value])}
-        disabled={disabled}
-      />
-    ))
+    const rootClassName = classnames(
+      style.root,
+      className
+    )
+
+    const elementsByColumn = Math.ceil(options.length / columns)
+
+    const optionsSplitted =
+      splitEvery(elementsByColumn, options)
+
+    const hashList = list => list.map(({ value }) => `${value}`).join('')
+
+    const checkboxes =
+      optionsSplitted.map(list => (
+        <div key={hashList(list)}>
+          {
+            list.map(({ value, label }) => (
+              <Checkbox
+                key={`${name}-${value}`}
+                name={`${name}-${value}`}
+                id={`${name}-${value}`}
+                value={value}
+                label={label}
+                checked={contains(value, values)}
+                onChange={partial(this.handleChange, [value])}
+                disabled={disabled}
+              />
+            ))
+          }
+        </div>
+      ))
 
     return (
-      <div className={style.root}>
+      <div className={rootClassName}>
         {(success || error) &&
           <p className={secondaryTextClass}>
             {success || error}
@@ -82,12 +112,16 @@ CheckboxGroup.propTypes = {
   disabled: PropTypes.bool,
   error: PropTypes.string,
   success: PropTypes.string,
+  className: PropTypes.string,
+  columns: PropTypes.number,
 }
 
 CheckboxGroup.defaultProps = {
   disabled: false,
   error: '',
   success: '',
+  className: null,
+  columns: 1,
 }
 
 export default CheckboxGroup
