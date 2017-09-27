@@ -4774,6 +4774,1309 @@ exports[`Storyshots Dropdown success 1`] = `
 </div>
 `;
 
+exports[`Storyshots Filters Default 1`] = `
+<div
+  className=""
+>
+  <form
+    action="/"
+    method="post"
+    onSubmit={[Function]}
+  >
+    <div
+      className="undefined"
+      onClick={[Function]}
+      onKeyUp={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <div
+        className=""
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.8 6.6q0.4 0.9-0.3 1.5l-11 11.1v16.5q0 1-0.9 1.3-0.3 0.1-0.5 0.1-0.6 0-1-0.4l-5.7-5.7q-0.5-0.4-0.5-1v-10.8l-11-11q-0.7-0.7-0.3-1.6 0.4-0.9 1.3-0.9h28.6q0.9 0 1.3 0.9z"
+            />
+          </g>
+        </svg>
+        <h3>
+          Filtros
+        </h3>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m12.3 25.7l-2.3-2.3 10-10 10 10-2.3 2.3-7.7-7.7z"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <div
+              className={undefined}
+            >
+              <label
+                className={undefined}
+                htmlFor="always-the-same-string-1"
+              >
+                <input
+                  checked={true}
+                  className={undefined}
+                  disabled={false}
+                  id="always-the-same-string-1"
+                  name="always-the-same-string"
+                  onChange={[Function]}
+                  type="radio"
+                  value={1}
+                />
+                <span
+                  className={undefined}
+                >
+                  Hoje
+                </span>
+              </label>
+              <label
+                className={undefined}
+                htmlFor="always-the-same-string-7"
+              >
+                <input
+                  checked={false}
+                  className={undefined}
+                  disabled={false}
+                  id="always-the-same-string-7"
+                  name="always-the-same-string"
+                  onChange={[Function]}
+                  type="radio"
+                  value={7}
+                />
+                <span
+                  className={undefined}
+                >
+                  7 dias
+                </span>
+              </label>
+              <label
+                className={undefined}
+                htmlFor="always-the-same-string-15"
+              >
+                <input
+                  checked={false}
+                  className={undefined}
+                  disabled={false}
+                  id="always-the-same-string-15"
+                  name="always-the-same-string"
+                  onChange={[Function]}
+                  type="radio"
+                  value={15}
+                />
+                <span
+                  className={undefined}
+                >
+                  15 dias
+                </span>
+              </label>
+              <label
+                className={undefined}
+                htmlFor="always-the-same-string-30"
+              >
+                <input
+                  checked={false}
+                  className={undefined}
+                  disabled={false}
+                  id="always-the-same-string-30"
+                  name="always-the-same-string"
+                  onChange={[Function]}
+                  type="radio"
+                  value={30}
+                />
+                <span
+                  className={undefined}
+                >
+                  30 dias
+                </span>
+              </label>
+              <label
+                className={undefined}
+                htmlFor="always-the-same-string-60"
+              >
+                <input
+                  checked={false}
+                  className={undefined}
+                  disabled={false}
+                  id="always-the-same-string-60"
+                  name="always-the-same-string"
+                  onChange={[Function]}
+                  type="radio"
+                  value={60}
+                />
+                <span
+                  className={undefined}
+                >
+                  60 dias
+                </span>
+              </label>
+            </div>
+          </div>
+          <div
+            className="undefined"
+          >
+            <div
+              className={undefined}
+            >
+              <input
+                className={undefined}
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Busca"
+                type="search"
+                value=""
+              />
+              <button
+                className={undefined}
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  style={
+                    Object {
+                      "color": undefined,
+                      "verticalAlign": "middle",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                  width="1em"
+                >
+                  <g>
+                    <path
+                      d="m15.9 23.4c4.1 0 7.5-3.4 7.5-7.5s-3.4-7.5-7.5-7.5-7.5 3.3-7.5 7.5 3.3 7.5 7.5 7.5z m10 0l8.2 8.2-2.5 2.5-8.2-8.2v-1.4l-0.5-0.4c-1.9 1.6-4.4 2.5-7 2.5-6.1 0-10.9-4.7-10.9-10.7s4.8-10.9 10.9-10.9 10.7 4.8 10.7 10.9c0 2.6-0.9 5.1-2.5 7l0.4 0.5h1.4z"
+                    />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h4
+              className={undefined}
+            >
+              Formas de pagamento
+            </h4>
+            <div
+              className=""
+            >
+              <div
+                className=""
+              >
+                
+                <div>
+                  <div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Formas de pagamento-boleto-boleto"
+                        name="Formas de pagamento-boleto"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="boleto"
+                      />
+                      <label
+                        htmlFor="Formas de pagamento-boleto-boleto"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Boleto
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Formas de pagamento-credit_card-credit_card"
+                        name="Formas de pagamento-credit_card"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="credit_card"
+                      />
+                      <label
+                        htmlFor="Formas de pagamento-credit_card-credit_card"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Cartão de crédito
+                      </label>
+                      
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Formas de pagamento-debit_card-debit_card"
+                        name="Formas de pagamento-debit_card"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="debit_card"
+                      />
+                      <label
+                        htmlFor="Formas de pagamento-debit_card-debit_card"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Cartão de débito
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Formas de pagamento-foreign_credit_card-foreign_credit_card"
+                        name="Formas de pagamento-foreign_credit_card"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="foreign_credit_card"
+                      />
+                      <label
+                        htmlFor="Formas de pagamento-foreign_credit_card-foreign_credit_card"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Cartão de crédito estrangeiro
+                      </label>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className=""
+          >
+            <h4
+              className={undefined}
+            >
+              Razão de recusa
+            </h4>
+            <div
+              className=""
+            >
+              <div
+                className=""
+              >
+                
+                <div>
+                  <div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Razão de recusa-card_acquirer-card_acquirer"
+                        name="Razão de recusa-card_acquirer"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="card_acquirer"
+                      />
+                      <label
+                        htmlFor="Razão de recusa-card_acquirer-card_acquirer"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Operadora de cartão
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Razão de recusa-capture_timeout-capture_timeout"
+                        name="Razão de recusa-capture_timeout"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="capture_timeout"
+                      />
+                      <label
+                        htmlFor="Razão de recusa-capture_timeout-capture_timeout"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Timeout de captura
+                      </label>
+                      
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Razão de recusa-anti_fraud-anti_fraud"
+                        name="Razão de recusa-anti_fraud"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="anti_fraud"
+                      />
+                      <label
+                        htmlFor="Razão de recusa-anti_fraud-anti_fraud"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Antifraude
+                      </label>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className=""
+          >
+            <h4
+              className={undefined}
+            >
+              Modelo de negócio
+            </h4>
+            <div
+              className=""
+            >
+              <div
+                className=""
+              >
+                
+                <div>
+                  <div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Modelo de negócio-recurrence-recurrence"
+                        name="Modelo de negócio-recurrence"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="recurrence"
+                      />
+                      <label
+                        htmlFor="Modelo de negócio-recurrence-recurrence"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Recorrência
+                      </label>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className=""
+          >
+            <h4
+              className={undefined}
+            >
+              Status de transação
+            </h4>
+            <div
+              className=""
+            >
+              <div
+                className=""
+              >
+                
+                <div>
+                  <div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Status de transação-payed-payed"
+                        name="Status de transação-payed"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="payed"
+                      />
+                      <label
+                        htmlFor="Status de transação-payed-payed"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Paga
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Status de transação-refused-refused"
+                        name="Status de transação-refused"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="refused"
+                      />
+                      <label
+                        htmlFor="Status de transação-refused-refused"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Recusada
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Status de transação-reversed-reversed"
+                        name="Status de transação-reversed"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="reversed"
+                      />
+                      <label
+                        htmlFor="Status de transação-reversed-reversed"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Estornada
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Status de transação-pending_reversal-pending_reversal"
+                        name="Status de transação-pending_reversal"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="pending_reversal"
+                      />
+                      <label
+                        htmlFor="Status de transação-pending_reversal-pending_reversal"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Estorno pendente
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Status de transação-waiting_payment-waiting_payment"
+                        name="Status de transação-waiting_payment"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="waiting_payment"
+                      />
+                      <label
+                        htmlFor="Status de transação-waiting_payment-waiting_payment"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Aguardando pagamento
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Status de transação-processing-processing"
+                        name="Status de transação-processing"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="processing"
+                      />
+                      <label
+                        htmlFor="Status de transação-processing-processing"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Processando
+                      </label>
+                      
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Status de transação-chargeback-chargeback"
+                        name="Status de transação-chargeback"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="chargeback"
+                      />
+                      <label
+                        htmlFor="Status de transação-chargeback-chargeback"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Chargeback
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Status de transação-contested_chargeback-contested_chargeback"
+                        name="Status de transação-contested_chargeback"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="contested_chargeback"
+                      />
+                      <label
+                        htmlFor="Status de transação-contested_chargeback-contested_chargeback"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Chargeback reapresentado
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Status de transação-boleto_less_value-boleto_less_value"
+                        name="Status de transação-boleto_less_value"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="boleto_less_value"
+                      />
+                      <label
+                        htmlFor="Status de transação-boleto_less_value-boleto_less_value"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Boleto pago com valor inferior
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Status de transação-waiting_register-waiting_register"
+                        name="Status de transação-waiting_register"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="waiting_register"
+                      />
+                      <label
+                        htmlFor="Status de transação-waiting_register-waiting_register"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Esperando registro
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Status de transação-boleto_more_value-boleto_more_value"
+                        name="Status de transação-boleto_more_value"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="boleto_more_value"
+                      />
+                      <label
+                        htmlFor="Status de transação-boleto_more_value-boleto_more_value"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Boleto pago com valor superior
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Status de transação-authorized-authorized"
+                        name="Status de transação-authorized"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="authorized"
+                      />
+                      <label
+                        htmlFor="Status de transação-authorized-authorized"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Autorizada
+                      </label>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className=""
+          >
+            <h4
+              className={undefined}
+            >
+              Número de parcelas
+            </h4>
+            <div
+              className=""
+            >
+              <div
+                className=""
+              >
+                
+                <div>
+                  <div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Número de parcelas-1-1"
+                        name="Número de parcelas-1"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="1"
+                      />
+                      <label
+                        htmlFor="Número de parcelas-1-1"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        1x
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Número de parcelas-2-2"
+                        name="Número de parcelas-2"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="2"
+                      />
+                      <label
+                        htmlFor="Número de parcelas-2-2"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        2x
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Número de parcelas-3-3"
+                        name="Número de parcelas-3"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="3"
+                      />
+                      <label
+                        htmlFor="Número de parcelas-3-3"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        3x
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Número de parcelas-4-4"
+                        name="Número de parcelas-4"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="4"
+                      />
+                      <label
+                        htmlFor="Número de parcelas-4-4"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        4x
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Número de parcelas-5-5"
+                        name="Número de parcelas-5"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="5"
+                      />
+                      <label
+                        htmlFor="Número de parcelas-5-5"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        5x
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Número de parcelas-6-6"
+                        name="Número de parcelas-6"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="6"
+                      />
+                      <label
+                        htmlFor="Número de parcelas-6-6"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        6x
+                      </label>
+                      
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Número de parcelas-7-7"
+                        name="Número de parcelas-7"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="7"
+                      />
+                      <label
+                        htmlFor="Número de parcelas-7-7"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        7x
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Número de parcelas-8-8"
+                        name="Número de parcelas-8"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="8"
+                      />
+                      <label
+                        htmlFor="Número de parcelas-8-8"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        8x
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Número de parcelas-9-9"
+                        name="Número de parcelas-9"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="9"
+                      />
+                      <label
+                        htmlFor="Número de parcelas-9-9"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        9x
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Número de parcelas-10-10"
+                        name="Número de parcelas-10"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="10"
+                      />
+                      <label
+                        htmlFor="Número de parcelas-10-10"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        10x
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Número de parcelas-11-11"
+                        name="Número de parcelas-11"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="11"
+                      />
+                      <label
+                        htmlFor="Número de parcelas-11-11"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        11x
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Número de parcelas-12-12"
+                        name="Número de parcelas-12"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="12"
+                      />
+                      <label
+                        htmlFor="Número de parcelas-12-12"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        12x
+                      </label>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className=""
+          >
+            <h4
+              className={undefined}
+            >
+              Bandeiras
+            </h4>
+            <div
+              className=""
+            >
+              <div
+                className=""
+              >
+                
+                <div>
+                  <div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Bandeiras-visa-visa"
+                        name="Bandeiras-visa"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="visa"
+                      />
+                      <label
+                        htmlFor="Bandeiras-visa-visa"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Visa
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Bandeiras-elo-elo"
+                        name="Bandeiras-elo"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="elo"
+                      />
+                      <label
+                        htmlFor="Bandeiras-elo-elo"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Elo
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Bandeiras-aura-aura"
+                        name="Bandeiras-aura"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="aura"
+                      />
+                      <label
+                        htmlFor="Bandeiras-aura-aura"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Aura
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Bandeiras-amex-amex"
+                        name="Bandeiras-amex"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="amex"
+                      />
+                      <label
+                        htmlFor="Bandeiras-amex-amex"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Amex
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Bandeiras-discover-discover"
+                        name="Bandeiras-discover"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="discover"
+                      />
+                      <label
+                        htmlFor="Bandeiras-discover-discover"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Discover
+                      </label>
+                      
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Bandeiras-mastercard-mastercard"
+                        name="Bandeiras-mastercard"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="mastercard"
+                      />
+                      <label
+                        htmlFor="Bandeiras-mastercard-mastercard"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Mastercard
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Bandeiras-hipercard-hipercard"
+                        name="Bandeiras-hipercard"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="hipercard"
+                      />
+                      <label
+                        htmlFor="Bandeiras-hipercard-hipercard"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Hipercard
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Bandeiras-jcb-jcb"
+                        name="Bandeiras-jcb"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="jcb"
+                      />
+                      <label
+                        htmlFor="Bandeiras-jcb-jcb"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        JCB
+                      </label>
+                      
+                    </div>
+                    <div
+                      className="undefined"
+                    >
+                      <input
+                        checked={false}
+                        disabled={false}
+                        id="Bandeiras-diners-diners"
+                        name="Bandeiras-diners"
+                        onChange={[Function]}
+                        type="checkbox"
+                        value="diners"
+                      />
+                      <label
+                        htmlFor="Bandeiras-diners-diners"
+                      >
+                        <i
+                          className={undefined}
+                        />
+                        Diners
+                      </label>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className="undefined"
+          >
+            <button
+              className=""
+              onClick={[Function]}
+              type="button"
+            >
+              Limpar filtros
+            </button>
+            <button
+              className=""
+              onClick={null}
+              type="submit"
+            >
+              Filtrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
 exports[`Storyshots Grid Column sizes 1`] = `
 <div
   className={undefined}
