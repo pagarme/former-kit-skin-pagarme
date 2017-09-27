@@ -1,6 +1,10 @@
 import React from 'react'
 import shortid from 'shortid'
 import {
+  is,
+} from 'ramda'
+
+import {
   arrayOf,
   oneOfType,
   shape,
@@ -11,6 +15,8 @@ import {
   bool,
 } from 'prop-types'
 
+import moment from 'moment'
+
 import style from './style.css'
 import toolItemStyle from '../style.css'
 
@@ -19,12 +25,26 @@ class DateRange extends React.Component {
     super(props)
 
     this.name = shortid.generate()
+
+    this.handleChange = this.handleChange.bind(this)
+  }
+
+  handleChange (value) {
+    const response = {
+      value,
+    }
+
+    if (is(Number, value)) {
+      response.start = moment().add(-value, 'day').startOf('day')
+      response.end = moment().endOf('day')
+    }
+
+    this.props.onChange(response)
   }
 
   render () {
     const {
       items,
-      onChange,
       selected,
       disabled,
     } = this.props
@@ -43,7 +63,7 @@ class DateRange extends React.Component {
               id={`${this.name}-${value}`}
               value={value}
               disabled={disabled}
-              onChange={() => !disabled && onChange(value)}
+              onChange={() => !disabled && this.handleChange(value)}
               checked={selected === value}
               className={style.input}
             />

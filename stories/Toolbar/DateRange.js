@@ -34,6 +34,8 @@ const items = [
   },
 ]
 
+const dateRangeChanged = action('date change changed')
+
 class DateRangeState extends Component {
   constructor (props) {
     super(props)
@@ -45,8 +47,10 @@ class DateRangeState extends Component {
     this.handleChange = this.handleChange.bind(this)
   }
 
-  handleChange (selected) {
-    this.setState({ selected })
+  handleChange (payload) {
+    this.setState({ selected: payload.value })
+
+    dateRangeChanged(payload)
   }
 
   render () {
