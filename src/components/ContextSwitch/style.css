@@ -1,7 +1,7 @@
 @import "./properties.css";
 
 .root {
-  display: flex;
+  display: inline-flex;
   border-radius: var(--context-switch-border-radius);
   box-shadow: var(--context-switch-box-shadow);
 }

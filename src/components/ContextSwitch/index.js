@@ -24,14 +24,14 @@ const ContextSwitch = ({
   <div className={style.root}>
     {items.map((item, index) => (
       <label
-        key={`context-switch-${item}`}
+        key={`context-switch-${name}-label-${item}`}
         className={getClassName(selected, item)}
-        htmlFor={`${style.item}-${item}-${index}`}
+        htmlFor={`context-switch-${name}-input-${item}`}
       >
         <input
           className={style.itemInput}
-          id={`${style.item}-${item}-${index}`}
-          name={`${style.item}-${name}`}
+          id={`context-switch-${name}-input-${item}`}
+          name={`context-switch-${name}-input`}
           value={item}
           type="radio"
           checked={selected === item}

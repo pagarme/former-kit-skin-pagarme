@@ -3704,13 +3704,13 @@ exports[`Storyshots ContextSwitch All styles 1`] = `
     >
       <label
         className="undefined"
-        htmlFor="undefined-test-0"
+        htmlFor="context-switch-live-test-input-test"
       >
         <input
           checked={true}
           className={undefined}
-          id="undefined-test-0"
-          name="undefined-live-test"
+          id="context-switch-live-test-input-test"
+          name="context-switch-live-test-input"
           onChange={[Function]}
           type="radio"
           value="test"
@@ -3723,13 +3723,13 @@ exports[`Storyshots ContextSwitch All styles 1`] = `
       </label>
       <label
         className=""
-        htmlFor="undefined-live-1"
+        htmlFor="context-switch-live-test-input-live"
       >
         <input
           checked={false}
           className={undefined}
-          id="undefined-live-1"
-          name="undefined-live-test"
+          id="context-switch-live-test-input-live"
+          name="context-switch-live-test-input"
           onChange={[Function]}
           type="radio"
           value="live"
@@ -3751,13 +3751,13 @@ exports[`Storyshots ContextSwitch All styles 1`] = `
     >
       <label
         className=""
-        htmlFor="undefined-test-0"
+        htmlFor="context-switch-super-extra-input-test"
       >
         <input
           checked={false}
           className={undefined}
-          id="undefined-test-0"
-          name="undefined-super-extra"
+          id="context-switch-super-extra-input-test"
+          name="context-switch-super-extra-input"
           onChange={[Function]}
           type="radio"
           value="test"
@@ -3770,13 +3770,13 @@ exports[`Storyshots ContextSwitch All styles 1`] = `
       </label>
       <label
         className=""
-        htmlFor="undefined-live-1"
+        htmlFor="context-switch-super-extra-input-live"
       >
         <input
           checked={false}
           className={undefined}
-          id="undefined-live-1"
-          name="undefined-super-extra"
+          id="context-switch-super-extra-input-live"
+          name="context-switch-super-extra-input"
           onChange={[Function]}
           type="radio"
           value="live"
@@ -3789,13 +3789,13 @@ exports[`Storyshots ContextSwitch All styles 1`] = `
       </label>
       <label
         className="undefined"
-        htmlFor="undefined-super-test-2"
+        htmlFor="context-switch-super-extra-input-super-test"
       >
         <input
           checked={true}
           className={undefined}
-          id="undefined-super-test-2"
-          name="undefined-super-extra"
+          id="context-switch-super-extra-input-super-test"
+          name="context-switch-super-extra-input"
           onChange={[Function]}
           type="radio"
           value="super-test"
@@ -3808,13 +3808,13 @@ exports[`Storyshots ContextSwitch All styles 1`] = `
       </label>
       <label
         className=""
-        htmlFor="undefined-extra-live-3"
+        htmlFor="context-switch-super-extra-input-extra-live"
       >
         <input
           checked={false}
           className={undefined}
-          id="undefined-extra-live-3"
-          name="undefined-super-extra"
+          id="context-switch-super-extra-input-extra-live"
+          name="context-switch-super-extra-input"
           onChange={[Function]}
           type="radio"
           value="extra-live"
