@@ -9,6 +9,7 @@ import { action } from '@storybook/addon-actions'
 
 import { TabBar, TabItem } from '../../src/components/TabBar'
 
+
 const i18n = {
   TabBar: 'TabBar',
   MyAccount: 'Minha Conta',
@@ -28,11 +29,6 @@ const variantList = [
 
 const clicked = action('clicked')
 
-variantList.forEach((variant) => {
-  storiesOf(`${i18n.TabBar}`, module)
-    .add(variant.name, () => <Tab variant={variant.code} />)
-})
-
 class Tab extends React.Component {
   constructor(props) {
     super(props)
@@ -47,8 +43,8 @@ class Tab extends React.Component {
   render() {
     return (
       <TabBar
-        variant={this.props.variant} 
-        index={this.state.theChosen} 
+        variant={this.props.variant}
+        index={this.state.theChosen}
         onTabChange={this.changeTab}
       >
         <TabItem
