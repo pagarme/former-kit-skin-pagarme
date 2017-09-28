@@ -1,5 +1,6 @@
 import initStoryshots, { snapshotWithOptions } from '@storybook/addon-storyshots'
 import MockDate from 'mockdate'
+import React from 'react'
 
 MockDate.set(1506815400000)
 
@@ -33,3 +34,10 @@ jest.mock('react-dom', () => ({
 global.getComputedStyle = () => ({
   styleSheets: {},
 })
+
+jest.mock('react-modal', () => (
+  // eslint-disable-next-line react/prop-types
+  ({ children }) => (
+    <div className="modal">{children}</div>
+  )
+))

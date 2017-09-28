@@ -16,3 +16,5 @@ import './ContextSwitch'
 import './Filters'
 import './Legend'
 import './DateSelector'
+import './Modal'
+
