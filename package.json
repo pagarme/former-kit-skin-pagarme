@@ -68,7 +68,7 @@
     "lint": "eslint './src/**/*.js' && stylelint './src/**/*.css'",
     "test": "node scripts/test.js --env=jsdom",
     "storybook": "start-storybook -p 6006",
-    "percy": "build-storybook && percy-storybook --widths=640,1280",
+    "percy": "build-storybook && percy-storybook --widths=1920",
     "build-storybook": "build-storybook"
   },
   "jest": {
