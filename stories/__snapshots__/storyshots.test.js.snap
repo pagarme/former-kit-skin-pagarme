@@ -4059,155 +4059,142 @@ exports[`Storyshots Colors Light background color 1`] = `
 </div>
 `;
 
-exports[`Storyshots ContextSwitch More Options 1`] = `
+exports[`Storyshots ContextSwitch All styles 1`] = `
 <div
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#eee",
-      "display": "flex",
-      "height": "500px",
-      "justifyContent": "center",
-    }
-  }
+  className={undefined}
 >
-  <div
-    className={undefined}
-  >
-    <label
-      className=""
-      htmlFor="undefined-test-0"
+  <section>
+    <h2>
+      Two options
+    </h2>
+    <div
+      className={undefined}
     >
-      <input
-        checked={false}
-        className={undefined}
-        id="undefined-test-0"
-        name="undefined-super-extra"
-        onChange={[Function]}
-        type="radio"
-        value="test"
-      />
-      <span
-        className={undefined}
+      <label
+        className="undefined"
+        htmlFor="undefined-test-0"
       >
-        test
-      </span>
-    </label>
-    <label
-      className=""
-      htmlFor="undefined-live-1"
+        <input
+          checked={true}
+          className={undefined}
+          id="undefined-test-0"
+          name="undefined-live-test"
+          onChange={[Function]}
+          type="radio"
+          value="test"
+        />
+        <span
+          className={undefined}
+        >
+          test
+        </span>
+      </label>
+      <label
+        className=""
+        htmlFor="undefined-live-1"
+      >
+        <input
+          checked={false}
+          className={undefined}
+          id="undefined-live-1"
+          name="undefined-live-test"
+          onChange={[Function]}
+          type="radio"
+          value="live"
+        />
+        <span
+          className={undefined}
+        >
+          live
+        </span>
+      </label>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Four options
+    </h2>
+    <div
+      className={undefined}
     >
-      <input
-        checked={false}
-        className={undefined}
-        id="undefined-live-1"
-        name="undefined-super-extra"
-        onChange={[Function]}
-        type="radio"
-        value="live"
-      />
-      <span
-        className={undefined}
+      <label
+        className=""
+        htmlFor="undefined-test-0"
       >
-        live
-      </span>
-    </label>
-    <label
-      className="undefined"
-      htmlFor="undefined-super-test-2"
-    >
-      <input
-        checked={true}
-        className={undefined}
-        id="undefined-super-test-2"
-        name="undefined-super-extra"
-        onChange={[Function]}
-        type="radio"
-        value="super-test"
-      />
-      <span
-        className={undefined}
+        <input
+          checked={false}
+          className={undefined}
+          id="undefined-test-0"
+          name="undefined-super-extra"
+          onChange={[Function]}
+          type="radio"
+          value="test"
+        />
+        <span
+          className={undefined}
+        >
+          test
+        </span>
+      </label>
+      <label
+        className=""
+        htmlFor="undefined-live-1"
       >
-        super-test
-      </span>
-    </label>
-    <label
-      className=""
-      htmlFor="undefined-extra-live-3"
-    >
-      <input
-        checked={false}
-        className={undefined}
-        id="undefined-extra-live-3"
-        name="undefined-super-extra"
-        onChange={[Function]}
-        type="radio"
-        value="extra-live"
-      />
-      <span
-        className={undefined}
+        <input
+          checked={false}
+          className={undefined}
+          id="undefined-live-1"
+          name="undefined-super-extra"
+          onChange={[Function]}
+          type="radio"
+          value="live"
+        />
+        <span
+          className={undefined}
+        >
+          live
+        </span>
+      </label>
+      <label
+        className="undefined"
+        htmlFor="undefined-super-test-2"
       >
-        extra-live
-      </span>
-    </label>
-  </div>
-</div>
-`;
-
-exports[`Storyshots ContextSwitch Two Options 1`] = `
-<div
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#eee",
-      "display": "flex",
-      "height": "500px",
-      "justifyContent": "center",
-    }
-  }
->
-  <div
-    className={undefined}
-  >
-    <label
-      className="undefined"
-      htmlFor="undefined-test-0"
-    >
-      <input
-        checked={true}
-        className={undefined}
-        id="undefined-test-0"
-        name="undefined-live-test"
-        onChange={[Function]}
-        type="radio"
-        value="test"
-      />
-      <span
-        className={undefined}
+        <input
+          checked={true}
+          className={undefined}
+          id="undefined-super-test-2"
+          name="undefined-super-extra"
+          onChange={[Function]}
+          type="radio"
+          value="super-test"
+        />
+        <span
+          className={undefined}
+        >
+          super-test
+        </span>
+      </label>
+      <label
+        className=""
+        htmlFor="undefined-extra-live-3"
       >
-        test
-      </span>
-    </label>
-    <label
-      className=""
-      htmlFor="undefined-live-1"
-    >
-      <input
-        checked={false}
-        className={undefined}
-        id="undefined-live-1"
-        name="undefined-live-test"
-        onChange={[Function]}
-        type="radio"
-        value="live"
-      />
-      <span
-        className={undefined}
-      >
-        live
-      </span>
-    </label>
-  </div>
+        <input
+          checked={false}
+          className={undefined}
+          id="undefined-extra-live-3"
+          name="undefined-super-extra"
+          onChange={[Function]}
+          type="radio"
+          value="extra-live"
+        />
+        <span
+          className={undefined}
+        >
+          extra-live
+        </span>
+      </label>
+    </div>
+  </section>
 </div>
 `;
 
