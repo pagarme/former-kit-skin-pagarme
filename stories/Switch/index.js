@@ -5,12 +5,10 @@ import { action } from '@storybook/addon-actions'
 
 import Switch from '../../src/components/Switch'
 
-const Row = ({ children })=> (
-  <div style={{ padding: '0.5em' }}>{children}</div>
-)
+import style from './style.css'
 
 
-class SwitchMeWell extends Component {
+class SwitchState extends Component {
   constructor (props) {
     super(props)
 
@@ -21,36 +19,32 @@ class SwitchMeWell extends Component {
 
   render () {
     return (
-      <div>
-        <Switch
-          disabled={this.props.disabled}
-          checked={this.state.value}
-          onChange={value => this.setState({ value })}
-        />  
-      </div>
+      <Switch
+        disabled={this.props.disabled}
+        checked={this.state.value}
+        onChange={value => this.setState({ value })}
+      />
     )
   }
 }
 
 storiesOf('Switch', module)
-  .add('checked', () => (
-    <div>
-      <Row>
-        <SwitchMeWell checked />
-      </Row>
+  .add('All styles', () => (
+    <div className={style.container}>
+      <section>
+        <h2>Enabled</h2>
+        <p>Checked</p>
+        <SwitchState checked />
+        <p>Unchecked</p>
+        <SwitchState checked={false} />
+      </section>
+      <section>
+        <h2>Disabled</h2>
+        <p>Checked</p>
+        <SwitchState disabled checked />
+        <p>Unchecked</p>
+        <SwitchState disabled checked={false} />
+      </section>
+    </div>
+  ))
 
-      <Row>
-        <SwitchMeWell checked={false} />
-      </Row>
-    </div>
-  ))
-  .add('disabled', () => (
-    <div>
-      <Row>
-        <SwitchMeWell disabled checked /> 
-      </Row>
-      <Row>
-        <SwitchMeWell disabled checked={false} /> 
-      </Row>
-    </div>
-  ))

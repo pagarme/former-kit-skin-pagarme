@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.container > * {
+  margin-left: 25px;
+}
+
+.container > *:first-child {
+  margin-left: unset;
+}
