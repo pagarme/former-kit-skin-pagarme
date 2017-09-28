@@ -136,23 +136,27 @@ const TitleTextAdvanced = () => (
 )
 
 storiesOf('Cards', module)
-  .add(
-    'Title and content',
-    TitleText
-  )
-  .add(
-    'Title, icon and content',
-    TitleIcon
-  )
-  .add(
-    'Title, content and actions',
-    TitleTextActions
-  )
-  .add(
-    'Graphic, title, content and actions',
-    GraphicTitleTextActions
-  )
-  .add(
-    'Title on event handler',
-    TitleTextAdvanced
-  )
+  .add('All styles', () => (
+    <div>
+      <section>
+        <h2>Title and content</h2>
+        <TitleText />
+      </section>
+      <section>
+        <h2>Title, icon and content</h2>
+        <TitleIcon />
+      </section>
+      <section>
+        <h2>Title, content and actions</h2>
+        <TitleTextActions />
+      </section>
+      <section>
+        <h2>Graphic, title, content and actions</h2>
+        <GraphicTitleTextActions />
+      </section>
+      <section>
+        <h2>Title on event handler</h2>
+        <TitleTextAdvanced />
+      </section>
+    </div>
+  ))
