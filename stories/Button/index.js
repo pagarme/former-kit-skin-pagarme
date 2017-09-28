@@ -1,5 +1,7 @@
 import React from 'react'
 
+import classNames from 'classnames'
+
 import IconMyAccount from 'react-icons/lib/md/face'
 import IconLogoff from 'react-icons/lib/fa/power-off'
 import IconExport from 'react-icons/lib/fa/external-link'
@@ -16,33 +18,50 @@ import { action } from '@storybook/addon-actions'
 import Button from '../../src/components/Button'
 import stylesheet from './style.css'
 
-const i18n = {
-  Button: 'Botão',
-  Light: 'Base Clara',
-  Dark: 'Base Escura',
-  MyAccount: 'Minha Conta',
-  Logoff: 'Desconectar',
-  Export: 'Exportar',
-  Copy: 'Copiar',
-  Delete: 'Excluir',
-  Add: 'Adicionar',
-  Docs: 'Documentação',
-  Letter: 'Carta de Circulação',
-  Upload: 'Fazer Upload',
-  Flat: 'Plano (padrão)',
-  Gradient: 'Gradiente',
-  Outline: 'Contorno',
-  Dashed: 'Tracejado',
-  Clean: 'Sem fundo',
-  SizesAndShapes: 'Tamanhos e Formas',
-  Iconed: 'Com ícones',
-  Block: 'Bloco',
-  Sizes: 'Tamanhos',
+const strings = {
+  AllStyles: 'All styles',
+  Button: 'Button',
+  Label: 'Button Label',
+  Light: 'Light base',
+  Dark: 'Dark base',
+  MyAccount: 'My Account',
+  Logoff: 'Disconnect',
+  Export: 'Export',
+  Copy: 'Copy',
+  Delete: 'Delete',
+  Add: 'Add',
+  Docs: 'Documentation',
+  Letter: 'Get Letter',
+  Upload: 'Upload',
+  Flat: 'Flat',
+  Gradient: 'Gradient',
+  Outline: 'Outlined',
+  Dashed: 'Dashed',
+  Clean: 'Clean',
+  Iconed: 'With icons',
+  Block: 'Block',
+  Sizes: 'Sizes',
 }
 
-const parentList = [
-  { base: 'light', name: i18n.Light, style: { padding: '20px', background: '#FFF' } },
-  { base: 'dark', name: i18n.Dark, style: { padding: '20px', background: '#333' } },
+const baseList = [
+  {
+    base: 'light',
+    name: strings.Light,
+    style: {
+      padding: '20px',
+      background: '#FFF',
+      color: '#000',
+    },
+  },
+  {
+    base: 'dark',
+    name: strings.Dark,
+    style: {
+      padding: '20px',
+      background: '#333',
+      color: '#FFF',
+    },
+  },
 ]
 
 const colorList = [
@@ -59,15 +78,15 @@ const colorList = [
 ]
 
 const iconList = [
-  { component: IconMyAccount, text: i18n.MyAccount },
-  { component: IconLogoff, text: i18n.Logoff },
-  { component: IconExport, text: i18n.Export },
-  { component: IconCopy, text: i18n.Copy },
-  { component: IconDelete, text: i18n.Delete },
-  { component: IconAdd, text: i18n.Add },
-  { component: IconDocs, text: i18n.Docs },
-  { component: IconLetter, text: i18n.Letter },
-  { component: IconUpload, text: i18n.Upload },
+  { component: IconMyAccount, text: strings.MyAccount },
+  { component: IconLogoff, text: strings.Logoff },
+  { component: IconExport, text: strings.Export },
+  { component: IconCopy, text: strings.Copy },
+  { component: IconDelete, text: strings.Delete },
+  { component: IconAdd, text: strings.Add },
+  { component: IconDocs, text: strings.Docs },
+  { component: IconLetter, text: strings.Letter },
+  { component: IconUpload, text: strings.Upload },
 ]
 
 const sizeList = [
@@ -94,54 +113,70 @@ function buttonAllColors (parent, children, variant) {
   )
 }
 
-parentList.forEach((base) => {
-  storiesOf(`${i18n.Button}/Aplicações ${base.name}`, module)
-    .add(i18n.Flat, () =>
-      buttonAllColors(base, `${i18n.Button} ${i18n.Flat}`, 'flat'))
-    .add(i18n.Gradient, () =>
-      buttonAllColors(base, `${i18n.Button} ${i18n.Gradient}`, 'gradient'))
-    .add(i18n.Outline, () =>
-      buttonAllColors(base, `${i18n.Button} ${i18n.Outline}`, 'outline'))
-    .add(i18n.Dashed, () =>
-      buttonAllColors(base, `${i18n.Button} ${i18n.Dashed}`, 'dashed'))
-    .add(i18n.Clean, () =>
-      buttonAllColors(base, `${i18n.Button} ${i18n.Clean}`, 'clean'))
-})
 
-storiesOf(`${i18n.Button}/${i18n.SizesAndShapes}`, module)
-
-  .add(i18n.Iconed, () => (
-    <div className={stylesheet.buttonCollection}>
-      {iconList.map(icon => (
-        <Button key={icon.text} onClick={clicked}>
-          {icon.component()}
-          {icon.text}
-        </Button>
-      ))}
-    </div>
-  ))
-
-  .add(i18n.Block, () => (
-    <div className={stylesheet.buttonBlock}>
-      {[1, 2, 3].map(n => (
-        <Button
-          key={`block-${n}`}
-          onClick={clicked}
-          variant="block"
+storiesOf(strings.Button, module)
+  .add(strings.AllStyles, () => (
+    <div>
+      {baseList.map(({ base, name, style }) => (
+        <section
+          key={`${base}-${name}`}
+          className={classNames({
+            [stylesheet[`section-${base}`]]: true,
+          })}
+          style={style}
         >
-          {i18n.Button} {i18n.Block}
-        </Button>)
-      )}
+          <h2>Styles in {name}</h2>
+          <p>{strings.Flat}</p>
+          {buttonAllColors(base, `${strings.Label}`, 'flat')}
+
+          <p>{strings.Gradient}</p>
+          {buttonAllColors(base, `${strings.Label}`, 'gradient')}
+
+          <p>{strings.Outline}</p>
+          {buttonAllColors(base, `${strings.Label}`, 'outline')}
+
+          <p>{strings.Dashed}</p>
+          {buttonAllColors(base, `${strings.Label}`, 'dashed')}
+
+          <p>{strings.Clean}</p>
+          {buttonAllColors(base, `${strings.Label}`, 'clean')}
+        </section>
+      ))}
+
+      <section>
+        <h2>Variations</h2>
+
+        <p>{strings.Iconed}</p>
+        <div className={stylesheet.buttonCollection}>
+          {iconList.map(icon => (
+            <Button key={icon.text} onClick={clicked}>
+              {icon.component()}
+              {icon.text}
+            </Button>
+          ))}
+        </div>
+
+        <p>{strings.Block}</p>
+        <div className={stylesheet.buttonBlock}>
+          {[1, 2, 3].map(n => (
+            <Button
+              key={`block-${n}`}
+              onClick={clicked}
+              variant="block"
+            >
+              {strings.Button} {strings.Block}
+            </Button>)
+          )}
+        </div>
+
+        <p>{strings.Sizes}</p>
+        <div className={stylesheet.buttonColumn}>
+          {sizeList.map(size => (
+            <Button key={size} onClick={clicked} size={size}>
+              {strings.Button}
+            </Button>
+          ))}
+        </div>
+      </section>
     </div>
   ))
-
-  .add(i18n.Sizes, () =>
-    (<div className={stylesheet.buttonColumn}>
-      {sizeList.map(size => (
-        <Button key={size} onClick={clicked} size={size}>
-          {i18n.Button}
-        </Button>
-      ))}
-    </div>)
-  )
-

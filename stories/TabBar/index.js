@@ -76,3 +76,16 @@ class Tab extends React.Component {
     )
   }
 }
+
+storiesOf(`${i18n.TabBar}`, module)
+  .add('All styles', () => (
+    <div>
+      {variantList.map((variant) => (
+        <section key={variant.name}>
+          <p>{variant.name}</p>
+          <Tab variant={variant.code} />
+        </section>
+      ))}
+    </div>
+  ))
+
