@@ -9732,7 +9732,7 @@ exports[`Storyshots Progress Circular 1`] = `
       >
         <defs>
           <linearGradient
-            id="linear-light"
+            id="linear-light-disabled"
             x1="0%"
             x2="100%"
             y1="0%"
@@ -9758,7 +9758,7 @@ exports[`Storyshots Progress Circular 1`] = `
           className={undefined}
           d="M 40,160A 90 90 0 1 1 160 160"
           fill="transparent"
-          stroke="url(#linear-light)"
+          stroke="url(#linear-light-disabled)"
           style={
             Object {
               "strokeDashoffset": "730px",
@@ -9793,7 +9793,7 @@ exports[`Storyshots Progress Circular 1`] = `
       >
         <defs>
           <linearGradient
-            id="linear-light"
+            id="linear-light-disabled"
             x1="0%"
             x2="100%"
             y1="0%"
@@ -9819,7 +9819,7 @@ exports[`Storyshots Progress Circular 1`] = `
           className={undefined}
           d="M 40,160A 90 90 0 1 1 160 160"
           fill="transparent"
-          stroke="url(#linear-light)"
+          stroke="url(#linear-light-disabled)"
           style={
             Object {
               "strokeDashoffset": "730px",
@@ -9854,7 +9854,7 @@ exports[`Storyshots Progress Circular 1`] = `
       >
         <defs>
           <linearGradient
-            id="linear-light"
+            id="linear-light-disabled"
             x1="0%"
             x2="100%"
             y1="0%"
@@ -9880,7 +9880,7 @@ exports[`Storyshots Progress Circular 1`] = `
           className={undefined}
           d="M 40,160A 90 90 0 1 1 160 160"
           fill="transparent"
-          stroke="url(#linear-light)"
+          stroke="url(#linear-light-disabled)"
           style={
             Object {
               "strokeDashoffset": "730px",
@@ -9915,7 +9915,7 @@ exports[`Storyshots Progress Circular 1`] = `
       >
         <defs>
           <linearGradient
-            id="linear-light"
+            id="linear-light-disabled"
             x1="0%"
             x2="100%"
             y1="0%"
@@ -9941,7 +9941,7 @@ exports[`Storyshots Progress Circular 1`] = `
           className={undefined}
           d="M 40,160A 90 90 0 1 1 160 160"
           fill="transparent"
-          stroke="url(#linear-light)"
+          stroke="url(#linear-light-disabled)"
           style={
             Object {
               "strokeDashoffset": "730px",
@@ -9976,7 +9976,7 @@ exports[`Storyshots Progress Circular 1`] = `
       >
         <defs>
           <linearGradient
-            id="linear-light"
+            id="linear-light-disabled"
             x1="0%"
             x2="100%"
             y1="0%"
@@ -10002,7 +10002,7 @@ exports[`Storyshots Progress Circular 1`] = `
           className={undefined}
           d="M 40,160A 90 90 0 1 1 160 160"
           fill="transparent"
-          stroke="url(#linear-light)"
+          stroke="url(#linear-light-disabled)"
           style={
             Object {
               "strokeDashoffset": "730px",

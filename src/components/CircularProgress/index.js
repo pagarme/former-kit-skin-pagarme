@@ -57,7 +57,7 @@ const Circular = ({
       >
         <defs>
           <linearGradient
-            id="linear-light"
+            id={`linear-light${disabled ? '-disabled' : ''}`}
             x1="0%"
             y1="0%"
             x2="100%"
@@ -93,7 +93,7 @@ const Circular = ({
             <path
               d={arc}
               fill="transparent"
-              stroke={'url(#linear-light)'}
+              stroke={`url(#linear-light${disabled ? '-disabled' : ''})`}
               className={style.fill}
               style={{
                 strokeDashoffset: `${round(motion.offset)}px`,
