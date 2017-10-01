@@ -13,6 +13,8 @@ import {
   businessModel,
 } from '../../src/shared'
 
+import style from './style.css'
+
 const dateRanges = [
   {
     value: 1,
@@ -47,9 +49,11 @@ const filters = [
 
 storiesOf('Filters', module)
   .add('Default', () => (
-    <Filters
-      dateRanges={dateRanges}
-      sections={filters}
-      onFilter={action('filters submitted')}
-    />
+    <div className={style.root}>
+      <Filters
+        dateRanges={dateRanges}
+        sections={filters}
+        onFilter={action('filters submitted')}
+      />
+    </div>
   ))
