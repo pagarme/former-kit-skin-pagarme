@@ -1590,7 +1590,13 @@ exports[`Storyshots Colors Dark background color 1`] = `
   }
 >
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#FFFFFF",
+        }
+      }
+    >
       Green
     </h1>
     <div
@@ -1855,7 +1861,13 @@ exports[`Storyshots Colors Dark background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#FFFFFF",
+        }
+      }
+    >
       Silver
     </h1>
     <div
@@ -1932,7 +1944,13 @@ exports[`Storyshots Colors Dark background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#FFFFFF",
+        }
+      }
+    >
       Plumb
     </h1>
     <div
@@ -2009,7 +2027,13 @@ exports[`Storyshots Colors Dark background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#FFFFFF",
+        }
+      }
+    >
       Yellow
     </h1>
     <div
@@ -2138,7 +2162,13 @@ exports[`Storyshots Colors Dark background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#FFFFFF",
+        }
+      }
+    >
       Red
     </h1>
     <div
@@ -2215,7 +2245,13 @@ exports[`Storyshots Colors Dark background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#FFFFFF",
+        }
+      }
+    >
       Blue
     </h1>
     <div
@@ -2292,7 +2328,13 @@ exports[`Storyshots Colors Dark background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#FFFFFF",
+        }
+      }
+    >
       Purple
     </h1>
     <div
@@ -2389,7 +2431,13 @@ exports[`Storyshots Colors Dark background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#FFFFFF",
+        }
+      }
+    >
       Pink
     </h1>
     <div
@@ -2518,7 +2566,13 @@ exports[`Storyshots Colors Dark background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#FFFFFF",
+        }
+      }
+    >
       Named Colors
     </h1>
     <div
@@ -2608,7 +2662,13 @@ exports[`Storyshots Colors Light background color 1`] = `
   }
 >
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#111111",
+        }
+      }
+    >
       Green
     </h1>
     <div
@@ -2873,7 +2933,13 @@ exports[`Storyshots Colors Light background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#111111",
+        }
+      }
+    >
       Silver
     </h1>
     <div
@@ -2950,7 +3016,13 @@ exports[`Storyshots Colors Light background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#111111",
+        }
+      }
+    >
       Plumb
     </h1>
     <div
@@ -3027,7 +3099,13 @@ exports[`Storyshots Colors Light background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#111111",
+        }
+      }
+    >
       Yellow
     </h1>
     <div
@@ -3124,7 +3202,13 @@ exports[`Storyshots Colors Light background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#111111",
+        }
+      }
+    >
       Red
     </h1>
     <div
@@ -3201,7 +3285,13 @@ exports[`Storyshots Colors Light background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#111111",
+        }
+      }
+    >
       Blue
     </h1>
     <div
@@ -3278,7 +3368,13 @@ exports[`Storyshots Colors Light background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#111111",
+        }
+      }
+    >
       Purple
     </h1>
     <div
@@ -3375,7 +3471,13 @@ exports[`Storyshots Colors Light background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#111111",
+        }
+      }
+    >
       Pink
     </h1>
     <div
@@ -3504,7 +3606,13 @@ exports[`Storyshots Colors Light background color 1`] = `
     </div>
   </div>
   <div>
-    <h1>
+    <h1
+      style={
+        Object {
+          "color": "#111111",
+        }
+      }
+    >
       Named Colors
     </h1>
     <div

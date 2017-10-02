@@ -281,7 +281,7 @@ const Colors = ({ spec: { swatches, backgroundColor, fontColor: color } }) => (
   <div className={style.container} style={{ backgroundColor, color }}>
     {swatches.map(({ title, colors: colorGroup }) => (
       <div key={title}>
-        <h1>{title}</h1>
+        <h1 style={{ color }}>{title}</h1>
         <div className={style.container}>
           {colorGroup.map(colorList => (
             <div key={colorList.join('')} className={style.column}>
