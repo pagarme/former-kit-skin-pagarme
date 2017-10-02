@@ -171,6 +171,9 @@
   font-size: 14px;
   line-height: 20px;
   padding-bottom: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+  word-break: break-word;
 }
 
 .boxed > textarea,
