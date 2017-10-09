@@ -25,3 +25,5 @@ yarn-error.log*
 
 *.swp
 *.swo
+
+./storybook-static/

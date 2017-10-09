@@ -1688,6 +1688,14 @@ npm run analyze
 
 `npm run build` creates a `build` directory with a production build of your app. Set up your favourite HTTP server so that a visitor to your site is served `index.html`, and requests to static paths like `/static/js/main.<hash>.js` are served with the contents of the `/static/js/main.<hash>.js` file.
 
+## GitHub Pages Preview
+
+You can publish storybook's static files at GitHub Pages to easily share it with friends around the world. To do that
+run `yarn publish-preview` or `npm run publish-preview` inside the webapp folder.
+
+GitHub will fire a webhook called `Deployment success` meaning it was successfully published.
+Be aware that you can unintentionally override published content at gh-pages, be sure to check it before publishing.
+
 ### Static Server
 
 For environments using [Node](https://nodejs.org/), the easiest way to handle this would be to install [serve](https://github.com/zeit/serve) and let it handle the rest:
