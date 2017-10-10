@@ -1,0 +1,13 @@
+:root {
+  --legend-label-default-color: #ffffff;
+  --legend-label-font-size: 10px;
+  --legend-label-border-radius: 3px;
+  --legend-label-padding: 4px;
+  --legend-label-min-width: 15px;
+
+  --legend-outline-color: #000000;
+  --legend-outline-background-color: #ffffff;
+
+  --legend-text-font-size: 10px;
+  --legend-text-margin-left: 8px;
+}

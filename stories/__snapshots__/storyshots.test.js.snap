@@ -9406,6 +9406,281 @@ exports[`Storyshots Grid Size combinations 1`] = `
 </div>
 `;
 
+exports[`Storyshots Legend all 1`] = `
+<div>
+  <div>
+    Without acronym prop
+    <div
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    >
+      <div
+        className={undefined}
+      >
+        <abbr
+          className=""
+          title="Paga"
+        >
+          P
+        </abbr>
+        <span
+          className={undefined}
+        >
+          Paga
+        </span>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    >
+      <div
+        className={undefined}
+      >
+        <abbr
+          className=""
+          title="Autorizada"
+        >
+          A
+        </abbr>
+        <span
+          className={undefined}
+        >
+          Autorizada
+        </span>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    >
+      <div
+        className={undefined}
+      >
+        <abbr
+          className=""
+          title="Estornada"
+        >
+          E
+        </abbr>
+        <span
+          className={undefined}
+        >
+          Estornada
+        </span>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    >
+      <div
+        className={undefined}
+      >
+        <abbr
+          className=""
+          title="Aguardando registro"
+        >
+          AR
+        </abbr>
+        <span
+          className={undefined}
+        >
+          Aguardando registro
+        </span>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    >
+      <div
+        className={undefined}
+      >
+        <abbr
+          className=""
+          title="Recusada"
+        >
+          R
+        </abbr>
+        <span
+          className={undefined}
+        >
+          Recusada
+        </span>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    >
+      <div
+        className={undefined}
+      >
+        <abbr
+          className=""
+          title="Estorno pendente"
+        >
+          EP
+        </abbr>
+        <span
+          className={undefined}
+        >
+          Estorno pendente
+        </span>
+      </div>
+    </div>
+  </div>
+  <div>
+    With acronym prop
+    <div
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    >
+      <div
+        className={undefined}
+      >
+        <abbr
+          className=""
+          title="Processando"
+        >
+          PR
+        </abbr>
+        <span
+          className={undefined}
+        >
+          Processando
+        </span>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    >
+      <div
+        className={undefined}
+      >
+        <abbr
+          className=""
+          title="Boleto pago com valor inferior"
+        >
+          BPVI
+        </abbr>
+        <span
+          className={undefined}
+        >
+          Boleto pago com valor inferior
+        </span>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    >
+      <div
+        className={undefined}
+      >
+        <abbr
+          className=""
+          title="Chargeback Reapresentado"
+        >
+          CBR
+        </abbr>
+        <span
+          className={undefined}
+        >
+          Chargeback Reapresentado
+        </span>
+      </div>
+    </div>
+  </div>
+  <div>
+    With hideLabel prop
+    <div
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    >
+      <div
+        className={undefined}
+      >
+        <abbr
+          className=""
+          title="Boleto pago com valor superior"
+        >
+          BPVS
+        </abbr>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    >
+      <div
+        className={undefined}
+      >
+        <abbr
+          className=""
+          title="Chargeback"
+        >
+          CB
+        </abbr>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+    >
+      <div
+        className={undefined}
+      >
+        <abbr
+          className=""
+          title="Aguardando pagamento"
+        >
+          AP
+        </abbr>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Progress Circular 1`] = `
 <div
   className={undefined}

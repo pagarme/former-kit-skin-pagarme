@@ -30,6 +30,7 @@ module.exports = {
               plugins: () => [
                 require('stylelint'),
                 require('postcss-sass-each'),
+                require('postcss-mixins'),
                 require('postcss-import'),
                 require('postcss-url')({
                   url: postcssUrlRebase,
@@ -66,6 +67,7 @@ module.exports = {
               ident: 'postcss',
               plugins: () => [
                 require('postcss-sass-each'),
+                require('postcss-mixins'),
                 require('postcss-import'),
                 require('postcss-url')({
                   url: postcssUrlRebase,

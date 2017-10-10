@@ -39,6 +39,7 @@
     "postcss-cssnext": "3.0.2",
     "postcss-import": "10.0.0",
     "postcss-loader": "2.0.6",
+    "postcss-mixins": "6.1.1",
     "postcss-sass-each": "0.1.0",
     "postcss-url": "7.1.2",
     "promise": "8.0.1",
@@ -126,7 +127,9 @@
         true,
         {
           "ignoreAtRules": [
-            "each"
+            "each",
+            "mixin",
+            "define-mixin"
           ]
         }
       ]

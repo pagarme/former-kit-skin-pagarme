@@ -139,6 +139,7 @@ module.exports = {
               plugins: () => [
                 require('stylelint'),
                 require('postcss-sass-each'),
+                require('postcss-mixins'),
                 require('postcss-import'),
                 require('postcss-url')({
                   url: postcssUrlRebase,
