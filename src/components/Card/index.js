@@ -10,6 +10,8 @@ import {
 
 import style from './style.css'
 
+import CardSection from './CardSection'
+
 
 const Card = ({ className, children }) => (
   <div className={classnames(className, style.card)}>
@@ -132,5 +134,5 @@ export {
   CardGraphic,
   CardTitle,
   CardActions,
+  CardSection,
 }
-

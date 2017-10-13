@@ -1576,6 +1576,131 @@ exports[`Storyshots Cards All styles 1`] = `
       </div>
     </div>
   </section>
+  <section>
+    <h2>
+      Card section with collapsible content
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem title
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className={undefined}
+          >
+            <a
+              className={undefined}
+              onClick={[Function]}
+              role="button"
+              tabIndex="0"
+            >
+              <h2
+                className={undefined}
+              >
+                Title opened
+                <svg
+                  className="undefined"
+                  fill="currentColor"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  style={
+                    Object {
+                      "color": undefined,
+                      "verticalAlign": "middle",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                  width="1em"
+                >
+                  <g>
+                    <path
+                      d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                    />
+                  </g>
+                </svg>
+              </h2>
+            </a>
+            <div
+              className={undefined}
+            >
+              
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel
+blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan.
+In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis
+sapien vel malesuada sodales. Curabitur hendrerit purus sed ex
+feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Simple card section
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem title
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className={undefined}
+          >
+            <h2
+              className={undefined}
+            >
+              Lorem ipsum dolor sit amet
+            </h2>
+            <div
+              className={undefined}
+            >
+              
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel
+blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan.
+In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis
+sapien vel malesuada sodales. Curabitur hendrerit purus sed ex
+feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
 `;
 

@@ -1,0 +1,64 @@
+@import "../../styles/spacing.css";
+@import "../../styles/typography.css";
+@import "../../styles/media.css";
+@import "../../styles/colors.css";
+@import "./properties.css";
+
+.container {
+  background-color: var(--card-section-background);
+  border-radius: var(--card-border-radius);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container * {
+  box-sizing: border-box;
+}
+
+.collapseButton {
+  cursor: pointer;
+}
+
+.collapseButton:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.collapseButton:hover {
+  text-decoration: none;
+}
+
+.collapseButton svg {
+  color: var(--card-section-title-icon-color);
+  font-size: var(--card-section-title-icon-size);
+}
+
+.arrow {
+  padding: 0;
+  margin: 0;
+}
+
+.rotateArrowUp {
+  transform: rotate(180deg);
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: var(--card-spacing-small);
+  font-size: var(--card-title-font-size);
+  font-family: var(--title-font-family);
+  font-weight: var(--title-font-weight);
+  font-style: var(--title-font-style);
+  letter-spacing: var(--letter-spacing);
+  text-transform: uppercase;
+  color: var(--card-section-title-color);
+}
+
+.sectionContent {
+  padding-left: var(--spacing-small);
+  padding-right: var(--spacing-small);
+  padding-bottom: var(--spacing-small);
+}
+

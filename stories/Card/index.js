@@ -14,6 +14,7 @@ import {
   CardContent,
   CardGraphic,
   CardActions,
+  CardSection,
 } from '../../src/components/Card'
 
 import Button from '../../src/components/Button'
@@ -135,6 +136,60 @@ const TitleTextAdvanced = () => (
   </div>
 )
 
+const loremIpsum = `
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel
+blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan.
+In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis
+sapien vel malesuada sodales. Curabitur hendrerit purus sed ex
+feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+`
+
+const SimpleSection = () => (
+  <div className={style.showcase}>
+    <Card>
+      <CardTitle title="Lorem title" />
+
+      <CardContent>
+        <CardSection
+          title="Lorem ipsum dolor sit amet"
+        >
+          {loremIpsum}
+        </CardSection>
+      </CardContent>
+    </Card>
+  </div>
+)
+
+class CollapsableSection extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = { collapsed: false }
+  }
+
+  render () {
+    return (
+      <div className={style.showcase}>
+        <Card>
+          <CardTitle title="Lorem title" />
+
+          <CardContent>
+            <CardSection
+              title="Title opened"
+              collapsedTitle="Title collapsed"
+              collapsed={this.state.collapsed}
+              onTitleClick={collapsed => this.setState({ collapsed: !collapsed })}
+            >
+              {loremIpsum}
+            </CardSection>
+          </CardContent>
+        </Card>
+      </div>
+    )
+  }
+}
+
+
 storiesOf('Cards', module)
   .add('All styles', () => (
     <div>
@@ -158,5 +213,14 @@ storiesOf('Cards', module)
         <h2>Title on event handler</h2>
         <TitleTextAdvanced />
       </section>
+      <section>
+        <h2>Card section with collapsible content</h2>
+        <CollapsableSection />
+      </section>
+      <section>
+        <h2>Simple card section</h2>
+        <SimpleSection />
+      </section>
     </div>
   ))
+

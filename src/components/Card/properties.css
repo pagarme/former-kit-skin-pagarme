@@ -7,6 +7,7 @@
   --card-shadow: 0 2px 5px 0 rgba(67, 67, 67, 0.26);
   --card-border-radius: 3px;
 
+  --card-title-font-size: 14px;
   --card-title-icon-margin: 9px;
 
   --card-title-padding:
@@ -26,5 +27,10 @@
     var(--card-spacing-medium)
     var(--card-spacing-small)
     var(--card-spacing-medium);
+
+  --card-section-title-color: #999999;
+  --card-section-title-icon-color: #3ed2a4;
+  --card-section-title-icon-size: 18px;
+  --card-section-background: #f3f3f3;
 }
 
