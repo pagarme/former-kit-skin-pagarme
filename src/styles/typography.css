@@ -19,6 +19,7 @@
   --title-font-style: italic;
   --body-font-family: "Open Sans";
   --body-link-color: var(--color-light-green-accent-100);
+  --letter-spacing: 0.05em;
 }
 
 /* stylelint-disable */

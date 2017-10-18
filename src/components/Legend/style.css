@@ -1,3 +1,4 @@
+@import "../../styles/typography.css";
 @import "./properties.css";
 @import "./colors.css";
 
@@ -5,6 +6,7 @@
   display: inline-flex;
   align-items: center;
   cursor: default;
+  letter-spacing: var(--letter-spacing);
 }
 
 .label {
