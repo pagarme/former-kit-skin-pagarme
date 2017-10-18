@@ -1,3 +1,4 @@
+@import "../../styles/typography.css";
 @import "../../styles/colors.css";
 @import "./properties.css";
 
@@ -21,7 +22,7 @@
   border: none;
   font-family: var(--tabbar-font-family);
   font-weight: 600;
-  letter-spacing: 0.05em;
+  letter-spacing: var(--letter-spacing);
   text-transform: uppercase;
   cursor: pointer;
   text-align: center;

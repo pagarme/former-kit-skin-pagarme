@@ -1,10 +1,11 @@
 /* stylelint-disable selector-max-class */
+@import "../../styles/typography.css";
 @import "./properties.css";
 
 .container * {
   box-sizing: border-box;
   font-family: "Uni Neue";
-  letter-spacing: 0.05em;
+  letter-spacing: var(--letter-spacing);
 }
 
 .container select {
