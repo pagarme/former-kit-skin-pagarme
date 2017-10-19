@@ -16,4 +16,8 @@
   --button-padding-large: 14px 19px;
 
   --button-focus-box-shadow: inset 0 0 3px 3px;
+  --button-disabled-background-color: #e9e9e9;
+  --button-disabled-color: #a0a0a0;
+  --button-outline-disabled-border-color: #e9e9e9;
+  --button-outline-disabled-color: #a0a0a0;
 }

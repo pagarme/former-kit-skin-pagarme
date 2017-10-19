@@ -40,6 +40,7 @@ const strings = {
   Iconed: 'With icons',
   Block: 'Block',
   Sizes: 'Sizes',
+  Disabled: 'Disabled',
 }
 
 const baseList = [
@@ -112,6 +113,30 @@ function buttonAllColors (parent, children, variant) {
   )
 }
 
+function buttonAllDisabled (parent, children) {
+  return (
+    <div className={stylesheet.buttonCollection} style={parent.style}>
+      <Button
+        onClick={clicked}
+        base={parent.base}
+        variant="outline"
+        disabled
+      >
+        {children}
+      </Button>
+
+      <Button
+        onClick={clicked}
+        base={parent.base}
+        variant="gradient"
+        disabled
+      >
+        {children}
+      </Button>
+    </div>
+  )
+}
+
 
 storiesOf(strings.Button, module)
   .add(strings.AllStyles, () => (
@@ -136,6 +161,9 @@ storiesOf(strings.Button, module)
 
           <p>{strings.Clean}</p>
           {buttonAllColors(base, `${strings.Label}`, 'clean')}
+
+          <p>{strings.Disabled}</p>
+          {buttonAllDisabled(base, `${strings.Label}`)}
         </section>
       ))}
 

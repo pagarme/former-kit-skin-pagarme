@@ -18,6 +18,16 @@
   outline: none;
 }
 
+.button:not(.outline):disabled {
+  background: var(--button-disabled-background-color);
+  color: var(--button-disabled-color);
+  border: 1px solid var(--button-disabled-background-color);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
 .flat {
   background-image: none;
 }
@@ -40,16 +50,15 @@
   color: var(--color-text-dark);
 }
 
-.dashed {
-  border: dashed 1px;
-}
-
 .outline {
   border: solid 1px;
 }
 
-.dashed,
-.dashed:hover,
+.outline:disabled {
+  border: 1px solid var(--button-outline-disabled-border-color);
+  color: var(--button-outline-disabled-color);
+}
+
 .outline,
 .outline:hover,
 .clean,
