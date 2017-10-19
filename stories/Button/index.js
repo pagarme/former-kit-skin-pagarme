@@ -36,7 +36,6 @@ const strings = {
   Flat: 'Flat',
   Gradient: 'Gradient',
   Outline: 'Outlined',
-  Dashed: 'Dashed',
   Clean: 'Clean',
   Iconed: 'With icons',
   Block: 'Block',
@@ -134,9 +133,6 @@ storiesOf(strings.Button, module)
 
           <p>{strings.Outline}</p>
           {buttonAllColors(base, `${strings.Label}`, 'outline')}
-
-          <p>{strings.Dashed}</p>
-          {buttonAllColors(base, `${strings.Label}`, 'dashed')}
 
           <p>{strings.Clean}</p>
           {buttonAllColors(base, `${strings.Label}`, 'clean')}

@@ -1,0 +1,7 @@
+.tags > * {
+  margin-left: 10px;
+}
+
+.tags > span:first-child {
+  margin-left: 0;
+}

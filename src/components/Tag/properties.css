@@ -1,0 +1,8 @@
+:root {
+  --tag-font-family: var(--title-font-family);
+  --tag-font-style: var(--title-font-style);
+
+  --tag-font-size: 12px;
+  --tag-padding: 6px 7px;
+}
+

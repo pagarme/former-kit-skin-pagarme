@@ -416,84 +416,6 @@ exports[`Storyshots Button All styles 1`] = `
       </button>
     </div>
     <p>
-      Dashed
-    </p>
-    <div
-      className={undefined}
-      style={undefined}
-    >
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-    </div>
-    <p>
       Clean
     </p>
     <div
@@ -744,84 +666,6 @@ exports[`Storyshots Button All styles 1`] = `
     </div>
     <p>
       Outlined
-    </p>
-    <div
-      className={undefined}
-      style={undefined}
-    >
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-      <button
-        className=""
-        onClick={[Function]}
-        type="button"
-      >
-        Button Label
-      </button>
-    </div>
-    <p>
-      Dashed
     </p>
     <div
       className={undefined}
@@ -11235,6 +11079,43 @@ exports[`Storyshots TabBar All styles 1`] = `
     </div>
   </section>
 </div>
+`;
+
+exports[`Storyshots Tags default 1`] = `
+<section>
+  <p>
+    Only style
+  </p>
+  <div
+    className={undefined}
+  >
+    <span
+      className={undefined}
+    >
+      lorem
+    </span>
+    <span
+      className={undefined}
+    >
+      ipsum
+    </span>
+    <span
+      className={undefined}
+    >
+      dolor
+    </span>
+    <span
+      className={undefined}
+    >
+      amet
+    </span>
+    <span
+      className={undefined}
+    >
+      consetetur
+    </span>
+  </div>
+</section>
 `;
 
 exports[`Storyshots Toolbar DateRange 1`] = `

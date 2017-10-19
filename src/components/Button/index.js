@@ -25,7 +25,7 @@ Button.propTypes = {
   type: PropTypes.oneOf(['button', 'submit', 'reset']),
   onClick: PropTypes.func,
   variant: PropTypes.oneOf([
-    'flat', 'gradient', 'outline', 'dashed', 'clean', 'block',
+    'flat', 'gradient', 'outline', 'clean', 'block',
   ]),
   base: PropTypes.oneOf([
     'dark', 'light',
