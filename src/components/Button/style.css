@@ -21,7 +21,6 @@
 .button:not(.outline):disabled {
   background: var(--button-disabled-background-color);
   color: var(--button-disabled-color);
-  border: 1px solid var(--button-disabled-background-color);
 }
 
 .button:disabled {
@@ -103,3 +102,24 @@
   padding: var(--button-padding-large);
   font-size: var(--button-font-size-large);
 }
+
+.outline.micro {
+  padding: var(--button-outline-padding-micro);
+}
+
+.outline.tiny {
+  padding: var(--button-outline-padding-tiny);
+}
+
+.outline.small {
+  padding: var(--button-outline-padding-small);
+}
+
+.outline.medium {
+  padding: var(--button-outline-padding-medium);
+}
+
+.outline.large {
+  padding: var(--button-outline-padding-large);
+}
+
