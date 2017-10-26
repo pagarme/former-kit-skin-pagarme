@@ -42,6 +42,12 @@
   transform: rotate(180deg);
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 .cardTitle {
   display: flex;
   align-items: center;
@@ -54,6 +60,14 @@
   letter-spacing: var(--letter-spacing);
   text-transform: uppercase;
   color: var(--card-section-title-color);
+}
+
+.cardSubTitle {
+  margin-right: var(--card-section-subtitle-margin-right);
+  letter-spacing: var(--letter-spacing);
+  font-family: var(--title-font-family);
+  font-size: var(--card-section-subtitle-font-size);
+  color: var(--card-section-subtitle-color);
 }
 
 .sectionContent {

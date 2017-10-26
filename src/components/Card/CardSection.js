@@ -12,7 +12,7 @@ class CardSection extends Component {
 
     this.cardTitle = this.cardTitle.bind(this)
     this.arrowUpDown = this.arrowUpDown.bind(this)
-    this.renderTitle = this.renderTitle.bind(this)
+    this.renderHeader = this.renderHeader.bind(this)
   }
 
   cardTitle () {
@@ -34,12 +34,18 @@ class CardSection extends Component {
     return <IconArrowDown className={arrowClasses} />
   }
 
-  renderTitle () {
+  renderHeader () {
     return (
-      <h2 className={style.cardTitle}>
-        {this.cardTitle()}
-        {this.arrowUpDown()}
-      </h2>
+      <div className={style.header}>
+        <h2 className={style.cardTitle}>
+          {this.cardTitle()}
+          {this.arrowUpDown()}
+        </h2>
+
+        {this.props.subTitle &&
+          <p className={style.cardSubTitle}>{this.props.subTitle}</p>
+        }
+      </div>
     )
   }
 
@@ -60,10 +66,10 @@ class CardSection extends Component {
               tabIndex="0"
               className={style.collapseButton}
             >
-              {this.renderTitle()}
+              {this.renderHeader()}
             </a>
           ) : (
-            this.renderTitle()
+            this.renderHeader()
           )
         }
         {!collapsed &&
@@ -82,12 +88,14 @@ CardSection.propTypes = {
   collapsed: PropTypes.bool,
   children: PropTypes.node.isRequired,
   onTitleClick: PropTypes.func,
+  subTitle: PropTypes.string,
 }
 
 CardSection.defaultProps = {
   collapsedTitle: '',
   collapsed: false,
   onTitleClick: null,
+  subTitle: '',
 }
 
 export default CardSection

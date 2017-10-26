@@ -179,6 +179,7 @@ class CollapsableSection extends React.Component {
               collapsedTitle="Title collapsed"
               collapsed={this.state.collapsed}
               onTitleClick={collapsed => this.setState({ collapsed: !collapsed })}
+              subTitle="It's over 9000!"
             >
               {loremIpsum}
             </CardSection>

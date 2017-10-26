@@ -1610,31 +1610,40 @@ exports[`Storyshots Cards All styles 1`] = `
               role="button"
               tabIndex="0"
             >
-              <h2
+              <div
                 className={undefined}
               >
-                Title opened
-                <svg
-                  className="undefined"
-                  fill="currentColor"
-                  height="1em"
-                  preserveAspectRatio="xMidYMid meet"
-                  style={
-                    Object {
-                      "color": undefined,
-                      "verticalAlign": "middle",
-                    }
-                  }
-                  viewBox="0 0 40 40"
-                  width="1em"
+                <h2
+                  className={undefined}
                 >
-                  <g>
-                    <path
-                      d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
-                    />
-                  </g>
-                </svg>
-              </h2>
+                  Title opened
+                  <svg
+                    className="undefined"
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                      Object {
+                        "color": undefined,
+                        "verticalAlign": "middle",
+                      }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                  >
+                    <g>
+                      <path
+                        d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                      />
+                    </g>
+                  </svg>
+                </h2>
+                <p
+                  className={undefined}
+                >
+                  It's over 9000!
+                </p>
+              </div>
             </a>
             <div
               className={undefined}
@@ -1680,11 +1689,16 @@ feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
           <div
             className={undefined}
           >
-            <h2
+            <div
               className={undefined}
             >
-              Lorem ipsum dolor sit amet
-            </h2>
+              <h2
+                className={undefined}
+              >
+                Lorem ipsum dolor sit amet
+              </h2>
+              
+            </div>
             <div
               className={undefined}
             >

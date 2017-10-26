@@ -32,5 +32,9 @@
   --card-section-title-icon-color: #3ed2a4;
   --card-section-title-icon-size: 18px;
   --card-section-background: #f3f3f3;
+
+  --card-section-subtitle-color: #bababa;
+  --card-section-subtitle-font-size: 12px;
+  --card-section-subtitle-margin-right: var(--spacing-small);
 }
 
