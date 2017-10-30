@@ -6,7 +6,7 @@
   version "3.0.9"
   resolved "https://registry.yarnpkg.com/@hypnosphi/fuse.js/-/fuse.js-3.0.9.tgz#ea99f6121b4a8f065b4c71f85595db2714498807"
 
-"@percy-io/percy-storybook@^1.2.4":
+"@percy-io/percy-storybook@1.2.4":
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/@percy-io/percy-storybook/-/percy-storybook-1.2.4.tgz#0715628a3fc06da48a934b58b94af892c0274ac2"
   dependencies:
