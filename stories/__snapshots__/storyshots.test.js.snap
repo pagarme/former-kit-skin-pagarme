@@ -1278,14 +1278,6 @@ exports[`Storyshots Button All styles 1`] = `
       >
         Button
       </button>
-      <button
-        className=""
-        disabled={false}
-        onClick={[Function]}
-        type="button"
-      >
-        Button
-      </button>
     </div>
   </section>
 </div>

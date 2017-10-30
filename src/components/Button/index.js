@@ -43,7 +43,7 @@ Button.propTypes = {
     'purple', 'purple-accent', 'pink', 'pink-accent',
   ]),
   size: PropTypes.oneOf([
-    'micro', 'tiny', 'small', 'medium', 'large',
+    'extra-small', 'small', 'default', 'large',
   ]),
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
@@ -58,7 +58,7 @@ Button.defaultProps = {
   variant: 'flat',
   base: 'light',
   color: 'green-primary',
-  size: 'medium',
+  size: 'default',
   type: 'button',
   disabled: false,
 }

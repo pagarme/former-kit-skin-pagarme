@@ -90,7 +90,7 @@ const iconList = [
 ]
 
 const sizeList = [
-  'micro', 'tiny', 'small', 'medium', 'large',
+  'extra-small', 'small', 'default', 'large',
 ]
 
 const clicked = action('clicked')
