@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@percy-io/percy-storybook": "1.2.3",
+    "@percy-io/percy-storybook": "1.2.4",
     "@storybook/addon-actions": "3.2.6",
     "@storybook/addon-storyshots": "3.2.8",
     "@storybook/addons": "3.2.6",
@@ -69,7 +69,7 @@
     "lint": "eslint './src/**/*.js' && stylelint './src/**/*.css'",
     "test": "node scripts/test.js --env=jsdom",
     "storybook": "start-storybook -p 6006",
-    "percy": "build-storybook && percy-storybook --widths=1920",
+    "percy": "build-storybook && percy-storybook --widths=1024,1920",
     "build-storybook": "build-storybook"
   },
   "jest": {
