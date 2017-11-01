@@ -22,9 +22,11 @@ module.exports = {
       },
       {
         test: /\.css$/,
+        exclude: /react-dates/,
         enforce: 'pre',
         use: [
           {
+            loader: require.resolve('postcss-loader'),
             options: {
               formatter: stylelintFormatter,
               plugins: () => [
@@ -44,13 +46,12 @@ module.exports = {
                 }),
               ],
             },
-            loader: require.resolve('postcss-loader'),
           },
         ],
-        include: paths.appSrc,
       },
       {
-        test: /\.css$/,
+        test: /.*\.css$/,
+        exclude: /react-dates/,
         use: [
           require.resolve('style-loader'),
           {
@@ -59,6 +60,43 @@ module.exports = {
               importLoaders: 1,
               modules: 1,
               localIdentName: '[path]-[name]-[local]',
+            },
+          },
+          {
+            loader: require.resolve('postcss-loader'),
+            options: {
+              ident: 'postcss',
+              plugins: () => [
+                require('postcss-sass-each'),
+                require('postcss-mixins'),
+                require('postcss-import'),
+                require('postcss-url')({
+                  url: postcssUrlRebase,
+                }),
+                require('postcss-cssnext')({
+                  // We don't transpile CSS variables module in Storybook
+                  features: {
+                    customProperties: false,
+                  },
+                }),
+              ],
+            },
+          },
+        ],
+      },
+      {
+        // This block matches only react-dates styles and extract them
+        // separately, in a pipeline without CSS modules, as react-dates
+        // uses global CSS. This is the place where all global CSS libraries
+        // should be matched. Be sure to also edit the exclude regex from
+        // previous test.
+        test: /.*react-dates.*\.css$/,
+        use: [
+          require.resolve('style-loader'),
+          {
+            loader: require.resolve('css-loader'),
+            options: {
+              importLoaders: 1,
             },
           },
           {

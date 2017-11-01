@@ -128,6 +128,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
+        exclude: /react-dates/,
         enforce: 'pre',
         use: [
           {
@@ -184,6 +185,7 @@ module.exports = {
           // in development "style" loader enables hot editing of CSS.
           {
             test: /\.css$/,
+            exclude: /react-dates/,
             use: [
               require.resolve('style-loader'),
               {
@@ -191,6 +193,42 @@ module.exports = {
                 options: {
                   importLoaders: 1,
                   modules: 1,
+                  localIdentName: '[path]-[name]-[local]',
+                },
+              },
+              {
+                loader: require.resolve('postcss-loader'),
+                options: {
+                  // Necessary for external CSS imports to work
+                  // https://github.com/facebookincubator/create-react-app/issues/2677
+                  ident: 'postcss',
+                  plugins: () => [
+                    require('postcss-sass-each'),
+                    require('postcss-import'),
+                    require('postcss-mixins'),
+                    // This is necessary because postcss-url doesn't add
+                    // a trailing ./ to rebased URLs, causing relative imports
+                    // to stop working.
+                    require('postcss-url')({ url: postcssUrlRebase }),
+                    require('postcss-cssnext'),
+                  ],
+                },
+              },
+            ],
+          },
+          {
+            // This block matches only react-dates styles and extract them
+            // separately, in a pipeline without CSS modules, as react-dates
+            // uses global CSS. This is the place where all global CSS libraries
+            // should be matched. Be sure to also edit the exclude regex from
+            // previous test.
+            test: /.*react-dates.*\.css$/,
+            use: [
+              require.resolve('style-loader'),
+              {
+                loader: require.resolve('css-loader'),
+                options: {
+                  importLoaders: 1,
                   localIdentName: '[path]-[name]-[local]',
                 },
               },

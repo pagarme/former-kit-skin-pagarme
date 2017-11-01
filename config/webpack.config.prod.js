@@ -131,6 +131,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
+        exclude: /react-dates/,
         enforce: 'pre',
         use: [
           {
@@ -144,7 +145,11 @@ module.exports = {
                 require('postcss-url')({
                   url: postcssUrlRebase,
                 }),
-                require('postcss-cssnext'),
+                require('postcss-cssnext')({
+                  customProperties: {
+                    strict: false,
+                  },
+                }),
               ],
             },
             loader: require.resolve('postcss-loader'),
@@ -173,7 +178,6 @@ module.exports = {
             include: paths.appSrc,
             loader: require.resolve('babel-loader'),
             options: {
-              
               compact: true,
             },
           },
@@ -191,6 +195,7 @@ module.exports = {
           // in the main CSS file.
           {
             test: /\.css$/,
+            exclude: /react-dates/, // exclude libraries which uses global CSS
             loader: ExtractTextPlugin.extract(
               Object.assign(
                 {
@@ -202,6 +207,50 @@ module.exports = {
                         importLoaders: 1,
                         minimize: true,
                         modules: 1,
+                        sourceMap: shouldUseSourceMap,
+                      },
+                    },
+                    {
+                      loader: require.resolve('postcss-loader'),
+                      options: {
+                        // Necessary for external CSS imports to work
+                        // https://github.com/facebookincubator/create-react-app/issues/2677
+                        ident: 'postcss',
+                        plugins: () => [
+                          require('postcss-import'),
+                          require('postcss-sass-each'),
+                          // This is necessary because postcss-url doesn't add
+                          // a trailing ./ to rebased URLs, causing relative imports
+                          // to stop working.
+                          require('postcss-url')({ url: postcssUrlRebase }),
+                          require('postcss-cssnext'),
+                        ],
+                      },
+                    },
+                  ],
+                },
+                extractTextPluginOptions
+              )
+            ),
+            // Note: this won't work without `new ExtractTextPlugin()` in `plugins`.
+          },
+          {
+            // This block matches only react-dates styles and extract them
+            // separately, in a pipeline without CSS modules, as react-dates
+            // uses global CSS. This is the place where all global CSS libraries
+            // should be matched. Be sure to also edit the exclude regex from
+            // previous test.
+            test: /.*react-dates.*\.css$/,
+            loader: ExtractTextPlugin.extract(
+              Object.assign(
+                {
+                  fallback: require.resolve('style-loader'),
+                  use: [
+                    {
+                      loader: require.resolve('css-loader'),
+                      options: {
+                        importLoaders: 1,
+                        minimize: true,
                         sourceMap: shouldUseSourceMap,
                       },
                     },
