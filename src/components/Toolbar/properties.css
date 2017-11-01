@@ -2,11 +2,20 @@
 @import "../../styles/typography.css";
 
 :root {
+  --toolbar-height: 33px;
   --toolitem-border-color: #e5e5e5;
+  --toolitem-focused-color: #3ed2a4;
+  --toolitem-error-color: rgba(220, 104, 96, 1);
+  --toolitem-separator-color: #6f6f6f;
   --toolitem-background-color: var(--color-background-light);
-  --toolitem-font-family: var(--title-font-family);
+  --toolitem-font-family: "Open Sans", var(--title-font-family);
   --toolitem-font-size: 14px;
   --toolitem-border-radius: 3px;
   --toolitem-box-shadow: var(--box-shadow);
   --toolitem-active-background: var(--color-light-red-gradient);
+
+  --toolitem-input-color: #999999;
+  --toolitem-input-icon-color: #999999;
+  --toolitem-input-inner-spacing: 5px;
+  --toolitem-input-icon-size: 16px;
 }

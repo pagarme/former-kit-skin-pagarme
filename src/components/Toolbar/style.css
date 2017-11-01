@@ -7,14 +7,80 @@
 }
 
 .root {
-  display: inline-flex;
+  display: flex;
+  width: 100%;
   background-color: var(--toolitem-background-color);
   border-radius: 3px;
   border: 1px solid var(--toolitem-border-color);
-  z-index: 0;
   padding: 1px;
   box-shadow: var(--toolitem-box-shadow);
   font-family: var(--toolitem-font-family);
-  font-size: var(--toolitem-font-size: 14px);
+  font-size: var(--toolitem-font-size);
+  transition: border-color 100ms ease-in-out;
+  position: relative;
+  z-index: 1;
 }
 
+.active,
+.focused {
+  border-color: var(--toolitem-focused-color);
+}
+
+.error {
+  border-color: var(--toolitem-error-color);
+}
+
+.separator {
+  background: var(--toolitem-separator-color);
+}
+
+.icon {
+  color: var(--toolitem-input-icon-color);
+  display: flex;
+  align-items: center;
+  font-size: var(--toolitem-input-icon-size);
+  margin-right: var(--toolitem-input-inner-spacing);
+}
+
+.active .separator,
+.focused .separator {
+  background-color: var(--toolitem-focused-color);
+}
+
+.error .separator {
+  background-color: var(--toolitem-error-color);
+}
+
+.error .icon {
+  color: var(--toolitem-error-color);
+}
+
+.active .icon,
+.focused .icon {
+  color: var(--toolitem-focused-color);
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: var(--toolbar-height);
+}
+
+.toolbar > div {
+  margin-right: 6px;
+  width: auto;
+}
+
+.toolbar > div:last-child {
+  margin-right: 0;
+}
+
+.toolbar input,
+.toolbar > div {
+  height: 100%;
+}
+
+.toolbar > div:nth-child(2) {
+  width: 100%;
+}
