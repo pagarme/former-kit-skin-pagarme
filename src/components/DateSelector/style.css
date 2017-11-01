@@ -1,0 +1,122 @@
+@import "../../styles/typography.css";
+@import "../../styles/spacing.css";
+@import "../../styles/colors.css";
+@import "./properties.css";
+
+.container,
+.container * {
+  box-sizing: border-box;
+}
+
+.container {
+  display: inline-flex;
+  background: var(--date-selector-background);
+  border: var(--date-selector-border);
+  border-radius: var(--date-selector-border-radius);
+  box-shadow: 2px 2.2px 8.7px 0.3px var(--date-selector-box-shadow-color);
+}
+
+.sidebar {
+  background-color: var(--date-selector-sidebar-background);
+  padding: var(--date-selector-sidebar-padding);
+  border-right: var(--date-selector-sidebar-border);
+}
+
+.sidebar h2 {
+  color: var(--date-selector-sidebar-title-color);
+  font-size: 10px;
+  font-weight: 200;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: var(--spacing-small) 0;
+  padding-left: var(--spacing-small);
+}
+
+.sidebar li,
+.sidebar ol {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  list-style: none;
+  margin-top: var(--spacing-small);
+}
+
+.sidebar li:first-child {
+  margin-top: unset;
+}
+
+.sidebar input {
+  appearance: none;
+  position: absolute;
+  opacity: 0;
+}
+
+.sidebar label {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: var(--title-font-family);
+  font-size: 14px;
+  padding-left: var(--date-selector-sidebar-label-margin-left);
+  border-left: 0 solid rgba(1, 1, 1, 0);
+  transition:
+    color 150ms cubic-bezier(0.47, 0, 0.75, 0.72),
+    padding-left 150ms cubic-bezier(0.47, 0, 0.75, 0.72),
+    font-weight 150ms cubic-bezier(0.47, 0, 0.75, 0.72),
+    border-left-width 150ms cubic-bezier(0.47, 0, 0.75, 0.72),
+    border-left-color 150ms cubic-bezier(0.47, 0, 0.75, 0.72);
+  will-change:
+    color,
+    padding-left,
+    font-weight,
+    border-left-width,
+    border-left-color;
+}
+
+.sidebar input:checked ~ label {
+  color: var(--date-selector-sidebar-active-color);
+  padding-left: calc(var(--spacing-small) - 2px);
+  border-left-width: 2px;
+  border-left-color: var(--date-selector-sidebar-active-color);
+  font-weight: bold;
+}
+
+.stage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.actions {
+  padding: var(--spacing-small);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.selectedDays {
+  flex: 1;
+  text-align: start;
+  color: #a1a1a1;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.actions button {
+  font-size: var(--date-selector-font-size);
+}
+
+.actions button:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.separator {
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  background-color: #e1e1e1;
+}

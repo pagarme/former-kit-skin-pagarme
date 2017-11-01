@@ -1,0 +1,164 @@
+@import "./properties.css";
+
+.DayPicker {
+  border: none;
+  box-shadow: none;
+  font-weight: bold;
+  background: none;
+}
+
+.DateRangePicker {
+  position: absolute;
+  z-index: 1;
+  font-family: var(--date-selector-font-family);
+}
+
+.CalendarDay {
+  border: 0;
+  color: var(--date-selector-day-color);
+  font-size: var(--date-selector-day-font-size);
+  height: 25px !important; /* stylelint-disable-line */
+  font-weight: normal;
+  transition:
+    color 150ms ease-out,
+    border-radius 150ms ease-out,
+    background-color 150ms ease-out;
+  will-change: color background-color;
+}
+
+.DateRangePickerInput {
+  border-width: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.DateRangePicker,
+.DateRangePicker > div {
+  height: 100%;
+}
+
+.DateRangePicker__picker--open-down {
+  top: var(--date-selector-top);
+}
+
+.DayPickerNavigation__next,
+.DayPickerNavigation__prev {
+  border: 0;
+  background-color: transparent;
+  font-size: var(--date-selector-icon-font-size);
+}
+
+.CalendarMonth .CalendarMonth__caption {
+  opacity: 0;
+  padding: 15px 0 48px;
+  font-size: var(--date-selector-day-font-size);
+  text-transform: uppercase;
+  transition: opacity 100ms ease-in-out;
+}
+
+.CalendarMonth table {
+  position: relative;
+  border-collapse: separate;
+  border-spacing: 0 var(--date-selector-calendar-week-spacing);
+}
+
+.CalendarMonth table:before {
+  content: "";
+  display: block;
+  height: 220px;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: translateX(-12px) translateY(-70px);
+  position: absolute;
+  opacity: 0;
+  transition: opacity 100ms ease-in-out;
+}
+
+.CalendarMonth[data-visible="true"] table:before {
+  opacity: 1;
+}
+
+.CalendarMonth[data-visible="false"] + .CalendarMonth table:before {
+  opacity: 0;
+}
+
+.CalendarMonth[data-visible="true"] .CalendarMonth__caption {
+  opacity: 1;
+}
+
+.CalendarMonth[data-visible="false"]:last-child .CalendarMonth__caption {
+  opacity: 0;
+}
+
+.DayPicker__week-header {
+  top: 53px;
+}
+
+.DayPicker__week-header ul {
+  background-color: var(--date-selector-week-name-background);
+  color: var(--date-selector-week-name-color);
+  font-weight: var(--date-selector-week-name-font-weight);
+  font-size: var(--date-selector-week-name-font-size);
+  text-transform: uppercase;
+  border-top: 1px solid rgba(228, 228, 228, 0.5);
+  border-bottom: 1px solid rgba(228, 228, 228, 0.5);
+}
+
+.DayPickerNavigation {
+  color: var(--date-selector-active-color);
+}
+
+.DayPickerNavigation__prev {
+  left: 10px;
+}
+
+.DayPickerNavigation__next {
+  right: 10px;
+}
+
+.CalendarDay--blocked-out-of-range {
+  color: var(--date-selector-day-out-of-range-color);
+}
+
+.CalendarMonthGrid {
+  background: none;
+}
+
+.CalendarDay--selected-span {
+  background-color: #eeeeee;
+}
+
+.CalendarDay--selected-start,
+.CalendarDay--selected-end,
+.CalendarDay--selected {
+  background-color: var(--date-selector-active-color);
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.CalendarDay--selected {
+  border-radius: var(--date-selector-day-selected-border-radius);
+}
+
+.CalendarDay--selected-start {
+  border-radius:
+    var(--date-selector-day-selected-border-radius)
+    0
+    0
+    var(--date-selector-day-selected-border-radius);
+}
+
+.CalendarDay--selected-end {
+  border-radius:
+    0
+    var(--date-selector-day-selected-border-radius)
+    var(--date-selector-day-selected-border-radius)
+    0;
+}
+
+.CalendarDay:active {
+  background-color: lighten(var(--date-selector-active-color), 30%);
+  border-radius: var(--date-selector-day-selected-border-radius);
+}
+

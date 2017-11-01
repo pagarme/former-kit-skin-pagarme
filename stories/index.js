@@ -1,3 +1,5 @@
+import '../src/locale'
+
 import './Button'
 import './Card'
 import './Colors'
@@ -13,3 +15,4 @@ import './Grid'
 import './ContextSwitch'
 import './Filters'
 import './Legend'
+import './DateSelector'

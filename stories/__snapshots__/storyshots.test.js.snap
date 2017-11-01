@@ -3962,6 +3962,3269 @@ exports[`Storyshots ContextSwitch All styles 1`] = `
 </div>
 `;
 
+exports[`Storyshots DateSelector All types 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      <ol>
+        <li>
+          <input
+            checked={true}
+            id="dateselector-always-the-same-string-preset-today"
+            name="dateselector-always-the-same-string-presets"
+            onChange={[Function]}
+            type="radio"
+          />
+          <label
+            htmlFor="dateselector-always-the-same-string-preset-today"
+          >
+            Hoje
+          </label>
+        </li>
+        <ol>
+          <h2>
+            Últimos:
+          </h2>
+          <li>
+            <input
+              checked={false}
+              id="dateselector-always-the-same-string-preset-last-7"
+              name="dateselector-always-the-same-string-presets"
+              onChange={[Function]}
+              type="radio"
+            />
+            <label
+              htmlFor="dateselector-always-the-same-string-preset-last-7"
+            >
+              7 dias
+            </label>
+          </li>
+          <li>
+            <input
+              checked={false}
+              id="dateselector-always-the-same-string-preset-last-15"
+              name="dateselector-always-the-same-string-presets"
+              onChange={[Function]}
+              type="radio"
+            />
+            <label
+              htmlFor="dateselector-always-the-same-string-preset-last-15"
+            >
+              15 dias
+            </label>
+          </li>
+          <li>
+            <input
+              checked={false}
+              id="dateselector-always-the-same-string-preset-last-30"
+              name="dateselector-always-the-same-string-presets"
+              onChange={[Function]}
+              type="radio"
+            />
+            <label
+              htmlFor="dateselector-always-the-same-string-preset-last-30"
+            >
+              30 dias
+            </label>
+          </li>
+          <li>
+            <input
+              checked={false}
+              id="dateselector-always-the-same-string-preset-last-60"
+              name="dateselector-always-the-same-string-presets"
+              onChange={[Function]}
+              type="radio"
+            />
+            <label
+              htmlFor="dateselector-always-the-same-string-preset-last-60"
+            >
+              60 dias
+            </label>
+          </li>
+        </ol>
+        <li>
+          <h2>
+            Personalizado:
+          </h2>
+          <ol>
+            <li>
+              <input
+                checked={false}
+                id="dateselector-always-the-same-string-preset-single"
+                name="dateselector-always-the-same-string-presets"
+                onChange={[Function]}
+                type="radio"
+              />
+              <label
+                htmlFor="dateselector-always-the-same-string-preset-single"
+              >
+                Dia
+              </label>
+            </li>
+            <li>
+              <input
+                checked={false}
+                id="dateselector-always-the-same-string-preset-range"
+                name="dateselector-always-the-same-string-presets"
+                onChange={[Function]}
+                type="radio"
+              />
+              <label
+                htmlFor="dateselector-always-the-same-string-preset-range"
+              >
+                Período
+              </label>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </div>
+    <div
+      className={undefined}
+    >
+      <div
+        className="ReactDates-overrides"
+      >
+        <div
+          className="DayPicker DayPicker--horizontal"
+          style={
+            Object {
+              "marginLeft": false,
+              "marginTop": false,
+              "width": 632,
+            }
+          }
+        >
+          <div>
+            <div
+              aria-hidden="true"
+              className="DayPicker__week-headers"
+              role="presentation"
+            >
+              <div
+                className="DayPicker__week-header"
+                style={
+                  Object {
+                    "left": 0,
+                  }
+                }
+              >
+                <ul>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      dom
+                    </small>
+                  </li>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      seg
+                    </small>
+                  </li>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      ter
+                    </small>
+                  </li>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      qua
+                    </small>
+                  </li>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      qui
+                    </small>
+                  </li>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      sex
+                    </small>
+                  </li>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      sáb
+                    </small>
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="DayPicker__week-header"
+                style={
+                  Object {
+                    "left": 307,
+                  }
+                }
+              >
+                <ul>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      dom
+                    </small>
+                  </li>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      seg
+                    </small>
+                  </li>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      ter
+                    </small>
+                  </li>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      qua
+                    </small>
+                  </li>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      qui
+                    </small>
+                  </li>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      sex
+                    </small>
+                  </li>
+                  <li
+                    style={
+                      Object {
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <small>
+                      sáb
+                    </small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              className="DayPicker__focus-region"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onMouseUp={[Function]}
+              role="region"
+              tabIndex={-1}
+            >
+              <div
+                className="DayPickerNavigation DayPickerNavigation--horizontal"
+              >
+                <button
+                  aria-label="Move backward to switch to the previous month"
+                  className="DayPickerNavigation__prev"
+                  onClick={[Function]}
+                  onMouseUp={[Function]}
+                  type="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                      Object {
+                        "color": undefined,
+                        "verticalAlign": "middle",
+                      }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                  >
+                    <g>
+                      <path
+                        d="m26.5 12.1q0 0.3-0.2 0.6l-8.8 8.7 8.8 8.8q0.2 0.2 0.2 0.5t-0.2 0.5l-1.1 1.1q-0.3 0.3-0.6 0.3t-0.5-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z"
+                      />
+                    </g>
+                  </svg>
+                </button>
+                <button
+                  aria-label="Move forward to switch to the next month"
+                  className="DayPickerNavigation__next"
+                  onClick={[Function]}
+                  onMouseUp={[Function]}
+                  type="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                      Object {
+                        "color": undefined,
+                        "verticalAlign": "middle",
+                      }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                  >
+                    <g>
+                      <path
+                        d="m26.3 21.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.6 0.3t-0.5-0.3l-1.1-1.1q-0.2-0.2-0.2-0.5t0.2-0.5l8.8-8.8-8.8-8.7q-0.2-0.3-0.2-0.6t0.2-0.5l1.1-1.1q0.3-0.2 0.5-0.2t0.6 0.2l10.4 10.4q0.2 0.2 0.2 0.5z"
+                      />
+                    </g>
+                  </svg>
+                </button>
+              </div>
+              <div
+                className="transition-container transition-container--horizontal"
+                style={
+                  Object {
+                    "height": false,
+                    "width": 632,
+                  }
+                }
+              >
+                <div
+                  className="CalendarMonthGrid CalendarMonthGrid--horizontal"
+                  onTransitionEnd={[Function]}
+                  style={
+                    Object {
+                      "MozTransform": "translateX(0px)",
+                      "WebkitTransform": "translateX(0px)",
+                      "msTransform": "translateX(0px)",
+                      "transform": "translateX(0px)",
+                      "width": 1228,
+                    }
+                  }
+                >
+                  <div
+                    className="CalendarMonth CalendarMonth--horizontal"
+                    data-visible={false}
+                  >
+                    <table>
+                      <caption
+                        className="CalendarMonth__caption js-CalendarMonth__caption"
+                      >
+                        <strong>
+                          agosto 2017
+                        </strong>
+                      </caption>
+                      <tbody
+                        className="js-CalendarMonth__grid"
+                      >
+                        <tr>
+                          <td />
+                          <td />
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 1 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              1
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 2 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              2
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 3 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              3
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 4 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              4
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 5 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              5
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 6 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              6
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 7 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              7
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 8 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              8
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 9 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              9
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 10 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              10
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 11 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              11
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 12 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              12
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 13 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              13
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 14 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              14
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 15 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              15
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 16 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              16
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 17 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              17
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 18 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              18
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 19 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              19
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 20 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              20
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 21 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              21
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 22 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              22
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 23 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              23
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 24 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              24
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 25 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              25
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 26 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              26
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 27 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              27
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 28 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              28
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 29 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              29
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 30 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              30
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 31 de agosto de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              31
+                            </button>
+                          </td>
+                          <td />
+                          <td />
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div
+                    className="CalendarMonth CalendarMonth--horizontal"
+                    data-visible={true}
+                  >
+                    <table>
+                      <caption
+                        className="CalendarMonth__caption js-CalendarMonth__caption"
+                      >
+                        <strong>
+                          setembro 2017
+                        </strong>
+                      </caption>
+                      <tbody
+                        className="js-CalendarMonth__grid"
+                      >
+                        <tr>
+                          <td />
+                          <td />
+                          <td />
+                          <td />
+                          <td />
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 1 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              1
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 2 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              2
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 3 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              3
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 4 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              4
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 5 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              5
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 6 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              6
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 7 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              7
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 8 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              8
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 9 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              9
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 10 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              10
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 11 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              11
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 12 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              12
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 13 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              13
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 14 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              14
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 15 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              15
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 16 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              16
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 17 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              17
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 18 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              18
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 19 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              19
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 20 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              20
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 21 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              21
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 22 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              22
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 23 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              23
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 24 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              24
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 25 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              25
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 26 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              26
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 27 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              27
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 28 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              28
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 29 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              29
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--today CalendarDay--valid CalendarDay--selected"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 30 de setembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              30
+                            </button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div
+                    className="CalendarMonth CalendarMonth--horizontal"
+                    data-visible={true}
+                  >
+                    <table>
+                      <caption
+                        className="CalendarMonth__caption js-CalendarMonth__caption"
+                      >
+                        <strong>
+                          outubro 2017
+                        </strong>
+                      </caption>
+                      <tbody
+                        className="js-CalendarMonth__grid"
+                      >
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 1 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              1
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 2 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              2
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 3 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              3
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 4 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              4
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 5 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              5
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 6 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              6
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 7 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              7
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 8 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              8
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 9 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              9
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 10 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              10
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 11 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              11
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 12 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              12
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 13 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              13
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 14 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              14
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 15 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              15
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 16 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              16
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 17 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              17
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 18 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              18
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 19 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              19
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 20 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              20
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 21 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              21
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 22 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              22
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 23 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              23
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 24 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              24
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 25 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              25
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 26 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              26
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 27 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              27
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 28 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              28
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 29 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              29
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 30 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              30
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 31 de outubro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              31
+                            </button>
+                          </td>
+                          <td />
+                          <td />
+                          <td />
+                          <td />
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div
+                    className="CalendarMonth CalendarMonth--horizontal"
+                    data-visible={false}
+                  >
+                    <table>
+                      <caption
+                        className="CalendarMonth__caption js-CalendarMonth__caption"
+                      >
+                        <strong>
+                          novembro 2017
+                        </strong>
+                      </caption>
+                      <tbody
+                        className="js-CalendarMonth__grid"
+                      >
+                        <tr>
+                          <td />
+                          <td />
+                          <td />
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 1 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              1
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 2 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              2
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 3 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              3
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 4 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              4
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 5 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              5
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 6 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              6
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 7 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              7
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 8 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              8
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 9 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              9
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 10 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              10
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 11 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              11
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 12 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              12
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 13 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              13
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 14 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              14
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 15 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              15
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 16 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              16
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 17 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              17
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 18 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              18
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 19 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              19
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 20 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              20
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 21 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              21
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 22 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              22
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 23 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              23
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sexta-feira, 24 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              24
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="sábado, 25 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              25
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="domingo, 26 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              26
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="segunda-feira, 27 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              27
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="terça-feira, 28 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              28
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quarta-feira, 29 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              29
+                            </button>
+                          </td>
+                          <td
+                            className="CalendarDay CalendarDay--valid"
+                            style={
+                              Object {
+                                "height": 39,
+                                "width": 40,
+                              }
+                            }
+                          >
+                            <button
+                              aria-label="quinta-feira, 30 de novembro de 2017"
+                              className="CalendarDay__button"
+                              onClick={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              30
+                            </button>
+                          </td>
+                          <td />
+                          <td />
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className={undefined}
+        >
+          1 dia selecionado
+        </div>
+        <button
+          className=""
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Cancelar
+        </button>
+        <span
+          className={undefined}
+        />
+        <button
+          className=""
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Confirmar Período
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Filters Default 1`] = `
 <div
   className={undefined}
