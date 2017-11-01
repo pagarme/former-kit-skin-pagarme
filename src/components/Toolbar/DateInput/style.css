@@ -1,0 +1,107 @@
+@import "../../../styles/typography.css";
+@import "./properties.css";
+@import "../properties.css";
+
+.root,
+.root * {
+  box-sizing: border-box;
+}
+
+.root {
+  font-size: var(--date-input-font-size);
+}
+
+.input,
+.expanderSpan {
+  border: 0;
+  padding: 0;
+  white-space: pre;
+  font-size: var(--toolitem-font-size);
+  color: var(--toolitem-input-color);
+  font-family: var(--body-font-family);
+}
+
+.input:placeholder {
+  color: var(--toolitem-input-color);
+}
+
+.input {
+  position: absolute;
+  top: 0;
+  left: var(--date-input-inner-spacing);
+  width: calc(100% - var(--date-input-inner-spacing));
+  height: 100%;
+  background-color: transparent;
+}
+
+.expander {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: var(--date-input-inner-spacing);
+  padding-left: var(--date-input-inner-spacing);
+}
+
+.inputWidthSaviorSpan {
+  display: block;
+  min-width: 3em;
+}
+
+.absolutePosition {
+  position: absolute;
+  top: calc(100% + 3px);
+  left: -1px;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.separator:last-child {
+  display: none;
+}
+
+.separator {
+  width: 1px;
+  height: 20px;
+  margin: 0 1px;
+}
+
+.initialPlaceholder {
+  padding: 0 var(--date-input-inner-spacing)  0 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  color: var(--date-input-color);
+  width: 100%;
+}
+
+.hide {
+  position: absolute;
+  opacity: 0;
+  z-index: -10;
+}
+
+.show {
+  opacity: 1;
+  position: relative;
+}
+
+.inputActive {
+  background-color: var(--date-input-active-background);
+}
+
+.inputError {
+  background-color: var(--date-input-error-background);
+}

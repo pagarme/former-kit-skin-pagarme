@@ -1,0 +1,11 @@
+@import "./../../../styles/colors.css";
+@import "./../../../styles/typography.css";
+@import "../properties.css";
+
+:root {
+  --date-input-font-size: 14px;
+  --date-input-color: var(--toolitem-input-color);
+  --date-input-active-background: rgba(55, 204, 154, 0.2);
+  --date-input-error-background: rgba(220, 104, 96, 0.2);
+  --date-input-inner-spacing: 5px;
+}
