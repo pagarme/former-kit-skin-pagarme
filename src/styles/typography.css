@@ -1,5 +1,4 @@
-@import "./webfonts/unineue/index.css";
-@import "./webfonts/opensans/index.css";
+@import "./webfonts/assistant/index.css";
 @import "./spacing.css";
 @import "./colors.css";
 
@@ -14,12 +13,12 @@
   --blockquote-border-radius: 2px;
   --blockquote-border: 5px solid var(--color-light-green-accent-100);
 
-  --title-font-family: "Uni Neue";
+  --title-font-family: "Assistant";
   --title-font-weight: bold;
-  --title-font-style: italic;
-  --body-font-family: "Open Sans";
+  --title-font-style: normal;
+  --body-font-family: "Assistant";
   --body-link-color: var(--color-light-green-accent-100);
-  --letter-spacing: 0.05em;
+  --letter-spacing: 0.02em;
 }
 
 /* stylelint-disable */
@@ -27,6 +26,10 @@ body {
   font-family: var(--body-font-family);
   font-size: var(--body-font-size);
   color: var(--color-text-body);
+}
+
+body * {
+  letter-spacing: var(--letter-spacing);
 }
 
 h1,

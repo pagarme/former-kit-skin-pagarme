@@ -12,53 +12,53 @@ storiesOf('Typography', module)
       <div>
         <span>Display 4</span>
         <span className={`${style.display4} ${typography.display}`}>
-          Uni Neue Bold Italic 72
+          Assistant 72
         </span>
       </div>
       <div>
         <span>Display 3</span>
         <span className={`${style.display3} ${typography.display}`}>
-          Uni Neue Bold Italic 60
+          Assistant 60
         </span>
       </div>
       <div>
         <span>Display 2</span>
         <span className={`${style.display2} ${typography.display}`}>
-          Uni Neue Bold Italic 48
+          Assistant 48
         </span>
       </div>
       <div>
         <span>Display 1</span>
         <span className={`${style.display1} ${typography.display}`}>
-          Uni Neue Bold Italic 36
+          Assistant 36
         </span>
       </div>
       <div>
         <span>Headline</span>
         <span className={`${style.headline} ${typography.headline}`}>
-          Uni Neue Bold Italic 30
+          Assistant 30
         </span>
       </div>
       <div>
         <span>Title</span>
         <h1>
-          Uni Neue Bold Italic 24
+          Assistant 24
         </h1>
       </div>
       <div>
         <span>Body</span>
         <div>
           <p>
-            Open Sans Regular 14
+            Assistant Regular 14
           </p>
           <p>
             <i>
-              Open Sans Italic 14
+              Assistant Italic 14
             </i>
           </p>
           <p>
             <b>
-              Open Sans Bold 14
+              Assistant Bold 14
             </b>
           </p>
         </div>

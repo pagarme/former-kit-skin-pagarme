@@ -1,12 +1,13 @@
 @import "../../styles/colors.css";
 
 :root {
+  --radio-group-font-family: var(--title-font-family);
+  --radio-group-name-font-size: 14px;
+  --radio-group-name-color: var(--color-light-plumb-200);
+
   --radio-group-color-disabled: var(--color-light-silver-100);
 
   --radio-group-width: 60px;
-
-  --radio-group-name-font-size: 14px;
-  --radio-group-name-color: var(--color-light-plumb-200);
 
   --radio-group-box-border-color: var(--color-light-green-accent-100);
 

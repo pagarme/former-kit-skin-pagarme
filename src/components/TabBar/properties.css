@@ -4,7 +4,7 @@
   --tabbar-highlight: var(--color-light-green-accent-100);
   --tabbar-highlight-background: var(--color-background-light);
 
-  --tabbar-font-family: "Uni Neue";
+  --tabbar-font-family: var(--title-font-family);
   --tabbar-tab-font-size: 16px;
 
   --tabbar-tab-width: 200px;

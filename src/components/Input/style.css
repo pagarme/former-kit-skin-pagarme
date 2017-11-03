@@ -34,7 +34,7 @@
 }
 
 .inputContainer * {
-  font-family: "Uni Neue";
+  font-family: var(--input-font-family);
   letter-spacing: var(--letter-spacing);
 }
 

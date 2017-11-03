@@ -1,6 +1,7 @@
 @import "../../styles/colors.css";
 
 :root {
+  --input-font-family: var(--title-font-family);
   --input-font-size: 14px;
 
   --input-textarea-border-color: rgba(59, 59, 59, 0.25);

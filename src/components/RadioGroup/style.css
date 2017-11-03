@@ -6,7 +6,7 @@
 .container *:before,
 .container *:after {
   box-sizing: border-box;
-  font-family: "Uni Neue";
+  font-family: var(--radio-group-font-family);
   letter-spacing: var(--letter-spacing);
 }
 
