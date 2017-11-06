@@ -1,4 +1,5 @@
 import React from 'react'
+import propTypes from 'prop-types'
 
 import { storiesOf } from '@storybook/react'
 
@@ -136,8 +137,8 @@ const darkBackgroundColors = {
           'var(--color-dark-error)',
           'var(--color-dark-info)',
           'var(--color-dark-success)',
-        ]
-      ]
+        ],
+      ],
     },
   ],
 }
@@ -270,8 +271,8 @@ const lightBackgroundColors = {
           'var(--color-light-error)',
           'var(--color-light-info)',
           'var(--color-light-success)',
-        ]
-      ]
+        ],
+      ],
     },
   ],
 }
@@ -307,6 +308,14 @@ const Colors = ({ spec: { swatches, backgroundColor, fontColor: color } }) => (
     ))}
   </div>
 )
+
+Colors.propTypes = {
+  spec: propTypes.shape({
+    swatches: propTypes.array,
+    backgroundColor: propTypes.string,
+    fontColor: propTypes.string,
+  }).isRequired,
+}
 
 storiesOf('Colors', module)
   .add(

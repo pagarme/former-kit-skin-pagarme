@@ -1,7 +1,7 @@
 import React from 'react'
+import propTypes from 'prop-types'
 
 import { storiesOf } from '@storybook/react'
-import { action } from '@storybook/addon-actions'
 
 import SearchField from '../../src/components/Toolbar/SearchField'
 
@@ -10,7 +10,7 @@ class SearchFieldState extends React.Component {
     super(props)
 
     this.state = {
-      value: ''
+      value: '',
     }
   }
   render () {
@@ -22,6 +22,14 @@ class SearchFieldState extends React.Component {
       />
     )
   }
+}
+
+SearchFieldState.propTypes = {
+  disabled: propTypes.bool,
+}
+
+SearchFieldState.defaultProps = {
+  disabled: false,
 }
 
 storiesOf('Toolbar', module)

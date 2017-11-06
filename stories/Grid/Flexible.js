@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { storiesOf } from '@storybook/react'
-import { range } from 'ramda'
 
 import { Grid, Row, Col } from '../../src/components/Grid'
 import CardSample from './CardSample'
@@ -9,7 +8,13 @@ import CardSample from './CardSample'
 import '../../src/styles/index.css'
 import style from './style.css'
 
-const maxColumns = 12
+const reallyLongString = [
+  'Loremipsumdolorsitamet,',
+  'consetetursadipscingelitr,',
+  'seddiamnonumyeirmodtemporinviduntutlaboreetdolorem,',
+  'seddiamvoluptua.',
+  'Atveroeosetaccusametjustoduodoloresetearebum.',
+].join('')
 
 storiesOf('Grid', module)
   .add('Flexible', () => (
@@ -44,7 +49,7 @@ storiesOf('Grid', module)
         <Row flex>
           <Col>
             <CardSample>
-              Loremipsumdolorsitamet,consetetursadipscingelitr,seddiamnonumyeirmodtemporinviduntutlaboreetdolorem,seddiamvoluptua.Atveroeosetaccusametjustoduodoloresetearebum.
+              {reallyLongString}
             </CardSample>
           </Col>
           <Col>

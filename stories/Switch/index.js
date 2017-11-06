@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
+import propTypes from 'prop-types'
 
 import { storiesOf } from '@storybook/react'
-import { action } from '@storybook/addon-actions'
 
 import Switch from '../../src/components/Switch'
 
@@ -26,6 +26,16 @@ class SwitchState extends Component {
       />
     )
   }
+}
+
+SwitchState.propTypes = {
+  checked: propTypes.bool,
+  disabled: propTypes.bool,
+}
+
+SwitchState.defaultProps = {
+  checked: false,
+  disabled: false,
 }
 
 storiesOf('Switch', module)

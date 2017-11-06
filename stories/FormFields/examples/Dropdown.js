@@ -1,26 +1,25 @@
 import React from 'react'
-
-import { storiesOf } from '@storybook/react'
-import { action } from '@storybook/addon-actions'
+import propTypes from 'prop-types'
 
 import Dropdown from '../../../src/components/Dropdown'
 
+
 const options = [
   {
-    name: "Leonardo",
-    value: "leonardo",
+    name: 'Leonardo',
+    value: 'leonardo',
   },
   {
-    name: "Felquis",
-    value: "felquis",
+    name: 'Felquis',
+    value: 'felquis',
   },
   {
-    name: "Derek",
-    value: "derek",
+    name: 'Derek',
+    value: 'derek',
   },
   {
-    name: "Lucas",
-    value: "lucas",
+    name: 'Lucas',
+    value: 'lucas',
   },
 ]
 
@@ -51,6 +50,21 @@ class DropdownState extends React.Component {
     )
   }
 }
+
+DropdownState.propTypes = {
+  disabled: propTypes.bool,
+  error: propTypes.string,
+  success: propTypes.string,
+  title: propTypes.string,
+}
+
+DropdownState.defaultProps = {
+  disabled: false,
+  error: '',
+  success: '',
+  title: '',
+}
+
 
 const DropdownExamples = () => (
   <div>

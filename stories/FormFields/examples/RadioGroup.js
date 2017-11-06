@@ -1,4 +1,5 @@
 import React from 'react'
+import propTypes from 'prop-types'
 
 import RadioGroup from '../../../src/components/RadioGroup'
 
@@ -24,7 +25,7 @@ class RadioGroupState extends React.Component {
     this.state = { value: 'casa' }
   }
 
-  componentDidMount () {
+  componentWillMount () {
     if (this.props.success) {
       this.setState({ value: 'sofa' })
     }
@@ -47,7 +48,7 @@ class RadioGroupState extends React.Component {
         <RadioGroup
           options={options}
           name={name}
-          onChange={value => this.setState({ value })}
+          onChange={v => this.setState({ value: v })}
           value={value}
           disabled={disabled}
           error={error}
@@ -58,6 +59,19 @@ class RadioGroupState extends React.Component {
       </div>
     )
   }
+}
+
+RadioGroupState.propTypes = {
+  disabled: propTypes.bool,
+  error: propTypes.string,
+  success: propTypes.string,
+  name: propTypes.string.isRequired,
+}
+
+RadioGroupState.defaultProps = {
+  disabled: false,
+  error: '',
+  success: '',
 }
 
 const RadioGroupStateExamples = () => (

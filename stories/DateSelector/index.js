@@ -36,6 +36,14 @@ const presets = [
   },
 ]
 
+/*
+  Do not use storybook addon actions,
+  it changes context and crashes this component
+*/
+const action = (func, params) => {
+  console.log(func, params) // eslint-disable-line no-console
+}
+
 class DateSelectorExample extends React.Component {
   constructor (props) {
     super(props)
@@ -68,17 +76,12 @@ class DateSelectorExample extends React.Component {
         focusedInput={this.state.focusedInput}
         onFocusChange={this.handleFocusChange}
         onChange={this.handleChange}
-        /*
-          Do not use storybook addon actions,
-          it changes context and crashes this component
-        */
-        onConfirm={dates => console.log('onConfirm', dates)}
-        onCancel={() => console.log('onCancel')}
+        onConfirm={dates => action('onConfirm', dates)}
+        onCancel={() => action('onCancel', '')}
       />
     )
   }
 }
-
 
 storiesOf('DateSelector', module)
   .add('All types', () => (

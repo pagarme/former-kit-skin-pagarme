@@ -14,8 +14,8 @@ storiesOf('Progress', module)
     <div className={style.showcase}>
       <section>
         <h2>Normal state</h2>
-        {percentages.map((percent, index) => (
-          <div key={`mock${index}`}>
+        {percentages.map(percent => (
+          <div key={`mock${percent}`}>
             <LinearProgress
               label={'Lorem Label'}
               percent={percent}
@@ -25,8 +25,8 @@ storiesOf('Progress', module)
       </section>
       <section>
         <h2>Disabled state</h2>
-        {percentages.map((percent, index) => (
-          <div key={`mock${index}`}>
+        {percentages.map(percent => (
+          <div key={`mock${percent}`}>
             <LinearProgress
               disabled
               label={'Lorem Label'}
@@ -43,9 +43,9 @@ storiesOf('Progress', module)
     <div className={style.container}>
       <section>
         <h2>Normal state</h2>
-        {percentages.map((percent, index) => (
+        {percentages.map(percent => (
           <CircularProgress
-            key={`mock${index}`}
+            key={`mock${percent}`}
             label={'Lorem Label'}
             percent={percent}
           />
@@ -53,9 +53,9 @@ storiesOf('Progress', module)
       </section>
       <section>
         <h2>Disabled state</h2>
-        {percentages.map((percent, index) => (
+        {percentages.map(percent => (
           <CircularProgress
-            key={`mock${index}`}
+            key={`mock${percent}`}
             label={'Lorem Label'}
             percent={percent}
             disabled

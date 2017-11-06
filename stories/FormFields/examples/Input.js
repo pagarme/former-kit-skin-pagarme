@@ -1,11 +1,12 @@
 import React from 'react'
+import propTypes from 'prop-types'
 
-import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 
 import FaAndroid from 'react-icons/lib/fa/android'
 
 import Input from '../../../src/components/Input'
+
 
 class InputState extends React.Component {
   constructor (props) {
@@ -29,7 +30,7 @@ class InputState extends React.Component {
 
     return (
       <Input
-        boxed={boxed ? true : false}
+        boxed={!!boxed}
         error={error}
         hint={boxed ? '' : 'Texto secundario'}
         icon={icon}
@@ -45,6 +46,25 @@ class InputState extends React.Component {
     )
   }
 }
+
+InputState.propTypes = {
+  boxed: propTypes.bool,
+  error: propTypes.string,
+  icon: propTypes.element,
+  multiline: propTypes.bool,
+  success: propTypes.string,
+  type: propTypes.string,
+}
+
+InputState.defaultProps = {
+  boxed: false,
+  error: '',
+  icon: null,
+  multiline: false,
+  success: '',
+  type: null,
+}
+
 
 const InputExamples = () => (
   <div>

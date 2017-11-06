@@ -54,7 +54,7 @@ const manualAbbr = [
   {
     color: 'red-300',
     text: 'Processando',
-      acronym: 'PR',
+    acronym: 'PR',
   },
   {
     color: 'blue-300',

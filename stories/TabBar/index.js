@@ -1,4 +1,5 @@
 import React from 'react'
+import propTypes from 'prop-types'
 
 import IconMyAccount from 'react-icons/lib/md/face'
 import IconDocs from 'react-icons/lib/md/import-contacts'
@@ -18,7 +19,7 @@ const i18n = {
   JustText: 'Texto',
   TextIcon: 'Texto e Ícone',
   JustIcon: 'Ícone',
-  ThisIs: 'Você está em: '
+  ThisIs: 'Você está em: ',
 }
 
 const variantList = [
@@ -30,7 +31,7 @@ const variantList = [
 const clicked = action('clicked')
 
 class Tab extends React.Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = { theChosen: 1 }
     this.changeTab = this.changeTab.bind(this)
@@ -40,7 +41,7 @@ class Tab extends React.Component {
     this.setState({ theChosen })
   }
 
-  render() {
+  render () {
     return (
       <TabBar
         variant={this.props.variant}
@@ -73,10 +74,14 @@ class Tab extends React.Component {
   }
 }
 
+Tab.propTypes = {
+  variant: propTypes.string.isRequired,
+}
+
 storiesOf(`${i18n.TabBar}`, module)
   .add('All styles', () => (
     <div>
-      {variantList.map((variant) => (
+      {variantList.map(variant => (
         <section key={variant.name}>
           <p>{variant.name}</p>
           <Tab variant={variant.code} />
