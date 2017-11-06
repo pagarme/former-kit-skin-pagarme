@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@percy-io/in-percy": "0.1.9",
     "@percy-io/percy-storybook": "1.2.4",
     "@storybook/addon-actions": "3.2.6",
     "@storybook/addon-storyshots": "3.2.8",
