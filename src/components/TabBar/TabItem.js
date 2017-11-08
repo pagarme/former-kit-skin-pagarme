@@ -15,7 +15,7 @@ import {
   variantDefault,
 } from './shapes'
 
-import style from './style.css'
+import style from './TabItem.style.css'
 
 function TabItem (props) {
   const className = classNames(

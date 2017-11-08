@@ -6,7 +6,7 @@ import {
   CardGraphic,
 } from '../../src/components/Card'
 
-import style from './style.css'
+import style from './CardSample.style.css'
 
 
 const CardSample = ({ size, color, children }) => (

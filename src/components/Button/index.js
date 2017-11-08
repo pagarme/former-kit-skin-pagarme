@@ -1,3 +1,12 @@
+/* eslint css-modules/no-unused-class: [2, {
+     markAsUsed: [
+       'flat', 'gradient', 'light-flat', 'light-gradient', 'dark-flat',
+       'dark-gradient', 'outline', 'clean', 'block', 'extra-small',
+       'small', 'default', 'large'
+     ]
+   }]
+*/
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
@@ -5,9 +14,9 @@ import classNames from 'classnames'
 import stylesheet from './style.css'
 
 
-function Button (
-  { disabled, onClick, variant, base, color, size, children, type }
-) {
+function Button ({
+  disabled, onClick, variant, base, color, size, children, type,
+}) {
   const buttonClasses = classNames(
     stylesheet.button,
     stylesheet[variant],

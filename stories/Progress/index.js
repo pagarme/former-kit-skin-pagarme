@@ -11,7 +11,7 @@ const percentages = [0, 25, 50, 75, 100]
 
 storiesOf('Progress', module)
   .add('Linear', () => (
-    <div className={style.showcase}>
+    <div className={style.container}>
       <section>
         <h2>Normal state</h2>
         {percentages.map(percent => (

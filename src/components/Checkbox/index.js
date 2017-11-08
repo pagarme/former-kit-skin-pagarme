@@ -7,7 +7,6 @@ import style from './style.css'
 const Checkbox = (props) => {
   const containerClass = classnames(style.container, {
     [style.disabled]: props.disabled,
-    [style.enabled]: !props.disabled,
   })
 
   const secondaryTextClass = classnames(style.secondaryText, {

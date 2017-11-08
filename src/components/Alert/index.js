@@ -1,9 +1,18 @@
+/* eslint css-modules/no-unused-class: [2, {
+     markAsUsed: [
+       'dark-warning', 'dark-error', 'dark-info', 'dark-success',
+       'light-warning', 'light-info', 'light-error', 'light-success'
+     ]
+   }]
+*/
+
 import React from 'react'
 import classnames from 'classnames'
 import {
   oneOf,
   element,
 } from 'prop-types'
+
 import IconCheck from 'react-icons/lib/md/check'
 import IconInfo from 'react-icons/lib/md/info-outline'
 import IconWarning from 'react-icons/lib/md/warning'

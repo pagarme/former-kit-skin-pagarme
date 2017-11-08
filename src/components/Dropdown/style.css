@@ -54,19 +54,6 @@
   width: 100%;
 }
 
-.dropdownMenu {
-  position: absolute;
-  top: -1.5em;
-  right: 0;
-  left: 0;
-  width: 100%;
-  list-style: none;
-  text-align: left;
-  border-radius: var(--dropdown-menu-border-radius);
-  background: var(--dropdown-menu-background);
-  box-shadow: var(--dropdown-menu-box-shadow);
-}
-
 .option {
   color: var(--dropdown-option-color);
 }

@@ -1,5 +1,9 @@
 import classNames from 'classnames'
-import style from './style.css'
+
+import style from './classNames.style.css'
+
+// disable eslint for shared styles
+// eslint-disable-next-line css-modules/no-unused-class
 import toolItemStyle from '../style.css'
 
 

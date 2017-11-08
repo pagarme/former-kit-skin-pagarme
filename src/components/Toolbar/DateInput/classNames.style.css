@@ -1,0 +1,41 @@
+@import "./properties.css";
+
+.expander {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: var(--date-input-inner-spacing);
+  padding-left: var(--date-input-inner-spacing);
+}
+
+.initialPlaceholder {
+  padding: 0 var(--date-input-inner-spacing) 0 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  color: var(--date-input-color);
+  width: 100%;
+}
+
+.hide {
+  position: absolute;
+  opacity: 0;
+  z-index: -10;
+}
+
+.show {
+  opacity: 1;
+  position: relative;
+}
+
+.inputActive {
+  background-color: var(--date-input-active-background);
+}
+
+.inputError {
+  background-color: var(--date-input-error-background);
+}

@@ -1,3 +1,5 @@
+@import "../../styles/colors.css";
+
 :root {
   --tabbar-background: var(--color-background-grey);
   --tabbar-text: var(--color-text-grey);

@@ -1,0 +1,29 @@
+@import "../../styles/typography.css";
+@import "./properties";
+
+.tabItem {
+  border: none;
+  font-family: var(--tabbar-font-family);
+  font-weight: 600;
+  letter-spacing: var(--letter-spacing);
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  width: var(--tabbar-tab-width);
+  color: var(--tabbar-text);
+  background: var(--tabbar-background);
+  padding: var(--tabbar-tab-padding);
+  font-size: var(--tabbar-tab-font-size);
+}
+
+.icon {
+  margin-bottom: var(--tabbar-icon-margin);
+  font-size: var(--tabbar-icon-size);
+}
+
+.selected {
+  color: var(--tabbar-highlight);
+  background: var(--tabbar-highlight-background);
+  border-top: solid var(--tabbar-highlight-size) var(--tabbar-highlight);
+  padding-top: var(--tabbar-highlight-padding);
+}

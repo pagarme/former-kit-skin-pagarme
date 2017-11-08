@@ -1,5 +1,4 @@
 import React from 'react'
-import classnames from 'classnames'
 import {
   arrayOf,
   string,
@@ -7,13 +6,6 @@ import {
 } from 'prop-types'
 
 import style from './style.css'
-
-function getClassName (selected, item) {
-  return classnames(
-    style.item,
-    { [style.selected]: selected === item }
-  )
-}
 
 const ContextSwitch = ({
   items,
@@ -25,7 +17,7 @@ const ContextSwitch = ({
     {items.map((item, index) => (
       <label
         key={`context-switch-${name}-label-${item}`}
-        className={getClassName(selected, item)}
+        className={style.item}
         htmlFor={`context-switch-${name}-input-${item}`}
       >
         <input

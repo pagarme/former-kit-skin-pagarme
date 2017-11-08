@@ -1,6 +1,8 @@
 import React from 'react'
 import { node } from 'prop-types'
 
+// disable eslint for shared styles
+// eslint-disable-next-line css-modules/no-unused-class
 import style from './style.css'
 
 const Toolbar = ({

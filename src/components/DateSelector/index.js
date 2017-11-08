@@ -206,7 +206,6 @@ export default class DateSelector extends Component {
         </div>
         <Button
           variant="clean"
-          className={style.silverBtn}
           color="silver"
           size="small"
           onClick={this.handleCancel}
@@ -215,7 +214,6 @@ export default class DateSelector extends Component {
         </Button>
         <span className={style.separator} />
         <Button
-          className={style.greenBtn}
           variant="clean"
           size="small"
           onClick={this.handleConfirm}

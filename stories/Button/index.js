@@ -16,6 +16,11 @@ import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 
 import Button from '../../src/components/Button'
+
+/* eslint css-modules/no-unused-class: [2, {
+     markAsUsed: ['section-dark']
+   }]
+*/
 import stylesheet from './style.css'
 
 const strings = {

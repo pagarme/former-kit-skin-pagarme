@@ -11,10 +11,6 @@
   --dropdown-input-text-color: var(--color-light-plumb-200);
 
   --dropdown-color-disabled: var(--color-light-silver-100);
-
-  --dropdown-menu-border-radius: 3px;
-  --dropdown-menu-background: #ffffff;
-  --dropdown-menu-box-shadow: 0 2px 3px 0 rgba(59, 59, 59, 0.25);
   --dropdown-icon-size: 30px;
 
   --dropdown-option-color: var(--color-light-plumb-200);

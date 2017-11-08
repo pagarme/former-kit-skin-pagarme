@@ -26,6 +26,9 @@ import classNames from 'classnames'
 import DateSelector from '../../DateSelector'
 
 import style from './style.css'
+
+// disable eslint for shared styles
+// eslint-disable-next-line css-modules/no-unused-class
 import toolItemStyle from '../style.css'
 
 import {
@@ -290,7 +293,7 @@ class DateInput extends React.Component {
         </div>
 
         {showDateSelector ?
-          <div className={style.absolutePosition}>
+          <div className={style.dateSelector}>
             <DateSelector
               dates={isValidDates ? momentDates : {}}
               onChange={this.handleDatesChange}

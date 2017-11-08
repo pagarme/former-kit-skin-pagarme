@@ -25,7 +25,7 @@ function Switch ({
         type="checkbox"
         onChange={() => !disabled && onChange(!checked)}
       />
-      <span className={style.label}>
+      <span>
         {checked ? 'on' : 'off' }
       </span>
     </div>
