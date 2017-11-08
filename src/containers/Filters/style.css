@@ -6,7 +6,7 @@
 .heading {
   margin: 0;
   font-family: var(--title-font-family);
-  color: var(--color-light-silver-300);
+  color: var(--color-light-steel-100);
   text-transform: uppercase;
   font-size: 14px;
   margin-bottom: var(--spacing-small);
