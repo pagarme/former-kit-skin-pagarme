@@ -4,7 +4,7 @@
   --card-spacing-large: var(--spacing-medium);
   --card-spacing-medium: var(--spacing-medium);
   --card-spacing-small: var(--spacing-small);
-  --card-shadow: 0 2px 5px 0 rgba(67, 67, 67, 0.26);
+  --card-shadow: 0 2px 5px 0 var(--color-light-silver-50);
   --card-border-radius: 3px;
 
   --card-title-font-size: 14px;
@@ -28,12 +28,12 @@
     var(--card-spacing-small)
     var(--card-spacing-medium);
 
-  --card-section-title-color: #999999;
-  --card-section-title-icon-color: #3ed2a4;
+  --card-section-title-color: var(--color-light-coal-50);
+  --card-section-title-icon-color: var(--color-light-greenish-100);
   --card-section-title-icon-size: 18px;
-  --card-section-background: #f3f3f3;
+  --card-section-background: var(--color-light-smoke-40);
 
-  --card-section-subtitle-color: #bababa;
+  --card-section-subtitle-color: var(--color-light-steel-50);
   --card-section-subtitle-font-size: 12px;
   --card-section-subtitle-margin-right: var(--spacing-small);
 }

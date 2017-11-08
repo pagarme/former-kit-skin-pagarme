@@ -2,7 +2,7 @@
 @import "./properties.css";
 
 .card {
-  background: #ffffff;
+  background: var(--color-white);
   box-shadow: var(--card-shadow);
   margin: 0;
   padding: 0;
@@ -42,8 +42,9 @@
   margin: 0;
 }
 
+.title,
 .title > h3 {
-  color: var(--color-light-green-accent-100);
+  color: var(--color-light-steel-100);
   margin-right: var(--card-title-icon-margin);
 }
 
