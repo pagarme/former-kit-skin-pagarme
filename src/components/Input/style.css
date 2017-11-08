@@ -68,7 +68,6 @@
 .inputContainer > textarea:disabled,
 .inputContainer > input:disabled {
   border: var(--input-textarea-disabled-border);
-  background: var(--input-textarea-disabled-background);
   cursor: not-allowed;
 }
 
