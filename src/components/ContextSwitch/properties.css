@@ -3,12 +3,12 @@
 
 :root {
   --context-switch-label-font-size: 14px;
-  --context-switch-label-shadow-color: #e9e9e9;
-  --context-switch-checked-label-shadow-color: #96a0ac;
-  --context-switch-label-color: #cccccc;
+  --context-switch-label-shadow-color: var(--color-light-silver-50);
+  --context-switch-checked-label-shadow-color: var(--color-light-iron-100);
+  --context-switch-label-color: var(--color-light-grey-50);
   --context-switch-font-family: var(--title-font-family);
   --context-switch-border-radius: 20px;
   --context-switch-padding: 5px 14px;
-  --context-switch-white: #ffffff;
-  --context-switch-box-shadow: var(--box-shadow);
+  --context-switch-white: var(--color-white);
+  --context-switch-box-shadow: 0.5px 0.9px 0 0 var(--color-light-silver-100);
 }
