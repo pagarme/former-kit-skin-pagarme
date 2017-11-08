@@ -41,7 +41,7 @@
 
 .input:checked + .label {
   background-image: var(--toolitem-active-background);
-  color: #ffffff;
+  color: var(--color-white);
   z-index: 1;
 }
 
