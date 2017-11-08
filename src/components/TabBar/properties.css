@@ -1,10 +1,10 @@
 @import "../../styles/colors.css";
 
 :root {
-  --tabbar-background: var(--color-background-grey);
-  --tabbar-text: var(--color-text-grey);
-  --tabbar-highlight: var(--color-light-green-accent-100);
-  --tabbar-highlight-background: var(--color-background-light);
+  --tabbar-background: var(--color-light-silver-20);
+  --tabbar-text: var(--color-light-steel-100);
+  --tabbar-highlight: var(--color-light-greenish-100);
+  --tabbar-highlight-background: var(--color-white);
 
   --tabbar-font-family: var(--title-font-family);
   --tabbar-tab-font-size: 16px;
