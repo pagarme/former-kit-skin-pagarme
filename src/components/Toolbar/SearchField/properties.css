@@ -3,7 +3,7 @@
 :root {
   --search-field-input-padding: 9px;
   --search-field-button-icon-size: 20px;
-  --search-field-button-background: var(--color-dark-silver-100);
-  --search-field-button-active-background-color: var(--color-dark-silver-200);
-  --search-field-button-color: var(--color-dark-silver-300);
+  --search-field-button-background: var(--color-light-silver-100);
+  --search-field-button-active-background-color: var(--color-light-coal-100);
+  --search-field-button-color: var(--color-light-coal-100);
 }
