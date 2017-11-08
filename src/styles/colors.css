@@ -1,19 +1,5 @@
-@import "./colors/dark.css";
 @import "./colors/light.css";
 
 :root {
-  --color-background-light: #ffffff;
-  --color-background-dark: #cccccc;
-  --color-background-grey: #f4f4f4;
-
-  --color-text-title: #000000;
-  --color-text-body: #000000;
-  --color-text-link: var(--color-dark-green-contrast-100);
-
   --gradient-angle: 145deg;
-
-  --color-text-light: #ffffff;
-  --color-text-dark: #333333;
-  --color-text-grey: #777777;
-  --box-shadow: 0.5px 0.9px 0 0 var(--color-dark-silver-100);
 }
