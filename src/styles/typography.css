@@ -11,21 +11,23 @@
   --caption-font-size: 12px;
   --body-font-size: 16px;
   --blockquote-border-radius: 2px;
-  --blockquote-border: 5px solid var(--color-light-green-accent-100);
+  --blockquote-border: 5px solid var(--color-light-greenish-100);
 
   --title-font-family: "Assistant";
+  --title-color: var(--color-light-coal-100);
   --title-font-weight: bold;
   --title-font-style: normal;
   --body-font-family: "Assistant";
-  --body-link-color: var(--color-light-green-accent-100);
+  --body-link-color: var(--color-light-greenish-100);
   --letter-spacing: 0.02em;
+  --body-color: var(--color-light-chromium-100);
 }
 
 /* stylelint-disable */
 body {
   font-family: var(--body-font-family);
   font-size: var(--body-font-size);
-  color: var(--color-text-body);
+  color: var(--body-color);
 }
 
 body * {
@@ -43,7 +45,7 @@ h6,
   font-family: var(--title-font-family);
   font-weight: var(--title-font-weight);
   font-style: var(--title-font-style);
-  color: var(--color-text-title);
+  color: var(--title-color);
 }
 
 h1 {
