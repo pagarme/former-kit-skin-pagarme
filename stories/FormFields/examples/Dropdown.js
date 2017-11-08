@@ -87,7 +87,7 @@ const DropdownExamples = () => (
 
     <section>
       <h3>Disabled</h3>
-      <DropdownState disabled title="Selecione alguem" />
+      <DropdownState disabled />
     </section>
 
     <section>

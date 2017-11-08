@@ -6680,17 +6680,12 @@ exports[`Storyshots Forms Dropdown 1`] = `
             <div
               className={undefined}
             >
-              Selecione alguem
+              Selecione
               <select
                 disabled={true}
                 onChange={[Function]}
               >
-                <option
-                  className=""
-                  disabled={true}
-                >
-                  Selecione alguem
-                </option>
+                
                 <option
                   className=""
                   value="leonardo"
