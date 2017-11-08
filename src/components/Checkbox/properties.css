@@ -20,4 +20,5 @@
   --checkbox-checked-background-color: var(--color-light-greenish-20);
   --checkbox-spacing: 10px;
   --checkbox-secondary-text-font-size: 12px;
+  --checkbox-margin: 5px;
 }

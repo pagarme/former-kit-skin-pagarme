@@ -9,8 +9,8 @@
 
 .container {
   position: relative;
-  margin-right: 5px;
-  margin-bottom: 5px;
+  margin-right: var(--checkbox-margin);
+  margin-bottom: var(--checkbox-margin);
 }
 
 .container > label {
