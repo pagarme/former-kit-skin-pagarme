@@ -68,7 +68,7 @@
   display: block;
   height: 220px;
   width: 1px;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(var(--color-black) 0.05);
   transform: translateX(-12px) translateY(-70px);
   position: absolute;
   opacity: 0;
@@ -101,8 +101,8 @@
   font-weight: var(--date-selector-week-name-font-weight);
   font-size: var(--date-selector-week-name-font-size);
   text-transform: uppercase;
-  border-top: 1px solid rgba(228, 228, 228, 0.5);
-  border-bottom: 1px solid rgba(228, 228, 228, 0.5);
+  border-top: 1px solid rgba(var(--color-light-silver-100), 0.5);
+  border-bottom: 1px solid rgba(var(--color-light-silver-100), 0.5);
 }
 
 .DayPickerNavigation {
@@ -126,14 +126,14 @@
 }
 
 .CalendarDay--selected-span {
-  background-color: #eeeeee;
+  background-color: var(--date-selector-selected-span);
 }
 
 .CalendarDay--selected-start,
 .CalendarDay--selected-end,
 .CalendarDay--selected {
   background-color: var(--date-selector-active-color);
-  color: #ffffff;
+  color: var(--color-white);
   font-weight: bold;
 }
 
