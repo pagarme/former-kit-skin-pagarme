@@ -157,8 +157,12 @@
     0;
 }
 
+.CalendarDay--hovered-span:not(.CalendarDay--selected-start),
+.CalendarDay--hovered.CalendarDay--selected-span {
+  background-color: var(--date-selector-hovered-span);
+}
+
 .CalendarDay:active {
   background-color: lighten(var(--date-selector-active-color), 30%);
   border-radius: var(--date-selector-day-selected-border-radius);
 }
-

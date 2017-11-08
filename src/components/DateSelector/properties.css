@@ -35,4 +35,5 @@
   --date-selector-day-selected-border-radius: 3px;
   --date-selector-day-out-of-range-color: #b2b2b2;
   --date-selector-border-radius: 3px;
+  --date-selector-hovered-span: var(--color-light-greenish-20);
 }
