@@ -1,5 +1,6 @@
 @import "../../styles/colors.css";
 @import "../../styles/typography.css";
+@import "./properties.css";
 
 .alert * {
   box-sizing: border-box;
@@ -9,7 +10,7 @@
 .alert {
   font-size: 1em;
   display: flex;
-  border: 1px solid var(--color-light-silver-100);
+  border: 1px solid var(--alert-secondary-border-color);
   border-radius: 3px;
   padding: 2px;
   align-items: center;
@@ -17,34 +18,19 @@
 }
 
 .content {
-  margin-left: 19px;
-  margin-right: 19px;
+  margin-left: var(--spacing-small);
+  margin-right: var(--spacing-small);
+  color: var(--alert-color);
 }
 
 .icon {
   height: 50px;
   width: 59px;
-  color: #ffffff;
+  color: var(--alert-secondary-icon-color);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.5em;
-}
-
-.dark-warning {
-  background-color: var(--color-dark-warning);
-}
-
-.dark-error {
-  background-color: var(--color-dark-error);
-}
-
-.dark-info {
-  background-color: var(--color-dark-info);
-}
-
-.dark-success {
-  background-color: var(--color-dark-success);
 }
 
 .light-warning {
@@ -62,4 +48,3 @@
 .light-success {
   background-color: var(--color-light-success);
 }
-
