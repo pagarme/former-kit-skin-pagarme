@@ -41,15 +41,13 @@ Button.propTypes = {
   type: PropTypes.oneOf(['button', 'submit', 'reset']),
   onClick: PropTypes.func,
   variant: PropTypes.oneOf([
-    'flat', 'gradient', 'outline', 'clean', 'block',
+    'flat', 'gradient', 'outline', 'clean',
   ]),
   base: PropTypes.oneOf([
     'dark', 'light',
   ]),
   color: PropTypes.oneOf([
-    'green-primary', 'green-secondary', 'green-contrast', 'green-accent',
-    'silver', 'plumb', 'yellow', 'red', 'blue',
-    'purple', 'purple-accent', 'pink', 'pink-accent',
+    'green', 'silver', 'red',
   ]),
   size: PropTypes.oneOf([
     'extra-small', 'small', 'default', 'large',
@@ -66,7 +64,7 @@ Button.defaultProps = {
   onClick: null,
   variant: 'flat',
   base: 'light',
-  color: 'green-primary',
+  color: 'green',
   size: 'default',
   type: 'button',
   disabled: false,

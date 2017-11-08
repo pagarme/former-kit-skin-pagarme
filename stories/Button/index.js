@@ -1,211 +1,102 @@
 import React from 'react'
 
-import classNames from 'classnames'
-
-import IconMyAccount from 'react-icons/lib/md/face'
-import IconLogoff from 'react-icons/lib/fa/power-off'
-import IconExport from 'react-icons/lib/fa/external-link'
-import IconCopy from 'react-icons/lib/md/content-copy'
-import IconDelete from 'react-icons/lib/fa/close'
 import IconAdd from 'react-icons/lib/fa/plus'
-import IconDocs from 'react-icons/lib/md/import-contacts'
-import IconLetter from 'react-icons/lib/md/assignment'
-import IconUpload from 'react-icons/lib/md/file-upload'
 
 import { storiesOf } from '@storybook/react'
-import { action } from '@storybook/addon-actions'
 
 import Button from '../../src/components/Button'
+import styles from './style.css'
 
-/* eslint css-modules/no-unused-class: [2, {
-     markAsUsed: ['section-dark']
-   }]
-*/
-import stylesheet from './style.css'
+storiesOf('Buttons', module)
+  .add('all', () => (
+    <div className={styles.container}>
+      <h2>Default Button</h2>
 
-const strings = {
-  AllStyles: 'All styles',
-  Button: 'Button',
-  Label: 'Button Label',
-  Light: 'Light base',
-  Dark: 'Dark base',
-  MyAccount: 'My Account',
-  Logoff: 'Disconnect',
-  Export: 'Export',
-  Copy: 'Copy',
-  Delete: 'Delete',
-  Add: 'Add',
-  Docs: 'Documentation',
-  Letter: 'Get Letter',
-  Upload: 'Upload',
-  Flat: 'Flat',
-  Gradient: 'Gradient',
-  Outline: 'Outlined',
-  Clean: 'Clean',
-  Iconed: 'With icons',
-  Block: 'Block',
-  Sizes: 'Sizes',
-  Disabled: 'Disabled',
-}
+      <div className={styles.spacingAround}>
+        <Button>Call to Action</Button>
+        <Button color="red">Call to Action</Button>
+        <Button color="silver">Call to Action</Button>
+      </div>
 
-const baseList = [
-  {
-    base: 'light',
-    name: strings.Light,
-    style: {
-      padding: '20px',
-      background: '#FFF',
-      color: '#000',
-    },
-  },
-  {
-    base: 'dark',
-    name: strings.Dark,
-    style: {
-      padding: '20px',
-      background: '#333',
-      color: '#FFF',
-    },
-  },
-]
+      <h2>Gradient</h2>
+      <div className={styles.spacingAround}>
+        <Button variant="gradient">Call to Action</Button>
+        <Button color="red" variant="gradient">Call to Action</Button>
+        <Button color="silver" variant="gradient">Call to Action</Button>
+      </div>
 
-const colorList = [
-  'green-primary',
-  'green-secondary',
-  'green-contrast',
-  'silver',
-  'plumb',
-  'yellow',
-  'red',
-  'blue',
-  'purple',
-  'pink',
-]
+      <h2>Outline Button</h2>
 
-const iconList = [
-  { component: IconMyAccount, text: strings.MyAccount },
-  { component: IconLogoff, text: strings.Logoff },
-  { component: IconExport, text: strings.Export },
-  { component: IconCopy, text: strings.Copy },
-  { component: IconDelete, text: strings.Delete },
-  { component: IconAdd, text: strings.Add },
-  { component: IconDocs, text: strings.Docs },
-  { component: IconLetter, text: strings.Letter },
-  { component: IconUpload, text: strings.Upload },
-]
+      <div className={styles.spacingAround}>
+        <Button variant="outline">Call to Action</Button>
+        <Button color="red" variant="outline">Call to Action</Button>
+        <Button color="silver" variant="outline">Call to Action</Button>
+      </div>
 
-const sizeList = [
-  'extra-small', 'small', 'default', 'large',
-]
+      <h2>Clean Button</h2>
 
-const clicked = action('clicked')
+      <div className={styles.spacingAround}>
+        <Button variant="clean">Call to Action</Button>
+        <Button color="red" variant="clean">Call to Action</Button>
+        <Button color="silver" variant="clean">Call to Action</Button>
+      </div>
 
-function buttonAllColors (parent, children, variant) {
-  return (
-    <div className={stylesheet.buttonCollection} style={parent.style}>
-      {colorList.map(color => (
-        <Button
-          key={color}
-          onClick={clicked}
-          base={parent.base}
-          variant={variant}
-          color={color}
-        >
-          {children}
-        </Button>
-      ))}
-    </div>
-  )
-}
+      <h2>All buttons with icons</h2>
 
-function buttonAllDisabled (parent, children) {
-  return (
-    <div className={stylesheet.buttonCollection} style={parent.style}>
-      <Button
-        onClick={clicked}
-        base={parent.base}
-        variant="outline"
-        disabled
-      >
-        {children}
-      </Button>
+      <div className={styles.spacingAround}>
+        <Button><IconAdd />Call to Action</Button>
+        <Button color="red"><IconAdd />Call to Action</Button>
+        <Button color="silver"><IconAdd />Call to Action</Button>
+      </div>
 
-      <Button
-        onClick={clicked}
-        base={parent.base}
-        variant="gradient"
-        disabled
-      >
-        {children}
-      </Button>
-    </div>
-  )
-}
+      <div className={styles.spacingAround}>
+        <Button variant="outline"><IconAdd />Call to Action</Button>
+        <Button color="red" variant="outline"><IconAdd />Call to Action</Button>
+        <Button color="silver" variant="outline"><IconAdd />Call to Action</Button>
+      </div>
 
+      <div className={styles.spacingAround}>
+        <Button variant="clean"><IconAdd />Call to Action</Button>
+        <Button color="red" variant="clean"><IconAdd />Call to Action</Button>
+        <Button color="silver" variant="clean"><IconAdd />Call to Action</Button>
+      </div>
 
-storiesOf(strings.Button, module)
-  .add(strings.AllStyles, () => (
-    <div>
-      {baseList.map(({ base, name, style }) => (
-        <section
-          key={`${base}-${name}`}
-          className={classNames({
-            [stylesheet[`section-${base}`]]: true,
-          })}
-          style={style}
-        >
-          <h2>Styles in {name}</h2>
-          <p>{strings.Flat}</p>
-          {buttonAllColors(base, `${strings.Label}`, 'flat')}
+      <h2>Sizes</h2>
 
-          <p>{strings.Gradient}</p>
-          {buttonAllColors(base, `${strings.Label}`, 'gradient')}
+      <div className={styles.spacingAround}>
+        <Button size="extra-small">extra-small</Button>
+      </div>
 
-          <p>{strings.Outline}</p>
-          {buttonAllColors(base, `${strings.Label}`, 'outline')}
+      <div className={styles.spacingAround}>
+        <Button size="small">small</Button>
+      </div>
 
-          <p>{strings.Clean}</p>
-          {buttonAllColors(base, `${strings.Label}`, 'clean')}
+      <div className={styles.spacingAround}>
+        <Button>Default</Button>
+      </div>
 
-          <p>{strings.Disabled}</p>
-          {buttonAllDisabled(base, `${strings.Label}`)}
-        </section>
-      ))}
+      <div className={styles.spacingAround}>
+        <Button size="large">Default</Button>
+      </div>
 
-      <section>
-        <h2>Variations</h2>
+      <h2>All disabled</h2>
 
-        <p>{strings.Iconed}</p>
-        <div className={stylesheet.buttonCollection}>
-          {iconList.map(icon => (
-            <Button key={icon.text} onClick={clicked}>
-              {icon.component()}
-              {icon.text}
-            </Button>
-          ))}
-        </div>
+      <div className={styles.spacingAround}>
+        <Button disabled><IconAdd />Call to Action</Button>
+        <Button color="red" disabled><IconAdd />Call to Action</Button>
+        <Button color="silver" disabled><IconAdd />Call to Action</Button>
+      </div>
 
-        <p>{strings.Block}</p>
-        <div className={stylesheet.buttonBlock}>
-          {[1, 2, 3].map(n => (
-            <Button
-              key={`block-${n}`}
-              onClick={clicked}
-              variant="block"
-            >
-              {strings.Button} {strings.Block}
-            </Button>)
-          )}
-        </div>
+      <div className={styles.spacingAround}>
+        <Button variant="outline" disabled><IconAdd />Call to Action</Button>
+        <Button color="red" variant="outline" disabled><IconAdd />Call to Action</Button>
+        <Button color="silver" variant="outline" disabled><IconAdd />Call to Action</Button>
+      </div>
 
-        <p>{strings.Sizes}</p>
-        <div className={stylesheet.buttonColumn}>
-          {sizeList.map(size => (
-            <Button key={size} onClick={clicked} size={size}>
-              {strings.Button}
-            </Button>
-          ))}
-        </div>
-      </section>
+      <div className={styles.spacingAround}>
+        <Button variant="clean" disabled><IconAdd />Call to Action</Button>
+        <Button color="red" variant="clean" disabled><IconAdd />Call to Action</Button>
+        <Button color="silver" variant="clean" disabled><IconAdd />Call to Action</Button>
+      </div>
     </div>
   ))

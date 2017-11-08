@@ -1,18 +1,7 @@
-.buttonColumn {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.container {
+  margin: 20px;
 }
 
-.buttonColumn > button,
-.buttonCollection > button {
-  margin: 5px;
-}
-
-.buttonBlock {
-  width: 244px;
-}
-
-.section-dark h2 {
-  color: #ffffff;
+.spacingAround > button {
+  margin: 3px;
 }

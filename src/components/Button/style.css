@@ -12,13 +12,15 @@
   letter-spacing: var(--letter-spacing);
   text-transform: uppercase;
   cursor: pointer;
-  line-height: 100%;
-  vertical-align: middle;
 }
 
 .button:focus {
   outline: none;
 }
+
+/*
+ * disabled button style
+ * */
 
 .button:not(.outline):disabled {
   background: var(--button-disabled-background-color);
@@ -27,38 +29,40 @@
 
 .button:disabled {
   cursor: not-allowed;
+  color: var(--color-light-silver-100);
 }
+
+/*
+ * Reset rules defined by button color
+ * */
 
 .flat {
   background-image: none;
-}
-
-.gradient {
-  background-color: none;
 }
 
 .light-flat,
 .light-flat:hover,
 .light-gradient,
 .light-gradient:hover {
-  color: var(--color-text-light);
+  color: var(--button-color);
 }
 
-.dark-flat,
-.dark-flat:hover,
-.dark-gradient,
-.dark-gradient:hover {
-  color: var(--color-text-dark);
-}
+/*
+ * Outline borders
+ * */
 
 .outline {
-  border: solid 1px;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .outline:disabled {
   border: 1px solid var(--button-outline-disabled-border-color);
-  color: var(--button-outline-disabled-color);
 }
+
+/*
+ * Transparent Backgrounds
+ * */
 
 .outline,
 .outline:hover,
@@ -68,55 +72,59 @@
   background-image: none;
 }
 
-.block,
-.block:hover {
-  width: 100%;
-  color: var(--color-text-grey);
-  background: var(--color-background-grey);
-  border-radius: 0;
-}
+/*
+ * Icon Alignment
+ * */
 
 .button svg {
-  margin: -3px 10px 0 0;
+  margin: 0 8px 0 0;
 }
 
+/*
+ * Button sizes
+ * */
+
 .extra-small {
-  padding: var(--button-padding-extra-small);
+  padding: 0 var(--button-padding-extra-small);
   font-size: var(--button-font-size-extra-small);
-  height: 25px;
+  height: var(--button-height-extra-small);
 }
 
 .small {
-  padding: var(--button-padding-small);
+  padding: 0 var(--button-padding-small);
   font-size: var(--button-font-size-small);
-  height: 26px;
+  height: var(--button-height-small);
 }
 
 .default {
-  padding: var(--button-padding-default);
+  padding: 0 var(--button-padding-default);
   font-size: var(--button-font-size-default);
-  height: 31px;
+  height: var(--button-height-default);
 }
 
 .large {
-  padding: var(--button-padding-large);
+  padding: 0 var(--button-padding-large);
   font-size: var(--button-font-size-large);
-  height: 28px;
+  height: var(--button-height-large);
 }
 
+/*
+ * Remove 1px related to the border-width
+ * */
+
 .outline.extra-small {
-  padding: var(--button-padding-extra-small);
+  padding: 0 calc(var(--button-padding-extra-small) - 1px);
 }
 
 .outline.small {
-  padding: var(--button-padding-small);
+  padding: 0 calc(var(--button-padding-small) - 1px);
 }
 
 .outline.default {
-  padding: var(--button-padding-default);
+  padding: 0 calc(var(--button-padding-default) - 1px);
 }
 
 .outline.large {
-  padding: var(--button-padding-large);
+  padding: 0 calc(var(--button-padding-large) - 1px);
 }
 
