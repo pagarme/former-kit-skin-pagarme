@@ -6,7 +6,7 @@
   font-family: var(--tag-font-family);
   font-style: var(--tag-font-style);
   font-size: var(--tag-font-size);
-  letter-spacing: 0.05em;
+  letter-spacing: var(--letter-spacing);
   text-transform: uppercase;
   color: var(--tag-color);
   border: dashed 1px;
