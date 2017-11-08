@@ -75,7 +75,7 @@ class Dropdown extends React.Component {
 
           <MdArrowDropDown
             className={style.arrow}
-            color={this.props.disabled ? '#c5c5c5' : '#000'}
+            color={this.props.disabled ? '#d4d4d4' : '#000'}
           />
 
           <div

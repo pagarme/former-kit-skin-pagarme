@@ -6578,7 +6578,7 @@ exports[`Storyshots Forms Dropdown 1`] = `
               preserveAspectRatio="xMidYMid meet"
               style={
                 Object {
-                  "color": "#c5c5c5",
+                  "color": "#d4d4d4",
                   "verticalAlign": "middle",
                 }
               }
@@ -6664,7 +6664,7 @@ exports[`Storyshots Forms Dropdown 1`] = `
               preserveAspectRatio="xMidYMid meet"
               style={
                 Object {
-                  "color": "#c5c5c5",
+                  "color": "#d4d4d4",
                   "verticalAlign": "middle",
                 }
               }
