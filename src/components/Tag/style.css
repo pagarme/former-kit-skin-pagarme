@@ -8,9 +8,9 @@
   font-size: var(--tag-font-size);
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--color-light-silver-200);
+  color: var(--tag-color);
   border: dashed 1px;
-  border-color: var(--color-light-silver-200);
+  border-color: var(--tag-border-color);
   border-radius: 3px;
   padding: var(--tag-padding);
   background-color: transparent;
