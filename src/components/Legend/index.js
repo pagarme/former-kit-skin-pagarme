@@ -30,8 +30,7 @@ const Legend = ({
     style.label,
     {
       [style.outline]: outline,
-    },
-    style[`label-${color}`]
+    }
   )
 
   return (
@@ -39,6 +38,7 @@ const Legend = ({
       <abbr
         title={children}
         className={labelClasses}
+        style={{ background: color }}
       >
         {acronym || defineInitials(children)}
       </abbr>
@@ -52,11 +52,7 @@ const Legend = ({
 }
 
 Legend.propTypes = {
-  color: PropTypes.oneOf([
-    'green-100', 'green-200', 'yellow', 'orange-200', 'red-100',
-    'red-300', 'purple-100', 'purple-300', 'orange-100', 'blue-100',
-    'blue-200', 'blue-300', 'grey',
-  ]).isRequired,
+  color: PropTypes.string.isRequired,
   children: PropTypes.string.isRequired,
   outline: PropTypes.bool,
   acronym: PropTypes.string,

@@ -1,6 +1,5 @@
 @import "../../styles/typography.css";
 @import "./properties.css";
-@import "./colors.css";
 
 .legend {
   display: inline-flex;

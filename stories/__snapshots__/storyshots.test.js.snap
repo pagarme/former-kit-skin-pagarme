@@ -10295,6 +10295,11 @@ exports[`Storyshots Legend all 1`] = `
       >
         <abbr
           className=""
+          style={
+            Object {
+              "background": "#53be76",
+            }
+          }
           title="Paga"
         >
           P
@@ -10318,6 +10323,11 @@ exports[`Storyshots Legend all 1`] = `
       >
         <abbr
           className=""
+          style={
+            Object {
+              "background": "#fcb20a",
+            }
+          }
           title="Autorizada"
         >
           A
@@ -10341,6 +10351,11 @@ exports[`Storyshots Legend all 1`] = `
       >
         <abbr
           className=""
+          style={
+            Object {
+              "background": "#5b2886",
+            }
+          }
           title="Estornada"
         >
           E
@@ -10364,6 +10379,11 @@ exports[`Storyshots Legend all 1`] = `
       >
         <abbr
           className=""
+          style={
+            Object {
+              "background": "#9d9fa0",
+            }
+          }
           title="Aguardando registro"
         >
           AR
@@ -10387,6 +10407,11 @@ exports[`Storyshots Legend all 1`] = `
       >
         <abbr
           className=""
+          style={
+            Object {
+              "background": "#e00403",
+            }
+          }
           title="Recusada"
         >
           R
@@ -10410,6 +10435,11 @@ exports[`Storyshots Legend all 1`] = `
       >
         <abbr
           className=""
+          style={
+            Object {
+              "background": "#8c68d4",
+            }
+          }
           title="Estorno pendente"
         >
           EP
@@ -10436,6 +10466,11 @@ exports[`Storyshots Legend all 1`] = `
       >
         <abbr
           className=""
+          style={
+            Object {
+              "background": "#951d3c",
+            }
+          }
           title="Processando"
         >
           PR
@@ -10459,6 +10494,11 @@ exports[`Storyshots Legend all 1`] = `
       >
         <abbr
           className=""
+          style={
+            Object {
+              "background": "#244d85",
+            }
+          }
           title="Boleto pago com valor inferior"
         >
           BPVI
@@ -10482,6 +10522,11 @@ exports[`Storyshots Legend all 1`] = `
       >
         <abbr
           className=""
+          style={
+            Object {
+              "background": "#bf5316",
+            }
+          }
           title="Chargeback Reapresentado"
         >
           CBR
@@ -10508,6 +10553,11 @@ exports[`Storyshots Legend all 1`] = `
       >
         <abbr
           className=""
+          style={
+            Object {
+              "background": "#4ca9d7",
+            }
+          }
           title="Boleto pago com valor superior"
         >
           BPVS
@@ -10526,6 +10576,11 @@ exports[`Storyshots Legend all 1`] = `
       >
         <abbr
           className=""
+          style={
+            Object {
+              "background": "#f16518",
+            }
+          }
           title="Chargeback"
         >
           CB
@@ -10544,6 +10599,11 @@ exports[`Storyshots Legend all 1`] = `
       >
         <abbr
           className=""
+          style={
+            Object {
+              "background": "#41535b",
+            }
+          }
           title="Aguardando pagamento"
         >
           AP

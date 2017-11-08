@@ -5,19 +5,19 @@ import Legend from '../../src/components/Legend'
 
 const hidingLabel = [
   {
-    color: 'blue-100',
+    color: '#4ca9d7',
     text: 'Boleto pago com valor superior',
     acronym: 'BPVS',
     hideLabel: true,
   },
   {
-    color: 'purple-300',
+    color: '#f16518',
     text: 'Chargeback',
     acronym: 'CB',
     hideLabel: true,
   },
   {
-    color: 'green-200',
+    color: '#41535b',
     text: 'Aguardando pagamento',
     hideLabel: true,
   },
@@ -25,44 +25,44 @@ const hidingLabel = [
 
 const automaticAbbr = [
   {
-    color: 'green-100',
+    color: '#53be76',
     text: 'Paga',
   },
   {
-    color: 'yellow',
+    color: '#fcb20a',
     text: 'Autorizada',
   },
   {
-    color: 'orange-100',
+    color: '#5b2886',
     text: 'Estornada',
   },
   {
-    color: 'grey',
+    color: '#9d9fa0',
     text: 'Aguardando registro',
   },
   {
-    color: 'red-100',
+    color: '#e00403',
     text: 'Recusada',
   },
   {
-    color: 'orange-200',
+    color: '#8c68d4',
     text: 'Estorno pendente',
   },
 ]
 
 const manualAbbr = [
   {
-    color: 'red-300',
+    color: '#951d3c',
     text: 'Processando',
     acronym: 'PR',
   },
   {
-    color: 'blue-300',
+    color: '#244d85',
     text: 'Boleto pago com valor inferior',
     acronym: 'BPVI',
   },
   {
-    color: 'purple-100',
+    color: '#bf5316',
     text: 'Chargeback Reapresentado',
     acronym: 'CBR',
   },
