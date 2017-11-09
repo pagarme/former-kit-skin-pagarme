@@ -50,6 +50,7 @@
   padding-bottom: 6px;
   padding-top: var(--input-textarea-padding-top);
   caret-color: var(--input-textarea-caret-default-color);
+  background: none;
 }
 
 .inputContainer > textarea {
@@ -58,11 +59,9 @@
   resize: none;
   z-index: 1;
   position: absolute;
-  display: block;
   height: var(--input-textarea-height);
   overflow: hidden;
   outline: none;
-  background: none;
 }
 
 .inputContainer > textarea:disabled,
