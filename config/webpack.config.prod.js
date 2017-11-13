@@ -92,7 +92,7 @@ module.exports = {
     // for React Native Web.
     extensions: ['.web.js', '.js', '.json', '.web.jsx', '.jsx'],
     alias: {
-      
+
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
@@ -141,6 +141,7 @@ module.exports = {
                 require('stylelint'),
                 require('postcss-sass-each'),
                 require('postcss-mixins'),
+                require('postcss-hexrgba'),
                 require('postcss-import'),
                 require('postcss-url')({
                   url: postcssUrlRebase,
@@ -219,6 +220,7 @@ module.exports = {
                         plugins: () => [
                           require('postcss-import'),
                           require('postcss-sass-each'),
+                          require('postcss-hexrgba'),
                           // This is necessary because postcss-url doesn't add
                           // a trailing ./ to rebased URLs, causing relative imports
                           // to stop working.
@@ -263,6 +265,7 @@ module.exports = {
                         plugins: () => [
                           require('postcss-import'),
                           require('postcss-sass-each'),
+                          require('postcss-hexrgba'),
                           // This is necessary because postcss-url doesn't add
                           // a trailing ./ to rebased URLs, causing relative imports
                           // to stop working.

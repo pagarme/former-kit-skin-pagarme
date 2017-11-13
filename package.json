@@ -42,6 +42,7 @@
     "moment": "2.18.1",
     "object-assign": "4.1.1",
     "postcss-cssnext": "3.0.2",
+    "postcss-hexrgba": "1.0.0",
     "postcss-import": "10.0.0",
     "postcss-loader": "2.0.6",
     "postcss-mixins": "6.1.1",
@@ -129,8 +130,18 @@
     },
     "rules": {
       "react/jsx-filename-extension": 0,
-      "css-modules/no-unused-class": [2, { "camelCase": true }],
-      "css-modules/no-undef-class": [2, { "camelCase": true }]
+      "css-modules/no-unused-class": [
+        2,
+        {
+          "camelCase": true
+        }
+      ],
+      "css-modules/no-undef-class": [
+        2,
+        {
+          "camelCase": true
+        }
+      ]
     },
     "plugins": [
       "css-modules"
