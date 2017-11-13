@@ -140,7 +140,6 @@ module.exports = {
               plugins: () => [
                 require('stylelint'),
                 require('postcss-sass-each'),
-                require('postcss-mixins'),
                 require('postcss-hexrgba'),
                 require('postcss-import'),
                 require('postcss-url')({

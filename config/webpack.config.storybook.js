@@ -32,7 +32,6 @@ module.exports = {
               plugins: () => [
                 require('stylelint'),
                 require('postcss-sass-each'),
-                require('postcss-mixins'),
                 require('postcss-hexrgba'),
                 require('postcss-import'),
                 require('postcss-url')({
@@ -69,7 +68,6 @@ module.exports = {
               ident: 'postcss',
               plugins: () => [
                 require('postcss-sass-each'),
-                require('postcss-mixins'),
                 require('postcss-import'),
                 require('postcss-hexrgba'),
                 require('postcss-url')({
@@ -107,7 +105,6 @@ module.exports = {
               ident: 'postcss',
               plugins: () => [
                 require('postcss-sass-each'),
-                require('postcss-mixins'),
                 require('postcss-hexrgba'),
                 require('postcss-import'),
                 require('postcss-url')({

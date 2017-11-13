@@ -137,7 +137,6 @@ module.exports = {
               plugins: () => [
                 require('stylelint'),
                 require('postcss-sass-each'),
-                require('postcss-mixins'),
                 require('postcss-hexrgba'),
                 require('postcss-import'),
                 require('postcss-url')({
@@ -207,7 +206,6 @@ module.exports = {
                     require('postcss-sass-each'),
                     require('postcss-hexrgba'),
                     require('postcss-import'),
-                    require('postcss-mixins'),
                     // This is necessary because postcss-url doesn't add
                     // a trailing ./ to rebased URLs, causing relative imports
                     // to stop working.
@@ -244,7 +242,6 @@ module.exports = {
                     require('postcss-sass-each'),
                     require('postcss-hexrgba'),
                     require('postcss-import'),
-                    require('postcss-mixins'),
                     // This is necessary because postcss-url doesn't add
                     // a trailing ./ to rebased URLs, causing relative imports
                     // to stop working.
