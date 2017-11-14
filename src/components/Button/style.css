@@ -22,14 +22,17 @@
  * disabled button style
  * */
 
-.button:not(.outline):disabled {
+.button:disabled:hover,
+.button:disabled {
+  cursor: not-allowed;
   background: var(--button-disabled-background-color);
   color: var(--button-disabled-color);
 }
 
-.button:disabled {
-  cursor: not-allowed;
-  color: var(--color-light-silver-100);
+.button.outline:disabled,
+.button.clean:disabled {
+  background: transparent;
+  color: var(--button-outline-disabled-color);
 }
 
 /*
@@ -40,10 +43,20 @@
   background-image: none;
 }
 
-.light-flat,
-.light-flat:hover,
-.light-gradient,
-.light-gradient:hover {
+.flat,
+.flat:hover,
+.flat:active,
+.flat:focus,
+.gradient,
+.gradient:hover,
+.gradient:active,
+.gradient:focus,
+.outline:hover,
+.outline:active,
+.outline:focus,
+.clean:hover,
+.clean:active,
+.clean:focus {
   color: var(--button-color);
 }
 
@@ -65,9 +78,7 @@
  * */
 
 .outline,
-.outline:hover,
-.clean,
-.clean:hover {
+.clean {
   background-color: transparent;
   background-image: none;
 }

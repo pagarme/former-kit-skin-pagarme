@@ -2,61 +2,128 @@
  * Green Button
  * */
 
+@keyframes light-green-focus {
+
+  0% {
+    box-shadow: var(--button-focus-animation-start) var(--button-success-color);
+  }
+
+  100% {
+    box-shadow: var(--button-focus-animation-end) var(--button-success-color);
+  }
+}
+
 .light-green {
-  color: var(--color-light-greenish-100);
-  background-color: var(--color-light-greenish-100);
-  background-image: var(--color-light-greenish-gradient);
-  border-color: var(--color-light-greenish-100);
+  color: var(--button-success-color);
+  background-color: var(--button-success-color);
+  background-image: var(--button-success-gradient);
+  border-color: var(--button-success-color);
+  will-change: box-shadow;
+}
+
+.light-green:focus {
+  animation-name: light-green-focus;
+  animation-duration: var(--button-focus-animation-duration);
+  background-color: var(--button-success-focus);
+  background-image: none;
 }
 
 .light-green:hover {
-  color: var(--color-light-greenish-120);
-  background-color: var(--color-light-greenish-120);
+  animation: none;
+  background-color: var(--button-success-hover);
   background-image: none;
-  border-color: var(--color-light-greenish-120);
+  border-color: var(--button-success-hover);
+}
+
+.light-green:active {
+  animation: none;
+  background-color: var(--button-success-active);
+  background-image: none;
+  border-color: var(--button-success-active);
 }
 
 /*
  * Silver Button
  * */
 
+@keyframes light-silver-focus {
+
+  0% {
+    box-shadow: var(--button-focus-animation-start) var(--button-neutral-color);
+  }
+
+  100% {
+    box-shadow: var(--button-focus-animation-end) var(--button-neutral-color);
+  }
+}
+
 .light-silver {
-  color: var(--color-light-coal-100);
-  background-color: var(--color-light-grey-50);
-  border-color: var(--color-light-iron-100);
+  color: var(--button-neutral-color);
+  background-color: var(--button-neutral-color);
+  border-color: var(--button-neutral-color);
+  will-change: box-shadow;
+}
+
+.light-silver:focus {
+  animation-name: light-silver-focus;
+  animation-duration: var(--button-focus-animation-duration);
+  background-color: var(--button-neutral-focus);
+  background-image: none;
 }
 
 .light-silver:hover {
-  background-color: var(--color-light-iron-100);
-  border-color: var(--color-light-iron-100);
+  animation: none;
+  background-color: var(--button-neutral-hover);
+  border-color: var(--button-neutral-hover);
 }
 
-.light-silver.outline,
-.light-silver.clean {
-  color: var(--color-light-grey-50);
-  border-color: var(--color-light-grey-50);
-}
-
-.light-silver.outline:hover,
-.light-silver.clean:hover {
-  color: var(--color-light-iron-100);
+.light-silver:active {
+  animation: none;
+  background-color: var(--button-neutral-active);
+  background-image: none;
+  border-color: var(--button-neutral-active);
 }
 
 /*
  * Red Button
  * */
 
+@keyframes light-red-focus {
+
+  0% {
+    box-shadow: var(--button-focus-animation-start) var(--button-danger-color);
+  }
+
+  100% {
+    box-shadow: var(--button-focus-animation-end) var(--button-danger-color);
+  }
+}
+
 .light-red {
-  color: var(--color-light-salmon-100);
-  background-color: var(--color-light-salmon-100);
-  background-image: var(--color-light-salmon-gradient);
-  border-color: var(--color-light-salmon-100);
+  color: var(--button-danger-color);
+  background-color: var(--button-danger-color);
+  background-image: var(--button-danger-gradient);
+  border-color: var(--button-danger-color);
+  will-change: box-shadow;
+}
+
+.light-red:focus {
+  animation-name: light-red-focus;
+  animation-duration: var(--button-focus-animation-duration);
+  background-color: var(--button-danger-focus);
+  background-image: none;
 }
 
 .light-red:hover {
-  color: var(--color-light-salmon-120);
-  background-color: var(--color-light-salmon-120);
+  animation: none;
+  background-color: var(--button-danger-hover);
   background-image: none;
-  border-color: var(--color-light-salmon-120);
+  border-color: var(--button-danger-hover);
 }
 
+.light-red:active {
+  animation: none;
+  background-color: var(--button-danger-active);
+  background-image: none;
+  border-color: var(--button-danger-active);
+}
