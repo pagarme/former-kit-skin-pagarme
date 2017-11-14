@@ -22,7 +22,6 @@ storiesOf('Buttons', module)
       <div className={styles.spacingAround}>
         <Button variant="gradient">Call to Action</Button>
         <Button color="red" variant="gradient">Call to Action</Button>
-        <Button color="silver" variant="gradient">Call to Action</Button>
       </div>
 
       <h2>Outline Button</h2>
@@ -47,6 +46,11 @@ storiesOf('Buttons', module)
         <Button><IconAdd />Call to Action</Button>
         <Button color="red"><IconAdd />Call to Action</Button>
         <Button color="silver"><IconAdd />Call to Action</Button>
+      </div>
+
+      <div className={styles.spacingAround}>
+        <Button variant="gradient"><IconAdd />Call to Action</Button>
+        <Button color="red" variant="gradient"><IconAdd />Call to Action</Button>
       </div>
 
       <div className={styles.spacingAround}>
@@ -85,6 +89,11 @@ storiesOf('Buttons', module)
         <Button disabled><IconAdd />Call to Action</Button>
         <Button color="red" disabled><IconAdd />Call to Action</Button>
         <Button color="silver" disabled><IconAdd />Call to Action</Button>
+      </div>
+
+      <div className={styles.spacingAround}>
+        <Button variant="gradient" disabled><IconAdd />Call to Action</Button>
+        <Button color="red" variant="gradient" disabled><IconAdd />Call to Action</Button>
       </div>
 
       <div className={styles.spacingAround}>
