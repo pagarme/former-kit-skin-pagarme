@@ -2,7 +2,7 @@
 @import "../../styles/typography.css";
 
 :root {
-  --toolbar-height: 33px;
+  --toolbar-height: 28px;
   --toolitem-border-color: var(--color-light-smoke-100);
   --toolitem-focused-color: var(--color-light-greenish-100);
   --toolitem-error-color: rgba(var(--color-light-salmon-120), 1);
