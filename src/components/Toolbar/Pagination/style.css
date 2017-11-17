@@ -1,0 +1,139 @@
+@import "./properties.css";
+
+.pagination {
+  display: inline-flex;
+  background-color: var(--pagination-background-color);
+  border-radius: var(--pagination-border-radius);
+  border: solid 1px var(--pagination-border-color);
+  width: auto;
+  overflow: hidden;
+  color: var(--pagination-text-color);
+  height: var(--pagination-height);
+  font-size: var(--pagination-font-size);
+}
+
+.paginationError {
+  border: solid 1px var(--pagination-error-border-color);
+}
+
+.paginationError button:disabled {
+  border: none;
+}
+
+.display {
+  padding: var(--pagination-display-padding);
+  display: inline-flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: safe center;
+  white-space: pre;
+  font-weight: normal;
+  font-family: var(--pagination-font-family);
+  cursor: text;
+}
+
+.displayError {
+  background-color: var(--pagination-display-error-background-color);
+}
+
+.button {
+  width: var(--pagination-button-width);
+  height: var(--pagination-button-height);
+  border: none;
+  cursor: pointer;
+  background-color: var(--pagination-button-background-color);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+  color: inherit;
+  outline: none;
+}
+
+.prev {
+  border-right: 1px solid var(--pagination-button-border-color);
+}
+
+.next {
+  border-left: 1px solid var(--pagination-button-border-color);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  background-color: var(--pagination-button-disabled-background-color);
+}
+
+.button:disabled svg {
+  pointer-events: none;
+}
+
+.button:hover:not(:disabled) {
+  background-color: var(--pagination-button-hover-background-color);
+}
+
+.button:active:not(:disabled),
+.button:focus:not(:disabled) {
+  background-color: var(--pagination-button-pressed-background-color);
+}
+
+.button:hover:not(:disabled),
+.button:active:not(:disabled),
+.button:focus:not(:disabled) {
+  z-index: 1;
+  color: var(--pagination-button-active-text-color);
+}
+
+.input {
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+  background: none;
+  color: inherit;
+  font-family: inherit;
+  appearance: textfield;
+  letter-spacing: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bigChild {
+  flex-grow: 2;
+  flex-basis: auto;
+  text-align: center;
+  font-family: var(--pagination-font-family);
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+
+.hiddenChild {
+  visibility: hidden;
+  font-weight: bold;
+}
+
+.smallChild {
+  flex-grow: 1;
+  flex-basis: auto;
+  text-align: center;
+  padding: var(--pagination-display-padding);
+}
+
+.input:focus,
+.input:invalid {
+  outline: none;
+  box-shadow: unset;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.noSelect {
+  user-select: none;
+}
