@@ -46,7 +46,7 @@
 }
 
 .titleIcon {
-  margin-right: var(--spacing-small);
+  margin-right: var(--modal-title-icon-spacing);
 }
 
 .modalActions > * {

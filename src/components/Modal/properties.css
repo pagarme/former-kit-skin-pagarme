@@ -13,4 +13,5 @@
   --modal-title-color: var(--color-light-steel-100);
   --modal-padding: var(--spacing-medium);
   --modal-title-font-size: 14px;
+  --modal-title-icon-spacing: 8px;
 }
