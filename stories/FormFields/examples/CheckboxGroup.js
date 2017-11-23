@@ -1,5 +1,4 @@
 import React from 'react'
-import propTypes from 'prop-types'
 
 import CheckboxGroup from '../../../src/components/CheckboxGroup'
 
@@ -50,13 +49,6 @@ class CheckboxGroupState extends React.Component {
       </div>
     )
   }
-}
-
-CheckboxGroupState.propTypes = {
-  disabled: propTypes.bool,
-  error: propTypes.string,
-  success: propTypes.string,
-  name: propTypes.string.isRequired,
 }
 
 CheckboxGroupState.defaultProps = {

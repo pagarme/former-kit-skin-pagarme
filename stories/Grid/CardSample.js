@@ -1,5 +1,4 @@
 import React from 'react'
-import { node, number, string } from 'prop-types'
 
 import {
   Card,
@@ -25,12 +24,6 @@ const CardSample = ({ size, color, children }) => (
     </CardGraphic>
   </Card>
 )
-
-CardSample.propTypes = {
-  size: number,
-  color: string,
-  children: node,
-}
 
 CardSample.defaultProps = {
   size: 0,

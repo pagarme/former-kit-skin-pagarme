@@ -1,5 +1,4 @@
 import React from 'react'
-import propTypes from 'prop-types'
 
 import { storiesOf } from '@storybook/react'
 
@@ -22,10 +21,6 @@ class SearchFieldState extends React.Component {
       />
     )
   }
-}
-
-SearchFieldState.propTypes = {
-  disabled: propTypes.bool,
 }
 
 SearchFieldState.defaultProps = {

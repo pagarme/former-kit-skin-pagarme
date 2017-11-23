@@ -1,5 +1,4 @@
 import React from 'react'
-import propTypes from 'prop-types'
 
 import IconMyAccount from 'react-icons/lib/md/face'
 import IconDocs from 'react-icons/lib/md/import-contacts'
@@ -72,10 +71,6 @@ class Tab extends React.Component {
       </TabBar>
     )
   }
-}
-
-Tab.propTypes = {
-  variant: propTypes.string.isRequired,
 }
 
 storiesOf(`${i18n.TabBar}`, module)

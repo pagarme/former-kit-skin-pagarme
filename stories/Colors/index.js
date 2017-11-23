@@ -1,5 +1,4 @@
 import React from 'react'
-import propTypes from 'prop-types'
 
 import { storiesOf } from '@storybook/react'
 import R from 'ramda'
@@ -80,10 +79,6 @@ class Colors extends React.Component {
       </div>
     )
   }
-}
-
-Colors.propTypes = {
-  theme: propTypes.string.isRequired,
 }
 
 storiesOf('Colors', module)

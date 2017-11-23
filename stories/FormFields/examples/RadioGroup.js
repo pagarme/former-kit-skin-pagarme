@@ -1,5 +1,4 @@
 import React from 'react'
-import propTypes from 'prop-types'
 
 import RadioGroup from '../../../src/components/RadioGroup'
 
@@ -59,13 +58,6 @@ class RadioGroupState extends React.Component {
       </div>
     )
   }
-}
-
-RadioGroupState.propTypes = {
-  disabled: propTypes.bool,
-  error: propTypes.string,
-  success: propTypes.string,
-  name: propTypes.string.isRequired,
 }
 
 RadioGroupState.defaultProps = {

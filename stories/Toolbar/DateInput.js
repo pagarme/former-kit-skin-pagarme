@@ -1,5 +1,4 @@
 import React from 'react'
-import { instanceOf } from 'prop-types'
 
 import { storiesOf } from '@storybook/react'
 
@@ -64,11 +63,6 @@ class DateInputState extends React.Component {
       </div>
     )
   }
-}
-
-DateInputState.propTypes = {
-  start: instanceOf(moment),
-  end: instanceOf(moment),
 }
 
 DateInputState.defaultProps = {

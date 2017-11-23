@@ -36,7 +36,6 @@ global.getComputedStyle = () => ({
 })
 
 jest.mock('react-modal', () => (
-  // eslint-disable-next-line react/prop-types
   ({ children }) => (
     <div className="modal">{children}</div>
   )

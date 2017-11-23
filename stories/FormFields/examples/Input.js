@@ -1,5 +1,4 @@
 import React from 'react'
-import propTypes from 'prop-types'
 
 import { action } from '@storybook/addon-actions'
 
@@ -45,15 +44,6 @@ class InputState extends React.Component {
       />
     )
   }
-}
-
-InputState.propTypes = {
-  boxed: propTypes.bool,
-  error: propTypes.string,
-  icon: propTypes.element,
-  multiline: propTypes.bool,
-  success: propTypes.string,
-  type: propTypes.string,
 }
 
 InputState.defaultProps = {

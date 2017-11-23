@@ -1,5 +1,4 @@
 import React from 'react'
-import propTypes from 'prop-types'
 import { storiesOf } from '@storybook/react'
 
 import ContextSwitch from '../../src/components/ContextSwitch'
@@ -38,12 +37,6 @@ class ContextSwitchState extends React.Component {
       />
     )
   }
-}
-
-ContextSwitchState.propTypes = {
-  selected: propTypes.string.isRequired,
-  items: propTypes.arrayOf(propTypes.string).isRequired,
-  name: propTypes.string.isRequired,
 }
 
 storiesOf('ContextSwitch', module)

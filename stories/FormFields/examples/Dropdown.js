@@ -1,5 +1,4 @@
 import React from 'react'
-import propTypes from 'prop-types'
 
 import Dropdown from '../../../src/components/Dropdown'
 
@@ -51,20 +50,12 @@ class DropdownState extends React.Component {
   }
 }
 
-DropdownState.propTypes = {
-  disabled: propTypes.bool,
-  error: propTypes.string,
-  success: propTypes.string,
-  title: propTypes.string,
-}
-
 DropdownState.defaultProps = {
   disabled: false,
   error: '',
   success: '',
   title: '',
 }
-
 
 const DropdownExamples = () => (
   <div>
