@@ -117,11 +117,6 @@
       "node"
     ]
   },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
-  },
   "stylelint": {
     "extends": "stylelint-config-pagarme-react",
     "rules": {
