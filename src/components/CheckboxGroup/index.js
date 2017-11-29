@@ -21,6 +21,10 @@ class CheckboxGroup extends React.Component {
     this.handleChange = this.handleChange.bind(this)
   }
 
+  shouldComponentUpdate (nextProps) {
+    return !equals(this.props, nextProps)
+  }
+
   handleChange (value) {
     const { disabled, values, onChange } = this.props
 
