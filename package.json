@@ -91,7 +91,7 @@
     "test-coverage": "node scripts/test.js --env=jsdom --coverage",
     "coverage": "nyc --reporter=html --reporter=text --lines 300 npm run test-coverage",
     "storybook": "start-storybook -p 6006",
-    "percy": "build-storybook && percy-storybook --widths=1024,1920",
+    "percy": "build-storybook && percy-storybook --widths=1024,1920; true",
     "build-storybook": "build-storybook",
     "publish-preview": "storybook-to-ghpages"
   }
