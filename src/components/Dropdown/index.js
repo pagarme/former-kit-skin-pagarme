@@ -86,15 +86,16 @@ class Dropdown extends React.Component {
             <select
               onChange={e => !this.props.disabled && this.selectOption(e.target.value)}
               disabled={this.props.disabled}
+              defaultValue="title"
             >
-              {this.props.title &&
-                <option
-                  disabled
-                  className={classnames(style.option, style.disabledOption)}
-                >
-                  {this.props.title}
-                </option>
-              }
+              <option
+                disabled
+                hidden
+                value="title"
+                className={classnames(style.option, style.disabledOption)}
+              >
+                {this.props.title}
+              </option>
               {dropdownOptions}
             </select>
           </div>

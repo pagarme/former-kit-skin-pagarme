@@ -5450,10 +5450,18 @@ exports[`Storyshots Forms Dropdown 1`] = `
             >
               Selecione
               <select
+                defaultValue="title"
                 disabled={false}
                 onChange={[Function]}
               >
-                
+                <option
+                  className=""
+                  disabled={true}
+                  hidden={true}
+                  value="title"
+                >
+                  
+                </option>
                 <option
                   className=""
                   value="leonardo"
@@ -5531,12 +5539,15 @@ exports[`Storyshots Forms Dropdown 1`] = `
             >
               Selecione alguem
               <select
+                defaultValue="title"
                 disabled={false}
                 onChange={[Function]}
               >
                 <option
                   className=""
                   disabled={true}
+                  hidden={true}
+                  value="title"
                 >
                   Selecione alguem
                 </option>
@@ -5617,12 +5628,15 @@ exports[`Storyshots Forms Dropdown 1`] = `
             >
               Selecione alguem
               <select
+                defaultValue="title"
                 disabled={true}
                 onChange={[Function]}
               >
                 <option
                   className=""
                   disabled={true}
+                  hidden={true}
+                  value="title"
                 >
                   Selecione alguem
                 </option>
@@ -5703,10 +5717,18 @@ exports[`Storyshots Forms Dropdown 1`] = `
             >
               Selecione
               <select
+                defaultValue="title"
                 disabled={true}
                 onChange={[Function]}
               >
-                
+                <option
+                  className=""
+                  disabled={true}
+                  hidden={true}
+                  value="title"
+                >
+                  
+                </option>
                 <option
                   className=""
                   value="leonardo"
@@ -5784,10 +5806,18 @@ exports[`Storyshots Forms Dropdown 1`] = `
             >
               Selecione
               <select
+                defaultValue="title"
                 disabled={false}
                 onChange={[Function]}
               >
-                
+                <option
+                  className=""
+                  disabled={true}
+                  hidden={true}
+                  value="title"
+                >
+                  
+                </option>
                 <option
                   className=""
                   value="leonardo"
@@ -5869,10 +5899,18 @@ exports[`Storyshots Forms Dropdown 1`] = `
             >
               Selecione
               <select
+                defaultValue="title"
                 disabled={false}
                 onChange={[Function]}
               >
-                
+                <option
+                  className=""
+                  disabled={true}
+                  hidden={true}
+                  value="title"
+                >
+                  
+                </option>
                 <option
                   className=""
                   value="leonardo"
