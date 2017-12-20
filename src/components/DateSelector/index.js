@@ -34,6 +34,18 @@ import './react-dates.css'
 
 const START_DATE = 'startDate'
 
+const defaultStrings = {
+  cancel: 'cancel',
+  confirmPeriod: 'confirm period',
+  custom: 'custom',
+  day: 'day',
+  daySelected: 'day selected',
+  daysSelected: 'days selected',
+  noDayOrPeriodSelected: 'No day or period selected',
+  period: 'period',
+  today: 'today',
+}
+
 export default class DateSelector extends Component {
   constructor (props) {
     super(props)
@@ -44,6 +56,7 @@ export default class DateSelector extends Component {
 
     this.instanceId = `dateselector-${shortid.generate()}`
 
+    this.getStrings = this.getStrings.bind(this)
     this.handleFocusChange = this.handleFocusChange.bind(this)
     this.handleDatesChange = this.handleDatesChange.bind(this)
     this.handlePresetChange = this.handlePresetChange.bind(this)
@@ -59,6 +72,13 @@ export default class DateSelector extends Component {
       if (dates) {
         this.setState({ dates })
       }
+    }
+  }
+
+  getStrings () {
+    return {
+      ...defaultStrings,
+      ...this.props.strings,
     }
   }
 
@@ -188,6 +208,13 @@ export default class DateSelector extends Component {
   renderActions () {
     const { start, end } = this.props.dates || {}
     const { preset } = this.state
+    const {
+      cancel,
+      confirmPeriod,
+      daySelected,
+      daysSelected,
+      noDayOrPeriodSelected,
+    } = this.getStrings()
 
     let daysCount = 0
 
@@ -200,9 +227,9 @@ export default class DateSelector extends Component {
     return (
       <div className={style.actions}>
         <div className={style.selectedDays}>
-          {daysCount === 0 ? 'Nenhum dia ou período selecionado' : null}
-          {daysCount === 1 ? '1 dia selecionado' : null}
-          {daysCount > 1 ? `${daysCount} dias selecionados` : null}
+          {daysCount === 0 ? noDayOrPeriodSelected : null}
+          {daysCount === 1 ? `1 ${daySelected}` : null}
+          {daysCount > 1 ? `${daysCount} ${daysSelected}` : null}
         </div>
         <Button
           variant="clean"
@@ -210,7 +237,7 @@ export default class DateSelector extends Component {
           size="small"
           onClick={this.handleCancel}
         >
-          Cancelar
+          {cancel}
         </Button>
         <span className={style.separator} />
         <Button
@@ -218,33 +245,40 @@ export default class DateSelector extends Component {
           size="small"
           onClick={this.handleConfirm}
         >
-          Confirmar Período
+          {confirmPeriod}
         </Button>
       </div>
     )
   }
 
   renderSidebar () {
+    const {
+      custom,
+      day,
+      period,
+      today,
+    } = this.getStrings()
+
     return (
       <div className={style.sidebar}>
         <ol>
           {this.renderPreset({
             key: 'today',
-            title: 'Hoje',
+            title: today,
             date: () => 0,
           })}
           {this.renderPresets(this.props.presets)}
           <li>
-            <h2>Personalizado:</h2>
+            <h2>{`${custom}:`}</h2>
             <ol>
               {this.renderPreset({
                 key: 'single',
-                title: 'Dia',
+                title: day,
                 date: () => -1,
               })}
               {this.renderPreset({
                 key: 'range',
-                title: 'Período',
+                title: period,
                 date: () => -3,
               })}
             </ol>
@@ -286,6 +320,17 @@ DateSelector.propTypes = {
       date: func,
     })),
   })),
+  strings: shape({
+    cancel: string,
+    confirmPeriod: string,
+    custom: string,
+    days: string,
+    daySelected: string,
+    daysSelected: string,
+    noDayOrPeriodSelected: string,
+    period: string,
+    today: string,
+  }),
 }
 
 DateSelector.defaultProps = {
@@ -295,4 +340,5 @@ DateSelector.defaultProps = {
   onFocusChange: () => undefined,
   focusedInput: START_DATE,
   presets: [],
+  strings: defaultStrings,
 }

@@ -45,6 +45,34 @@ describe('DateSelector', () => {
     expect(component.find('ol li input').length).toBe(4)
   })
 
+  it('should render buttons in default translation', () => {
+    const component = mount(
+      <DateSelector
+        presets={presets}
+        dates={defaultDates}
+      />
+    )
+
+    expect(component.find(Button).at(0).text()).toBe('cancel')
+    expect(component.find(Button).at(1).text()).toBe('confirm period')
+  })
+
+  it('should render buttons in portuguese', () => {
+    const component = mount(
+      <DateSelector
+        presets={presets}
+        dates={defaultDates}
+        strings={{
+          cancel: 'Cancelar',
+          confirmPeriod: 'Confirmar período',
+        }}
+      />
+    )
+
+    expect(component.find(Button).at(0).text()).toBe('Cancelar')
+    expect(component.find(Button).at(1).text()).toBe('Confirmar período')
+  })
+
   it('should call onConfirm', () => {
     const onConfirm = jest.fn()
 

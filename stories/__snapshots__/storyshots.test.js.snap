@@ -1573,7 +1573,7 @@ exports[`Storyshots DateSelector All types 1`] = `
           <label
             htmlFor="dateselector-always-the-same-string-preset-today"
           >
-            Hoje
+            today
           </label>
         </li>
         <ol>
@@ -1639,7 +1639,7 @@ exports[`Storyshots DateSelector All types 1`] = `
         </ol>
         <li>
           <h2>
-            Personalizado:
+            custom:
           </h2>
           <ol>
             <li>
@@ -1653,7 +1653,7 @@ exports[`Storyshots DateSelector All types 1`] = `
               <label
                 htmlFor="dateselector-always-the-same-string-preset-single"
               >
-                Dia
+                day
               </label>
             </li>
             <li>
@@ -1667,7 +1667,7 @@ exports[`Storyshots DateSelector All types 1`] = `
               <label
                 htmlFor="dateselector-always-the-same-string-preset-range"
               >
-                Período
+                period
               </label>
             </li>
           </ol>
@@ -4787,7 +4787,7 @@ exports[`Storyshots DateSelector All types 1`] = `
         <div
           className={undefined}
         >
-          1 dia selecionado
+          1 day selected
         </div>
         <button
           className=""
@@ -4795,7 +4795,7 @@ exports[`Storyshots DateSelector All types 1`] = `
           onClick={[Function]}
           type="button"
         >
-          Cancelar
+          cancel
         </button>
         <span
           className={undefined}
@@ -4806,7 +4806,7 @@ exports[`Storyshots DateSelector All types 1`] = `
           onClick={[Function]}
           type="button"
         >
-          Confirmar Período
+          confirm period
         </button>
       </div>
     </div>
