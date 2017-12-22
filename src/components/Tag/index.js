@@ -4,9 +4,9 @@ import PropTypes from 'prop-types'
 import style from './style.css'
 
 const Tag = ({ children }) => (
-  <span className={style.tag}>
+  <div className={style.tag}>
     {children}
-  </span>
+  </div>
 )
 
 Tag.propTypes = {

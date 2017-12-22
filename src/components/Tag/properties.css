@@ -1,10 +1,13 @@
+@import "../../styles/spacing.css";
+
 :root {
   --tag-font-family: var(--title-font-family);
-  --tag-font-style: var(--title-font-style);
-
+  --tag-font-style: normal;
   --tag-font-size: 12px;
-  --tag-padding: 6px 7px;
+  --tag-height: 26px;
+  --tag-horizontal-padding: var(--spacing-small);
   --tag-color: var(--color-light-chromium-100);
-  --tag-border-color: var(--color-light-coal-50);
+  --tag-border: 1px dashed var(--color-light-coal-50);
+  --tag-border-radius: 3px;
 }
 

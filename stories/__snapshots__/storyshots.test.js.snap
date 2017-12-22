@@ -12256,31 +12256,31 @@ exports[`Storyshots Tags default 1`] = `
   <div
     className={undefined}
   >
-    <span
+    <div
       className={undefined}
     >
       lorem
-    </span>
-    <span
+    </div>
+    <div
       className={undefined}
     >
       ipsum
-    </span>
-    <span
+    </div>
+    <div
       className={undefined}
     >
       dolor
-    </span>
-    <span
+    </div>
+    <div
       className={undefined}
     >
       amet
-    </span>
-    <span
+    </div>
+    <div
       className={undefined}
     >
       consetetur
-    </span>
+    </div>
   </div>
 </section>
 `;
