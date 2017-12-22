@@ -220,7 +220,13 @@ class DateInput extends React.Component {
     const momentDates = textToMoment(dates)
 
     return (
-      <div className={getInputClasses(showDateSelector, active, !isValidDates)}>
+      <div
+        className={getInputClasses({
+          active,
+          error: !isValidDates,
+          focused: showDateSelector,
+        })}
+      >
         <div
           className={classNames(style.flex, style.label)}
         >
