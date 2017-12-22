@@ -4827,11 +4827,7 @@ exports[`Storyshots Filters Default 1`] = `
       onSubmit={[Function]}
     >
       <div
-        className="undefined"
-        onClick={[Function]}
-        onKeyUp={[Function]}
-        role="button"
-        tabIndex="0"
+        className=""
       >
         <div
           className=""
@@ -4858,32 +4854,13 @@ exports[`Storyshots Filters Default 1`] = `
           <h3>
             Filtros
           </h3>
-          <svg
-            fill="currentColor"
-            height="1em"
-            preserveAspectRatio="xMidYMid meet"
-            style={
-              Object {
-                "color": undefined,
-                "verticalAlign": "middle",
-              }
-            }
-            viewBox="0 0 40 40"
-            width="1em"
-          >
-            <g>
-              <path
-                d="m12.3 25.7l-2.3-2.3 10-10 10 10-2.3 2.3-7.7-7.7z"
-              />
-            </g>
-          </svg>
         </div>
       </div>
       <div
         className=""
       >
         <div
-          className=""
+          className={undefined}
         >
           <div
             className=""
@@ -4894,1235 +4871,165 @@ exports[`Storyshots Filters Default 1`] = `
               <div
                 className={undefined}
               >
-                <label
-                  className={undefined}
-                  htmlFor="always-the-same-string-1"
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  style={
+                    Object {
+                      "color": undefined,
+                      "verticalAlign": "middle",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                  width="1em"
                 >
-                  <input
-                    checked={true}
-                    className={undefined}
-                    disabled={false}
-                    id="always-the-same-string-1"
-                    name="always-the-same-string"
-                    onChange={[Function]}
-                    type="radio"
-                    value={1}
-                  />
-                  <span
-                    className={undefined}
-                  >
-                    Hoje
-                  </span>
-                </label>
-                <label
-                  className={undefined}
-                  htmlFor="always-the-same-string-7"
-                >
-                  <input
-                    checked={false}
-                    className={undefined}
-                    disabled={false}
-                    id="always-the-same-string-7"
-                    name="always-the-same-string"
-                    onChange={[Function]}
-                    type="radio"
-                    value={7}
-                  />
-                  <span
-                    className={undefined}
-                  >
-                    7 dias
-                  </span>
-                </label>
-                <label
-                  className={undefined}
-                  htmlFor="always-the-same-string-15"
-                >
-                  <input
-                    checked={false}
-                    className={undefined}
-                    disabled={false}
-                    id="always-the-same-string-15"
-                    name="always-the-same-string"
-                    onChange={[Function]}
-                    type="radio"
-                    value={15}
-                  />
-                  <span
-                    className={undefined}
-                  >
-                    15 dias
-                  </span>
-                </label>
-                <label
-                  className={undefined}
-                  htmlFor="always-the-same-string-30"
-                >
-                  <input
-                    checked={false}
-                    className={undefined}
-                    disabled={false}
-                    id="always-the-same-string-30"
-                    name="always-the-same-string"
-                    onChange={[Function]}
-                    type="radio"
-                    value={30}
-                  />
-                  <span
-                    className={undefined}
-                  >
-                    30 dias
-                  </span>
-                </label>
-                <label
-                  className={undefined}
-                  htmlFor="always-the-same-string-60"
-                >
-                  <input
-                    checked={false}
-                    className={undefined}
-                    disabled={false}
-                    id="always-the-same-string-60"
-                    name="always-the-same-string"
-                    onChange={[Function]}
-                    type="radio"
-                    value={60}
-                  />
-                  <span
-                    className={undefined}
-                  >
-                    60 dias
-                  </span>
-                </label>
+                  <g>
+                    <path
+                      d="m4.4 37.1h6.4v-6.4h-6.4v6.4z m7.8 0h7.2v-6.4h-7.2v6.4z m-7.8-7.8h6.4v-7.2h-6.4v7.2z m7.8 0h7.2v-7.2h-7.2v7.2z m-7.8-8.6h6.4v-6.4h-6.4v6.4z m16.4 16.4h7.1v-6.4h-7.1v6.4z m-8.6-16.4h7.2v-6.4h-7.2v6.4z m17.2 16.4h6.4v-6.4h-6.4v6.4z m-8.6-7.8h7.1v-7.2h-7.1v7.2z m-7.9-19.3v-6.4q0-0.3-0.2-0.5t-0.5-0.2h-1.4q-0.3 0-0.5 0.2t-0.2 0.5v6.4q0 0.3 0.2 0.5t0.5 0.2h1.4q0.3 0 0.5-0.2t0.2-0.5z m16.5 19.3h6.4v-7.2h-6.4v7.2z m-8.6-8.6h7.1v-6.4h-7.1v6.4z m8.6 0h6.4v-6.4h-6.4v6.4z m0.7-10.7v-6.4q0-0.3-0.2-0.5t-0.5-0.2h-1.5q-0.3 0-0.5 0.2t-0.2 0.5v6.4q0 0.3 0.2 0.5t0.5 0.2h1.5q0.2 0 0.5-0.2t0.2-0.5z m8.5-1.4v28.5q0 1.2-0.8 2.1t-2 0.8h-31.4q-1.2 0-2.1-0.9t-0.8-2v-28.5q0-1.2 0.8-2t2.1-0.9h2.8v-2.1q0-1.5 1.1-2.6t2.5-1h1.4q1.5 0 2.5 1.1t1.1 2.5v2.1h8.6v-2.1q0-1.5 1-2.6t2.5-1h1.5q1.4 0 2.5 1.1t1 2.5v2.1h2.9q1.1 0 2 0.9t0.8 2z"
+                    />
+                  </g>
+                </svg>
               </div>
-            </div>
-            <div
-              className="undefined"
-            >
               <div
                 className=""
               >
+                <input
+                  className={undefined}
+                  id="always-the-same-string-startDate"
+                  mask="11/11/1111"
+                  maxLength={10}
+                  name="startDate"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyPress={[Function]}
+                  onPaste={[Function]}
+                  placeholder="Inicio"
+                  size="8"
+                  value=""
+                />
                 <span
                   className={undefined}
                 >
-                  <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                      Object {
-                        "color": undefined,
-                        "verticalAlign": "middle",
-                      }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                  >
-                    <g>
-                      <path
-                        d="m15.9 23.4c4.1 0 7.5-3.4 7.5-7.5s-3.4-7.5-7.5-7.5-7.5 3.3-7.5 7.5 3.3 7.5 7.5 7.5z m10 0l8.2 8.2-2.5 2.5-8.2-8.2v-1.4l-0.5-0.4c-1.9 1.6-4.4 2.5-7 2.5-6.1 0-10.9-4.7-10.9-10.7s4.8-10.9 10.9-10.9 10.7 4.8 10.7 10.9c0 2.6-0.9 5.1-2.5 7l0.4 0.5h1.4z"
-                      />
-                    </g>
-                  </svg>
+                  Inicio
                 </span>
-                <div
-                  className={undefined}
-                >
-                  <input
-                    className={undefined}
-                    disabled={false}
-                    onBlur={[Function]}
-                    onChange={[Function]}
-                    onFocus={[Function]}
-                    placeholder={null}
-                    type="search"
-                    value=""
-                  />
-                </div>
               </div>
+              <label
+                className=""
+                htmlFor="always-the-same-string-startDate"
+              >
+                Selecione um dia ou período
+              </label>
+              <div
+                className=""
+              />
             </div>
           </div>
           <div
             className=""
           >
-            <div
-              className=""
+            <span
+              className={undefined}
             >
-              <h4
-                className={undefined}
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
               >
-                Formas de pagamento
-              </h4>
-              <div
-                className=""
-              >
-                <div
-                  className=""
-                >
-                  
-                  <div>
-                    <div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Formas de pagamento-boleto-boleto"
-                          name="Formas de pagamento-boleto"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="boleto"
-                        />
-                        <label
-                          htmlFor="Formas de pagamento-boleto-boleto"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Boleto
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Formas de pagamento-credit_card-credit_card"
-                          name="Formas de pagamento-credit_card"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="credit_card"
-                        />
-                        <label
-                          htmlFor="Formas de pagamento-credit_card-credit_card"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Cartão de crédito
-                        </label>
-                        
-                      </div>
-                    </div>
-                    <div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Formas de pagamento-debit_card-debit_card"
-                          name="Formas de pagamento-debit_card"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="debit_card"
-                        />
-                        <label
-                          htmlFor="Formas de pagamento-debit_card-debit_card"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Cartão de débito
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Formas de pagamento-foreign_credit_card-foreign_credit_card"
-                          name="Formas de pagamento-foreign_credit_card"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="foreign_credit_card"
-                        />
-                        <label
-                          htmlFor="Formas de pagamento-foreign_credit_card-foreign_credit_card"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Cartão de crédito estrangeiro
-                        </label>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+                <g>
+                  <path
+                    d="m15.9 23.4c4.1 0 7.5-3.4 7.5-7.5s-3.4-7.5-7.5-7.5-7.5 3.3-7.5 7.5 3.3 7.5 7.5 7.5z m10 0l8.2 8.2-2.5 2.5-8.2-8.2v-1.4l-0.5-0.4c-1.9 1.6-4.4 2.5-7 2.5-6.1 0-10.9-4.7-10.9-10.7s4.8-10.9 10.9-10.9 10.7 4.8 10.7 10.9c0 2.6-0.9 5.1-2.5 7l0.4 0.5h1.4z"
+                  />
+                </g>
+              </svg>
+            </span>
             <div
-              className=""
+              className={undefined}
             >
-              <h4
+              <input
                 className={undefined}
-              >
-                Razão de recusa
-              </h4>
-              <div
-                className=""
-              >
-                <div
-                  className=""
-                >
-                  
-                  <div>
-                    <div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Razão de recusa-card_acquirer-card_acquirer"
-                          name="Razão de recusa-card_acquirer"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="card_acquirer"
-                        />
-                        <label
-                          htmlFor="Razão de recusa-card_acquirer-card_acquirer"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Operadora de cartão
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Razão de recusa-capture_timeout-capture_timeout"
-                          name="Razão de recusa-capture_timeout"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="capture_timeout"
-                        />
-                        <label
-                          htmlFor="Razão de recusa-capture_timeout-capture_timeout"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Timeout de captura
-                        </label>
-                        
-                      </div>
-                    </div>
-                    <div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Razão de recusa-anti_fraud-anti_fraud"
-                          name="Razão de recusa-anti_fraud"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="anti_fraud"
-                        />
-                        <label
-                          htmlFor="Razão de recusa-anti_fraud-anti_fraud"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Antifraude
-                        </label>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className=""
-            >
-              <h4
-                className={undefined}
-              >
-                Modelo de negócio
-              </h4>
-              <div
-                className=""
-              >
-                <div
-                  className=""
-                >
-                  
-                  <div>
-                    <div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Modelo de negócio-recurrence-recurrence"
-                          name="Modelo de negócio-recurrence"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="recurrence"
-                        />
-                        <label
-                          htmlFor="Modelo de negócio-recurrence-recurrence"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Recorrência
-                        </label>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className=""
-            >
-              <h4
-                className={undefined}
-              >
-                Status de transação
-              </h4>
-              <div
-                className=""
-              >
-                <div
-                  className=""
-                >
-                  
-                  <div>
-                    <div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Status de transação-payed-payed"
-                          name="Status de transação-payed"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="payed"
-                        />
-                        <label
-                          htmlFor="Status de transação-payed-payed"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Paga
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Status de transação-refused-refused"
-                          name="Status de transação-refused"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="refused"
-                        />
-                        <label
-                          htmlFor="Status de transação-refused-refused"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Recusada
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Status de transação-reversed-reversed"
-                          name="Status de transação-reversed"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="reversed"
-                        />
-                        <label
-                          htmlFor="Status de transação-reversed-reversed"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Estornada
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Status de transação-pending_reversal-pending_reversal"
-                          name="Status de transação-pending_reversal"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="pending_reversal"
-                        />
-                        <label
-                          htmlFor="Status de transação-pending_reversal-pending_reversal"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Estorno pendente
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Status de transação-waiting_payment-waiting_payment"
-                          name="Status de transação-waiting_payment"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="waiting_payment"
-                        />
-                        <label
-                          htmlFor="Status de transação-waiting_payment-waiting_payment"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Aguardando pagamento
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Status de transação-processing-processing"
-                          name="Status de transação-processing"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="processing"
-                        />
-                        <label
-                          htmlFor="Status de transação-processing-processing"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Processando
-                        </label>
-                        
-                      </div>
-                    </div>
-                    <div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Status de transação-chargeback-chargeback"
-                          name="Status de transação-chargeback"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="chargeback"
-                        />
-                        <label
-                          htmlFor="Status de transação-chargeback-chargeback"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Chargeback
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Status de transação-contested_chargeback-contested_chargeback"
-                          name="Status de transação-contested_chargeback"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="contested_chargeback"
-                        />
-                        <label
-                          htmlFor="Status de transação-contested_chargeback-contested_chargeback"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Chargeback reapresentado
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Status de transação-boleto_less_value-boleto_less_value"
-                          name="Status de transação-boleto_less_value"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="boleto_less_value"
-                        />
-                        <label
-                          htmlFor="Status de transação-boleto_less_value-boleto_less_value"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Boleto pago com valor inferior
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Status de transação-waiting_register-waiting_register"
-                          name="Status de transação-waiting_register"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="waiting_register"
-                        />
-                        <label
-                          htmlFor="Status de transação-waiting_register-waiting_register"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Esperando registro
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Status de transação-boleto_more_value-boleto_more_value"
-                          name="Status de transação-boleto_more_value"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="boleto_more_value"
-                        />
-                        <label
-                          htmlFor="Status de transação-boleto_more_value-boleto_more_value"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Boleto pago com valor superior
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Status de transação-authorized-authorized"
-                          name="Status de transação-authorized"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="authorized"
-                        />
-                        <label
-                          htmlFor="Status de transação-authorized-authorized"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Autorizada
-                        </label>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className=""
-            >
-              <h4
-                className={undefined}
-              >
-                Número de parcelas
-              </h4>
-              <div
-                className=""
-              >
-                <div
-                  className=""
-                >
-                  
-                  <div>
-                    <div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Número de parcelas-1-1"
-                          name="Número de parcelas-1"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="1"
-                        />
-                        <label
-                          htmlFor="Número de parcelas-1-1"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          1x
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Número de parcelas-2-2"
-                          name="Número de parcelas-2"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="2"
-                        />
-                        <label
-                          htmlFor="Número de parcelas-2-2"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          2x
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Número de parcelas-3-3"
-                          name="Número de parcelas-3"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="3"
-                        />
-                        <label
-                          htmlFor="Número de parcelas-3-3"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          3x
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Número de parcelas-4-4"
-                          name="Número de parcelas-4"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="4"
-                        />
-                        <label
-                          htmlFor="Número de parcelas-4-4"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          4x
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Número de parcelas-5-5"
-                          name="Número de parcelas-5"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="5"
-                        />
-                        <label
-                          htmlFor="Número de parcelas-5-5"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          5x
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Número de parcelas-6-6"
-                          name="Número de parcelas-6"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="6"
-                        />
-                        <label
-                          htmlFor="Número de parcelas-6-6"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          6x
-                        </label>
-                        
-                      </div>
-                    </div>
-                    <div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Número de parcelas-7-7"
-                          name="Número de parcelas-7"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="7"
-                        />
-                        <label
-                          htmlFor="Número de parcelas-7-7"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          7x
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Número de parcelas-8-8"
-                          name="Número de parcelas-8"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="8"
-                        />
-                        <label
-                          htmlFor="Número de parcelas-8-8"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          8x
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Número de parcelas-9-9"
-                          name="Número de parcelas-9"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="9"
-                        />
-                        <label
-                          htmlFor="Número de parcelas-9-9"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          9x
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Número de parcelas-10-10"
-                          name="Número de parcelas-10"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="10"
-                        />
-                        <label
-                          htmlFor="Número de parcelas-10-10"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          10x
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Número de parcelas-11-11"
-                          name="Número de parcelas-11"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="11"
-                        />
-                        <label
-                          htmlFor="Número de parcelas-11-11"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          11x
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Número de parcelas-12-12"
-                          name="Número de parcelas-12"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="12"
-                        />
-                        <label
-                          htmlFor="Número de parcelas-12-12"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          12x
-                        </label>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className=""
-            >
-              <h4
-                className={undefined}
-              >
-                Bandeiras
-              </h4>
-              <div
-                className=""
-              >
-                <div
-                  className=""
-                >
-                  
-                  <div>
-                    <div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Bandeiras-visa-visa"
-                          name="Bandeiras-visa"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="visa"
-                        />
-                        <label
-                          htmlFor="Bandeiras-visa-visa"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Visa
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Bandeiras-elo-elo"
-                          name="Bandeiras-elo"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="elo"
-                        />
-                        <label
-                          htmlFor="Bandeiras-elo-elo"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Elo
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Bandeiras-aura-aura"
-                          name="Bandeiras-aura"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="aura"
-                        />
-                        <label
-                          htmlFor="Bandeiras-aura-aura"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Aura
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Bandeiras-amex-amex"
-                          name="Bandeiras-amex"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="amex"
-                        />
-                        <label
-                          htmlFor="Bandeiras-amex-amex"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Amex
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Bandeiras-discover-discover"
-                          name="Bandeiras-discover"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="discover"
-                        />
-                        <label
-                          htmlFor="Bandeiras-discover-discover"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Discover
-                        </label>
-                        
-                      </div>
-                    </div>
-                    <div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Bandeiras-mastercard-mastercard"
-                          name="Bandeiras-mastercard"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="mastercard"
-                        />
-                        <label
-                          htmlFor="Bandeiras-mastercard-mastercard"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Mastercard
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Bandeiras-hipercard-hipercard"
-                          name="Bandeiras-hipercard"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="hipercard"
-                        />
-                        <label
-                          htmlFor="Bandeiras-hipercard-hipercard"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Hipercard
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Bandeiras-jcb-jcb"
-                          name="Bandeiras-jcb"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="jcb"
-                        />
-                        <label
-                          htmlFor="Bandeiras-jcb-jcb"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          JCB
-                        </label>
-                        
-                      </div>
-                      <div
-                        className=""
-                      >
-                        <input
-                          checked={false}
-                          disabled={false}
-                          id="Bandeiras-diners-diners"
-                          name="Bandeiras-diners"
-                          onChange={[Function]}
-                          type="checkbox"
-                          value="diners"
-                        />
-                        <label
-                          htmlFor="Bandeiras-diners-diners"
-                        >
-                          <i
-                            className={undefined}
-                          />
-                          Diners
-                        </label>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                disabled={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder="Filtre por ID, CPF, nome e e-mail."
+                type="search"
+                value=""
+              />
             </div>
           </div>
+        </div>
+        <div
+          className={undefined}
+        >
+          <a
+            className={undefined}
+            onClick={[Function]}
+            role="button"
+            tabIndex="0"
+          >
+            <div
+              className={undefined}
+            >
+              <h2
+                className={undefined}
+              >
+                Mais filtros
+                <svg
+                  className=""
+                  fill="currentColor"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  style={
+                    Object {
+                      "color": undefined,
+                      "verticalAlign": "middle",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                  width="1em"
+                >
+                  <g>
+                    <path
+                      d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                    />
+                  </g>
+                </svg>
+              </h2>
+              
+            </div>
+          </a>
         </div>
       </div>
       <div
         className=""
       >
-        <div
+        <button
           className=""
+          disabled={false}
+          onClick={[Function]}
+          type="button"
         >
-          <div
-            className=""
-          >
-            <div
-              className="undefined"
-            >
-              <button
-                className=""
-                disabled={false}
-                onClick={[Function]}
-                type="button"
-              >
-                Limpar filtros
-              </button>
-              <button
-                className=""
-                disabled={false}
-                onClick={null}
-                type="submit"
-              >
-                Filtrar
-              </button>
-            </div>
-          </div>
-        </div>
+          Limpar filtros
+        </button>
+        <button
+          className=""
+          disabled={true}
+          onClick={null}
+          type="submit"
+        >
+          Filtrar
+        </button>
       </div>
     </form>
   </div>

@@ -1,12 +1,7 @@
 import React from 'react'
-import { storiesOf } from '@storybook/react'
-
-import Filters from '../../src/containers/Filters'
-
-import dateSelectorPresets from '../../src/models/dateSelectorPresets'
-import filterOptions from '../../src/models/transactionFilterOptions'
-
-import style from './style.css'
+import Filters from '../index'
+import dateSelectorPresets from '../../../models/dateSelectorPresets'
+import filterOptions from '../../../models/transactionFilterOptions'
 
 class FilterState extends React.Component {
   constructor (props) {
@@ -39,6 +34,8 @@ class FilterState extends React.Component {
       values,
       dates,
     })
+
+    this.props.onChange(filters)
   }
 
   render () {
@@ -72,6 +69,7 @@ FilterState.propTypes = {
   options: Filters.propTypes.options.isRequired,
   search: Filters.propTypes.search,
   values: Filters.propTypes.values,
+  onChange: Filters.propTypes.onChange.isRequired,
 }
 
 FilterState.defaultProps = {
@@ -82,12 +80,4 @@ FilterState.defaultProps = {
   values: [],
 }
 
-storiesOf('Filters', module)
-  .add('Default', () => (
-    <div className={style.root}>
-      <FilterState
-        options={filterOptions}
-        datePresets={dateSelectorPresets}
-      />
-    </div>
-  ))
+export default FilterState
