@@ -62,7 +62,7 @@
 }
 
 .actions > * {
-  margin-left: var(--card-spacing-medium);
+  margin-left: var(--card-actions-spacing);
 }
 
 .actions > *:first-child {
