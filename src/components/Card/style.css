@@ -59,6 +59,7 @@
 
 .actions {
   padding: var(--card-actions-padding);
+  text-align: right;
 }
 
 .actions > * {
