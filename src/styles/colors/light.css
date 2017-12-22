@@ -58,6 +58,12 @@
   --color-light-info: var(--color-light-orange-100);
   --color-light-success: var(--color-light-blue-100);
 
+  --color-light-grey-gradient:
+    linear-gradient(
+      var(--gradient-angle),
+      var(--color-light-grey-100) 10%,
+      var(--color-light-grey-20) 90%
+    );
   --color-light-greenish-gradient:
     linear-gradient(
       var(--gradient-angle),
