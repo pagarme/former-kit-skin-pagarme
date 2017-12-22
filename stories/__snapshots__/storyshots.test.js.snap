@@ -5000,17 +5000,9 @@ exports[`Storyshots Filters Default 1`] = `
               className="undefined"
             >
               <div
-                className={undefined}
+                className=""
               >
-                <input
-                  className={undefined}
-                  disabled={false}
-                  onChange={[Function]}
-                  placeholder="Busca"
-                  type="search"
-                  value=""
-                />
-                <button
+                <span
                   className={undefined}
                 >
                   <svg
@@ -5032,7 +5024,21 @@ exports[`Storyshots Filters Default 1`] = `
                       />
                     </g>
                   </svg>
-                </button>
+                </span>
+                <div
+                  className={undefined}
+                >
+                  <input
+                    className={undefined}
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder={null}
+                    type="search"
+                    value=""
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -13686,17 +13692,9 @@ exports[`Storyshots Toolbar SearchField 1`] = `
       Input de busca
     </p>
     <div
-      className={undefined}
+      className=""
     >
-      <input
-        className={undefined}
-        disabled={false}
-        onChange={[Function]}
-        placeholder="Busca"
-        type="search"
-        value=""
-      />
-      <button
+      <span
         className={undefined}
       >
         <svg
@@ -13718,7 +13716,21 @@ exports[`Storyshots Toolbar SearchField 1`] = `
             />
           </g>
         </svg>
-      </button>
+      </span>
+      <div
+        className={undefined}
+      >
+        <input
+          className={undefined}
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder={null}
+          type="search"
+          value=""
+        />
+      </div>
     </div>
   </div>
   <div>
@@ -13726,17 +13738,9 @@ exports[`Storyshots Toolbar SearchField 1`] = `
       Input desabilitado
     </p>
     <div
-      className={undefined}
+      className=""
     >
-      <input
-        className={undefined}
-        disabled={true}
-        onChange={[Function]}
-        placeholder="Busca"
-        type="search"
-        value=""
-      />
-      <button
+      <span
         className={undefined}
       >
         <svg
@@ -13758,7 +13762,21 @@ exports[`Storyshots Toolbar SearchField 1`] = `
             />
           </g>
         </svg>
-      </button>
+      </span>
+      <div
+        className={undefined}
+      >
+        <input
+          className={undefined}
+          disabled={true}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder={null}
+          type="search"
+          value=""
+        />
+      </div>
     </div>
   </div>
 </div>

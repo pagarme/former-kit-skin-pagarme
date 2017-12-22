@@ -1,38 +1,34 @@
-@import "./properties.css";
 @import "../properties.css";
 
-.input {
-  padding: var(--search-field-input-padding);
-  border: none;
+.inputWrap {
+  width: 100%;
 }
 
-.button {
-  background: var(--search-field-button-background);
+.input {
+  appearance: none;
+  padding: var(--toolitem-input-inner-spacing);
   border: none;
-  border-radius:
-    0
-    calc(var(--toolitem-border-radius) - 1px)
-    calc(var(--toolitem-border-radius) - 1px)
-    0;
+  width: 100%;
+  font-size: var(--toolitem-font-size);
+  font-family: var(--body-font-family);
+  color: var(--toolitem-input-color);
+}
+
+.icon {
   display: flex;
-  font-size: var(--search-field-button-icon-size);
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  color: var(--search-field-button-color);
+  padding-left: 10px;
 }
 
-.input:disabled,
-.input:disabled + .button {
+.icon svg {
+  font-size: var(--toolitem-input-icon-size);
+  color: var(--toolitem-input-icon-color);
+  transition: color 100ms ease-in-out;
+}
+
+.input:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.input:focus ~ .button {
-  background-image: var(--toolitem-active-background);
-  color: var(--toolitem-background-color);
-}
-
-.button:active {
-  background-color: var(--search-field-button-active-background-color);
-}

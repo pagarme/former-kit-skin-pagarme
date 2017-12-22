@@ -5,6 +5,7 @@ import {
   string,
   bool,
 } from 'prop-types'
+import classNames from 'classnames'
 
 import style from './style.css'
 
@@ -12,35 +13,69 @@ import style from './style.css'
 // eslint-disable-next-line css-modules/no-unused-class
 import toolItemStyle from '../style.css'
 
-const SearchField = ({
-  disabled,
-  onChange,
-  value,
-}) => (
-  <div className={toolItemStyle.root}>
-    <input
-      disabled={disabled}
-      onChange={e => !disabled && onChange(e.target.value)}
-      value={value}
-      className={style.input}
-      placeholder="Busca"
-      type="search"
-    />
+const getSearchFieldClasses = ({ active, focused }) =>
+  classNames(toolItemStyle.root, {
+    [toolItemStyle.active]: active,
+    [toolItemStyle.focused]: focused,
+  })
 
-    <button className={style.button}>
-      <IconSearch />
-    </button>
-  </div>
-)
+class SearchField extends React.Component {
+  constructor (props) {
+    super(props)
+
+    this.state = {
+      focused: false,
+    }
+  }
+
+  render () {
+    const {
+      disabled,
+      onChange,
+      value,
+      placeholder,
+      active,
+    } = this.props
+
+    const {
+      focused,
+    } = this.state
+
+    return (
+      <div className={getSearchFieldClasses({ active, focused })}>
+        <span className={style.icon}>
+          <IconSearch />
+        </span>
+
+        <div className={style.inputWrap}>
+          <input
+            onBlur={() => this.setState({ focused: false })}
+            onFocus={() => this.setState({ focused: true })}
+            disabled={disabled}
+            onChange={e => !disabled && onChange(e.target.value)}
+            value={value}
+            className={style.input}
+            type="search"
+            placeholder={placeholder}
+          />
+        </div>
+      </div>
+    )
+  }
+}
 
 SearchField.propTypes = {
   onChange: func.isRequired,
   value: string.isRequired,
   disabled: bool,
+  placeholder: string,
+  active: bool,
 }
 
 SearchField.defaultProps = {
   disabled: false,
+  placeholder: null,
+  active: null,
 }
 
 export default SearchField
