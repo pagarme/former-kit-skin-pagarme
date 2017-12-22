@@ -1,5 +1,9 @@
 @import "./properties.css";
 
+.dateInput {
+  flex: 0;
+}
+
 .expander {
   position: relative;
   height: 100%;

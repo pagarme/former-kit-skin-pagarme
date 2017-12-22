@@ -12,6 +12,10 @@
   font-family: var(--body-font-family);
 }
 
+.expanderSpan {
+  visibility: hidden;
+}
+
 .input:placeholder {
   color: var(--toolitem-input-color);
 }
@@ -40,6 +44,7 @@
   display: flex;
   align-items: center;
   padding-left: 10px;
+  white-space: nowrap;
 }
 
 .separator:last-child {
