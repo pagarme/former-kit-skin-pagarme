@@ -42,59 +42,59 @@ const beforeSubmit = {
     },
   ],
 
-  submitButtonColorCase: [
+  submitButtonRelevanceCase: [
     {
       name: 'when DateInput changes',
       ...changeDateInput(),
-      expectedColorProp: 'green',
+      buttonRelevance: 'normal',
     },
     {
       name: 'when search input changes',
       ...changeSearchInput(),
-      expectedColorProp: 'green',
+      buttonRelevance: 'normal',
     },
     {
       name: 'when checkboxes are checked',
       ...checkAllCheckboxes(),
-      expectedColorProp: 'green',
+      buttonRelevance: 'normal',
     },
     {
       name: 'when checkboxes are unchecked',
       ...uncheckAllCheckboxes(),
-      expectedColorProp: 'green',
+      buttonRelevance: 'normal',
     },
     {
       name: 'when all values are changed',
       ...changeAllFilters(),
-      expectedColorProp: 'green',
+      buttonRelevance: 'normal',
     },
   ],
 
-  resetButtonColorCase: [
+  resetButtonRelevanceCase: [
     {
       name: 'when DateInput changes',
       ...changeDateInput(),
-      expectedColorProp: 'green',
+      buttonRelevance: 'normal',
     },
     {
       name: 'when search input changes',
       ...changeSearchInput(),
-      expectedColorProp: 'green',
+      buttonRelevance: 'normal',
     },
     {
       name: 'when checkboxes are checked',
       ...checkAllCheckboxes(),
-      expectedColorProp: 'green',
+      buttonRelevance: 'normal',
     },
     {
       name: 'when checkboxes are unchecked',
       ...uncheckAllCheckboxes(),
-      expectedColorProp: 'green',
+      buttonRelevance: 'normal',
     },
     {
       name: 'when all values are changed',
       ...changeAllFilters(),
-      expectedColorProp: 'green',
+      buttonRelevance: 'normal',
     },
   ],
 

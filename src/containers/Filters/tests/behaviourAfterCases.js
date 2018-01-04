@@ -75,59 +75,59 @@ const afterSubmit = {
     },
   ],
 
-  submitButtonColorCase: [
+  submitButtonRelevanceCase: [
     {
       name: 'when DateInput changes and the form is submited',
       ...submitDateInput(),
-      expectedColorProp: 'silver',
+      buttonRelevance: 'low',
     },
     {
       name: 'when search input changes and the form is submited',
       ...submitWithSearchInput(),
-      expectedColorProp: 'silver',
+      buttonRelevance: 'low',
     },
     {
       name: 'when search input changes and the form is submited',
       ...submitWithAddedCheckboxGroup(),
-      expectedColorProp: 'silver',
+      buttonRelevance: 'low',
     },
     {
       name: 'when checkboxes are unchecked and the form is submited',
       ...submitWithRemovedCheckboxes(),
-      expectedColorProp: 'silver',
+      buttonRelevance: 'low',
     },
     {
       name: 'when all values are changed and the form is submited',
       ...submitWithAll(),
-      expectedColorProp: 'silver',
+      buttonRelevance: 'low',
     },
   ],
 
-  resetButtonColorCase: [
+  resetButtonRelevanceCase: [
     {
       name: 'when DateInput changes and the form is submited',
       ...submitDateInput(),
-      expectedColorProp: 'silver',
+      buttonRelevance: 'low',
     },
     {
       name: 'when search input changes and the form is submited',
       ...submitWithSearchInput(),
-      expectedColorProp: 'silver',
+      buttonRelevance: 'low',
     },
     {
       name: 'when search input changes and the form is submited',
       ...submitWithAddedCheckboxGroup(),
-      expectedColorProp: 'silver',
+      buttonRelevance: 'low',
     },
     {
       name: 'when checkboxes are unchecked and the form is submited',
       ...submitWithRemovedCheckboxes(),
-      expectedColorProp: 'silver',
+      buttonRelevance: 'low',
     },
     {
       name: 'when all values are changed and the form is submited',
       ...submitWithAll(),
-      expectedColorProp: 'silver',
+      buttonRelevance: 'low',
     },
   ],
 

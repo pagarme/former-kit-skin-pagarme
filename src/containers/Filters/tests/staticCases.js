@@ -163,27 +163,27 @@ const submitButtonColorCase = [
   {
     name: 'no filters',
     component: noFilterComponent,
-    color: 'silver',
+    buttonRelevance: 'low',
   },
   {
     name: 'only date',
     component: onlyDateComponent,
-    color: 'silver',
+    buttonRelevance: 'low',
   },
   {
     name: 'only search text',
     component: onlySearchComponent,
-    color: 'silver',
+    buttonRelevance: 'low',
   },
   {
     name: 'only filter options and values',
     component: onlyOptionsComponent,
-    color: 'silver',
+    buttonRelevance: 'low',
   },
   {
     name: 'all props',
     component: allPropsComponent,
-    color: 'silver',
+    buttonRelevance: 'low',
   },
 ]
 
@@ -191,27 +191,27 @@ const resetButtonColorCase = [
   {
     name: 'no filters',
     component: noFilterComponent,
-    color: 'silver',
+    buttonRelevance: 'low',
   },
   {
     name: 'only date',
     component: onlyDateComponent,
-    color: 'silver',
+    buttonRelevance: 'low',
   },
   {
     name: 'only search text',
     component: onlySearchComponent,
-    color: 'silver',
+    buttonRelevance: 'low',
   },
   {
     name: 'only filter options and values',
     component: onlyOptionsComponent,
-    color: 'silver',
+    buttonRelevance: 'low',
   },
   {
     name: 'all props',
     component: allPropsComponent,
-    color: 'silver',
+    buttonRelevance: 'low',
   },
 ]
 

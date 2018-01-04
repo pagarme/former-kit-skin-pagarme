@@ -81,28 +81,28 @@ describe('Filters', () => {
         expect(submitButton.props().disabled).toBe(expectedButtonDisabledState)
       }, beforeSubmit.submitButtonDisabledCase)
 
-      cases('should have submit button with correct color prop', ({
+      cases('should have submit button with correct relevance', ({
         component,
-        expectedColorProp,
+        buttonRelevance,
       }) => {
         const submitButton = component
           .find(CardActions)
           .find(Button)
           .last()
 
-        expect(submitButton.props().color).toBe(expectedColorProp)
-      }, beforeSubmit.submitButtonColorCase)
+        expect(submitButton.props().relevance).toBe(buttonRelevance)
+      }, beforeSubmit.submitButtonRelevanceCase)
 
-      cases('should have reset button with correct color prop', ({
+      cases('should have reset button with correct relevance', ({
         component,
-        expectedColorProp,
+        buttonRelevance,
       }) => {
         const resetButton = component
           .find(CardActions)
           .findWhere(node => node.is(Button) && node.prop('type') !== 'submit')
 
-        expect(resetButton.props().color).toBe(expectedColorProp)
-      }, beforeSubmit.resetButtonColorCase)
+        expect(resetButton.props().relevance).toBe(buttonRelevance)
+      }, beforeSubmit.resetButtonRelevanceCase)
 
       cases('should have correct Tag components', ({
         component,
@@ -159,26 +159,26 @@ describe('Filters', () => {
         expect(submitButton.props().disabled).toBe(expectedButtonDisabledState)
       }, afterSubmit.submitButtonDisabledCase)
 
-      cases('should have submit button with correct color prop', ({
+      cases('should have submit button with correct relevance', ({
         component,
-        expectedColorProp,
+        buttonRelevance,
       }) => {
         const submitButton = component
           .find(CardActions)
           .find(Button)
           .last()
-        expect(submitButton.props().color).toBe(expectedColorProp)
-      }, afterSubmit.submitButtonColorCase)
+        expect(submitButton.props().relevance).toBe(buttonRelevance)
+      }, afterSubmit.submitButtonRelevanceCase)
 
-      cases('should have reset button with correct color prop', ({
+      cases('should have reset button with correct relevance', ({
         component,
-        expectedColorProp,
+        buttonRelevance,
       }) => {
         const resetButton = component
           .find(CardActions)
           .findWhere(node => node.is(Button) && node.prop('type') !== 'submit')
-        expect(resetButton.props().color).toBe(expectedColorProp)
-      }, afterSubmit.resetButtonColorCase)
+        expect(resetButton.props().relevance).toBe(buttonRelevance)
+      }, afterSubmit.resetButtonRelevanceCase)
 
       cases('should have correct Tag components', ({ component, selectedFilters }) => {
         const tags = component.find(Tag)

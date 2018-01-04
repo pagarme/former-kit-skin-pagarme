@@ -165,7 +165,7 @@ exports[`Storyshots Alerts All types 1`] = `
 </div>
 `;
 
-exports[`Storyshots Buttons all 1`] = `
+exports[`Storyshots Buttons defaultTheme 1`] = `
 <div
   className={undefined}
 >
@@ -613,7 +613,7 @@ exports[`Storyshots Buttons all 1`] = `
       onClick={null}
       type="button"
     >
-      extra-small
+      tiny
     </button>
   </div>
   <div
@@ -637,7 +637,7 @@ exports[`Storyshots Buttons all 1`] = `
       onClick={null}
       type="button"
     >
-      Default
+      default
     </button>
   </div>
   <div
@@ -649,7 +649,7 @@ exports[`Storyshots Buttons all 1`] = `
       onClick={null}
       type="button"
     >
-      Default
+      large
     </button>
   </div>
   <h2>

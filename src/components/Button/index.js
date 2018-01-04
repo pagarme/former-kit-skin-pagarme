@@ -1,19 +1,27 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
+import { themr } from 'react-css-themr'
 
-import stylesheet from './style.css'
-
+const applyThemr = themr('UIButton')
 
 function Button ({
-  disabled, onClick, variant, base, color, size, children, type,
+  base,
+  children,
+  relevance,
+  disabled,
+  onClick,
+  size,
+  theme,
+  type,
+  fill,
 }) {
   const buttonClasses = classNames(
-    stylesheet.button,
-    stylesheet[variant],
-    stylesheet[`${base}-${variant}`],
-    stylesheet[`${base}-${color}`],
-    stylesheet[size]
+    theme.button,
+    theme[fill],
+    theme[base],
+    theme[`${relevance}Relevance`],
+    theme[size]
   )
 
   return (
@@ -29,19 +37,37 @@ function Button ({
 }
 
 Button.propTypes = {
+  theme: PropTypes.shape({
+    button: PropTypes.string,
+    disabled: PropTypes.string,
+    size: PropTypes.string,
+    flat: PropTypes.string,
+    gradient: PropTypes.string,
+    outline: PropTypes.string,
+    clean: PropTypes.string,
+    highRelevance: PropTypes.string,
+    normalRelevance: PropTypes.string,
+    lowRelevance: PropTypes.string,
+    light: PropTypes.string,
+    dark: PropTypes.string,
+    tiny: PropTypes.string,
+    small: PropTypes.string,
+    default: PropTypes.string,
+    large: PropTypes.string,
+  }),
   type: PropTypes.oneOf(['button', 'submit', 'reset']),
   onClick: PropTypes.func,
-  variant: PropTypes.oneOf([
+  fill: PropTypes.oneOf([
     'flat', 'gradient', 'outline', 'clean',
   ]),
   base: PropTypes.oneOf([
     'dark', 'light',
   ]),
-  color: PropTypes.oneOf([
-    'green', 'silver', 'red',
+  relevance: PropTypes.oneOf([
+    'high', 'normal', 'low',
   ]),
   size: PropTypes.oneOf([
-    'extra-small', 'small', 'default', 'large',
+    'tiny', 'small', 'default', 'large',
   ]),
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
@@ -52,13 +78,14 @@ Button.propTypes = {
 }
 
 Button.defaultProps = {
-  onClick: null,
-  variant: 'flat',
+  theme: {},
+  fill: 'flat',
   base: 'light',
-  color: 'green',
+  relevance: 'normal',
   size: 'default',
   type: 'button',
   disabled: false,
+  onClick: null,
 }
 
-export default Button
+export default applyThemr(Button)

@@ -261,18 +261,18 @@ class Filters extends Component {
     return (
       <CardActions>
         <Button
-          color={filtersChanged ? 'green' : 'silver'}
+          relevance={filtersChanged ? 'normal' : 'low'}
           onClick={this.handleCleanFilters}
-          variant="outline"
+          fill="outline"
         >
           Limpar filtros
         </Button>
 
         <Button
-          color={filtersChanged ? 'green' : 'silver'}
+          relevance={filtersChanged ? 'normal' : 'low'}
           disabled={!filtersChanged}
           type="submit"
-          variant="gradient"
+          fill="gradient"
         >
           Filtrar
         </Button>
