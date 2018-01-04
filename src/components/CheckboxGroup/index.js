@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
+
 import {
   append,
   contains,
@@ -11,9 +12,12 @@ import {
   partial,
   splitEvery,
 } from 'ramda'
+
+import { themr } from 'react-css-themr'
+
 import Checkbox from '../Checkbox'
 
-import style from './style.css'
+const applyThemr = themr('UICheckboxGroup')
 
 class CheckboxGroup extends React.Component {
   constructor (props) {
@@ -49,15 +53,19 @@ class CheckboxGroup extends React.Component {
       options,
       className,
       columns,
+      theme,
     } = this.props
 
-    const secondaryTextClass = classnames(style.secondaryText, {
-      [style.error]: error,
-      [style.success]: success,
-    })
+    const secondaryTextClass = classnames(
+      theme.secondaryText,
+      {
+        [theme.error]: error,
+        [theme.success]: success,
+      }
+    )
 
     const rootClassName = classnames(
-      style.root,
+      theme.checkboxGroup,
       className
     )
 
@@ -104,6 +112,12 @@ class CheckboxGroup extends React.Component {
 }
 
 CheckboxGroup.propTypes = {
+  theme: PropTypes.shape({
+    checkboxGroup: PropTypes.string,
+    secondaryText: PropTypes.string,
+    error: PropTypes.string,
+    success: PropTypes.string,
+  }),
   options: PropTypes.arrayOf(
     PropTypes.shape({
       value: PropTypes.string,
@@ -121,6 +135,7 @@ CheckboxGroup.propTypes = {
 }
 
 CheckboxGroup.defaultProps = {
+  theme: {},
   disabled: false,
   error: '',
   success: '',
@@ -128,4 +143,4 @@ CheckboxGroup.defaultProps = {
   columns: 1,
 }
 
-export default CheckboxGroup
+export default applyThemr(CheckboxGroup)

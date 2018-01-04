@@ -1,5 +1,5 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { shallow, mount } from 'enzyme'
 
 import CheckboxGroup from './index'
 
@@ -25,7 +25,7 @@ describe('CheckboxGroup', () => {
     const values = ['sofa']
     const { value } = options[0]
 
-    const component = shallow(
+    const component = mount(
       <CheckboxGroup
         options={options}
         name="pessoas"
@@ -49,7 +49,7 @@ describe('CheckboxGroup', () => {
 
     const values = ['sofa', 'predio']
 
-    const component = shallow(
+    const component = mount(
       <CheckboxGroup
         options={options}
         name="pessoas"

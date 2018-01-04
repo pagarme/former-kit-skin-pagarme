@@ -1,8 +1,12 @@
 @import "./properties.css";
 
-.root > div {
+.checkboxGroup > div {
   display: flex;
   flex-wrap: wrap;
+}
+
+.checkboxGroup * {
+  box-sizing: border-box;
 }
 
 .secondaryText {
@@ -11,14 +15,10 @@
   margin-left: var(--checkbox-group-secondary-text-margin-left);
 }
 
-.secondaryText * {
-  box-sizing: border-box;
-}
-
 .error {
-  color: var(--color-light-error);
+  color: var(--checkbox-group-secondary-text-color-error);
 }
 
 .success {
-  color: var(--color-light-success);
+  color: var(--checkbox-group-secondary-text-color-success);
 }
