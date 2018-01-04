@@ -5,6 +5,8 @@ import UICheckbox from './checkbox/index.css'
 import UICheckboxGroup from './checkbox-group/index.css'
 import UIDateInput from './date-input/index.css'
 import UIDateSelector from './date-selector'
+import UIDropdown from './dropdown/index.css'
+import UIDropdownForm from './form-fields/dropdown/index.css'
 
 export default {
   UIAlert,
@@ -14,4 +16,6 @@ export default {
   UICheckboxGroup,
   UIDateInput,
   UIDateSelector,
+  UIDropdown,
+  UIDropdownForm,
 }

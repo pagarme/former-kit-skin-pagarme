@@ -31,7 +31,7 @@ describe('Dropdown', () => {
         label="Selecione um"
         onChange={onChange}
       />
-    )
+    ).dive()
 
     component
       .find('select')
@@ -104,7 +104,7 @@ describe('Dropdown', () => {
         label="Selecione um"
         onChange={onChange}
       />
-    )
+    ).dive()
 
     component
       .find('select')
@@ -130,7 +130,7 @@ describe('Dropdown', () => {
         title="title here"
         onChange={onChange}
       />
-    )
+    ).dive()
 
     component
       .find('select')
