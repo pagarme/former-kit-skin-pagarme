@@ -1,5 +1,5 @@
 import React from 'react'
-import { mount } from 'enzyme'
+import { mount, shallow } from 'enzyme'
 import Pagination from './index'
 
 describe('Pagination', () => {
@@ -328,13 +328,13 @@ describe('Pagination', () => {
   it('should change inner state when currentPage changes', () => {
     const onChange = jest.fn()
 
-    const component = mount(
+    const component = shallow(
       <Pagination
         currentPage={20}
         totalPages={100}
         onPageChange={onChange}
       />
-    )
+    ).dive()
 
     component.setProps({ totalPages: 12 })
     component.setProps({ currentPage: 2 })

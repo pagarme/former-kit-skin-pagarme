@@ -12,6 +12,7 @@ import UIInput from './input/index.css'
 import UIInputForm from './form-fields/input/index.css'
 import UILegend from './legend/index.css'
 import UIModal from './modal/index.css'
+import UIPagination from './pagination/index.css'
 
 export default {
   UIAlert,
@@ -28,4 +29,5 @@ export default {
   UIInputForm,
   UILegend,
   UIModal,
+  UIPagination,
 }

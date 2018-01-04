@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { storiesOf } from '@storybook/react'
-import Toolbar from '../../src/components/Toolbar'
-import Pagination from '../../src/components/Toolbar/Pagination'
+import Pagination from '../../src/components/Pagination'
 
 class PaginationState extends React.Component {
   constructor (props) {
@@ -34,13 +33,11 @@ class PaginationState extends React.Component {
 
     return (
       <div style={{ padding: '10px' }}>
-        <Toolbar>
-          <Pagination
-            currentPage={currentPage}
-            totalPages={totalPages}
-            onPageChange={this.pageChanged}
-          />
-        </Toolbar>
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={this.pageChanged}
+        />
         {error &&
           <p>Epic fail!</p>
         }
@@ -57,8 +54,8 @@ PaginationState.propTypes = {
 }
 
 
-storiesOf('Toolbar', module)
-  .add('Pagination', () => (
+storiesOf('Pagination', module)
+  .add('defaultTheme', () => (
     <div>
       <h1>Pagination usage</h1>
 

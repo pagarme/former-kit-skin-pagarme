@@ -35,11 +35,12 @@ import {
 } from 'ramda'
 import classNames from 'classnames'
 import shortid from 'shortid'
+import { themr } from 'react-css-themr'
 
 import ArrowLeft from 'react-icons/lib/md/keyboard-arrow-left'
 import ArrowRight from 'react-icons/lib/md/keyboard-arrow-right'
 
-import style from './style.css'
+const applyThemr = themr('UIPagination')
 
 const convertToNumber = unless(anyPass([isNil, isEmpty]), Number)
 
@@ -264,38 +265,32 @@ class Pagination extends React.Component {
   render () {
     const {
       totalPages,
+      theme,
     } = this.props
 
     const inputPage = +this.state.inputPage
 
     const error = totalPages < inputPage || inputPage === 0
 
-    const paginationClasses = classNames(style.pagination, {
-      [style.paginationError]: error,
+    const paginationClasses = classNames(theme.pagination, {
+      [theme.error]: error,
     })
-
-    const displayClasses = classNames(style.display, {
-      [style.displayError]: error,
-    })
-
-    const separator = classNames(style.smallChild, style.noSelect)
 
     return (
       <div className={paginationClasses}>
         <button
-          size="extra-small"
           onClick={() => this.goTo('prev')}
           disabled={this.disableButton('prev')}
-          className={classNames(style.button, style.prev)}
+          className={theme.prev}
         >
           <ArrowLeft size={13} viewBox="10 10 20 20" />
         </button>
 
         <label
           htmlFor={this.instanceId}
-          className={displayClasses}
+          className={theme.label}
         >
-          <span className={style.bigChild}>
+          <span className={theme.currentPage}>
             <input
               id={this.instanceId}
               type="number"
@@ -306,24 +301,23 @@ class Pagination extends React.Component {
               onBlur={this.handleSubmit}
               onKeyDown={this.submitInput}
               onKeyPress={preventInvalidKeys}
-              className={style.input}
+              className={theme.input}
               maxLength={2}
             />
-            <span className={style.hiddenChild}>
+            <span className={theme.expander}>
               {totalPages}
             </span>
           </span>
-          <span className={separator}>de</span>
-          <span className={style.noSelect}>
+          <span className={theme.separator}>de</span>
+          <span className={theme.totalPages}>
             {totalPages}
           </span>
         </label>
 
         <button
-          size="extra-small"
           onClick={() => this.goTo('next')}
           disabled={this.disableButton('next')}
-          className={classNames(style.button, style.next)}
+          className={theme.next}
         >
           <ArrowRight size={13} viewBox="10 10 20 20" />
         </button>
@@ -333,10 +327,22 @@ class Pagination extends React.Component {
 }
 
 Pagination.propTypes = {
+  theme: PropTypes.shape({
+    currentPage: PropTypes.string,
+    label: PropTypes.string,
+    error: PropTypes.string,
+    input: PropTypes.string,
+    next: PropTypes.string,
+    totalPages: PropTypes.string,
+    prev: PropTypes.string,
+    pagination: PropTypes.string,
+    expander: PropTypes.string,
+    separator: PropTypes.string,
+  }).isRequired,
   currentPage: PropTypes.number.isRequired,
   totalPages: PropTypes.number.isRequired,
   onPageChange: PropTypes.func.isRequired,
 }
 
 
-export default Pagination
+export default applyThemr(Pagination)

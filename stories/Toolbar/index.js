@@ -1,3 +1,2 @@
 import './DateRange'
-import './Pagination'
 

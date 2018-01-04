@@ -9478,6 +9478,701 @@ exports[`Storyshots Modal default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Pagination defaultTheme 1`] = `
+<div>
+  <h1>
+    Pagination usage
+  </h1>
+  <section>
+    <h2>
+      Single page
+    </h2>
+    <div
+      style={
+        Object {
+          "padding": "10px",
+        }
+      }
+    >
+      <div
+        className=""
+      >
+        <button
+          className={undefined}
+          disabled={true}
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="10 10 20 20"
+            width={13}
+          >
+            <g>
+              <path
+                d="m25.7 26.8l-2.3 2.3-10-10 10-10 2.3 2.4-7.7 7.6z"
+              />
+            </g>
+          </svg>
+        </button>
+        <label
+          className={undefined}
+          htmlFor="shortid-mock-input"
+        >
+          <span
+            className={undefined}
+          >
+            <input
+              className={undefined}
+              id="shortid-mock-input"
+              max={1}
+              maxLength={2}
+              min={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              onKeyPress={[Function]}
+              type="number"
+              value="1"
+            />
+            <span
+              className={undefined}
+            >
+              1
+            </span>
+          </span>
+          <span
+            className={undefined}
+          >
+            de
+          </span>
+          <span
+            className={undefined}
+          >
+            1
+          </span>
+        </label>
+        <button
+          className={undefined}
+          disabled={true}
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="10 10 20 20"
+            width={13}
+          >
+            <g>
+              <path
+                d="m14.3 27.3l7.7-7.7-7.7-7.7 2.3-2.3 10 10-10 10z"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+      <p>
+        Current page: 
+        1
+      </p>
+      <label
+        htmlFor="totalPages"
+      >
+         Total pages: 
+        1
+      </label>
+    </div>
+  </section>
+  <section>
+    <h2>
+      First page
+    </h2>
+    <div
+      style={
+        Object {
+          "padding": "10px",
+        }
+      }
+    >
+      <div
+        className=""
+      >
+        <button
+          className={undefined}
+          disabled={true}
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="10 10 20 20"
+            width={13}
+          >
+            <g>
+              <path
+                d="m25.7 26.8l-2.3 2.3-10-10 10-10 2.3 2.4-7.7 7.6z"
+              />
+            </g>
+          </svg>
+        </button>
+        <label
+          className={undefined}
+          htmlFor="shortid-mock-input"
+        >
+          <span
+            className={undefined}
+          >
+            <input
+              className={undefined}
+              id="shortid-mock-input"
+              max={10}
+              maxLength={2}
+              min={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              onKeyPress={[Function]}
+              type="number"
+              value="1"
+            />
+            <span
+              className={undefined}
+            >
+              10
+            </span>
+          </span>
+          <span
+            className={undefined}
+          >
+            de
+          </span>
+          <span
+            className={undefined}
+          >
+            10
+          </span>
+        </label>
+        <button
+          className={undefined}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="10 10 20 20"
+            width={13}
+          >
+            <g>
+              <path
+                d="m14.3 27.3l7.7-7.7-7.7-7.7 2.3-2.3 10 10-10 10z"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+      <p>
+        Current page: 
+        1
+      </p>
+      <label
+        htmlFor="totalPages"
+      >
+         Total pages: 
+        10
+      </label>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Intermediate page
+    </h2>
+    <div
+      style={
+        Object {
+          "padding": "10px",
+        }
+      }
+    >
+      <div
+        className=""
+      >
+        <button
+          className={undefined}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="10 10 20 20"
+            width={13}
+          >
+            <g>
+              <path
+                d="m25.7 26.8l-2.3 2.3-10-10 10-10 2.3 2.4-7.7 7.6z"
+              />
+            </g>
+          </svg>
+        </button>
+        <label
+          className={undefined}
+          htmlFor="shortid-mock-input"
+        >
+          <span
+            className={undefined}
+          >
+            <input
+              className={undefined}
+              id="shortid-mock-input"
+              max={10}
+              maxLength={2}
+              min={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              onKeyPress={[Function]}
+              type="number"
+              value="5"
+            />
+            <span
+              className={undefined}
+            >
+              10
+            </span>
+          </span>
+          <span
+            className={undefined}
+          >
+            de
+          </span>
+          <span
+            className={undefined}
+          >
+            10
+          </span>
+        </label>
+        <button
+          className={undefined}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="10 10 20 20"
+            width={13}
+          >
+            <g>
+              <path
+                d="m14.3 27.3l7.7-7.7-7.7-7.7 2.3-2.3 10 10-10 10z"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+      <p>
+        Current page: 
+        5
+      </p>
+      <label
+        htmlFor="totalPages"
+      >
+         Total pages: 
+        10
+      </label>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Last page
+    </h2>
+    <div
+      style={
+        Object {
+          "padding": "10px",
+        }
+      }
+    >
+      <div
+        className=""
+      >
+        <button
+          className={undefined}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="10 10 20 20"
+            width={13}
+          >
+            <g>
+              <path
+                d="m25.7 26.8l-2.3 2.3-10-10 10-10 2.3 2.4-7.7 7.6z"
+              />
+            </g>
+          </svg>
+        </button>
+        <label
+          className={undefined}
+          htmlFor="shortid-mock-input"
+        >
+          <span
+            className={undefined}
+          >
+            <input
+              className={undefined}
+              id="shortid-mock-input"
+              max={10}
+              maxLength={2}
+              min={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              onKeyPress={[Function]}
+              type="number"
+              value="10"
+            />
+            <span
+              className={undefined}
+            >
+              10
+            </span>
+          </span>
+          <span
+            className={undefined}
+          >
+            de
+          </span>
+          <span
+            className={undefined}
+          >
+            10
+          </span>
+        </label>
+        <button
+          className={undefined}
+          disabled={true}
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="10 10 20 20"
+            width={13}
+          >
+            <g>
+              <path
+                d="m14.3 27.3l7.7-7.7-7.7-7.7 2.3-2.3 10 10-10 10z"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+      <p>
+        Current page: 
+        10
+      </p>
+      <label
+        htmlFor="totalPages"
+      >
+         Total pages: 
+        10
+      </label>
+    </div>
+  </section>
+  <section>
+    <h2>
+      A biiiiig number of pages
+    </h2>
+    <div
+      style={
+        Object {
+          "padding": "10px",
+        }
+      }
+    >
+      <div
+        className=""
+      >
+        <button
+          className={undefined}
+          disabled={true}
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="10 10 20 20"
+            width={13}
+          >
+            <g>
+              <path
+                d="m25.7 26.8l-2.3 2.3-10-10 10-10 2.3 2.4-7.7 7.6z"
+              />
+            </g>
+          </svg>
+        </button>
+        <label
+          className={undefined}
+          htmlFor="shortid-mock-input"
+        >
+          <span
+            className={undefined}
+          >
+            <input
+              className={undefined}
+              id="shortid-mock-input"
+              max={10000}
+              maxLength={2}
+              min={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              onKeyPress={[Function]}
+              type="number"
+              value="1"
+            />
+            <span
+              className={undefined}
+            >
+              10000
+            </span>
+          </span>
+          <span
+            className={undefined}
+          >
+            de
+          </span>
+          <span
+            className={undefined}
+          >
+            10000
+          </span>
+        </label>
+        <button
+          className={undefined}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="10 10 20 20"
+            width={13}
+          >
+            <g>
+              <path
+                d="m14.3 27.3l7.7-7.7-7.7-7.7 2.3-2.3 10 10-10 10z"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+      <p>
+        Current page: 
+        1
+      </p>
+      <label
+        htmlFor="totalPages"
+      >
+         Total pages: 
+        10000
+      </label>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Wrong page
+    </h2>
+    <div
+      style={
+        Object {
+          "padding": "10px",
+        }
+      }
+    >
+      <div
+        className="undefined"
+      >
+        <button
+          className={undefined}
+          disabled={true}
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="10 10 20 20"
+            width={13}
+          >
+            <g>
+              <path
+                d="m25.7 26.8l-2.3 2.3-10-10 10-10 2.3 2.4-7.7 7.6z"
+              />
+            </g>
+          </svg>
+        </button>
+        <label
+          className={undefined}
+          htmlFor="shortid-mock-input"
+        >
+          <span
+            className={undefined}
+          >
+            <input
+              className={undefined}
+              id="shortid-mock-input"
+              max={1}
+              maxLength={2}
+              min={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              onKeyPress={[Function]}
+              type="number"
+              value="2"
+            />
+            <span
+              className={undefined}
+            >
+              1
+            </span>
+          </span>
+          <span
+            className={undefined}
+          >
+            de
+          </span>
+          <span
+            className={undefined}
+          >
+            1
+          </span>
+        </label>
+        <button
+          className={undefined}
+          disabled={true}
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="10 10 20 20"
+            width={13}
+          >
+            <g>
+              <path
+                d="m14.3 27.3l7.7-7.7-7.7-7.7 2.3-2.3 10 10-10 10z"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+      <p>
+        Epic fail!
+      </p>
+      <p>
+        Current page: 
+        2
+      </p>
+      <label
+        htmlFor="totalPages"
+      >
+         Total pages: 
+        1
+      </label>
+    </div>
+  </section>
+</div>
+`;
+
 exports[`Storyshots Progress Circular 1`] = `
 <div
   className={undefined}
@@ -11234,737 +11929,6 @@ exports[`Storyshots Toolbar DateRange 1`] = `
       </label>
     </div>
   </div>
-</div>
-`;
-
-exports[`Storyshots Toolbar Pagination 1`] = `
-<div>
-  <h1>
-    Pagination usage
-  </h1>
-  <section>
-    <h2>
-      Single page
-    </h2>
-    <div
-      style={
-        Object {
-          "padding": "10px",
-        }
-      }
-    >
-      <div
-        className={undefined}
-      >
-        <div
-          className=""
-        >
-          <button
-            className=""
-            disabled={true}
-            onClick={[Function]}
-            size="extra-small"
-          >
-            <svg
-              fill="currentColor"
-              height={13}
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "color": undefined,
-                  "verticalAlign": "middle",
-                }
-              }
-              viewBox="10 10 20 20"
-              width={13}
-            >
-              <g>
-                <path
-                  d="m25.7 26.8l-2.3 2.3-10-10 10-10 2.3 2.4-7.7 7.6z"
-                />
-              </g>
-            </svg>
-          </button>
-          <label
-            className=""
-            htmlFor="shortid-mock-input"
-          >
-            <span
-              className={undefined}
-            >
-              <input
-                className={undefined}
-                id="shortid-mock-input"
-                max={1}
-                maxLength={2}
-                min={1}
-                onBlur={[Function]}
-                onChange={[Function]}
-                onKeyDown={[Function]}
-                onKeyPress={[Function]}
-                type="number"
-                value="1"
-              />
-              <span
-                className={undefined}
-              >
-                1
-              </span>
-            </span>
-            <span
-              className=""
-            >
-              de
-            </span>
-            <span
-              className={undefined}
-            >
-              1
-            </span>
-          </label>
-          <button
-            className=""
-            disabled={true}
-            onClick={[Function]}
-            size="extra-small"
-          >
-            <svg
-              fill="currentColor"
-              height={13}
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "color": undefined,
-                  "verticalAlign": "middle",
-                }
-              }
-              viewBox="10 10 20 20"
-              width={13}
-            >
-              <g>
-                <path
-                  d="m14.3 27.3l7.7-7.7-7.7-7.7 2.3-2.3 10 10-10 10z"
-                />
-              </g>
-            </svg>
-          </button>
-        </div>
-      </div>
-      <p>
-        Current page: 
-        1
-      </p>
-      <label
-        htmlFor="totalPages"
-      >
-         Total pages: 
-        1
-      </label>
-    </div>
-  </section>
-  <section>
-    <h2>
-      First page
-    </h2>
-    <div
-      style={
-        Object {
-          "padding": "10px",
-        }
-      }
-    >
-      <div
-        className={undefined}
-      >
-        <div
-          className=""
-        >
-          <button
-            className=""
-            disabled={true}
-            onClick={[Function]}
-            size="extra-small"
-          >
-            <svg
-              fill="currentColor"
-              height={13}
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "color": undefined,
-                  "verticalAlign": "middle",
-                }
-              }
-              viewBox="10 10 20 20"
-              width={13}
-            >
-              <g>
-                <path
-                  d="m25.7 26.8l-2.3 2.3-10-10 10-10 2.3 2.4-7.7 7.6z"
-                />
-              </g>
-            </svg>
-          </button>
-          <label
-            className=""
-            htmlFor="shortid-mock-input"
-          >
-            <span
-              className={undefined}
-            >
-              <input
-                className={undefined}
-                id="shortid-mock-input"
-                max={10}
-                maxLength={2}
-                min={1}
-                onBlur={[Function]}
-                onChange={[Function]}
-                onKeyDown={[Function]}
-                onKeyPress={[Function]}
-                type="number"
-                value="1"
-              />
-              <span
-                className={undefined}
-              >
-                10
-              </span>
-            </span>
-            <span
-              className=""
-            >
-              de
-            </span>
-            <span
-              className={undefined}
-            >
-              10
-            </span>
-          </label>
-          <button
-            className=""
-            disabled={false}
-            onClick={[Function]}
-            size="extra-small"
-          >
-            <svg
-              fill="currentColor"
-              height={13}
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "color": undefined,
-                  "verticalAlign": "middle",
-                }
-              }
-              viewBox="10 10 20 20"
-              width={13}
-            >
-              <g>
-                <path
-                  d="m14.3 27.3l7.7-7.7-7.7-7.7 2.3-2.3 10 10-10 10z"
-                />
-              </g>
-            </svg>
-          </button>
-        </div>
-      </div>
-      <p>
-        Current page: 
-        1
-      </p>
-      <label
-        htmlFor="totalPages"
-      >
-         Total pages: 
-        10
-      </label>
-    </div>
-  </section>
-  <section>
-    <h2>
-      Intermediate page
-    </h2>
-    <div
-      style={
-        Object {
-          "padding": "10px",
-        }
-      }
-    >
-      <div
-        className={undefined}
-      >
-        <div
-          className=""
-        >
-          <button
-            className=""
-            disabled={false}
-            onClick={[Function]}
-            size="extra-small"
-          >
-            <svg
-              fill="currentColor"
-              height={13}
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "color": undefined,
-                  "verticalAlign": "middle",
-                }
-              }
-              viewBox="10 10 20 20"
-              width={13}
-            >
-              <g>
-                <path
-                  d="m25.7 26.8l-2.3 2.3-10-10 10-10 2.3 2.4-7.7 7.6z"
-                />
-              </g>
-            </svg>
-          </button>
-          <label
-            className=""
-            htmlFor="shortid-mock-input"
-          >
-            <span
-              className={undefined}
-            >
-              <input
-                className={undefined}
-                id="shortid-mock-input"
-                max={10}
-                maxLength={2}
-                min={1}
-                onBlur={[Function]}
-                onChange={[Function]}
-                onKeyDown={[Function]}
-                onKeyPress={[Function]}
-                type="number"
-                value="5"
-              />
-              <span
-                className={undefined}
-              >
-                10
-              </span>
-            </span>
-            <span
-              className=""
-            >
-              de
-            </span>
-            <span
-              className={undefined}
-            >
-              10
-            </span>
-          </label>
-          <button
-            className=""
-            disabled={false}
-            onClick={[Function]}
-            size="extra-small"
-          >
-            <svg
-              fill="currentColor"
-              height={13}
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "color": undefined,
-                  "verticalAlign": "middle",
-                }
-              }
-              viewBox="10 10 20 20"
-              width={13}
-            >
-              <g>
-                <path
-                  d="m14.3 27.3l7.7-7.7-7.7-7.7 2.3-2.3 10 10-10 10z"
-                />
-              </g>
-            </svg>
-          </button>
-        </div>
-      </div>
-      <p>
-        Current page: 
-        5
-      </p>
-      <label
-        htmlFor="totalPages"
-      >
-         Total pages: 
-        10
-      </label>
-    </div>
-  </section>
-  <section>
-    <h2>
-      Last page
-    </h2>
-    <div
-      style={
-        Object {
-          "padding": "10px",
-        }
-      }
-    >
-      <div
-        className={undefined}
-      >
-        <div
-          className=""
-        >
-          <button
-            className=""
-            disabled={false}
-            onClick={[Function]}
-            size="extra-small"
-          >
-            <svg
-              fill="currentColor"
-              height={13}
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "color": undefined,
-                  "verticalAlign": "middle",
-                }
-              }
-              viewBox="10 10 20 20"
-              width={13}
-            >
-              <g>
-                <path
-                  d="m25.7 26.8l-2.3 2.3-10-10 10-10 2.3 2.4-7.7 7.6z"
-                />
-              </g>
-            </svg>
-          </button>
-          <label
-            className=""
-            htmlFor="shortid-mock-input"
-          >
-            <span
-              className={undefined}
-            >
-              <input
-                className={undefined}
-                id="shortid-mock-input"
-                max={10}
-                maxLength={2}
-                min={1}
-                onBlur={[Function]}
-                onChange={[Function]}
-                onKeyDown={[Function]}
-                onKeyPress={[Function]}
-                type="number"
-                value="10"
-              />
-              <span
-                className={undefined}
-              >
-                10
-              </span>
-            </span>
-            <span
-              className=""
-            >
-              de
-            </span>
-            <span
-              className={undefined}
-            >
-              10
-            </span>
-          </label>
-          <button
-            className=""
-            disabled={true}
-            onClick={[Function]}
-            size="extra-small"
-          >
-            <svg
-              fill="currentColor"
-              height={13}
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "color": undefined,
-                  "verticalAlign": "middle",
-                }
-              }
-              viewBox="10 10 20 20"
-              width={13}
-            >
-              <g>
-                <path
-                  d="m14.3 27.3l7.7-7.7-7.7-7.7 2.3-2.3 10 10-10 10z"
-                />
-              </g>
-            </svg>
-          </button>
-        </div>
-      </div>
-      <p>
-        Current page: 
-        10
-      </p>
-      <label
-        htmlFor="totalPages"
-      >
-         Total pages: 
-        10
-      </label>
-    </div>
-  </section>
-  <section>
-    <h2>
-      A biiiiig number of pages
-    </h2>
-    <div
-      style={
-        Object {
-          "padding": "10px",
-        }
-      }
-    >
-      <div
-        className={undefined}
-      >
-        <div
-          className=""
-        >
-          <button
-            className=""
-            disabled={true}
-            onClick={[Function]}
-            size="extra-small"
-          >
-            <svg
-              fill="currentColor"
-              height={13}
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "color": undefined,
-                  "verticalAlign": "middle",
-                }
-              }
-              viewBox="10 10 20 20"
-              width={13}
-            >
-              <g>
-                <path
-                  d="m25.7 26.8l-2.3 2.3-10-10 10-10 2.3 2.4-7.7 7.6z"
-                />
-              </g>
-            </svg>
-          </button>
-          <label
-            className=""
-            htmlFor="shortid-mock-input"
-          >
-            <span
-              className={undefined}
-            >
-              <input
-                className={undefined}
-                id="shortid-mock-input"
-                max={10000}
-                maxLength={2}
-                min={1}
-                onBlur={[Function]}
-                onChange={[Function]}
-                onKeyDown={[Function]}
-                onKeyPress={[Function]}
-                type="number"
-                value="1"
-              />
-              <span
-                className={undefined}
-              >
-                10000
-              </span>
-            </span>
-            <span
-              className=""
-            >
-              de
-            </span>
-            <span
-              className={undefined}
-            >
-              10000
-            </span>
-          </label>
-          <button
-            className=""
-            disabled={false}
-            onClick={[Function]}
-            size="extra-small"
-          >
-            <svg
-              fill="currentColor"
-              height={13}
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "color": undefined,
-                  "verticalAlign": "middle",
-                }
-              }
-              viewBox="10 10 20 20"
-              width={13}
-            >
-              <g>
-                <path
-                  d="m14.3 27.3l7.7-7.7-7.7-7.7 2.3-2.3 10 10-10 10z"
-                />
-              </g>
-            </svg>
-          </button>
-        </div>
-      </div>
-      <p>
-        Current page: 
-        1
-      </p>
-      <label
-        htmlFor="totalPages"
-      >
-         Total pages: 
-        10000
-      </label>
-    </div>
-  </section>
-  <section>
-    <h2>
-      Wrong page
-    </h2>
-    <div
-      style={
-        Object {
-          "padding": "10px",
-        }
-      }
-    >
-      <div
-        className={undefined}
-      >
-        <div
-          className="undefined"
-        >
-          <button
-            className=""
-            disabled={true}
-            onClick={[Function]}
-            size="extra-small"
-          >
-            <svg
-              fill="currentColor"
-              height={13}
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "color": undefined,
-                  "verticalAlign": "middle",
-                }
-              }
-              viewBox="10 10 20 20"
-              width={13}
-            >
-              <g>
-                <path
-                  d="m25.7 26.8l-2.3 2.3-10-10 10-10 2.3 2.4-7.7 7.6z"
-                />
-              </g>
-            </svg>
-          </button>
-          <label
-            className="undefined"
-            htmlFor="shortid-mock-input"
-          >
-            <span
-              className={undefined}
-            >
-              <input
-                className={undefined}
-                id="shortid-mock-input"
-                max={1}
-                maxLength={2}
-                min={1}
-                onBlur={[Function]}
-                onChange={[Function]}
-                onKeyDown={[Function]}
-                onKeyPress={[Function]}
-                type="number"
-                value="2"
-              />
-              <span
-                className={undefined}
-              >
-                1
-              </span>
-            </span>
-            <span
-              className=""
-            >
-              de
-            </span>
-            <span
-              className={undefined}
-            >
-              1
-            </span>
-          </label>
-          <button
-            className=""
-            disabled={true}
-            onClick={[Function]}
-            size="extra-small"
-          >
-            <svg
-              fill="currentColor"
-              height={13}
-              preserveAspectRatio="xMidYMid meet"
-              style={
-                Object {
-                  "color": undefined,
-                  "verticalAlign": "middle",
-                }
-              }
-              viewBox="10 10 20 20"
-              width={13}
-            >
-              <g>
-                <path
-                  d="m14.3 27.3l7.7-7.7-7.7-7.7 2.3-2.3 10 10-10 10z"
-                />
-              </g>
-            </svg>
-          </button>
-        </div>
-      </div>
-      <p>
-        Epic fail!
-      </p>
-      <p>
-        Current page: 
-        2
-      </p>
-      <label
-        htmlFor="totalPages"
-      >
-         Total pages: 
-        1
-      </label>
-    </div>
-  </section>
 </div>
 `;
 
