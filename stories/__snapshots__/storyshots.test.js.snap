@@ -11539,7 +11539,6 @@ exports[`Storyshots Switch All styles 1`] = `
     >
       <input
         checked={true}
-        className={undefined}
         onChange={[Function]}
         type="checkbox"
       />
@@ -11555,7 +11554,6 @@ exports[`Storyshots Switch All styles 1`] = `
     >
       <input
         checked={false}
-        className={undefined}
         onChange={[Function]}
         type="checkbox"
       />
@@ -11576,7 +11574,6 @@ exports[`Storyshots Switch All styles 1`] = `
     >
       <input
         checked={true}
-        className={undefined}
         onChange={[Function]}
         type="checkbox"
       />
@@ -11592,7 +11589,6 @@ exports[`Storyshots Switch All styles 1`] = `
     >
       <input
         checked={false}
-        className={undefined}
         onChange={[Function]}
         type="checkbox"
       />

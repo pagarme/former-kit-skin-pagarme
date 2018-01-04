@@ -1,5 +1,4 @@
 @import "./properties";
-@import "../../theme-pagarme/typography.css";
 
 .switch {
   cursor: pointer;
@@ -61,6 +60,17 @@
     );
 }
 
+.switch > input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+
 .checked:after {
   background-color: var(--switch-bullet-on-background);
   border-color: var(--switch-bullet-on-background);
@@ -81,17 +91,6 @@
 .disabled:after {
   background-color: var(--switch-disabled-background);
   border-color: var(--switch-disabled-color);
-}
-
-.input {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-  z-index: 2;
 }
 
 .switch span::selection {

@@ -1,4 +1,5 @@
-@import "../../theme-pagarme/colors.css";
+@import "../colors.css";
+@import "../typography";
 
 :root {
   --switch-label-left: 15px;
