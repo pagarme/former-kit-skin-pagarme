@@ -42,9 +42,9 @@ describe('CardSection', () => {
       </CardSection>
     )
 
-    component.find('a').simulate('click')
-    component.find('a').simulate('click')
-    component.find('a').simulate('click')
+    component.dive().find('[role="button"]').simulate('click')
+    component.dive().find('[role="button"]').simulate('click')
+    component.dive().find('[role="button"]').simulate('click')
 
     expect(onClick).toHaveBeenCalledTimes(3)
   })

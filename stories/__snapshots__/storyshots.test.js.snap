@@ -971,7 +971,7 @@ exports[`Storyshots Buttons defaultTheme 1`] = `
 </div>
 `;
 
-exports[`Storyshots Cards All styles 1`] = `
+exports[`Storyshots Cards default theme 1`] = `
 <div>
   <section>
     <h2>
@@ -986,13 +986,9 @@ exports[`Storyshots Cards All styles 1`] = `
         <div
           className=""
         >
-          <div
-            className=""
-          >
-            <h3>
-              Lorem ipsum dolor sit amet
-            </h3>
-          </div>
+          <h3>
+            Lorem ipsum dolor sit amet
+          </h3>
         </div>
         <div
           className=""
@@ -1015,8 +1011,8 @@ exports[`Storyshots Cards All styles 1`] = `
         <div
           className=""
         >
-          <div
-            className=""
+          <i
+            className={undefined}
           >
             <svg
               fill="currentColor"
@@ -1037,10 +1033,10 @@ exports[`Storyshots Cards All styles 1`] = `
                 />
               </g>
             </svg>
-            <h3>
-              Lorem ipsum dolor sit amet
-            </h3>
-          </div>
+          </i>
+          <h3>
+            Lorem ipsum dolor sit amet
+          </h3>
         </div>
         <div
           className=""
@@ -1063,13 +1059,9 @@ exports[`Storyshots Cards All styles 1`] = `
         <div
           className=""
         >
-          <div
-            className=""
-          >
-            <h3>
-              Lorem ipsum dolor sit amet
-            </h3>
-          </div>
+          <h3>
+            Lorem ipsum dolor sit amet
+          </h3>
         </div>
         <div
           className=""
@@ -1136,13 +1128,9 @@ exports[`Storyshots Cards All styles 1`] = `
         <div
           className=""
         >
-          <div
-            className=""
-          >
-            <h3>
-              Lorem ipsum dolor sit amet
-            </h3>
-          </div>
+          <h3>
+            Lorem ipsum dolor sit amet
+          </h3>
         </div>
         <div
           className=""
@@ -1199,19 +1187,15 @@ exports[`Storyshots Cards All styles 1`] = `
         className=""
       >
         <div
-          className="undefined"
+          className=""
           onClick={[Function]}
           onKeyUp={[Function]}
           role="button"
           tabIndex="0"
         >
-          <div
-            className=""
-          >
-            <h3>
-              Click here and watch the action logger
-            </h3>
-          </div>
+          <h3>
+            Click here and watch the action logger
+          </h3>
         </div>
         <div
           className=""
@@ -1270,61 +1254,51 @@ exports[`Storyshots Cards All styles 1`] = `
         <div
           className=""
         >
-          <div
-            className=""
-          >
-            <h3>
-              Lorem title
-            </h3>
-          </div>
+          <h3>
+            Lorem title
+          </h3>
         </div>
         <div
           className=""
         >
           <div
-            className={undefined}
+            className=""
           >
-            <a
-              className={undefined}
+            <div
+              className="undefined"
               onClick={[Function]}
               role="button"
               tabIndex="0"
             >
-              <div
+              <span>
+                Title opened
+                <svg
+                  className={undefined}
+                  fill="currentColor"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  style={
+                    Object {
+                      "color": undefined,
+                      "verticalAlign": "middle",
+                    }
+                  }
+                  viewBox="0 0 40 40"
+                  width="1em"
+                >
+                  <g>
+                    <path
+                      d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                    />
+                  </g>
+                </svg>
+              </span>
+              <span
                 className={undefined}
               >
-                <h2
-                  className={undefined}
-                >
-                  Title opened
-                  <svg
-                    className="undefined"
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                      Object {
-                        "color": undefined,
-                        "verticalAlign": "middle",
-                      }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                  >
-                    <g>
-                      <path
-                        d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
-                      />
-                    </g>
-                  </svg>
-                </h2>
-                <p
-                  className={undefined}
-                >
-                  It's over 9000!
-                </p>
-              </div>
-            </a>
+                It's over 9000!
+              </span>
+            </div>
             <div
               className={undefined}
             >
@@ -1355,28 +1329,22 @@ feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
         <div
           className=""
         >
-          <div
-            className=""
-          >
-            <h3>
-              Lorem title
-            </h3>
-          </div>
+          <h3>
+            Lorem title
+          </h3>
         </div>
         <div
           className=""
         >
           <div
-            className={undefined}
+            className=""
           >
             <div
-              className={undefined}
+              className=""
             >
-              <h2
-                className={undefined}
-              >
+              <span>
                 Lorem ipsum dolor sit amet
-              </h2>
+              </span>
               
             </div>
             <div
@@ -4829,8 +4797,8 @@ exports[`Storyshots Filters Default 1`] = `
       <div
         className=""
       >
-        <div
-          className=""
+        <i
+          className={undefined}
         >
           <svg
             fill="currentColor"
@@ -4851,10 +4819,10 @@ exports[`Storyshots Filters Default 1`] = `
               />
             </g>
           </svg>
-          <h3>
-            Filtros
-          </h3>
-        </div>
+        </i>
+        <h3>
+          Filtros
+        </h3>
       </div>
       <div
         className=""
@@ -4970,45 +4938,39 @@ exports[`Storyshots Filters Default 1`] = `
           </div>
         </div>
         <div
-          className={undefined}
+          className="undefined"
         >
-          <a
-            className={undefined}
+          <div
+            className="undefined"
             onClick={[Function]}
             role="button"
             tabIndex="0"
           >
-            <div
-              className={undefined}
-            >
-              <h2
+            <span>
+              Mais filtros
+              <svg
                 className={undefined}
-              >
-                Mais filtros
-                <svg
-                  className=""
-                  fill="currentColor"
-                  height="1em"
-                  preserveAspectRatio="xMidYMid meet"
-                  style={
-                    Object {
-                      "color": undefined,
-                      "verticalAlign": "middle",
-                    }
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
                   }
-                  viewBox="0 0 40 40"
-                  width="1em"
-                >
-                  <g>
-                    <path
-                      d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
-                    />
-                  </g>
-                </svg>
-              </h2>
-              
-            </div>
-          </a>
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                  />
+                </g>
+              </svg>
+            </span>
+            
+          </div>
         </div>
       </div>
       <div

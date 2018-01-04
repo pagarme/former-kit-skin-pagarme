@@ -1,4 +1,7 @@
-@import "../../theme-pagarme/spacing.css";
+@import "../spacing.css";
+@import "../typography.css";
+@import "../media.css";
+@import "../colors.css";
 
 :root {
   --card-spacing-large: var(--spacing-medium);
@@ -11,32 +14,31 @@
   --card-title-font-size: 14px;
   --card-title-icon-margin: 9px;
 
-  --card-title-padding:
-    var(--card-spacing-large)
-    var(--card-spacing-medium)
-    var(--card-spacing-small)
-    var(--card-spacing-medium);
+  --card-title-padding: var(--card-spacing-small);
 
   --card-actions-spacing: var(--card-spacing-tiny);
   --card-actions-padding:
     0
-    var(--card-spacing-medium)
     var(--card-spacing-small)
-    var(--card-spacing-medium);
+    var(--card-spacing-small)
+    var(--card-spacing-small);
 
   --card-content-padding:
     0
-    var(--card-spacing-medium)
     var(--card-spacing-small)
-    var(--card-spacing-medium);
+    var(--card-spacing-small)
+    var(--card-spacing-small);
 
-  --card-section-title-color: var(--color-light-coal-50);
+  --card-background: var(--color-white);
+
+  --card-section-title-color: var(--color-light-steel-100);
   --card-section-title-icon-color: var(--color-light-greenish-100);
   --card-section-title-icon-size: 18px;
   --card-section-background: var(--color-light-smoke-40);
+
+  --card-section-header-background: var(--color-light-smoke-40);
 
   --card-section-subtitle-color: var(--color-light-steel-50);
   --card-section-subtitle-font-size: 12px;
   --card-section-subtitle-margin-right: var(--spacing-small);
 }
-

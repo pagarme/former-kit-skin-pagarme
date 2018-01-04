@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 
@@ -18,7 +17,6 @@ import {
 } from '../../src/components/Card'
 
 import Button from '../../src/components/Button'
-
 
 const TitleText = () => (
   <div className={style.showcase}>
@@ -192,7 +190,7 @@ class CollapsableSection extends React.Component {
 
 
 storiesOf('Cards', module)
-  .add('All styles', () => (
+  .add('default theme', () => (
     <div>
       <section>
         <h2>Title and content</h2>
@@ -224,4 +222,3 @@ storiesOf('Cards', module)
       </section>
     </div>
   ))
-

@@ -1,55 +1,15 @@
-@import "../../theme-pagarme/spacing.css";
-@import "../../theme-pagarme/typography.css";
-@import "../../theme-pagarme/media.css";
-@import "../../theme-pagarme/colors.css";
 @import "./properties.css";
 
-.container {
+.section {
   background-color: var(--card-section-background);
   border-radius: var(--card-border-radius);
   width: 100%;
   box-sizing: border-box;
 }
 
-.container * {
-  box-sizing: border-box;
-}
-
-.collapseButton {
-  cursor: pointer;
-}
-
-.collapseButton:focus {
-  box-shadow: none;
-  outline: none;
-}
-
-.collapseButton:hover {
-  text-decoration: none;
-}
-
-.collapseButton svg {
-  color: var(--card-section-title-icon-color);
-  font-size: var(--card-section-title-icon-size);
-}
-
-.arrow {
-  padding: 0;
-  margin: 0;
-}
-
-.rotateArrowUp {
-  transform: rotate(180deg);
-}
-
-.header {
+.sectionTitle {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-}
-
-.cardTitle {
-  display: flex;
   align-items: center;
   margin: 0;
   padding: var(--card-spacing-small);
@@ -62,7 +22,31 @@
   color: var(--card-section-title-color);
 }
 
-.cardSubTitle {
+.sectionTitle[role="button"] {
+  cursor: pointer;
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.arrow {
+  padding: 0;
+  margin: 0;
+  color: var(--card-section-title-icon-color);
+  font-size: var(--card-section-title-icon-size);
+
+  @nest .expanded & {
+    transform: rotate(180deg);
+  }
+}
+
+.sectionSubtitle {
   margin-right: var(--card-section-subtitle-margin-right);
   letter-spacing: var(--letter-spacing);
   font-family: var(--title-font-family);
@@ -75,4 +59,3 @@
   padding-right: var(--spacing-small);
   padding-bottom: var(--spacing-small);
 }
-

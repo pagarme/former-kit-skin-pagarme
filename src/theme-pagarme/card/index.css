@@ -1,5 +1,5 @@
-@import "./../../theme-pagarme/colors.css";
 @import "./properties.css";
+@import "./CardSection.css";
 
 .card {
   background: var(--color-white);
@@ -17,21 +17,17 @@
 }
 
 .title {
+  padding: var(--card-title-padding);
   display: flex;
   align-items: center;
-  outline: 0;
+  outline: none;
 }
 
-.title > svg:first-child {
+.icon {
   margin-right: var(--card-title-icon-margin);
 }
 
-.titlePadding {
-  outline: none;
-  padding: var(--card-title-padding);
-}
-
-.cursor {
+.title[role="button"] {
   cursor: pointer;
 }
 
@@ -59,11 +55,12 @@
 
 .actions {
   padding: var(--card-actions-padding);
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .actions > * {
-  margin-left: var(--card-actions-spacing);
+  margin-left: var(--card-spacing-small);
 }
 
 .actions > *:first-child {
