@@ -1,14 +1,13 @@
-@import "../../theme-pagarme/typography.css";
 @import "./properties.css";
 
 .legend {
   display: inline-flex;
   align-items: center;
   cursor: default;
-  letter-spacing: var(--letter-spacing);
+  letter-spacing: var(--legend-letter-spacing);
 }
 
-.label {
+.acronym {
   color: var(--legend-label-default-color);
   font-size: var(--legend-label-font-size);
   border-radius: var(--legend-label-border-radius);

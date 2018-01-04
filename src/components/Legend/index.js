@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import cx from 'classnames'
+import { themr } from 'react-css-themr'
 import {
   pipe,
   split,
@@ -10,7 +11,7 @@ import {
   head,
 } from 'ramda'
 
-import style from './style.css'
+const applyThemr = themr('UILegend')
 
 const defineInitials = pipe(
   split(' '),
@@ -25,16 +26,17 @@ const Legend = ({
   outline,
   acronym,
   hideLabel,
+  theme,
 }) => {
   const labelClasses = cx(
-    style.label,
+    theme.acronym,
     {
-      [style.outline]: outline,
+      [theme.outline]: outline,
     }
   )
 
   return (
-    <div className={style.legend}>
+    <div className={theme.legend}>
       <abbr
         title={children}
         className={labelClasses}
@@ -43,7 +45,7 @@ const Legend = ({
         {acronym || defineInitials(children)}
       </abbr>
       {!hideLabel &&
-        <span className={style.text}>
+        <span className={theme.text}>
           {children}
         </span>
       }
@@ -52,6 +54,12 @@ const Legend = ({
 }
 
 Legend.propTypes = {
+  theme: PropTypes.shape({
+    acronym: PropTypes.string,
+    outline: PropTypes.string,
+    legend: PropTypes.string,
+    text: PropTypes.string,
+  }).isRequired,
   color: PropTypes.string.isRequired,
   children: PropTypes.string.isRequired,
   outline: PropTypes.bool,
@@ -65,4 +73,4 @@ Legend.defaultProps = {
   hideLabel: false,
 }
 
-export default Legend
+export default applyThemr(Legend)

@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react'
 
 import Legend from '../../src/components/Legend'
 
+
 const hidingLabel = [
   {
     color: '#4ca9d7',
@@ -87,9 +88,8 @@ const createLegends = (title, status) => (
   </div>
 )
 
-
 storiesOf('Legend', module)
-  .add('all', () => (
+  .add('defaultTheme', () => (
     <div>
       {createLegends('Without acronym prop', automaticAbbr)}
       {createLegends('With acronym prop', manualAbbr)}

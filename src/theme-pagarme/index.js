@@ -10,6 +10,7 @@ import UIDropdownForm from './form-fields/dropdown/index.css'
 import UIGrid from './grid/index.css'
 import UIInput from './input/index.css'
 import UIInputForm from './form-fields/input/index.css'
+import UILegend from './legend/index.css'
 
 export default {
   UIAlert,
@@ -24,4 +25,5 @@ export default {
   UIGrid,
   UIInput,
   UIInputForm,
+  UILegend,
 }

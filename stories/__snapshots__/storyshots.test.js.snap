@@ -9042,7 +9042,7 @@ exports[`Storyshots Inputs Form 1`] = `
 </div>
 `;
 
-exports[`Storyshots Legend all 1`] = `
+exports[`Storyshots Legend defaultTheme 1`] = `
 <div>
   <div>
     Without acronym prop
