@@ -21,15 +21,9 @@ import IconCalendar from 'react-icons/lib/fa/calendar'
 
 import MaskedInput from 'react-maskedinput'
 import clickOutside from 'react-click-outside'
-import classNames from 'classnames'
+import { themr } from 'react-css-themr'
 
-import DateSelector from '../../DateSelector'
-
-import style from './style.css'
-
-// disable eslint for shared styles
-// eslint-disable-next-line css-modules/no-unused-class
-import toolItemStyle from '../style.css'
+import DateSelector from '../DateSelector'
 
 import {
   textToMoment,
@@ -41,11 +35,12 @@ import {
 } from './dateHelpers'
 
 import {
-  getInputClasses,
-  inputWrapStartClasses,
-  initialPlaceholderClasses,
-  inputWrapEndClasses,
+  inputClasses,
+  startClasses,
+  endClasses,
 } from './classNames'
+
+const applyThemr = themr('UIDateInput')
 
 class DateInput extends React.Component {
   constructor (props) {
@@ -213,93 +208,95 @@ class DateInput extends React.Component {
     const {
       active,
       limits,
+      theme,
     } = this.props
 
     const { isValidStart, isValidEnd } = validateRange(limits, dates)
     const isValidDates = isValidStart && isValidEnd
     const momentDates = textToMoment(dates)
 
+    const initialPlaceholder = dates.start || (
+      showDateSelector
+        ? 'Inicio'
+        : 'Selecione uma data ou periodo'
+    )
+
     return (
       <div
-        className={getInputClasses({
+        className={inputClasses({
+          theme,
           active,
           error: !isValidDates,
           focused: showDateSelector,
         })}
       >
-        <div
-          className={classNames(style.flex, style.label)}
-        >
-          <div className={toolItemStyle.icon}>
-            <IconCalendar />
-          </div>
-
-          <div
-            className={inputWrapStartClasses({
-              start: dates.start,
-              showDateSelector,
-              focusedInput,
-              isValid: isValidStart,
-            })}
-          >
-            <MaskedInput
-              mask={inputDateMask}
-              size="8"
-              onFocus={() => this.handleInputFocus('startDate')}
-              onBlur={this.handleInputBlur}
-              className={style.input}
-              placeholderChar=" "
-              name="startDate"
-              onChange={value => this.handleInputChange('start', value)}
-              placeholder="Inicio"
-              value={dates.start}
-              id={`${this.name}-startDate`}
-            />
-            <span className={style.expanderSpan}>{dates.start || 'Inicio'}</span>
-          </div>
-
-          {!dates.start && !dates.end &&
-            <label
-              htmlFor={`${this.name}-startDate`}
-              className={initialPlaceholderClasses({ showDateSelector, start: dates.start })}
-            >
-              Selecione um dia ou período
-            </label>
-          }
-
-          <div className={classNames(style.separator, toolItemStyle.separator)} />
-
-          {hasDifferentEnd(dates)
-            ? (
-              <div
-                className={inputWrapEndClasses({
-                  showDateSelector,
-                  focusedInput,
-                  isValid: isValidEnd,
-                })}
-              >
-                <MaskedInput
-                  mask={inputDateMask}
-                  size="8"
-                  onFocus={() => this.handleInputFocus('endDate')}
-                  onBlur={this.handleInputBlur}
-                  className={style.input}
-                  placeholderChar=" "
-                  name="endDate"
-                  onChange={value => this.handleInputChange('end', value)}
-                  placeholder="Fim"
-                  value={dates.end}
-                />
-                <span className={style.expanderSpan}>{dates.end || 'Fim'}</span>
-              </div>
-            ) : (
-              null
-            )
-          }
+        <div className={theme.icon}>
+          <IconCalendar />
         </div>
 
+        <div
+          className={startClasses({
+            theme,
+            showDateSelector,
+            focusedInput,
+            isValid: isValidStart,
+          })}
+        >
+          <MaskedInput
+            mask={inputDateMask}
+            size="8"
+            onFocus={() => this.handleInputFocus('startDate')}
+            onBlur={this.handleInputBlur}
+            className={theme.input}
+            placeholderChar=" "
+            name="startDate"
+            onChange={value => this.handleInputChange('start', value)}
+            placeholder={initialPlaceholder}
+            value={dates.start}
+            id={`${this.name}-startDate`}
+          />
+          <span className={theme.expander}>
+            {initialPlaceholder}
+          </span>
+        </div>
+
+        {hasDifferentEnd(dates) &&
+          <div className={theme.separator} />
+        }
+
+        {hasDifferentEnd(dates)
+          ? (
+            <div
+              className={endClasses({
+                theme,
+                showDateSelector,
+                focusedInput,
+                isValid: isValidEnd,
+              })}
+            >
+              <MaskedInput
+                mask={inputDateMask}
+                size="8"
+                onFocus={() => this.handleInputFocus('endDate')}
+                onBlur={this.handleInputBlur}
+                className={theme.input}
+                placeholderChar=" "
+                name="endDate"
+                onChange={value => this.handleInputChange('end', value)}
+                placeholder="Fim"
+                value={dates.end}
+              />
+              <span className={theme.expander}>
+                {dates.end || 'Fim'}
+              </span>
+            </div>
+          ) : (
+            null
+          )
+        }
+
         {showDateSelector ?
-          <div className={style.dateSelector}>
+          <div className={theme.dateSelector}>
             <DateSelector
               dates={isValidDates ? momentDates : {}}
               onChange={this.handleDatesChange}
@@ -318,6 +315,18 @@ class DateInput extends React.Component {
 }
 
 DateInput.propTypes = {
+  theme: shape({
+    active: string,
+    dateInput: string,
+    dateSelector: string,
+    end: string,
+    error: string,
+    focused: string,
+    icon: string,
+    input: string,
+    separator: string,
+    start: string,
+  }),
   active: bool,
   onChange: func.isRequired,
   dates: shape({
@@ -341,6 +350,7 @@ DateInput.propTypes = {
 }
 
 DateInput.defaultProps = {
+  theme: {},
   active: false,
   dates: {
     start: null,
@@ -353,4 +363,4 @@ DateInput.defaultProps = {
   presets: [],
 }
 
-export default clickOutside(DateInput)
+export default applyThemr(clickOutside(DateInput))

@@ -28,7 +28,7 @@ import {
   CardSection,
 } from '../../components/Card'
 
-import DateInput from '../../components/Toolbar/DateInput'
+import DateInput from '../../components/DateInput'
 import SearchField from '../../components/Toolbar/SearchField'
 import Toolbar from '../../components/Toolbar'
 import Button from '../../components/Button'

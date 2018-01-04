@@ -1,4 +1,4 @@
-import DateInput from './../../../components/Toolbar/DateInput'
+import DateInput from './../../../components/DateInput'
 import SearchField from './../../../components/Toolbar/SearchField'
 import CardSection from './../../../components/Card/CardSection'
 import Button from './../../../components/Button'

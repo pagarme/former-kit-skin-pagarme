@@ -90,4 +90,5 @@ export const validateRange = (limits, dates) => {
   return { isValidStart, isValidEnd }
 }
 
-export const inputDateMask = moment().format(DATE_MASK).replace(/\d/g, '1')
+export const inputDateMask = moment()
+  .format(DATE_MASK).replace(/\d/g, '1')

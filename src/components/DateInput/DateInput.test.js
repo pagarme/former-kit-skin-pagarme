@@ -4,8 +4,8 @@ import { mount } from 'enzyme'
 import moment from 'moment'
 
 import DateInput from './index'
-import DateSelector from './../../DateSelector'
-import Button from './../../Button'
+import DateSelector from '../DateSelector'
+import Button from '../Button'
 
 const presets = [{
   title: 'Últimos x dias',

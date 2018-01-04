@@ -3,6 +3,7 @@ import UIButton from './button/index.css'
 import UICard from './card/index.css'
 import UICheckbox from './checkbox/index.css'
 import UICheckboxGroup from './checkbox-group/index.css'
+import UIDateInput from './date-input/index.css'
 
 export default {
   UIAlert,
@@ -10,4 +11,5 @@ export default {
   UICard,
   UICheckbox,
   UICheckboxGroup,
+  UIDateInput,
 }

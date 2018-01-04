@@ -1,7 +1,7 @@
 import cases from 'jest-in-case'
 import moment from 'moment'
 
-import DateInput from '../../../components/Toolbar/DateInput'
+import DateInput from '../../../components/DateInput'
 import SearchField from '../../../components/Toolbar/SearchField'
 import Button from '../../../components/Button'
 import CheckboxGroup from '../../../components/CheckboxGroup'

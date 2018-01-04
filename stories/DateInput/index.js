@@ -4,8 +4,7 @@ import { storiesOf } from '@storybook/react'
 
 import moment from 'moment'
 
-import Toolbar from '../../src/components/Toolbar'
-import DateInput from '../../src/components/Toolbar/DateInput'
+import DateInput from '../../src/components/DateInput'
 
 import presets from './datePresets'
 import style from './style.css'
@@ -44,22 +43,19 @@ class DateInputState extends React.Component {
 
     return (
       <div>
-        <Toolbar>
-          <DateInput
-            presets={presets}
-            dates={dates}
-            onChange={this.handleDatesChange}
-            active={dates.start && dates.end && true}
-            limits={{
-              lower: moment('01-01-2013', 'DD-MM-YYYY'),
-              upper: moment('01-01-2025', 'DD-MM-YYYY'),
-            }}
-          />
-          <button onClick={this.handleReset}>
-            Reset dates
-          </button>
-        </Toolbar>
-
+        <DateInput
+          presets={presets}
+          dates={dates}
+          onChange={this.handleDatesChange}
+          active={dates.start && dates.end && true}
+          limits={{
+            lower: moment('01-01-2013', 'DD-MM-YYYY'),
+            upper: moment('01-01-2025', 'DD-MM-YYYY'),
+          }}
+        />
+        <button onClick={this.handleReset}>
+          Reset dates
+        </button>
       </div>
     )
   }
@@ -70,8 +66,8 @@ DateInputState.defaultProps = {
   end: null,
 }
 
-storiesOf('Toolbar', module)
-  .add('DateInput', () => (
+storiesOf('DateInput', module)
+  .add('All styles', () => (
     <div className={style.main}>
       <h1>DateInput usage</h1>
 
