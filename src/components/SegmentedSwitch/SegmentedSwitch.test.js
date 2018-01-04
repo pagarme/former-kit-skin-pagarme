@@ -13,7 +13,7 @@ describe('ContextSwitch', () => {
         onChange={onChange}
         name="live-test"
       />
-    )
+    ).dive()
 
     component.find('input')
       .first()
@@ -31,7 +31,7 @@ describe('ContextSwitch', () => {
         onChange={onChange}
         name="live-test"
       />
-    )
+    ).dive()
 
     component.find('input')
       .first()

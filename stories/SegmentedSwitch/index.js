@@ -1,12 +1,12 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 
-import ContextSwitch from '../../src/components/ContextSwitch'
+import SegmentedSwitch from '../../src/components/SegmentedSwitch'
 
 import style from './style.css'
 
 
-class ContextSwitchState extends React.Component {
+class SegmentedSwitchState extends React.Component {
   constructor (props) {
     super(props)
 
@@ -29,7 +29,7 @@ class ContextSwitchState extends React.Component {
 
   render () {
     return (
-      <ContextSwitch
+      <SegmentedSwitch
         items={this.props.items}
         onChange={this.handleChange}
         name={this.props.name}
@@ -39,12 +39,12 @@ class ContextSwitchState extends React.Component {
   }
 }
 
-storiesOf('ContextSwitch', module)
+storiesOf('SegmentedSwitch', module)
   .add('All styles', () => (
     <div className={style.container}>
       <section>
         <h2>Two options</h2>
-        <ContextSwitchState
+        <SegmentedSwitchState
           items={['test', 'live']}
           selected="test"
           name="live-test"
@@ -52,7 +52,7 @@ storiesOf('ContextSwitch', module)
       </section>
       <section>
         <h2>Four options</h2>
-        <ContextSwitchState
+        <SegmentedSwitchState
           items={['test', 'live', 'super-test', 'extra-live']}
           selected="super-test"
           name="super-extra"

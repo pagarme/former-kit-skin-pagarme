@@ -14,6 +14,7 @@ import UILegend from './legend/index.css'
 import UIModal from './modal/index.css'
 import UIPagination from './pagination/index.css'
 import UIRadioGroup from './radio-group/index.css'
+import UISegmentedSwitch from './segmented-switch/index.css'
 
 export default {
   UIAlert,
@@ -32,4 +33,5 @@ export default {
   UIModal,
   UIPagination,
   UIRadioGroup,
+  UISegmentedSwitch,
 }
