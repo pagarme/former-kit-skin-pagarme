@@ -10671,14 +10671,14 @@ exports[`Storyshots Progress Linear 1`] = `
     </h2>
     <div>
       <div
-        className={undefined}
+        className=""
       >
         <div>
           <div
-            className=""
+            className={undefined}
           >
             <div
-              className=""
+              className={undefined}
               style={
                 Object {
                   "width": "0%",
@@ -10687,7 +10687,7 @@ exports[`Storyshots Progress Linear 1`] = `
             />
           </div>
           <div
-            className=""
+            className={undefined}
             style={
               Object {
                 "width": "0%",
@@ -10695,7 +10695,6 @@ exports[`Storyshots Progress Linear 1`] = `
             }
           >
             <div
-              className={undefined}
               style={
                 Object {
                   "marginRight": "-1em",
@@ -10710,14 +10709,14 @@ exports[`Storyshots Progress Linear 1`] = `
     </div>
     <div>
       <div
-        className={undefined}
+        className=""
       >
         <div>
           <div
-            className=""
+            className={undefined}
           >
             <div
-              className=""
+              className={undefined}
               style={
                 Object {
                   "width": "0%",
@@ -10726,7 +10725,7 @@ exports[`Storyshots Progress Linear 1`] = `
             />
           </div>
           <div
-            className=""
+            className={undefined}
             style={
               Object {
                 "width": "0%",
@@ -10734,7 +10733,6 @@ exports[`Storyshots Progress Linear 1`] = `
             }
           >
             <div
-              className={undefined}
               style={
                 Object {
                   "marginRight": "-1em",
@@ -10749,14 +10747,14 @@ exports[`Storyshots Progress Linear 1`] = `
     </div>
     <div>
       <div
-        className={undefined}
+        className=""
       >
         <div>
           <div
-            className=""
+            className={undefined}
           >
             <div
-              className=""
+              className={undefined}
               style={
                 Object {
                   "width": "0%",
@@ -10765,7 +10763,7 @@ exports[`Storyshots Progress Linear 1`] = `
             />
           </div>
           <div
-            className=""
+            className={undefined}
             style={
               Object {
                 "width": "0%",
@@ -10773,7 +10771,6 @@ exports[`Storyshots Progress Linear 1`] = `
             }
           >
             <div
-              className={undefined}
               style={
                 Object {
                   "marginRight": "-1em",
@@ -10788,14 +10785,14 @@ exports[`Storyshots Progress Linear 1`] = `
     </div>
     <div>
       <div
-        className={undefined}
+        className=""
       >
         <div>
           <div
-            className=""
+            className={undefined}
           >
             <div
-              className=""
+              className={undefined}
               style={
                 Object {
                   "width": "0%",
@@ -10804,7 +10801,7 @@ exports[`Storyshots Progress Linear 1`] = `
             />
           </div>
           <div
-            className=""
+            className={undefined}
             style={
               Object {
                 "width": "0%",
@@ -10812,7 +10809,6 @@ exports[`Storyshots Progress Linear 1`] = `
             }
           >
             <div
-              className={undefined}
               style={
                 Object {
                   "marginRight": "-1em",
@@ -10827,14 +10823,14 @@ exports[`Storyshots Progress Linear 1`] = `
     </div>
     <div>
       <div
-        className={undefined}
+        className=""
       >
         <div>
           <div
-            className=""
+            className={undefined}
           >
             <div
-              className=""
+              className={undefined}
               style={
                 Object {
                   "width": "0%",
@@ -10843,7 +10839,7 @@ exports[`Storyshots Progress Linear 1`] = `
             />
           </div>
           <div
-            className=""
+            className={undefined}
             style={
               Object {
                 "width": "0%",
@@ -10851,7 +10847,6 @@ exports[`Storyshots Progress Linear 1`] = `
             }
           >
             <div
-              className={undefined}
               style={
                 Object {
                   "marginRight": "-1em",
@@ -10871,14 +10866,14 @@ exports[`Storyshots Progress Linear 1`] = `
     </h2>
     <div>
       <div
-        className={undefined}
+        className="undefined"
       >
         <div>
           <div
-            className="undefined"
+            className={undefined}
           >
             <div
-              className="undefined"
+              className={undefined}
               style={
                 Object {
                   "width": "0%",
@@ -10887,7 +10882,7 @@ exports[`Storyshots Progress Linear 1`] = `
             />
           </div>
           <div
-            className="undefined"
+            className={undefined}
             style={
               Object {
                 "width": "0%",
@@ -10895,7 +10890,6 @@ exports[`Storyshots Progress Linear 1`] = `
             }
           >
             <div
-              className={undefined}
               style={
                 Object {
                   "marginRight": "-1em",
@@ -10910,14 +10904,14 @@ exports[`Storyshots Progress Linear 1`] = `
     </div>
     <div>
       <div
-        className={undefined}
+        className="undefined"
       >
         <div>
           <div
-            className="undefined"
+            className={undefined}
           >
             <div
-              className="undefined"
+              className={undefined}
               style={
                 Object {
                   "width": "0%",
@@ -10926,7 +10920,7 @@ exports[`Storyshots Progress Linear 1`] = `
             />
           </div>
           <div
-            className="undefined"
+            className={undefined}
             style={
               Object {
                 "width": "0%",
@@ -10934,7 +10928,6 @@ exports[`Storyshots Progress Linear 1`] = `
             }
           >
             <div
-              className={undefined}
               style={
                 Object {
                   "marginRight": "-1em",
@@ -10949,14 +10942,14 @@ exports[`Storyshots Progress Linear 1`] = `
     </div>
     <div>
       <div
-        className={undefined}
+        className="undefined"
       >
         <div>
           <div
-            className="undefined"
+            className={undefined}
           >
             <div
-              className="undefined"
+              className={undefined}
               style={
                 Object {
                   "width": "0%",
@@ -10965,7 +10958,7 @@ exports[`Storyshots Progress Linear 1`] = `
             />
           </div>
           <div
-            className="undefined"
+            className={undefined}
             style={
               Object {
                 "width": "0%",
@@ -10973,7 +10966,6 @@ exports[`Storyshots Progress Linear 1`] = `
             }
           >
             <div
-              className={undefined}
               style={
                 Object {
                   "marginRight": "-1em",
@@ -10988,14 +10980,14 @@ exports[`Storyshots Progress Linear 1`] = `
     </div>
     <div>
       <div
-        className={undefined}
+        className="undefined"
       >
         <div>
           <div
-            className="undefined"
+            className={undefined}
           >
             <div
-              className="undefined"
+              className={undefined}
               style={
                 Object {
                   "width": "0%",
@@ -11004,7 +10996,7 @@ exports[`Storyshots Progress Linear 1`] = `
             />
           </div>
           <div
-            className="undefined"
+            className={undefined}
             style={
               Object {
                 "width": "0%",
@@ -11012,7 +11004,6 @@ exports[`Storyshots Progress Linear 1`] = `
             }
           >
             <div
-              className={undefined}
               style={
                 Object {
                   "marginRight": "-1em",
@@ -11027,14 +11018,14 @@ exports[`Storyshots Progress Linear 1`] = `
     </div>
     <div>
       <div
-        className={undefined}
+        className="undefined"
       >
         <div>
           <div
-            className="undefined"
+            className={undefined}
           >
             <div
-              className="undefined"
+              className={undefined}
               style={
                 Object {
                   "width": "0%",
@@ -11043,7 +11034,7 @@ exports[`Storyshots Progress Linear 1`] = `
             />
           </div>
           <div
-            className="undefined"
+            className={undefined}
             style={
               Object {
                 "width": "0%",
@@ -11051,7 +11042,6 @@ exports[`Storyshots Progress Linear 1`] = `
             }
           >
             <div
-              className={undefined}
               style={
                 Object {
                   "marginRight": "-1em",

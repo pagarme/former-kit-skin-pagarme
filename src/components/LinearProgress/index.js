@@ -1,46 +1,30 @@
 import React from 'react'
-import {
-  number,
-  bool,
-} from 'prop-types'
+import { themr } from 'react-css-themr'
+import PropTypes from 'prop-types'
 import {
   Motion,
   spring,
 } from 'react-motion'
 import classnames from 'classnames'
 
-import style from './style.css'
+const applyThemr = themr('UILinearProgress')
 
 const Linear = ({
+  theme,
   percent,
   disabled,
+  base,
 }) => {
-  const classNameFill = classnames(
-    style.fill,
+  const linearProgressClasses = classnames(
+    theme.linearProgress,
+    theme[base],
     {
-      [style.fillEnabled]: !disabled,
-      [style.fillDisabled]: disabled,
-    }
-  )
-
-  const classNameBack = classnames(
-    style.back,
-    {
-      [style.backEnabled]: !disabled,
-      [style.backDisabled]: disabled,
-    }
-  )
-
-  const classNameNumber = classnames(
-    style.number,
-    {
-      [style.numberEnabled]: !disabled,
-      [style.numberDisabled]: disabled,
+      [theme.disabled]: disabled,
     }
   )
 
   return (
-    <div className={style.linear}>
+    <div className={linearProgressClasses}>
       <Motion
         defaultStyle={{
           x: 0,
@@ -54,16 +38,16 @@ const Linear = ({
 
           return (
             <div>
-              <div className={classNameBack}>
+              <div className={theme.background}>
                 <div
-                  className={classNameFill}
+                  className={theme.fill}
                   style={{
                     width: percentage,
                   }}
                 />
               </div>
               <div
-                className={classNameNumber}
+                className={theme.number}
                 style={{
                   width: (x > 94) ? '100%' : `${x}%`,
                 }}
@@ -72,7 +56,6 @@ const Linear = ({
                   style={{
                     marginRight: (x > 94) ? '0' : '-1em',
                   }}
-                  className={style.innerNumber}
                 >
                   {percentage}
                 </div>
@@ -86,13 +69,27 @@ const Linear = ({
 }
 
 Linear.propTypes = {
-  percent: number.isRequired,
-  disabled: bool,
+  theme: PropTypes.shape({
+    linearProgress: PropTypes.string,
+    fill: PropTypes.string,
+    background: PropTypes.string,
+    disabled: PropTypes.string,
+    number: PropTypes.string,
+    dark: PropTypes.string,
+    light: PropTypes.string,
+  }),
+  percent: PropTypes.number.isRequired,
+  disabled: PropTypes.bool,
+  base: PropTypes.oneOf([
+    'dark',
+    'light',
+  ]),
 }
 
 Linear.defaultProps = {
+  theme: {},
   disabled: false,
+  base: 'light',
 }
 
-export default Linear
-
+export default applyThemr(Linear)

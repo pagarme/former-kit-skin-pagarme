@@ -18,6 +18,7 @@ import UISegmentedSwitch from './segmented-switch/index.css'
 import UISwitch from './switch/index.css'
 import UITabBar from './tab-bar/index.css'
 import UITag from './tag/index.css'
+import UILinearProgress from './linear-progress/index.css'
 
 export default {
   UIAlert,
@@ -40,4 +41,5 @@ export default {
   UISwitch,
   UITabBar,
   UITag,
+  UILinearProgress,
 }
