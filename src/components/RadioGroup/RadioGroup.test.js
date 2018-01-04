@@ -1,5 +1,5 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { shallow, mount } from 'enzyme'
 
 import RadioGroup from './index'
 
@@ -24,7 +24,7 @@ describe('RadioGroup', () => {
   it('should trigger onChange', () => {
     const onChange = jest.fn()
 
-    const component = shallow(
+    const component = mount(
       <RadioGroup
         options={options}
         name="artefatos"
