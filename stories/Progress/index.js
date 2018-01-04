@@ -1,7 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 
-import CircularProgress from '../../src/components/CircularProgress'
 import LinearProgress from '../../src/components/LinearProgress'
 
 import style from './style.css'
@@ -33,33 +32,6 @@ storiesOf('Progress', module)
               percent={percent}
             />
           </div>
-        ))}
-      </section>
-    </div>
-  ))
-
-storiesOf('Progress', module)
-  .add('Circular', () => (
-    <div className={style.container}>
-      <section>
-        <h2>Normal state</h2>
-        {percentages.map(percent => (
-          <CircularProgress
-            key={`mock${percent}`}
-            label={'Lorem Label'}
-            percent={percent}
-          />
-        ))}
-      </section>
-      <section>
-        <h2>Disabled state</h2>
-        {percentages.map(percent => (
-          <CircularProgress
-            key={`mock${percent}`}
-            label={'Lorem Label'}
-            percent={percent}
-            disabled
-          />
         ))}
       </section>
     </div>

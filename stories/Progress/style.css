@@ -8,7 +8,3 @@
 .container > * {
   margin-left: 25px;
 }
-
-.container > *:first-child {
-  margin-left: unset;
-}
