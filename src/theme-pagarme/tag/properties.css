@@ -1,4 +1,6 @@
-@import "../../theme-pagarme/spacing.css";
+@import "../colors.css";
+@import "../spacing.css";
+@import "../typography.css";
 
 :root {
   --tag-font-family: var(--title-font-family);

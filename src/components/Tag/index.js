@@ -1,16 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { themr } from 'react-css-themr'
 
-import style from './style.css'
+const applyThemr = themr('UITag')
 
-const Tag = ({ children }) => (
-  <div className={style.tag}>
+const Tag = ({
+  theme,
+  children,
+}) => (
+  <div className={theme.tag}>
     {children}
   </div>
 )
 
 Tag.propTypes = {
+  theme: PropTypes.shape({
+    tag: PropTypes.string,
+  }).isRequired,
   children: PropTypes.string.isRequired,
 }
 
-export default Tag
+export default applyThemr(Tag)

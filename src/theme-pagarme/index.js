@@ -17,6 +17,7 @@ import UIRadioGroup from './radio-group/index.css'
 import UISegmentedSwitch from './segmented-switch/index.css'
 import UISwitch from './switch/index.css'
 import UITabBar from './tab-bar/index.css'
+import UITag from './tag/index.css'
 
 export default {
   UIAlert,
@@ -38,4 +39,5 @@ export default {
   UISegmentedSwitch,
   UISwitch,
   UITabBar,
+  UITag,
 }

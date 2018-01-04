@@ -15,13 +15,16 @@ const tags = [
 ]
 
 storiesOf('Tags', module)
-  .add('default', () => (
+  .add('defaultTheme', () => (
     <section>
       <p>Only style</p>
       <div className={style.tags}>
-        {tags.map(title =>
-          <Tag key={title}>{title}</Tag>)
+        {
+          tags.map(title => (
+            <Tag key={title}>{title}</Tag>
+          ))
         }
       </div>
     </section>
   ))
+

@@ -11983,7 +11983,7 @@ exports[`Storyshots TabBar All styles 1`] = `
 </div>
 `;
 
-exports[`Storyshots Tags default 1`] = `
+exports[`Storyshots Tags defaultTheme 1`] = `
 <section>
   <p>
     Only style
