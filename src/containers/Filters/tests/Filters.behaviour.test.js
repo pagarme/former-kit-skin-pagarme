@@ -1,7 +1,7 @@
 import cases from 'jest-in-case'
 
 import DateInput from './../../../components/DateInput'
-import SearchField from './../../../components/Toolbar/SearchField'
+import SearchField from './../../../components/Input'
 import Button from './../../../components/Button'
 import Tag from '../../../components/Tag'
 import compileTags from '../../../containers/Filters/compileTags'

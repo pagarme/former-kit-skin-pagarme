@@ -5567,7 +5567,7 @@ exports[`Storyshots Filters Default 1`] = `
           <div
             className=""
           >
-            <span
+            <div
               className={undefined}
             >
               <svg
@@ -5585,24 +5585,28 @@ exports[`Storyshots Filters Default 1`] = `
               >
                 <g>
                   <path
-                    d="m15.9 23.4c4.1 0 7.5-3.4 7.5-7.5s-3.4-7.5-7.5-7.5-7.5 3.3-7.5 7.5 3.3 7.5 7.5 7.5z m10 0l8.2 8.2-2.5 2.5-8.2-8.2v-1.4l-0.5-0.4c-1.9 1.6-4.4 2.5-7 2.5-6.1 0-10.9-4.7-10.9-10.7s4.8-10.9 10.9-10.9 10.7 4.8 10.7 10.9c0 2.6-0.9 5.1-2.5 7l0.4 0.5h1.4z"
+                    d="m27.2 18.6q0-4.2-2.9-7.1t-7.1-2.9-7 2.9-3 7.1 2.9 7 7.1 3 7.1-3 2.9-7z m11.4 18.5q0 1.2-0.8 2.1t-2 0.8q-1.2 0-2-0.8l-7.7-7.7q-4 2.8-8.9 2.8-3.2 0-6.1-1.3t-5-3.3-3.4-5-1.2-6.1 1.2-6.1 3.4-5.1 5-3.3 6.1-1.2 6.1 1.2 5 3.3 3.4 5.1 1.2 6.1q0 4.9-2.7 8.9l7.6 7.6q0.8 0.9 0.8 2z"
                   />
                 </g>
               </svg>
-            </span>
+            </div>
             <div
               className={undefined}
             >
-              <input
-                className={undefined}
-                disabled={false}
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                placeholder="Filtre por ID, CPF, nome e e-mail."
-                type="search"
-                value=""
-              />
+              <div
+                className=""
+              >
+                <input
+                  disabled={false}
+                  id="-shortid-mock"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Filtre por ID, CPF, nome e e-mail."
+                  type="text"
+                  value=""
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -11963,103 +11967,6 @@ exports[`Storyshots Toolbar Pagination 1`] = `
       </label>
     </div>
   </section>
-</div>
-`;
-
-exports[`Storyshots Toolbar SearchField 1`] = `
-<div>
-  <div>
-    <p>
-      Input de busca
-    </p>
-    <div
-      className=""
-    >
-      <span
-        className={undefined}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          preserveAspectRatio="xMidYMid meet"
-          style={
-            Object {
-              "color": undefined,
-              "verticalAlign": "middle",
-            }
-          }
-          viewBox="0 0 40 40"
-          width="1em"
-        >
-          <g>
-            <path
-              d="m15.9 23.4c4.1 0 7.5-3.4 7.5-7.5s-3.4-7.5-7.5-7.5-7.5 3.3-7.5 7.5 3.3 7.5 7.5 7.5z m10 0l8.2 8.2-2.5 2.5-8.2-8.2v-1.4l-0.5-0.4c-1.9 1.6-4.4 2.5-7 2.5-6.1 0-10.9-4.7-10.9-10.7s4.8-10.9 10.9-10.9 10.7 4.8 10.7 10.9c0 2.6-0.9 5.1-2.5 7l0.4 0.5h1.4z"
-            />
-          </g>
-        </svg>
-      </span>
-      <div
-        className={undefined}
-      >
-        <input
-          className={undefined}
-          disabled={false}
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          placeholder={null}
-          type="search"
-          value=""
-        />
-      </div>
-    </div>
-  </div>
-  <div>
-    <p>
-      Input desabilitado
-    </p>
-    <div
-      className=""
-    >
-      <span
-        className={undefined}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          preserveAspectRatio="xMidYMid meet"
-          style={
-            Object {
-              "color": undefined,
-              "verticalAlign": "middle",
-            }
-          }
-          viewBox="0 0 40 40"
-          width="1em"
-        >
-          <g>
-            <path
-              d="m15.9 23.4c4.1 0 7.5-3.4 7.5-7.5s-3.4-7.5-7.5-7.5-7.5 3.3-7.5 7.5 3.3 7.5 7.5 7.5z m10 0l8.2 8.2-2.5 2.5-8.2-8.2v-1.4l-0.5-0.4c-1.9 1.6-4.4 2.5-7 2.5-6.1 0-10.9-4.7-10.9-10.7s4.8-10.9 10.9-10.9 10.7 4.8 10.7 10.9c0 2.6-0.9 5.1-2.5 7l0.4 0.5h1.4z"
-            />
-          </g>
-        </svg>
-      </span>
-      <div
-        className={undefined}
-      >
-        <input
-          className={undefined}
-          disabled={true}
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          placeholder={null}
-          type="search"
-          value=""
-        />
-      </div>
-    </div>
-  </div>
 </div>
 `;
 

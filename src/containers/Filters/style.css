@@ -19,6 +19,23 @@
   margin-top: unset;
 }
 
+.inputs {
+  display: flex;
+}
+
+.inputs > * {
+  margin-left: 8px;
+  flex: 0;
+}
+
+.inputs > *:first-child {
+  margin-left: unset;
+}
+
+.searchField {
+  flex: 1;
+}
+
 .selectedOptionsTitle {
   font-size: 14px;
   text-transform: uppercase;
