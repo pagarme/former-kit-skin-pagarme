@@ -5,7 +5,12 @@ import {
   func,
   oneOf,
   arrayOf,
+  shape,
+  string,
 } from 'prop-types'
+
+import { themr } from 'react-css-themr'
+import shortid from 'shortid'
 
 import {
   variantList,
@@ -14,27 +19,30 @@ import {
 
 import TabItem from './TabItem'
 
-import style from './style.css'
+const applyThemr = themr('UITabBar')
 
 class TabBar extends React.Component {
   constructor (props) {
     super(props)
+    this.instanceId = `tabbar-${shortid.generate()}`
     this.cloneChild = this.cloneChild.bind(this)
   }
 
   getContent () {
-    const chosen = this.props.children[this.props.index]
-    return chosen.props.children
+    const selected = this.props.children[this.props.selected]
+    return selected.props.children
   }
 
-  cloneChild (tabItemChild, key) {
+  cloneChild (tabItemChild, index) {
     return React.cloneElement(
       tabItemChild,
       {
-        index: key,
+        id: `${this.instanceId}-tab-${index}`,
+        index,
         variant: this.props.variant,
         onTabChange: this.props.onTabChange,
-        selected: this.props.index === key,
+        selected: this.props.selected === index,
+        key: index,
       }
     )
   }
@@ -47,28 +55,38 @@ class TabBar extends React.Component {
   }
 
   render () {
+    const { theme } = this.props
+
     return (
-      <div className={style.tabBar}>
-        <div className={style.tabList}>
+      <div className={theme.tabBar}>
+        <div className={theme.tabs}>
           {this.populateChildren()}
         </div>
-        {this.getContent()}
+        <div className={theme.content}>
+          {this.getContent()}
+        </div>
       </div>
     )
   }
 }
 
 TabBar.propTypes = {
+  theme: shape({
+    tabBar: string,
+    tabs: string,
+    content: string,
+  }),
   variant: oneOf(variantList),
   children: arrayOf(TabItem).isRequired,
-  index: number,
+  selected: number,
   onTabChange: func,
 }
 
 TabBar.defaultProps = {
+  theme: {},
   variant: variantDefault,
-  index: 0,
+  selected: 0,
   onTabChange: null,
 }
 
-export default TabBar
+export default applyThemr(TabBar)

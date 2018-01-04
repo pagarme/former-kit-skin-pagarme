@@ -16,6 +16,7 @@ import UIPagination from './pagination/index.css'
 import UIRadioGroup from './radio-group/index.css'
 import UISegmentedSwitch from './segmented-switch/index.css'
 import UISwitch from './switch/index.css'
+import UITabBar from './tab-bar/index.css'
 
 export default {
   UIAlert,
@@ -36,4 +37,5 @@ export default {
   UIRadioGroup,
   UISegmentedSwitch,
   UISwitch,
+  UITabBar,
 }

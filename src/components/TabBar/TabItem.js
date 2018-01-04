@@ -7,29 +7,31 @@ import {
   func,
   element,
   string,
+  shape,
   oneOf,
 } from 'prop-types'
+
+import { themr } from 'react-css-themr'
 
 import {
   variantList,
   variantDefault,
 } from './shapes'
 
-import style from './TabItem.style.css'
+const applyThemr = themr('UITabBar')
 
-function TabItem (props) {
-  const className = classNames(
-    style.tabItem,
-    style[props.variant],
-    { [style.selected]: props.selected }
-  )
+class TabItem extends React.PureComponent {
+  constructor (props) {
+    super(props)
+    this.handleClick = this.handleClick.bind(this)
+  }
 
-  function handleClick () {
+  handleClick () {
     const {
       index,
       onClick,
       onTabChange,
-    } = props
+    } = this.props
 
     if (onTabChange) {
       onTabChange(index)
@@ -40,19 +42,52 @@ function TabItem (props) {
     }
   }
 
-  return (
-    <button className={className} onClick={handleClick}>
-      {
-        props.variant !== 'just-text'
-          ? <div className={style.icon}>{props.icon}</div>
-          : null
-      }
-      {props.variant !== 'just-icon' ? props.text : null}
-    </button>
-  )
+  render () {
+    const {
+      id,
+      variant,
+      selected,
+      icon,
+      text,
+      theme,
+    } = this.props
+
+    const className = classNames(
+      theme.tab,
+      theme[variant],
+      { [theme.selected]: selected }
+    )
+
+    return (
+      <label
+        className={className}
+        htmlFor={id}
+      >
+        <input
+          type="radio"
+          id={id}
+          name={id}
+          checked={selected}
+          onChange={this.handleClick}
+        />
+        {variant !== 'just-text' &&
+          <div className={theme.icon}>
+            {icon}
+          </div>
+        }
+        {variant !== 'just-icon' && text}
+      </label>
+    )
+  }
 }
 
 TabItem.propTypes = {
+  theme: shape({
+    tab: string,
+    selected: string,
+    icon: string,
+  }),
+  id: string,
   index: number,
   selected: bool,
   onTabChange: func,
@@ -63,6 +98,8 @@ TabItem.propTypes = {
 }
 
 TabItem.defaultProps = {
+  theme: {},
+  id: null,
   index: null,
   selected: false,
   onTabChange: null,
@@ -72,4 +109,4 @@ TabItem.defaultProps = {
   variant: variantDefault,
 }
 
-export default TabItem
+export default applyThemr(TabItem)

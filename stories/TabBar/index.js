@@ -32,19 +32,19 @@ const clicked = action('clicked')
 class Tab extends React.Component {
   constructor (props) {
     super(props)
-    this.state = { theChosen: 1 }
+    this.state = { selected: 1 }
     this.changeTab = this.changeTab.bind(this)
   }
 
-  changeTab (theChosen) {
-    this.setState({ theChosen })
+  changeTab (selected) {
+    this.setState({ selected })
   }
 
   render () {
     return (
       <TabBar
         variant={this.props.variant}
-        index={this.state.theChosen}
+        selected={this.state.selected}
         onTabChange={this.changeTab}
       >
         <TabItem

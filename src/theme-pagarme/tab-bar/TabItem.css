@@ -1,10 +1,12 @@
 @import "../../theme-pagarme/typography.css";
 @import "./properties";
 
-.tabItem {
+.tab {
+  display: inline-block;
+  user-select: none;
   border: none;
   font-family: var(--tabbar-font-family);
-  font-weight: 600;
+  font-weight: var(--tabbar-tab-font-weight);
   letter-spacing: var(--letter-spacing);
   text-transform: uppercase;
   cursor: pointer;
@@ -14,6 +16,11 @@
   background: var(--tabbar-background);
   padding: var(--tabbar-tab-padding);
   font-size: var(--tabbar-tab-font-size);
+}
+
+.tab > input {
+  visibility: hidden;
+  position: absolute;
 }
 
 .icon {

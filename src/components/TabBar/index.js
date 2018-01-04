@@ -1,4 +1,2 @@
-import TabItem from './TabItem'
-import TabBar from './TabBar'
-
-export { TabItem, TabBar }
+export { default as TabBar } from './TabBar'
+export { default as TabItem } from './TabItem'
