@@ -1,10 +1,14 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import Input from './index'
+import Input from './form'
 
 describe('Input', () => {
   const value = 'Leonardo'
+  const theme = {
+    secondaryText: 'secondary',
+    contentPresent: 'secondary',
+  }
 
   describe('singleline', () => {
     it('should trigger onChange', () => {
@@ -19,6 +23,7 @@ describe('Input', () => {
       )
 
       component
+        .dive()
         .find('input')
         .first()
         .simulate('change', value)
@@ -57,17 +62,19 @@ describe('Input', () => {
           label="Name"
           onChange={onChange}
           success="Success"
+          theme={theme}
         />
       )
 
       component
+        .dive()
         .find('input')
         .first()
         .simulate('change', value)
 
       expect(onChange).toHaveBeenCalled()
       expect(onChange).toHaveBeenLastCalledWith(value)
-      expect(component.find('p').first().text()).toBe('Success')
+      expect(component.dive().find('p').first().text()).toBe('Success')
     })
 
     it('should mount with error', () => {
@@ -79,17 +86,19 @@ describe('Input', () => {
           label="Name"
           onChange={onChange}
           error="Error"
+          theme={theme}
         />
       )
 
       component
+        .dive()
         .find('input')
         .first()
         .simulate('change', value)
 
       expect(onChange).toHaveBeenCalled()
       expect(onChange).toHaveBeenLastCalledWith(value)
-      expect(component.find('p').first().text()).toBe('Error')
+      expect(component.dive().find('p').first().text()).toBe('Error')
     })
 
     it('should mount with all props', () => {
@@ -110,6 +119,7 @@ describe('Input', () => {
       )
 
       component
+        .dive()
         .find('input')
         .first()
         .simulate('change', value)
@@ -133,6 +143,7 @@ describe('Input', () => {
       )
 
       component
+        .dive()
         .find('textarea')
         .first()
         .simulate('change', value)
@@ -155,6 +166,7 @@ describe('Input', () => {
       )
 
       component
+        .dive()
         .find('textarea')
         .first()
         .simulate('change', value)
@@ -173,17 +185,19 @@ describe('Input', () => {
           onChange={onChange}
           multiline
           success="Success"
+          theme={theme}
         />
       )
 
       component
+        .dive()
         .find('textarea')
         .first()
         .simulate('change', value)
 
       expect(onChange).toHaveBeenCalled()
       expect(onChange).toHaveBeenLastCalledWith(value)
-      expect(component.find('p').first().text()).toBe('Success')
+      expect(component.dive().find('p').first().text()).toBe('Success')
     })
 
     it('should mount with error', () => {
@@ -196,17 +210,19 @@ describe('Input', () => {
           onChange={onChange}
           multiline
           error="Error"
+          theme={theme}
         />
       )
 
       component
+        .dive()
         .find('textarea')
         .first()
         .simulate('change', value)
 
       expect(onChange).toHaveBeenCalled()
       expect(onChange).toHaveBeenLastCalledWith(value)
-      expect(component.find('p').first().text()).toBe('Error')
+      expect(component.dive().find('p').first().text()).toBe('Error')
     })
 
     it('should mount with all props', () => {
@@ -228,6 +244,7 @@ describe('Input', () => {
       )
 
       component
+        .dive()
         .find('textarea')
         .first()
         .simulate('change', value)

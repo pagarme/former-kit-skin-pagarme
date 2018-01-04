@@ -7364,6 +7364,1680 @@ exports[`Storyshots Grid Size combinations 1`] = `
 </div>
 `;
 
+exports[`Storyshots Inputs Default 1`] = `
+<div
+  className={undefined}
+>
+  <h2>
+    Form Inputs
+  </h2>
+  <section>
+    <h3>
+      Disabled
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={true}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={null}
+            onFocus={[Function]}
+            placeholder="eae"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Default
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="text"
+            value="Leo"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Error
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="text"
+            value="Leo"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Success
+    </h3>
+    <div
+      className="undefined"
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="text"
+            value="Leo"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Multiline disabled
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={true}
+            onBlur={[Function]}
+            onChange={null}
+            onFocus={[Function]}
+            placeholder="eae"
+            rows="1"
+            value=""
+          />
+          <div
+            className={undefined}
+          >
+            
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Multiline default
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            rows="1"
+            value="Leo"
+          />
+          <div
+            className={undefined}
+          >
+            Leo
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Multiline error
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            rows="1"
+            value="Leo"
+          />
+          <div
+            className={undefined}
+          >
+            Leo
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Multiline success
+    </h3>
+    <div
+      className="undefined"
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            rows="1"
+            value="Leo"
+          />
+          <div
+            className={undefined}
+          >
+            Leo
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon disabled
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={true}
+            id="name-shortid-mock"
+            onBlur={[Function]}
+            onChange={null}
+            onFocus={[Function]}
+            placeholder="eaee"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon default
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="text"
+            value="Leo"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon error
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="text"
+            value="Leo"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon success
+    </h3>
+    <div
+      className="undefined"
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="text"
+            value="Leo"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon multiline disabled
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={true}
+            onBlur={[Function]}
+            onChange={null}
+            onFocus={[Function]}
+            placeholder="eae"
+            rows="1"
+            value=""
+          />
+          <div
+            className={undefined}
+          >
+            
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon multiline default
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            rows="1"
+            value="Leo"
+          />
+          <div
+            className={undefined}
+          >
+            Leo
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon multiline error
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            rows="1"
+            value="Leo"
+          />
+          <div
+            className={undefined}
+          >
+            Leo
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon multiline success
+    </h3>
+    <div
+      className="undefined"
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            rows="1"
+            value="Leo"
+          />
+          <div
+            className={undefined}
+          >
+            Leo
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Password disabled
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={true}
+            id="pass-shortid-mock"
+            onBlur={[Function]}
+            onChange={null}
+            onFocus={[Function]}
+            placeholder="eae"
+            type="password"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Password default
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="password"
+            value="Leo"
+          />
+          <svg
+            className={undefined}
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em"
+          >
+            <g>
+              <path
+                d="m20 15c2.7 0 5 2.3 5 5s-2.3 5-5 5-5-2.3-5-5 2.3-5 5-5z m0 13.4c4.6 0 8.4-3.8 8.4-8.4s-3.8-8.4-8.4-8.4-8.4 3.8-8.4 8.4 3.8 8.4 8.4 8.4z m0-20.9c8.4 0 15.5 5.2 18.4 12.5-2.9 7.3-10 12.5-18.4 12.5s-15.5-5.2-18.4-12.5c2.9-7.3 10-12.5 18.4-12.5z"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Password error
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="password"
+            value="Leo"
+          />
+          <svg
+            className={undefined}
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em"
+          >
+            <g>
+              <path
+                d="m20 15c2.7 0 5 2.3 5 5s-2.3 5-5 5-5-2.3-5-5 2.3-5 5-5z m0 13.4c4.6 0 8.4-3.8 8.4-8.4s-3.8-8.4-8.4-8.4-8.4 3.8-8.4 8.4 3.8 8.4 8.4 8.4z m0-20.9c8.4 0 15.5 5.2 18.4 12.5-2.9 7.3-10 12.5-18.4 12.5s-15.5-5.2-18.4-12.5c2.9-7.3 10-12.5 18.4-12.5z"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Password success
+    </h3>
+    <div
+      className="undefined"
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="password"
+            value="Leo"
+          />
+          <svg
+            className={undefined}
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em"
+          >
+            <g>
+              <path
+                d="m20 15c2.7 0 5 2.3 5 5s-2.3 5-5 5-5-2.3-5-5 2.3-5 5-5z m0 13.4c4.6 0 8.4-3.8 8.4-8.4s-3.8-8.4-8.4-8.4-8.4 3.8-8.4 8.4 3.8 8.4 8.4 8.4z m0-20.9c8.4 0 15.5 5.2 18.4 12.5-2.9 7.3-10 12.5-18.4 12.5s-15.5-5.2-18.4-12.5c2.9-7.3 10-12.5 18.4-12.5z"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Storyshots Inputs Form 1`] = `
+<div
+  className={undefined}
+>
+  <h2>
+    Form Inputs
+  </h2>
+  <section>
+    <h3>
+      Disabled
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={true}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={null}
+            onFocus={[Function]}
+            placeholder="eae"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Default
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="text"
+            value="Leo"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Error
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="text"
+            value="Leo"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Success
+    </h3>
+    <div
+      className="undefined"
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="text"
+            value="Leo"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Multiline disabled
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={true}
+            onBlur={[Function]}
+            onChange={null}
+            onFocus={[Function]}
+            placeholder="eae"
+            rows="1"
+            value=""
+          />
+          <div
+            className={undefined}
+          >
+            
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Multiline default
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            rows="1"
+            value="Leo"
+          />
+          <div
+            className={undefined}
+          >
+            Leo
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Multiline error
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            rows="1"
+            value="Leo"
+          />
+          <div
+            className={undefined}
+          >
+            Leo
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Multiline success
+    </h3>
+    <div
+      className="undefined"
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            rows="1"
+            value="Leo"
+          />
+          <div
+            className={undefined}
+          >
+            Leo
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon disabled
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={true}
+            id="name-shortid-mock"
+            onBlur={[Function]}
+            onChange={null}
+            onFocus={[Function]}
+            placeholder="eaee"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon default
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="text"
+            value="Leo"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon error
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="text"
+            value="Leo"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon success
+    </h3>
+    <div
+      className="undefined"
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="text"
+            value="Leo"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon multiline disabled
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={true}
+            onBlur={[Function]}
+            onChange={null}
+            onFocus={[Function]}
+            placeholder="eae"
+            rows="1"
+            value=""
+          />
+          <div
+            className={undefined}
+          >
+            
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon multiline default
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            rows="1"
+            value="Leo"
+          />
+          <div
+            className={undefined}
+          >
+            Leo
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon multiline error
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            rows="1"
+            value="Leo"
+          />
+          <div
+            className={undefined}
+          >
+            Leo
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Icon multiline success
+    </h3>
+    <div
+      className="undefined"
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          fill="currentColor"
+          height={20}
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width={20}
+        >
+          <g>
+            <path
+              d="m34.7 3.6q1 1.1 0.3 3.3t-2.4 3.8l-3.6 3.6 3.5 15.5q0.2 0.5-0.2 0.8l-2.9 2.1q-0.1 0.2-0.4 0.2-0.1 0-0.2-0.1-0.3 0-0.4-0.3l-6.3-11.4-5.7 5.8 1.1 4.4q0.2 0.3-0.1 0.6l-2.2 2.2q-0.2 0.2-0.5 0.2h0q-0.4-0.1-0.6-0.3l-4.2-5.6-5.6-4.2q-0.3-0.2-0.3-0.6 0-0.2 0.2-0.5l2.1-2.2q0.2-0.2 0.6-0.2 0.1 0 0.1 0l4.4 1.2 5.7-5.8-11.3-6.2q-0.3-0.2-0.4-0.5 0-0.4 0.2-0.6l2.9-2.9q0.3-0.3 0.7-0.2l14.8 3.6 3.6-3.6q1.7-1.7 3.8-2.4t3.3 0.3z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined"
+        >
+          <textarea
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            rows="1"
+            value="Leo"
+          />
+          <div
+            className={undefined}
+          >
+            Leo
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Password disabled
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={true}
+            id="pass-shortid-mock"
+            onBlur={[Function]}
+            onChange={null}
+            onFocus={[Function]}
+            placeholder="eae"
+            type="password"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Password default
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="password"
+            value="Leo"
+          />
+          <svg
+            className={undefined}
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em"
+          >
+            <g>
+              <path
+                d="m20 15c2.7 0 5 2.3 5 5s-2.3 5-5 5-5-2.3-5-5 2.3-5 5-5z m0 13.4c4.6 0 8.4-3.8 8.4-8.4s-3.8-8.4-8.4-8.4-8.4 3.8-8.4 8.4 3.8 8.4 8.4 8.4z m0-20.9c8.4 0 15.5 5.2 18.4 12.5-2.9 7.3-10 12.5-18.4 12.5s-15.5-5.2-18.4-12.5c2.9-7.3 10-12.5 18.4-12.5z"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Password error
+    </h3>
+    <div
+      className=""
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="password"
+            value="Leo"
+          />
+          <svg
+            className={undefined}
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em"
+          >
+            <g>
+              <path
+                d="m20 15c2.7 0 5 2.3 5 5s-2.3 5-5 5-5-2.3-5-5 2.3-5 5-5z m0 13.4c4.6 0 8.4-3.8 8.4-8.4s-3.8-8.4-8.4-8.4-8.4 3.8-8.4 8.4 3.8 8.4 8.4 8.4z m0-20.9c8.4 0 15.5 5.2 18.4 12.5-2.9 7.3-10 12.5-18.4 12.5s-15.5-5.2-18.4-12.5c2.9-7.3 10-12.5 18.4-12.5z"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Password success
+    </h3>
+    <div
+      className="undefined"
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className=""
+        >
+          <input
+            disabled={false}
+            id="email-shortid-mock"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="nome@email.com"
+            type="password"
+            value="Leo"
+          />
+          <svg
+            className={undefined}
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em"
+          >
+            <g>
+              <path
+                d="m20 15c2.7 0 5 2.3 5 5s-2.3 5-5 5-5-2.3-5-5 2.3-5 5-5z m0 13.4c4.6 0 8.4-3.8 8.4-8.4s-3.8-8.4-8.4-8.4-8.4 3.8-8.4 8.4 3.8 8.4 8.4 8.4z m0-20.9c8.4 0 15.5 5.2 18.4 12.5-2.9 7.3-10 12.5-18.4 12.5s-15.5-5.2-18.4-12.5c2.9-7.3 10-12.5 18.4-12.5z"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
 exports[`Storyshots Legend all 1`] = `
 <div>
   <div>
