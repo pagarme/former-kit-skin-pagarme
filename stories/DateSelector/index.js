@@ -84,7 +84,7 @@ class DateSelectorExample extends React.Component {
 }
 
 storiesOf('DateSelector', module)
-  .add('All types', () => (
+  .add('All types with defaultTheme', () => (
     <div className={style.container}>
       <DateSelectorExample />
     </div>

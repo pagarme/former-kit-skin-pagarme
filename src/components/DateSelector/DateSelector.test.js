@@ -35,7 +35,7 @@ describe('DateSelector', () => {
   })
 
   it('should render presets with default presets', () => {
-    const component = shallow(
+    const component = mount(
       <DateSelector
         presets={presets}
         dates={defaultDates}
@@ -76,7 +76,7 @@ describe('DateSelector', () => {
   it('should call onConfirm', () => {
     const onConfirm = jest.fn()
 
-    const component = shallow(
+    const component = mount(
       <DateSelector
         presets={presets}
         dates={defaultDates}
@@ -99,7 +99,7 @@ describe('DateSelector', () => {
   it('should call onCancel', () => {
     const onCancel = jest.fn()
 
-    const component = shallow(
+    const component = mount(
       <DateSelector
         presets={presets}
         dates={defaultDates}
@@ -119,7 +119,7 @@ describe('DateSelector', () => {
   it('should return { start, end } onChange', () => {
     const onChange = jest.fn()
 
-    const component = shallow(
+    const component = mount(
       <DateSelector
         presets={presets}
         dates={defaultDates}
@@ -144,7 +144,7 @@ describe('DateSelector', () => {
   it('should return a seven-day interval', () => {
     const onChange = jest.fn()
 
-    const component = shallow(
+    const component = mount(
       <DateSelector
         presets={presets}
         dates={defaultDates}
@@ -233,7 +233,7 @@ describe('DateSelector', () => {
 
     const onChange = jest.fn()
 
-    const component = shallow(
+    const component = mount(
       <DateSelector
         presets={presets}
         dates={datesNull}
@@ -258,7 +258,7 @@ describe('DateSelector', () => {
   it('should render SINGLE preset when start and end are null', () => {
     const dates = { start: null, end: null }
 
-    const component = shallow(
+    const component = mount(
       <DateSelector
         presets={presets}
         dates={dates}
@@ -272,7 +272,7 @@ describe('DateSelector', () => {
   it('should render TODAY preset when start and end are today', () => {
     const dates = { start: moment(), end: moment() }
 
-    const component = shallow(
+    const component = mount(
       <DateSelector
         presets={presets}
         dates={dates}
@@ -286,7 +286,7 @@ describe('DateSelector', () => {
   it('should render RANGE preset when start and end are different', () => {
     const dates = { start: moment(), end: moment().add(10, 'days') }
 
-    const component = shallow(
+    const component = mount(
       <DateSelector
         presets={presets}
         dates={dates}
@@ -300,7 +300,7 @@ describe('DateSelector', () => {
   it('should render RANGE preset with only start date when end is null', () => {
     const dates = { start: moment(), end: null }
 
-    const component = shallow(
+    const component = mount(
       <DateSelector
         presets={presets}
         dates={dates}

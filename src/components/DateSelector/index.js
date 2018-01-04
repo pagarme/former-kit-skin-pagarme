@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { themr } from 'react-css-themr'
 import {
   func,
   string,
@@ -7,32 +8,22 @@ import {
   oneOfType,
   object,
 } from 'prop-types'
-
-import {
-  momentObj,
-} from 'react-moment-proptypes'
-
+import shortid from 'shortid'
+import { momentObj } from 'react-moment-proptypes'
 import {
   DayPickerRangeController,
   DayPickerSingleDateController,
 } from 'react-dates'
-
 import IconArrowLeft from 'react-icons/lib/fa/angle-left'
 import IconArrowRight from 'react-icons/lib/fa/angle-right'
-
-import shortid from 'shortid'
-
 import 'react-dates/lib/css/_datepicker.css'
 
 import Button from '../Button'
-
 import normalizeDates from './normalizeDates'
 import calculatePreset from './calculatePreset'
 
-import style from './style.css'
-import './react-dates.css'
-
 const START_DATE = 'startDate'
+const applyThemr = themr('UIDateSelector')
 
 const defaultStrings = {
   cancel: 'cancel',
@@ -46,21 +37,18 @@ const defaultStrings = {
   today: 'today',
 }
 
-export default class DateSelector extends Component {
+class DateSelector extends Component {
   constructor (props) {
     super(props)
-
     this.state = {
       preset: calculatePreset(props.dates),
     }
-
     this.instanceId = `dateselector-${shortid.generate()}`
 
     this.getStrings = this.getStrings.bind(this)
     this.handleFocusChange = this.handleFocusChange.bind(this)
     this.handleDatesChange = this.handleDatesChange.bind(this)
     this.handlePresetChange = this.handlePresetChange.bind(this)
-
     this.handleConfirm = this.handleConfirm.bind(this)
     this.handleCancel = this.handleCancel.bind(this)
   }
@@ -68,7 +56,6 @@ export default class DateSelector extends Component {
   componentWillReceiveProps (props) {
     if (props && props.dates) {
       const { dates } = props
-
       if (dates) {
         this.setState({ dates })
       }
@@ -119,7 +106,6 @@ export default class DateSelector extends Component {
 
   renderPreset ({ title, key, date }) {
     const { preset } = this.state
-
     const group = `${this.instanceId}-presets`
     const selectedId = `${this.instanceId}-preset-${preset}`
     const id = `${this.instanceId}-preset-${key}`
@@ -160,18 +146,9 @@ export default class DateSelector extends Component {
   }
 
   renderPicker () {
-    const {
-      preset,
-    } = this.state
-
-    const {
-      focusedInput,
-    } = this.props
-
-    const {
-      start,
-      end,
-    } = this.props.dates || {}
+    const { preset } = this.state
+    const { focusedInput } = this.props
+    const { start, end } = this.props.dates || {}
 
     return (
       <div className="ReactDates-overrides">
@@ -206,7 +183,8 @@ export default class DateSelector extends Component {
   }
 
   renderActions () {
-    const { start, end } = this.props.dates || {}
+    const { theme, dates } = this.props
+    const { start, end } = dates || {}
     const { preset } = this.state
     const {
       cancel,
@@ -225,25 +203,26 @@ export default class DateSelector extends Component {
     }
 
     return (
-      <div className={style.actions}>
-        <div className={style.selectedDays}>
+      <div className={theme.actions}>
+        <div className={theme.selectedDays}>
           {daysCount === 0 ? noDayOrPeriodSelected : null}
           {daysCount === 1 ? `1 ${daySelected}` : null}
           {daysCount > 1 ? `${daysCount} ${daysSelected}` : null}
         </div>
         <Button
-          variant="clean"
-          color="silver"
           size="small"
           onClick={this.handleCancel}
+          fill="clean"
+          type="reset"
+          relevance="low"
         >
           {cancel}
         </Button>
-        <span className={style.separator} />
+        <span className={theme.separator} />
         <Button
-          variant="clean"
           size="small"
           onClick={this.handleConfirm}
+          fill="clean"
         >
           {confirmPeriod}
         </Button>
@@ -259,8 +238,10 @@ export default class DateSelector extends Component {
       today,
     } = this.getStrings()
 
+    const { theme } = this.props
+
     return (
-      <div className={style.sidebar}>
+      <div className={theme.sidebar}>
         <ol>
           {this.renderPreset({
             key: 'today',
@@ -289,10 +270,12 @@ export default class DateSelector extends Component {
   }
 
   render () {
+    const { theme } = this.props
+
     return (
-      <div className={style.container}>
+      <div className={theme.container}>
         {this.renderSidebar()}
-        <div className={style.stage}>
+        <div className={theme.stage}>
           {this.renderPicker()}
           {this.renderActions()}
         </div>
@@ -302,6 +285,14 @@ export default class DateSelector extends Component {
 }
 
 DateSelector.propTypes = {
+  theme: shape({
+    actions: string,
+    selectedDays: string,
+    separator: string,
+    sidebar: string,
+    container: string,
+    stage: string,
+  }).isRequired,
   onConfirm: func,
   onChange: func,
   onCancel: func,
@@ -342,3 +333,5 @@ DateSelector.defaultProps = {
   presets: [],
   strings: defaultStrings,
 }
+
+export default applyThemr(DateSelector)

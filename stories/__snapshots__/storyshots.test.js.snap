@@ -2201,7 +2201,7 @@ exports[`Storyshots DateInput All styles 1`] = `
 </div>
 `;
 
-exports[`Storyshots DateSelector All types 1`] = `
+exports[`Storyshots DateSelector All types with defaultTheme 1`] = `
 <div
   className={undefined}
 >
@@ -5443,7 +5443,7 @@ exports[`Storyshots DateSelector All types 1`] = `
           className=""
           disabled={false}
           onClick={[Function]}
-          type="button"
+          type="reset"
         >
           cancel
         </button>
