@@ -9441,9 +9441,7 @@ exports[`Storyshots Modal default 1`] = `
               </g>
             </svg>
           </div>
-          <h2
-            className={undefined}
-          >
+          <h2>
             Add Photo
           </h2>
         </div>

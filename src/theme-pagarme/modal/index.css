@@ -1,66 +1,66 @@
 @import "./properties.css";
 
 .modal {
-  overflow: auto;
-  padding: var(--modal-frame-width);
-  background-color: var(--modal-frame-background-color);
+  background-color: var(--modal-background-color);
   border-radius: var(--modal-border-radius);
-  outline: none;
-  width: var(--modal-inner-width);
-  box-shadow: 3px 4px 10px 0 var(--modal-box-shadow-color);
-  position: relative;
+  box-shadow: var(--modal-box-shadow);
   height: auto;
+  outline: none;
+  overflow: auto;
+  padding: var(--modal-padding);
+  position: relative;
   transform: translateY(var(--modal-position-top));
+  width: var(--modal-inner-width);
 }
 
 .overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  align-items: baseline;
   background: var(--modal-overlay-background);
+  bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
 
-.modalFrame {
-  border: solid 1px rgba(var(--modal-frame-border-color), 0.4);
+.frame {
+  background: var(--modal-frame-background-color);
   border-radius: var(--modal-border-radius);
-  background: var(--color-white);
+  border: var(--modal-frame-border);
 }
 
-.modalTitle {
+.title {
+  align-items: center;
   color: var(--modal-title-color);
   display: flex;
-  align-items: center;
   line-height: 100%;
   padding-top: var(--modal-padding);
 }
 
-.titleElement {
-  margin: 0;
+.title > h2 {
   font-size: var(--modal-title-font-size);
-  text-transform: uppercase;
+  margin: var(--modal-title-margin);
+  text-transform: var(--modal-title-text-transform);
 }
 
-.titleIcon {
+.icon {
   margin-right: var(--modal-title-icon-spacing);
 }
 
-.modalActions > * {
-  margin-left: var(--spacing-small);
+.actions > * {
+  margin-left: var(--modal-actions-margin);
 }
 
-.modalTitle,
-.modalContent,
-.modalActions {
+.title,
+.content,
+.actions {
   padding-left: var(--modal-padding);
   padding-right: var(--modal-padding);
 }
 
-.modalActions {
+.actions {
   display: flex;
   justify-content: flex-end;
   padding-bottom: var(--modal-padding);

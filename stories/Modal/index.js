@@ -40,8 +40,8 @@ class ModalWithState extends Component {
       <div>
         {/* call to action to open the modal */}
         <Button
-          variant="flat"
-          color="silver"
+          fill="flat"
+          relevance="low"
           onClick={this.handleToggleModal}
         >
           <IconAddPhoto /> Add Photo
@@ -61,8 +61,7 @@ class ModalWithState extends Component {
 
           <ModalActions>
             <Button
-              color="green"
-              variant="outline"
+              fill="outline"
               size="small"
               onClick={this.handleToggleModal}
             >
@@ -70,7 +69,6 @@ class ModalWithState extends Component {
             </Button>
 
             <Button
-              color="green"
               size="small"
               onClick={this.handleToggleModal}
             >
