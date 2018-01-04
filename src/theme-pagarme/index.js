@@ -7,6 +7,7 @@ import UIDateInput from './date-input/index.css'
 import UIDateSelector from './date-selector'
 import UIDropdown from './dropdown/index.css'
 import UIDropdownForm from './form-fields/dropdown/index.css'
+import UIGrid from './grid/index.css'
 
 export default {
   UIAlert,
@@ -18,4 +19,5 @@ export default {
   UIDateSelector,
   UIDropdown,
   UIDropdownForm,
+  UIGrid,
 }
