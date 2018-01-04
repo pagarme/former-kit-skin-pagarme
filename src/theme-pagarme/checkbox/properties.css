@@ -1,4 +1,4 @@
-@import "../../theme-pagarme/colors.css";
+@import "../colors.css";
 
 :root {
   --checkbox-label-font-size: 14px;
@@ -12,11 +12,11 @@
   --checkbox-box-border-color-checked: var(--color-light-iron-50);
   --checkbox-box-border-radius: 3px;
   --checkbox-margin-right: 16px;
-  --checkbox-marker-rotation: -45deg;
-  --checkbox-marker-color: var(--color-light-greenish-20);
-  --checkbox-marker-width: 19px;
-  --checkbox-marker-height: 9px;
-  --checkbox-marker-border-color: var(--color-light-greenish-100);
+  --checkbox-check-rotation: -45deg;
+  --checkbox-check-color: var(--color-light-greenish-20);
+  --checkbox-check-width: 19px;
+  --checkbox-check-height: 9px;
+  --checkbox-check-border-color: var(--color-light-greenish-100);
   --checkbox-checked-background-color: var(--color-light-greenish-20);
   --checkbox-spacing: 10px;
   --checkbox-secondary-text-font-size: 12px;

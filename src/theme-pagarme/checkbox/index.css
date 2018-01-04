@@ -1,19 +1,19 @@
 /* stylelint-disable selector-max-class */
 @import "./properties.css";
 
-.container *,
-.container *:before,
-.container *:after {
+.checkbox *,
+.checkbox *:before,
+.checkbox *:after {
   box-sizing: border-box;
 }
 
-.container {
+.checkbox {
   position: relative;
   margin-right: var(--checkbox-margin);
   margin-bottom: var(--checkbox-margin);
 }
 
-.container > label {
+.checkbox > label {
   cursor: pointer;
   font-size: var(--checkbox-label-font-size);
   color: var(--checkbox-label-default-color);
@@ -25,20 +25,20 @@
   user-select: none;
 }
 
-.iconCheck:before,
-.iconCheck:after {
+.check:before,
+.check:after {
   content: "";
   display: inline-block;
   margin-right: var(--checkbox-spacing);
 }
 
-.iconCheck {
+.check {
   display: flex;
   align-items: center;
   position: relative;
 }
 
-.iconCheck:before {
+.check:before {
   width: var(--checkbox-box-width);
   height: var(--checkbox-box-height);
   background: var(--checkbox-box-background-color);
@@ -47,7 +47,7 @@
   cursor: pointer;
 }
 
-.iconCheck:after {
+.check:after {
   position: absolute;
   top: 0;
   left: 0;
@@ -55,11 +55,11 @@
 
 .disabled,
 .disabled > label,
-.disabled .iconCheck:before {
+.disabled .check:before {
   cursor: not-allowed;
 }
 
-.disabled .iconCheck:before {
+.disabled .check:before {
   border: 1px solid var(--checkbox-box-border-color-disabled);
 }
 
@@ -67,7 +67,7 @@
   color: var(--checkbox-label-disabled-color);
 }
 
-.container > input {
+.checkbox > input {
   outline: 0;
   margin-right: var(--checkbox-margin-right);
   position: absolute;
@@ -76,22 +76,22 @@
   opacity: 0;
 }
 
-.container > input:checked + label {
+.checkbox > input:checked + label {
   background-color: var(--checkbox-checked-background-color);
 }
 
-.container > input:checked + label .iconCheck:before {
+.checkbox > input:checked + label .check:before {
   border: solid 1px var(--checkbox-box-border-color-checked);
 }
 
-.container > input:checked + label .iconCheck:after {
-  transform: rotate(var(--checkbox-marker-rotation));
-  color: var(--checkbox-marker-color);
-  width: var(--checkbox-marker-width);
-  height: var(--checkbox-marker-height);
+.checkbox > input:checked + label .check:after {
+  transform: rotate(var(--checkbox-check-rotation));
+  color: var(--checkbox-check-color);
+  width: var(--checkbox-check-width);
+  height: var(--checkbox-check-height);
   left: 4px;
   top: 1px;
-  border: 2px solid var(--checkbox-marker-border-color);
+  border: 2px solid var(--checkbox-check-border-color);
   border-top-style: none;
   border-right-style: none;
 }
@@ -106,10 +106,10 @@
   margin-left: calc(var(--checkbox-spacing) * 2 + var(--checkbox-box-width));
 }
 
-.error {
+.error .secondaryText {
   color: var(--color-light-error);
 }
 
-.success {
+.success .secondaryText {
   color: var(--color-light-success);
 }

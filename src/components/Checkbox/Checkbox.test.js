@@ -21,6 +21,7 @@ describe('Checkbox', () => {
     )
 
     component
+      .dive()
       .find('input')
       .simulate('change', {
         target: { value },
@@ -48,6 +49,7 @@ describe('Checkbox', () => {
     )
 
     component
+      .dive()
       .find('input')
       .simulate('change', {
         target: { value },

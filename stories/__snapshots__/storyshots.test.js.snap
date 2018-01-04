@@ -5104,7 +5104,7 @@ exports[`Storyshots Forms Checkbox Group 1`] = `
           <div>
             <div>
               <div
-                className="undefined"
+                className=""
               >
                 <input
                   checked={false}
@@ -5126,7 +5126,7 @@ exports[`Storyshots Forms Checkbox Group 1`] = `
                 
               </div>
               <div
-                className="undefined"
+                className=""
               >
                 <input
                   checked={true}
@@ -5148,7 +5148,7 @@ exports[`Storyshots Forms Checkbox Group 1`] = `
                 
               </div>
               <div
-                className="undefined"
+                className=""
               >
                 <input
                   checked={false}

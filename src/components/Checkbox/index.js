@@ -1,40 +1,57 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import classnames from 'classnames'
+import {
+  bool,
+  func,
+  shape,
+  string,
+} from 'prop-types'
 
-import style from './style.css'
+import classNames from 'classnames'
+import { themr } from 'react-css-themr'
 
-const Checkbox = (props) => {
-  const containerClass = classnames(style.container, {
-    [style.disabled]: props.disabled,
-  })
+const applyThemr = themr('UICheckbox')
 
-  const secondaryTextClass = classnames(style.secondaryText, {
-    [style.error]: props.error,
-    [style.success]: props.success,
-  })
+const Checkbox = ({
+  disabled,
+  error,
+  success,
+  checked,
+  name,
+  theme,
+  value,
+  onChange,
+  label,
+}) => {
+  const containerClass = classNames(
+    theme.checkbox,
+    {
+      [theme.disabled]: disabled,
+      [theme.error]: error,
+      [theme.success]: success,
+    }
+  )
 
   return (
     <div className={containerClass}>
       <input
         type="checkbox"
-        name={props.name}
-        value={props.value}
-        id={`${props.name}-${props.value}`}
-        checked={props.checked}
-        disabled={props.disabled}
-        onChange={e => !props.disabled && props.onChange(e.target.value)}
+        name={name}
+        value={value}
+        id={`${name}-${value}`}
+        checked={checked}
+        disabled={disabled}
+        onChange={e => !disabled && onChange(e.target.value)}
       />
       <label
-        htmlFor={`${props.name}-${props.value}`}
+        htmlFor={`${name}-${value}`}
       >
-        <i className={style.iconCheck} />
-        {props.label}
+        <i className={theme.check} />
+        {label}
       </label>
 
-      {(props.success || props.error) &&
-        <p className={secondaryTextClass}>
-          {props.success || props.error}
+      {(success || error) &&
+        <p className={theme.secondaryText}>
+          {success || error}
         </p>
       }
     </div>
@@ -42,20 +59,29 @@ const Checkbox = (props) => {
 }
 
 Checkbox.propTypes = {
-  name: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
-  checked: PropTypes.bool.isRequired,
-  onChange: PropTypes.func.isRequired,
-  disabled: PropTypes.bool,
-  error: PropTypes.string,
-  success: PropTypes.string,
+  theme: shape({
+    checkbox: string,
+    check: string,
+    disabled: string,
+    secondaryText: string,
+    success: string,
+    error: string,
+  }),
+  name: string.isRequired,
+  value: string.isRequired,
+  label: string.isRequired,
+  checked: bool.isRequired,
+  onChange: func.isRequired,
+  disabled: bool,
+  error: string,
+  success: string,
 }
 
 Checkbox.defaultProps = {
+  theme: {},
   disabled: false,
   error: '',
   success: '',
 }
 
-export default Checkbox
+export default applyThemr(Checkbox)
