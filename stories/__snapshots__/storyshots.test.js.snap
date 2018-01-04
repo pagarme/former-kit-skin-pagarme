@@ -1565,13 +1565,13 @@ exports[`Storyshots DateSelector All types 1`] = `
         <li>
           <input
             checked={true}
-            id="dateselector-always-the-same-string-preset-today"
-            name="dateselector-always-the-same-string-presets"
+            id="dateselector-shortid-mock-preset-today"
+            name="dateselector-shortid-mock-presets"
             onChange={[Function]}
             type="radio"
           />
           <label
-            htmlFor="dateselector-always-the-same-string-preset-today"
+            htmlFor="dateselector-shortid-mock-preset-today"
           >
             today
           </label>
@@ -1583,13 +1583,13 @@ exports[`Storyshots DateSelector All types 1`] = `
           <li>
             <input
               checked={false}
-              id="dateselector-always-the-same-string-preset-last-7"
-              name="dateselector-always-the-same-string-presets"
+              id="dateselector-shortid-mock-preset-last-7"
+              name="dateselector-shortid-mock-presets"
               onChange={[Function]}
               type="radio"
             />
             <label
-              htmlFor="dateselector-always-the-same-string-preset-last-7"
+              htmlFor="dateselector-shortid-mock-preset-last-7"
             >
               7 dias
             </label>
@@ -1597,13 +1597,13 @@ exports[`Storyshots DateSelector All types 1`] = `
           <li>
             <input
               checked={false}
-              id="dateselector-always-the-same-string-preset-last-15"
-              name="dateselector-always-the-same-string-presets"
+              id="dateselector-shortid-mock-preset-last-15"
+              name="dateselector-shortid-mock-presets"
               onChange={[Function]}
               type="radio"
             />
             <label
-              htmlFor="dateselector-always-the-same-string-preset-last-15"
+              htmlFor="dateselector-shortid-mock-preset-last-15"
             >
               15 dias
             </label>
@@ -1611,13 +1611,13 @@ exports[`Storyshots DateSelector All types 1`] = `
           <li>
             <input
               checked={false}
-              id="dateselector-always-the-same-string-preset-last-30"
-              name="dateselector-always-the-same-string-presets"
+              id="dateselector-shortid-mock-preset-last-30"
+              name="dateselector-shortid-mock-presets"
               onChange={[Function]}
               type="radio"
             />
             <label
-              htmlFor="dateselector-always-the-same-string-preset-last-30"
+              htmlFor="dateselector-shortid-mock-preset-last-30"
             >
               30 dias
             </label>
@@ -1625,13 +1625,13 @@ exports[`Storyshots DateSelector All types 1`] = `
           <li>
             <input
               checked={false}
-              id="dateselector-always-the-same-string-preset-last-60"
-              name="dateselector-always-the-same-string-presets"
+              id="dateselector-shortid-mock-preset-last-60"
+              name="dateselector-shortid-mock-presets"
               onChange={[Function]}
               type="radio"
             />
             <label
-              htmlFor="dateselector-always-the-same-string-preset-last-60"
+              htmlFor="dateselector-shortid-mock-preset-last-60"
             >
               60 dias
             </label>
@@ -1645,13 +1645,13 @@ exports[`Storyshots DateSelector All types 1`] = `
             <li>
               <input
                 checked={false}
-                id="dateselector-always-the-same-string-preset-single"
-                name="dateselector-always-the-same-string-presets"
+                id="dateselector-shortid-mock-preset-single"
+                name="dateselector-shortid-mock-presets"
                 onChange={[Function]}
                 type="radio"
               />
               <label
-                htmlFor="dateselector-always-the-same-string-preset-single"
+                htmlFor="dateselector-shortid-mock-preset-single"
               >
                 day
               </label>
@@ -1659,13 +1659,13 @@ exports[`Storyshots DateSelector All types 1`] = `
             <li>
               <input
                 checked={false}
-                id="dateselector-always-the-same-string-preset-range"
-                name="dateselector-always-the-same-string-presets"
+                id="dateselector-shortid-mock-preset-range"
+                name="dateselector-shortid-mock-presets"
                 onChange={[Function]}
                 type="radio"
               />
               <label
-                htmlFor="dateselector-always-the-same-string-preset-range"
+                htmlFor="dateselector-shortid-mock-preset-range"
               >
                 period
               </label>
@@ -4896,7 +4896,7 @@ exports[`Storyshots Filters Default 1`] = `
               >
                 <input
                   className={undefined}
-                  id="always-the-same-string-startDate"
+                  id="shortid-mock-startDate"
                   mask="11/11/1111"
                   maxLength={10}
                   name="startDate"
@@ -4918,7 +4918,7 @@ exports[`Storyshots Filters Default 1`] = `
               </div>
               <label
                 className=""
-                htmlFor="always-the-same-string-startDate"
+                htmlFor="shortid-mock-startDate"
               >
                 Selecione um dia ou período
               </label>
@@ -7299,13 +7299,13 @@ exports[`Storyshots Forms Radio Group 1`] = `
         >
           <label
             className={undefined}
-            htmlFor="always-the-same-string-predio-0"
+            htmlFor="shortid-mock-predio-0"
           >
             <input
               checked={true}
               className={undefined}
               disabled={true}
-              id="always-the-same-string-predio-0"
+              id="shortid-mock-predio-0"
               name="disabled"
               onChange={[Function]}
               type="radio"
@@ -7322,13 +7322,13 @@ exports[`Storyshots Forms Radio Group 1`] = `
           </label>
           <label
             className={undefined}
-            htmlFor="always-the-same-string-casa-1"
+            htmlFor="shortid-mock-casa-1"
           >
             <input
               checked={true}
               className={undefined}
               disabled={true}
-              id="always-the-same-string-casa-1"
+              id="shortid-mock-casa-1"
               name="disabled"
               onChange={[Function]}
               type="radio"
@@ -7345,13 +7345,13 @@ exports[`Storyshots Forms Radio Group 1`] = `
           </label>
           <label
             className={undefined}
-            htmlFor="always-the-same-string-sofa-2"
+            htmlFor="shortid-mock-sofa-2"
           >
             <input
               checked={false}
               className={undefined}
               disabled={true}
-              id="always-the-same-string-sofa-2"
+              id="shortid-mock-sofa-2"
               name="disabled"
               onChange={[Function]}
               type="radio"
@@ -7384,13 +7384,13 @@ exports[`Storyshots Forms Radio Group 1`] = `
         >
           <label
             className={undefined}
-            htmlFor="always-the-same-string-predio-0"
+            htmlFor="shortid-mock-predio-0"
           >
             <input
               checked={false}
               className={undefined}
               disabled={false}
-              id="always-the-same-string-predio-0"
+              id="shortid-mock-predio-0"
               name="default"
               onChange={[Function]}
               type="radio"
@@ -7407,13 +7407,13 @@ exports[`Storyshots Forms Radio Group 1`] = `
           </label>
           <label
             className={undefined}
-            htmlFor="always-the-same-string-casa-1"
+            htmlFor="shortid-mock-casa-1"
           >
             <input
               checked={true}
               className={undefined}
               disabled={false}
-              id="always-the-same-string-casa-1"
+              id="shortid-mock-casa-1"
               name="default"
               onChange={[Function]}
               type="radio"
@@ -7430,13 +7430,13 @@ exports[`Storyshots Forms Radio Group 1`] = `
           </label>
           <label
             className={undefined}
-            htmlFor="always-the-same-string-sofa-2"
+            htmlFor="shortid-mock-sofa-2"
           >
             <input
               checked={false}
               className={undefined}
               disabled={false}
-              id="always-the-same-string-sofa-2"
+              id="shortid-mock-sofa-2"
               name="default"
               onChange={[Function]}
               type="radio"
@@ -7469,13 +7469,13 @@ exports[`Storyshots Forms Radio Group 1`] = `
         >
           <label
             className={undefined}
-            htmlFor="always-the-same-string-predio-0"
+            htmlFor="shortid-mock-predio-0"
           >
             <input
               checked={false}
               className={undefined}
               disabled={false}
-              id="always-the-same-string-predio-0"
+              id="shortid-mock-predio-0"
               name="success"
               onChange={[Function]}
               type="radio"
@@ -7492,13 +7492,13 @@ exports[`Storyshots Forms Radio Group 1`] = `
           </label>
           <label
             className={undefined}
-            htmlFor="always-the-same-string-casa-1"
+            htmlFor="shortid-mock-casa-1"
           >
             <input
               checked={false}
               className={undefined}
               disabled={false}
-              id="always-the-same-string-casa-1"
+              id="shortid-mock-casa-1"
               name="success"
               onChange={[Function]}
               type="radio"
@@ -7515,13 +7515,13 @@ exports[`Storyshots Forms Radio Group 1`] = `
           </label>
           <label
             className={undefined}
-            htmlFor="always-the-same-string-sofa-2"
+            htmlFor="shortid-mock-sofa-2"
           >
             <input
               checked={true}
               className={undefined}
               disabled={false}
-              id="always-the-same-string-sofa-2"
+              id="shortid-mock-sofa-2"
               name="success"
               onChange={[Function]}
               type="radio"
@@ -7558,13 +7558,13 @@ exports[`Storyshots Forms Radio Group 1`] = `
         >
           <label
             className={undefined}
-            htmlFor="always-the-same-string-predio-0"
+            htmlFor="shortid-mock-predio-0"
           >
             <input
               checked={false}
               className={undefined}
               disabled={false}
-              id="always-the-same-string-predio-0"
+              id="shortid-mock-predio-0"
               name="error"
               onChange={[Function]}
               type="radio"
@@ -7581,13 +7581,13 @@ exports[`Storyshots Forms Radio Group 1`] = `
           </label>
           <label
             className={undefined}
-            htmlFor="always-the-same-string-casa-1"
+            htmlFor="shortid-mock-casa-1"
           >
             <input
               checked={true}
               className={undefined}
               disabled={false}
-              id="always-the-same-string-casa-1"
+              id="shortid-mock-casa-1"
               name="error"
               onChange={[Function]}
               type="radio"
@@ -7604,13 +7604,13 @@ exports[`Storyshots Forms Radio Group 1`] = `
           </label>
           <label
             className={undefined}
-            htmlFor="always-the-same-string-sofa-2"
+            htmlFor="shortid-mock-sofa-2"
           >
             <input
               checked={false}
               className={undefined}
               disabled={false}
-              id="always-the-same-string-sofa-2"
+              id="shortid-mock-sofa-2"
               name="error"
               onChange={[Function]}
               type="radio"
@@ -11285,7 +11285,7 @@ exports[`Storyshots Toolbar DateInput 1`] = `
             >
               <input
                 className={undefined}
-                id="always-the-same-string-startDate"
+                id="shortid-mock-startDate"
                 mask="11/11/1111"
                 maxLength={10}
                 name="startDate"
@@ -11307,7 +11307,7 @@ exports[`Storyshots Toolbar DateInput 1`] = `
             </div>
             <label
               className=""
-              htmlFor="always-the-same-string-startDate"
+              htmlFor="shortid-mock-startDate"
             >
               Selecione um dia ou período
             </label>
@@ -11366,7 +11366,7 @@ exports[`Storyshots Toolbar DateInput 1`] = `
             >
               <input
                 className={undefined}
-                id="always-the-same-string-startDate"
+                id="shortid-mock-startDate"
                 mask="11/11/1111"
                 maxLength={10}
                 name="startDate"
@@ -11441,7 +11441,7 @@ exports[`Storyshots Toolbar DateInput 1`] = `
             >
               <input
                 className={undefined}
-                id="always-the-same-string-startDate"
+                id="shortid-mock-startDate"
                 mask="11/11/1111"
                 maxLength={10}
                 name="startDate"
@@ -11540,7 +11540,7 @@ exports[`Storyshots Toolbar DateInput 1`] = `
             >
               <input
                 className={undefined}
-                id="always-the-same-string-startDate"
+                id="shortid-mock-startDate"
                 mask="11/11/1111"
                 maxLength={10}
                 name="startDate"
@@ -11611,14 +11611,14 @@ exports[`Storyshots Toolbar DateRange 1`] = `
     >
       <label
         className={undefined}
-        htmlFor="always-the-same-string-0"
+        htmlFor="shortid-mock-0"
       >
         <input
           checked={false}
           className={undefined}
           disabled={false}
-          id="always-the-same-string-0"
-          name="always-the-same-string"
+          id="shortid-mock-0"
+          name="shortid-mock"
           onChange={[Function]}
           type="radio"
           value={0}
@@ -11631,14 +11631,14 @@ exports[`Storyshots Toolbar DateRange 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="always-the-same-string-7"
+        htmlFor="shortid-mock-7"
       >
         <input
           checked={false}
           className={undefined}
           disabled={false}
-          id="always-the-same-string-7"
-          name="always-the-same-string"
+          id="shortid-mock-7"
+          name="shortid-mock"
           onChange={[Function]}
           type="radio"
           value={7}
@@ -11651,14 +11651,14 @@ exports[`Storyshots Toolbar DateRange 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="always-the-same-string-15"
+        htmlFor="shortid-mock-15"
       >
         <input
           checked={false}
           className={undefined}
           disabled={false}
-          id="always-the-same-string-15"
-          name="always-the-same-string"
+          id="shortid-mock-15"
+          name="shortid-mock"
           onChange={[Function]}
           type="radio"
           value={15}
@@ -11671,14 +11671,14 @@ exports[`Storyshots Toolbar DateRange 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="always-the-same-string-30"
+        htmlFor="shortid-mock-30"
       >
         <input
           checked={false}
           className={undefined}
           disabled={false}
-          id="always-the-same-string-30"
-          name="always-the-same-string"
+          id="shortid-mock-30"
+          name="shortid-mock"
           onChange={[Function]}
           type="radio"
           value={30}
@@ -11691,14 +11691,14 @@ exports[`Storyshots Toolbar DateRange 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="always-the-same-string-60"
+        htmlFor="shortid-mock-60"
       >
         <input
           checked={false}
           className={undefined}
           disabled={false}
-          id="always-the-same-string-60"
-          name="always-the-same-string"
+          id="shortid-mock-60"
+          name="shortid-mock"
           onChange={[Function]}
           type="radio"
           value={60}
@@ -11711,14 +11711,14 @@ exports[`Storyshots Toolbar DateRange 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="always-the-same-string-calendar"
+        htmlFor="shortid-mock-calendar"
       >
         <input
           checked={true}
           className={undefined}
           disabled={false}
-          id="always-the-same-string-calendar"
-          name="always-the-same-string"
+          id="shortid-mock-calendar"
+          name="shortid-mock"
           onChange={[Function]}
           type="radio"
           value="calendar"
@@ -11758,14 +11758,14 @@ exports[`Storyshots Toolbar DateRange 1`] = `
     >
       <label
         className={undefined}
-        htmlFor="always-the-same-string-0"
+        htmlFor="shortid-mock-0"
       >
         <input
           checked={false}
           className={undefined}
           disabled={true}
-          id="always-the-same-string-0"
-          name="always-the-same-string"
+          id="shortid-mock-0"
+          name="shortid-mock"
           onChange={[Function]}
           type="radio"
           value={0}
@@ -11778,14 +11778,14 @@ exports[`Storyshots Toolbar DateRange 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="always-the-same-string-7"
+        htmlFor="shortid-mock-7"
       >
         <input
           checked={true}
           className={undefined}
           disabled={true}
-          id="always-the-same-string-7"
-          name="always-the-same-string"
+          id="shortid-mock-7"
+          name="shortid-mock"
           onChange={[Function]}
           type="radio"
           value={7}
@@ -11798,14 +11798,14 @@ exports[`Storyshots Toolbar DateRange 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="always-the-same-string-15"
+        htmlFor="shortid-mock-15"
       >
         <input
           checked={false}
           className={undefined}
           disabled={true}
-          id="always-the-same-string-15"
-          name="always-the-same-string"
+          id="shortid-mock-15"
+          name="shortid-mock"
           onChange={[Function]}
           type="radio"
           value={15}
@@ -11818,14 +11818,14 @@ exports[`Storyshots Toolbar DateRange 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="always-the-same-string-30"
+        htmlFor="shortid-mock-30"
       >
         <input
           checked={false}
           className={undefined}
           disabled={true}
-          id="always-the-same-string-30"
-          name="always-the-same-string"
+          id="shortid-mock-30"
+          name="shortid-mock"
           onChange={[Function]}
           type="radio"
           value={30}
@@ -11838,14 +11838,14 @@ exports[`Storyshots Toolbar DateRange 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="always-the-same-string-60"
+        htmlFor="shortid-mock-60"
       >
         <input
           checked={false}
           className={undefined}
           disabled={true}
-          id="always-the-same-string-60"
-          name="always-the-same-string"
+          id="shortid-mock-60"
+          name="shortid-mock"
           onChange={[Function]}
           type="radio"
           value={60}
@@ -11858,14 +11858,14 @@ exports[`Storyshots Toolbar DateRange 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="always-the-same-string-calendar"
+        htmlFor="shortid-mock-calendar"
       >
         <input
           checked={false}
           className={undefined}
           disabled={true}
-          id="always-the-same-string-calendar"
-          name="always-the-same-string"
+          id="shortid-mock-calendar"
+          name="shortid-mock"
           onChange={[Function]}
           type="radio"
           value="calendar"
@@ -11949,14 +11949,14 @@ exports[`Storyshots Toolbar Pagination 1`] = `
           </button>
           <label
             className=""
-            htmlFor="always-the-same-string-input"
+            htmlFor="shortid-mock-input"
           >
             <span
               className={undefined}
             >
               <input
                 className={undefined}
-                id="always-the-same-string-input"
+                id="shortid-mock-input"
                 max={1}
                 maxLength={2}
                 min={1}
@@ -12069,14 +12069,14 @@ exports[`Storyshots Toolbar Pagination 1`] = `
           </button>
           <label
             className=""
-            htmlFor="always-the-same-string-input"
+            htmlFor="shortid-mock-input"
           >
             <span
               className={undefined}
             >
               <input
                 className={undefined}
-                id="always-the-same-string-input"
+                id="shortid-mock-input"
                 max={10}
                 maxLength={2}
                 min={1}
@@ -12189,14 +12189,14 @@ exports[`Storyshots Toolbar Pagination 1`] = `
           </button>
           <label
             className=""
-            htmlFor="always-the-same-string-input"
+            htmlFor="shortid-mock-input"
           >
             <span
               className={undefined}
             >
               <input
                 className={undefined}
-                id="always-the-same-string-input"
+                id="shortid-mock-input"
                 max={10}
                 maxLength={2}
                 min={1}
@@ -12309,14 +12309,14 @@ exports[`Storyshots Toolbar Pagination 1`] = `
           </button>
           <label
             className=""
-            htmlFor="always-the-same-string-input"
+            htmlFor="shortid-mock-input"
           >
             <span
               className={undefined}
             >
               <input
                 className={undefined}
-                id="always-the-same-string-input"
+                id="shortid-mock-input"
                 max={10}
                 maxLength={2}
                 min={1}
@@ -12429,14 +12429,14 @@ exports[`Storyshots Toolbar Pagination 1`] = `
           </button>
           <label
             className=""
-            htmlFor="always-the-same-string-input"
+            htmlFor="shortid-mock-input"
           >
             <span
               className={undefined}
             >
               <input
                 className={undefined}
-                id="always-the-same-string-input"
+                id="shortid-mock-input"
                 max={10000}
                 maxLength={2}
                 min={1}
@@ -12549,14 +12549,14 @@ exports[`Storyshots Toolbar Pagination 1`] = `
           </button>
           <label
             className="undefined"
-            htmlFor="always-the-same-string-input"
+            htmlFor="shortid-mock-input"
           >
             <span
               className={undefined}
             >
               <input
                 className={undefined}
-                id="always-the-same-string-input"
+                id="shortid-mock-input"
                 max={1}
                 maxLength={2}
                 min={1}

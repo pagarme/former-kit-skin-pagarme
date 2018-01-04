@@ -35,6 +35,10 @@ global.getComputedStyle = () => ({
   styleSheets: {},
 })
 
+jest.mock('shortid', () => ({
+  generate: () => 'shortid-mock',
+}))
+
 jest.mock('react-modal', () => (
   ({ children }) => (
     <div className="modal">{children}</div>
