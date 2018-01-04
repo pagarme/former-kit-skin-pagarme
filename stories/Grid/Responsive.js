@@ -6,7 +6,7 @@ import { range } from 'ramda'
 import { Grid, Row, Col } from '../../src/components/Grid'
 import CardSample from './CardSample'
 
-import '../../src/styles/index.css'
+import '../../src/theme-pagarme/index.css'
 import style from './style.css'
 
 

@@ -1,4 +1,4 @@
-@import "../../styles/colors.css";
+@import "../../theme-pagarme/colors.css";
 
 :root {
   --progress-linear-width: 300px;

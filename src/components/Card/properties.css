@@ -1,4 +1,4 @@
-@import "../../styles/spacing.css";
+@import "../../theme-pagarme/spacing.css";
 
 :root {
   --card-spacing-large: var(--spacing-medium);

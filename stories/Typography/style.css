@@ -1,4 +1,4 @@
-@import "../../src/styles/typography.css";
+@import "../../src/theme-pagarme/typography.css";
 
 .fontBook > div {
   display: flex;

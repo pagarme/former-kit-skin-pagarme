@@ -1,4 +1,4 @@
-@import "../../styles/colors.css";
+@import "../../theme-pagarme/colors.css";
 
 :root {
   --alert-secondary-border-color: var(--color-light-silver-100);

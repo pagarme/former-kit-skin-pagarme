@@ -5,7 +5,7 @@ import { action } from '@storybook/addon-actions'
 
 import Icon from 'react-icons/lib/md/insert-invitation'
 
-import '../../src/styles/index.css'
+import '../../src/theme-pagarme/index.css'
 import style from './style.css'
 
 import {

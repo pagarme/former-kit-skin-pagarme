@@ -1,5 +1,5 @@
 @import "./properties.css";
-@import "../../styles/typography.css";
+@import "../../theme-pagarme/typography.css";
 
 .linear {
   width: var(--progress-linear-width);

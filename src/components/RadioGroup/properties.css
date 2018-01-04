@@ -1,4 +1,4 @@
-@import "../../styles/colors.css";
+@import "../../theme-pagarme/colors.css";
 
 :root {
   --radio-group-font-family: var(--title-font-family);

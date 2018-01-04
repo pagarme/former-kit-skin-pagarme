@@ -1,11 +1,3 @@
-/* eslint css-modules/no-unused-class: [2, {
-     markAsUsed: [
-       'dark-warning', 'dark-error', 'dark-info', 'dark-success',
-       'light-warning', 'light-info', 'light-error', 'light-success'
-     ]
-   }]
-*/
-
 import React from 'react'
 import classnames from 'classnames'
 import {

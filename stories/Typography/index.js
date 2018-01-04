@@ -3,8 +3,8 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 
 import style from './style.css'
-import typography from '../../src/styles/typography.css'
-import '../../src/styles/index.css'
+import typography from '../../src/theme-pagarme/typography.css'
+import '../../src/theme-pagarme/index.css'
 
 storiesOf('Typography', module)
   .add('Famílias de Fonte', () => (

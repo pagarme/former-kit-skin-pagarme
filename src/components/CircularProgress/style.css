@@ -1,5 +1,5 @@
 @import "./properties.css";
-@import "../../styles/typography.css";
+@import "../../theme-pagarme/typography.css";
 
 .circular {
   width: var(--progress-circular-size);

@@ -1,12 +1,3 @@
-/* eslint css-modules/no-unused-class: [2, {
-     markAsUsed: [
-       'flat', 'gradient', 'light-flat', 'light-gradient', 'dark-flat',
-       'dark-gradient', 'outline', 'clean', 'block', 'extra-small',
-       'small', 'default', 'large'
-     ]
-   }]
-*/
-
 import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'

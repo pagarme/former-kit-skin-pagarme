@@ -1,5 +1,5 @@
 @import "./properties";
-@import "../../styles/typography.css";
+@import "../../theme-pagarme/typography.css";
 
 .switch {
   cursor: pointer;

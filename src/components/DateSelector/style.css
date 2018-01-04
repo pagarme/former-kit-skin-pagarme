@@ -1,6 +1,6 @@
-@import "../../styles/typography.css";
-@import "../../styles/spacing.css";
-@import "../../styles/colors.css";
+@import "../../theme-pagarme/typography.css";
+@import "../../theme-pagarme/spacing.css";
+@import "../../theme-pagarme/colors.css";
 @import "./properties.css";
 
 .container,

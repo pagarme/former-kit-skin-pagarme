@@ -1,4 +1,4 @@
-@import "../../../styles/colors.css";
+@import "../../../theme-pagarme/colors.css";
 
 :root {
   --search-field-input-padding: 6px;
