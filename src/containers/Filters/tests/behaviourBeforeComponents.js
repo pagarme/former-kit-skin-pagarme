@@ -89,7 +89,10 @@ const changeAllFilters = () => {
   const defaultProps = component.props()
 
   // expand filters section
-  component.find(CardSection).find('a').simulate('click')
+  component
+    .find(CardSection)
+    .find('[role="button"]')
+    .simulate('click')
   const checkboxGroups = getCheckboxGroups(component)
   const checkedFiltersValues = checkboxGroups
     .map(node => node
@@ -111,7 +114,10 @@ const changeAllFilters = () => {
   dateInput.props().onChange(newDates)
 
   // colapse filters section
-  component.find(CardSection).find('a').simulate('click')
+  component
+    .find(CardSection)
+    .find('[role="button"]')
+    .simulate('click')
 
   return {
     onChange,
