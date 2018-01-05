@@ -117,7 +117,7 @@ const newSearchValue = 'This is the end'
 const toggleFilterOptions = component => (
   component
     .find(CardSection)
-    .find('a')
+    .find('[role="button"]')
     .simulate('click')
 )
 
