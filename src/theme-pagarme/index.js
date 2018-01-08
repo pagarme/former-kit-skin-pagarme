@@ -24,6 +24,7 @@ import UISwitch from './switch/index.css'
 import UITabBar from './tab-bar/index.css'
 import UITag from './tag/index.css'
 import UILinearProgress from './linear-progress/index.css'
+import UITable from './table/index.css'
 
 export default {
   UIAlert,
@@ -52,4 +53,5 @@ export default {
   UITabBar,
   UITag,
   UILinearProgress,
+  UITable,
 }

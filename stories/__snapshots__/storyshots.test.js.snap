@@ -13119,6 +13119,1837 @@ exports[`Storyshots TabBar All styles 1`] = `
 </div>
 `;
 
+exports[`Storyshots Table Action column 1`] = `
+<div
+  className={undefined}
+>
+  <table
+    className=""
+  >
+    <thead
+      className={undefined}
+    >
+      <tr>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Status
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m28.6 11q-0.2 0.4-0.7 0.4h-5v27.9q0 0.3-0.2 0.5t-0.5 0.2h-4.3q-0.3 0-0.5-0.2t-0.2-0.5v-27.9h-5q-0.5 0-0.6-0.4t0.1-0.8l7.8-8.6q0.2-0.2 0.5-0.2 0.3 0 0.5 0.2l8 8.6q0.3 0.4 0.1 0.8z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Id da transação
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Data da transação
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Cpf/Cnpj
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Forma de pagamento
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Valor capturado
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className=""
+        >
+          <div
+            className={undefined}
+          >
+            Mais detalhes
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className={undefined}
+    >
+      <tr
+        className=""
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        tabIndex="0"
+      >
+        <td
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <abbr
+                className=""
+                style={
+                  Object {
+                    "background": "#244d85",
+                  }
+                }
+                title="Boleto pago com valor inferior"
+              >
+                BPVI
+              </abbr>
+            </div>
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          2229597000
+        </td>
+        <td
+          className={undefined}
+        >
+          23/09/2017 - 14:15h
+        </td>
+        <td
+          className={undefined}
+        >
+          67.484.928/0001-60
+        </td>
+        <td
+          className={undefined}
+        >
+          Boleto
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 999.999.999,00
+        </td>
+        <td
+          className={undefined}
+        >
+          <button
+            className=""
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Mostar Detalhes
+          </button>
+        </td>
+      </tr>
+      <tr
+        className=""
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        tabIndex="0"
+      >
+        <td
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <abbr
+                className=""
+                style={
+                  Object {
+                    "background": "#57be76",
+                  }
+                }
+                title="Pago"
+              >
+                P
+              </abbr>
+            </div>
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          2229597001
+        </td>
+        <td
+          className={undefined}
+        >
+          23/09/2017 - 15:15h
+        </td>
+        <td
+          className={undefined}
+        >
+          67.484.928/0001-60
+        </td>
+        <td
+          className={undefined}
+        >
+          Cartão de crédito
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 100.000,00
+        </td>
+        <td
+          className={undefined}
+        >
+          <button
+            className=""
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Mostar Detalhes
+          </button>
+        </td>
+      </tr>
+      <tr
+        className=""
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        tabIndex="0"
+      >
+        <td
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <abbr
+                className=""
+                style={
+                  Object {
+                    "background": "#e47735",
+                  }
+                }
+                title="Chargeback"
+              >
+                CB
+              </abbr>
+            </div>
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          2229597003
+        </td>
+        <td
+          className={undefined}
+        >
+          23/09/2017 - 16:15h
+        </td>
+        <td
+          className={undefined}
+        >
+          67.484.928/0001-60
+        </td>
+        <td
+          className={undefined}
+        >
+          Cartão de crédito estrangeiro
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 100.000,00
+        </td>
+        <td
+          className={undefined}
+        >
+          <button
+            className=""
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Mostar Detalhes
+          </button>
+        </td>
+      </tr>
+      <tr
+        className=""
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        tabIndex="0"
+      >
+        <td
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <abbr
+                className=""
+                style={
+                  Object {
+                    "background": "#951e3c",
+                  }
+                }
+                title="Processing"
+              >
+                PR
+              </abbr>
+            </div>
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          2229597004
+        </td>
+        <td
+          className={undefined}
+        >
+          <span
+            className=""
+          />
+        </td>
+        <td
+          className={undefined}
+        >
+          <span
+            className=""
+          />
+        </td>
+        <td
+          className={undefined}
+        >
+          <span
+            className=""
+          />
+        </td>
+        <td
+          className={undefined}
+        >
+          <span
+            className=""
+          />
+        </td>
+        <td
+          className={undefined}
+        >
+          <button
+            className=""
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Mostar Detalhes
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    className={undefined}
+  />
+</div>
+`;
+
+exports[`Storyshots Table Selectable and expandable 1`] = `
+<div
+  className={undefined}
+>
+  <table
+    className=""
+  >
+    <thead
+      className={undefined}
+    >
+      <tr>
+        <th
+          className={undefined}
+        >
+          <div
+            className=""
+          >
+            <input
+              checked={false}
+              disabled={false}
+              id="all-all"
+              name="all"
+              onChange={[Function]}
+              type="checkbox"
+              value="all"
+            />
+            <label
+              htmlFor="all-all"
+            >
+              <i
+                className={undefined}
+              />
+              
+            </label>
+            
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Status
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m28.6 11q-0.2 0.4-0.7 0.4h-5v27.9q0 0.3-0.2 0.5t-0.5 0.2h-4.3q-0.3 0-0.5-0.2t-0.2-0.5v-27.9h-5q-0.5 0-0.6-0.4t0.1-0.8l7.8-8.6q0.2-0.2 0.5-0.2 0.3 0 0.5 0.2l8 8.6q0.3 0.4 0.1 0.8z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Id da transação
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Data da transação
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Cpf/Cnpj
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Forma de pagamento
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Valor capturado
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Custo
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className={undefined}
+        />
+      </tr>
+    </thead>
+    <tbody
+      className={undefined}
+    >
+      <tr
+        className=""
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        tabIndex="0"
+      >
+        <td
+          className={undefined}
+        >
+          <div
+            className=""
+          >
+            <input
+              checked={false}
+              disabled={false}
+              id="line_0-0"
+              name="line_0"
+              onChange={[Function]}
+              type="checkbox"
+              value="0"
+            />
+            <label
+              htmlFor="line_0-0"
+            >
+              <i
+                className={undefined}
+              />
+              
+            </label>
+            
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <abbr
+                className=""
+                style={
+                  Object {
+                    "background": "#244d85",
+                  }
+                }
+                title="Boleto pago com valor inferior"
+              >
+                BPVI
+              </abbr>
+            </div>
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          2229597000
+        </td>
+        <td
+          className={undefined}
+        >
+          23/09/2017 - 14:15h
+        </td>
+        <td
+          className={undefined}
+        >
+          67.484.928/0001-60
+        </td>
+        <td
+          className={undefined}
+        >
+          Boleto
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 999.999.999,00
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 100.000,00
+        </td>
+        <td
+          className={undefined}
+        >
+          <button
+            className="undefined"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              style={
+                Object {
+                  "color": undefined,
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 40 40"
+              width="1em"
+            >
+              <g>
+                <path
+                  d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                />
+              </g>
+            </svg>
+          </button>
+        </td>
+      </tr>
+      <tr
+        className=""
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        tabIndex="0"
+      >
+        <td
+          className={undefined}
+        >
+          <div
+            className=""
+          >
+            <input
+              checked={false}
+              disabled={false}
+              id="line_1-1"
+              name="line_1"
+              onChange={[Function]}
+              type="checkbox"
+              value="1"
+            />
+            <label
+              htmlFor="line_1-1"
+            >
+              <i
+                className={undefined}
+              />
+              
+            </label>
+            
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <abbr
+                className=""
+                style={
+                  Object {
+                    "background": "#57be76",
+                  }
+                }
+                title="Pago"
+              >
+                P
+              </abbr>
+            </div>
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          2229597001
+        </td>
+        <td
+          className={undefined}
+        >
+          23/09/2017 - 15:15h
+        </td>
+        <td
+          className={undefined}
+        >
+          67.484.928/0001-60
+        </td>
+        <td
+          className={undefined}
+        >
+          Cartão de crédito
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 100.000,00
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 12.000,00
+        </td>
+        <td
+          className={undefined}
+        >
+          <button
+            className="undefined"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              style={
+                Object {
+                  "color": undefined,
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 40 40"
+              width="1em"
+            >
+              <g>
+                <path
+                  d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                />
+              </g>
+            </svg>
+          </button>
+        </td>
+      </tr>
+      <tr
+        className=""
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        tabIndex="0"
+      >
+        <td
+          className={undefined}
+        >
+          <div
+            className=""
+          >
+            <input
+              checked={false}
+              disabled={false}
+              id="line_2-2"
+              name="line_2"
+              onChange={[Function]}
+              type="checkbox"
+              value="2"
+            />
+            <label
+              htmlFor="line_2-2"
+            >
+              <i
+                className={undefined}
+              />
+              
+            </label>
+            
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <abbr
+                className=""
+                style={
+                  Object {
+                    "background": "#e47735",
+                  }
+                }
+                title="Chargeback"
+              >
+                CB
+              </abbr>
+            </div>
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          2229597003
+        </td>
+        <td
+          className={undefined}
+        >
+          23/09/2017 - 16:15h
+        </td>
+        <td
+          className={undefined}
+        >
+          67.484.928/0001-60
+        </td>
+        <td
+          className={undefined}
+        >
+          Cartão de crédito estrangeiro
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 100.000,00
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 13.000,00
+        </td>
+        <td
+          className={undefined}
+        >
+          <button
+            className="undefined"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              style={
+                Object {
+                  "color": undefined,
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 40 40"
+              width="1em"
+            >
+              <g>
+                <path
+                  d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                />
+              </g>
+            </svg>
+          </button>
+        </td>
+      </tr>
+      <tr
+        className=""
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        tabIndex="0"
+      >
+        <td
+          className={undefined}
+        >
+          <div
+            className=""
+          >
+            <input
+              checked={false}
+              disabled={false}
+              id="line_3-3"
+              name="line_3"
+              onChange={[Function]}
+              type="checkbox"
+              value="3"
+            />
+            <label
+              htmlFor="line_3-3"
+            >
+              <i
+                className={undefined}
+              />
+              
+            </label>
+            
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <abbr
+                className=""
+                style={
+                  Object {
+                    "background": "#951e3c",
+                  }
+                }
+                title="Processing"
+              >
+                PR
+              </abbr>
+            </div>
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          2229597004
+        </td>
+        <td
+          className={undefined}
+        >
+          <span
+            className=""
+          />
+        </td>
+        <td
+          className={undefined}
+        >
+          <span
+            className=""
+          />
+        </td>
+        <td
+          className={undefined}
+        >
+          <span
+            className=""
+          />
+        </td>
+        <td
+          className={undefined}
+        >
+          <span
+            className=""
+          />
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 14.000,00
+        </td>
+        <td
+          className={undefined}
+        >
+          <button
+            className="undefined"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              style={
+                Object {
+                  "color": undefined,
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 40 40"
+              width="1em"
+            >
+              <g>
+                <path
+                  d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                />
+              </g>
+            </svg>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    className={undefined}
+  >
+    <div>
+      <div>
+         Selected rows 
+        0
+         
+      </div>
+      <div>
+         Expanded rows 
+        0
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Table Simple 1`] = `
+<div
+  className={undefined}
+>
+  <table
+    className=""
+  >
+    <thead
+      className={undefined}
+    >
+      <tr>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Status
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m28.6 11q-0.2 0.4-0.7 0.4h-5v27.9q0 0.3-0.2 0.5t-0.5 0.2h-4.3q-0.3 0-0.5-0.2t-0.2-0.5v-27.9h-5q-0.5 0-0.6-0.4t0.1-0.8l7.8-8.6q0.2-0.2 0.5-0.2 0.3 0 0.5 0.2l8 8.6q0.3 0.4 0.1 0.8z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Id da transação
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Data da transação
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Cpf/Cnpj
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Forma de pagamento
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Valor capturado
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+        <th
+          className="undefined"
+          onClick={[Function]}
+        >
+          <div
+            className={undefined}
+          >
+            <span>
+               
+              Custo
+               
+            </span>
+            <span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m31.4 24.3q0 0.6-0.5 1l-10 10q-0.4 0.4-1 0.4t-1-0.4l-10-10q-0.4-0.4-0.4-1t0.4-1 1-0.4h20q0.6 0 1 0.4t0.5 1z m0-8.6q0 0.6-0.5 1t-1 0.4h-20q-0.6 0-1-0.4t-0.4-1 0.4-1l10-10q0.4-0.4 1-0.4t1 0.4l10 10q0.5 0.4 0.5 1z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className={undefined}
+    >
+      <tr
+        className="undefined"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        tabIndex="0"
+      >
+        <td
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <abbr
+                className=""
+                style={
+                  Object {
+                    "background": "#244d85",
+                  }
+                }
+                title="Boleto pago com valor inferior"
+              >
+                BPVI
+              </abbr>
+            </div>
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          2229597000
+        </td>
+        <td
+          className={undefined}
+        >
+          23/09/2017 - 14:15h
+        </td>
+        <td
+          className={undefined}
+        >
+          67.484.928/0001-60
+        </td>
+        <td
+          className={undefined}
+        >
+          Boleto
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 999.999.999,00
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 100.000,00
+        </td>
+      </tr>
+      <tr
+        className="undefined"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        tabIndex="0"
+      >
+        <td
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <abbr
+                className=""
+                style={
+                  Object {
+                    "background": "#57be76",
+                  }
+                }
+                title="Pago"
+              >
+                P
+              </abbr>
+            </div>
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          2229597001
+        </td>
+        <td
+          className={undefined}
+        >
+          23/09/2017 - 15:15h
+        </td>
+        <td
+          className={undefined}
+        >
+          67.484.928/0001-60
+        </td>
+        <td
+          className={undefined}
+        >
+          Cartão de crédito
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 100.000,00
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 12.000,00
+        </td>
+      </tr>
+      <tr
+        className="undefined"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        tabIndex="0"
+      >
+        <td
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <abbr
+                className=""
+                style={
+                  Object {
+                    "background": "#e47735",
+                  }
+                }
+                title="Chargeback"
+              >
+                CB
+              </abbr>
+            </div>
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          2229597003
+        </td>
+        <td
+          className={undefined}
+        >
+          23/09/2017 - 16:15h
+        </td>
+        <td
+          className={undefined}
+        >
+          67.484.928/0001-60
+        </td>
+        <td
+          className={undefined}
+        >
+          Cartão de crédito estrangeiro
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 100.000,00
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 13.000,00
+        </td>
+      </tr>
+      <tr
+        className="undefined"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        tabIndex="0"
+      >
+        <td
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <abbr
+                className=""
+                style={
+                  Object {
+                    "background": "#951e3c",
+                  }
+                }
+                title="Processing"
+              >
+                PR
+              </abbr>
+            </div>
+          </div>
+        </td>
+        <td
+          className={undefined}
+        >
+          2229597004
+        </td>
+        <td
+          className={undefined}
+        >
+          <span
+            className=""
+          />
+        </td>
+        <td
+          className={undefined}
+        >
+          <span
+            className=""
+          />
+        </td>
+        <td
+          className={undefined}
+        >
+          <span
+            className=""
+          />
+        </td>
+        <td
+          className={undefined}
+        >
+          <span
+            className=""
+          />
+        </td>
+        <td
+          className={undefined}
+        >
+          R$ 14.000,00
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    className={undefined}
+  />
+</div>
+`;
+
 exports[`Storyshots Tags defaultTheme 1`] = `
 <section>
   <p>
