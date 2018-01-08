@@ -10886,6 +10886,216 @@ exports[`Storyshots SegmentedSwitch All styles 1`] = `
 </div>
 `;
 
+exports[`Storyshots Sidebar defaultTheme 1`] = `
+<aside
+  className=""
+>
+  <header
+    className={undefined}
+  >
+    <img
+      alt="Pagar.me"
+      src="https://assets.pagar.me/site/general/logo-light-3812e7ea6b596bdcc8c041f0edc4ff15.png"
+    />
+    <button
+      onClick={[Function]}
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m5 10h30v3.4h-30v-3.4z m0 11.6v-3.2h30v3.2h-30z m0 8.4v-3.4h30v3.4h-30z"
+          />
+        </g>
+      </svg>
+    </button>
+  </header>
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      <label
+        className={undefined}
+        htmlFor="segmented-switch-shortid-mock-shortid-mock-live-test-live"
+      >
+        <input
+          checked={true}
+          id="segmented-switch-shortid-mock-shortid-mock-live-test-live"
+          name="segmented-switch-shortid-mock-shortid-mock-live-test-live"
+          onChange={[Function]}
+          type="radio"
+          value="live"
+        />
+        <span
+          className={undefined}
+        >
+          live
+        </span>
+      </label>
+      <label
+        className={undefined}
+        htmlFor="segmented-switch-shortid-mock-shortid-mock-live-test-test"
+      >
+        <input
+          checked={false}
+          id="segmented-switch-shortid-mock-shortid-mock-live-test-test"
+          name="segmented-switch-shortid-mock-shortid-mock-live-test-test"
+          onChange={[Function]}
+          type="radio"
+          value="test"
+        />
+        <span
+          className={undefined}
+        >
+          test
+        </span>
+      </label>
+    </div>
+  </div>
+  <nav
+    className={undefined}
+  >
+    <ul>
+      <li
+        className=""
+      >
+        <div
+          onClick={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <div
+            className={undefined}
+          >
+            <span
+              className={undefined}
+            />
+            Nome da empresa
+          </div>
+          <div
+            className={undefined}
+          >
+            <span>
+              mostrar saldo
+            </span>
+            <svg
+              fill="currentColor"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              style={
+                Object {
+                  "color": undefined,
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 40 40"
+              width="1em"
+            >
+              <g>
+                <path
+                  d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </li>
+      <li
+        className=""
+      >
+        <div
+          onClick={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <div
+            className={undefined}
+          >
+            <span
+              className={undefined}
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m23.4 23.4v3.2h-11.8v-3.2h11.8z m8.2 8.2v-18.2h-23.2v18.2h23.2z m0-26.6c1.8 0 3.4 1.6 3.4 3.4v23.2c0 1.8-1.6 3.4-3.4 3.4h-23.2c-1.9 0-3.4-1.6-3.4-3.4v-23.2c0-1.8 1.5-3.4 3.4-3.4h1.6v-3.4h3.4v3.4h13.2v-3.4h3.4v3.4h1.6z m-3.2 11.6v3.4h-16.8v-3.4h16.8z"
+                  />
+                </g>
+              </svg>
+            </span>
+            Minha conta
+          </div>
+          
+        </div>
+      </li>
+      <li
+        className=""
+      >
+        <div
+          onClick={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <div
+            className={undefined}
+          >
+            <span
+              className={undefined}
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m6.6 31.6h26.8v3.4h-26.8v-3.4z m26.8-18.2v-5h-3.4v5h3.4z m0-8.4c1.8 0 3.2 1.5 3.2 3.4v5c0 1.8-1.4 3.2-3.2 3.2h-3.4v5c0 3.7-3 6.8-6.6 6.8h-10c-3.7 0-6.8-3.1-6.8-6.8v-16.6h26.8z"
+                  />
+                </g>
+              </svg>
+            </span>
+            Transações
+          </div>
+          
+        </div>
+      </li>
+    </ul>
+  </nav>
+</aside>
+`;
+
 exports[`Storyshots Switch All styles 1`] = `
 <div
   className={undefined}
