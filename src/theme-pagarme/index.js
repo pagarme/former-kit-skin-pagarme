@@ -3,6 +3,7 @@ import UIAvatar from './avatar/index.css'
 import UIButton from './button/index.css'
 import UICard from './card/index.css'
 import UICheckbox from './checkbox/index.css'
+import UICheckboxForm from './form-fields/checkbox/index.css'
 import UICheckboxGroup from './checkbox-group/index.css'
 import UIDateInput from './date-input/index.css'
 import UIDateSelector from './date-selector'
@@ -30,6 +31,7 @@ export default {
   UIButton,
   UICard,
   UICheckbox,
+  UICheckboxForm,
   UICheckboxGroup,
   UIDateInput,
   UIDateSelector,

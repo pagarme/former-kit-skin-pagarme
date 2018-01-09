@@ -15,7 +15,7 @@ import {
 
 import { themr } from 'react-css-themr'
 
-import Checkbox from '../Checkbox'
+import Checkbox from '../Checkbox/form'
 
 const applyThemr = themr('UICheckboxGroup')
 

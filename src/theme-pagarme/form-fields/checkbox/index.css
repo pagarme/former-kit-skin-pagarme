@@ -76,6 +76,10 @@
   opacity: 0;
 }
 
+.checkbox > input:checked + label {
+  background-color: var(--checkbox-checked-background-color);
+}
+
 .checkbox > input:checked + label .check:before {
   border: solid 1px var(--checkbox-box-border-color-checked);
 }

@@ -6,7 +6,7 @@ import Filters from '../index'
 import { CardSection } from '../../../components/Card'
 import dateSelectorPresets from '../../../models/dateSelectorPresets'
 import CheckboxGroup from '../../../components/CheckboxGroup'
-import Checkbox from '../../../components/Checkbox'
+import Checkbox from '../../../components/Checkbox/form'
 import FilterState from './FilterState'
 
 const filterOptions = [
