@@ -1,6 +1,7 @@
 @import "../colors.css";
 
 :root {
+  --avatar-margin-right: 18px;
   --avatar-border-radius: 50%;
   --avatar-placeholder-border: 2px dashed var(--color-light-grey-50);
 }

@@ -1,0 +1,14 @@
+@import "./properties.css";
+
+.menu {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+  margin-right: var(--header-menu-margin-right);
+}
+
+.menu span {
+  cursor: pointer;
+  margin-right: var(--header-menu-text-margin-right);
+}
