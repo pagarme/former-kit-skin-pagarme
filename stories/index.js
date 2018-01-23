@@ -1,5 +1,6 @@
 import '../src/locale'
 
+import './Avatar'
 import './Button'
 import './Card'
 import './Colors'

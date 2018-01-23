@@ -1,0 +1,10 @@
+@import "./properties.css";
+
+.avatar,
+.placeholder svg {
+  border-radius: var(--avatar-border-radius);
+}
+
+.placeholder svg {
+  border: var(--avatar-placeholder-border);
+}

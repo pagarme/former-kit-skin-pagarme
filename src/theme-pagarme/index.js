@@ -1,4 +1,5 @@
 import UIAlert from './alert/index.css'
+import UIAvatar from './avatar/index.css'
 import UIButton from './button/index.css'
 import UICard from './card/index.css'
 import UICheckbox from './checkbox/index.css'
@@ -23,6 +24,7 @@ import UILinearProgress from './linear-progress/index.css'
 
 export default {
   UIAlert,
+  UIAvatar,
   UIButton,
   UICard,
   UICheckbox,
