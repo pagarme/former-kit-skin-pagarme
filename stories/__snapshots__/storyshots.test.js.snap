@@ -6918,6 +6918,9 @@ exports[`Storyshots Filters Default 1`] = `
           >
             <span>
               Mais filtros
+              <span
+                className={undefined}
+              />
             </span>
             
           </div>

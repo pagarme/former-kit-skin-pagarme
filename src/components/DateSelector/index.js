@@ -7,6 +7,7 @@ import {
   shape,
   oneOfType,
   object,
+  element,
 } from 'prop-types'
 import shortid from 'shortid'
 import { momentObj } from 'react-moment-proptypes'
@@ -14,8 +15,6 @@ import {
   DayPickerRangeController,
   DayPickerSingleDateController,
 } from 'react-dates'
-import IconArrowLeft from 'react-icons/lib/fa/angle-left'
-import IconArrowRight from 'react-icons/lib/fa/angle-right'
 import 'react-dates/lib/css/_datepicker.css'
 
 import Button from '../Button'
@@ -147,7 +146,7 @@ class DateSelector extends Component {
 
   renderPicker () {
     const { preset } = this.state
-    const { focusedInput } = this.props
+    const { focusedInput, icons } = this.props
     const { start, end } = this.props.dates || {}
 
     return (
@@ -157,8 +156,8 @@ class DateSelector extends Component {
             <DayPickerSingleDateController
               numberOfMonths={2}
               daySize={40}
-              navPrev={<IconArrowLeft />}
-              navNext={<IconArrowRight />}
+              navPrev={icons.previousMonth}
+              navNext={icons.nextMonth}
               date={start}
               onDateChange={this.handleDatesChange}
               hideKeyboardShortcutsPanel
@@ -169,8 +168,8 @@ class DateSelector extends Component {
               daySize={40}
               focusedInput={focusedInput}
               onFocusChange={this.handleFocusChange}
-              navPrev={<IconArrowLeft />}
-              navNext={<IconArrowRight />}
+              navPrev={icons.previousMonth}
+              navNext={icons.nextMonth}
               startDate={start}
               endDate={end}
               onDatesChange={this.handleDatesChange}
@@ -322,15 +321,20 @@ DateSelector.propTypes = {
     period: string,
     today: string,
   }),
+  icons: shape({
+    previousMonth: element,
+    nextMonth: element,
+  }),
 }
 
 DateSelector.defaultProps = {
   theme: {},
-  onConfirm: () => undefined,
-  onChange: () => undefined,
-  onCancel: () => undefined,
-  onFocusChange: () => undefined,
   focusedInput: START_DATE,
+  icons: {},
+  onCancel: () => undefined,
+  onChange: () => undefined,
+  onConfirm: () => undefined,
+  onFocusChange: () => undefined,
   presets: [],
   strings: defaultStrings,
 }

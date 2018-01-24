@@ -1,6 +1,8 @@
 import React from 'react'
 import { shallow, mount } from 'enzyme'
 import moment from 'moment'
+import IconArrowLeft from 'react-icons/lib/fa/angle-left'
+import IconArrowRight from 'react-icons/lib/fa/angle-right'
 
 import DateSelector from './index'
 import Button from '../Button'
@@ -23,6 +25,11 @@ const defaultDates = {
   end: moment(),
 }
 
+const icons = {
+  previousMonth: <IconArrowLeft />,
+  nextMonth: <IconArrowRight />,
+}
+
 describe('DateSelector', () => {
   it('should mount component', () => {
     shallow(
@@ -30,6 +37,7 @@ describe('DateSelector', () => {
         presets={presets}
         dates={defaultDates}
         focusedInput="startDate"
+        icons={icons}
       />
     )
   })
@@ -39,6 +47,7 @@ describe('DateSelector', () => {
       <DateSelector
         presets={presets}
         dates={defaultDates}
+        icons={icons}
       />
     )
 
@@ -50,6 +59,7 @@ describe('DateSelector', () => {
       <DateSelector
         presets={presets}
         dates={defaultDates}
+        icons={icons}
       />
     )
 
@@ -66,6 +76,7 @@ describe('DateSelector', () => {
           cancel: 'Cancelar',
           confirmPeriod: 'Confirmar período',
         }}
+        icons={icons}
       />
     )
 
@@ -82,6 +93,7 @@ describe('DateSelector', () => {
         dates={defaultDates}
         focusedInput="startDate"
         onConfirm={onConfirm}
+        icons={icons}
       />
     )
 
@@ -105,6 +117,7 @@ describe('DateSelector', () => {
         dates={defaultDates}
         focusedInput="startDate"
         onCancel={onCancel}
+        icons={icons}
       />
     )
 
@@ -125,6 +138,7 @@ describe('DateSelector', () => {
         dates={defaultDates}
         focusedInput="startDate"
         onChange={onChange}
+        icons={icons}
       />
     )
 
@@ -150,6 +164,7 @@ describe('DateSelector', () => {
         dates={defaultDates}
         focusedInput="startDate"
         onChange={onChange}
+        icons={icons}
       />
     )
 
@@ -201,6 +216,7 @@ describe('DateSelector', () => {
             focusedInput={this.state.focusedInput}
             onFocusChange={this.onFocusChange}
             onChange={this.onChange}
+            icons={icons}
           />
         )
       }
@@ -239,6 +255,7 @@ describe('DateSelector', () => {
         dates={datesNull}
         focusedInput="startDate"
         onChange={onChange}
+        icons={icons}
       />
     )
 
@@ -263,6 +280,7 @@ describe('DateSelector', () => {
         presets={presets}
         dates={dates}
         focusedInput="startDate"
+        icons={icons}
       />
     )
 
@@ -277,6 +295,7 @@ describe('DateSelector', () => {
         presets={presets}
         dates={dates}
         focusedInput="startDate"
+        icons={icons}
       />
     )
 
@@ -291,6 +310,7 @@ describe('DateSelector', () => {
         presets={presets}
         dates={dates}
         focusedInput="startDate"
+        icons={icons}
       />
     )
 
@@ -305,6 +325,7 @@ describe('DateSelector', () => {
         presets={presets}
         dates={dates}
         focusedInput="startDate"
+        icons={icons}
       />
     )
 
