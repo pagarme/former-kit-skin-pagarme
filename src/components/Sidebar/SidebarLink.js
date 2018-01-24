@@ -2,19 +2,26 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import { themr } from 'react-css-themr'
-import IconArrowUp from 'react-icons/lib/md/keyboard-arrow-up'
-import IconArrowDown from 'react-icons/lib/md/keyboard-arrow-down'
+import {
+  anyPass,
+  isNil,
+  propSatisfies,
+} from 'ramda'
 
 const applyThemr = themr('UISidebar')
 
-const Arrow = ({ active }) => (
-  active
-    ? <IconArrowUp />
-    : <IconArrowDown />
-)
+const Arrow = ({ active, icons }) => {
+  const { collapse, expand } = icons
+
+  return active ? collapse : expand
+}
 
 Arrow.propTypes = {
   active: PropTypes.bool.isRequired,
+  icons: PropTypes.shape({
+    collapse: PropTypes.element,
+    expand: PropTypes.element,
+  }).isRequired,
 }
 
 const SidebarLink = ({
@@ -24,8 +31,8 @@ const SidebarLink = ({
   children,
   onClick,
   active,
-  icon,
   collapsed,
+  icons,
 }) => (
   <li
     className={classNames(theme.link, {
@@ -38,15 +45,21 @@ const SidebarLink = ({
       tabIndex="0"
     >
       <div className={theme.title}>
-        <span className={theme.icon}>{icon}</span>
+        <span className={theme.icon}>{icons.link}</span>
         {!collapsed && title}
-        {(!collapsed && !subtitle && children) && <Arrow active={active} />}
+
+        {(!collapsed && !subtitle && children) &&
+          <Arrow
+            active={active}
+            icons={icons}
+          />
+        }
       </div>
 
       {subtitle &&
         <div className={theme.subtitle}>
           <span>{subtitle}</span>
-          {children && <Arrow active={active} />}
+          {children && <Arrow active={active} icons={icons} />}
         </div>
       }
     </div>
@@ -54,6 +67,21 @@ const SidebarLink = ({
     {active && children}
   </li>
 )
+
+const hasNoArrows = anyPass([
+  propSatisfies(isNil, 'collapse'),
+  propSatisfies(isNil, 'expand'),
+])
+
+const hasNecessaryIcons = ({ icons, children }, propName) => {
+  if (propName === 'icons') {
+    if (!isNil(children) && hasNoArrows(icons)) {
+      throw new Error(
+        'The prop icons must have collapse and expand props when children prop is not empty'
+      )
+    }
+  }
+}
 
 SidebarLink.propTypes = {
   theme: PropTypes.shape({
@@ -69,8 +97,8 @@ SidebarLink.propTypes = {
   subtitle: PropTypes.string,
   onClick: PropTypes.func,
   title: PropTypes.string.isRequired,
-  icon: PropTypes.element,
   collapsed: PropTypes.bool,
+  icons: hasNecessaryIcons,
 }
 
 SidebarLink.defaultProps = {
@@ -79,8 +107,8 @@ SidebarLink.defaultProps = {
   children: null,
   onClick: null,
   subtitle: '',
-  icon: null,
   collapsed: false,
+  icons: {},
 }
 
 export default applyThemr(SidebarLink)

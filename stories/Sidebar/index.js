@@ -4,6 +4,8 @@ import { storiesOf } from '@storybook/react'
 import MdMenu from 'react-icons/lib/md/menu'
 import MdEventNote from 'react-icons/lib/md/event-note'
 import MdFreeBreakfast from 'react-icons/lib/md/free-breakfast'
+import IconArrowUp from 'react-icons/lib/md/keyboard-arrow-up'
+import IconArrowDown from 'react-icons/lib/md/keyboard-arrow-down'
 import shortid from 'shortid'
 
 import {
@@ -112,6 +114,10 @@ class SidebarState extends React.Component {
               subtitle={showInfos ? 'ocultar saldo' : 'mostrar saldo'}
               active={showInfos}
               onClick={() => this.setState({ showInfos: !showInfos })}
+              icons={{
+                collapse: <IconArrowUp />,
+                expand: <IconArrowDown />,
+              }}
             >
               <SidebarSections sections={sections.data} />
             </SidebarLink>
@@ -123,7 +129,9 @@ class SidebarState extends React.Component {
               title={item.title}
               active={item.value === this.state.active}
               onClick={() => this.setState({ active: item.value })}
-              icon={item.icon}
+              icons={{
+                link: item.icon,
+              }}
               collapsed={collapsed}
             />
           ))}

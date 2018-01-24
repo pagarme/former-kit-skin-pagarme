@@ -1,7 +1,14 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import MdMenu from 'react-icons/lib/md/menu'
+import IconArrowUp from 'react-icons/lib/md/keyboard-arrow-up'
+import IconArrowDown from 'react-icons/lib/md/keyboard-arrow-down'
 import SidebarLink from './SidebarLink'
+
+const arrowIcons = {
+  collapse: <IconArrowUp />,
+  expand: <IconArrowDown />,
+}
 
 describe('SidebarLink', () => {
   it('should mount with basic props', () => {
@@ -41,7 +48,9 @@ describe('SidebarLink', () => {
       <SidebarLink
         theme={{}}
         title="Hello"
-        icon={<MdMenu />}
+        icons={{
+          link: <MdMenu />,
+        }}
       />
     )
 
@@ -53,6 +62,7 @@ describe('SidebarLink', () => {
       <SidebarLink
         theme={{}}
         title="Hello"
+        icons={arrowIcons}
         active={false}
       >
         <p>Hi</p>
@@ -68,6 +78,7 @@ describe('SidebarLink', () => {
         theme={{}}
         title="Hello"
         subtitle="Kaka"
+        icons={arrowIcons}
         active={false}
       >
         <p>Hi</p>
@@ -82,6 +93,7 @@ describe('SidebarLink', () => {
       <SidebarLink
         theme={{}}
         title="Hello"
+        icons={arrowIcons}
         active
       >
         <p>Hi</p>
@@ -97,6 +109,7 @@ describe('SidebarLink', () => {
         theme={{}}
         title="Hello"
         subtitle="Kaka"
+        icons={arrowIcons}
         active
       >
         <p>Hi</p>
@@ -113,6 +126,7 @@ describe('SidebarLink', () => {
       <SidebarLink
         theme={{}}
         title="Hello"
+        icons={arrowIcons}
         onClick={onClick}
       >
         <p>Hi</p>
@@ -128,6 +142,7 @@ describe('SidebarLink', () => {
       <SidebarLink
         theme={{}}
         title="Hello"
+        icons={arrowIcons}
       >
         <p>Hi</p>
       </SidebarLink>
@@ -142,6 +157,7 @@ describe('SidebarLink', () => {
         theme={{}}
         title="Hello"
         subtitle="Hihi"
+        icons={arrowIcons}
       >
         <p>Hi</p>
       </SidebarLink>
@@ -156,6 +172,7 @@ describe('SidebarLink', () => {
         theme={{}}
         title="Hello"
         active
+        icons={arrowIcons}
       >
         <p>Hi</p>
       </SidebarLink>
@@ -166,6 +183,7 @@ describe('SidebarLink', () => {
         theme={{}}
         title="Hello"
         active={false}
+        icons={arrowIcons}
       >
         <p>Hi</p>
       </SidebarLink>
@@ -195,7 +213,9 @@ describe('SidebarLink', () => {
       <SidebarLink
         theme={{}}
         title="Hello"
-        icon={<MdMenu />}
+        icons={{
+          link: <MdMenu />,
+        }}
         collapsed
       />
     )
