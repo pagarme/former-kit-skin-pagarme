@@ -1,6 +1,13 @@
 import React from 'react'
 import { mount, shallow } from 'enzyme'
+import ArrowLeft from 'react-icons/lib/md/keyboard-arrow-left'
+import ArrowRight from 'react-icons/lib/md/keyboard-arrow-right'
 import Pagination from './index'
+
+const icons = {
+  previous: <ArrowLeft size={13} viewBox="10 10 20 20" />,
+  next: <ArrowRight size={13} viewBox="10 10 20 20" />,
+}
 
 describe('Pagination', () => {
   it('should mount basic component', () => {
@@ -11,6 +18,7 @@ describe('Pagination', () => {
         currentPage={1}
         totalPages={3}
         onPageChange={onChange}
+        icons={icons}
       />
     )
   })
@@ -23,6 +31,7 @@ describe('Pagination', () => {
         currentPage={page}
         totalPages={3}
         onPageChange={(newPage) => { page = newPage }}
+        icons={icons}
       />
     )
 
@@ -48,6 +57,7 @@ describe('Pagination', () => {
         currentPage={page}
         totalPages={3}
         onPageChange={(newPage) => { page = newPage }}
+        icons={icons}
       />
     )
 
@@ -73,6 +83,7 @@ describe('Pagination', () => {
         currentPage={page}
         totalPages={10}
         onPageChange={(newPage) => { page = newPage }}
+        icons={icons}
       />
     )
 
@@ -97,6 +108,7 @@ describe('Pagination', () => {
         currentPage={1}
         totalPages={10}
         onPageChange={() => {}}
+        icons={icons}
       />
     )
 
@@ -113,6 +125,7 @@ describe('Pagination', () => {
         currentPage={1}
         totalPages={10}
         onPageChange={onChange}
+        icons={icons}
       />
     )
 
@@ -130,6 +143,7 @@ describe('Pagination', () => {
         currentPage={10}
         totalPages={10}
         onPageChange={onChange}
+        icons={icons}
       />
     )
 
@@ -145,6 +159,7 @@ describe('Pagination', () => {
         currentPage={10}
         totalPages={10}
         onPageChange={() => {}}
+        icons={icons}
       />
     )
 
@@ -161,6 +176,7 @@ describe('Pagination', () => {
         currentPage={page}
         totalPages={10}
         onPageChange={(newPage) => { page = newPage }}
+        icons={icons}
       />
     )
 
@@ -179,6 +195,7 @@ describe('Pagination', () => {
         currentPage={page}
         totalPages={10}
         onPageChange={(newPage) => { page = newPage }}
+        icons={icons}
       />
     )
 
@@ -200,6 +217,7 @@ describe('Pagination', () => {
         currentPage={page}
         totalPages={10}
         onPageChange={(newPage) => { page = newPage }}
+        icons={icons}
       />
     )
 
@@ -221,6 +239,7 @@ describe('Pagination', () => {
         currentPage={page}
         totalPages={10}
         onPageChange={(newPage) => { page = newPage }}
+        icons={icons}
       />
     )
 
@@ -238,6 +257,7 @@ describe('Pagination', () => {
         currentPage={page}
         totalPages={10}
         onPageChange={(newPage) => { page = newPage }}
+        icons={icons}
       />
     )
 
@@ -259,6 +279,7 @@ describe('Pagination', () => {
         currentPage={page}
         totalPages={10}
         onPageChange={(newPage) => { page = newPage }}
+        icons={icons}
       />
     )
 
@@ -277,6 +298,7 @@ describe('Pagination', () => {
         currentPage={page}
         totalPages={10}
         onPageChange={(newPage) => { page = newPage }}
+        icons={icons}
       />
     )
 
@@ -295,6 +317,7 @@ describe('Pagination', () => {
         currentPage={page}
         totalPages={10}
         onPageChange={(newPage) => { page = newPage }}
+        icons={icons}
       />
     )
 
@@ -316,6 +339,7 @@ describe('Pagination', () => {
         currentPage={page}
         totalPages={10}
         onPageChange={(newPage) => { page = newPage }}
+        icons={icons}
       />
     )
 
@@ -333,6 +357,7 @@ describe('Pagination', () => {
         currentPage={20}
         totalPages={100}
         onPageChange={onChange}
+        icons={icons}
       />
     ).dive()
 

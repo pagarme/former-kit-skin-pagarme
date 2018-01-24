@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { storiesOf } from '@storybook/react'
+import ArrowLeft from 'react-icons/lib/md/keyboard-arrow-left'
+import ArrowRight from 'react-icons/lib/md/keyboard-arrow-right'
 import Pagination from '../../src/components/Pagination'
 
 class PaginationState extends React.Component {
@@ -37,6 +39,10 @@ class PaginationState extends React.Component {
           currentPage={currentPage}
           totalPages={totalPages}
           onPageChange={this.pageChanged}
+          icons={{
+            previous: <ArrowLeft size={13} viewBox="10 10 20 20" />,
+            next: <ArrowRight size={13} viewBox="10 10 20 20" />,
+          }}
         />
         {error &&
           <p>Epic fail!</p>

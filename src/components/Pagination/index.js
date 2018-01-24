@@ -37,9 +37,6 @@ import classNames from 'classnames'
 import shortid from 'shortid'
 import { themr } from 'react-css-themr'
 
-import ArrowLeft from 'react-icons/lib/md/keyboard-arrow-left'
-import ArrowRight from 'react-icons/lib/md/keyboard-arrow-right'
-
 const applyThemr = themr('UIPagination')
 
 const convertToNumber = unless(anyPass([isNil, isEmpty]), Number)
@@ -266,6 +263,7 @@ class Pagination extends React.Component {
     const {
       totalPages,
       theme,
+      icons,
     } = this.props
 
     const inputPage = +this.state.inputPage
@@ -283,7 +281,7 @@ class Pagination extends React.Component {
           disabled={this.disableButton('prev')}
           className={theme.prev}
         >
-          <ArrowLeft size={13} viewBox="10 10 20 20" />
+          {icons.previous}
         </button>
 
         <label
@@ -319,7 +317,7 @@ class Pagination extends React.Component {
           disabled={this.disableButton('next')}
           className={theme.next}
         >
-          <ArrowRight size={13} viewBox="10 10 20 20" />
+          {icons.next}
         </button>
       </div>
     )
@@ -339,6 +337,10 @@ Pagination.propTypes = {
     expander: PropTypes.string,
     separator: PropTypes.string,
   }),
+  icons: PropTypes.shape({
+    previous: PropTypes.element.isRequired,
+    next: PropTypes.element.isRequired,
+  }),
   currentPage: PropTypes.number.isRequired,
   totalPages: PropTypes.number.isRequired,
   onPageChange: PropTypes.func.isRequired,
@@ -346,6 +348,7 @@ Pagination.propTypes = {
 
 Pagination.defaultProps = {
   theme: {},
+  icons: {},
 }
 
 export default applyThemr(Pagination)
