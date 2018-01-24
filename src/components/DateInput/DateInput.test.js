@@ -68,7 +68,7 @@ const confirmInput = () => {
   document.dispatchEvent(event)
 }
 
-describe('DatePicker', () => {
+describe('DateInput', () => {
   it('should mount with basic props', () => {
     const onChange = jest.fn()
 

@@ -1,24 +1,24 @@
 import React from 'react'
 import shortid from 'shortid'
 import {
+  isNil,
   lensPath,
   map,
   set,
 } from 'ramda'
 
 import {
-  func,
-  shape,
   arrayOf,
-  string,
   bool,
+  element,
+  func,
   instanceOf,
+  node,
+  shape,
+  string,
 } from 'prop-types'
 
 import moment from 'moment'
-
-import IconCalendar from 'react-icons/lib/fa/calendar'
-
 import MaskedInput from 'react-maskedinput'
 import clickOutside from 'react-click-outside'
 import { themr } from 'react-css-themr'
@@ -201,13 +201,15 @@ class DateInput extends React.Component {
   render () {
     const {
       dates,
-      showDateSelector,
       focusedInput,
+      showDateSelector,
     } = this.state
 
     const {
       active,
+      icon,
       limits,
+      selectorIcons,
       theme,
     } = this.props
 
@@ -230,10 +232,11 @@ class DateInput extends React.Component {
           focused: showDateSelector,
         })}
       >
-        <div className={theme.icon}>
-          <IconCalendar />
-        </div>
-
+        {!isNil(icon) && (
+          <div className={theme.icon}>
+            {icon}
+          </div>
+        )}
         <div
           className={startClasses({
             theme,
@@ -305,6 +308,7 @@ class DateInput extends React.Component {
               onFocusChange={this.handleSelectorFocus}
               focusedInput={this.state.focusedInput}
               presets={this.props.presets}
+              icons={selectorIcons}
             />
           </div>
           : null
@@ -328,11 +332,16 @@ DateInput.propTypes = {
     start: string,
   }),
   active: bool,
-  onChange: func.isRequired,
   dates: shape({
     start: instanceOf(moment),
     end: instanceOf(moment),
   }),
+  icon: node,
+  limits: shape({
+    upper: instanceOf(moment),
+    lower: instanceOf(moment),
+  }),
+  onChange: func.isRequired,
   presets: arrayOf(shape({
     key: string,
     title: string,
@@ -343,9 +352,9 @@ DateInput.propTypes = {
       key: string,
     })),
   })),
-  limits: shape({
-    upper: instanceOf(moment),
-    lower: instanceOf(moment),
+  selectorIcons: shape({
+    leftArrow: element,
+    rightArrow: element,
   }),
 }
 
@@ -356,6 +365,8 @@ DateInput.defaultProps = {
     start: null,
     end: null,
   },
+  icon: null,
+  selectorIcons: {},
   limits: {
     upper: moment('2100-01-01', 'YYYY-MM-DD'),
     lower: moment('1900-01-01', 'YYYY-MM-DD'),
