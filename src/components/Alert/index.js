@@ -1,36 +1,23 @@
 import React from 'react'
 import classNames from 'classnames'
-
+import { isNil } from 'ramda'
 import {
   oneOf,
   element,
   shape,
   string,
 } from 'prop-types'
-
-import IconCheck from 'react-icons/lib/md/check'
-import IconInfo from 'react-icons/lib/md/info-outline'
-import IconWarning from 'react-icons/lib/md/warning'
-import IconClear from 'react-icons/lib/md/clear'
-
 import { themr } from 'react-css-themr'
 
 const applyThemr = themr('UIAlert')
 
-const icons = {
-  success: IconCheck,
-  info: IconInfo,
-  warning: IconWarning,
-  error: IconClear,
-}
-
 function Alert ({
-  type,
   children,
   base,
+  icon,
   theme,
+  type,
 }) {
-  const Icon = icons[type]
   const iconClassName = classNames(
     theme.icon,
     theme[base],
@@ -39,9 +26,9 @@ function Alert ({
 
   return (
     <div className={theme.alert}>
-      {Icon && (
+      {!isNil(icon) && (
         <div className={iconClassName}>
-          <Icon />
+          {icon}
         </div>
       )}
       <div className={theme.content}>
@@ -63,6 +50,7 @@ Alert.propTypes = {
     error: string,
     success: string,
   }),
+  icon: element,
   type: oneOf([
     'warning',
     'info',
@@ -77,8 +65,9 @@ Alert.propTypes = {
 }
 
 Alert.defaultProps = {
-  theme: {},
+  icon: null,
   base: 'light',
+  theme: {},
 }
 
 export default applyThemr(Alert)

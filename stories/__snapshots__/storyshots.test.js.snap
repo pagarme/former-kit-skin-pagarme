@@ -13,7 +13,7 @@ exports[`Storyshots Alerts All types 1`] = `
     >
       <svg
         fill="currentColor"
-        height="1em"
+        height={16}
         preserveAspectRatio="xMidYMid meet"
         style={
           Object {
@@ -22,7 +22,7 @@ exports[`Storyshots Alerts All types 1`] = `
           }
         }
         viewBox="0 0 40 40"
-        width="1em"
+        width={16}
       >
         <g>
           <path
@@ -53,7 +53,7 @@ exports[`Storyshots Alerts All types 1`] = `
     >
       <svg
         fill="currentColor"
-        height="1em"
+        height={16}
         preserveAspectRatio="xMidYMid meet"
         style={
           Object {
@@ -62,7 +62,7 @@ exports[`Storyshots Alerts All types 1`] = `
           }
         }
         viewBox="0 0 40 40"
-        width="1em"
+        width={16}
       >
         <g>
           <path
@@ -93,7 +93,7 @@ exports[`Storyshots Alerts All types 1`] = `
     >
       <svg
         fill="currentColor"
-        height="1em"
+        height={16}
         preserveAspectRatio="xMidYMid meet"
         style={
           Object {
@@ -102,7 +102,7 @@ exports[`Storyshots Alerts All types 1`] = `
           }
         }
         viewBox="0 0 40 40"
-        width="1em"
+        width={16}
       >
         <g>
           <path
@@ -133,7 +133,7 @@ exports[`Storyshots Alerts All types 1`] = `
     >
       <svg
         fill="currentColor"
-        height="1em"
+        height={16}
         preserveAspectRatio="xMidYMid meet"
         style={
           Object {
@@ -142,7 +142,7 @@ exports[`Storyshots Alerts All types 1`] = `
           }
         }
         viewBox="0 0 40 40"
-        width="1em"
+        width={16}
       >
         <g>
           <path
