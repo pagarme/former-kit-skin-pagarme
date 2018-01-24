@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react'
 import MdKeyboardArrowLeft from 'react-icons/lib/md/keyboard-arrow-left'
 import IconAlert from 'react-icons/lib/md/add-alert'
 import MdMessage from 'react-icons/lib/md/message'
+import FaUser from 'react-icons/lib/fa/user-md'
 import IconArrowDown from 'react-icons/lib/md/arrow-downward'
 
 import {
@@ -25,7 +26,7 @@ const HeaderContentExample = ({ photo }) => (
       icon={<MdMessage />}
     />
     <HeaderMenu onClick={() => null} icon={<IconArrowDown />}>
-      <Avatar photo={photo} />
+      <Avatar photo={photo} icon={<FaUser size={26} />} />
       <span>Nome da Pessoa</span>
     </HeaderMenu>
   </HeaderContent>
