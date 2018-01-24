@@ -3,6 +3,8 @@ import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 
 import Icon from 'react-icons/lib/md/insert-invitation'
+import IconArrowUp from 'react-icons/lib/md/keyboard-arrow-up'
+import IconArrowDown from 'react-icons/lib/md/keyboard-arrow-down'
 
 import '../../src/theme-pagarme/index.css'
 import style from './style.css'
@@ -176,8 +178,14 @@ class CollapsableSection extends React.Component {
               title="Title opened"
               collapsedTitle="Title collapsed"
               collapsed={this.state.collapsed}
-              onTitleClick={collapsed => this.setState({ collapsed: !collapsed })}
+              onTitleClick={
+                collapsed => this.setState({ collapsed: !collapsed })
+              }
               subTitle="It's over 9000!"
+              icons={{
+                collapse: <IconArrowUp />,
+                expand: <IconArrowDown />,
+              }}
             >
               {loremIpsum}
             </CardSection>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
-import IconArrowDown from 'react-icons/lib/md/keyboard-arrow-down'
 import { themr } from 'react-css-themr'
 
 const applyTheme = themr('UICard')
@@ -21,13 +20,22 @@ class CardSection extends Component {
   }
 
   arrowUpDown () {
-    const { onTitleClick, theme } = this.props
+    const {
+      onTitleClick,
+      icons,
+      collapsed,
+      theme,
+    } = this.props
 
-    if (!onTitleClick) {
+    if (!onTitleClick || !icons) {
       return null
     }
 
-    return <IconArrowDown className={theme.arrow} />
+    return (
+      <span className={theme.arrow}>
+        {collapsed ? icons.expand : icons.collapse}
+      </span>
+    )
   }
 
   renderHeader () {
@@ -105,6 +113,10 @@ CardSection.propTypes = {
     collapsed: PropTypes.string,
     arrow: PropTypes.string,
   }),
+  icons: PropTypes.shape({
+    collapse: PropTypes.element,
+    expand: PropTypes.element,
+  }),
   title: PropTypes.string.isRequired,
   collapsedTitle: PropTypes.string,
   collapsed: PropTypes.bool,
@@ -120,6 +132,7 @@ CardSection.defaultProps = {
   onTitleClick: null,
   subTitle: '',
   base: 'light',
+  icons: {},
 }
 
 export default applyTheme(CardSection)
