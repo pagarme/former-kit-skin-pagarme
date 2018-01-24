@@ -58,6 +58,9 @@
   width: var(--dropdown-icon-size);
   height: var(--dropdown-icon-size);
   border-left: var(--dropdown-icon-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .option {

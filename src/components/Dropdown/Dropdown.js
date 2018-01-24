@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import shortid from 'shortid'
-import MdArrowDropDown from 'react-icons/lib/md/arrow-drop-down'
 
 import {
   propEq,
@@ -76,9 +75,10 @@ class Dropdown extends React.Component {
     const {
       disabled,
       error,
+      icon,
       label,
-      success,
       placeholder,
+      success,
       theme,
     } = this.props
 
@@ -123,9 +123,9 @@ class Dropdown extends React.Component {
           {this.renderOptions()}
         </select>
 
-        <MdArrowDropDown
-          className={theme.arrow}
-        />
+        <span className={theme.arrow}>
+          {icon}
+        </span>
 
         {hasSecondaryText &&
           <p className={theme.secondaryText}>
@@ -148,8 +148,11 @@ Dropdown.propTypes = {
     secondaryText: PropTypes.string,
     success: PropTypes.string,
   }),
-  name: PropTypes.string.isRequired,
+  disabled: PropTypes.bool,
+  error: PropTypes.string,
+  icon: PropTypes.node.isRequired,
   label: PropTypes.string,
+  name: PropTypes.string.isRequired,
   options: PropTypes.arrayOf(
     PropTypes.shape({
       value: PropTypes.string,
@@ -157,11 +160,9 @@ Dropdown.propTypes = {
     })
   ).isRequired,
   onChange: PropTypes.func.isRequired,
-  value: PropTypes.string,
-  disabled: PropTypes.bool,
   placeholder: PropTypes.string,
-  error: PropTypes.string,
   success: PropTypes.string,
+  value: PropTypes.string,
 }
 
 Dropdown.defaultProps = {

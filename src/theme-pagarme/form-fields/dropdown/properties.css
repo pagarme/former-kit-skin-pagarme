@@ -26,10 +26,10 @@
   --dropdown-secondary-text-error-color: var(--color-light-error);
   --dropdown-secondary-text-font-size: var(--form-item-secondary-font-size);
   --dropdown-secondary-text-success-color: var(--color-light-success);
-  --dropdown-select-padding-bottom: 8px;
+  --dropdown-select-padding-bottom: 6px;
   --dropdown-select-padding-left: 0;
   --dropdown-select-padding-right: 20px;
-  --dropdown-select-padding-top: 16px;
+  --dropdown-select-padding-top: 10px;
   --dropdown-success-color: var(--color-light-success);
   --dropdown-text-color: var(--color-light-chromium-100);
 }

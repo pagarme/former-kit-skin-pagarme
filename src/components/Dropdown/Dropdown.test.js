@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-
+import ArrowIcon from 'react-icons/lib/fa/angle-down'
 import Dropdown from './index'
 
 describe('Dropdown', () => {
@@ -30,6 +30,7 @@ describe('Dropdown', () => {
         name="artefatos"
         label="Selecione um"
         onChange={onChange}
+        icon={<ArrowIcon />}
       />
     ).dive()
 
@@ -54,6 +55,7 @@ describe('Dropdown', () => {
         disabled
         label="Selecione um"
         onChange={onChange}
+        icon={<ArrowIcon />}
       />
     )
 
@@ -79,6 +81,7 @@ describe('Dropdown', () => {
         success="mock text"
         label="Selecione um"
         onChange={onChange}
+        icon={<ArrowIcon />}
       />
     )
 
@@ -103,6 +106,7 @@ describe('Dropdown', () => {
         error="mock text"
         label="Selecione um"
         onChange={onChange}
+        icon={<ArrowIcon />}
       />
     ).dive()
 
@@ -129,6 +133,7 @@ describe('Dropdown', () => {
         value="something"
         title="title here"
         onChange={onChange}
+        icon={<ArrowIcon />}
       />
     ).dive()
 
@@ -156,6 +161,7 @@ describe('Dropdown', () => {
         disabled
         title="title here"
         onChange={onChange}
+        icon={<ArrowIcon />}
       />
     )
 

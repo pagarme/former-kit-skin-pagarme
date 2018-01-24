@@ -76,6 +76,9 @@
   pointer-events: none;
   width: var(--dropdown-icon-size);
   height: var(--dropdown-icon-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .label:hover {

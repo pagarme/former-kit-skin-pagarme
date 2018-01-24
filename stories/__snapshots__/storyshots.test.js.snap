@@ -6042,6 +6042,716 @@ exports[`Storyshots DateSelector All types with defaultTheme 1`] = `
 </div>
 `;
 
+exports[`Storyshots Dropdown Default 1`] = `
+<div
+  className={undefined}
+>
+  <h2>
+    Dropdown
+  </h2>
+  <section>
+    <h3>
+      Default
+    </h3>
+    <div>
+      <div
+        className=""
+      >
+        <select
+          className={undefined}
+          defaultValue="placeholder"
+          disabled={false}
+          id="pessoas-shortid-mock"
+          onChange={[Function]}
+        >
+          <option
+            className=""
+            disabled={true}
+            hidden={true}
+            value="placeholder"
+          >
+            
+          </option>
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+        <svg
+          className={undefined}
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m11.6 16.6h16.8l-8.4 8.4z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p>
+        Selecionado: 
+        
+      </p>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Disabled
+    </h3>
+    <div>
+      <div
+        className=""
+      >
+        <select
+          className={undefined}
+          defaultValue="placeholder"
+          disabled={true}
+          id="pessoas-shortid-mock"
+          onChange={[Function]}
+        >
+          <option
+            className=""
+            disabled={true}
+            hidden={true}
+            value="placeholder"
+          >
+            
+          </option>
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+        <svg
+          className={undefined}
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m11.6 16.6h16.8l-8.4 8.4z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p>
+        Selecionado: 
+        
+      </p>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Default
+    </h3>
+    <div>
+      <div
+        className=""
+      >
+        <select
+          className={undefined}
+          defaultValue="placeholder"
+          disabled={false}
+          id="pessoas-shortid-mock"
+          onChange={[Function]}
+        >
+          <option
+            className=""
+            disabled={true}
+            hidden={true}
+            value="placeholder"
+          >
+            Selecione
+          </option>
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+        <svg
+          className={undefined}
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m11.6 16.6h16.8l-8.4 8.4z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p>
+        Selecionado: 
+        
+      </p>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Disabled
+    </h3>
+    <div>
+      <div
+        className=""
+      >
+        <select
+          className={undefined}
+          defaultValue="placeholder"
+          disabled={true}
+          id="pessoas-shortid-mock"
+          onChange={[Function]}
+        >
+          <option
+            className=""
+            disabled={true}
+            hidden={true}
+            value="placeholder"
+          >
+            Selecione
+          </option>
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+        <svg
+          className={undefined}
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m11.6 16.6h16.8l-8.4 8.4z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p>
+        Selecionado: 
+        
+      </p>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Storyshots Dropdown Form 1`] = `
+<div
+  className={undefined}
+>
+  <h2>
+    Dropdown
+  </h2>
+  <section>
+    <h3>
+      Default
+    </h3>
+    <div>
+      <div
+        className=""
+      >
+        <select
+          className={undefined}
+          defaultValue="placeholder"
+          disabled={false}
+          id="pessoas-shortid-mock"
+          onChange={[Function]}
+        >
+          <option
+            className=""
+            disabled={true}
+            hidden={true}
+            value="placeholder"
+          >
+            
+          </option>
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+        <svg
+          className={undefined}
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m11.6 16.6h16.8l-8.4 8.4z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p>
+        Selecionado: 
+        
+      </p>
+    </div>
+  </section>
+  <section>
+    <h3>
+      With placeholder
+    </h3>
+    <div>
+      <div
+        className=""
+      >
+        <select
+          className={undefined}
+          defaultValue="placeholder"
+          disabled={false}
+          id="pessoas-shortid-mock"
+          onChange={[Function]}
+        >
+          <option
+            className=""
+            disabled={true}
+            hidden={true}
+            value="placeholder"
+          >
+            Selecione alguem
+          </option>
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+        <svg
+          className={undefined}
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m11.6 16.6h16.8l-8.4 8.4z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p>
+        Selecionado: 
+        
+      </p>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Disabled with placeholder
+    </h3>
+    <div>
+      <div
+        className=""
+      >
+        <select
+          className={undefined}
+          defaultValue="placeholder"
+          disabled={true}
+          id="pessoas-shortid-mock"
+          onChange={[Function]}
+        >
+          <option
+            className=""
+            disabled={true}
+            hidden={true}
+            value="placeholder"
+          >
+            Selecione alguem
+          </option>
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+        <svg
+          className={undefined}
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m11.6 16.6h16.8l-8.4 8.4z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p>
+        Selecionado: 
+        
+      </p>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Disabled
+    </h3>
+    <div>
+      <div
+        className=""
+      >
+        <select
+          className={undefined}
+          defaultValue="placeholder"
+          disabled={true}
+          id="pessoas-shortid-mock"
+          onChange={[Function]}
+        >
+          <option
+            className=""
+            disabled={true}
+            hidden={true}
+            value="placeholder"
+          >
+            
+          </option>
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+        <svg
+          className={undefined}
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m11.6 16.6h16.8l-8.4 8.4z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p>
+        Selecionado: 
+        
+      </p>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Error
+    </h3>
+    <div>
+      <div
+        className=""
+      >
+        <select
+          className={undefined}
+          defaultValue="placeholder"
+          disabled={false}
+          id="pessoas-shortid-mock"
+          onChange={[Function]}
+        >
+          <option
+            className=""
+            disabled={true}
+            hidden={true}
+            value="placeholder"
+          >
+            
+          </option>
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+        <svg
+          className={undefined}
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m11.6 16.6h16.8l-8.4 8.4z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p>
+        Selecionado: 
+        
+      </p>
+    </div>
+  </section>
+  <section>
+    <h3>
+      Success
+    </h3>
+    <div>
+      <div
+        className="undefined"
+      >
+        <select
+          className={undefined}
+          defaultValue="placeholder"
+          disabled={false}
+          id="pessoas-shortid-mock"
+          onChange={[Function]}
+        >
+          <option
+            className=""
+            disabled={true}
+            hidden={true}
+            value="placeholder"
+          >
+            
+          </option>
+          <option
+            className=""
+            value="leonardo"
+          >
+            Leonardo
+          </option>
+          <option
+            className=""
+            value="derek"
+          >
+            Derek
+          </option>
+          <option
+            className=""
+            value="lucas"
+          >
+            Lucas
+          </option>
+        </select>
+        <svg
+          className={undefined}
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m11.6 16.6h16.8l-8.4 8.4z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p>
+        Selecionado: 
+        
+      </p>
+    </div>
+  </section>
+</div>
+`;
+
 exports[`Storyshots Filters Default 1`] = `
 <div
   className={undefined}

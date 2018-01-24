@@ -1,9 +1,7 @@
 import React from 'react'
-
 import { storiesOf } from '@storybook/react'
-
+import ArrowIcon from 'react-icons/lib/fa/angle-down'
 import Dropdown from '../../src/components/Dropdown/form'
-
 import style from '../style.css'
 
 const options = [
@@ -20,7 +18,6 @@ const options = [
     value: 'lucas',
   },
 ]
-
 
 class DropdownState extends React.Component {
   constructor (props) {
@@ -41,6 +38,7 @@ class DropdownState extends React.Component {
           placeholder={this.props.placeholder}
           error={this.props.error}
           success={this.props.success}
+          icon={<ArrowIcon size={20} />}
         />
 
         <p>Selecionado: {this.state.selected}</p>
