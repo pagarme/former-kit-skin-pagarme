@@ -234,7 +234,7 @@ describe('Input', () => {
           label="Name"
           onChange={onChange}
           value="hihihi"
-          type="password"
+          type="text"
           placeholder="Your name"
           boxed
           hint="Hi"

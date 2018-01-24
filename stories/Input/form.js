@@ -1,8 +1,8 @@
 import React from 'react'
-
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
-
+import MdVisibilityOff from 'react-icons/lib/md/visibility-off'
+import MdVisibility from 'react-icons/lib/md/visibility'
 import FaPlane from 'react-icons/lib/fa/plane'
 
 import Input from '../../src/components/Input/form'
@@ -22,6 +22,7 @@ class InputState extends React.Component {
       multiline,
       success,
       type,
+      icons,
     } = this.props
 
     const {
@@ -41,6 +42,7 @@ class InputState extends React.Component {
         success={success}
         type={type}
         value={email}
+        icons={icons}
       />
     )
   }
@@ -178,22 +180,46 @@ storiesOf('Inputs', module)
           placeholder="eae"
           hint="Minimo de 12 pixels"
           onChange={action('text changed')}
+          icons={{
+            hidePassword: <MdVisibilityOff />,
+            showPassword: <MdVisibility />,
+          }}
         />
       </section>
 
       <section>
         <h3>Password default</h3>
-        <InputState type="password" />
+        <InputState
+          type="password"
+          icons={{
+            hidePassword: <MdVisibilityOff />,
+            showPassword: <MdVisibility />,
+          }}
+        />
       </section>
 
       <section>
         <h3>Password error</h3>
-        <InputState type="password" error="Digite mais caracteres" />
+        <InputState
+          type="password"
+          error="Digite mais caracteres"
+          icons={{
+            hidePassword: <MdVisibilityOff />,
+            showPassword: <MdVisibility />,
+          }}
+        />
       </section>
 
       <section>
         <h3>Password success</h3>
-        <InputState type="password" success="Boa rapá" />
+        <InputState
+          type="password"
+          success="Boa rapá"
+          icons={{
+            hidePassword: <MdVisibilityOff />,
+            showPassword: <MdVisibility />,
+          }}
+        />
       </section>
     </div>
   ))

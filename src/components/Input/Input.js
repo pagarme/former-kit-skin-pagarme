@@ -1,10 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-import MdVisibilityOff from 'react-icons/lib/md/visibility-off'
-import MdVisibility from 'react-icons/lib/md/visibility'
 import shortid from 'shortid'
-import { pick } from 'ramda'
+import { isNil, pick } from 'ramda'
+
+const validateMultiline = (props, propName) => {
+  const { multiline, type } = props
+  if (
+    propName === 'multiline' &&
+    multiline &&
+    type !== 'text' &&
+    !isNil(type)
+  ) {
+    throw new Error('Multiline inputs must have the type "text"')
+  }
+}
 
 class Input extends React.PureComponent {
   constructor (props) {
@@ -13,7 +23,6 @@ class Input extends React.PureComponent {
     this.instanceId = `${props.name}-${shortid.generate()}`
     this.handleBlur = this.handleBlur.bind(this)
     this.handleFocus = this.handleFocus.bind(this)
-
     this.state = {
       showPassword: false,
       isFocused: false,
@@ -39,7 +48,12 @@ class Input extends React.PureComponent {
   }
 
   renderPasswordVisibilityIcon () {
-    const { value, type, theme } = this.props
+    const {
+      value,
+      type,
+      theme,
+      icons,
+    } = this.props
 
     if (value === '' || type !== 'password') {
       return null
@@ -47,18 +61,26 @@ class Input extends React.PureComponent {
 
     if (this.state.showPassword) {
       return (
-        <MdVisibilityOff
+        <span
           className={theme.displayPasswordIcon}
           onClick={() => this.setState({ showPassword: false })}
-        />
+          role="button"
+          tabIndex="0"
+        >
+          {icons.hidePassword}
+        </span>
       )
     }
 
     return (
-      <MdVisibility
+      <span
         className={theme.displayPasswordIcon}
         onClick={() => this.setState({ showPassword: true })}
-      />
+        role="button"
+        tabIndex="0"
+      >
+        {icons.showPassword}
+      </span>
     )
   }
 
@@ -103,9 +125,10 @@ class Input extends React.PureComponent {
       this.props
     )
 
-    const inputType = (type === 'text' || this.state.showPassword)
+    const inputType = (type === 'password' && this.state.showPassword)
+      || multiline
       ? 'text'
-      : 'password'
+      : type
 
     const hasSecondaryText = theme.secondaryText && (hint || error || success)
 
@@ -186,12 +209,22 @@ Input.propTypes = {
   hint: PropTypes.string,
   icon: PropTypes.element,
   label: PropTypes.string,
-  multiline: PropTypes.bool,
+  multiline: validateMultiline,
   name: PropTypes.string,
   onChange: PropTypes.func.isRequired,
+  icons: PropTypes.shape({
+    showPassword: PropTypes.element,
+    hidePassword: PropTypes.element,
+  }),
   placeholder: PropTypes.string,
   success: PropTypes.string,
-  type: PropTypes.oneOf(['text', 'password']),
+  type: PropTypes.oneOf([
+    'text',
+    'password',
+    'number',
+    'email',
+    'phone',
+  ]),
   value: PropTypes.string.isRequired,
   onBlur: PropTypes.func,
   onFocus: PropTypes.func,
@@ -206,6 +239,7 @@ Input.defaultProps = {
   label: '',
   multiline: false,
   name: '',
+  icons: {},
   placeholder: '',
   success: '',
   theme: {},

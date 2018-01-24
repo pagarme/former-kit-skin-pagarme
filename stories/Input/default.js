@@ -1,8 +1,8 @@
 import React from 'react'
-
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
-
+import MdVisibilityOff from 'react-icons/lib/md/visibility-off'
+import MdVisibility from 'react-icons/lib/md/visibility'
 import FaPlane from 'react-icons/lib/fa/plane'
 
 import Input from '../../src/components/Input'
@@ -13,6 +13,11 @@ class InputState extends React.Component {
   constructor (props) {
     super(props)
     this.state = { email: 'Leo' }
+
+    this.icons = {
+      hidePassword: <MdVisibilityOff />,
+      showPassword: <MdVisibility />,
+    }
   }
 
   render () {
@@ -41,6 +46,7 @@ class InputState extends React.Component {
         success={success}
         type={type}
         value={email}
+        icons={this.icons}
       />
     )
   }
