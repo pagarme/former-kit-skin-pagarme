@@ -54,4 +54,9 @@
   --button-padding-small: 0 16px;
   --button-padding-tiny: 0 8px;
   --button-text-transform: uppercase;
+  --button-icon-padding: 0;
+  --button-icon-font-size-small: 12px;
+  --button-icon-width-small: 26px;
+  --button-icon-width-default: 28px;
+  --button-icon-svg-margin: 0;
 }

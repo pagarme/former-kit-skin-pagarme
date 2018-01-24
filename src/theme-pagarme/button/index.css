@@ -11,6 +11,8 @@
   letter-spacing: var(--button-letter-spacing);
   text-transform: var(--button-text-transform);
   cursor: pointer;
+  word-break: keep-all;
+  white-space: nowrap;
 }
 
 .button:focus {
@@ -121,4 +123,29 @@
   padding: var(--button-padding-large);
   font-size: var(--button-font-size-large);
   height: var(--button-height-large);
+}
+
+.button.iconButton {
+
+  &.tiny,
+  &.small,
+  &.default,
+  &.large {
+    padding: var(--button-icon-padding);
+  }
+
+  &.tiny,
+  &.small {
+    width: var(--button-icon-width-small);
+    font-size: var(--button-icon-font-size-small);
+  }
+
+  &.default,
+  &.large {
+    width: var(--button-icon-width-default);
+  }
+
+  & svg {
+    margin: var(--button-icon-svg-margin);
+  }
 }

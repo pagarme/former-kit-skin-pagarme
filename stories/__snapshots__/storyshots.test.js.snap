@@ -357,7 +357,7 @@ exports[`Storyshots Buttons defaultTheme 1`] = `
     className={undefined}
   >
     <button
-      className=""
+      className="undefined"
       disabled={false}
       onClick={null}
       type="button"
@@ -381,124 +381,7 @@ exports[`Storyshots Buttons defaultTheme 1`] = `
           />
         </g>
       </svg>
-      Call to Action
     </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
-      >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
-      >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
-      >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
-      >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
     <button
       className=""
       disabled={false}
@@ -584,6 +467,227 @@ exports[`Storyshots Buttons defaultTheme 1`] = `
   <div
     className={undefined}
   >
+    <button
+      className="undefined"
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+    </button>
+    <button
+      className=""
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+      Call to Action
+    </button>
+    <button
+      className=""
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+      Call to Action
+    </button>
+  </div>
+  <div
+    className={undefined}
+  >
+    <button
+      className="undefined"
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+    </button>
+    <button
+      className=""
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+      Call to Action
+    </button>
+    <button
+      className=""
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+      Call to Action
+    </button>
+    <button
+      className=""
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+      Call to Action
+    </button>
+  </div>
+  <div
+    className={undefined}
+  >
+    <button
+      className="undefined"
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+    </button>
     <button
       className=""
       disabled={false}
@@ -680,6 +784,32 @@ exports[`Storyshots Buttons defaultTheme 1`] = `
     >
       tiny
     </button>
+    <button
+      className="undefined"
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+    </button>
   </div>
   <div
     className={undefined}
@@ -691,6 +821,32 @@ exports[`Storyshots Buttons defaultTheme 1`] = `
       type="button"
     >
       small
+    </button>
+    <button
+      className="undefined"
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
     </button>
   </div>
   <div
@@ -704,6 +860,32 @@ exports[`Storyshots Buttons defaultTheme 1`] = `
     >
       default
     </button>
+    <button
+      className="undefined"
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+    </button>
   </div>
   <div
     className={undefined}
@@ -716,6 +898,32 @@ exports[`Storyshots Buttons defaultTheme 1`] = `
     >
       large
     </button>
+    <button
+      className="undefined"
+      disabled={false}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+    </button>
   </div>
   <h2>
     All disabled
@@ -724,7 +932,7 @@ exports[`Storyshots Buttons defaultTheme 1`] = `
     className={undefined}
   >
     <button
-      className=""
+      className="undefined"
       disabled={true}
       onClick={null}
       type="button"
@@ -748,124 +956,7 @@ exports[`Storyshots Buttons defaultTheme 1`] = `
           />
         </g>
       </svg>
-      Call to Action
     </button>
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
-      >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
-      >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
-      >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
-      >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
     <button
       className=""
       disabled={true}
@@ -951,6 +1042,227 @@ exports[`Storyshots Buttons defaultTheme 1`] = `
   <div
     className={undefined}
   >
+    <button
+      className="undefined"
+      disabled={true}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+    </button>
+    <button
+      className=""
+      disabled={true}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+      Call to Action
+    </button>
+    <button
+      className=""
+      disabled={true}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+      Call to Action
+    </button>
+  </div>
+  <div
+    className={undefined}
+  >
+    <button
+      className="undefined"
+      disabled={true}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+    </button>
+    <button
+      className=""
+      disabled={true}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+      Call to Action
+    </button>
+    <button
+      className=""
+      disabled={true}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+      Call to Action
+    </button>
+    <button
+      className=""
+      disabled={true}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+      Call to Action
+    </button>
+  </div>
+  <div
+    className={undefined}
+  >
+    <button
+      className="undefined"
+      disabled={true}
+      onClick={null}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "color": undefined,
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g>
+          <path
+            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+          />
+        </g>
+      </svg>
+    </button>
     <button
       className=""
       disabled={true}
@@ -10084,7 +10396,7 @@ exports[`Storyshots Modal default 1`] = `
           />
         </g>
       </svg>
-       Add Photo
+      Add Photo
     </button>
     <div
       className="modal"

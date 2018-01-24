@@ -2,26 +2,31 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import { themr } from 'react-css-themr'
+import { isNil } from 'ramda'
 
 const applyThemr = themr('UIButton')
 
 function Button ({
   base,
   children,
-  relevance,
   disabled,
+  fill,
+  icon,
   onClick,
+  relevance,
   size,
   theme,
   type,
-  fill,
 }) {
   const buttonClasses = classNames(
     theme.button,
     theme[fill],
     theme[base],
     theme[`${relevance}Relevance`],
-    theme[size]
+    theme[size],
+    {
+      [theme.iconButton]: !isNil(icon) && isNil(children),
+    }
   )
 
   return (
@@ -31,7 +36,8 @@ function Button ({
       onClick={onClick}
       type={type}
     >
-      {children}
+      {!isNil(icon) && icon}
+      {!isNil(children) && children}
     </button>
   )
 }
@@ -55,37 +61,36 @@ Button.propTypes = {
     default: PropTypes.string,
     large: PropTypes.string,
   }),
-  type: PropTypes.oneOf(['button', 'submit', 'reset']),
-  onClick: PropTypes.func,
-  fill: PropTypes.oneOf([
-    'flat', 'gradient', 'outline', 'clean',
-  ]),
   base: PropTypes.oneOf([
     'dark', 'light',
   ]),
+  children: PropTypes.string,
+  disabled: PropTypes.bool,
+  fill: PropTypes.oneOf([
+    'flat', 'gradient', 'outline', 'clean',
+  ]),
+  icon: PropTypes.element,
+  onClick: PropTypes.func,
   relevance: PropTypes.oneOf([
     'high', 'normal', 'low',
   ]),
   size: PropTypes.oneOf([
     'tiny', 'small', 'default', 'large',
   ]),
-  children: PropTypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.node),
-    PropTypes.string,
-    PropTypes.node,
-  ]).isRequired,
-  disabled: PropTypes.bool,
+  type: PropTypes.oneOf(['button', 'submit', 'reset']),
 }
 
 Button.defaultProps = {
-  theme: {},
-  fill: 'flat',
   base: 'light',
+  children: null,
+  disabled: false,
+  fill: 'flat',
+  icon: null,
+  onClick: null,
   relevance: 'normal',
   size: 'default',
+  theme: {},
   type: 'button',
-  disabled: false,
-  onClick: null,
 }
 
 export default applyThemr(Button)

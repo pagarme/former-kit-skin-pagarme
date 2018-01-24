@@ -43,8 +43,9 @@ class ModalWithState extends Component {
           fill="flat"
           relevance="low"
           onClick={this.handleToggleModal}
+          icon={<IconAddPhoto />}
         >
-          <IconAddPhoto /> Add Photo
+          Add Photo
         </Button>
 
         {/* modal content definition */}
