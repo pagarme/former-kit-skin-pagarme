@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { themr } from 'react-css-themr'
-import IconArrowDown from 'react-icons/lib/md/arrow-downward'
 
 const applyThemr = themr('UIHeader')
 
@@ -9,6 +8,7 @@ const HeaderMenu = ({
   children,
   theme,
   onClick,
+  icon,
 }) => (
   <div
     className={theme.menu}
@@ -17,7 +17,7 @@ const HeaderMenu = ({
     tabIndex="0"
   >
     {children}
-    <IconArrowDown />
+    {icon}
   </div>
 )
 
@@ -27,6 +27,7 @@ HeaderMenu.propTypes = {
   }),
   onClick: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired,
+  icon: PropTypes.element.isRequired,
 }
 
 HeaderMenu.defaultProps = {
