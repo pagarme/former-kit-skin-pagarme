@@ -12,6 +12,9 @@ import moment from 'moment'
 
 import IconFunnel from 'react-icons/lib/fa/filter'
 import IconSearch from 'react-icons/lib/fa/search'
+import IconCalendar from 'react-icons/lib/fa/calendar'
+import IconArrowUp from 'react-icons/lib/md/keyboard-arrow-up'
+import IconArrowDown from 'react-icons/lib/md/keyboard-arrow-down'
 
 import {
   equals,
@@ -166,6 +169,7 @@ class Filters extends Component {
           active={isDateActive}
           onChange={this.handleDateInputChange}
           presets={datePresets}
+          icon={<IconCalendar />}
         />
         <Input
           className={style.searchField}
@@ -190,6 +194,10 @@ class Filters extends Component {
         collapsedTitle={this.cardTitle()}
         collapsed={collapsed}
         onTitleClick={() => this.setState({ collapsed: !collapsed })}
+        icons={{
+          collapse: <IconArrowUp />,
+          expand: <IconArrowDown />,
+        }}
       >
         <Row>
           {this.props.options.map(({ name, items, key }) => (
