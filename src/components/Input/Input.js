@@ -24,12 +24,18 @@ class Input extends React.PureComponent {
     this.setState({
       isFocused: false,
     })
+    if (this.props.onBlur) {
+      this.props.onBlur()
+    }
   }
 
   handleFocus () {
     this.setState({
       isFocused: true,
     })
+    if (this.props.onFocus) {
+      this.props.onFocus()
+    }
   }
 
   renderPasswordVisibilityIcon () {
@@ -187,6 +193,8 @@ Input.propTypes = {
   success: PropTypes.string,
   type: PropTypes.oneOf(['text', 'password']),
   value: PropTypes.string.isRequired,
+  onBlur: PropTypes.func,
+  onFocus: PropTypes.func,
 }
 
 Input.defaultProps = {
@@ -203,6 +211,8 @@ Input.defaultProps = {
   theme: {},
   type: 'text',
   value: '',
+  onBlur: null,
+  onFocus: null,
 }
 
 export default Input
