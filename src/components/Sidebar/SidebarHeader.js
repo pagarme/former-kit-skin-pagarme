@@ -13,8 +13,12 @@ const SidebarHeader = ({ theme, children }) => (
 SidebarHeader.propTypes = {
   theme: PropTypes.shape({
     header: PropTypes.string,
-  }).isRequired,
+  }),
   children: PropTypes.node.isRequired,
+}
+
+SidebarHeader.defaultProps = {
+  theme: {},
 }
 
 export default applyThemr(SidebarHeader)

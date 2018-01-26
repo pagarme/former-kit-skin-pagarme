@@ -13,8 +13,12 @@ const ModalActions = ({ theme, children }) => (
 ModalActions.propTypes = {
   theme: PropTypes.shape({
     actions: PropTypes.string,
-  }).isRequired,
+  }),
   children: PropTypes.node.isRequired,
+}
+
+ModalActions.defaultProps = {
+  theme: {},
 }
 
 export default applyThemr(ModalActions)

@@ -24,12 +24,13 @@ const Grid = ({ theme, children, className }) => (
 Grid.propTypes = {
   theme: shape({
     grid: string,
-  }).isRequired,
+  }),
   children: node,
   className: string,
 }
 
 Grid.defaultProps = {
+  theme: {},
   children: null,
   className: null,
 }

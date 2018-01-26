@@ -63,7 +63,7 @@ SidebarLink.propTypes = {
     title: PropTypes.string,
     subtitle: PropTypes.string,
     icon: PropTypes.string,
-  }).isRequired,
+  }),
   active: PropTypes.bool,
   children: PropTypes.node,
   subtitle: PropTypes.string,
@@ -74,6 +74,7 @@ SidebarLink.propTypes = {
 }
 
 SidebarLink.defaultProps = {
+  theme: {},
   active: false,
   children: null,
   onClick: null,

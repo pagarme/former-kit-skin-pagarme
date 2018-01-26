@@ -13,8 +13,12 @@ const ModalContent = ({ theme, children }) => (
 ModalContent.propTypes = {
   theme: PropTypes.shape({
     content: PropTypes.string,
-  }).isRequired,
+  }),
   children: PropTypes.node.isRequired,
+}
+
+ModalContent.defaultProps = {
+  theme: {},
 }
 
 export default applyThemr(ModalContent)

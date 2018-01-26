@@ -16,8 +16,12 @@ const HeaderContent = ({
 HeaderContent.propTypes = {
   theme: PropTypes.shape({
     content: PropTypes.string,
-  }).isRequired,
+  }),
   children: PropTypes.node.isRequired,
+}
+
+HeaderContent.defaultProps = {
+  theme: {},
 }
 
 export default applyThemr(HeaderContent)

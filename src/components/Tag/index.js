@@ -16,8 +16,12 @@ const Tag = ({
 Tag.propTypes = {
   theme: PropTypes.shape({
     tag: PropTypes.string,
-  }).isRequired,
+  }),
   children: PropTypes.string.isRequired,
+}
+
+Tag.defaultProps = {
+  theme: {},
 }
 
 export default applyThemr(Tag)

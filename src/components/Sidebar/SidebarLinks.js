@@ -15,8 +15,12 @@ const SidebarLinks = ({ theme, children }) => (
 SidebarLinks.propTypes = {
   theme: PropTypes.shape({
     items: PropTypes.string,
-  }).isRequired,
+  }),
   children: PropTypes.node.isRequired,
+}
+
+SidebarLinks.defaultProps = {
+  theme: {},
 }
 
 export default applyThemr(SidebarLinks)

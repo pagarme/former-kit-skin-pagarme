@@ -42,7 +42,7 @@ Row.propTypes = {
     row: string,
     flex: string,
     stretch: string,
-  }).isRequired,
+  }),
   children: node,
   flex: bool,
   stretch: bool,
@@ -50,6 +50,7 @@ Row.propTypes = {
 }
 
 Row.defaultProps = {
+  theme: {},
   children: null,
   flex: false,
   stretch: false,

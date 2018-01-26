@@ -59,7 +59,7 @@ Legend.propTypes = {
     outline: PropTypes.string,
     legend: PropTypes.string,
     text: PropTypes.string,
-  }).isRequired,
+  }),
   color: PropTypes.string.isRequired,
   children: PropTypes.string.isRequired,
   outline: PropTypes.bool,
@@ -68,6 +68,7 @@ Legend.propTypes = {
 }
 
 Legend.defaultProps = {
+  theme: {},
   outline: false,
   acronym: '',
   hideLabel: false,

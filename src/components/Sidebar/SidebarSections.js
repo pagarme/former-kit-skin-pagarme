@@ -45,13 +45,17 @@ class SidebarSections extends React.PureComponent {
 SidebarSections.propTypes = {
   theme: PropTypes.shape({
     sections: PropTypes.string,
-  }).isRequired,
+  }),
   sections: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string,
     value: PropTypes.element,
     action: PropTypes.func,
     actionTitle: PropTypes.string,
   })).isRequired,
+}
+
+SidebarSections.defaultProps = {
+  theme: {},
 }
 
 export default applyThemr(SidebarSections)

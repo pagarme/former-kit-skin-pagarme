@@ -292,7 +292,7 @@ DateSelector.propTypes = {
     sidebar: string,
     container: string,
     stage: string,
-  }).isRequired,
+  }),
   onConfirm: func,
   onChange: func,
   onCancel: func,
@@ -325,6 +325,7 @@ DateSelector.propTypes = {
 }
 
 DateSelector.defaultProps = {
+  theme: {},
   onConfirm: () => undefined,
   onChange: () => undefined,
   onCancel: () => undefined,

@@ -56,7 +56,7 @@ Col.propTypes = {
     tablet: string,
     palm: string,
     alignEnd: string,
-  }).isRequired,
+  }),
   children: node,
   desk: number,
   tv: number,
@@ -67,6 +67,7 @@ Col.propTypes = {
 }
 
 Col.defaultProps = {
+  theme: {},
   children: null,
   desk: null,
   tv: null,

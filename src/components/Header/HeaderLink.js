@@ -23,13 +23,14 @@ const HeaderLink = ({
 HeaderLink.propTypes = {
   theme: PropTypes.shape({
     link: PropTypes.string,
-  }).isRequired,
+  }),
   onClick: PropTypes.func.isRequired,
   icon: PropTypes.element,
   children: PropTypes.node,
 }
 
 HeaderLink.defaultProps = {
+  theme: {},
   icon: null,
   children: null,
 }

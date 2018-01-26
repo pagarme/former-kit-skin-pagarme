@@ -13,8 +13,12 @@ const SidebarContent = ({ theme, children }) => (
 SidebarContent.propTypes = {
   theme: PropTypes.shape({
     content: PropTypes.string,
-  }).isRequired,
+  }),
   children: PropTypes.node.isRequired,
+}
+
+SidebarContent.defaultProps = {
+  theme: {},
 }
 
 export default applyThemr(SidebarContent)

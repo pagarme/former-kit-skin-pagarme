@@ -24,9 +24,13 @@ const HeaderMenu = ({
 HeaderMenu.propTypes = {
   theme: PropTypes.shape({
     menu: PropTypes.string,
-  }).isRequired,
+  }),
   onClick: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired,
+}
+
+HeaderMenu.defaultProps = {
+  theme: {},
 }
 
 export default applyThemr(HeaderMenu)

@@ -19,12 +19,13 @@ Sidebar.propTypes = {
   theme: PropTypes.shape({
     sidebar: PropTypes.string,
     collapsed: PropTypes.string,
-  }).isRequired,
+  }),
   collapsed: PropTypes.bool,
   children: PropTypes.node.isRequired,
 }
 
 Sidebar.defaultProps = {
+  theme: {},
   collapsed: false,
 }
 

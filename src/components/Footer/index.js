@@ -29,12 +29,16 @@ const Footer = ({ theme, children, links }) => (
 Footer.propTypes = {
   theme: PropTypes.shape({
     footer: PropTypes.string,
-  }).isRequired,
+  }),
   links: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string,
     onClick: PropTypes.func,
   })).isRequired,
   children: PropTypes.node.isRequired,
+}
+
+Footer.defaultProps = {
+  theme: {},
 }
 
 export default applyThemr(Footer)

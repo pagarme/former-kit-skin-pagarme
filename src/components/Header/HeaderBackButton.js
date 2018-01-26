@@ -17,9 +17,13 @@ const HeaderBackButton = ({
 HeaderBackButton.propTypes = {
   theme: PropTypes.shape({
     backButton: PropTypes.string,
-  }).isRequired,
+  }),
   icon: PropTypes.element.isRequired,
   onClick: PropTypes.func.isRequired,
+}
+
+HeaderBackButton.defaultProps = {
+  theme: {},
 }
 
 export default applyThemr(HeaderBackButton)

@@ -35,12 +35,13 @@ Avatar.propTypes = {
   theme: PropTypes.shape({
     avatar: PropTypes.string,
     placeholder: PropTypes.string,
-  }).isRequired,
+  }),
   size: PropTypes.number,
   photo: PropTypes.string,
 }
 
 Avatar.defaultProps = {
+  theme: {},
   photo: null,
   size: 26,
 }

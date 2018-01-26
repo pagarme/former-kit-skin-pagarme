@@ -338,11 +338,14 @@ Pagination.propTypes = {
     pagination: PropTypes.string,
     expander: PropTypes.string,
     separator: PropTypes.string,
-  }).isRequired,
+  }),
   currentPage: PropTypes.number.isRequired,
   totalPages: PropTypes.number.isRequired,
   onPageChange: PropTypes.func.isRequired,
 }
 
+Pagination.defaultProps = {
+  theme: {},
+}
 
 export default applyThemr(Pagination)

@@ -15,13 +15,14 @@ ModalTitle.propTypes = {
   theme: PropTypes.shape({
     title: PropTypes.string,
     icon: PropTypes.string,
-  }).isRequired,
+  }),
   title: PropTypes.string.isRequired,
   icon: PropTypes.element,
 }
 
 ModalTitle.defaultProps = {
   icon: null,
+  theme: {},
 }
 
 export default applyThemr(ModalTitle)
