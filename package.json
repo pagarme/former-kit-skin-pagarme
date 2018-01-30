@@ -6,5 +6,17 @@
   "repository": "https://github.com/pagarme/former-kit-skin-pagarme.git",
   "author": "Pagar.me Pagamentos S.A.",
   "license": "Apache-2.0",
-  "private": false
+  "private": false,
+  "scripts": {
+    "lint": "eslint src/**/*.js; stylelint src/**/*.css"
+  },
+  "devDependencies": {
+    "eslint": "4.16.0",
+    "eslint-config-pagarme-react": "1.2.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "7.6.1",
+    "stylelint": "8.4.0",
+    "stylelint-config-pagarme-react": "1.2.0"
+  }
 }
