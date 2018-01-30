@@ -1,21 +1,25 @@
 const UIAvatar = require('./avatar')
 const UICard = require('./card')
 const UIDateInput = require('./date-input')
+const UIDropdown = require('./dropdown')
+const UIDropdownForm = require('./form-fields/dropdown')
 const UIHeader = require('./header')
+const UIInput = require('./input')
+const UIInputForm = require('./form-fields/input')
 const UIPagination = require('./pagination')
 const UISidebar = require('./sidebar')
 const UITable = require('./table')
-const UIInput = require('./input')
-const UIInputForm = require('./form-fields/input')
 
 module.exports = {
   UIAvatar,
   UICard,
   UIDateInput,
+  UIDropdown,
+  UIDropdownForm,
   UIHeader,
+  UIInput,
+  UIInputForm,
   UIPagination,
   UISidebar,
   UITable,
-  UIInput,
-  UIInputForm,
 }
