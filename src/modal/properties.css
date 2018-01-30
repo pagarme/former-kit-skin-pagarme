@@ -1,5 +1,5 @@
-@import "../../theme-pagarme/colors";
-@import "../../theme-pagarme/spacing";
+@import "../colors";
+@import "../spacing";
 
 :root {
   --modal-actions-margin: var(--spacing-small);

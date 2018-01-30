@@ -1,5 +1,5 @@
 @import "../colors.css";
-@import "../../theme-pagarme/typography.css";
+@import "../typography.css";
 
 :root {
   --alert-border-radius: 3px;
