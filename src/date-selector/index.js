@@ -1,5 +1,5 @@
-import '../react-dates/index.css'
+require('../react-dates/index.css')
 
-import UIDateSelector from './index.css'
+const UIDateSelector = require('./index.css')
 
-export default UIDateSelector
+module.exports = UIDateSelector
