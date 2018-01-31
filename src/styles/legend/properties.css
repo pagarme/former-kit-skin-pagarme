@@ -1,5 +1,5 @@
-@import "../colors";
-@import "../typography";
+@import "../colors.css";
+@import "../typography.css";
 
 :root {
   --legend-label-border-radius: 3px;

@@ -1,5 +1,5 @@
 @import "../colors.css";
-@import "../typography";
+@import "../typography.css";
 
 :root {
   --switch-label-left: 15px;

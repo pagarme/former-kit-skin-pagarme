@@ -1,5 +1,5 @@
 @import "../colors.css";
-@import "../typography";
+@import "../typography.css";
 
 :root {
   --tabbar-background: var(--color-light-silver-20);
