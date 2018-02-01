@@ -1,6 +1,6 @@
-const React = require('react')
-const MdKeyboardArrowLeft = require('react-icons/lib/md/keyboard-arrow-left')
+import React from 'react'
+import BackArrow from 'emblematic-icons/svg/ChevronBack24.svg'
 
 module.exports = {
-  back: <MdKeyboardArrowLeft />,
+  back: <BackArrow width="12px" height="12px" />,
 }

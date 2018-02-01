@@ -1,6 +1,6 @@
-const React = require('react')
-const FaUser = require('react-icons/lib/fa/user-md')
+import React from 'react'
+import UserIcon from 'emblematic-icons/svg/User24.svg'
 
 module.exports = {
-  placeholder: <FaUser size={26} />,
+  placeholder: <UserIcon />,
 }

@@ -1,8 +1,8 @@
-const React = require('react')
-const IconArrowUp = require('react-icons/lib/md/keyboard-arrow-up')
-const IconArrowDown = require('react-icons/lib/md/keyboard-arrow-down')
+import React from 'react'
+import IconArrowUp from 'emblematic-icons/svg/ChevronUp24.svg'
+import IconArrowDown from 'emblematic-icons/svg/ChevronDown24.svg'
 
 module.exports = {
-  collapse: <IconArrowUp />,
-  expand: <IconArrowDown />,
+  collapse: <IconArrowUp width="12px" height="12px" />,
+  expand: <IconArrowDown width="12px" height="12px" />,
 }

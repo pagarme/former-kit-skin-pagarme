@@ -1,6 +1,6 @@
-const React = require('react')
-const ArrowIcon = require('react-icons/lib/fa/angle-down')
+import React from 'react'
+import IconChevronDown24 from 'emblematic-icons/svg/ChevronDown24.svg'
 
 module.exports = {
-  expand: <ArrowIcon size={20} />,
+  expand: <IconChevronDown24 width="12px" height="12px" />,
 }

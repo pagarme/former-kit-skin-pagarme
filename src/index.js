@@ -1,8 +1,7 @@
+import styles from './styles'
+import icons from './icons'
 
-const styles = require('./styles')
-const icons = require('./icons')
-
-module.exports = {
+export default {
   name: 'Pagar.me',
   styles,
   icons,

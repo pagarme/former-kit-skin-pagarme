@@ -1,8 +1,8 @@
-const React = require('react')
-const MdVisibilityOff = require('react-icons/lib/md/visibility-off')
-const MdVisibility = require('react-icons/lib/md/visibility')
+import React from 'react'
+import HideIcon from 'emblematic-icons/svg/Hide24.svg'
+import ShowIcon from 'emblematic-icons/svg/Show24.svg'
 
 module.exports = {
-  hidePassword: <MdVisibilityOff />,
-  showPassword: <MdVisibility />,
+  hidePassword: <HideIcon width="12px" height="12px" />,
+  showPassword: <ShowIcon width="12px" height="12px" />,
 }

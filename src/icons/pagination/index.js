@@ -1,8 +1,8 @@
-const React = require('react')
-const ArrowLeft = require('react-icons/lib/md/keyboard-arrow-left')
-const ArrowRight = require('react-icons/lib/md/keyboard-arrow-right')
+import React from 'react'
+import BackArrow from 'emblematic-icons/svg/ChevronBack24.svg'
+import ForwardArrow from 'emblematic-icons/svg/ChevronForward24.svg'
 
 module.exports = {
-  previous: <ArrowLeft size={13} viewBox="10 10 20 20" />,
-  next: <ArrowRight size={13} viewBox="10 10 20 20" />,
+  previous: <BackArrow width="12px" height="12px" />,
+  next: <ForwardArrow width="12px" height="12px" />,
 }

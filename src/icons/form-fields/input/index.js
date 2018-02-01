@@ -1,6 +1,8 @@
-const React = require('react')
-const ArrowIcon = require('react-icons/lib/fa/angle-down')
+import React from 'react'
+import HideIcon from 'emblematic-icons/svg/Hide24.svg'
+import ShowIcon from 'emblematic-icons/svg/Show24.svg'
 
 module.exports = {
-  expand: <ArrowIcon size={20} />,
+  hidePassword: <HideIcon width="12px" height="12px" />,
+  showPassword: <ShowIcon width="12px" height="12px" />,
 }
