@@ -38,9 +38,5 @@
 .table > .tableBody .open button {
   border: var(--table-arrow-border);
   margin: 0 auto;
-
-  & svg {
-    height: 20px;
-    width: 20px;
-  }
+  appearance: none;
 }
