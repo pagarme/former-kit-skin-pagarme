@@ -15,6 +15,7 @@
     "emblematic-icons": "0.1.1"
   },
   "devDependencies": {
+    "babel-cli": "6.26.0",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
     "babel-preset-react-app": "3.1.1",
     "babel-runtime": "6.26.0",
