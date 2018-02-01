@@ -9,6 +9,14 @@
   list-style: none;
 }
 
+.link button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  text-align: left;
+}
+
 .link svg {
   margin-right: var(--sidebar-item-icon-margin-right);
 }
