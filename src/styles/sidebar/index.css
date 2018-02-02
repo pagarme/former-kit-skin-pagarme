@@ -14,11 +14,8 @@
 .sidebar {
   background-color: var(--sidebar-background-color);
   display: block;
-  height: 100vh;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: var(--sidebar-width);
+  min-height: 100vh;
+  flex: 0 0 var(--sidebar-width);
 }
 
 .section {
@@ -35,7 +32,7 @@
 }
 
 .collapsed {
-  width: var(--sidebar-collapsed-width);
+  flex: 0 0 var(--sidebar-collapsed-width);
 
   & header {
     justify-content: center;
