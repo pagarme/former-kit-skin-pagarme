@@ -2,8 +2,11 @@
 @import "./properties.css";
 
 .link {
-  outline: none;
+  appearance: none;
+  background: none;
+  border: none;
   cursor: pointer;
+  outline: none;
 }
 
 .link svg {
