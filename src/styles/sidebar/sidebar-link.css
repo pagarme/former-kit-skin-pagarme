@@ -18,6 +18,9 @@
   outline: none;
   text-align: left;
   cursor: pointer;
+}
+
+.link > button {
   width: 100%;
 }
 
