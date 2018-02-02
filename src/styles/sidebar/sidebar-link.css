@@ -79,6 +79,7 @@
 
 .subtitle svg {
   margin-left: var(--spacing-tiny);
+  margin-right: 0;
 }
 
 .collapsed .title {
