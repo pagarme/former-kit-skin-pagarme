@@ -62,9 +62,7 @@
   --sidebar-text-link-padding: 12px 15px;
   --sidebar-text-link-margin: 0;
 
-  --sidebar-title-font-size: 16px;
-  --sidebar-title-font-size-desk: 18px;
-  --sidebar-title-font-size-tv: 18px;
+
 
   --sidebar-item-font-size: 16px;
   --sidebar-item-font-size-desk: 18px;
@@ -104,8 +102,13 @@
   --sidebar-menu-icon-height: 25px;
 
   --sidebar-title-color: var(--color-white);
-  --sidebar-title-line-height: 3.15;
+  --sidebar-title-font-size: 14px;
+  --sidebar-title-font-size-desk: 16px;
+  --sidebar-title-font-size-tv: 18px;
+  --sidebar-title-line-height: 1.5;
   --sidebar-title-margin: 0;
+  --sidebar-title-padding: 20px 0;
+  --sidebar-title-text-transform: uppercase;
 
   --sidebar-showinfo-background-color: var(--color-light-carbon-100);
 
