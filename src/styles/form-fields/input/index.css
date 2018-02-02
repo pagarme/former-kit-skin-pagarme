@@ -133,10 +133,14 @@
 }
 
 .displayPasswordIcon {
-  position: absolute;
-  right: var(--input-display-password-icon-right);
+  appearance: none;
+  background: none;
+  border: none;
   bottom: var(--input-display-password-icon-bottom);
   cursor: pointer;
+  right: var(--input-display-password-icon-right);
+  outline: none;
+  position: absolute;
 }
 
 .secondaryText {
