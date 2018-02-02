@@ -117,6 +117,7 @@
   border: none;
   cursor: pointer;
   font-size: var(--input-icon-size);
+  outline: none;
 }
 
 .multiline {
