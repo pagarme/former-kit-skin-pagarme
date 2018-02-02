@@ -14,6 +14,7 @@ const UIGrid = require('./grid/index.css')
 const UIHeader = require('./header/index.css')
 const UIInput = require('./input/index.css')
 const UIInputForm = require('./form-fields/input/index.css')
+const UILayout = require('./layout/index.css')
 const UILegend = require('./legend/index.css')
 const UIModal = require('./modal/index.css')
 const UIPagination = require('./pagination/index.css')
@@ -43,6 +44,7 @@ module.exports = {
   UIHeader,
   UIInput,
   UIInputForm,
+  UILayout,
   UILegend,
   UIModal,
   UIPagination,
