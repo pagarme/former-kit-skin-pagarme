@@ -50,8 +50,8 @@
 }
 
 .footer .links button {
-  margin-left: var(--footer-a-margin-left);
   margin-right: var(--footer-a-margin-right);
+  padding: var(--footer-a-padding);
   text-transform: var(--footer-a-text-transform);
   color: var(--footer-a-color);
 
