@@ -28,18 +28,6 @@
   }
 }
 
-.footer a {
-  margin-left: var(--footer-a-margin-left);
-  margin-right: var(--footer-a-margin-right);
-  text-transform: var(--footer-a-text-transform);
-  color: var(--footer-a-color);
-
-  &:hover {
-    text-decoration: var(--footer-a-hover-text-decoration);
-    color: var(--footer-a-hover-color);
-  }
-}
-
 .footer nav:last-child * {
   margin-left: var(--footer-nav-last-child-margin-left);
   margin-right: var(--footer-nav-last-child-margin-right);
@@ -53,8 +41,7 @@
   margin-right: var(--footer-nav-last-of-type-margin-right);
 }
 
-.footer button,
-.footer a {
+.footer nav button {
   border: var(--footer-button-border);
   cursor: pointer;
   background-color: var(--footer-button-background-color);
@@ -62,7 +49,19 @@
   white-space: nowrap;
 }
 
-.footer button {
+.footer .links button {
+  margin-left: var(--footer-a-margin-left);
+  margin-right: var(--footer-a-margin-right);
+  text-transform: var(--footer-a-text-transform);
+  color: var(--footer-a-color);
+
+  &:hover {
+    text-decoration: var(--footer-a-hover-text-decoration);
+    color: var(--footer-a-hover-color);
+  }
+}
+
+.footer .buttons button {
   padding: 0;
   display: flex;
   align-items: center;
