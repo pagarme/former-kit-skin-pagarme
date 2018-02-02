@@ -1,0 +1,24 @@
+@import "./properties.css";
+
+.layout {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.children {
+  padding:
+    var(--layout-children-padding-y)
+    var(--layout-children-padding-x);
+}

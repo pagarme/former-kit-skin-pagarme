@@ -1,0 +1,6 @@
+@import "../header/properties.css";
+
+:root {
+  --layout-children-padding-y: 24px;
+  --layout-children-padding-x: 12px;
+}

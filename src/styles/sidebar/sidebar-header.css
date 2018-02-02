@@ -5,6 +5,7 @@
   align-items: center;
   border-bottom: var(--sidebar-header-border-bottom);
   display: flex;
+  height: var(--sidebar-header-height);
   justify-content: space-between;
   padding: var(--sidebar-header-padding);
 }

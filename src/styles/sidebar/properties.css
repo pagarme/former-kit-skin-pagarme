@@ -27,6 +27,7 @@
 
   --sidebar-background-color: var(--color-light-carbon-40);
 
+  --sidebar-header-height: 72px;
   --sidebar-brand-width: 100px;
   --sidebar-brand-width-desk: 115px;
   --sidebar-brand-width-tv: 170px;
@@ -92,9 +93,9 @@
   --sidebar-toggle-color: var(--color-light-greenish-100);
   --sidebar-toggle-margin-top: 0;
   --sidebar-toggle-margin-bottom: 15px;
-  --sidebar-toggle-text-transform: lowercase;
+  --sidebar-toggle-text-transform: uppercase;
   --sidebar-toggle-paragraph-margin: 0;
-  --sidebar-toggle-font-size: 16px;
+  --sidebar-toggle-font-size: 14px;
   --sidebar-toggle-font-size-desk: 18px;
   --sidebar-toggle-font-size-tv: 18px;
 
