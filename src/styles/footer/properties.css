@@ -12,8 +12,8 @@
 
   --footer-nav-first-child-border-bottom: 1px solid var(--color-light-silver-100);
 
-  --footer-a-margin-left: 12px;
-  --footer-a-margin-right: 12px;
+  --footer-a-padding: 0;
+  --footer-a-margin-right: 24px;
   --footer-a-text-transform: uppercase;
   --footer-a-color: var(--color-light-coal-100);
   --footer-a-hover-text-decoration: none;
