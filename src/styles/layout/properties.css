@@ -3,4 +3,6 @@
 :root {
   --layout-content-height: calc(100% - var(--header-height));
 
+  --layout-children-padding-y: 24px;
+  --layout-children-padding-x: 12px;
 }

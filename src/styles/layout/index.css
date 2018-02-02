@@ -14,3 +14,9 @@
   overflow-y: scroll;
   height: var(--layout-content-height);
 }
+
+.children {
+  padding:
+    var(--layout-children-padding-y)
+    var(--layout-children-padding-x);
+}
