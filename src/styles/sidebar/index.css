@@ -14,10 +14,8 @@
 .sidebar {
   background-color: var(--sidebar-background-color);
   display: block;
-  height: 100vh;
-  left: 0;
-  position: fixed;
-  top: 0;
+  min-height: 100vh;
+  flex: 0 0 var(--sidebar-width);
   width: var(--sidebar-width);
 }
 
@@ -35,6 +33,7 @@
 }
 
 .collapsed {
+  flex: 0 0 var(--sidebar-collapsed-width);
   width: var(--sidebar-collapsed-width);
 
   & header {
@@ -67,10 +66,12 @@
 
   .sidebar {
     width: var(--sidebar-width-desk);
+    flex: 0 0 var(--sidebar-width-desk);
   }
 
   .collapsed {
     width: var(--sidebar-collapsed-width-desk);
+    flex: 0 0 var(--sidebar-collapsed-width-desk);
   }
 }
 
@@ -78,9 +79,11 @@
 
   .sidebar {
     width: var(--sidebar-width-tv);
+    flex: 0 0 var(--sidebar-width-tv);
   }
 
   .collapsed {
     width: var(--sidebar-collapsed-width-tv);
+    flex: 0 0 var(--sidebar-collapsed-width-tv);
   }
 }

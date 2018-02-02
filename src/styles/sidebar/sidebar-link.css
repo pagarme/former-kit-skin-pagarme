@@ -17,6 +17,11 @@
   cursor: pointer;
   outline: none;
   text-align: left;
+  cursor: pointer;
+}
+
+.link > button {
+  width: 100%;
 }
 
 .link svg {

@@ -1,0 +1,6 @@
+@import "../header/properties.css";
+
+:root {
+  --layout-content-height: calc(100% - var(--header-height));
+
+}

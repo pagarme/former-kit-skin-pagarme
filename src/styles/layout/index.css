@@ -1,0 +1,16 @@
+@import "./properties.css";
+
+.layout {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.content {
+  overflow-y: scroll;
+  height: var(--layout-content-height);
+}
