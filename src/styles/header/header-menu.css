@@ -8,10 +8,17 @@
   cursor: pointer;
   display: flex;
   outline: none;
-  margin-right: var(--header-menu-margin-right);
+  margin: 0;
+  padding: 0;
+  color: var(--header-link-color);
+  font-size: var(--header-menu-font-size);
 }
 
-.menu span {
+.menu > * {
   cursor: pointer;
-  margin-right: var(--header-menu-text-margin-right);
+  margin-left: var(--header-menu-inner-spacing);
+}
+
+.menu > *:first-child {
+  margin-left: 0;
 }

@@ -22,6 +22,10 @@
   box-shadow: var(--header-box-shadow);
 }
 
-.header > button {
-  margin-right: var(--header-button-margin-right);
+.header > * {
+  margin-left: var(--header-button-margin-right);
+}
+
+.header > *:first-child {
+  margin-left: 0;
 }

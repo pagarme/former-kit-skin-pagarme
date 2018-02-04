@@ -1,7 +1,8 @@
-@import "../colors.css";
 @import "./properties.css";
 
 .title {
+  margin: 0;
+  padding: 0;
   color: var(--header-title-color);
   font-weight: var(--header-title-font-weight);
   font-size: var(--header-title-font-size);

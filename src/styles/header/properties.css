@@ -1,4 +1,5 @@
 @import "../colors.css";
+@import "../typography.css";
 
 :root {
   --header-width: 100%;
@@ -19,8 +20,7 @@
   --header-title-font-weight: 600;
   --header-title-font-size: 18px;
 
-  --header-link-svg-height: 26px;
-  --header-link-svg-width: 26px;
+  --header-link-color: var(--color-light-grey-50);
 
   --header-content-link-margin-right: 16px;
 
@@ -30,6 +30,7 @@
   --header-back-button-font-size: 25px;
   --header-back-button-background-color: transparent;
 
+  --header-menu-font-size: 14px;
   --header-menu-margin-right: 24px;
-  --header-menu-text-margin-right: 8px;
+  --header-menu-inner-spacing: 8px;
 }

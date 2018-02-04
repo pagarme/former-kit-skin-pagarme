@@ -1,4 +1,3 @@
-@import "../colors.css";
 @import "./properties.css";
 
 .link {
@@ -7,9 +6,8 @@
   border: none;
   cursor: pointer;
   outline: none;
+  margin: 0;
+  padding: 0;
+  color: var(--header-link-color);
 }
 
-.link svg {
-  height: var(--header-link-svg-height);
-  width: var(--header-link-svg-width);
-}

@@ -1,11 +1,16 @@
 @import "./properties.css";
 
 .backButton {
-  background-color: var(--header-back-button-background-color);
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border: none;
+  justify-content: center;
+  background: var(--header-back-button-background-color);
   border: var(--header-back-button-border);
   color: var(--header-back-button-color);
   cursor: pointer;
   font-size: var(--header-back-button-font-size);
   outline: none;
-  padding: var(--header-back-button-padding);
 }
