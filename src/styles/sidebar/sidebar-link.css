@@ -3,14 +3,15 @@
 @import "./properties.css";
 
 .link {
-  border: var(--sidebar-item-border);
-  color: var(--sidebar-item-color);
+  border: var(--sidebar-link-border);
+  color: var(--sidebar-link-color);
   cursor: pointer;
-  font-size: var(--sidebar-item-font-size);
+  font-size: var(--sidebar-link-font-size);
   list-style: none;
+  padding: var(--sidebar-link-padding);
 }
 
-.link button {
+.link > button {
   appearance: none;
   background: none;
   border: none;
@@ -18,6 +19,8 @@
   outline: none;
   text-align: left;
   cursor: pointer;
+  margin: 0;
+  padding: 0;
 }
 
 .link > button {
@@ -25,7 +28,7 @@
 }
 
 .link svg {
-  margin-right: var(--sidebar-item-icon-margin-right);
+  margin-right: var(--sidebar-link-icon-margin-right);
 }
 
 .link div {
@@ -33,28 +36,27 @@
 }
 
 .link:hover {
-  background-color: var(--sidebar-item-hover-background-color);
-  border-bottom-color: var(--sidebar-item-hover-border-bottom-color);
-  border-top-color: var(--sidebar-item-hover-border-top-color);
-  color: var(--sidebar-item-hover-color);
+  background-color: var(--sidebar-link-hover-background-color);
+  border-bottom-color: var(--sidebar-link-hover-border-bottom-color);
+  border-top-color: var(--sidebar-link-hover-border-top-color);
+  color: var(--sidebar-link-hover-color);
 }
 
 .active {
-  background-color: var(--sidebar-item-selected-background-color);
-  border-bottom-color: var(--sidebar-item-selected-border-bottom-color);
-  border-top-color: var(--sidebar-item-selected-border-top-color);
-  color: var(--sidebar-item-selected-color);
+  background-color: var(--sidebar-link-selected-background-color);
+  border-bottom-color: var(--sidebar-link-selected-border-bottom-color);
+  border-top-color: var(--sidebar-link-selected-border-top-color);
+  color: var(--sidebar-link-selected-color);
 }
 
 .active .title:only-of-type {
-  color: var(--sidebar-item-selected-color);
+  color: var(--sidebar-link-selected-color);
 }
 
 .text {
-  color: var(--sidebar-text-link-color);
+  color: var(--sidebar-link-color);
   display: block;
-  margin: var(--sidebar-text-link-margin);
-  padding: var(--sidebar-text-link-padding);
+  margin: var(--sidebar-link-margin);
   outline: none;
 }
 
@@ -63,22 +65,15 @@
   font-size: var(--sidebar-title-font-size);
   line-height: var(--sidebar-title-line-height);
   margin: var(--sidebar-title-margin);
-  padding: var(--sidebar-title-padding);
   text-transform: var(--sidebar-title-text-transform);
 }
 
-.title,
 .subtitle {
-  padding-left: var(--sidebar-info-toggle-padding-left);
-  padding-right: var(--sidebar-info-toggle-padding-right);
-}
-
-.subtitle {
-  color: var(--sidebar-toggle-color);
-  font-size: var(--sidebar-toggle-font-size);
-  text-transform: var(--sidebar-toggle-text-transform);
-  margin-bottom: var(--sidebar-toggle-margin-bottom);
-  margin-top: var(--sidebar-toggle-margin-top);
+  color: var(--sidebar-subtitle-color);
+  font-size: var(--sidebar-subtitle-font-size);
+  text-transform: var(--sidebar-subtitle-text-transform);
+  margin-bottom: var(--sidebar-subtitle-margin-bottom);
+  margin-top: var(--sidebar-subtitle-margin-top);
   user-select: none;
 }
 
@@ -93,34 +88,27 @@
 
 .collapsed .icon svg {
   margin: 0;
-  width: var(--sidebar-collapsed-icon-width);
-  height: var(--sidebar-collapsed-icon-height);
 }
 
 @media (--media-desk) {
 
   .link {
-    font-size: var(--sidebar-item-font-size-desk);
+    font-size: var(--sidebar-link-font-size-desk);
   }
 
   .subtitle {
-    font-size: var(--sidebar-toggle-font-size-desk);
+    font-size: var(--sidebar-title-font-size-desk);
   }
 
   .title {
     font-size: var(--sidebar-title-font-size-desk);
-  }
-
-  .text svg {
-    width: var(--sidebar-text-link-icon-width-desk);
-    height: var(--sidebar-text-link-icon-height-desk);
   }
 }
 
 @media (--media-tv) {
 
   .link {
-    font-size: var(--sidebar-item-font-size-tv);
+    font-size: var(--sidebar-link-font-size-tv);
   }
 
   .title {
@@ -128,16 +116,6 @@
   }
 
   .subtitle {
-    font-size: var(--sidebar-toggle-font-size-tv);
-  }
-
-  .text svg {
-    width: var(--sidebar-text-link-icon-width-tv);
-    height: var(--sidebar-text-link-icon-height-tv);
-  }
-
-  .collapsed .icon svg {
-    width: var(--sidebar-collapsed-icon-width-tv);
-    height: var(--sidebar-collapsed-icon-height-tv);
+    font-size: var(--sidebar-title-font-size-tv);
   }
 }

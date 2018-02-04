@@ -1,24 +1,28 @@
 @import "./properties.css";
 
 .sections {
-  border-bottom: var(--sidebar-sections-border-bottom);
-
   & ul {
     margin: var(--sidebar-sections-list-margin);
     padding: var(--sidebar-sections-list-padding);
-    margin-top: var(--sidebar-sections-list-margin-top);
   }
 
   & li {
     border-top: var(--sidebar-sections-list-item-border-top);
     list-style: none;
-    padding: var(--sidebar-sections-list-item-padding);
+    padding-top: var(--sidebar-sections-list-item-spacing);
+    padding-bottom: var(--sidebar-sections-list-item-spacing);
+  }
+
+  & li:last-child {
+    border-top: var(--sidebar-sections-list-item-border-top);
+    list-style: none;
+    padding-bottom: 0;
   }
 
   & p {
     color: var(--sidebar-sections-text-color);
     font-size: var(--sidebar-sections-text-font-size);
-    margin: var(--sidebar-sections-text-maring);
+    margin: var(--sidebar-sections-text-margin);
     text-transform: var(--sidebar-sections-text-text-transform);
   }
 

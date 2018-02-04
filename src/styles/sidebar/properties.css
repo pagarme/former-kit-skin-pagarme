@@ -2,21 +2,6 @@
 @import "../media.css";
 
 :root {
-  --sidebar-sections-border-bottom: 1px solid var(--color-light-steel-200);
-  --sidebar-sections-list-margin: 0;
-  --sidebar-sections-list-padding: 0;
-  --sidebar-sections-list-margin-top: 24px;
-  --sidebar-sections-list-item-padding: 15px;
-  --sidebar-sections-list-item-border-top: 1px solid rgba(var(--color-light-greenish-100), 0.1);
-  --sidebar-sections-text-last-child-margin-top: 16px;
-  --sidebar-sections-text-last-child-margin-bottom: 16px;
-  --sidebar-sections-text-font-size: 12px;
-  --sidebar-sections-text-color: var(--color-white);
-  --sidebar-sections-text-text-transform: uppercase;
-  --sidebar-sections-text-maring: 0;
-  --sidebar-sections-text-last-child-font-size: 24px;
-  --sidebar-sections-small-font-size: 16px;
-
   --sidebar-width: 192px;
   --sidebar-width-desk: 222px;
   --sidebar-width-tv: 320px;
@@ -28,93 +13,76 @@
   --sidebar-background-color: var(--color-light-carbon-40);
 
   --sidebar-header-height: 72px;
-  --sidebar-brand-width: 100px;
-  --sidebar-brand-width-desk: 115px;
-  --sidebar-brand-width-tv: 170px;
+  --sidebar-header-logo-width: 100px;
+  --sidebar-header-logo-width-desk: 115px;
+  --sidebar-header-logo-width-tv: 170px;
   --sidebar-header-padding: 15px;
   --sidebar-header-border-bottom: 1px solid var(--color-light-steel-200);
 
-  --sidebar-menu-padding: 0;
-  --sidebar-menu-color: var(--color-white);
-  --sidebar-menu-border: none;
-  --sidebar-menu-background: none;
+  --sidebar-header-button-padding: 0;
+  --sidebar-header-button-color: var(--color-white);
+  --sidebar-header-button-border: none;
+  --sidebar-header-button-background: none;
+  --sidebar-collapsed-header-button-color: var(--color-light-greenish-100);
 
-  --sidebar-switch-container-padding-top: 15px;
-  --sidebar-switch-container-padding-bottom: 15px;
+  --sidebar-content-padding-top: 15px;
+  --sidebar-content-padding-bottom: 15px;
 
-  --sidebar-items-list-padding: 0;
-  --sidebar-items-list-margin: 24px;
+  --sidebar-sections-list-margin: 16px 0 0 0;
+  --sidebar-sections-list-padding: 0;
+  --sidebar-sections-list-margin-top: 24px;
+  --sidebar-sections-list-item-spacing: 16px;
+  --sidebar-sections-list-item-border-top: 1px solid var(--color-light-steel-200);
+  --sidebar-sections-text-last-child-margin-top: 16px;
+  --sidebar-sections-text-last-child-margin-bottom: 16px;
+  --sidebar-sections-text-font-size: 12px;
+  --sidebar-sections-text-color: var(--color-white);
+  --sidebar-sections-text-text-transform: uppercase;
+  --sidebar-sections-text-margin: 0;
+  --sidebar-sections-text-last-child-font-size: 24px;
+  --sidebar-sections-small-font-size: 16px;
 
-  --sidebar-item-color: var(--color-white);
-  --sidebar-item-border: 1px solid transparent;
-  --sidebar-item-icon-margin-right: 15px;
+  --sidebar-link-color: var(--color-white);
+  --sidebar-link-border: 1px solid transparent;
+  --sidebar-link-padding: 16px;
+  --sidebar-link-margin: 0;
 
-  --sidebar-item-hover-color: var(--color-light-greenish-100);
-  --sidebar-item-hover-background-color: var(--color-light-carbon-100);
-  --sidebar-item-hover-border-top-color: var(--color-light-steel-200);
-  --sidebar-item-hover-border-bottom-color: var(--color-light-steel-200);
+  --sidebar-link-font-size: 14px;
+  --sidebar-link-font-size-desk: 14px;
+  --sidebar-link-font-size-tv: 16px;
 
-  --sidebar-item-selected-color: var(--sidebar-item-hover-color);
-  --sidebar-item-selected-background-color: var(--sidebar-item-hover-background-color);
-  --sidebar-item-selected-border-top-color: var(--sidebar-item-hover-border-top-color);
-  --sidebar-item-selected-border-bottom-color: var(--sidebar-item-hover-border-bottom-color);
+  --sidebar-link-icon-margin-right: 15px;
 
-  --sidebar-text-link-color: inherit;
-  --sidebar-text-link-padding: 12px 15px;
-  --sidebar-text-link-margin: 0;
+  --sidebar-link-hover-color: var(--color-light-greenish-100);
+  --sidebar-link-hover-background-color: var(--color-light-carbon-100);
+  --sidebar-link-hover-border-top-color: var(--color-light-steel-200);
+  --sidebar-link-hover-border-bottom-color: var(--color-light-steel-200);
 
+  --sidebar-link-selected-color: var(--sidebar-link-hover-color);
+  --sidebar-link-selected-background-color: var(--sidebar-link-hover-background-color);
+  --sidebar-link-selected-border-top-color: var(--sidebar-link-hover-border-top-color);
+  --sidebar-link-selected-border-bottom-color: var(--sidebar-link-hover-border-bottom-color);
 
-
-  --sidebar-item-font-size: 16px;
-  --sidebar-item-font-size-desk: 18px;
-  --sidebar-item-font-size-tv: 20px;
-
-  --sidebar-item-text-link-padding-top: 27px;
-  --sidebar-item-text-link-padding-bottom: 27px;
-
-  --sidebar-text-link-icon-width: 18px;
-  --sidebar-text-link-icon-width-desk: 21px;
-  --sidebar-text-link-icon-width-tv: 25px;
-  --sidebar-text-link-icon-height: 18px;
-  --sidebar-text-link-icon-height-desk: 21px;
-  --sidebar-text-link-icon-height-tv: 25px;
-
-  --sidebar-options-background-color: var(--color-light-carbon-50);
-  --sidebar-option-color: var(--color-white);
-
-  --sidebar-collapsed-icon-width: 20px;
-  --sidebar-collapsed-icon-height: 20px;
-  --sidebar-collapsed-icon-width-tv: 24px;
-  --sidebar-collapsed-icon-height-tv: 24px;
-
-  --sidebar-collapsed-header-icon-color: var(--color-light-greenish-100);
-  --sidebar-collapsed-text-link-margin: 0;
-
-  --sidebar-toggle-color: var(--color-light-greenish-100);
-  --sidebar-toggle-margin-top: 0;
-  --sidebar-toggle-margin-bottom: 15px;
-  --sidebar-toggle-text-transform: uppercase;
-  --sidebar-toggle-paragraph-margin: 0;
-  --sidebar-toggle-font-size: 14px;
-  --sidebar-toggle-font-size-desk: 18px;
-  --sidebar-toggle-font-size-tv: 18px;
-
-  --sidebar-menu-icon-width: 25px;
-  --sidebar-menu-icon-height: 25px;
+  --sidebar-header-button-icon-width: 25px;
+  --sidebar-header-button-icon-height: 25px;
 
   --sidebar-title-color: var(--color-white);
   --sidebar-title-font-size: 14px;
-  --sidebar-title-font-size-desk: 16px;
-  --sidebar-title-font-size-tv: 18px;
+  --sidebar-title-font-size-desk: 14px;
+  --sidebar-title-font-size-tv: 16px;
   --sidebar-title-line-height: 1.5;
   --sidebar-title-margin: 0;
-  --sidebar-title-padding: 20px 0;
   --sidebar-title-text-transform: uppercase;
 
-  --sidebar-showinfo-background-color: var(--color-light-carbon-100);
+  --sidebar-subtitle-color: var(--color-light-greenish-100);
+  --sidebar-subtitle-font-size: 12px;
+  --sidebar-subtitle-font-size-desk: 12px;
+  --sidebar-subtitle-font-size-tv: 14px;
+  --sidebar-subtitle-margin-top: 8px;
+  --sidebar-subtitle-margin-bottom: 0;
+  --sidebar-subtitle-text-transform: uppercase;
 
-  --sidebar-info-toggle-padding-left: 15px;
-  --sidebar-info-toggle-padding-right: 15px;
+  --sidebar-showsection-background-color: var(--color-light-carbon-100);
 
   --sidebar-section-height: calc(100vh - 56px);
 }

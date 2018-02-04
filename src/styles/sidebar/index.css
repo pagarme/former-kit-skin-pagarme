@@ -27,8 +27,9 @@
 .items {
   position: relative;
 
-  & ul {
+  & > ul {
     padding: 0;
+    margin: 0;
   }
 }
 
@@ -41,24 +42,7 @@
   }
 
   & header svg {
-    color: var(--sidebar-collapsed-header-icon-color);
-  }
-
-  & .text span {
-    display: none;
-  }
-
-  & .text {
-    text-align: center;
-  }
-
-  & .text svg {
-    margin: var(--sidebar-collapsed-text-link-margin);
-  }
-
-  & .menu svg {
-    width: var(--sidebar-collapsed-icon-width);
-    height: var(--sidebar-collapsed-icon-height);
+    color: var(--sidebar-collapsed-header-button-color);
   }
 }
 

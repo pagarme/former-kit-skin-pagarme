@@ -13,33 +13,33 @@
 .header img,
 .header svg {
   display: block;
-  width: var(--sidebar-brand-width);
+  width: var(--sidebar-header-logo-width);
 }
 
 .header button {
-  background: var(--sidebar-menu-background);
-  border: var(--sidebar-menu-border);
-  color: var(--sidebar-menu-color);
+  background: var(--sidebar-header-button-background);
+  border: var(--sidebar-header-button-border);
+  color: var(--sidebar-header-button-color);
   cursor: pointer;
   outline: none;
-  padding: var(--sidebar-menu-padding);
+  padding: var(--sidebar-header-button-padding);
 
   & svg {
-    height: var(--sidebar-menu-icon-height);
-    width: var(--sidebar-menu-icon-width);
+    height: var(--sidebar-header-button-icon-height);
+    width: var(--sidebar-header-button-icon-width);
   }
 }
 
 @media (--media-desk) {
 
   .header img {
-    width: var(--sidebar-brand-width-desk);
+    width: var(--sidebar-header-logo-width-desk);
   }
 }
 
 @media (--media-tv) {
 
   .header img {
-    width: var(--sidebar-brand-width-tv);
+    width: var(--sidebar-header-logo-width-tv);
   }
 }
