@@ -8,7 +8,10 @@
   "license": "Apache-2.0",
   "private": false,
   "scripts": {
-    "build": "cpx -v 'src/styles/**' dist/styles && env NODE_ENV=production babel src -d dist --ignore spec.js,test.js",
+    "build:copy": "cpx -v $WATCH 'src/styles/**' dist/styles",
+    "build:compile": "env NODE_ENV=production babel $WATCH src -d dist --ignore test,spec.js,test.js",
+    "build": "run-p build:copy build:compile",
+    "start": "env WATCH=-w run-p build:copy build:compile",
     "lint": "eslint src/**/*.js; stylelint src/**/*.css"
   },
   "dependencies": {
@@ -25,6 +28,7 @@
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-jsx-a11y": "5.1.1",
     "eslint-plugin-react": "7.6.1",
+    "npm-run-all": "4.1.2",
     "prop-types": "15.6.0",
     "react": "16.2.0",
     "react-dom": "16.2.0",
