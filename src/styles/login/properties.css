@@ -1,0 +1,11 @@
+@import "../colors.css";
+
+:root {
+  --login-column-font-size: 14px;
+  --login-column-padding: 45px;
+  --login-primary-background-color: var(--color-light-carbon-50);
+  --login-primary-box-shadow: none;
+  --login-primary-color: var(--color-white);
+  --login-secondary-color: var(--color-light-chromium-100);
+  --login-secondary-title-color: var(--color-light-chromium-100);
+}
