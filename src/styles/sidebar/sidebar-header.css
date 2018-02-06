@@ -16,7 +16,6 @@
 .header img,
 .header svg {
   display: block;
-  width: var(--sidebar-header-logo-width);
 }
 
 .header button {
@@ -26,23 +25,5 @@
   cursor: pointer;
   outline: none;
   padding: var(--sidebar-header-button-padding);
-
-  & svg {
-    height: var(--sidebar-header-button-icon-height);
-    width: var(--sidebar-header-button-icon-width);
-  }
 }
 
-@media (--media-desk) {
-
-  .header img {
-    width: var(--sidebar-header-logo-width-desk);
-  }
-}
-
-@media (--media-tv) {
-
-  .header img {
-    width: var(--sidebar-header-logo-width-tv);
-  }
-}
