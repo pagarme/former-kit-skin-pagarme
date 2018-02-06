@@ -2,8 +2,8 @@
 
 .layout {
   display: flex;
+  height: 100vh;
   overflow: hidden;
-  height: 100%;
   background-color: var(--layout-background-color);
 }
 
