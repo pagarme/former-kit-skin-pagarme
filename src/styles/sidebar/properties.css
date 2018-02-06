@@ -13,6 +13,7 @@
   --sidebar-background-color: var(--color-light-carbon-40);
 
   --sidebar-header-height: 72px;
+  --sidebar-header-text-color: var(--color-white);
   --sidebar-header-logo-width: 100px;
   --sidebar-header-logo-width-desk: 115px;
   --sidebar-header-logo-width-tv: 170px;
