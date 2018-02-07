@@ -16,6 +16,7 @@ const UIInput = require('./input/index.css')
 const UIInputForm = require('./form-fields/input/index.css')
 const UILayout = require('./layout/index.css')
 const UILegend = require('./legend/index.css')
+const UILogin = require('./login/index.css')
 const UIModal = require('./modal/index.css')
 const UIPagination = require('./pagination/index.css')
 const UIRadioGroup = require('./radio-group/index.css')
@@ -46,6 +47,7 @@ module.exports = {
   UIInputForm,
   UILayout,
   UILegend,
+  UILogin,
   UIModal,
   UIPagination,
   UIRadioGroup,
