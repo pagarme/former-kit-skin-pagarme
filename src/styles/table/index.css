@@ -11,6 +11,7 @@
   border: var(--table-border);
   table-layout: fixed;
   font-family: var(--table-font-family);
+  user-select: text;
 }
 
 .clickable,
@@ -39,4 +40,8 @@
   border: var(--table-arrow-border);
   margin: 0 auto;
   appearance: none;
+}
+
+.unselectable {
+  user-select: none;
 }
