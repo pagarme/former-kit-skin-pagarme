@@ -13,6 +13,7 @@
   cursor: pointer;
   word-break: keep-all;
   white-space: nowrap;
+  user-select: var(--button-user-select);
 }
 
 .button:focus {
