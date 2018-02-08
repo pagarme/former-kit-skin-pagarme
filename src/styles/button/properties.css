@@ -59,4 +59,5 @@
   --button-icon-width-small: 26px;
   --button-icon-width-default: 28px;
   --button-icon-svg-margin: 0;
+  --button-user-select: none;
 }

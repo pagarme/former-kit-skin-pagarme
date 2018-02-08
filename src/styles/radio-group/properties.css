@@ -18,4 +18,6 @@
 
   --radio-group-bullet-size: 20px;
   --radio-group-bullet-border: 2px solid;
+
+  --radio-group-user-select: none;
 }

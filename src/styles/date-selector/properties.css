@@ -61,6 +61,7 @@
     var(--spacing-small);
   --date-selector-sidebar-title-color: var(--color-light-chromium-50);
   --date-selector-top: 45px;
+  --date-selector-user-select: none;
   --date-selector-week-name-background: var(--color-light-silver-20);
   --date-selector-week-name-color: var(--color-light-greenish-100);
   --date-selector-week-name-font-size: 14px;

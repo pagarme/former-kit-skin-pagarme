@@ -23,6 +23,7 @@
   align-items: center;
   margin: 0 10px;
   cursor: pointer;
+  user-select: var(--radio-group-user-select);
 }
 
 .input {

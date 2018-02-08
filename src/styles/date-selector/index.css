@@ -14,6 +14,7 @@
   border: var(--date-selector-border);
   border-radius: var(--date-selector-border-radius);
   box-shadow: var(--date-selector-box-shadow);
+  user-select: var(--date-selector-user-select);
 }
 
 .sidebar {
