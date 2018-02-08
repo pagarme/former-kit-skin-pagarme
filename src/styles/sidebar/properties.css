@@ -83,4 +83,6 @@
   --sidebar-showsection-background-color: var(--color-light-carbon-100);
 
   --sidebar-section-height: calc(100vh - 56px);
+
+  --sidebar-user-select: none;
 }

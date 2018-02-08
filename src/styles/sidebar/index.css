@@ -17,6 +17,7 @@
   min-height: 100vh;
   flex: 0 0 var(--sidebar-width);
   width: var(--sidebar-width);
+  user-select: var(--sidebar-user-select);
 }
 
 .section {
