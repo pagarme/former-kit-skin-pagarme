@@ -26,7 +26,9 @@
   --sidebar-content-padding-top: 15px;
   --sidebar-content-padding-bottom: 15px;
 
-  --sidebar-sections-list-margin: 16px 0 0 0;
+  --sidebar-sections-padding: 0 16px 16px;
+
+  --sidebar-sections-list-margin: 0;
   --sidebar-sections-list-padding: 0;
   --sidebar-sections-list-margin-top: 24px;
   --sidebar-sections-list-item-spacing: 16px;
@@ -42,7 +44,7 @@
 
   --sidebar-link-color: var(--color-white);
   --sidebar-link-border: 1px solid transparent;
-  --sidebar-link-padding: 16px;
+  --sidebar-link-padding: 0;
   --sidebar-link-margin: 0;
 
   --sidebar-link-font-size: 14px;
@@ -50,6 +52,8 @@
   --sidebar-link-font-size-tv: 16px;
 
   --sidebar-link-icon-margin-right: 15px;
+
+  --sidebar-link-button-padding: 16px;
 
   --sidebar-link-hover-color: var(--color-light-greenish-100);
   --sidebar-link-hover-background-color: var(--color-light-carbon-100);
