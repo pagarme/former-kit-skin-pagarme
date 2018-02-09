@@ -1,6 +1,8 @@
 @import "./properties.css";
 
 .sections {
+  padding: var(--sidebar-sections-padding);
+
   & ul {
     margin: var(--sidebar-sections-list-margin);
     padding: var(--sidebar-sections-list-padding);

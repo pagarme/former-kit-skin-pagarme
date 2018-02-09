@@ -20,10 +20,7 @@
   text-align: left;
   cursor: pointer;
   margin: 0;
-  padding: 0;
-}
-
-.link > button {
+  padding: var(--sidebar-link-button-padding);
   width: 100%;
 }
 
