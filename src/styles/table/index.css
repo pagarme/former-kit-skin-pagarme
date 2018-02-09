@@ -7,7 +7,6 @@
 .table {
   border-collapse: collapse;
   width: var(--table-width);
-  min-width: var(--table-min-width);
   border: var(--table-border);
   table-layout: fixed;
   font-family: var(--table-font-family);
