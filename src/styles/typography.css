@@ -67,8 +67,14 @@ p {
   margin-bottom: 1em;
 }
 
-a {
-  font-weight: bold;
+a,
+[role=link] {
+  appearance: none;
+  border: none;
+  background: none;
+  display: inline;
+  padding: 0;
+  cursor: pointer;
   color: var(--body-link-color);
   text-decoration: unset;
 }

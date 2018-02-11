@@ -1,6 +1,6 @@
 @import "./properties.css";
 
-.menu {
+.header .menu {
   align-items: center;
   appearance: none;
   background: none;
