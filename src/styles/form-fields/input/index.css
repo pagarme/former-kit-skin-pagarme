@@ -41,6 +41,7 @@
 
 .container > textarea,
 .container > input {
+  color: var(--input-color);
   display: block;
   min-width: 100%;
   border: none;

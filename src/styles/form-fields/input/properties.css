@@ -3,6 +3,7 @@
 @import "../properties.css";
 
 :root {
+  --input-color: var(--color-light-steel-100);
   --input-color-disabled: var(--form-item-color-disabled);
   --input-color-error: var(--color-light-error);
   --input-color-success: var(--color-light-success);
