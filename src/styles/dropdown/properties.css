@@ -13,7 +13,7 @@
   --dropdown-color-disabled: var(--color-light-silver-100);
   --dropdown-font-family: var(--title-font-family);
   --dropdown-font-size: 12px;
-  --dropdown-height: 26px;
+  --dropdown-height: 28px;
   --dropdown-icon-background-active: var(--color-light-greenish-100);
   --dropdown-icon-border: 1px solid var(--color-light-grey-50);
   --dropdown-icon-color-active: var(--color-white);
@@ -24,10 +24,10 @@
   --dropdown-option-disabled-opacity: 0.5;
   --dropdown-option-selected-color: var(--color-light-greenish-100);
   --dropdown-secondary-text-font-size: 12px;
-  --dropdown-select-height: 26px;
+  --dropdown-select-height: 28px;
   --dropdown-select-padding-bottom: 0;
   --dropdown-select-padding-left: 8px;
-  --dropdown-select-padding-right: 20px;
+  --dropdown-select-padding-right: 32px;
   --dropdown-select-padding-top: 0;
   --dropdown-text-color: var(--color-light-chromium-100);
   --dropdown-placeholder-color: var(--color-light-chromium-100);
