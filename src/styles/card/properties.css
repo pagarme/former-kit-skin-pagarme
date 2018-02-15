@@ -34,6 +34,7 @@
   --card-section-title-color: var(--color-light-steel-100);
   --card-section-title-icon-color: var(--color-light-greenish-100);
   --card-section-title-icon-size: 18px;
+  --card-section-title-icon-margin: 8px;
   --card-section-background: var(--color-light-smoke-40);
 
   --card-section-header-background: var(--color-light-smoke-40);
