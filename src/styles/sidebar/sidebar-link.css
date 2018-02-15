@@ -63,6 +63,13 @@
   line-height: var(--sidebar-title-line-height);
   margin: var(--sidebar-title-margin);
   text-transform: var(--sidebar-title-text-transform);
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
 }
 
 .subtitle {
