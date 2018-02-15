@@ -7,7 +7,6 @@
 }
 
 .column {
-  padding: var(--landing-column-padding);
   font-size: var(--landing-column-font-size);
   position: relative;
 }
@@ -69,7 +68,7 @@
 }
 
 .row {
-  height: 100%;
+  min-height: 100%;
 }
 
 @media (--media-tablet), (--media-palm) {
