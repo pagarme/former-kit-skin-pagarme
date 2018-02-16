@@ -2,7 +2,6 @@
 
 :root {
   --landing-column-font-size: 14px;
-  --landing-column-padding: 48px;
 
   --landing-dark-color: var(--color-white);
   --landing-light-color: var(--color-light-steel-100);
