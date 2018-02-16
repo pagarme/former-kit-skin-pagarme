@@ -47,6 +47,8 @@
 
 .icon {
   margin-right: var(--modal-title-icon-spacing);
+  display: flex;
+  align-items: center;
 }
 
 .actions > * {

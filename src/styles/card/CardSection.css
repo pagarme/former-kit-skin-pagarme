@@ -37,7 +37,7 @@
 
 .arrow {
   padding: 0;
-  margin: 0;
+  margin-left: var(--card-section-title-icon-margin);
   color: var(--card-section-title-icon-color);
   font-size: var(--card-section-title-icon-size);
 

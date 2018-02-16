@@ -25,6 +25,8 @@
 
 .icon {
   margin-right: var(--card-title-icon-margin);
+  display: flex;
+  align-items: center;
 }
 
 .title[role="button"] {
