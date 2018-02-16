@@ -7,6 +7,7 @@
   --input-color-disabled: var(--form-item-color-disabled);
   --input-color-error: var(--color-light-error);
   --input-color-success: var(--color-light-success);
+  --input-disabled-opacity: 0.5;
   --input-container-disabled-border-bottom: 1px dashed var(--form-item-color-disabled);
   --input-container-disabled-border-radius: 6px;
   --input-container-letter-spacing: var(--letter-spacing);

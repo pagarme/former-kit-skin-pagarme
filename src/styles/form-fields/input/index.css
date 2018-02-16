@@ -18,6 +18,7 @@
 .container > input:disabled,
 .container > textarea:disabled {
   cursor: not-allowed;
+  opacity: var(--input-disabled-opacity);
 }
 
 .disabled .container {
