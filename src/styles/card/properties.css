@@ -11,10 +11,14 @@
   --card-shadow: 0 2px 5px 0 var(--color-light-silver-50);
   --card-border-radius: 3px;
 
+  --card-title-color: var(--color-light-steel-100);
   --card-title-font-size: 14px;
   --card-title-icon-margin: 9px;
-
   --card-title-padding: var(--card-spacing-small);
+  --card-title-text-transform: uppercase;
+
+  --card-subtitle-font-size: 16px;
+  --card-subtitle-color: var(--color-light-steel-100);
 
   --card-actions-spacing: var(--card-spacing-tiny);
   --card-actions-padding:
