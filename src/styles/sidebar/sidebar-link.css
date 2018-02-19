@@ -28,6 +28,17 @@
   margin-right: var(--sidebar-link-icon-margin-right);
 }
 
+.collapsed {
+
+  & .link button {
+    text-align: center;
+  }
+
+  & .link svg {
+    margin: 0;
+  }
+}
+
 .link div {
   outline: none;
 }
@@ -84,14 +95,6 @@
 .subtitle svg {
   margin-left: var(--spacing-tiny);
   margin-right: 0;
-}
-
-.collapsed .title {
-  text-align: center;
-}
-
-.collapsed .icon svg {
-  margin: 0;
 }
 
 @media (--media-desk) {
