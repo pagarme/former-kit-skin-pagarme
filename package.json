@@ -15,7 +15,8 @@
     "lint": "eslint src/**/*.js; stylelint src/**/*.css"
   },
   "dependencies": {
-    "emblematic-icons": "0.1.1"
+    "emblematic-icons": "0.1.1",
+    "react-dates": "12.7.1"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
