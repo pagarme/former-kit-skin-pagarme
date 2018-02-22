@@ -21,12 +21,17 @@
   display: flex;
   align-items: center;
   outline: none;
+  justify-content: space-between;
 }
 
-.icon {
-  margin-right: var(--card-title-icon-margin);
+.title > * {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.title svg {
+  margin-right: var(--card-title-icon-margin);
 }
 
 .title[role="button"] {
@@ -40,10 +45,17 @@
   margin: 0;
 }
 
-.title,
+.title > h2 {
+  color: var(--card-title-color);
+  display: inline-flex;
+  font-size: var(--card-title-font-size);
+  text-transform: uppercase;
+}
+
 .title > h3 {
-  color: var(--color-light-steel-100);
-  margin-right: var(--card-title-icon-margin);
+  color: var(--card-subtitle-color);
+  display: inline-flex;
+  font-size: var(--card-subtitle-font-size);
 }
 
 .content {
@@ -68,4 +80,3 @@
 .actions > *:first-child {
   margin-left: unset;
 }
-
