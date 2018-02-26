@@ -1,4 +1,5 @@
 @import "./properties.css";
+@import "../z-index.css";
 
 .modal {
   background-color: var(--modal-background-color);
@@ -23,6 +24,7 @@
   position: fixed;
   right: 0;
   top: 0;
+  z-index: var(--modal-overlay-z-index);
 }
 
 .frame {

@@ -1,5 +1,6 @@
 /* stylelint-disable selector-max-class */
 @import "./properties.css";
+@import "../../z-index.css";
 
 .input {
   display: flex;
@@ -62,7 +63,7 @@
   padding: 0;
   margin: 0;
   resize: none;
-  z-index: 1;
+  z-index: var(--textarea-z-index);
   position: absolute;
   height: var(--input-textarea-height);
   overflow: hidden;

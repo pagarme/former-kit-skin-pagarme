@@ -1,4 +1,5 @@
 @import "./properties.css";
+@import "../z-index.css";
 
 .pagination {
   background-color: var(--pagination-background-color);
@@ -72,7 +73,6 @@
   &:active:not(:disabled),
   &:focus:not(:disabled) {
     color: var(--pagination-button-active-text-color);
-    z-index: 1;
   }
 }
 

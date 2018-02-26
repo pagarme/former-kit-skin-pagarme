@@ -1,4 +1,5 @@
 @import "./properties.css";
+@import "../z-index.css";
 
 .segmentedSwitch {
   display: inline-flex;
@@ -31,7 +32,6 @@
   font-size: var(--context-switch-label-font-size);
   color: var(--context-switch-label-color);
   display: block;
-  z-index: 0;
   position: relative;
 }
 
@@ -39,5 +39,4 @@
   border-radius: var(--context-switch-label-border-radius);
   background-color: var(--context-switch-checked-background-color);
   color: var(--context-switch-checked-label-color);
-  z-index: 1;
 }
