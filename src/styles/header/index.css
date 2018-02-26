@@ -4,6 +4,7 @@
 @import "./header-content.css";
 @import "./header-link.css";
 @import "./header-menu.css";
+@import "../z-index.css";
 
 .header,
 .header * {
@@ -20,6 +21,7 @@
   padding-right: var(--header-padding-right);
   background-color: var(--header-background-color);
   box-shadow: var(--header-box-shadow);
+  z-index: var(--header-z-index);
 }
 
 .header > * {

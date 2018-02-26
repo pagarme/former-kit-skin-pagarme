@@ -1,4 +1,5 @@
 @import "./properties.css";
+@import "../z-index.css";
 
 .dateInput,
 .dateInput * {
@@ -35,6 +36,7 @@
   position: absolute;
   top: calc(100% + var(--date-input-date-selector-top));
   left: var(--date-input-date-selector-left);
+  z-index: var(--date-selector-z-index);
 }
 
 .start,

@@ -36,6 +36,7 @@
   border-color: var(--radio-group-color);
   transition: border-color var(--radio-group-transition-speed);
   outline: none;
+  pointer-events: none;
 
   @nest .disabled & {
     border-color: var(--radio-group-color-disabled);

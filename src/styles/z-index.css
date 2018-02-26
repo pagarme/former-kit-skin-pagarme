@@ -1,0 +1,9 @@
+:root {
+  --calendar-picker-z-index: 0;
+  --date-selector-z-index: 10;
+  --header-z-index: 100;
+  --input-z-index: 1;
+  --modal-overlay-z-index: 1000;
+  --switch-bullet-z-index: 1;
+  --textarea-z-index: 1;
+}

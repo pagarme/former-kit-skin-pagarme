@@ -1,5 +1,6 @@
 
 @import "./properties.css";
+@import "../z-index.css";
 
 .ReactDates-overrides {
 
@@ -12,7 +13,7 @@
 
   & .DateRangePicker {
     position: absolute;
-    z-index: 1;
+    z-index: var(--calendar-picker-z-index);
     font-family: var(--calendar-font-family);
   }
 

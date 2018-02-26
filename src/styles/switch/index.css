@@ -1,4 +1,5 @@
 @import "./properties.css";
+@import "../z-index.css";
 
 .switch {
   cursor: pointer;
@@ -23,13 +24,14 @@
   top: 0;
   left: 0;
   border-radius: var(--switch-radius);
+  pointer-events: none;
 }
 
 .switch:before {
   background-color: var(--switch-bullet-off-color);
   width: var(--switch-bullet-width);
   height: var(--switch-bullet-height);
-  z-index: 1;
+  z-index: var(--switch-bullet-z-index);
   transform:
     translateX(
       var(--switch-bullet-off)
@@ -44,7 +46,6 @@
   background-color: var(--switch-bullet-off-background);
   width: var(--switch-width);
   height: var(--switch-height);
-  z-index: 0;
   border: 1px solid var(--switch-border-color);
   transition: background-color 70ms ease-in;
 }
@@ -68,7 +69,6 @@
   width: 100%;
   height: 100%;
   cursor: pointer;
-  z-index: 2;
 }
 
 .checked:after {
