@@ -24,6 +24,7 @@
 
 .sectionTitle[role="button"] {
   cursor: pointer;
+  padding: var(--card-spacing-small);
 
   &:focus {
     box-shadow: none;
@@ -52,10 +53,4 @@
   font-family: var(--title-font-family);
   font-size: var(--card-section-subtitle-font-size);
   color: var(--card-section-subtitle-color);
-}
-
-.sectionContent {
-  padding-left: var(--spacing-small);
-  padding-right: var(--spacing-small);
-  padding-bottom: var(--spacing-small);
 }
