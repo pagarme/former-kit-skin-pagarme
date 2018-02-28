@@ -48,7 +48,6 @@
 }
 
 .sectionSubtitle {
-  margin-right: var(--card-section-subtitle-margin-right);
   letter-spacing: var(--letter-spacing);
   font-family: var(--title-font-family);
   font-size: var(--card-section-subtitle-font-size);
