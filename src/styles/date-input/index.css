@@ -21,6 +21,7 @@
   font-size: var(--date-input-font-size);
   transition: var(--date-input-transition);
   position: relative;
+  vertical-align: text-top;
 
   &.active,
   &.focus {
