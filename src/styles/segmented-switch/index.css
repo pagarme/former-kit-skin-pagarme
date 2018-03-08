@@ -36,7 +36,22 @@
 }
 
 .item input:checked + .label {
-  border-radius: var(--context-switch-label-border-radius);
   background-color: var(--context-switch-checked-background-color);
   color: var(--context-switch-checked-label-color);
+}
+
+.item:first-child input:checked + .label {
+  border-radius:
+    var(--context-switch-label-border-radius)
+    0
+    0
+    var(--context-switch-label-border-radius);
+}
+
+.item:last-child input:checked + .label {
+  border-radius:
+    0
+    var(--context-switch-label-border-radius)
+    var(--context-switch-label-border-radius)
+    0;
 }
