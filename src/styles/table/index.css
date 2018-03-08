@@ -18,6 +18,11 @@
   cursor: pointer;
 }
 
+.disabled {
+  cursor: not-allowed;
+  user-select: none;
+}
+
 .check {
   text-align: center;
   width: var(--table-check-width);
