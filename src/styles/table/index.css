@@ -44,3 +44,8 @@
 .unselectable {
   user-select: none;
 }
+
+.disabled {
+  cursor: not-allowed;
+  user-select: none;
+}
