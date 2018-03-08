@@ -40,6 +40,11 @@
   padding-bottom: var(--grid-row-spacing);
 }
 
+.fullHeight,
+.fullHeight > .row,
+.fullHeight > .row > .col {
+  height: 100%;
+}
 .alignEnd {
   justify-content: flex-end;
 }
@@ -54,4 +59,3 @@
     }
   }
 }
-
