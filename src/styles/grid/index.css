@@ -44,8 +44,17 @@
 .fullHeight > .row > .col {
   height: 100%;
 }
-.alignEnd {
+
+.endAlign {
   justify-content: flex-end;
+}
+
+.startAlign {
+  justify-content: flex-start;
+}
+
+.centerAlign {
+  justify-content: center;
 }
 
 @each name in tv, desk, tablet, palm {
