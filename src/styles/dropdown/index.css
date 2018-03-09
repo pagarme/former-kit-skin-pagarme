@@ -10,6 +10,7 @@
   position: relative;
   overflow: hidden;
   height: var(--dropdown-height);
+  line-height: var(--dropdown-line-height);
   border-top: var(--dropdown-border-top);
   border-right: var(--dropdown-border-right);
   border-bottom: var(--dropdown-border-bottom);
