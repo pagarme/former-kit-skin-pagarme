@@ -77,16 +77,12 @@
     padding: var(--button-outline-padding-tiny);
   }
 
-  &.small {
-    padding: var(--button-outline-padding-small);
-  }
-
   &.default {
     padding: var(--button-outline-padding-default);
   }
 
-  &.large {
-    padding: var(--button-outline-padding-large);
+  &.huge {
+    padding: var(--button-outline-padding-huge);
   }
 }
 
@@ -112,41 +108,33 @@
   height: var(--button-height-tiny);
 }
 
-.small {
-  padding: var(--button-padding-small);
-  font-size: var(--button-font-size-small);
-  height: var(--button-height-small);
-}
-
 .default {
   padding: var(--button-padding-default);
   font-size: var(--button-font-size-default);
   height: var(--button-height-default);
 }
 
-.large {
-  padding: var(--button-padding-large);
-  font-size: var(--button-font-size-large);
-  height: var(--button-height-large);
+.huge {
+  padding: var(--button-padding-huge);
+  font-size: var(--button-font-size-huge);
+  height: var(--button-height-huge);
 }
 
 .button.iconButton {
 
   &.tiny,
-  &.small,
   &.default,
-  &.large {
+  &.huge {
     padding: var(--button-icon-padding);
   }
 
-  &.tiny,
-  &.small {
-    width: var(--button-icon-width-small);
-    font-size: var(--button-icon-font-size-small);
+  &.tiny {
+    width: var(--button-icon-width-tiny);
+    font-size: var(--button-icon-font-size-tiny);
   }
 
   &.default,
-  &.large {
+  &.huge {
     width: var(--button-icon-width-default);
   }
 
