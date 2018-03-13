@@ -5,7 +5,6 @@
   align-items: center;
   margin: 0;
   padding: 0;
-  border: none;
   justify-content: center;
   background: var(--header-back-button-background-color);
   border: var(--header-back-button-border);

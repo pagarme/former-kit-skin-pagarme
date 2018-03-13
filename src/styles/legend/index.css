@@ -17,7 +17,8 @@
   min-width: var(--legend-label-min-width);
 }
 
-abbr.acronym {
+/* Add type selector to override normalize.css */
+abbr.acronym { /* stylelint-disable-line */
   text-decoration: none;
 }
 
