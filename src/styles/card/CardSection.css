@@ -80,6 +80,9 @@
 
 .divider {
   display: block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   border-bottom: 1px solid var(--card-section-line-divider-border-color);
   margin: 0 var(--card-spacing-small) var(--card-spacing-small) var(--card-spacing-small);
 }
