@@ -12,7 +12,7 @@
     "build:compile": "env NODE_ENV=production babel $WATCH src -d dist --ignore test,spec.js,test.js",
     "build": "run-p build:copy build:compile",
     "start": "env WATCH=-w run-p build:copy build:compile",
-    "lint": "eslint src/**/*.js; stylelint src/**/*.css"
+    "lint": "eslint 'src/**/*.js'; stylelint 'src/**/*.css'"
   },
   "dependencies": {
     "emblematic-icons": "0.1.1",
