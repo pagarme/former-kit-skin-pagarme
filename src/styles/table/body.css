@@ -35,3 +35,18 @@
   height: var(--body-tr-height);
   outline: 0;
 }
+
+.endAlign {
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.startAlign {
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.centerAlign {
+  justify-content: center;
+  text-align: center;
+}
