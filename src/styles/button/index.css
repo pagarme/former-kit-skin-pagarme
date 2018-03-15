@@ -1,23 +1,23 @@
 @import "./properties.css";
-@import "./colors.css";
 
 .button {
+  align-items: center;
   border: none;
   border-radius: var(--button-border-radius);
+  box-sizing: border-box;
   color: var(--button-color);
+  cursor: pointer;
   display: inline-flex;
   justify-content: center;
-  align-items: center;
   font-family: var(--button-font-family);
-  font-weight: var(--button-font-weight);
   font-style: var(--button-font-style);
+  font-weight: var(--button-font-weight);
   letter-spacing: var(--button-letter-spacing);
   text-transform: var(--button-text-transform);
-  cursor: pointer;
-  word-break: keep-all;
-  white-space: nowrap;
   user-select: var(--button-user-select);
   vertical-align: text-top;
+  white-space: nowrap;
+  word-break: keep-all;
 }
 
 .button:focus {
@@ -63,31 +63,6 @@
   &:active {
     color: var(--button-color);
   }
-}
-
-.button.outline {
-  border-style: var(--button-outline-border-style);
-  border-width: var(--button-outline-border-width);
-
-  /*
-   * Remove 1px related to the border-width
-   * */
-
-  &.tiny {
-    padding: var(--button-outline-padding-tiny);
-  }
-
-  &.default {
-    padding: var(--button-outline-padding-default);
-  }
-
-  &.huge {
-    padding: var(--button-outline-padding-huge);
-  }
-}
-
-.button.outline:disabled {
-  border: var(--button-outline-disabled-border);
 }
 
 /*
@@ -140,5 +115,72 @@
 
   & svg {
     margin: var(--button-icon-svg-margin);
+  }
+}
+
+.normalRelevance {
+  background-image: var(--button-normal-relevance-color);
+
+  &:hover {
+    background: var(--color-light-greenish-120);
+  }
+  &:active {
+    background: var(--color-light-greenish-150);
+  }
+  &:focus {
+    box-shadow: var(--color-light-greenish-150) 0 0 0 2px inset;
+  }
+
+  &.inverse {
+    background: transparent;
+    border-color: var(--color-light-greenish-100);
+    border-style: solid;
+    border-width: 1px;
+    color: var(--color-light-greenish-100);
+  }
+
+  &.flat {
+    background: transparent;
+    color: var(--color-light-greenish-100);
+  }
+}
+
+.highRelevance {
+  background-image: var(--button-high-relevance-color);
+
+  &:hover {
+    background: var(--color-light-salmon-120);
+  }
+  &:active {
+    background: var(--color-light-salmon-150);
+  }
+  &:focus {
+    box-shadow: var(--color-light-salmon-150) 0 0 0 2px inset;
+  }
+}
+
+.lowRelevance {
+  background-color: var(--button-low-relevance-color);
+  border-color: var(--button-low-relevance-border-color);
+  border-style: solid;
+  border-width: 1px;
+  color: var(--button-low-relevance-border-color);
+
+  &:hover {
+    background: var(--color-light-iron-100);
+    border-color: transparent;
+    color: var(--color-white);
+  }
+  &:active {
+    background: var(--color-light-grey-100);
+    border-color: transparent;
+    color: var(--color-white);
+  }
+  &:focus:not(:active) {
+    background: var(--color-light-grey-50);
+    border-color: #979797;
+    border-width: 1px;
+    box-shadow: #979797 0 0 0 1px inset;
+    color: var(--color-white);
   }
 }
