@@ -4,17 +4,11 @@
   width: 100%;
 }
 
-.tableBodyItem {
-  padding: var(--body-td-padding);
-  color: var(--body-td-color);
-  font-size: var(--body-td-font-size);
-  position: relative;
-}
-
 .tableBody .empty {
   display: block;
   position: relative;
   width: 100%;
+  padding-bottom: var(--table-body-empty-padding-bottom);
 }
 
 .tableBody .empty:before {

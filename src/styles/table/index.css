@@ -1,8 +1,9 @@
-@import "./properties.css";
 @import "./body.css";
-@import "./head.css";
-@import "./row.css";
 @import "./expandableRow.css";
+@import "./footer.css";
+@import "./head.css";
+@import "./properties.css";
+@import "./row.css";
 
 .table {
   border-collapse: collapse;
@@ -50,3 +51,9 @@
   user-select: none;
 }
 
+.tableItem {
+  padding: var(--body-td-padding);
+  color: var(--body-td-color);
+  font-size: var(--body-td-font-size);
+  position: relative;
+}

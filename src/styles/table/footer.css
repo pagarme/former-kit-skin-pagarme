@@ -1,0 +1,9 @@
+@import "./properties";
+
+.footerCell {
+  font-weight: var(--footer-row-font-weight);
+}
+
+.titleFooterCell {
+  text-transform: var(--footer-row-text-transform);
+}
