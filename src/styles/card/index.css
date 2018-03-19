@@ -3,13 +3,13 @@
 
 .card {
   background: var(--color-white);
-  box-shadow: var(--card-shadow);
-  margin: 0;
-  padding: 0;
   border-radius: var(--card-border-radius);
-  width: 100%;
+  box-shadow: var(--card-shadow);
   height: auto;
+  margin: 0;
   overflow: hidden;
+  padding: 0;
+  width: 100%;
 }
 
 .card * {
@@ -17,16 +17,16 @@
 }
 
 .title {
-  padding: var(--card-title-padding);
-  display: flex;
   align-items: center;
-  outline: none;
+  display: flex;
   justify-content: space-between;
+  outline: none;
+  padding: var(--card-title-padding);
 }
 
 .title > * {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 
@@ -68,9 +68,9 @@
 }
 
 .actions {
-  padding: var(--card-actions-padding);
   display: flex;
   justify-content: flex-end;
+  padding: var(--card-actions-padding);
 }
 
 .actions > * {
