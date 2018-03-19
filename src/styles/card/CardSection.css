@@ -18,8 +18,8 @@
   font-weight: var(--title-font-weight);
   font-style: var(--title-font-style);
   letter-spacing: var(--letter-spacing);
-  text-transform: uppercase;
   color: var(--card-section-title-color);
+  text-transform: var(--card-title-text-transform);
 }
 
 .sectionTitle[role="button"] {
@@ -52,4 +52,37 @@
   font-family: var(--title-font-family);
   font-size: var(--card-section-subtitle-font-size);
   color: var(--card-section-subtitle-color);
+}
+
+.sectionTitles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-left: 15px;
+  text-transform: none;
+}
+
+.sectionTwoLineTitle {
+  display: flex;
+}
+
+.sectionIconBox {
+  background-color: var(--card-section-icon-box-background-color);
+  width: var(--card-section-icon-box-size);
+  height: var(--card-section-icon-box-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--card-border-radius);
+}
+
+.divider {
+  display: block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid var(--card-section-line-divider-border-color);
+  margin: 0 var(--card-spacing-small) var(--card-spacing-small) var(--card-spacing-small);
 }
