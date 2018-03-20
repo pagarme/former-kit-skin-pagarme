@@ -20,11 +20,16 @@
   letter-spacing: var(--letter-spacing);
   color: var(--card-section-title-color);
   text-transform: var(--card-title-text-transform);
+
+  &:last-child:not(:only-child) {
+    padding-top: 0;
+  }
 }
+
+
 
 .sectionTitle[role="button"] {
   cursor: pointer;
-  padding: var(--card-spacing-small);
 
   &:focus {
     box-shadow: none;
@@ -58,14 +63,24 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  margin-left: 15px;
+  padding-bottom: var(--card-section-title-padding-bottom);
+  padding-left: var(--card-spacing-small);
+  padding-top: var(--card-section-title-padding-top);
   text-transform: none;
 }
 
-.sectionTwoLineTitle {
+.doubleLineTitle {
+  align-items: center;
   display: flex;
+  padding-bottom: var(--card-spacing-small);
+  padding-left: var(--card-spacing-tiny);
+  padding-right: var(--card-spacing-medium);
+  padding-top: var(--card-spacing-medium);
+
+  & > div {
+    display: flex;
+    flex: 1;
+  }
 }
 
 .sectionIconBox {
@@ -84,5 +99,5 @@
   border-left: none;
   border-right: none;
   border-bottom: 1px solid var(--card-section-line-divider-border-color);
-  margin: 0 var(--card-spacing-small) var(--card-spacing-small) var(--card-spacing-small);
+  margin: 0 var(--card-spacing-medium) var(--card-spacing-small) var(--card-spacing-tiny);
 }
