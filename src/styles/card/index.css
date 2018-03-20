@@ -60,6 +60,10 @@
 
 .content {
   padding: var(--card-content-padding);
+
+  &:first-child {
+    padding-top: var(--card-spacing-small);
+  }
 }
 
 .graphic,
