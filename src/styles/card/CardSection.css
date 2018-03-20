@@ -26,8 +26,6 @@
   }
 }
 
-
-
 .sectionTitle[role="button"] {
   cursor: pointer;
 
@@ -72,10 +70,11 @@
 .doubleLineTitle {
   align-items: center;
   display: flex;
-  padding-bottom: var(--card-spacing-small);
-  padding-left: var(--card-spacing-tiny);
-  padding-right: var(--card-spacing-medium);
-  padding-top: var(--card-spacing-medium);
+  padding:
+    var(--card-spacing-medium)
+    var(--card-spacing-medium)
+    var(--card-spacing-small)
+    var(--card-spacing-tiny);
 
   & > div {
     display: flex;
