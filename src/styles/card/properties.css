@@ -16,7 +16,7 @@
   --card-title-color: var(--color-light-steel-100);
   --card-title-font-size: 14px;
   --card-title-icon-margin: 9px;
-  --card-title-padding: var(--card-spacing-small);
+  --card-title-padding: var(--card-spacing-medium);
   --card-title-text-transform: uppercase;
 
   --card-subtitle-font-size: 16px;
@@ -25,15 +25,15 @@
   --card-actions-spacing: var(--card-spacing-tiny);
   --card-actions-padding:
     0
-    var(--card-spacing-small)
-    var(--card-spacing-small)
-    var(--card-spacing-small);
+    var(--card-spacing-medium)
+    var(--card-spacing-medium)
+    var(--card-spacing-medium);
 
   --card-content-padding:
     0
-    var(--card-spacing-small)
-    var(--card-spacing-small)
-    var(--card-spacing-small);
+    var(--card-spacing-medium)
+    var(--card-spacing-medium)
+    var(--card-spacing-medium);
 
   --card-background: var(--color-white);
 
