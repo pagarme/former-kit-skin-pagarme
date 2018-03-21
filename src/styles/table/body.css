@@ -4,17 +4,11 @@
   width: 100%;
 }
 
-.tableBodyItem {
-  padding: var(--body-td-padding);
-  color: var(--body-td-color);
-  font-size: var(--body-td-font-size);
-  position: relative;
-}
-
 .tableBody .empty {
   display: block;
   position: relative;
   width: 100%;
+  padding-bottom: var(--table-body-empty-padding-bottom);
 }
 
 .tableBody .empty:before {
@@ -34,4 +28,19 @@
   width: 100%;
   height: var(--body-tr-height);
   outline: 0;
+}
+
+.endAlign {
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.startAlign {
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.centerAlign {
+  justify-content: center;
+  text-align: center;
 }

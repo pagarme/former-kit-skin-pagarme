@@ -1,5 +1,6 @@
 @import "../colors.css";
 @import "../typography.css";
+@import "../spacing.css";
 
 :root {
   --arrow-border: 1px solid var(--color-light-iron-50);
@@ -8,7 +9,7 @@
   --body-td-empty-height: 2px;
   --body-td-empty-width: calc(100% - 20px);
   --body-td-font-size: 13px;
-  --body-td-padding: 16px;
+  --body-td-padding: var(--spacing-small);
   --body-tr-even-background-color: var(--color-white);
   --body-tr-even-border: 1px solid var(--color-light-grey-50);
   --body-tr-expanded-hover-border-width: 0 1px 1px;
@@ -23,9 +24,11 @@
   --expandable-row-padding: 21px 24px 0 27px;
   --expandable-row-text-color: var(--color-light-chromium-100);
   --expandable-row-text-min-width: 80px;
-  --expandable-row-text-padding-bottom: 24px;
+  --expandable-row-text-padding-bottom: var(--spacing-medium);
   --expandable-row-title-color: var(--color-light-steel-100);
   --expandable-row-title-padding-bottom: 0;
+  --footer-row-font-weight: bold;
+  --footer-row-text-transform: uppercase;
   --head-th-active-border-bottom-color: var(--color-light-greenish-gradient);
   --head-th-active-border-bottom-height: 2px;
   --head-th-active-border-bottom-width: calc(100% - 1px);
@@ -34,7 +37,7 @@
   --head-th-font-size: 12px;
   --head-th-font-weight: 600;
   --head-th-line-height: normal;
-  --head-th-padding: 16px;
+  --head-th-padding: var(--spacing-small);
   --head-th-separator-border: solid 1px var(--color-light-grey-50);
   --head-th-separator-height: calc(100% - 24px);
   --head-th-svg-margin: 10px;
@@ -46,6 +49,7 @@
   --hover-row-first-child-border-width: 1px 0 0 1px;
   --hover-row-last-child-border-width: 1px 1px 0 0;
   --table-arrow-border: 1px solid var(--color-light-iron-50);
+  --table-body-empty-padding-bottom: var(--spacing-medium);
   --table-border: solid 1px var(--color-light-grey-50);
   --table-check-width: 54px;
   --table-font-family: var(--body-font-family);
