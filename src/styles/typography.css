@@ -13,11 +13,11 @@
   --blockquote-border-radius: 2px;
   --blockquote-border: 5px solid var(--color-light-greenish-100);
 
-  --title-font-family: "Assistant";
+  --title-font-family: "Assistant", sans-serif;
   --title-color: var(--color-light-coal-100);
   --title-font-weight: bold;
   --title-font-style: normal;
-  --body-font-family: "Assistant";
+  --body-font-family: "Assistant", sans-serif;
   --body-link-color: var(--color-light-greenish-100);
   --letter-spacing: 0.02em;
   --body-color: var(--color-light-chromium-100);
