@@ -66,6 +66,14 @@
   }
 }
 
+.section .content:first-child {
+  padding-bottom: 0;
+}
+
+.section .content:last-child {
+  padding-top: 0;
+}
+
 .graphic,
 .graphic > img {
   width: 100%;

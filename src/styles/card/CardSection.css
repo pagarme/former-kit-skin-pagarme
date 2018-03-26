@@ -20,10 +20,6 @@
   letter-spacing: var(--letter-spacing);
   color: var(--card-section-title-color);
   text-transform: var(--card-title-text-transform);
-
-  &:last-child:not(:only-child) {
-    padding-top: 0;
-  }
 }
 
 .sectionTitle[role="button"] {
@@ -61,6 +57,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  outline: none;
   padding-bottom: var(--card-section-title-padding-bottom);
   padding-left: var(--card-spacing-small);
   padding-top: var(--card-section-title-padding-top);
@@ -77,6 +74,7 @@
     var(--card-spacing-tiny);
 
   & > div {
+    cursor: pointer;
     display: flex;
     flex: 1;
   }
