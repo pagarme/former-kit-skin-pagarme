@@ -15,25 +15,9 @@
   flex: 1;
 }
 
-.disabled,
-.container > input:disabled,
-.container > textarea:disabled {
-  cursor: not-allowed;
-  opacity: var(--input-disabled-opacity);
-}
-
-.disabled .container {
-  border-bottom: var(--input-container-disabled-border-bottom);
-  border-radius: var(--input-container-disabled-border-radius);
-}
-
-.disabled .secondaryText {
-  color: var(--input-color-disabled);
-}
-
 .container {
-  position: relative;
   padding-top: var(--input-container-padding);
+  position: relative;
 }
 
 .container * {
@@ -43,15 +27,16 @@
 
 .container > textarea,
 .container > input {
-  color: var(--input-color);
-  display: block;
-  min-width: 100%;
-  border: none;
-  border-bottom: var(--input-textarea-border-bottom);
-  border-radius: var(--input-textarea-border-radius);
-  font-size: var(--input-font-size);
-  caret-color: var(--input-textarea-caret-default-color);
   background: none;
+  border-color: var(--input-textarea-border-color);
+  border-radius: var(--input-textarea-border-radius);
+  border-style: var(--input-textarea-border-style);
+  border-width: var(--input-textarea-border-width);
+  color: var(--input-color);
+  caret-color: var(--input-textarea-caret-default-color);
+  display: block;
+  font-size: var(--input-font-size);
+  min-width: 100%;
 }
 
 .container > input {
@@ -69,91 +54,36 @@
   overflow: hidden;
 }
 
-.container > textarea:disabled,
-.container > input:disabled {
-  border: var(--input-textarea-disabled-border);
-}
-
-.container > textarea:disabled ~ label,
-.container > input:disabled ~ label {
-  color: var(--input-color-disabled);
-}
-
 .container > textarea::placeholder,
 .container > input::placeholder {
   opacity: var(--input-textarea-placeholder-opacity);
 }
 
-.container > textarea:focus::placeholder,
-.container > input:focus::placeholder {
-  opacity: var(--input-textarea-focus-placeholder-opacity);
-  color: var(--input-textarea-focus-placeholder-color);
-  font-size: var(--input-font-size);
-}
-
 .container > label {
   color: var(--input-label-color);
   font-size: var(--input-label-font-size-default);
-  white-space: nowrap;
+  pointer-events: none;
   position: absolute;
   top: var(--input-label-top);
-  pointer-events: none;
   transition: var(--input-label-transition-time) ease all;
-}
-
-.container > textarea:focus,
-.container > input:focus {
-  border-bottom-color: var(--input-textarea-focus-border-color);
-  border-radius: var(--input-textarea-border-radius);
-  transition: border-color var(--input-textarea-focus-transition-time) ease;
-  outline: none;
-}
-
-.container > textarea:focus ~ label,
-.container > input:focus ~ label {
-  top: var(--input-textarea-label-top);
-  font-size: var(--input-label-font-size-focus);
-  color: var(--input-label-color-focus);
+  white-space: nowrap;
 }
 
 .container .contentPresent {
-  top: var(--input-multiline-content-present-top);
   font-size: var(--input-label-font-size-focus);
-}
-
-.icon {
-  padding-top: var(--input-icon-padding);
-  margin-right: var(--input-icon-margin);
-  color: var(--input-icon-inactive-color);
-}
-
-.disabled .icon {
-  color: var(--input-color-disabled);
-}
-
-.active .icon {
-  color: var(--input-icon-active-color);
-}
-
-.displayPasswordIcon {
-  appearance: none;
-  background: none;
-  border: none;
-  bottom: var(--input-display-password-icon-bottom);
-  cursor: pointer;
-  right: var(--input-display-password-icon-right);
-  outline: none;
-  position: absolute;
+  top: var(--input-multiline-content-present-top);
 }
 
 .secondaryText {
-  width: 100%;
+  color: var(--input-label-color);
   font-size: var(--input-secondary-text-font-size);
-  text-align: left;
   margin: 0;
   margin-top: var(--input-secondary-text-margin-top);
-  color: var(--input-label-color);
+  text-align: left;
+  width: 100%;
 }
+
+/* multiline */
 
 .multiline {
   height: auto;
@@ -177,6 +107,62 @@
   word-break: break-word;
 }
 
+/* hover */
+
+.container > textarea:hover,
+.container > input:hover {
+  border-color: var(--input-textarea-hover-border-color);
+  transition: border-color var(--input-textarea-focus-transition-time) ease;
+}
+
+/* focus */
+
+.container > textarea:focus::placeholder,
+.container > input:focus::placeholder {
+  opacity: var(--input-textarea-focus-placeholder-opacity);
+  color: var(--input-textarea-focus-placeholder-color);
+  font-size: var(--input-font-size);
+}
+
+.container > textarea:focus,
+.container > input:focus {
+  border-color: var(--input-textarea-focus-border-color);
+  outline: none;
+  transition: border-color var(--input-textarea-focus-transition-time) ease;
+}
+
+.container > textarea:focus ~ label,
+.container > input:focus ~ label {
+  color: var(--input-label-color-focus);
+  font-size: var(--input-label-font-size-focus);
+  top: var(--input-textarea-label-top);
+}
+
+/* icon */
+
+.icon {
+  padding-top: var(--input-icon-padding);
+  margin-right: var(--input-icon-margin);
+  color: var(--input-icon-inactive-color);
+}
+
+.active .icon {
+  color: var(--input-icon-active-color);
+}
+
+.displayPasswordIcon {
+  appearance: none;
+  background: none;
+  border: none;
+  bottom: var(--input-display-password-icon-bottom);
+  cursor: pointer;
+  right: var(--input-display-password-icon-right);
+  outline: none;
+  position: absolute;
+}
+
+/* error */
+
 .error textarea:focus ~ label,
 .error input:focus ~ label,
 .error .secondaryText,
@@ -186,23 +172,33 @@
 
 .error textarea,
 .error input,
+.error textarea:hover,
+.error input:hover,
 .error textarea:focus,
 .error input:focus {
-  border-bottom-color: var(--input-color-error);
-  caret-color: var(--input-color-error);
+  border-color: var(--input-color-error);
 }
 
-.success textarea:focus ~ label,
-.success input:focus ~ label,
-.success .secondaryText,
-.success .contentPresent {
-  color: var(--input-color-success);
+/* disabled */
+
+.disabled,
+.container > input:disabled,
+.container > textarea:disabled {
+  cursor: not-allowed;
 }
 
-.success textarea,
-.success input,
-.success textarea:focus,
-.success input:focus {
-  border-bottom-color: var(--input-color-success);
-  caret-color: var(--input-color-success);
+.container > textarea:disabled,
+.container > input:disabled {
+  border-color: var(--input-textarea-disabled-border-color);
+  color: var(--input-color-disabled);
+}
+
+.disabled .secondaryText,
+.container > textarea:disabled ~ label,
+.container > input:disabled ~ label {
+  color: var(--input-color-disabled);
+}
+
+.disabled .icon {
+  color: var(--input-color-disabled);
 }
