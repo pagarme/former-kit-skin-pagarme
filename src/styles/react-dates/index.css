@@ -5,33 +5,33 @@
 .ReactDates-overrides {
 
   & .DayPicker {
+    background: var(--calendar-day-picker-background);
     border: var(--calendar-day-picker-border);
     box-shadow: var(--calendar-day-box-shadow);
     font-weight: var(--calendar-day-picker-font-weight);
-    background: var(--calendar-day-picker-background);
   }
 
   & .DateRangePicker {
+    font-family: var(--calendar-font-family);
     position: absolute;
     z-index: var(--calendar-picker-z-index);
-    font-family: var(--calendar-font-family);
   }
 
   & .CalendarDay {
     border: var(--calendar-day-picker-border);
     color: var(--calendar-day-color);
     font-size: var(--calendar-day-font-size);
-    height: var(--calendar-day-height) !important; /* stylelint-disable-line */
     font-weight: var(--calendar-day-font-weight);
+    height: var(--calendar-day-height) !important; /* stylelint-disable-line */
     transition: var(--calendar-day-transition);
     will-change: color background-color;
   }
 
   & .DateRangePickerInput {
-    border-width: 0;
-    height: 100%;
-    display: flex;
     align-items: center;
+    border-width: 0;
+    display: flex;
+    height: 100%;
   }
 
   & .DateRangePicker,
@@ -45,37 +45,38 @@
 
   & .DayPickerNavigation__next,
   & .DayPickerNavigation__prev {
-    color: var(--calendar-active-color);
-    border: var(--calendar-day-picker-border);
     background-color: var(--calendar-day-picker-background-color);
+    border: var(--calendar-day-picker-border);
+    color: var(--calendar-icon-color);
     font-size: var(--calendar-icon-font-size);
+    outline: none;
   }
 
   & .CalendarMonth .CalendarMonth__caption {
-    opacity: 0;
     color: var(--calendar-month-caption-color);
+    font-size: var(--calendar-month-caption-font-size);
+    opacity: 0;
     padding: var(--calendar-month-caption-padding);
-    font-size: var(--calendar-day-font-size);
     text-transform: var(--calendar-month-caption-text-transform);
     transition: var(--calendar-month-transition);
   }
 
   & .CalendarMonth table {
-    position: relative;
     border-collapse: separate;
     border-spacing: 0 var(--calendar-week-spacing);
+    position: relative;
   }
 
   & .CalendarMonth table:before {
+    background-color: var(--calendar-month-separator-background-color);
     content: "";
     display: block;
-    height: var(--calendar-month-height);
-    width: var(--calendar-month-width);
-    background-color: var(--calendar-month-background-color);
-    transform: var(--calendar-month-transform);
-    position: absolute;
+    height: var(--calendar-month-separator-height);
     opacity: 0;
+    position: absolute;
+    transform: var(--calendar-month-separator-transform);
     transition: var(--calendar-month-transition);
+    width: var(--calendar-month-separator-width);
   }
 
   & .CalendarMonth[data-visible="true"] table:before {
@@ -99,15 +100,16 @@
   }
 
   & .DayPicker__week-header ul {
-    padding-top: var(--calendar-week-padding-top);
-    padding-bottom: var(--calendar-week-padding-bottom);
-    background-color: var(--calendar-week-name-background);
+    background-color: var(--calendar-week-name-background-color);
+    border-color: var(--calendar-week-name-border-color);
+    border-style: var(--calendar-week-name-border-style);
+    border-width: var(--calendar-week-name-border-width);
     color: var(--calendar-week-name-color);
-    font-weight: var(--calendar-week-name-font-weight);
     font-size: var(--calendar-week-name-font-size);
+    font-weight: var(--calendar-week-name-font-weight);
+    padding-bottom: var(--calendar-week-padding-bottom);
+    padding-top: var(--calendar-week-padding-top);
     text-transform: var(--calendar-day-picker-header-text-transform);
-    border-top: var(--calendar-day-picker-border-top);
-    border-bottom: var(--calendar-day-picker-border-bottom);
   }
 
   & .DayPickerNavigation {
@@ -131,7 +133,8 @@
   }
 
   & .CalendarDay--selected-span {
-    background-color: var(--calendar-selected-span);
+    background-color: var(--calendar-selected-span-background-color);
+    color: var(--calendar-selected-span-color);
   }
 
   & .CalendarDay--selected-start,
