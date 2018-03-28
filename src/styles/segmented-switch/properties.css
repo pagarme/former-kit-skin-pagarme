@@ -11,7 +11,7 @@
   --context-switch-text-transform: uppercase;
 
   --context-switch-label-border-radius: 3px;
-  --context-switch-label-color: var(--color-light-gray-100);
+  --context-switch-label-color: var(--color-light-grey-100);
   --context-switch-label-font-size: 10px;
   --context-switch-label-height: var(--spacing-medium);
   --context-switch-label-line-height: var(--spacing-medium);

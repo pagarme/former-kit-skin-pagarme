@@ -22,7 +22,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: var(--alert-content-margin-left);
   margin-right: var(--alert-content-margin-right);
   color: var(--alert-color);
 }
