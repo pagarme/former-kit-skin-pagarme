@@ -6,4 +6,5 @@
   --form-item-font-size: 14px;
   --form-item-label-color: var(--color-light-chromium-100);
   --form-item-secondary-font-size: 12px;
+  --form-item-color-disabled: var(--color-light-iron-50);
 }
