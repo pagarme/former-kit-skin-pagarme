@@ -1,5 +1,5 @@
 :root {
-  --form-item-border-bottom: 2px solid var(--color-light-silver-100);
+  --form-item-border-color: var(--color-light-grey-50);
   --form-item-border-radius: 3px;
   --form-item-error-color: var(--color-light-error);
   --form-item-font-family: var(--body-font-family);
