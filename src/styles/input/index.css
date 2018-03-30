@@ -4,7 +4,6 @@
 
 .input {
   background-color: var(--input-background-color);
-  border: var(--input-border);
   border-color: var(--input-border-color);
   border-radius: var(--input-border-radius);
   border-style: var(--input-border-style);
