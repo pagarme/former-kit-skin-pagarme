@@ -2,17 +2,26 @@
 @import "../typography.css";
 
 :root {
-  --context-switch-border: 1px solid var(--color-light-carbon-100);
-  --context-switch-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.55);
-  --context-switch-label-font-size: 10px;
-  --context-switch-checked-background-color: var(--color-light-greenish-100);
-  --context-switch-label-color: var(--color-light-steel-100);
-  --context-switch-font-family: var(--title-font-family);
+  --context-switch-backgound-color: var(--color-light-iron-20);
   --context-switch-border-radius: 4px;
-  --context-switch-label-border-radius: 3px;
-  --context-switch-label-padding: 5px 14px;
-  --context-switch-checked-label-color: var(--color-light-carbon-100);
-  --context-switch-label-backgound-color: var(--color-light-carbon-100);
+  --context-switch-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  --context-switch-font-family: var(--title-font-family);
+  --context-switch-height: var(--spacing-medium);
   --context-switch-letter-spacing: 0.1em;
   --context-switch-text-transform: uppercase;
+
+  --context-switch-label-border-radius: 3px;
+  --context-switch-label-color: var(--color-light-gray-100);
+  --context-switch-label-font-size: 10px;
+  --context-switch-label-height: var(--spacing-medium);
+  --context-switch-label-line-height: var(--spacing-medium);
+  --context-switch-label-padding: 0 14px;
+
+  --context-switch-checked-background-color: var(--color-light-greenish-100);
+  --context-switch-checked-color: var(--color-white);
+
+  --context-switch-enter-background-color: var(--color-light-greenish-120);
+  --context-switch-enter-border-color: var(--color-light-greenish-150);
+  --context-switch-enter-border-style: solid;
+  --context-switch-enter-border-width: 1px;
 }

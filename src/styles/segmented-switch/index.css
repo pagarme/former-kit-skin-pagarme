@@ -2,12 +2,12 @@
 @import "../z-index.css";
 
 .segmentedSwitch {
-  display: inline-flex;
+  background-color: var(--context-switch-backgound-color);
   border-radius: var(--context-switch-border-radius);
-  user-select: none;
-  border: var(--context-switch-border);
-  background-color: var(--context-switch-label-backgound-color);
   box-shadow: var(--context-switch-box-shadow);
+  display: inline-flex;
+  height: var(--context-switch-height);
+  user-select: none;
 }
 
 .item {
@@ -15,32 +15,56 @@
 }
 
 .item > input {
-  position: absolute;
-  top: 0;
   left: 0;
   opacity: 0;
+  position: absolute;
+  top: 0;
 }
 
 .label {
-  background-color: var(--context-switch-label-backgound-color);
-  padding: var(--context-switch-label-padding);
-  text-transform: var(--context-switch-text-transform);
-  font-weight: bold;
-  letter-spacing: var(--context-switch-letter-spacing);
-  font-family: var(--context-switch-font-family);
-  cursor: pointer;
-  font-size: var(--context-switch-label-font-size);
+  border: 1px solid transparent;
   color: var(--context-switch-label-color);
+  cursor: pointer;
   display: block;
+  font-family: var(--context-switch-font-family);
+  font-size: var(--context-switch-label-font-size);
+  font-weight: bold;
+  height: var(--context-switch-label-height);
+  letter-spacing: var(--context-switch-letter-spacing);
+  line-height: var(--context-switch-label-line-height);
+  padding: var(--context-switch-label-padding);
   position: relative;
+  text-transform: var(--context-switch-text-transform);
 }
 
 .item input:checked + .label {
   background-color: var(--context-switch-checked-background-color);
-  color: var(--context-switch-checked-label-color);
+  border: 1px solid var(--color-light-greenish-100);
+  border-radius: var(--context-switch-label-border-radius);
+  box-sizing: border-box;
+  color: var(--context-switch-checked-color);
+
+  &:hover,
+  &:active {
+    background-color: var(--context-switch-enter-background-color);
+    border-color: var(--color-light-greenish-150);
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  &:active {
+    box-shadow: inset var(--color-light-greenish-150) 0 0 0 1px;
+  }
 }
 
-.item:first-child input:checked + .label {
+.item input:focus + .label {
+  background-color: var(--context-switch-enter-background-color);
+  border-color: var(--color-light-greenish-150);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.item:first-child .label {
   border-radius:
     var(--context-switch-label-border-radius)
     0
@@ -48,7 +72,7 @@
     var(--context-switch-label-border-radius);
 }
 
-.item:last-child input:checked + .label {
+.item:last-child .label {
   border-radius:
     0
     var(--context-switch-label-border-radius)
