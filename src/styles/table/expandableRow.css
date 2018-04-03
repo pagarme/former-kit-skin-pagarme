@@ -1,20 +1,20 @@
 @import "./properties.css";
 
 .expandable {
-  text-align: left;
   align-items: flex-start;
   display: flex;
   justify-content: space-between;
   padding: var(--expandable-row-padding);
+  text-align: left;
 }
 
 .expandable ul {
-  padding: 0;
-  margin: 0 auto;
-  display: flex;
   align-items: flex-start;
+  display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .expandable li {
@@ -23,17 +23,21 @@
 }
 
 .expandable li .title {
-  display: block;
-  text-transform: uppercase;
-  font-size: var(--table-font-size);
   color: var(--expandable-row-title-color);
+  display: block;
+  font-size: var(--table-font-size);
   padding-bottom: var(--expandable-row-title-padding-bottom);
+  text-transform: uppercase;
 }
 
 .expandable li .text {
-  display: block;
   color: var(--expandable-row-text-color);
+  display: block;
   font-size: var(--table-font-size);
   min-width: var(--expandable-row-text-min-width);
   padding-bottom: var(--expandable-row-text-padding-bottom);
+
+  &.empty:before {
+    right: auto;
+  }
 }

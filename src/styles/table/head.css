@@ -1,10 +1,10 @@
 @import "./properties.css";
 
 .tableHead tr {
-  width: 100%;
-  height: var(--head-tr-height);
   background-color: var(--head-tr-background-color);
   border: var(--head-tr-border);
+  height: var(--head-tr-height);
+  width: 100%;
 }
 
 .tableHead th {
@@ -21,23 +21,23 @@
 }
 
 .tableHeadItem {
-  display: flex;
   align-items: center;
+  display: flex;
   line-height: var(--head-th-line-height);
   padding: var(--head-th-padding);
 }
 
 .title {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .tableHead th + th:after {
   content: "";
   border-right: var(--head-th-separator-border);
-  position: absolute;
   height: var(--head-th-separator-height);
   left: 0;
+  position: absolute;
   top: 50%;
   transform: translate(0, -50%);
 }
@@ -48,13 +48,13 @@
 
   &:before {
     content: "";
-    position: absolute;
-    bottom: 0;
     background-image: var(--head-th-active-border-bottom-color);
+    bottom: 0;
     height: var(--head-th-active-border-bottom-height);
     left: 0;
+    margin: 0 auto;
+    position: absolute;
     right: 0;
     width: var(--head-th-active-border-bottom-width);
-    margin: 0 auto;
   }
 }
