@@ -39,9 +39,7 @@
   padding-bottom: var(--grid-row-spacing);
 }
 
-.fullHeight,
-.fullHeight > .row,
-.fullHeight > .row > .col {
+.fullHeight {
   height: 100%;
 }
 
