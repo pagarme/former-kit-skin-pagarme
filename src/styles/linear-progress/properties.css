@@ -1,17 +1,23 @@
 @import "../colors.css";
 
 :root {
+  --progress-linear-height: auto;
   --progress-linear-width: 300px;
-  --progress-linear-height: 25px;
 
-  --progress-linear-fill-height: 6px;
+  --progress-linear-back-background-color: var(--color-light-iron-50);
+  --progress-linear-back-border-radius: 3px;
+  --progress-linear-back-height: 4px;
 
-  --progress-linear-fill-disabled: var(--color-light-coal-100);
-  --progress-linear-back-disabled: var(--color-light-grey-100);
-  --progress-linear-color-disabled: var(--color-light-coal-100);
+  --progress-linear-fill-background: var(--color-light-greenish-gradient);
 
-  --progress-linear-fill-enabled: var(--color-light-salmon-gradient);
-  --progress-linear-back-enabled: var(--color-light-grey-100);
-  --progress-linear-color-enabled: var(--color-light-red-100);
-  --progress-linear-font-family: var(--title-font-family);
+  --progress-linear-number-color: var(--color-light-steel-100);
+  --progress-linear-number-font-family: var(--title-font-family);
+  --progress-linear-number-font-size: 14px;
+  --progress-linear-number-margin-top: var(--spacing-tiny);
+
+  --progress-linear-number-color-filled: var(--color-greenish-gradient-end);
+
+  --progress-linear-back-background-disabled: var(--color-light-iron-20);
+  --progress-linear-fill-background-disabled: var(--color-light-silver-100);
+  --progress-linear-number-color-disabled: var(--color-light-silver-100);
 }

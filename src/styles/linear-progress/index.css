@@ -7,49 +7,55 @@
 }
 
 .linearProgress {
-  width: var(--progress-linear-width);
   height: var(--progress-linear-height);
-  position: relative;
   overflow: hidden;
+  width: var(--progress-linear-width);
 }
 
 .background {
-  height: var(--progress-linear-fill-height);
-  background-color: var(--progress-linear-back-enabled);
+  background-color: var(--progress-linear-back-background-color);
+  border-radius: var(--progress-linear-back-border-radius);
+  height: var(--progress-linear-back-height);
 }
 
 .fill {
-  position: absolute;
-  top: 0;
+  background-image: var(--progress-linear-fill-background);
+  border-radius: var(--progress-linear-back-border-radius);
+  height: var(--progress-linear-back-height);
   left: 0;
-  width: 0%;
+  top: 0;
   will-change: width;
-  height: var(--progress-linear-fill-height);
-  background-image: var(--progress-linear-fill-enabled);
 }
 
 .number {
-  position: relative;
-  height: 100%;
-  font-family: var(--progress-linear-font-family);
-  text-align: right;
-  width: 0%;
+  color: var(--progress-linear-number-color);
   display: inline-block;
-  color: var(--progress-linear-color-enabled);
+  font-family: var(--progress-linear-number-font-family);
+  font-size: var(--progress-linear-number-font-size);
+  font-weight: bold;
+  height: 100%;
+  margin-top: var(--progress-linear-number-margin-top);
+  text-align: right;
+}
+
+.filledLabel {
+  color: var(--progress-linear-number-color-filled);
 }
 
 .disabled {
+  cursor: not-allowed;
+  user-select: none;
 
-  & .back {
-    background-color: var(--progress-linear-back-disabled);
+  & .background {
+    background-color: var(--progress-linear-back-background-disabled);
   }
 
   & .fill {
-    background-color: var(--progress-linear-fill-disabled);
+    background-color: var(--progress-linear-fill-background-disabled);
     background-image: none;
   }
 
   & .number {
-    color: var(--progress-linear-color-disabled);
+    color: var(--progress-linear-number-color-disabled);
   }
 }
