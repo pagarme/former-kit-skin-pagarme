@@ -1,4 +1,3 @@
-
 @import "./properties.css";
 @import "../z-index.css";
 
@@ -37,10 +36,6 @@
   & .DateRangePicker,
   & .DateRangePicker > div {
     height: 100%;
-  }
-
-  & .DateRangePicker__picker--open-down {
-    top: var(--calendar-top);
   }
 
   & .DayPickerNavigation__next,
