@@ -6,12 +6,12 @@
 @import "./row.css";
 
 .table {
-  border-collapse: collapse;
-  width: var(--table-width);
   border: var(--table-border);
-  table-layout: fixed;
+  border-collapse: collapse;
   font-family: var(--table-font-family);
+  table-layout: fixed;
   user-select: text;
+  width: var(--table-width);
 }
 
 .clickable,
@@ -37,9 +37,9 @@
 }
 
 .table > .tableBody .open button {
+  appearance: none;
   border: var(--table-arrow-border);
   margin: 0 auto;
-  appearance: none;
 }
 
 .unselectable {
@@ -52,8 +52,8 @@
 }
 
 .tableItem {
-  padding: var(--body-td-padding);
   color: var(--body-td-color);
   font-size: var(--body-td-font-size);
+  padding: var(--body-td-padding);
   position: relative;
 }

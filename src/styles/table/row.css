@@ -35,8 +35,8 @@
 
   & td,
   & td {
-    border-style: solid;
     border-color: var(--body-tr-hover-border-color);
+    border-style: solid;
     border-width: var(--hover-row-border-width);
   }
 
@@ -56,8 +56,8 @@
 
   & td:only-child,
   & td:only-child {
-    border-style: solid;
     border-color: var(--body-tr-hover-border-color);
+    border-style: solid;
     border-width: var(--body-tr-expanded-hover-border-width);
   }
 }

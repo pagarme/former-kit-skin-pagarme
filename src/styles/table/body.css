@@ -6,33 +6,37 @@
 
 .tableBody .empty {
   display: block;
+  padding-bottom: var(--table-body-empty-padding-bottom);
   position: relative;
   width: 100%;
-  padding-bottom: var(--table-body-empty-padding-bottom);
 }
 
 .tableBody .empty:before {
-  content: "";
-  position: absolute;
   background: var(--body-td-empty-background-color);
-  height: var(--body-td-empty-height);
-  width: var(--body-td-empty-width);
   bottom: 0;
+  content: "";
+  height: var(--body-td-empty-height);
   left: 0;
+  margin: auto;
+  position: absolute;
   right: 0;
   top: 0;
-  margin: auto;
+  width: var(--body-td-empty-width);
 }
 
 .tableBody tr {
-  width: 100%;
   height: var(--body-tr-height);
   outline: 0;
+  width: 100%;
 }
 
 .endAlign {
   justify-content: flex-end;
   text-align: end;
+
+  & .empty:before {
+    left: auto;
+  }
 }
 
 .startAlign {
