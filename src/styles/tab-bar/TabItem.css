@@ -2,35 +2,89 @@
 @import "./properties.css";
 
 .tab {
+  color: var(--tabbar-tab-color);
+  cursor: pointer;
   display: inline-block;
-  user-select: none;
-  border: none;
-  font-family: var(--tabbar-font-family);
+  font-family: var(--tabbar-tab-font-family);
+  font-size: var(--tabbar-tab-font-size);
   font-weight: var(--tabbar-tab-font-weight);
   letter-spacing: var(--letter-spacing);
-  text-transform: uppercase;
-  cursor: pointer;
-  text-align: center;
-  width: var(--tabbar-tab-width);
-  color: var(--tabbar-text);
-  background: var(--tabbar-background);
+  margin-right: var(--tabbar-tab-margin);
   padding: var(--tabbar-tab-padding);
-  font-size: var(--tabbar-tab-font-size);
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  user-select: none;
+  width: var(--tabbar-tab-width);
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  /* hover, focus and active */
+
+  &.focused,
+  &:hover {
+    color: var(--tabbar-hover-color);
+  }
+
+  &:active {
+    color: var(--tabbar-active-color);
+  }
+
+  &.focused:after,
+  &:hover:after,
+  &:active:after {
+    background-image: none;
+    bottom: -1px;
+    content: "";
+    height: var(--tabbar-enter-border-height);
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: var(--tabbar-enter-border-width);
+  }
+
+  &.focused:after,
+  &:hover:after {
+    background-color: var(--tabbar-hover-border-color);
+  }
+
+  &:active:after {
+    background-color: var(--color-light-steel-200);
+  }
 }
+
+/* input */
 
 .tab > input {
-  visibility: hidden;
+  left: 0;
+  opacity: 0;
   position: absolute;
+  top: 0;
 }
 
+/* icon */
+
 .icon {
-  margin-bottom: var(--tabbar-icon-margin);
   font-size: var(--tabbar-icon-size);
 }
 
+/* selected */
+
 .selected {
-  color: var(--tabbar-highlight);
-  background: var(--tabbar-highlight-background);
-  border-top: solid var(--tabbar-highlight-size) var(--tabbar-highlight);
-  padding-top: var(--tabbar-highlight-padding);
+  color: var(--tabbar-selected-color);
+
+  &:after {
+    content: "";
+    background-image: var(--color-light-greenish-gradient);
+    bottom: -1px;
+    height: var(--tabbar-enter-border-height);
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: var(--tabbar-enter-border-width);
+  }
 }

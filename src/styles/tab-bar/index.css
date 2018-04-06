@@ -2,11 +2,8 @@
 @import "./TabItem.css";
 
 .tabBar {
-  border: solid 1px var(--tabbar-background);
-  border-top: none;
   display: inline-block;
-  padding: var(--tabbar-padding);
-  padding-top: 0;
+  width: var(--tabbar-width);
 }
 
 .tabBar * {
@@ -14,6 +11,10 @@
 }
 
 .tabs {
-  margin: var(--tabbar-tablist-padding-fix);
+  border-color: var(--tabbar-border-color);
+  border-style: var(--tabbar-border-style);
+  border-width: var(--tabbar-border-width);
+  display: flex;
+  justify-content: center;
+  width: var(--tabbar-width);
 }
-

@@ -2,24 +2,30 @@
 @import "../typography.css";
 
 :root {
-  --tabbar-background: var(--color-light-silver-20);
-  --tabbar-text: var(--color-light-steel-100);
-  --tabbar-highlight: var(--color-light-greenish-100);
-  --tabbar-highlight-background: var(--color-white);
+  --tabbar-border-color: var(--color-light-iron-50);
+  --tabbar-border-style: solid;
+  --tabbar-border-width: 0 0 1px;
+  --tabbar-width: 100%;
 
-  --tabbar-font-family: var(--title-font-family);
-  --tabbar-tab-font-size: 16px;
-  --tabbar-tab-font-weight: 600;
+  --tabbar-tab-color: var(--color-light-steel-100);
+  --tabbar-tab-font-family: var(--title-font-family);
+  --tabbar-tab-font-size: 14px;
+  --tabbar-tab-font-weight: bold;
+  --tabbar-tab-margin: var(--spacing-small);
+  --tabbar-tab-padding: 10px;
+  --tabbar-tab-width: auto;
 
-  --tabbar-tab-width: 200px;
+  --tabbar-icon-size: 14px;
 
-  --tabbar-tab-padding: 12px;
-  --tabbar-highlight-size: 2px;
-  --tabbar-highlight-padding: calc(var(--tabbar-tab-padding) - var(--tabbar-highlight-size));
+  --tabbar-enter-border-height: 2px;
+  --tabbar-enter-border-width: 100%;
 
-  --tabbar-padding: 20px;
-  --tabbar-tablist-padding-fix: 0 calc(var(--tabbar-padding) * -1);
+  --tabbar-hover-color: var(--color-light-steel-200);
+  --tabbar-hover-border-color: var(--color-light-steel-100);
 
-  --tabbar-icon-margin: 5px;
-  --tabbar-icon-size: 20px;
+  --tabbar-active-color: var(--color-black);
+  --tabbar-active-border-color: var(--color-light-steel-200);
+
+  --tabbar-selected-color: var(--color-light-greenish-100);
+  --tabbar-selected-border-color: var(--color-light-greenish-gradient);
 }
