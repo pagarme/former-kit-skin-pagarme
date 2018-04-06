@@ -2,22 +2,51 @@
 @import "../typography.css";
 
 :root {
-  --radio-group-text-font-family: var(--title-font-family);
-  --radio-group-text-font-size: 14px;
-  --radio-group-text-color: var(--color-light-coal-50);
+  --radio-group-flex-direction: row;
+  --radio-group-margin:
+    0
+    var(--spacing-tiny)
+    var(--spacing-tiny)
+    0;
+  --radio-group-user-select: none;
+
+  --radio-group-input-background-color: var(--color-white);
+  --radio-group-input-border-color: var(--color-light-platinum-100);
+  --radio-group-input-border-radius: 50%;
+  --radio-group-input-border-style: solid;
+  --radio-group-input-border-width: 1px;
+  --radio-group-input-margin-right: var(--spacing-tiny);
+  --radio-group-input-size: 20px;
+
+  --radio-group-bullet-background-color: var(--color-light-greenish-100);
+  --radio-group-bullet-size: 10px;
+  --radio-group-bullet-spacing: 4px;
+
+  --radio-group-transition-speed: 150ms ease-in;
+
+  --radio-group-title-color: var(--color-light-steel-100);
+  --radio-group-title-font-size: 14px;
 
   --radio-group-secondary-text-font-size: 12px;
   --radio-group-secondary-text-margin: 0 0 0 10px;
 
-  --radio-group-color: var(--color-light-steel-100);
-  --radio-group-color-disabled: var(--color-light-silver-100);
-  --radio-group-color-success: var(--color-light-greenish-100);
+  --radio-group-title-checked: var(--color-light-greenish-100);
+
+  --radio-group-input-box-shadow-hover-focus: 2px 2px var(--color-light-green-50);
+
+  --radio-group-input-border-color-hover: var(--color-light-green-50);
+
+  --radio-group-input-border-color-focus: var(--color-light-greenish-100);
+
+  --radio-group-input-border-color-active: var(--color-light-greenish-100);
+  --radio-group-input-box-shadow-active: 2px 2px var(--color-light-greenish-100);
+
   --radio-group-color-error: var(--color-light-red-100);
+  --radio-group-color-error-50: var(--color-light-red-50);
+  --radio-group-box-shadow-error: 2px 2px var(--radio-group-color-error);
 
-  --radio-group-transition-speed: 150ms ease-in;
-
-  --radio-group-bullet-size: 20px;
-  --radio-group-bullet-border: 2px solid;
-
-  --radio-group-user-select: none;
+  --radio-group-background-color-disabled: var(--color-light-platinum-20);
+  --radio-group-border-color-disabled: var(--color-light-iron-50);
+  --radio-group-bullet-color-disabled: var(--color-light-iron-100);
+  --radio-group-title-color-disabled: var(--color-light-iron-100);
 }
