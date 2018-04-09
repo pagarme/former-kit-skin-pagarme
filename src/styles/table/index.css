@@ -19,21 +19,13 @@
   cursor: pointer;
 }
 
-.check {
+.table .check {
   text-align: center;
   width: var(--table-check-width);
 
   & * {
     margin: 0 auto;
   }
-}
-
-.check label {
-  justify-content: center;
-}
-
-.check i:before {
-  margin: 0 auto;
 }
 
 .table > .tableBody .open button {
