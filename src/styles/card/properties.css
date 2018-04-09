@@ -4,52 +4,49 @@
 @import "../colors.css";
 
 :root {
-  --card-spacing-large: var(--spacing-medium);
-  --card-spacing-medium: var(--spacing-medium);
-  --card-spacing-small: var(--spacing-small);
-  --card-spacing-tiny: var(--spacing-tiny);
-  --card-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.07);
+  --card-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.07);
+  --card-background-color: var(--color-white);
   --card-border-radius: 3px;
 
+  --card-child-first-child-padding: var(--spacing-small);
+  --card-child-padding:
+    0
+    var(--spacing-small)
+    var(--spacing-small);
+  --card-graphic-padding: 0 0 var(--spacing-small);
+
   --card-title-color: var(--color-light-steel-100);
+  --card-title-font-family: var(--title-font-family);
   --card-title-font-size: 14px;
+  --card-title-font-weight: var(--title-font-weight);
   --card-title-icon-margin: 9px;
-  --card-title-padding: var(--card-spacing-medium);
   --card-title-text-transform: uppercase;
 
   --card-subtitle-font-size: 16px;
   --card-subtitle-color: var(--color-light-steel-100);
 
-  --card-actions-spacing: var(--card-spacing-tiny);
-  --card-actions-padding:
-    0
-    var(--card-spacing-medium)
-    var(--card-spacing-medium)
-    var(--card-spacing-medium);
+  --card-actions-spacing: var(--spacing-tiny);
 
-  --card-content-padding:
-    0
-    var(--card-spacing-medium)
-    var(--card-spacing-medium)
-    var(--card-spacing-medium);
-
-  --card-background: var(--color-white);
+  --card-section-background-color: var(--color-light-smoke-40);
 
   --card-section-title-color: var(--color-light-steel-100);
   --card-section-title-padding-bottom: 4px;
   --card-section-title-padding-top: 4px;
+
   --card-section-title-icon-color: var(--color-light-greenish-100);
-  --card-section-icon-box-background-color: var(--color-light-silver-50);
-  --card-section-icon-box-size: 48px;
-
-  --card-section-title-icon-size: 18px;
   --card-section-title-icon-margin: 8px;
-  --card-section-background: var(--color-light-smoke-40);
-
-  --card-section-header-background: var(--color-light-smoke-40);
+  --card-section-title-icon-size: 18px;
 
   --card-section-subtitle-color: var(--color-light-steel-50);
   --card-section-subtitle-font-size: 12px;
 
-  --card-section-line-divider-border-color: var(--color-light-grey-20);
+  --card-section-icon-box-background-color: var(--color-light-silver-50);
+  --card-section-icon-box-size: 48px;
+
+  --card-section-double-line-title-spacing: var(--spacing-tiny);
+
+  --card-section-divider-border-color: var(--color-light-grey-20);
+  --card-section-divider-border-style: solid;
+  --card-section-divider-border-width: 1px 0 0 0;
+  --card-section-divider-margin: var(--spacing-small) 0 0 0;
 }

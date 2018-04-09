@@ -1,28 +1,26 @@
 @import "./properties.css";
 
 .section {
-  background-color: var(--card-section-background);
+  background-color: var(--card-section-background-color);
   border-radius: var(--card-border-radius);
-  width: 100%;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .sectionTitle {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 0;
-  padding: var(--card-spacing-medium);
-  font-size: var(--card-title-font-size);
-  font-family: var(--title-font-family);
-  font-weight: var(--title-font-weight);
-  font-style: var(--title-font-style);
-  letter-spacing: var(--letter-spacing);
   color: var(--card-section-title-color);
+  display: flex;
+  font-family: var(--card-title-font-family);
+  font-size: var(--card-title-font-size);
+  font-weight: var(--card-title-font-weight);
+  justify-content: space-between;
+  margin: 0;
   text-transform: var(--card-title-text-transform);
 }
 
-.sectionTitle[role="button"] {
+.sectionTitle[role="button"],
+.sectionDoubleLineTitle[role="button"] {
   cursor: pointer;
 
   &:focus {
@@ -36,10 +34,10 @@
 }
 
 .arrow {
-  padding: 0;
-  margin-left: var(--card-section-title-icon-margin);
   color: var(--card-section-title-icon-color);
   font-size: var(--card-section-title-icon-size);
+  margin-left: var(--card-section-title-icon-margin);
+  padding: 0;
 
   @nest .expanded & {
     transform: rotate(180deg);
@@ -47,54 +45,50 @@
 }
 
 .sectionSubtitle {
-  letter-spacing: var(--letter-spacing);
+  color: var(--card-section-subtitle-color);
   font-family: var(--title-font-family);
   font-size: var(--card-section-subtitle-font-size);
-  color: var(--card-section-subtitle-color);
+}
+
+.sectionDoubleLineTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.doubleLineHead {
+  align-items: center;
+  display: flex;
+  flex: 1;
+
+  & > div {
+    display: flex;
+    flex: 1;
+  }
 }
 
 .sectionTitles {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: var(--card-section-double-line-title-spacing);
   outline: none;
-  padding-bottom: var(--card-section-title-padding-bottom);
-  padding-left: var(--card-spacing-small);
-  padding-top: var(--card-section-title-padding-top);
   text-transform: none;
 }
 
-.doubleLineTitle {
-  align-items: center;
-  display: flex;
-  padding:
-    var(--card-spacing-medium)
-    var(--card-spacing-medium)
-    var(--card-spacing-small)
-    var(--card-spacing-tiny);
-
-  & > div {
-    cursor: pointer;
-    display: flex;
-    flex: 1;
-  }
-}
-
 .sectionIconBox {
-  background-color: var(--card-section-icon-box-background-color);
-  width: var(--card-section-icon-box-size);
-  height: var(--card-section-icon-box-size);
-  display: flex;
   align-items: center;
-  justify-content: center;
+  background-color: var(--card-section-icon-box-background-color);
   border-radius: var(--card-border-radius);
+  display: flex;
+  height: var(--card-section-icon-box-size);
+  justify-content: center;
+  width: var(--card-section-icon-box-size);
 }
 
 .divider {
   display: block;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid var(--card-section-line-divider-border-color);
-  margin: 0 var(--card-spacing-medium) var(--card-spacing-small) var(--card-spacing-tiny);
+  border-color: var(--card-section-divider-border-color);
+  border-style: var(--card-section-divider-border-style);
+  border-width: var(--card-section-divider-border-width);
+  margin: var(--card-section-divider-margin);
 }
