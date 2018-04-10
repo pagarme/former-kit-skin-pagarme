@@ -2,54 +2,13 @@
 @import "../typography.css";
 
 :root {
-  --checkbox-flex-direction: row;
-  --checkbox-margin:
-    0
-    var(--spacing-tiny)
-    var(--spacing-tiny)
-    0;
-  --checkbox-user-select: none;
-
-  --checkbox-input-background-color: var(--color-white);
-  --checkbox-input-border-color: var(--color-light-platinum-100);
   --checkbox-input-border-radius: 3px;
-  --checkbox-input-border-style: solid;
-  --checkbox-input-border-width: 1px;
-  --checkbox-input-margin-right: var(--spacing-tiny);
-  --checkbox-input-size: 20px;
-
-  --checkbox-transition-speed: 150ms ease-in;
-
-  --checkbox-title-color: var(--color-light-steel-100);
-  --checkbox-title-font-size: 14px;
-
-  --checkbox-secondary-text-font-size: 12px;
-  --checkbox-secondary-text-margin: 0 0 0 10px;
-
-  --checkbox-title-checked: var(--color-light-greenish-100);
-
-  --checkbox-input-box-shadow-hover-focus: 2px 2px var(--color-light-green-50);
-
-  --checkbox-input-border-color-hover: var(--color-light-green-50);
-
-  --checkbox-input-border-color-focus: var(--color-light-greenish-100);
-
-  --checkbox-input-border-color-active: var(--color-light-greenish-100);
-  --checkbox-input-box-shadow-active: 2px 2px var(--color-light-greenish-100);
 
   --checkbox-check-border-color: var(--color-light-greenish-100);
   --checkbox-check-border-style: solid;
   --checkbox-check-border-width: 0 0 2px 2px;
-  --checkbox-check-height: 6px;
+  --checkbox-check-height: 5px;
   --checkbox-check-rotation: -45deg;
-  --checkbox-check-width: 12px;
-
-  --checkbox-color-error: var(--color-light-red-100);
-  --checkbox-color-error-50: var(--color-light-red-50);
-  --checkbox-box-shadow-error: 2px 2px var(--checkbox-color-error);
-
-  --checkbox-background-color-disabled: var(--color-light-platinum-20);
-  --checkbox-border-color-disabled: var(--color-light-iron-50);
-  --checkbox-check-color-disabled: var(--color-light-iron-100);
-  --checkbox-title-color-disabled: var(--color-light-iron-100);
+  --checkbox-check-spacing: 3px;
+  --checkbox-check-width: 11px;
 }
