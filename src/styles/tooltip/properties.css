@@ -1,0 +1,46 @@
+@import "../colors.css";
+@import "../spacing.css";
+@import "../z-index.css";
+
+:root {
+  --tooltip-arrow-align-box: calc(100% - (var(--spacing-tiny) + var(--tooltip-radius)));
+  --tooltip-arrow-bottom-center-left: calc(50% - var(--spacing-tiny));
+  --tooltip-arrow-bottom-end-right: var(--spacing-large);
+  --tooltip-arrow-bottom-start-left: var(--spacing-large);
+  --tooltip-arrow-left-end-bottom: var(--spacing-small);
+  --tooltip-arrow-left-middle-top: calc(50% - var(--spacing-tiny));
+  --tooltip-arrow-left-start-top: var(--spacing-small);
+  --tooltip-arrow-right-end-bottom: var(--spacing-small);
+  --tooltip-arrow-right-middle-top: calc(50% - var(--spacing-tiny));
+  --tooltip-arrow-right-start-top: var(--spacing-small);
+  --tooltip-arrow-size: var(--spacing-small);
+  --tooltip-arrow-top-center-left: calc(50% - var(--spacing-tiny));
+  --tooltip-arrow-top-end-right: var(--spacing-large);
+  --tooltip-arrow-top-start-left: var(--spacing-large);
+  --tooltip-bottom-center-top: calc(100% + (var(--spacing-tiny) + 3px));
+  --tooltip-bottom-end-right: calc(var(--spacing-small) * -1);
+  --tooltip-bottom-end-top: calc(100% + (var(--spacing-tiny) + 3px));
+  --tooltip-bottom-start-left: calc(var(--spacing-small) * -1);
+  --tooltip-bottom-start-top: calc(100% + (var(--spacing-tiny) + 3px));
+  --tooltip-color-secondary: var(--color-light-greenish-100);
+  --tooltip-color: var(--color-black);
+  --tooltip-left-end-bottom: calc(var(--spacing-tiny) * -1);
+  --tooltip-left-end-right: calc(100% + var(--spacing-tiny) + 3px);
+  --tooltip-left-middle-right: calc(100% + var(--spacing-tiny) + 3px);
+  --tooltip-left-start-right: calc(100% + (var(--spacing-tiny) + 3px));
+  --tooltip-left-start-top: calc(var(--spacing-tiny) * -1);
+  --tooltip-min-width: 200px;
+  --tooltip-padding: var(--spacing-small);
+  --tooltip-radius: 3px;
+  --tooltip-right-end-bottom: calc(var(--spacing-tiny) * -1);
+  --tooltip-right-end-left: calc(100% + var(--spacing-tiny) + 3px);
+  --tooltip-right-middle-left: calc(100% + var(--spacing-tiny) + 3px);
+  --tooltip-right-start-left: calc(100% + (var(--spacing-tiny) + 3px));
+  --tooltip-right-start-top: calc(var(--spacing-tiny) * -1);
+  --tooltip-text-color: var(--color-white);
+  --tooltip-top-center-bottom: calc(100% + (var(--spacing-tiny) + 3px));
+  --tooltip-top-end-bottom: calc(100% + (var(--spacing-tiny) + 3px));
+  --tooltip-top-end-right: calc(var(--spacing-small) * -1);
+  --tooltip-top-start-bottom: calc(100% + (var(--spacing-tiny) + 3px));
+  --tooltip-top-start-left: calc(var(--spacing-small) * -1);
+}

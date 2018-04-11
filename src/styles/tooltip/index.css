@@ -1,0 +1,162 @@
+@import "./properties.css";
+
+.target {
+  display: inline-flex;
+  position: relative;
+}
+
+.tooltip {
+  color: var(--tooltip-text-color);
+  min-width: var(--tooltip-min-width);
+  padding: var(--tooltip-padding);
+  position: absolute;
+  z-index: var(--tooltip-z-index);
+}
+
+.tooltip,
+.tooltip:before {
+  background-color: var(--tooltip-color);
+  border-radius: var(--tooltip-radius);
+}
+
+.tooltip:before {
+  content: "";
+  display: block;
+  height: var(--tooltip-arrow-size);
+  position: absolute;
+  transform: rotate(45deg);
+  width: var(--tooltip-arrow-size);
+  z-index: var(--tooltip-arrow-z-index);
+}
+
+.secondary {
+  background-color: var(--tooltip-color-secondary);
+
+  &:before {
+    background-color: var(--tooltip-color-secondary);
+  }
+}
+
+.rightStart {
+  top: var(--tooltip-right-start-top);
+  left: var(--tooltip-right-start-left);
+}
+
+.rightStart:before {
+  right: var(--tooltip-arrow-align-box);
+  top: var(--tooltip-arrow-right-start-top);
+}
+
+.rightMiddle {
+  top: 50%;
+  transform: translateY(-50%);
+  left: var(--tooltip-right-middle-left);
+}
+
+.rightMiddle:before {
+  right: var(--tooltip-arrow-align-box);
+  top: var(--tooltip-arrow-right-middle-top);
+}
+
+.rightEnd {
+  bottom: var(--tooltip-right-end-bottom);
+  left: var(--tooltip-right-end-left);
+}
+
+.rightEnd:before {
+  bottom: var(--tooltip-arrow-right-end-bottom);
+  right: var(--tooltip-arrow-align-box);
+}
+
+.leftStart {
+  right: var(--tooltip-left-start-right);
+  top: var(--tooltip-left-start-top);
+}
+
+.leftStart:before {
+  left: var(--tooltip-arrow-align-box);
+  top: var(--tooltip-arrow-left-start-top);
+}
+
+.leftMiddle {
+  top: 50%;
+  transform: translateY(-50%);
+  right: var(--tooltip-left-middle-right);
+}
+
+.leftMiddle:before {
+  top: var(--tooltip-arrow-right-middle-top);
+  left: var(--tooltip-arrow-align-box);
+}
+
+.leftEnd {
+  bottom: var(--tooltip-left-end-bottom);
+  right: var(--tooltip-left-end-right);
+}
+
+.leftEnd:before {
+  bottom: var(--tooltip-arrow-left-end-bottom);
+  left: var(--tooltip-arrow-align-box);
+}
+
+.bottomStart {
+  left: var(--tooltip-bottom-start-left);
+  top: var(--tooltip-bottom-start-top);
+}
+
+.bottomStart:before {
+  bottom: var(--tooltip-arrow-align-box);
+  left: var(--tooltip-arrow-bottom-start-left);
+}
+
+.bottomCenter {
+  left: 50%;
+  transform: translateX(-50%);
+  top: var(--tooltip-bottom-center-top);
+}
+
+.bottomCenter:before {
+  bottom: var(--tooltip-arrow-align-box);
+  left: var(--tooltip-arrow-bottom-center-left);
+}
+
+.bottomEnd {
+  right: var(--tooltip-bottom-end-right);
+  top: var(--tooltip-bottom-end-top);
+}
+
+.bottomEnd:before {
+  bottom: var(--tooltip-arrow-align-box);
+  right: var(--tooltip-arrow-bottom-end-right);
+}
+
+.topStart {
+  left: var(--tooltip-top-start-left);
+  bottom: var(--tooltip-top-start-bottom);
+}
+
+.topStart:before {
+  top: var(--tooltip-arrow-align-box);
+  left: var(--tooltip-arrow-top-start-left);
+}
+
+.topCenter {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: var(--tooltip-top-center-bottom);
+}
+
+.topCenter:before {
+  top: var(--tooltip-arrow-align-box);
+  left: var(--tooltip-arrow-top-center-left);
+}
+
+.topEnd {
+  right: var(--tooltip-top-end-right);
+  bottom: var(--tooltip-top-end-bottom);
+}
+
+.topEnd:before {
+  top: var(--tooltip-arrow-align-box);
+  right: var(--tooltip-arrow-top-end-right);
+}
