@@ -25,6 +25,7 @@ const UISidebar = require('./sidebar/index.css')
 const UISwitch = require('./switch/index.css')
 const UITabBar = require('./tab-bar/index.css')
 const UITag = require('./tag/index.css')
+const UITooltip = require('./tooltip/index.css')
 const UILinearProgress = require('./linear-progress/index.css')
 const UITable = require('./table/index.css')
 
@@ -56,6 +57,7 @@ module.exports = {
   UISwitch,
   UITabBar,
   UITag,
+  UITooltip,
   UILinearProgress,
   UITable,
 }
