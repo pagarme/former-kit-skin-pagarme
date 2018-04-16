@@ -1,8 +1,10 @@
 @import "../colors.css";
+@import "../spacing.css";
 
 :root {
+  --checkbox-group-margin: 0 -16px -16px 0;
+
   --checkbox-group-secondary-text-font-size: 12px;
-  --checkbox-group-secondary-text-margin-left: 10px;
   --checkbox-group-secondary-text-color-error: var(--color-light-error);
-  --checkbox-group-secondary-text-color-success: var(--color-light-success);
+  --checkbox-group-secondary-text-padding-bottom: var(--spacing-tiny);
 }

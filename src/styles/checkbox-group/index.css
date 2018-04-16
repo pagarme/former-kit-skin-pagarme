@@ -1,4 +1,9 @@
 @import "./properties.css";
+@import "../checkbox-radio/index.css";
+
+.checkboxGroup {
+  margin: var(--checkbox-group-margin);
+}
 
 .checkboxGroup > div {
   display: flex;
@@ -12,13 +17,13 @@
 .secondaryText {
   font-size: var(--checkbox-group-secondary-text-font-size);
   margin: 0;
-  margin-left: var(--checkbox-group-secondary-text-margin-left);
+  padding-bottom: var(--checkbox-group-secondary-text-padding-bottom);
 }
 
 .error {
   color: var(--checkbox-group-secondary-text-color-error);
 }
 
-.success {
-  color: var(--checkbox-group-secondary-text-color-success);
+.checkboxGroup > div > div > * {
+  margin: var(--checkbox-radio-margin);
 }
