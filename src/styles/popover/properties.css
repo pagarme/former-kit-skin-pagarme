@@ -1,0 +1,89 @@
+@import "../colors.css";
+@import "../spacing.css";
+@import "../z-index.css";
+
+:root {
+  --popover-arrow-bottom-center-left: calc(50% - var(--spacing-tiny));
+  --popover-arrow-bottom-radius: var(--popover-border-radius) 0 0 0;
+  --popover-arrow-bottom-start-left: var(--spacing-small);
+  --popover-arrow-bottom-start-top: calc(var(--spacing-tiny) * -1);
+  --popover-arrow-left-background:
+    linear-gradient(
+      225deg,
+      var(--popover-color) 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
+  --popover-arrow-left-end-bottom: var(--spacing-small);
+  --popover-arrow-left-middle-top: calc(50% - var(--spacing-tiny));
+  --popover-arrow-left-radius: 0 var(--popover-border-radius) 0 0;
+  --popover-arrow-left-right: calc(var(--spacing-tiny) * -1);
+  --popover-arrow-left-start-top: var(--spacing-small);
+  --popover-arrow-right-background:
+    linear-gradient(
+      45deg,
+      var(--popover-color) 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
+  --popover-arrow-right-end-bottom: var(--spacing-small);
+  --popover-arrow-right-left: calc(var(--spacing-tiny) * -1);
+  --popover-arrow-right-middle-top: calc(50% - var(--spacing-tiny));
+  --popover-arrow-right-radius: 0 0 0 var(--popover-border-radius);
+  --popover-arrow-right-start-top: var(--spacing-small);
+  --popover-arrow-size: var(--spacing-small);
+  --popover-arrow-top-background:
+    linear-gradient(
+      315deg,
+      var(--popover-color) 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
+  --popover-arrow-top-bottom: calc(var(--spacing-tiny) * -1);
+  --popover-arrow-top-center-left: calc(50% - var(--spacing-tiny));
+  --popover-arrow-top-end-right: var(--spacing-small);
+  --popover-arrow-top-radius: 0 0 var(--popover-border-radius) 0;
+  --popover-arrow-top-start-left: var(--spacing-small);
+  --popover-border-dark: var(--color-light-carbon-100);
+  --popover-border-first: 1px dashed var(--color-light-steel-200);
+  --popover-border-radius: 3px;
+  --popover-border: 1px solid var(--color-light-grey-50);
+  --popover-bottom-center-left: 50%;
+  --popover-bottom-center-transform: translateX(-50%);
+  --popover-bottom-end-right: calc(var(--spacing-small) * -1);
+  --popover-bottom-start-left: calc(var(--spacing-small) * -1);
+  --popover-bottom-start-top: calc(100% + var(--spacing-small));
+  --popover-color-dark: var(--color-light-carbon-100);
+  --popover-color: var(--color-white);
+  --popover-left-end-bottom: calc(var(--spacing-tiny) * -1);
+  --popover-left-middle-top: 50%;
+  --popover-left-middle-transform: translateY(-50%);
+  --popover-left-right: calc(100% + var(--spacing-small));
+  --popover-left-start-top: calc(var(--spacing-tiny) * -1);
+  --popover-link-active-background: var(--color-light-smoke-100);
+  --popover-link-active-border-color: var(--color-light-grey-50);
+  --popover-link-border-radius-bottom:
+    0
+    0
+    var(--popover-border-radius)
+    var(--popover-border-radius);
+  --popover-link-border-radius-top:
+    var(--popover-border-radius)
+    var(--popover-border-radius)
+    0
+    0;
+  --popover-link-focus-border-color: var(--color-light-steel-100);
+  --popover-link-hover-background: var(--color-light-smoke-40);
+  --popover-link-hover-border-color: var(--color-light-steel-100);
+  --popover-link-padding: var(--spacing-small);
+  --popover-link-text-color-dark: var(--color-white);
+  --popover-link-text-color-hover-dark: var(--color-light-greenish-100);
+  --popover-link-text-color: var(--color-light-chromium-100);
+  --popover-right-end-bottom: calc(var(--spacing-tiny) * -1);
+  --popover-right-left: calc(100% + var(--spacing-small));
+  --popover-right-middle-top: 50%;
+  --popover-right-middle-transform: translateY(-50%);
+  --popover-right-start-top: calc(var(--spacing-tiny) * -1);
+  --popover-top-bottom: calc(100% + var(--spacing-small));
+  --popover-top-center-left: 50%;
+  --popover-top-center-transform: translateX(-50%);
+  --popover-top-end-right: calc(var(--spacing-tiny) * -1);
+  --popover-top-start-left: calc(var(--spacing-tiny) * -1);
+}
