@@ -1,0 +1,66 @@
+@import "./properties.css";
+
+.steps {
+  background-color: var(--steps-background-color);
+  border-radius: var(--steps-border-radius);
+  border: var(--steps-border);
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.step {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  font-size: var(--steps-item-font-size);
+  font-weight: var(--steps-item-font-weight);
+  justify-content: center;
+  padding: var(--steps-item-padding);
+  position: relative;
+  text-align: var(--steps-item-text-align);
+  text-transform: var(--steps-item-text-transform);
+}
+
+.step:not(:first-of-type):before,
+.step:not(:last-of-type):after {
+  border: 1px solid transparent;
+  content: "";
+  display: block;
+  height: var(--steps-item-arrow-height);
+  position: absolute;
+  top: var(--steps-item-arrow-top);
+  transform: var(--steps-item-arrow-transform);
+  width: var(--steps-item-arrow-width);
+}
+
+.step:not(:last-of-type):after {
+  border-right-color: var(--steps-item-arrow-left-border);
+  border-top-color: var(--steps-item-arrow-left-border);
+  left: var(--steps-item-arrow-left);
+}
+
+.step:not(:first-of-type):before {
+  border-right-color: var(--steps-item-arrow-right-border);
+  border-top-color: var(--steps-item-arrow-right-border);
+  right: var(--steps-item-arrow-right);
+}
+
+.indicator {
+  align-items: center;
+  background-color: var(--steps-item-indicator-background-color);
+  border-radius: var(--steps-item-indicator-radius);
+  display: flex;
+  font-size: var(--steps-item-indicator-font-size);
+  font-weight: var(--steps-item-indicator-font-weight);
+  height: var(--steps-item-indicator-size);
+  justify-content: center;
+  line-height: var(--steps-item-indicator-line-height);
+  margin-right: var(--steps-item-indicator-margin-right);
+  width: var(--steps-item-indicator-size);
+}
+
+.current,
+.success svg {
+  color: var(--steps-item-indicator-color);
+}
