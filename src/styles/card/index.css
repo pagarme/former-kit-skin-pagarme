@@ -30,7 +30,7 @@
   justify-content: center;
 }
 
-.title svg {
+.title > h2 > svg {
   margin-right: var(--card-title-icon-margin);
 }
 
