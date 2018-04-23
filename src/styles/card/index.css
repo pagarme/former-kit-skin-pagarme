@@ -1,19 +1,41 @@
 @import "./properties.css";
 @import "./CardSection.css";
 
+.card * {
+  box-sizing: border-box;
+}
+
 .card {
-  background: var(--color-white);
+  background: var(--card-background-color);
   border-radius: var(--card-border-radius);
-  box-shadow: var(--card-shadow);
+  box-shadow: var(--card-box-shadow);
   height: auto;
   margin: 0;
   overflow: hidden;
   padding: 0;
   width: 100%;
+
+  & .title,
+  & .content,
+  & .actions {
+    padding: var(--card-child-padding);
+
+    &:first-child {
+      padding: var(--card-child-first-child-padding);
+    }
+  }
 }
 
-.card * {
-  box-sizing: border-box;
+.section {
+
+  & .sectionTitle,
+  & .sectionDoubleLineTitle {
+    padding: var(--card-child-padding);
+
+    &:first-child {
+      padding: var(--card-child-first-child-padding);
+    }
+  }
 }
 
 .title {
@@ -21,7 +43,6 @@
   display: flex;
   justify-content: space-between;
   outline: none;
-  padding: var(--card-title-padding);
 }
 
 .title > * {
@@ -58,20 +79,12 @@
   font-size: var(--card-subtitle-font-size);
 }
 
-.content {
-  padding: var(--card-content-padding);
+.graphic {
+  padding: var(--card-graphic-padding);
 
-  &:first-child {
-    padding-top: var(--card-spacing-small);
+  &:last-child {
+    padding: 0;
   }
-}
-
-.section .content:first-child {
-  padding-bottom: 0;
-}
-
-.section .content:last-child {
-  padding-top: 0;
 }
 
 .graphic,
@@ -82,13 +95,12 @@
 .actions {
   display: flex;
   justify-content: flex-end;
-  padding: var(--card-actions-padding);
 }
 
 .actions > * {
-  margin-left: var(--card-spacing-small);
-}
+  margin-left: var(--card-actions-spacing);
 
-.actions > *:first-child {
-  margin-left: unset;
+  &:first-child {
+    margin-left: unset;
+  }
 }
