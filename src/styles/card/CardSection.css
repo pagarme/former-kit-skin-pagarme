@@ -68,6 +68,7 @@
 
 .sectionTitles {
   display: flex;
+  color: var(--card-section-title-color);
   flex-direction: column;
   justify-content: center;
   margin-left: var(--card-section-double-line-title-spacing);
