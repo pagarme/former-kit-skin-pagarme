@@ -2,16 +2,20 @@
 @import "../z-index.css";
 
 .modal {
-  background-color: var(--modal-background-color);
+  background: var(--modal-frame-background-color);
   border-radius: var(--modal-border-radius);
+  border: var(--modal-frame-border);
   box-shadow: var(--modal-box-shadow);
   height: auto;
   outline: none;
   overflow: auto;
-  padding: var(--modal-padding);
   position: relative;
   transform: translateY(var(--modal-position-top));
   width: var(--modal-inner-width);
+
+  &:first-child {
+    padding-top: var(--modal-first-child-padding-top);
+  }
 }
 
 .overlay {
@@ -27,10 +31,16 @@
   z-index: var(--modal-overlay-z-index);
 }
 
-.frame {
-  background: var(--modal-frame-background-color);
-  border-radius: var(--modal-border-radius);
-  border: var(--modal-frame-border);
+.centerAlign {
+  text-align: center;
+}
+
+.endAlign {
+  text-align: end;
+}
+
+.startAlign {
+  text-align: start;
 }
 
 .title {
@@ -42,15 +52,17 @@
 }
 
 .title > h2 {
+  color: var(--modal-title-color);
+  flex: 1;
   font-size: var(--modal-title-font-size);
   margin: var(--modal-title-margin);
   text-transform: var(--modal-title-text-transform);
 }
 
 .icon {
-  margin-right: var(--modal-title-icon-spacing);
-  display: flex;
   align-items: center;
+  display: flex;
+  margin-right: var(--modal-title-icon-spacing);
 }
 
 .actions > * {
@@ -60,12 +72,10 @@
 .title,
 .content,
 .actions {
-  padding-left: var(--modal-padding);
-  padding-right: var(--modal-padding);
+  padding: var(--modal-child-padding);
 }
 
 .actions {
   display: flex;
   justify-content: flex-end;
-  padding-bottom: var(--modal-padding);
 }
