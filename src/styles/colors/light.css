@@ -58,6 +58,9 @@
   --color-light-info: var(--color-light-purple-100);
   --color-light-success: var(--color-light-blue-100);
 
+  --color-greenish-gradient-end: #45babf;
+  --color-salmon-gradient-begin: #fc8a5d;
+
   --color-light-grey-gradient:
     linear-gradient(
       var(--gradient-angle),
@@ -68,12 +71,12 @@
     linear-gradient(
       var(--gradient-angle),
       var(--color-light-greenish-100) 10%,
-      #45babf 90%
+      var(--color-greenish-gradient-end) 90%
     );
   --color-light-salmon-gradient:
     linear-gradient(
       var(--gradient-angle),
-      #fc8a5d 10%,
+      var(--color-salmon-gradient-begin) 10%,
       var(--color-light-salmon-100) 90%
     );
 }
