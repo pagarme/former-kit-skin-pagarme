@@ -7,9 +7,9 @@
   --steps-border: 1px solid var(--color-light-grey-20);
   --steps-item-arrow-height: 100%;
   --steps-item-arrow-left-border: var(--color-white);
-  --steps-item-arrow-left: calc(100% - var(--spacing-small));
+  --steps-item-arrow-right: 0;
   --steps-item-arrow-right-border: var(--color-light-platinum-50);
-  --steps-item-arrow-right: calc(100% - 22px);
+  --steps-item-arrow-left: -36px;
   --steps-item-arrow-top: 0;
   --steps-item-arrow-transform: rotate(45deg);
   --steps-item-arrow-width: 35px;
