@@ -104,3 +104,11 @@
     margin-left: unset;
   }
 }
+
+.card hr {
+  display: block;
+  border-color: var(--card-divider-border-color);
+  border-style: var(--card-divider-border-style);
+  border-width: var(--card-divider-border-width);
+  margin: var(--card-divider-margin);
+}
