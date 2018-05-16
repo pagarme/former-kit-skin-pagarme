@@ -44,9 +44,10 @@
   --card-section-icon-box-size: 48px;
 
   --card-section-double-line-title-spacing: var(--spacing-tiny);
+  --card-section-double-line-divider-margin: var(--spacing-small) 0 0;
 
-  --card-section-divider-border-color: var(--color-light-grey-20);
-  --card-section-divider-border-style: solid;
-  --card-section-divider-border-width: 1px 0 0 0;
-  --card-section-divider-margin: var(--spacing-small) 0 0 0;
+  --card-divider-border-color: var(--color-light-grey-20);
+  --card-divider-border-style: solid;
+  --card-divider-border-width: 1px 0 0;
+  --card-divider-margin: 0 var(--spacing-small) var(--spacing-small);
 }

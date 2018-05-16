@@ -55,6 +55,10 @@
   flex-direction: column;
 }
 
+.card .sectionDoubleLineTitle hr {
+  margin: var(--card-section-double-line-divider-margin);
+}
+
 .doubleLineHead {
   align-items: center;
   display: flex;
@@ -84,12 +88,4 @@
   height: var(--card-section-icon-box-size);
   justify-content: center;
   width: var(--card-section-icon-box-size);
-}
-
-.divider {
-  display: block;
-  border-color: var(--card-section-divider-border-color);
-  border-style: var(--card-section-divider-border-style);
-  border-width: var(--card-section-divider-border-width);
-  margin: var(--card-section-divider-margin);
 }

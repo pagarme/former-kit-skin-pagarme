@@ -79,3 +79,11 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.modal hr {
+  display: block;
+  border-color: var(--modal-divider-border-color);
+  border-style: var(--modal-divider-border-style);
+  border-width: var(--modal-divider-border-width);
+  margin: var(--modal-divider-margin);
+}

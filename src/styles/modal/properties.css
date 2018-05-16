@@ -24,4 +24,9 @@
   --modal-title-icon-spacing: var(--spacing-tiny);
   --modal-title-margin: 0;
   --modal-title-text-transform: uppercase;
+
+  --modal-divider-border-color: var(--color-light-grey-20);
+  --modal-divider-border-style: solid;
+  --modal-divider-border-width: 1px 0 0;
+  --modal-divider-margin: 0 var(--spacing-small) var(--spacing-small);
 }
