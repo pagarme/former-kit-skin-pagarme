@@ -60,6 +60,10 @@
   width: var(--steps-item-indicator-size);
 }
 
+.error svg {
+  color: var(--steps-item-indicator-error-color);
+}
+
 .current,
 .success svg {
   color: var(--steps-item-indicator-color);

@@ -17,6 +17,7 @@
   --steps-item-font-weight: 900;
   --steps-item-indicator-background-color: var(--color-white);
   --steps-item-indicator-color: var(--color-light-greenish-100);
+  --steps-item-indicator-error-color: var(--color-light-red-100);
   --steps-item-indicator-font-size: 12px;
   --steps-item-indicator-font-weight: 900;
   --steps-item-indicator-line-height: 20px;
