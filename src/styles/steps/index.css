@@ -1,7 +1,6 @@
 @import "./properties.css";
 
 .steps {
-  background-color: var(--steps-background-color);
   border-radius: var(--steps-border-radius);
   border: var(--steps-border);
   display: flex;
