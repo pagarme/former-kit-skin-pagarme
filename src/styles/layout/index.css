@@ -26,3 +26,10 @@
     var(--layout-children-padding-y)
     var(--layout-children-padding-x);
 }
+
+.content fieldset {
+  border: 0;
+  display: inherit;
+  margin: 0;
+  padding: 0;
+}
