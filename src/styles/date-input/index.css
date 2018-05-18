@@ -13,7 +13,6 @@
   border: var(--date-input-border);
   border-radius: var(--date-input-border-radius);
   display: inline-flex;
-  flex: 1;
   font-family: var(--date-input-font-family);
   font-size: var(--date-input-font-size);
   height: var(--date-input-height);
