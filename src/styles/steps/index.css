@@ -37,13 +37,13 @@
 .step:not(:last-of-type):after {
   border-right-color: var(--steps-item-arrow-left-border);
   border-top-color: var(--steps-item-arrow-left-border);
-  left: var(--steps-item-arrow-left);
+  right: var(--steps-item-arrow-right);
 }
 
 .step:not(:first-of-type):before {
   border-right-color: var(--steps-item-arrow-right-border);
   border-top-color: var(--steps-item-arrow-right-border);
-  right: var(--steps-item-arrow-right);
+  left: var(--steps-item-arrow-left);
 }
 
 .indicator {
