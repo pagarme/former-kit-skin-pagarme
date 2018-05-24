@@ -13,8 +13,14 @@
   transform: translateY(var(--modal-position-top));
   width: var(--modal-inner-width);
 
-  &:first-child {
-    padding-top: var(--modal-first-child-padding-top);
+  & .title,
+  & .content,
+  & .actions {
+    padding: var(--modal-child-padding);
+
+    &:first-child {
+      padding: var(--modal-child-first-child-padding);
+    }
   }
 }
 
@@ -67,12 +73,6 @@
 
 .actions > * {
   margin-left: var(--modal-actions-margin);
-}
-
-.title,
-.content,
-.actions {
-  padding: var(--modal-child-padding);
 }
 
 .actions {
