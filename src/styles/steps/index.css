@@ -1,7 +1,6 @@
 @import "./properties.css";
 
 .steps {
-  background-color: var(--steps-background-color);
   border-radius: var(--steps-border-radius);
   border: var(--steps-border);
   display: flex;
@@ -58,6 +57,10 @@
   line-height: var(--steps-item-indicator-line-height);
   margin-right: var(--steps-item-indicator-margin-right);
   width: var(--steps-item-indicator-size);
+}
+
+.error svg {
+  color: var(--steps-item-indicator-error-color);
 }
 
 .current,
