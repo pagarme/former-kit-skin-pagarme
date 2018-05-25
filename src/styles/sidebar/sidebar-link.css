@@ -2,13 +2,67 @@
 @import "../spacing.css";
 @import "./properties.css";
 
-.link {
-  border: var(--sidebar-link-border);
-  color: var(--sidebar-link-color);
+.menu > .link {
+  border-color: var(--sidebar-link-border-color);
+  border-style: var(--sidebar-link-border-style);
+  border-width: var(--sidebar-link-border-width);
   cursor: pointer;
-  font-size: var(--sidebar-link-font-size);
   list-style: none;
-  padding: var(--sidebar-link-padding);
+  padding: 0;
+
+  & > button {
+    padding: var(--sidebar-link-padding);
+  }
+
+  /* active and open */
+
+  &.active.open > button .title { /* stylelint-disable-line selector-max-class */
+    color: var(--sidebar-title-color);
+  }
+
+  /* active */
+
+  &.active > button .title { /* stylelint-disable-line selector-max-class */
+    color: var(--sidebar-link-active-color);
+  }
+
+  /* focus, hover and open */
+
+  &.focused,
+  &:hover,
+  &.open {
+    background-color: var(--sidebar-link-enter-background-color);
+    border-color: var(--sidebar-link-enter-border-color);
+  }
+}
+
+.submenu > .link {
+  list-style: none;
+  padding: var(--sidebar-sublink-padding);
+
+  & > button {
+    padding-left: var(--sidebar-sublink-button-padding-left);
+    position: relative;
+  }
+
+  /* focus and hover */
+
+  & > button:focus:before,
+  &:hover > button:before {
+    background-color: var(--sidebar-sublink-before-background-color);
+    content: "";
+    height: 100%;
+    left: var(--sidebar-sublink-before-left);
+    position: absolute;
+    top: 0;
+    width: var(--sidebar-sublink-before-width);
+  }
+
+  /* active */
+
+  &.active .title { /* stylelint-disable-line selector-max-class */
+    color: var(--sidebar-sublink-active-color);
+  }
 }
 
 .link > button {
@@ -16,95 +70,49 @@
   background: none;
   border: none;
   cursor: pointer;
+  display: flex;
+  margin: 0;
   outline: none;
   text-align: left;
-  margin: 0;
-  padding: var(--sidebar-link-button-padding);
   width: 100%;
 }
 
-.link svg {
-  margin-right: var(--sidebar-link-icon-margin-right);
-}
-
-.collapsed {
-
-  & .link button {
-    text-align: center;
-  }
-
-  & .link svg {
-    margin: 0;
-  }
-}
-
-.link div {
-  outline: none;
-}
-
-.link:hover {
-  background-color: var(--sidebar-link-hover-background-color);
-  border-bottom-color: var(--sidebar-link-hover-border-bottom-color);
-  border-top-color: var(--sidebar-link-hover-border-top-color);
-  color: var(--sidebar-link-hover-color);
-}
-
-.active {
-  background-color: var(--sidebar-link-selected-background-color);
-  border-bottom-color: var(--sidebar-link-selected-border-bottom-color);
-  border-top-color: var(--sidebar-link-selected-border-top-color);
-  color: var(--sidebar-link-selected-color);
-}
-
-.active .title:only-of-type {
-  color: var(--sidebar-link-selected-color);
-}
-
-.text {
-  color: var(--sidebar-link-color);
-  display: block;
-  margin: var(--sidebar-link-margin);
-  outline: none;
-}
-
 .title {
+  align-items: center;
   color: var(--sidebar-title-color);
+  display: inline-flex;
   font-size: var(--sidebar-title-font-size);
   line-height: var(--sidebar-title-line-height);
   margin: var(--sidebar-title-margin);
   text-transform: var(--sidebar-title-text-transform);
-  display: inline-flex;
-  align-items: center;
+
+  & > .icon svg {
+    margin-right: var(--sidebar-link-icon-margin-right);
+  }
+
+  & .arrow {
+    margin-left: var(--sidebar-link-arrow-icon-margin-left);
+  }
 }
 
 .icon {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
-.subtitle {
-  color: var(--sidebar-subtitle-color);
-  font-size: var(--sidebar-subtitle-font-size);
-  text-transform: var(--sidebar-subtitle-text-transform);
-  margin-bottom: var(--sidebar-subtitle-margin-bottom);
-  margin-top: var(--sidebar-subtitle-margin-top);
-  user-select: none;
-}
+.collapsed .link {
 
-.subtitle svg {
-  margin-left: var(--spacing-tiny);
-  margin-right: 0;
+  & button {
+    display: flex;
+    justify-content: center;
+  }
+
+  & svg {
+    margin: 0;
+  }
 }
 
 @media (--media-desk) {
-
-  .link {
-    font-size: var(--sidebar-link-font-size-desk);
-  }
-
-  .subtitle {
-    font-size: var(--sidebar-title-font-size-desk);
-  }
 
   .title {
     font-size: var(--sidebar-title-font-size-desk);
@@ -113,15 +121,7 @@
 
 @media (--media-tv) {
 
-  .link {
-    font-size: var(--sidebar-link-font-size-tv);
-  }
-
   .title {
-    font-size: var(--sidebar-title-font-size-tv);
-  }
-
-  .subtitle {
     font-size: var(--sidebar-title-font-size-tv);
   }
 }
