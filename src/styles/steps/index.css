@@ -58,6 +58,10 @@
   width: var(--steps-item-indicator-size);
 }
 
+.number:after {
+  content: ".";
+}
+
 .error svg {
   color: var(--steps-item-indicator-error-color);
 }
