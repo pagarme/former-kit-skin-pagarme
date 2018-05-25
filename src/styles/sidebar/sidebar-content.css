@@ -4,6 +4,5 @@
 .content {
   display: flex;
   justify-content: center;
-  padding-bottom: var(--sidebar-content-padding-bottom);
-  padding-top: var(--sidebar-content-padding-top);
+  padding: var(--sidebar-content-padding);
 }

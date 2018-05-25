@@ -1,10 +1,10 @@
 @import "../colors.css";
 @import "../media.css";
+@import "../typography.css";
 @import "./properties.css";
 @import "./sidebar-header.css";
 @import "./sidebar-content.css";
 @import "./sidebar-link.css";
-@import "./sidebar-sections.css";
 
 .sidebar,
 .sidebar * {
@@ -14,24 +14,18 @@
 .sidebar {
   background-color: var(--sidebar-background-color);
   display: block;
+  font-family: var(--sidebar-font-family);
   min-height: 100vh;
   flex: 0 0 var(--sidebar-width);
   width: var(--sidebar-width);
   user-select: var(--sidebar-user-select);
 }
 
-.section {
-  height: var(--sidebar-section-height);
-  overflow: auto;
-}
-
-.items {
+.menu,
+.submenu {
+  padding: 0;
   position: relative;
-
-  & > ul {
-    padding: 0;
-    margin: 0;
-  }
+  margin: 0;
 }
 
 .collapsed {
@@ -43,7 +37,8 @@
   }
 
   & header svg {
-    color: var(--sidebar-collapsed-header-button-color);
+    height: var(--sidebar-collapsed-header-button-size);
+    width: var(--sidebar-collapsed-header-button-size);
   }
 }
 
