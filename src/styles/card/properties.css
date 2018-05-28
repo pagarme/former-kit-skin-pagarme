@@ -15,30 +15,40 @@
     var(--spacing-small);
   --card-graphic-padding: 0 0 var(--spacing-small);
 
-  --card-title-color: var(--color-light-steel-100);
+  --card-title-color: var(--color-light-grey-100);
   --card-title-font-family: var(--title-font-family);
   --card-title-font-size: 14px;
   --card-title-font-weight: var(--title-font-weight);
-  --card-title-icon-margin: 9px;
+  --card-title-icon-margin: var(--spacing-tiny);
   --card-title-text-transform: uppercase;
 
-  --card-subtitle-font-size: 16px;
-  --card-subtitle-color: var(--color-light-steel-100);
+  --card-title-small-font-weight: normal;
+  --card-title-small-font-size: 14px;
+  --card-title-small-text-transform: initial;
+
+  --card-title-strong-font-weight: var(--title-font-weight);
+  --card-title-strong-text-transform: uppercase;
+
+  --card-subtitle-font-size: 14px;
+  --card-subtitle-font-weight: normal;
+  --card-subtitle-color: var(--color-light-grey-100);
 
   --card-actions-spacing: var(--spacing-tiny);
 
   --card-section-background-color: var(--color-light-smoke-40);
 
   --card-section-title-color: var(--color-light-steel-100);
-  --card-section-title-padding-bottom: 4px;
-  --card-section-title-padding-top: 4px;
+  --card-section-title-font-size: 14px;
+  --card-section-title-font-weight: var(--title-font-weight);
+  --card-section-title-text-transform: uppercase;
 
   --card-section-title-icon-color: var(--color-light-greenish-100);
   --card-section-title-icon-margin: 8px;
   --card-section-title-icon-size: 18px;
 
-  --card-section-subtitle-color: var(--color-light-steel-50);
-  --card-section-subtitle-font-size: 12px;
+  --card-section-subtitle-color: var(--color-light-steel-100);
+  --card-section-subtitle-font-weight: normal;
+  --card-section-subtitle-text-transform: initial;
 
   --card-section-icon-box-background-color: var(--color-light-silver-50);
   --card-section-icon-box-size: 48px;

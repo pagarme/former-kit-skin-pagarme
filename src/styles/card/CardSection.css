@@ -12,11 +12,11 @@
   color: var(--card-section-title-color);
   display: flex;
   font-family: var(--card-title-font-family);
-  font-size: var(--card-title-font-size);
-  font-weight: var(--card-title-font-weight);
+  font-size: var(--card-section-title-font-size);
+  font-weight: var(--card-section-title-font-weight);
   justify-content: space-between;
   margin: 0;
-  text-transform: var(--card-title-text-transform);
+  text-transform: var(--card-section-title-text-transform);
 }
 
 .sectionTitle[role="button"],
@@ -47,7 +47,8 @@
 .sectionSubtitle {
   color: var(--card-section-subtitle-color);
   font-family: var(--title-font-family);
-  font-size: var(--card-section-subtitle-font-size);
+  font-weight: var(--card-section-subtitle-font-weight);
+  text-transform: var(--card-section-subtitle-text-transform);
 }
 
 .sectionDoubleLineTitle {
@@ -74,6 +75,8 @@
   display: flex;
   color: var(--card-section-title-color);
   flex-direction: column;
+  font-size: var(--card-section-title-font-size);
+  font-weight: var(--card-section-title-font-weight);
   justify-content: center;
   margin-left: var(--card-section-double-line-title-spacing);
   outline: none;
