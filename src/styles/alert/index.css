@@ -15,6 +15,7 @@
   font-family: var(--alert-font-family);
   font-size: var(--alert-font-size);
   height: var(--alert-height);
+  width: 100%;
 }
 
 .content {
