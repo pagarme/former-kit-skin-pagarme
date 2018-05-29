@@ -87,3 +87,10 @@
   border-width: var(--modal-divider-border-width);
   margin: var(--modal-divider-margin);
 }
+
+.modal fieldset {
+  border: 0;
+  display: inherit;
+  margin: 0;
+  padding: 0;
+}
