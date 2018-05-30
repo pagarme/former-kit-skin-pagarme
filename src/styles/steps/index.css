@@ -3,6 +3,7 @@
 .steps {
   border-radius: var(--steps-border-radius);
   border: var(--steps-border);
+  box-sizing: border-box;
   display: flex;
   overflow: hidden;
   width: 100%;
@@ -47,8 +48,6 @@
 
 .indicator {
   align-items: center;
-  background-color: var(--steps-item-indicator-background-color);
-  border-radius: var(--steps-item-indicator-radius);
   display: flex;
   font-size: var(--steps-item-indicator-font-size);
   font-weight: var(--steps-item-indicator-font-weight);
@@ -57,6 +56,10 @@
   line-height: var(--steps-item-indicator-line-height);
   margin-right: var(--steps-item-indicator-margin-right);
   width: var(--steps-item-indicator-size);
+}
+
+.number:after {
+  content: ".";
 }
 
 .error svg {
