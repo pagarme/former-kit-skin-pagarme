@@ -51,10 +51,6 @@
   justify-content: center;
 }
 
-.title > h2 > svg {
-  margin-right: var(--card-title-icon-margin);
-}
-
 .title[role="button"] {
   cursor: pointer;
 }
@@ -64,19 +60,37 @@
 .title > h2,
 .title > h1 {
   margin: 0;
+  white-space: pre;
+
+  & > svg {
+    margin-right: var(--card-title-icon-margin);
+  }
 }
 
 .title > h2 {
   color: var(--card-title-color);
   display: inline-flex;
   font-size: var(--card-title-font-size);
-  text-transform: uppercase;
+  font-weight: var(--card-title-font-weight);
+  text-transform: var(--card-title-text-transform);
 }
 
 .title > h3 {
   color: var(--card-subtitle-color);
   display: inline-flex;
   font-size: var(--card-subtitle-font-size);
+  font-weight: var(--card-subtitle-font-weight);
+}
+
+.title small {
+  font-size: var(--card-title-small-font-size);
+  font-weight: var(--card-title-small-font-weight);
+  text-transform: var(--card-title-small-text-transform);
+}
+
+.title strong {
+  font-weight: var(--card-title-strong-font-weight);
+  text-transform: var(--card-title-strong-text-transform);
 }
 
 .graphic {
