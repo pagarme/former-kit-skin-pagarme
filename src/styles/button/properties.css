@@ -1,4 +1,5 @@
 @import "../colors.css";
+@import "../spacing.css";
 @import "../typography.css";
 
 :root {
@@ -79,7 +80,16 @@
   --button-disabled-background-color: var(--color-light-silver-50);
   --button-disabled-color: var(--color-light-silver-100);
 
-  --button-icon-margin: 0 8px 0 0;
+  --button-icon-start-margin:
+    0
+    var(--spacing-tiny)
+    0
+    0;
+  --button-icon-end-margin:
+    0
+    0
+    0
+    var(--spacing-tiny);
   --button-icon-padding: 0;
   --button-icon-width-tiny: 26px;
   --button-icon-width-default: 32px;
