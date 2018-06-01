@@ -1,36 +1,34 @@
 @import "../colors.css";
+@import "../spacing.css";
 @import "../typography.css";
 
 :root {
-  --header-width: 100%;
+  --header-background-color: var(--color-white);
+  --header-border-color: var(--color-light-platinum-50);
+  --header-border-style: solid;
+  --header-border-width: 0 0 1px;
   --header-height: 72px;
   --header-padding-left: 20px;
   --header-padding-right: 20px;
-  --header-background-color: var(--color-white);
-  --header-box-shadow:
-    0
-    3px
-    4.8px
-    0.2px
-    rgba(var(--color-light-grey-100), 0.18);
+  --header-width: 100%;
 
-  --header-button-margin-right: 16px;
+  --header-child-margin-left: var(--spacing-tiny);
 
   --header-title-color: var(--color-light-greenish-100);
-  --header-title-font-weight: 600;
   --header-title-font-size: 18px;
+  --header-title-font-weight: 600;
 
   --header-link-color: var(--color-light-grey-50);
 
-  --header-content-link-margin-right: 16px;
+  --header-content-link-margin-right: var(--spacing-medium);
 
-  --header-back-button-color: var(--color-light-silver-100);
-  --header-back-button-border: none;
-  --header-back-button-padding: 0;
-  --header-back-button-font-size: 25px;
   --header-back-button-background-color: transparent;
+  --header-back-button-border: none;
+  --header-back-button-color: var(--color-light-greenish-100);
+  --header-back-button-font-size: 25px;
+  --header-back-button-padding: 0;
 
   --header-menu-font-size: 14px;
-  --header-menu-margin-right: 24px;
-  --header-menu-inner-spacing: 8px;
+  --header-menu-inner-spacing: var(--spacing-tiny);
+  --header-menu-margin-right: var(--spacing-medium);
 }
