@@ -25,7 +25,7 @@
 }
 
 .header > * {
-  margin-left: var(--header-button-margin-right);
+  margin-left: var(--header-child-margin-left);
 }
 
 .header > *:first-child {
