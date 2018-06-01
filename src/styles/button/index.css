@@ -30,7 +30,14 @@
 /* icon alignment */
 
 .button svg {
-  margin: var(--button-icon-margin);
+
+  &:first-child {
+    margin: var(--button-icon-start-margin);
+  }
+
+  &:last-child {
+    margin: var(--button-icon-end-margin);
+  }
 }
 
 /* button icon */
