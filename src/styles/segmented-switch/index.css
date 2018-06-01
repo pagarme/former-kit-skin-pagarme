@@ -1,10 +1,14 @@
 @import "./properties.css";
-@import "../z-index.css";
+
+.segmentedSwitch * {
+  box-sizing: border-box;
+}
 
 .segmentedSwitch {
   background-color: var(--context-switch-backgound-color);
   border-radius: var(--context-switch-border-radius);
   box-shadow: var(--context-switch-box-shadow);
+  box-sizing: border-box;
   display: inline-flex;
   height: var(--context-switch-height);
   user-select: none;
@@ -22,16 +26,16 @@
 }
 
 .label {
+  align-items: center;
   border: 1px solid transparent;
   color: var(--context-switch-label-color);
   cursor: pointer;
-  display: block;
+  display: flex;
   font-family: var(--context-switch-font-family);
   font-size: var(--context-switch-label-font-size);
   font-weight: bold;
   height: var(--context-switch-label-height);
   letter-spacing: var(--context-switch-letter-spacing);
-  line-height: var(--context-switch-label-line-height);
   padding: var(--context-switch-label-padding);
   position: relative;
   text-transform: var(--context-switch-text-transform);
