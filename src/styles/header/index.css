@@ -13,14 +13,16 @@
 
 .header {
   align-items: center;
-  justify-content: space-between;
+  background-color: var(--header-background-color);
+  border-color: var(--header-border-color);
+  border-style: var(--header-border-style);
+  border-width: var(--header-border-width);
   display: flex;
-  width: var(--header-width);
   height: var(--header-height);
+  justify-content: space-between;
   padding-left: var(--header-padding-left);
   padding-right: var(--header-padding-right);
-  background-color: var(--header-background-color);
-  box-shadow: var(--header-box-shadow);
+  width: var(--header-width);
   z-index: var(--header-z-index);
 }
 

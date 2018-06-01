@@ -3,17 +3,14 @@
 @import "../typography.css";
 
 :root {
-  --header-width: 100%;
+  --header-background-color: var(--color-white);
+  --header-border-color: var(--color-light-platinum-50);
+  --header-border-style: solid;
+  --header-border-width: 0 0 1px;
   --header-height: 72px;
   --header-padding-left: 20px;
   --header-padding-right: 20px;
-  --header-background-color: var(--color-white);
-  --header-box-shadow:
-    0
-    3px
-    4.8px
-    0.2px
-    rgba(var(--color-light-grey-100), 0.18);
+  --header-width: 100%;
 
   --header-child-margin-left: var(--spacing-tiny);
 
