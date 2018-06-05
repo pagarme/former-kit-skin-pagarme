@@ -1,6 +1,11 @@
 @import "./properties.css";
 @import "../z-index.css";
 
+.modal,
+.modal * {
+  box-sizing: border-box;
+}
+
 .modal {
   background: var(--modal-frame-background-color);
   border-radius: var(--modal-border-radius);
@@ -47,6 +52,12 @@
 
 .startAlign {
   text-align: start;
+}
+
+.section {
+  background-color: var(--modal-section-background-color);
+  border-radius: var(--modal-border-radius);
+  width: 100%;
 }
 
 .title {
