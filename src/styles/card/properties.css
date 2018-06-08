@@ -55,6 +55,8 @@
 
   --card-section-double-line-title-spacing: var(--spacing-tiny);
   --card-section-double-line-divider-margin: var(--spacing-small) 0 0;
+  --card-section-double-line-actions-margin: var(--spacing-small);
+  --card-section-double-line-actions-last-child-margin: var(--spacing-large);
 
   --card-divider-border-color: var(--color-light-grey-20);
   --card-divider-border-style: solid;
