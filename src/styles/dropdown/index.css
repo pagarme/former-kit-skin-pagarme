@@ -11,10 +11,17 @@
   border-style: var(--dropdown-border-style);
   border-width: var(--dropdown-border-width);
   cursor: pointer;
+  font-size: var(--dropdown-font-size);
   height: var(--dropdown-height);
   line-height: var(--dropdown-line-height);
   overflow: hidden;
   position: relative;
+}
+
+.tiny {
+  font-size: var(--dropdown-tiny-font-size);
+  height: var(--dropdown-tiny-height);
+  line-height: var(--dropdown-tiny-height);
 }
 
 .select {
@@ -24,8 +31,8 @@
   color: var(--dropdown-text-color);
   cursor: inherit;
   display: block;
-  font-size: var(--dropdown-font-size);
-  height: var(--dropdown-select-height);
+  font-size: inherit;
+  line-height: inherit;
   outline: none;
   overflow: hidden;
   padding:
@@ -44,13 +51,17 @@
   border-left: var(--dropdown-icon-border);
   color: var(--dropdown-icon-color);
   display: flex;
-  height: var(--dropdown-icon-size);
+  height: var(--dropdown-icon-height);
   justify-content: center;
   pointer-events: none;
   position: absolute;
   right: 0;
   top: var(--dropdown-icon-top, 0);
-  width: var(--dropdown-icon-size);
+  width: var(--dropdown-icon-width);
+}
+
+.tiny .arrow {
+  width: var(--dropdown-tiny-icon-width);
 }
 
 .option {
