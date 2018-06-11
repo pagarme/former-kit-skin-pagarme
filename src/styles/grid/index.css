@@ -15,9 +15,18 @@
   align-items: stretch;
 }
 
+.stretch > .col > * {
+  flex: 1;
+}
+
 .grid {
+  width: 100%;
   flex-direction: row;
   align-content: stretch;
+}
+
+.col {
+  flex-direction: column;
 }
 
 .row {
