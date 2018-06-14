@@ -23,6 +23,7 @@ const UIPopover = require('./popover/index.css')
 const UIRadioGroup = require('./radio-group/index.css')
 const UISegmentedSwitch = require('./segmented-switch/index.css')
 const UISidebar = require('./sidebar/index.css')
+const UISpacing = require('./spacing/index.css')
 const UISteps = require('./steps/index.css')
 const UISwitch = require('./switch/index.css')
 const UITabBar = require('./tab-bar/index.css')
@@ -57,6 +58,7 @@ module.exports = {
   UIRadioGroup,
   UISegmentedSwitch,
   UISidebar,
+  UISpacing,
   UISteps,
   UISwitch,
   UITabBar,
