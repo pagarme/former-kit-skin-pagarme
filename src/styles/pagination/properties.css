@@ -10,7 +10,10 @@
   --pagination-color: var(--color-light-steel-100);
   --pagination-font-family: var(--title-font-family);
   --pagination-font-size: 14px;
-  --pagination-height: var(--spacing-large);
+  --pagination-height: 32px;
+
+  --pagination-tiny-font-size: 12px;
+  --pagination-tiny-height: 26px;
 
   --pagination-label-padding: 0 8px;
 

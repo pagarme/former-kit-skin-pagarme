@@ -12,6 +12,11 @@
   width: auto;
 }
 
+.tiny {
+  font-size: var(--pagination-tiny-font-size);
+  height: var(--pagination-tiny-height);
+}
+
 .label {
   align-content: space-between;
   align-items: safe center;
@@ -89,7 +94,7 @@
   border: var(--pagination-input-border);
   color: var(--pagination-input-color);
   font-family: inherit;
-  font-size: var(--pagination-font-size);
+  font-size: inherit;
   font-weight: bold;
   height: var(--pagination-input-height);
   left: var(--pagination-input-left);
@@ -138,7 +143,6 @@
 .totalPages {
   flex-basis: auto;
   flex-grow: 1;
-  padding: var(--pagination-label-padding);
   text-align: center;
   user-select: none;
 }
