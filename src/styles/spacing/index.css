@@ -1,0 +1,21 @@
+@import "../spacing.css";
+
+.flex {
+  flex: 1;
+}
+
+.tiny {
+  width: var(--spacing-tiny);
+}
+
+.small {
+  width: var(--spacing-small);
+}
+
+.medium {
+  width: var(--spacing-medium);
+}
+
+.large {
+  width: var(--spacing-large);
+}
