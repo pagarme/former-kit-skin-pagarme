@@ -65,10 +65,14 @@
   display: flex;
   flex: 1;
 
-  & > div {
+  & > div:first-child {
     display: flex;
     flex: 1;
   }
+}
+
+.doubleLineTile {
+  flex: 1;
 }
 
 .sectionTitles {
@@ -81,6 +85,23 @@
   margin-left: var(--card-section-double-line-title-spacing);
   outline: none;
   text-transform: none;
+}
+
+.actionDoubleLine {
+  display: flex;
+  justify-content: flex-end;
+
+  & > *:first-child {
+    margin: 0;
+  }
+
+  & > * {
+    margin-left: var(--card-section-double-line-actions-margin);
+  }
+
+  & > *:last-child {
+    margin-left: var(--card-section-double-line-actions-last-child-margin);
+  }
 }
 
 .sectionIconBox {
