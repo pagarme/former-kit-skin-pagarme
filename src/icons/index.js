@@ -1,4 +1,5 @@
 const UIAvatar = require('./avatar')
+const UICalendar = require('./calendar')
 const UICard = require('./card')
 const UIDateInput = require('./date-input')
 const UIDateSelector = require('./date-selector')
@@ -13,6 +14,7 @@ const UITable = require('./table')
 
 module.exports = {
   UIAvatar,
+  UICalendar,
   UICard,
   UIDateInput,
   UIDateSelector,

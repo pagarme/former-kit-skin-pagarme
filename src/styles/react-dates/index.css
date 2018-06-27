@@ -26,6 +26,15 @@
     will-change: color background-color;
   }
 
+  & .CalendarDay--blocked {
+    background: none;
+    color: var(--color-light-steel-50);
+
+    & button {
+      cursor: not-allowed;
+    }
+  }
+
   & .DateRangePickerInput {
     align-items: center;
     border-width: 0;
