@@ -1,6 +1,7 @@
 @import "../spacing.css";
 
 .spacing {
+  display: inline-flex;
   margin: 0;
 
   & + * {
