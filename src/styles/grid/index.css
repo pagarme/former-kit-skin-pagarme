@@ -53,15 +53,15 @@
 }
 
 .endAlign {
-  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .startAlign {
-  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .centerAlign {
-  justify-content: center;
+  align-items: center;
 }
 
 @each name in tv, desk, tablet, palm {
