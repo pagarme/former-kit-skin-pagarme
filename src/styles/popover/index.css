@@ -33,7 +33,6 @@
   border-radius: var(--popover-link-border-radius-top);
   border: var(--popover-border);
   border-bottom: none;
-  padding: var(--popover-link-padding);
 
   & > * {
     display: block;
@@ -49,7 +48,7 @@
   outline: none;
   padding: var(--popover-link-padding);
   text-align: left;
-  text-transform: uppercase;
+  white-space: nowrap;
   width: 100%;
 }
 
