@@ -67,19 +67,3 @@
   border-style: solid;
   border-width: 1px;
 }
-
-.item:first-child .label {
-  border-radius:
-    var(--context-switch-label-border-radius)
-    0
-    0
-    var(--context-switch-label-border-radius);
-}
-
-.item:last-child .label {
-  border-radius:
-    0
-    var(--context-switch-label-border-radius)
-    var(--context-switch-label-border-radius)
-    0;
-}

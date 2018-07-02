@@ -4,7 +4,7 @@
 
 :root {
   --context-switch-backgound-color: var(--color-light-iron-20);
-  --context-switch-border-radius: 4px;
+  --context-switch-border-radius: 3px;
   --context-switch-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   --context-switch-font-family: var(--title-font-family);
   --context-switch-height: var(--spacing-medium);
@@ -15,7 +15,7 @@
   --context-switch-label-color: var(--color-light-grey-100);
   --context-switch-label-font-size: 10px;
   --context-switch-label-height: var(--spacing-medium);
-  --context-switch-label-padding: 0 14px;
+  --context-switch-label-padding: 0 var(--spacing-tiny);
 
   --context-switch-checked-background-color: var(--color-light-greenish-100);
   --context-switch-checked-color: var(--color-white);
