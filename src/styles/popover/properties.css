@@ -52,6 +52,7 @@
   --popover-bottom-start-top: calc(100% + var(--spacing-small));
   --popover-color-dark: var(--color-light-carbon-100);
   --popover-color: var(--color-white);
+  --popover-content-padding: var(--spacing-small);
   --popover-left-end-bottom: calc(var(--spacing-tiny) * -1);
   --popover-left-middle-top: 50%;
   --popover-left-middle-transform: translateY(-50%);

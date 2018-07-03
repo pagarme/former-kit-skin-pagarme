@@ -14,6 +14,10 @@
   z-index: var(--popover-z-index);
 }
 
+.content {
+  padding: var(--popover-content-padding);
+}
+
 .menu {
   display: block;
 }
