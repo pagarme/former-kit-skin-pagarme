@@ -19,6 +19,16 @@
   flex: 0 0 var(--sidebar-width);
   width: var(--sidebar-width);
   user-select: var(--sidebar-user-select);
+
+  & > div {
+    display: flex;
+    flex: 1;
+    width: 100%;
+  }
+
+  & nav {
+    flex: 1;
+  }
 }
 
 .menu,
