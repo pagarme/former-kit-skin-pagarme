@@ -44,17 +44,4 @@
 
 .tableHead .active {
   color: var(--head-th-active-color);
-  position: relative;
-
-  &:before {
-    content: "";
-    background-image: var(--head-th-active-border-bottom-color);
-    bottom: 0;
-    height: var(--head-th-active-border-bottom-height);
-    left: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-    width: var(--head-th-active-border-bottom-width);
-  }
 }
