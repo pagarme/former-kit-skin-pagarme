@@ -7,30 +7,44 @@
   border-style: var(--sidebar-link-border-style);
   border-width: var(--sidebar-link-border-width);
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
   list-style: none;
   padding: 0;
 
-  & > button {
+  & > * {
+    flex: 1;
+  }
+
+  & button {
     padding: var(--sidebar-link-padding);
   }
 
   /* active and open */
 
-  &.active.open > button .title { /* stylelint-disable-line selector-max-class */
+  &.active.open .title { /* stylelint-disable-line selector-max-class */
     color: var(--sidebar-title-color);
+  }
+
+  &.open .submenu .active .title { /* stylelint-disable-line selector-max-class */
+    color: var(--sidebar-sublink-active-color);
   }
 
   /* active */
 
-  &.active > button .title { /* stylelint-disable-line selector-max-class */
+  &.active {
+    background-color: var(--sidebar-link-enter-background-color);
+    border-color: var(--sidebar-link-active-border-color);
+  }
+
+  &.active .title { /* stylelint-disable-line selector-max-class */
     color: var(--sidebar-link-active-color);
   }
 
   /* focus, hover and open */
 
   &.focused,
-  &:hover,
-  &.open {
+  &:hover {
     background-color: var(--sidebar-link-enter-background-color);
     border-color: var(--sidebar-link-enter-border-color);
   }
@@ -40,15 +54,15 @@
   list-style: none;
   padding: var(--sidebar-sublink-padding);
 
-  & > button {
-    padding-left: var(--sidebar-sublink-button-padding-left);
+  & button {
+    padding: var(--sidebar-sublink-button-padding);
     position: relative;
   }
 
   /* focus and hover */
 
-  & > button:focus:before,
-  &:hover > button:before {
+  & button:focus:before,
+  &:hover button:before {
     background-color: var(--sidebar-sublink-before-background-color);
     content: "";
     height: 100%;
@@ -57,15 +71,9 @@
     top: 0;
     width: var(--sidebar-sublink-before-width);
   }
-
-  /* active */
-
-  &.active .title { /* stylelint-disable-line selector-max-class */
-    color: var(--sidebar-sublink-active-color);
-  }
 }
 
-.link > button {
+.link button {
   appearance: none;
   background: none;
   border: none;
@@ -109,19 +117,5 @@
 
   & svg {
     margin: 0;
-  }
-}
-
-@media (--media-desk) {
-
-  .title {
-    font-size: var(--sidebar-title-font-size-desk);
-  }
-}
-
-@media (--media-tv) {
-
-  .title {
-    font-size: var(--sidebar-title-font-size-tv);
   }
 }
