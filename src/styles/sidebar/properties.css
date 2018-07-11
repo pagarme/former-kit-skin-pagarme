@@ -2,13 +2,9 @@
 @import "../media.css";
 
 :root {
-  --sidebar-width: 192px;
-  --sidebar-width-desk: 222px;
-  --sidebar-width-tv: 320px;
+  --sidebar-width: 222px;
 
-  --sidebar-collapsed-width: 72px;
-  --sidebar-collapsed-width-desk: 78px;
-  --sidebar-collapsed-width-tv: 116px;
+  --sidebar-collapsed-width: 78px;
 
   --sidebar-background-color: var(--color-light-carbon-40);
 
@@ -20,12 +16,13 @@
   --sidebar-header-border-bottom: 1px solid var(--color-light-steel-200);
 
   --sidebar-header-button-border: none;
+  --sidebar-header-button-focus-border: 1px solid var(--color-light-greenish-100);
   --sidebar-header-button-background: none;
   --sidebar-header-button-color: var(--color-white);
   --sidebar-header-button-padding: 0;
   --sidebar-collapsed-header-button-size: var(--spacing-medium);
 
-  --sidebar-content-padding: var(--spacing-medium) 0;
+  --sidebar-content-padding: var(--spacing-medium);
 
   --sidebar-link-color: var(--color-white);
   --sidebar-link-border-color: transparent;
@@ -41,9 +38,17 @@
   --sidebar-link-enter-border-color: var(--color-light-greenish-100);
 
   --sidebar-link-active-color: var(--color-light-greenish-100);
+  --sidebar-link-active-border-color: var(--color-light-steel-200);
 
-  --sidebar-sublink-padding: 0 var(--spacing-medium) var(--spacing-medium);
-  --sidebar-sublink-button-padding-left: var(--spacing-large);
+  --sidebar-sublink-padding:
+    0
+    var(--spacing-medium)
+    var(--spacing-medium);
+  --sidebar-sublink-button-padding:
+    0
+    0
+    0
+    var(--spacing-large);
   --sidebar-sublink-active-color: var(--color-light-greenish-100);
   --sidebar-sublink-before-background-color: var(--color-light-greenish-100);
   --sidebar-sublink-before-left: 6px;
@@ -51,11 +56,9 @@
 
   --sidebar-title-color: var(--color-white);
   --sidebar-title-font-size: 14px;
-  --sidebar-title-font-size-desk: 14px;
-  --sidebar-title-font-size-tv: 16px;
   --sidebar-title-line-height: 14px;
   --sidebar-title-margin: 0;
-  --sidebar-title-text-transform: uppercase;
+  --sidebar-title-text-transform: none;
 
   --sidebar-user-select: none;
 }

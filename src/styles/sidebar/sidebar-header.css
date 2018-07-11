@@ -25,4 +25,9 @@
   cursor: pointer;
   outline: none;
   padding: var(--sidebar-header-button-padding);
+
+  &:focus {
+    border: var(--sidebar-header-button-focus-border);
+    border-radius: 0;
+  }
 }
