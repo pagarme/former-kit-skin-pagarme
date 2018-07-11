@@ -66,6 +66,7 @@
   color: var(--popover-link-text-color);
   cursor: pointer;
   display: block;
+  font-size: var(--popover-link-font-size);
   outline: none;
   padding: var(--popover-link-padding);
   text-align: left;
