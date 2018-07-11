@@ -16,9 +16,18 @@
   display: block;
   font-family: var(--sidebar-font-family);
   min-height: 100vh;
-  flex: 0 0 var(--sidebar-width);
-  width: var(--sidebar-width);
   user-select: var(--sidebar-user-select);
+  width: var(--sidebar-width);
+
+  & > div {
+    display: flex;
+    flex: 1;
+    width: 100%;
+  }
+}
+
+.sidebar nav {
+  flex: 1;
 }
 
 .menu,
@@ -29,7 +38,6 @@
 }
 
 .collapsed {
-  flex: 0 0 var(--sidebar-collapsed-width);
   width: var(--sidebar-collapsed-width);
 
   & header {
@@ -39,31 +47,5 @@
   & header svg {
     height: var(--sidebar-collapsed-header-button-size);
     width: var(--sidebar-collapsed-header-button-size);
-  }
-}
-
-@media (--media-desk) {
-
-  .sidebar {
-    width: var(--sidebar-width-desk);
-    flex: 0 0 var(--sidebar-width-desk);
-  }
-
-  .collapsed {
-    width: var(--sidebar-collapsed-width-desk);
-    flex: 0 0 var(--sidebar-collapsed-width-desk);
-  }
-}
-
-@media (--media-tv) {
-
-  .sidebar {
-    width: var(--sidebar-width-tv);
-    flex: 0 0 var(--sidebar-width-tv);
-  }
-
-  .collapsed {
-    width: var(--sidebar-collapsed-width-tv);
-    flex: 0 0 var(--sidebar-collapsed-width-tv);
   }
 }
