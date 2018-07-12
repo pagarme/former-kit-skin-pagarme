@@ -11,6 +11,7 @@
   --context-switch-letter-spacing: 0.1em;
   --context-switch-text-transform: uppercase;
 
+  --context-switch-label-border: 1px solid transparent;
   --context-switch-label-border-radius: 3px;
   --context-switch-label-color: var(--color-light-grey-100);
   --context-switch-label-font-size: 10px;
@@ -19,6 +20,11 @@
 
   --context-switch-checked-background-color: var(--color-light-greenish-100);
   --context-switch-checked-color: var(--color-white);
+
+  --context-switch-disabled-color: var(--color-light-chromium-100);
+  --context-switch-disabled-checked-background-color: var(--color-light-platinum-20);
+  --context-switch-disabled-checked-label-border: 1px solid var(--color-light-platinum-100);
+  --context-switch-disabled-checked-color: var(--color-light-grey-100);
 
   --context-switch-enter-background-color: var(--color-light-greenish-120);
   --context-switch-enter-border-color: var(--color-light-greenish-150);
