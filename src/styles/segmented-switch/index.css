@@ -27,7 +27,7 @@
 
 .label {
   align-items: center;
-  border: 1px solid transparent;
+  border: var(--context-switch-label-border);
   color: var(--context-switch-label-color);
   cursor: pointer;
   display: flex;
@@ -66,4 +66,25 @@
   border-color: var(--color-light-greenish-150);
   border-style: solid;
   border-width: 1px;
+}
+
+.disabled .item input + .label {
+  color: var(--context-switch-disabled-color);
+  cursor: not-allowed;
+}
+
+.disabled .item input:checked + .label {
+  background-color: var(--context-switch-disabled-checked-background-color);
+  border: var(--context-switch-disabled-checked-label-border);
+  color: var(--context-switch-disabled-checked-color);
+
+  &:hover,
+  &:active {
+    border: var(--context-switch-disabled-checked-label-border);
+  }
+
+  &:active {
+    border: var(--context-switch-disabled-checked-label-border);
+    box-shadow: none;
+  }
 }
