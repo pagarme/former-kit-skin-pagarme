@@ -7,9 +7,13 @@
 
 .tooltip {
   color: var(--tooltip-text-color);
+  font-size: var(--tooltip-font-size);
+  font-weight: var(--tooltip-font-weight);
+  line-height: var(--tooltip-line-height);
   min-width: var(--tooltip-min-width);
   padding: var(--tooltip-padding);
   position: absolute;
+  text-transform: var(--tooltip-text-transform);
   z-index: var(--tooltip-z-index);
 }
 
