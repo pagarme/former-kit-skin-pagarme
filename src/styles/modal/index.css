@@ -13,7 +13,7 @@
   box-shadow: var(--modal-box-shadow);
   height: auto;
   outline: none;
-  overflow: auto;
+  overflow: unset;
   position: relative;
   transform: translateY(var(--modal-position-top));
   width: var(--modal-inner-width);
