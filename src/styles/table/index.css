@@ -47,5 +47,7 @@
   color: var(--body-td-color);
   font-size: var(--body-td-font-size);
   padding: var(--body-td-padding);
+  overflow: hidden;
   position: relative;
+  text-overflow: ellipsis;
 }
