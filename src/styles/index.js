@@ -31,6 +31,7 @@ const UITag = require('./tag/index.css')
 const UITooltip = require('./tooltip/index.css')
 const UILinearProgress = require('./linear-progress/index.css')
 const UITable = require('./table/index.css')
+const UIUploadImage = require('./upload-image/index.css')
 
 module.exports = {
   UIAlert,
@@ -66,4 +67,5 @@ module.exports = {
   UITooltip,
   UILinearProgress,
   UITable,
+  UIUploadImage,
 }

@@ -1,0 +1,29 @@
+@import "./properties.css";
+
+.uploadWrapper {
+  background: #f7f7f7;
+  width: 200px;
+  height: 200px;
+}
+
+.imageUploaded {
+  min-width: 190px;
+  min-height: 190px;
+  max-width: 190px;
+  max-height: 190px;
+  margin-bottom: 20px;
+}
+
+.uploadButton {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.inputUpload {
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+}
