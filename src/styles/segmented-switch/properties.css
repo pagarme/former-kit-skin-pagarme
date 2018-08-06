@@ -30,4 +30,12 @@
   --context-switch-enter-border-color: var(--color-light-greenish-150);
   --context-switch-enter-border-style: solid;
   --context-switch-enter-border-width: 1px;
+
+  --spaced-switch-label-padding: var(--spacing-small);
+
+  --spaced-switch-enter-background-color-active: var(--color-light-greenish-150);
+  --spaced-switch-checked-color: var(--color-white);
+  --spaced-switch-disabled-color: var(--color-white);
+
+  --spaced-switch-label-background: var(--color-light-greenish-gradient);
 }
