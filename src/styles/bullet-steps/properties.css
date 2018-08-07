@@ -1,0 +1,13 @@
+@import "../colors.css";
+@import "../spacing.css";
+
+:root {
+  --indicator-height: 12px;
+  --indicator-width: 12px;
+
+  --steps-item-margin: var(--spacing-medium);
+
+  --indicator-previous-background-color: var(--color-light-grey-100);
+  --indicator-current-background-color: var(--color-light-purple-100);
+  --indicator-next-background-color: var(--color-light-silver-100);
+}

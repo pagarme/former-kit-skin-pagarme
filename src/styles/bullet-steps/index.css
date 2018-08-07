@@ -1,0 +1,33 @@
+@import "./properties.css";
+
+.steps {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.step {
+  border-radius: 50%;
+  height: var(--indicator-height);
+  width: var(--indicator-width);
+  display: flex;
+  margin-left: var(--steps-item-margin);
+
+  &:first-child {
+    margin-left: unset;
+  }
+}
+
+.previous {
+  background-color: var(--indicator-previous-background-color);
+}
+
+.current {
+  background-color: var(--indicator-current-background-color);
+}
+
+.next {
+  background-color: var(--indicator-next-background-color);
+}

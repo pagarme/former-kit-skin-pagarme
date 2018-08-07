@@ -1,5 +1,6 @@
 const UIAlert = require('./alert/index.css')
 const UIAvatar = require('./avatar/index.css')
+const UIBulletSteps = require('./bullet-steps/index.css')
 const UIButton = require('./button/index.css')
 const UICard = require('./card/index.css')
 const UICheckbox = require('./checkbox/index.css')
@@ -35,6 +36,7 @@ const UITable = require('./table/index.css')
 module.exports = {
   UIAlert,
   UIAvatar,
+  UIBulletSteps,
   UIButton,
   UICard,
   UICheckbox,
