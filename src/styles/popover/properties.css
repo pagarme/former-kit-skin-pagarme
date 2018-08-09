@@ -9,10 +9,7 @@
   --popover-border-width: 1px;
   --popover-child-border-color: var(--color-light-grey-50);
   --popover-child-border-style: solid;
-  --popover-child-border-width:
-    1px
-    0
-    0;
+  --popover-child-border-width: 0;
   --popover-color: var(--color-white);
 
   --popover-arrow-bottom-center-left: calc(50% - var(--spacing-tiny));
@@ -70,6 +67,7 @@
   --popover-arrow-top-start-left: var(--spacing-small);
 
   --popover-content-padding: var(--spacing-small);
+  --popover-content-title-color: var(--color-light-steel-100);
 
   --popover-link-active-background: var(--color-light-smoke-100);
   --popover-link-active-border-color: var(--color-light-grey-50);

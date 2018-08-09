@@ -26,6 +26,7 @@
   padding: var(--popover-content-padding);
 
   & > * {
+    color: var(--popover-content-title-color);
     display: block;
   }
 }
