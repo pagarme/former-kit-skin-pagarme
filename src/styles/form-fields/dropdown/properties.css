@@ -3,7 +3,6 @@
 @import "../properties.css";
 
 :root {
-  --dropdown-background-color: var(--color-white);
   --dropdown-border-color: var(--form-item-border-color);
   --dropdown-border-style: solid;
   --dropdown-border-radius: var(--form-item-border-radius);
