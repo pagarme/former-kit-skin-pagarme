@@ -15,7 +15,7 @@
 
 .select {
   appearance: none;
-  background-color: var(--dropdown-background-color);
+  background: none;
   border-color: var(--dropdown-border-color);
   border-radius: var(--dropdown-border-radius);
   border-style: var(--dropdown-border-style);
