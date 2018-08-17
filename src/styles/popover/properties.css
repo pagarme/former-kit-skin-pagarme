@@ -71,7 +71,7 @@
   --popover-content-border-width: 1px;
   --popover-content-margin: 0 var(--spacing-small);
   --popover-content-padding: var(--spacing-tiny);
-  --popover-content-title-color: var(--color-light-steel-100);
+  --popover-content-text-color: var(--color-light-steel-100);
 
   --popover-link-active-background: var(--color-light-smoke-100);
   --popover-link-active-border-color: var(--color-light-grey-50);

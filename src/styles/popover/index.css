@@ -23,6 +23,7 @@
 }
 
 .content {
+  color: var(--popover-content-text-color);
   margin: var(--popover-content-margin);
   padding: var(--popover-content-padding);
   border-bottom:
@@ -30,8 +31,12 @@
     var(--popover-content-border-style)
     var(--popover-content-border-width);
 
+  & > strong,
+  & > small {
+    text-transform: none;
+  }
+
   & > * {
-    color: var(--popover-content-title-color);
     display: block;
   }
 }
