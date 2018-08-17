@@ -23,7 +23,12 @@
 }
 
 .content {
+  margin: var(--popover-content-margin);
   padding: var(--popover-content-padding);
+  border-bottom:
+    var(--popover-content-border-color)
+    var(--popover-content-border-style)
+    var(--popover-content-border-width);
 
   & > * {
     color: var(--popover-content-title-color);
