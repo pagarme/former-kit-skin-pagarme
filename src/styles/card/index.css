@@ -81,13 +81,13 @@
   font-weight: var(--card-subtitle-font-weight);
 }
 
-.title small {
+.title > small {
   font-size: var(--card-title-small-font-size);
   font-weight: var(--card-title-small-font-weight);
   text-transform: var(--card-title-small-text-transform);
 }
 
-.title strong {
+.title > strong {
   font-weight: var(--card-title-strong-font-weight);
   text-transform: var(--card-title-strong-text-transform);
 }
