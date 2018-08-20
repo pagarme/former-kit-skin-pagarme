@@ -1,0 +1,98 @@
+@import "../properties.css";
+
+.segmentedSwitch * {
+  box-sizing: border-box;
+}
+
+.segmentedSwitch {
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 40px;
+  user-select: none;
+
+  & .item:not(:last-child) {
+    margin-right: var(--spaced-switch-label-padding);
+  }
+}
+
+.item {
+  position: relative;
+}
+
+.item > input {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.label {
+  align-items: center;
+  border: var(--context-switch-label-border);
+  color: var(--context-switch-label-color);
+  cursor: pointer;
+  display: flex;
+  font-family: var(--context-switch-font-family);
+  font-size: 15px;
+  font-weight: bold;
+  height: var(--context-switch-label-height);
+  letter-spacing: var(--context-switch-letter-spacing);
+  padding: 20px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.item input + .label {
+  background-color: var(--spaced-switch-checked-color);
+  border: 1px solid var(--color-light-greenish-100);
+  border-radius: var(--context-switch-label-border-radius);
+  box-sizing: border-box;
+  color: var(--context-switch-enter-background-color);
+  border-style: solid;
+  border-width: 1px;
+
+  &:hover {
+    color: var(--spaced-switch-checked-color);
+    background-color: var(--context-switch-enter-background-color);
+    border-color: var(--color-light-greenish-150);
+  }
+
+  &:active {
+    color: var(--spaced-switch-checked-color);
+    background-color: var(--spaced-switch-enter-background-color-active);
+    border-color: var(--color-light-greenish-150);
+  }
+}
+
+.item input:checked + .label {
+  background-image: var(--spaced-switch-label-background);
+  border: 1px solid;
+  color: var(--spaced-switch-checked-color);
+}
+
+.item input:focus + .label {
+  border: var(--spaced-switch-label-focus-border);
+  box-shadow: var(--spaced-switch-label-focus-border-shadown);
+}
+
+.disabled .item input + .label {
+  background-color: var(--context-switch-disabled-checked-background-color);
+  border: var(--context-switch-disabled-checked-label-border);
+  color: var(--context-switch-disabled-color);
+  cursor: not-allowed;
+
+  &:hover {
+    background-color: var(--context-switch-disabled-checked-background-color);
+  }
+}
+
+.disabled .item input:checked + .label {
+  background-color: var(--spaced-switch-disabled-color);
+  background-image: none;
+  border: var(--context-switch-disabled-checked-label-border);
+  color: var(--context-switch-disabled-checked-color);
+
+  &:active {
+    border: var(--context-switch-disabled-checked-label-border);
+  }
+}
