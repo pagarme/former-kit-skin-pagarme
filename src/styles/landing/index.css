@@ -32,40 +32,46 @@
   order: 2;
 }
 
-.dark.primary,
-.dark.primary div {
-  background-color: var(--landing-dark-primary-background-color);
+.dark {
+
+  &.primary {
+    background-color: var(--landing-dark-primary-background-color);
+  }
+
+  &.secondary {
+    background-color: var(--landing-dark-secondary-background-color);
+  }
+
+  &.primary,
+  &.secondary {
+    box-shadow: var(--landing-box-shadow);
+    color: var(--landing-dark-color);
+  }
+
+  & h1 {
+    color: var(--landing-dark-title-color);
+  }
 }
 
-.dark.secondary,
-.dark.secondary div {
-  background-color: var(--landing-dark-secondary-background-color);
-}
+.light {
 
-.dark.primary,
-.dark.primary div,
-.dark.secondary,
-.dark.secondary div {
-  box-shadow: var(--landing-box-shadow);
-  color: var(--landing-dark-color);
-}
+  &.primary {
+    background-color: var(--landing-light-primary-background-color);
+  }
 
-.light.primary,
-.light.primary div {
-  background-color: var(--landing-light-primary-background-color);
-}
+  &.secondary {
+    background-color: var(--landing-light-secondary-background-color);
+  }
 
-.light.secondary,
-.light.secondary div {
-  background-color: var(--landing-light-secondary-background-color);
-}
+  &.primary,
+  &.secondary {
+    box-shadow: var(--landing-box-shadow);
+    color: var(--landing-light-color);
+  }
 
-.light.primary,
-.light.primary div,
-.light.secondary,
-.light.secondary div {
-  box-shadow: var(--landing-box-shadow);
-  color: var(--landing-light-color);
+  & h1 {
+    color: var(--landing-light-title-color);
+  }
 }
 
 .grid {
