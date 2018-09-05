@@ -2,21 +2,31 @@
 @import "../typography.css";
 
 :root {
-  --alert-background-color: var(--color-white);
-  --alert-border-radius: 3px;
-  --alert-border: 1px solid var(--color-light-iron-50);
-  --alert-color: var(--color-light-steel-100);
+  --alert-height: 48px;
+  --alert-margin: 0;
   --alert-content-margin-right: var(--spacing-small);
+
+  --alert-dark-background-color: var(--color-light-carbon-100);
+  --alert-light-background-color: var(--color-white);
+
+  --alert-border-radius: 3px;
+  --alert-dark-border: 1px solid var(--color-light-steel-200);
+  --alert-light-border: 1px solid var(--color-light-iron-50);
+
+  --alert-dark-color: var(--color-white);
+  --alert-light-color: var(--color-light-steel-100);
+
   --alert-error-color: var(--color-light-error);
   --alert-font-family: var(--title-font-family);
   --alert-font-size: 16px;
-  --alert-height: 48px;
+
   --alert-icon-height: 100%;
   --alert-icon-size: 16px;
   --alert-icon-width: 48px;
-  --alert-info-color: var(--color-light-info);
-  --alert-margin: 0;
   --alert-secondary-icon-color: var(--color-white);
+
+  --alert-info-color: var(--color-light-info);
+
   --alert-success-color: var(--color-light-success);
   --alert-warning-color: var(--color-light-warning);
 }
