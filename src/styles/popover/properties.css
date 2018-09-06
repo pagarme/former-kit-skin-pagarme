@@ -9,7 +9,10 @@
   --popover-border-width: 1px;
   --popover-child-border-color: var(--color-light-grey-50);
   --popover-child-border-style: solid;
-  --popover-child-border-width: 0;
+  --popover-child-border-width:
+    1px
+    0
+    0;
   --popover-color: var(--color-white);
 
   --popover-arrow-bottom-center-left: calc(50% - var(--spacing-tiny));
@@ -66,12 +69,7 @@
     var(--popover-border-radius) 0;
   --popover-arrow-top-start-left: var(--spacing-small);
 
-  --popover-content-border-color: var(--color-light-iron-50);
-  --popover-content-border-style: solid;
-  --popover-content-border-width: 1px;
-  --popover-content-margin: 0 var(--spacing-small);
-  --popover-content-padding: var(--spacing-tiny);
-  --popover-content-text-color: var(--color-light-steel-100);
+  --popover-content-padding: var(--spacing-small);
 
   --popover-link-active-background: var(--color-light-smoke-100);
   --popover-link-active-border-color: var(--color-light-grey-50);
@@ -89,7 +87,7 @@
   --popover-link-font-size: 12px;
   --popover-link-hover-background: var(--color-light-smoke-40);
   --popover-link-hover-border-color: var(--color-light-steel-100);
-  --popover-link-padding: var(--spacing-tiny) var(--spacing-small);
+  --popover-link-padding: var(--spacing-small);
   --popover-link-text-color: var(--color-light-chromium-100);
 
   --popover-border-color-dark: var(--popover-color-dark);
