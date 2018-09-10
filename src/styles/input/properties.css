@@ -2,16 +2,22 @@
 @import "../typography.css";
 
 :root {
-  --input-background-color: var(--color-white);
-  --input-border-color: var(--color-light-grey-50);
+  --input-background-color: transparent;
+
   --input-border-radius: 3px;
   --input-border-style: solid;
   --input-border-width: 1px;
-  --input-color: var(--color-light-steel-100);
+  --input-border-color: var(--color-light-grey-50);
+
+  --input-dark-color: var(--color-light-silver-100);
+  --input-light-color: var(--color-light-steel-100);
+
   --input-container-letter-spacing: var(--letter-spacing);
   --input-container-padding: 0 5px;
+
   --input-font-family: var(--title-font-family);
   --input-font-size: 14px;
+
   --input-height: var(--spacing-large);
 
   --input-multiline-font-size: 14px;

@@ -2,6 +2,11 @@
 @import "./properties.css";
 @import "../z-index.css";
 
+.input,
+.input * {
+  box-sizing: border-box;
+}
+
 .input {
   background-color: var(--input-background-color);
   border-color: var(--input-border-color);
@@ -19,9 +24,22 @@
   z-index: var(--input-z-index);
 }
 
-.input,
-.input * {
-  box-sizing: border-box;
+.dark {
+  color: var(--input-dark-color);
+
+  & .container > textarea,
+  & .container > input {
+    color: var(--input-dark-color);
+  }
+}
+
+.light {
+  color: var(--input-light-color);
+
+  & .container > textarea,
+  & .container > input {
+    color: var(--input-light-color);
+  }
 }
 
 .boxContainer {
@@ -47,7 +65,6 @@
 .container > input {
   background: none;
   border: none;
-  color: var(--input-color);
   display: block;
   font-size: var(--input-font-size);
   flex: 1;

@@ -26,6 +26,28 @@
   letter-spacing: var(--input-container-letter-spacing);
 }
 
+.light {
+  color: var(--form-item-light-color);
+
+  & .container > textarea,
+  & .container > input {
+    color: var(--form-placeholder-light-color);
+  }
+}
+
+.dark {
+  color: var(--form-item-dark-color);
+
+  & .container > textarea,
+  & .container > input {
+    color: var(--form-placeholder-dark-color);
+  }
+
+  & .container > label {
+    color: var(--form-item-dark-label-color);
+  }
+}
+
 .container > textarea,
 .container > input {
   background: none;
