@@ -82,7 +82,7 @@
   min-height: 100%;
 }
 
-@media (--media-tablet), (--media-palm) {
+@media (--media-palm) {
 
   .primary {
     order: 1;
