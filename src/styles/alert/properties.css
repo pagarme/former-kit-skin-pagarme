@@ -1,22 +1,35 @@
 @import "../colors.css";
+@import "../spacing.css";
 @import "../typography.css";
 
 :root {
-  --alert-background-color: var(--color-white);
-  --alert-border-radius: 3px;
-  --alert-border: 1px solid var(--color-light-iron-50);
-  --alert-color: var(--color-light-steel-100);
+  --alert-height: 48px;
+  --alert-margin: 0;
   --alert-content-margin-right: var(--spacing-small);
-  --alert-error-color: var(--color-light-error);
+
+  --alert-border-radius: 3px;
+
+  --alert-dark-background-color: var(--color-light-carbon-100);
+  --alert-dark-border: 1px solid var(--color-light-steel-200);
+  --alert-dark-color: var(--color-white);
+
+  --alert-light-background-color: var(--color-white);
+  --alert-light-border: 1px solid var(--color-light-iron-50);
+  --alert-light-color: var(--color-light-steel-100);
+
   --alert-font-family: var(--title-font-family);
   --alert-font-size: 16px;
-  --alert-height: 48px;
-  --alert-icon-height: 100%;
+
+  --alert-icon-border-radius: var(--alert-border-radius);
+  --alert-icon-color: var(--color-white);
+  --alert-icon-height: calc(100% - 2px);
+  --alert-icon-margin-left: 1px;
+  --alert-icon-margin-right: var(--spacing-tiny);
   --alert-icon-size: 16px;
   --alert-icon-width: 48px;
+
+  --alert-error-color: var(--color-light-error);
   --alert-info-color: var(--color-light-info);
-  --alert-margin: 0;
-  --alert-secondary-icon-color: var(--color-white);
   --alert-success-color: var(--color-light-success);
   --alert-warning-color: var(--color-light-warning);
 }
