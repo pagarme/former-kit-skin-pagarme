@@ -31,6 +31,22 @@
   & .container > input {
     color: var(--input-dark-color);
   }
+
+  & .disabled,
+  & .disabled:hover {
+    border-color: var(--input-dark-color-disabled);
+  }
+
+  & .container > input:disabled,
+  & .container > textarea:disabled,
+  & .container > input:disabled::placeholder,
+  & .container > textarea:disabled::placeholder {
+    color: var(--input-dark-color-disabled);
+  }
+
+  & .disabled .icon svg {
+    color: var(--input-dark-color-disabled);
+  }
 }
 
 .light {
@@ -39,6 +55,22 @@
   & .container > textarea,
   & .container > input {
     color: var(--input-light-color);
+  }
+
+  &.disabled,
+  &.disabled:hover {
+    border-color: var(--input-light-color-disabled);
+  }
+
+  & .container > input:disabled,
+  & .container > textarea:disabled,
+  & .container > input:disabled::placeholder,
+  & .container > textarea:disabled::placeholder {
+    color: var(--input-light-color-disabled);
+  }
+
+  & .disabled .icon svg {
+    color: var(--input-light-color-disabled);
   }
 }
 
@@ -147,19 +179,9 @@
 
 /* disabled */
 
-.disabled,
-.disabled:hover {
-  border-color: var(--input-color-disabled);
-}
-
 .container > input:disabled,
 .container > textarea:disabled,
 .container > input:disabled::placeholder,
 .container > textarea:disabled::placeholder {
   cursor: not-allowed;
-  color: var(--input-color-disabled);
-}
-
-.disabled .icon svg {
-  color: var(--input-color-disabled);
 }

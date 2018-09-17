@@ -34,5 +34,6 @@
 
   --input-color-error: var(--color-light-error);
 
-  --input-color-disabled: var(--color-light-iron-50);
+  --input-dark-color-disabled: var(--color-light-grey-100);
+  --input-light-color-disabled: var(--color-light-iron-50);
 }

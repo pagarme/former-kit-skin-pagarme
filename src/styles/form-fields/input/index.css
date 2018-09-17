@@ -26,15 +26,6 @@
   letter-spacing: var(--input-container-letter-spacing);
 }
 
-.light {
-  color: var(--form-item-light-color);
-
-  & .container > textarea,
-  & .container > input {
-    color: var(--form-placeholder-light-color);
-  }
-}
-
 .dark {
   color: var(--form-item-dark-color);
 
@@ -45,6 +36,62 @@
 
   & .container > label {
     color: var(--form-item-dark-label-color);
+  }
+
+  & .secondaryText {
+    color: var(--form-item-dark-color);
+  }
+
+  &.disabled .secondaryText {
+    color: var(--form-dark-color-disabled);
+  }
+
+  & .container > textarea:disabled,
+  & .container > input:disabled {
+    border-color: var(--form-dark-border-color-disabled);
+    color: var(--form-dark-color-disabled);
+  }
+
+  & .container > textarea:disabled ~ label,
+  & .container > input:disabled ~ label {
+    color: var(--form-dark-color-disabled);
+  }
+
+  & .disabled .icon {
+    color: var(--form-icon-color);
+  }
+}
+
+.light {
+  color: var(--form-item-light-color);
+
+  & .container > textarea,
+  & .container > input {
+    color: var(--form-placeholder-light-color);
+  }
+
+  & .secondaryText {
+    color: var(--form-item-light-color);
+  }
+
+  &.disabled .secondaryText {
+    color: var(--form-light-color-disabled);
+  }
+
+  & .container > textarea:disabled,
+  & .container > input:disabled {
+    border-color: var(--form-light-color-disabled);
+    color: var(--form-light-color-disabled);
+  }
+
+  & .disabled .secondaryText,
+  & .container > textarea:disabled ~ label,
+  & .container > input:disabled ~ label {
+    color: var(--form-light-color-disabled);
+  }
+
+  & .disabled .icon {
+    color: var(--form-icon-color);
   }
 }
 
@@ -98,7 +145,6 @@
 }
 
 .secondaryText {
-  color: var(--input-label-color);
   font-size: var(--input-secondary-text-font-size);
   margin: 0;
   margin-top: var(--input-secondary-text-margin-top);
@@ -208,20 +254,4 @@
 .container > input:disabled,
 .container > textarea:disabled {
   cursor: not-allowed;
-}
-
-.container > textarea:disabled,
-.container > input:disabled {
-  border-color: var(--input-textarea-disabled-border-color);
-  color: var(--input-color-disabled);
-}
-
-.disabled .secondaryText,
-.container > textarea:disabled ~ label,
-.container > input:disabled ~ label {
-  color: var(--input-color-disabled);
-}
-
-.disabled .icon {
-  color: var(--input-color-disabled);
 }
