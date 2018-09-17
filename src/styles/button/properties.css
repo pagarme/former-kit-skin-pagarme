@@ -96,4 +96,13 @@
   --button-icon-width-huge: 44px;
   --butoon-icon-circle-border-radius: 50%;
   --button-only-icon-margin: 0;
+
+  --button-ripple-active-opacity: 0.2;
+  --button-ripple-background:
+    radial-gradient(
+      circle,
+      rgba(var(--color-black), 0.6) 10%,
+      transparent 10.01%
+    );
+  --button-ripple-transition: transform 0.4s, opacity 1s;
 }
