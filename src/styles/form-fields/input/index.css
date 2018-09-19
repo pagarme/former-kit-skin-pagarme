@@ -80,7 +80,7 @@
 
   & .container > textarea:disabled,
   & .container > input:disabled {
-    border-color: var(--form-light-color-disabled);
+    border-color: var(--form-light-border-color-disabled);
     color: var(--form-light-color-disabled);
   }
 

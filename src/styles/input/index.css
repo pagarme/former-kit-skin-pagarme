@@ -32,9 +32,13 @@
     color: var(--input-dark-color);
   }
 
-  & .disabled,
-  & .disabled:hover {
-    border-color: var(--input-dark-color-disabled);
+  & .displayPasswordIcon {
+    color: var(--input-dark-color);
+  }
+
+  &.disabled,
+  &.disabled:hover {
+    border-color: var(--input-dark-border-color-disabled);
   }
 
   & .container > input:disabled,
@@ -57,9 +61,13 @@
     color: var(--input-light-color);
   }
 
+  & .displayPasswordIcon {
+    color: var(--input-light-color);
+  }
+
   &.disabled,
   &.disabled:hover {
-    border-color: var(--input-light-color-disabled);
+    border-color: var(--input-light-border-color-disabled);
   }
 
   & .container > input:disabled,
