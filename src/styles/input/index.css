@@ -2,6 +2,11 @@
 @import "./properties.css";
 @import "../z-index.css";
 
+.input,
+.input * {
+  box-sizing: border-box;
+}
+
 .input {
   background-color: var(--input-background-color);
   border-color: var(--input-border-color);
@@ -19,9 +24,62 @@
   z-index: var(--input-z-index);
 }
 
-.input,
-.input * {
-  box-sizing: border-box;
+.dark {
+  color: var(--input-dark-color);
+
+  & .container > textarea,
+  & .container > input {
+    color: var(--input-dark-color);
+  }
+
+  & .displayPasswordIcon {
+    color: var(--input-dark-color);
+  }
+
+  &.disabled,
+  &.disabled:hover {
+    border-color: var(--input-dark-border-color-disabled);
+  }
+
+  & .container > input:disabled,
+  & .container > textarea:disabled,
+  & .container > input:disabled::placeholder,
+  & .container > textarea:disabled::placeholder {
+    color: var(--input-dark-color-disabled);
+  }
+
+  & .disabled .icon svg {
+    color: var(--input-dark-color-disabled);
+  }
+}
+
+.light {
+  color: var(--input-light-color);
+
+  & .container > textarea,
+  & .container > input {
+    color: var(--input-light-color);
+  }
+
+  & .displayPasswordIcon {
+    color: var(--input-light-color);
+  }
+
+  &.disabled,
+  &.disabled:hover {
+    border-color: var(--input-light-border-color-disabled);
+  }
+
+  & .container > input:disabled,
+  & .container > textarea:disabled,
+  & .container > input:disabled::placeholder,
+  & .container > textarea:disabled::placeholder {
+    color: var(--input-light-color-disabled);
+  }
+
+  & .disabled .icon svg {
+    color: var(--input-light-color-disabled);
+  }
 }
 
 .boxContainer {
@@ -47,7 +105,6 @@
 .container > input {
   background: none;
   border: none;
-  color: var(--input-color);
   display: block;
   font-size: var(--input-font-size);
   flex: 1;
@@ -130,19 +187,9 @@
 
 /* disabled */
 
-.disabled,
-.disabled:hover {
-  border-color: var(--input-color-disabled);
-}
-
 .container > input:disabled,
 .container > textarea:disabled,
 .container > input:disabled::placeholder,
 .container > textarea:disabled::placeholder {
   cursor: not-allowed;
-  color: var(--input-color-disabled);
-}
-
-.disabled .icon svg {
-  color: var(--input-color-disabled);
 }

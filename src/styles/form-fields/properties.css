@@ -1,10 +1,27 @@
 :root {
+  --form-item-dark-color: var(--color-light-silver-100);
+  --form-item-light-color: var(--color-light-chromium-100);
+
+  --form-placeholder-dark-color: var(--color-white);
+  --form-placeholder-light-color: var(--color-light-steel-100);
+
   --form-item-border-color: var(--color-light-grey-50);
   --form-item-border-radius: 3px;
   --form-item-error-color: var(--color-light-error);
+
   --form-item-font-family: var(--body-font-family);
   --form-item-font-size: 14px;
+
+  --form-icon-color: var(--color-light-grey-50);
+
+  --form-item-dark-label-color: var(--color-light-silver-100);
   --form-item-label-color: var(--color-light-chromium-100);
+
   --form-item-secondary-font-size: 12px;
-  --form-item-color-disabled: var(--color-light-iron-50);
+
+  --form-dark-border-color-disabled: var(--color-light-grey-100);
+  --form-light-border-color-disabled: var(--color-light-iron-50);
+
+  --form-dark-color-disabled: var(--color-light-steel-100);
+  --form-light-color-disabled: var(--color-light-silver-100);
 }
