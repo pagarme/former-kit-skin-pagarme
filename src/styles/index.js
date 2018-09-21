@@ -1,6 +1,7 @@
 const UIAlert = require('./alert/index.css')
 const UIAvatar = require('./avatar/index.css')
 const UIBulletSteps = require('./bullet-steps/index.css')
+const UIFlexbox = require('./flexbox/index.css')
 const UIButton = require('./button/index.css')
 const UICard = require('./card/index.css')
 const UICheckbox = require('./checkbox/index.css')
@@ -47,14 +48,16 @@ module.exports = {
   UIDateSelector,
   UIDropdown,
   UIDropdownForm,
+  UIFlexbox,
   UIFooter,
   UIGrid,
   UIHeader,
   UIInput,
   UIInputForm,
+  UILanding,
   UILayout,
   UILegend,
-  UILanding,
+  UILinearProgress,
   UIModal,
   UIPagination,
   UIPopover,
@@ -66,8 +69,7 @@ module.exports = {
   UISteps,
   UISwitch,
   UITabBar,
+  UITable,
   UITag,
   UITooltip,
-  UILinearProgress,
-  UITable,
 }
