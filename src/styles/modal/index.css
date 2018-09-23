@@ -15,7 +15,6 @@
   outline: none;
   overflow: unset;
   position: relative;
-  transform: translateY(var(--modal-position-top));
   width: var(--modal-inner-width);
 
   & .title,
@@ -30,7 +29,7 @@
 }
 
 .overlay {
-  align-items: baseline;
+  align-items: center;
   background: var(--modal-overlay-background);
   bottom: 0;
   display: flex;

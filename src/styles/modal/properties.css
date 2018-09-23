@@ -12,7 +12,6 @@
   --modal-inner-width: 580px;
   --modal-overlay-background: rgba(var(--color-black), 0.7);
   --modal-padding: var(--spacing-small);
-  --modal-position-top: 145px;
 
   --modal-child-padding:
     0
