@@ -2,21 +2,46 @@
 
 .button {
   align-items: center;
-  border: none;
   border-radius: var(--button-border-radius);
+  border: none;
   box-sizing: border-box;
   color: var(--button-color);
   cursor: pointer;
   display: inline-flex;
-  justify-content: center;
   font-family: var(--button-font-family);
   font-style: var(--button-font-style);
   font-weight: var(--button-font-weight);
+  justify-content: center;
   letter-spacing: var(--button-letter-spacing);
+  overflow: hidden;
+  position: relative;
+  transform: translate3d(0, 0, 0);
   user-select: var(--button-user-select);
   vertical-align: text-top;
   white-space: nowrap;
   word-break: keep-all;
+}
+
+.ripple {
+  background-image: var(--button-ripple-background);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transform: scale(10);
+  transition: var(--button-ripple-transition);
+  width: 100%;
+}
+
+.button:active:not(:disabled) .ripple {
+  opacity: var(--button-ripple-active-opacity);
+  transform: scale(0);
+  transition: 0s;
 }
 
 .button:focus {
@@ -35,7 +60,7 @@
     margin: var(--button-icon-start-margin);
   }
 
-  &:last-child {
+  &:last-of-type:not(:first-child) {
     margin: var(--button-icon-end-margin);
   }
 }
