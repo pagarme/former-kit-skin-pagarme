@@ -8,11 +8,11 @@
   --card-background-color: var(--color-white);
   --card-border-radius: 3px;
 
-  --card-child-first-child-padding: var(--spacing-small);
+  --card-child-first-child-padding: var(--spacing-medium);
   --card-child-padding:
     0
-    var(--spacing-small)
-    var(--spacing-small);
+    var(--spacing-medium)
+    var(--spacing-medium);
   --card-graphic-padding: 0 0 var(--spacing-small);
 
   --card-title-color: var(--color-light-grey-100);
@@ -54,12 +54,12 @@
   --card-section-icon-box-size: 48px;
 
   --card-section-double-line-title-spacing: var(--spacing-tiny);
-  --card-section-double-line-divider-margin: var(--spacing-small) 0 0;
-  --card-section-double-line-actions-margin: var(--spacing-small);
+  --card-section-double-line-divider-margin: var(--spacing-medium) 0 0;
+  --card-section-double-line-actions-margin: var(--spacing-medium);
   --card-section-double-line-actions-last-child-margin: var(--spacing-large);
 
   --card-divider-border-color: var(--color-light-grey-20);
   --card-divider-border-style: solid;
   --card-divider-border-width: 1px 0 0;
-  --card-divider-margin: 0 var(--spacing-small) var(--spacing-small);
+  --card-divider-margin: 0 var(--spacing-medium) var(--spacing-medium);
 }
