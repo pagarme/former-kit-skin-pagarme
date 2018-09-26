@@ -2,6 +2,6 @@
 
 :root {
   --layout-background-color: var(--color-light-silver-40);
-  --layout-children-padding-y: 24px;
-  --layout-children-padding-x: 12px;
+  --layout-children-padding-y: 16px;
+  --layout-children-padding-x: 20px;
 }
