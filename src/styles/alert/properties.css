@@ -9,11 +9,9 @@
 
   --alert-border-radius: 3px;
 
-  --alert-dark-background-color: var(--color-light-carbon-100);
   --alert-dark-border: 1px solid var(--color-light-steel-200);
   --alert-dark-color: var(--color-white);
 
-  --alert-light-background-color: var(--color-white);
   --alert-light-border: 1px solid var(--color-light-iron-50);
   --alert-light-color: var(--color-light-steel-100);
 

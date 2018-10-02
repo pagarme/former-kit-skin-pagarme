@@ -18,13 +18,11 @@
 }
 
 .dark {
-  background-color: var(--alert-dark-background-color);
   border: var(--alert-dark-border);
   color: var(--alert-dark-color);
 }
 
 .light {
-  background-color: var(--alert-light-background-color);
   border: var(--alert-light-border);
   color: var(--alert-light-color);
 }
