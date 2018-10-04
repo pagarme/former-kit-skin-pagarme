@@ -1,7 +1,9 @@
 @import "./properties.css";
 
 .target {
+  align-items: center;
   display: inline-flex;
+  justify-content: center;
   outline: none;
   position: relative;
 }
@@ -118,8 +120,6 @@
 }
 
 .bottomCenter {
-  left: var(--popover-bottom-center-left);
-  transform: var(--popover-bottom-center-transform);
 
   &:before {
     left: var(--popover-arrow-bottom-center-left);
@@ -157,8 +157,6 @@
 }
 
 .rightMiddle {
-  top: var(--popover-right-middle-top);
-  transform: var(--popover-right-middle-transform);
 
   &:before {
     top: var(--popover-arrow-right-middle-top);
@@ -194,8 +192,6 @@
 }
 
 .leftMiddle {
-  top: var(--popover-left-middle-top);
-  transform: var(--popover-left-middle-transform);
 
   &:before {
     top: var(--popover-arrow-left-middle-top);
@@ -231,8 +227,6 @@
 }
 
 .topCenter {
-  left: var(--popover-top-center-left);
-  transform: var(--popover-top-center-transform);
 
   &:before {
     left: var(--popover-arrow-top-center-left);

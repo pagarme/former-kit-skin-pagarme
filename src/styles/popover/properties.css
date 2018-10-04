@@ -98,27 +98,19 @@
   --popover-link-text-color-dark: var(--color-white);
   --popover-link-text-color-hover-dark: var(--color-light-greenish-100);
 
-  --popover-bottom-center-left: 50%;
-  --popover-bottom-center-transform: translateX(-50%);
   --popover-bottom-end-right: calc(var(--spacing-small) * -1);
   --popover-bottom-start-left: calc(var(--spacing-small) * -1);
   --popover-bottom-start-top: calc(100% + var(--spacing-small));
 
   --popover-left-end-bottom: calc(var(--spacing-tiny) * -1);
-  --popover-left-middle-top: 50%;
-  --popover-left-middle-transform: translateY(-50%);
   --popover-left-right: calc(100% + var(--spacing-small));
   --popover-left-start-top: calc(var(--spacing-tiny) * -1);
 
   --popover-right-end-bottom: calc(var(--spacing-tiny) * -1);
   --popover-right-left: calc(100% + var(--spacing-small));
-  --popover-right-middle-top: 50%;
-  --popover-right-middle-transform: translateY(-50%);
   --popover-right-start-top: calc(var(--spacing-tiny) * -1);
 
   --popover-top-bottom: calc(100% + var(--spacing-small));
-  --popover-top-center-left: 50%;
-  --popover-top-center-transform: translateX(-50%);
   --popover-top-end-right: calc(var(--spacing-tiny) * -1);
   --popover-top-start-left: calc(var(--spacing-tiny) * -1);
 
