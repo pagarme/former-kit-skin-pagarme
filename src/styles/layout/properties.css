@@ -1,7 +1,8 @@
 @import "../colors.css";
+@import "../spacing.css";
 
 :root {
   --layout-background-color: var(--color-light-silver-40);
-  --layout-children-padding-y: 24px;
-  --layout-children-padding-x: 12px;
+  --layout-children-padding-y: var(--spacing-small);
+  --layout-children-padding-x: var(--spacing-medium);
 }

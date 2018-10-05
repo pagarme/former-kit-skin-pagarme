@@ -1,6 +1,8 @@
+@import "../spacing.css";
+
 :root {
   --grid-max-columns: 12;
-  --grid-column-spacing: 24px;
-  --grid-row-spacing: 24px;
+  --grid-column-spacing: var(--spacing-small);
+  --grid-row-spacing: var(--spacing-small);
 }
 
