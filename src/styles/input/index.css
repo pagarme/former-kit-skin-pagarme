@@ -193,3 +193,16 @@
 .container > textarea:disabled::placeholder {
   cursor: not-allowed;
 }
+
+/* Sizes */
+
+.tiny {
+  min-height: var(--input-tiny-height);
+
+  & input,
+  & textarea,
+  & input::placeholder,
+  & textarea::placeholder {
+    font-size: var(--input-tiny-font-size);
+  }
+}
