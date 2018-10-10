@@ -33,7 +33,7 @@
   --card-subtitle-font-weight: normal;
   --card-subtitle-color: var(--color-light-grey-100);
 
-  --card-actions-spacing: var(--spacing-tiny);
+  --card-actions-spacing: var(--spacing-small);
 
   --card-section-background-color: var(--color-light-smoke-40);
 
