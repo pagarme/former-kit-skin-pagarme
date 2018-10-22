@@ -15,6 +15,7 @@
   outline: none;
   overflow: unset;
   position: relative;
+  transform: var(--modal-content-transform);
   width: var(--modal-inner-width);
 
   & .title,
@@ -28,6 +29,15 @@
   }
 }
 
+.modalAfterOpen {
+  transition: var(--modal-content-transition);
+  transform: var(--modal-content-transform-none);
+}
+
+.modalBeforeClose {
+  transform: var(--modal-content-transform);
+}
+
 .overlay {
   align-items: center;
   background: var(--modal-overlay-background);
@@ -35,10 +45,21 @@
   display: flex;
   justify-content: center;
   left: 0;
+  opacity: var(--modal-overlay-opacity-none);
   position: fixed;
   right: 0;
   top: 0;
   z-index: var(--modal-overlay-z-index);
+}
+
+.overlayAfterOpen {
+  opacity: var(--modal-overlay-opacity);
+  will-change: opacity;
+  transition: var(--modal-overlay-transition);
+}
+
+.overlayBeforeClose {
+  opacity: var(--modal-overlay-opacity-none);
 }
 
 .centerAlign {
