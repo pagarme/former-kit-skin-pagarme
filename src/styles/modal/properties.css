@@ -31,4 +31,13 @@
   --modal-divider-border-style: solid;
   --modal-divider-border-width: 1px 0 0;
   --modal-divider-margin: 0 var(--spacing-small) var(--spacing-small);
+  --modal-overlay-opacity-none: 0;
+  --modal-overlay-opacity: 1;
+
+  --modal-overlay-transition: opacity 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+
+  --modal-content-transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+
+  --modal-content-transform-none: translate(0, 0);
+  --modal-content-transform: translateY(100vh) translateY(-88.75px);
 }
