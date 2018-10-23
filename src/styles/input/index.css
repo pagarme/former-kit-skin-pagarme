@@ -128,6 +128,20 @@
   font-size: var(--input-font-size);
 }
 
+/* stylelint-disable selector-no-qualifying-type */
+
+.container > input[type="number"] {
+  appearance: textfield;
+}
+
+.container > input[type="number"]::-webkit-inner-spin-button,
+.container > input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+/* stylelint-enable selector-no-qualifying-type */
+
 .icon {
   align-items: center;
   display: flex;

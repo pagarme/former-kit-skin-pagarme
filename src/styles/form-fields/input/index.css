@@ -129,6 +129,20 @@
   opacity: var(--input-textarea-placeholder-opacity);
 }
 
+/* stylelint-disable selector-no-qualifying-type */
+
+.container > input[type="number"] {
+  appearance: textfield;
+}
+
+.container > input[type="number"]::-webkit-inner-spin-button,
+.container > input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+/* stylelint-enable selector-no-qualifying-type */
+
 .container > label {
   color: var(--input-label-color);
   font-size: var(--input-label-font-size-default);
