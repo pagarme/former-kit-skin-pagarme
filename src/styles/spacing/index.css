@@ -11,6 +11,7 @@
 
 .flex {
   flex: 1;
+  min-width: var(--spacing-tiny);
 }
 
 .tiny {
