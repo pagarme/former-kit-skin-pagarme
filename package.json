@@ -32,7 +32,7 @@
     "npm-run-all": "4.1.2",
     "prop-types": "15.6.0",
     "react": "16.2.0",
-    "react-dom": "16.2.0",
+    "react-dom": "16.2.1",
     "stylelint": "8.4.0",
     "stylelint-config-pagarme-react": "1.2.0"
   },
