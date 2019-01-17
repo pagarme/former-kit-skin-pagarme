@@ -3,6 +3,6 @@ import IconArrowLeft from 'emblematic-icons/svg/ChevronBack24.svg'
 import IconArrowRight from 'emblematic-icons/svg/ChevronForward24.svg'
 
 module.exports = {
-  previousMonth: <IconArrowLeft />,
   nextMonth: <IconArrowRight />,
+  previousMonth: <IconArrowLeft />,
 }

@@ -35,6 +35,7 @@
   --dropdown-icon-color: var(--color-light-steel-100);
   --dropdown-icon-height: inherit;
   --dropdown-icon-width: var(--dropdown-height);
+  --dropdown-icon-top: 0;
 
   --dropdown-focus-border-color: var(--color-light-greenish-100);
   --dropdown-focus-transition-time: 100ms;

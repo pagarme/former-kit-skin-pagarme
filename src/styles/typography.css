@@ -12,7 +12,6 @@
   --body-font-size: 16px;
   --blockquote-border-radius: 2px;
   --blockquote-border: 5px solid var(--color-light-greenish-100);
-
   --title-font-family: "Assistant", sans-serif;
   --title-color: var(--color-light-coal-100);
   --title-font-weight: bold;
@@ -23,7 +22,8 @@
   --body-color: var(--color-light-chromium-100);
 }
 
-/* stylelint-disable */
+/* stylelint-disable selector-max-type */
+
 body {
   font-family: var(--body-font-family);
   font-size: var(--body-font-size);
@@ -68,7 +68,7 @@ p {
 }
 
 a,
-[role=link] {
+[role="link"] {
   appearance: none;
   border: none;
   background: none;
@@ -98,4 +98,5 @@ blockquote {
   padding-left: var(--spacing-small);
   margin: 0;
 }
-/* stylelint-enable */
+
+/* stylelint-enable selector-max-type */
