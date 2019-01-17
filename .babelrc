@@ -1,8 +1,8 @@
 {
   "presets": [
-    "react-app"
-  ],
-  "plugins": [
-    "babel-plugin-transform-es2015-modules-commonjs"
+    ["@babel/preset-env", {
+      "loose": true,
+    }],
+    "@babel/preset-react"
   ]
 }
