@@ -53,6 +53,7 @@
     font-weight 150ms cubic-bezier(0.47, 0, 0.75, 0.72),
     border-left-width 150ms cubic-bezier(0.47, 0, 0.75, 0.72),
     border-left-color 150ms cubic-bezier(0.47, 0, 0.75, 0.72);
+  --date-selector-sidebar-max-width: 160px;
   --date-selector-sidebar-label-width: 100%;
   --date-selector-sidebar-label-will-change:
     color,
@@ -60,6 +61,11 @@
     font-weight,
     border-left-width,
     border-left-color;
+
+  --date-selector-sidebar-arrow-size: 15px;
+  --date-selector-sidebar-arrow-left: 17px;
+  --date-selector-sidebar-arrow-top: -8px;
+  --date-selector-sidebar-arrow-transform: rotate(45deg);
 
   --date-selector-week-name-background: var(--color-light-silver-20);
   --date-selector-week-name-color: var(--color-light-greenish-100);
