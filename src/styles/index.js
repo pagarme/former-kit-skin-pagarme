@@ -20,6 +20,7 @@ const UILanding = require('./landing/index.css')
 const UILayout = require('./layout/index.css')
 const UILegend = require('./legend/index.css')
 const UILinearProgress = require('./linear-progress/index.css')
+const UILoader = require('./loader/index.css')
 const UIModal = require('./modal/index.css')
 const UIPagination = require('./pagination/index.css')
 const UIPopover = require('./popover/index.css')
@@ -58,6 +59,7 @@ module.exports = {
   UILayout,
   UILegend,
   UILinearProgress,
+  UILoader,
   UIModal,
   UIPagination,
   UIPopover,
