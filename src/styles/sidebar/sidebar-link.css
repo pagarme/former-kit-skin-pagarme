@@ -11,6 +11,8 @@
   flex-direction: column;
   list-style: none;
   padding: 0;
+  transition: var(--sidebar-link-transition);
+  white-space: nowrap;
 
   & > * {
     flex: 1;

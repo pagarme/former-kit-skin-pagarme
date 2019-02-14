@@ -17,7 +17,7 @@
   font-family: var(--sidebar-font-family);
   min-height: 100vh;
   user-select: var(--sidebar-user-select);
-  width: var(--sidebar-width);
+  overflow: hidden;
 
   & > div {
     display: flex;
@@ -39,6 +39,7 @@
 
 .collapsed {
   width: var(--sidebar-collapsed-width);
+  transition: var(--sidebar-transition);
 
   & header {
     justify-content: center;
@@ -48,4 +49,9 @@
     height: var(--sidebar-collapsed-header-button-size);
     width: var(--sidebar-collapsed-header-button-size);
   }
+}
+
+.expanded {
+  width: var(--sidebar-width);
+  transition: var(--sidebar-transition);
 }
