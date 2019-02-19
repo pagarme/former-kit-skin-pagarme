@@ -1,0 +1,60 @@
+@import "./properties.css";
+
+.snackbar * {
+  box-sizing: border-box;
+}
+
+.icon {
+  color: var(--snackbar-color);
+  justify-content: flex-end;
+}
+
+.snackbar {
+  align-items: center;
+  border-bottom-left-radius: var(--snackbar-border-radius);
+  border-bottom-right-radius: var(--snackbar-border-radius);
+  color: var(--snackbar-color);
+  display: flex;
+  flex-direction: row;
+  font-family: var(--snackbar-font-family);
+  font-size: var(--snackbar-font-size);
+  height: var(--snackbar-height);
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+
+  & > .content + button,
+  & > .content + button:hover {
+    color: var(--snackbar-color);
+  }
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.timer {
+  display: flex;
+  vertical-align: middle;
+}
+
+.warning {
+  background-color: var(--snackbar-warning-color);
+}
+
+.info {
+  background-color: var(--snackbar-info-color);
+}
+
+.error {
+  background-color: var(--snackbar-error-color);
+}
+
+.success {
+  background-color: var(--snackbar-success-color);
+}
