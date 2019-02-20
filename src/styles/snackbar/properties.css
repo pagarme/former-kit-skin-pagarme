@@ -1,0 +1,20 @@
+@import "../colors.css";
+@import "../spacing.css";
+@import "../typography.css";
+
+:root {
+  --snackbar-height: 36px;
+  --snackbar-color: var(--color-white);
+
+  --snackbar-border-radius: 3px;
+
+  --snackbar-font-family: var(--title-font-family);
+  --snackbar-font-size: 16px;
+
+  --snackbar-icon-color: var(--color-white);
+
+  --snackbar-error-color: var(--color-light-error);
+  --snackbar-info-color: var(--color-light-info);
+  --snackbar-success-color: var(--color-light-success);
+  --snackbar-warning-color: var(--color-light-warning);
+}
