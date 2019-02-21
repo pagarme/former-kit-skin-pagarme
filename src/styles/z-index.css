@@ -1,5 +1,6 @@
 :root {
   --calendar-picker-z-index: 0;
+  --date-selector-sidebar-z-index: 1;
   --date-selector-z-index: 10;
   --header-z-index: 100;
   --input-z-index: 1;

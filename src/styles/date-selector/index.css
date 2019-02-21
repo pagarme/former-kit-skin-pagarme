@@ -2,10 +2,23 @@
 @import "../spacing.css";
 @import "../colors.css";
 @import "./properties.css";
+@import "../z-index.css";
+
+.dateselector {
+  background-color: inherit;
+  display: inline-flex;
+
+  & > div .container {
+    border-width: 0;
+    border-top-left-radius: var(--date-selector-border-radius);
+  }
+}
 
 .container,
 .container * {
   box-sizing: border-box;
+  border-top-left-radius: var(--date-selector-border-radius);
+  border-bottom-left-radius: var(--date-selector-border-radius);
 }
 
 .container {
@@ -13,22 +26,38 @@
   border-color: var(--date-selector-border-color);
   border-style: var(--date-selector-border-style);
   border-radius: var(--date-selector-border-radius);
-  border-width: var(--date-selector-border-width);
-  box-shadow: var(--date-selector-box-shadow);
   display: inline-flex;
   user-select: var(--date-selector-user-select);
 }
 
 .sidebar {
   background-color: var(--date-selector-sidebar-background);
-  border-color: inherit;
-  border-radius: var(--date-selector-sidebar-border-radius);
-  border-style: inherit;
-  border-width: 0 1px 0 0;
-  padding: var(--date-selector-sidebar-padding);
+  box-shadow: unset;
+  max-width: var(--date-selector-sidebar-max-width);
+  z-index: var(--date-selector-sidebar-z-index);
 }
 
-.sidebar h2 {
+.sidebar:before {
+  background-color: inherit;
+  border-top-left-radius: var(--date-selector-border-radius);
+  content: "";
+  display: block;
+  height: var(--date-selector-sidebar-arrow-size);
+  left: var(--date-selector-sidebar-arrow-left);
+  position: absolute;
+  top: var(--date-selector-sidebar-arrow-top);
+  transform: var(--date-selector-sidebar-arrow-transform);
+  width: var(--date-selector-sidebar-arrow-size);
+}
+
+.aside {
+  background-color: var(--date-selector-sidebar-background);
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  padding: 15px 30px;
+}
+
+.aside h2 {
   color: var(--date-selector-sidebar-h2-color);
   font-size: var(--date-selector-sidebar-h2-font-size);
   font-style: var(--date-selector-sidebar-h2-font-style);
@@ -38,28 +67,28 @@
   text-transform: var(--date-selector-sidebar-h2-text-transform);
 }
 
-.sidebar li,
-.sidebar ol {
+.aside li,
+.aside ol {
   margin: 0;
   padding: 0;
 }
 
-.sidebar li {
+.aside li {
   list-style: none;
   margin-top: var(--spacing-small);
 }
 
-.sidebar li:first-child {
+.aside li:first-child {
   margin-top: unset;
 }
 
-.sidebar input {
+.aside input {
   appearance: none;
   opacity: 0;
   position: absolute;
 }
 
-.sidebar label {
+.aside label {
   border-left: var(--date-selector-sidebar-label-border-left);
   color: var(--date-selector-sidebar-label-color);
   cursor: pointer;
@@ -72,9 +101,12 @@
   transition: var(--date-selector-sidebar-label-transition);
   width: var(--date-selector-sidebar-label-width);
   will-change: var(--date-selector-sidebar-label-will-change);
+
+  /* TODO: remove this when truncate component is available */
+  white-space: nowrap;
 }
 
-.sidebar input:checked ~ label {
+.aside input:checked ~ label {
   color: var(--date-selector-sidebar-active-color);
   border-left-color: var(--date-selector-sidebar-active-color);
   border-left-width: var(--date-selector-sidebar-input-border-width);
@@ -84,6 +116,7 @@
 
 .stage {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: space-between;
   padding-top: var(--spacing-tiny);
