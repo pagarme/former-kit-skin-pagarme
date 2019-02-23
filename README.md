@@ -13,27 +13,10 @@ Our style guide as a FormerKit skin
 ## Using
 
 This skin is based on our component style guide and built to work with
-[FormerKit Dashboard][react-scripts] setup, which relies heavily on
-features from [cssnext][cssnext].
+[FormerKit Dashboard][react-scripts] setup. To use it, you need to set some
+configurations on Webpack and install some packages.
 
-To install this skin:
-
-```
-yarn add former-kit-skin-pagarme
-```
-
-Configure `ThemeProvider` accordingly:
-
-```jsx
-import { ThemeProvider } from 'former-kit'
-import pagarmeSkin from 'former-kit-skin-pagarme'
-
-const App = () => (
-  <ThemeProvider theme={pagarmeSkin}>
-    ...
-  </ThemeProvider>
-)
-```
+[You can follow it here](./doc/how-to-install.md).
 
 ## Development
 
