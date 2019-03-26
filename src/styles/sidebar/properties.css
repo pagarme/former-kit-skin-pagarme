@@ -2,9 +2,11 @@
 @import "../media.css";
 
 :root {
-  --sidebar-width: 222px;
+  --sidebar-collapsed-min-width: 78px;
+  --sidebar-expanded-min-width: 222px;
 
   --sidebar-collapsed-width: 78px;
+  --sidebar-expanded-width: 222px;
 
   --sidebar-background-color: var(--color-light-carbon-40);
 
