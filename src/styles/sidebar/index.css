@@ -38,8 +38,9 @@
 }
 
 .collapsed {
-  width: var(--sidebar-collapsed-width);
+  min-width: var(--sidebar-collapsed-min-width);
   transition: var(--sidebar-transition);
+  width: var(--sidebar-collapsed-width);
 
   & header {
     justify-content: center;
@@ -52,6 +53,7 @@
 }
 
 .expanded {
-  width: var(--sidebar-width);
+  min-width: var(--sidebar-expanded-min-width);
   transition: var(--sidebar-transition);
+  width: var(--sidebar-expanded-width);
 }
