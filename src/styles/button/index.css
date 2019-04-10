@@ -38,6 +38,40 @@
   width: 100%;
 }
 
+.spinner {
+  animation: spinner 0.8s linear infinite;
+  border: 1px solid currentColor;
+  border-radius: 100%;
+  border-top-color: transparent;
+  display: inline-flex;
+  height: 14px;
+  transition: all 0.2s;
+  width: 14px;
+
+  &.endAlign {
+    margin-left: 4px;
+  }
+
+  &.startAlign {
+    margin-right: 4px;
+  }
+}
+
+.spinnerOnly {
+  margin-right: 0;
+  position: absolute;
+}
+
+/* This is used to show only the loader spinner when the component is loading */
+
+.hiddenChildren > *:not(.spinner) {
+  visibility: hidden;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .button:active:not(:disabled) .ripple {
   opacity: var(--button-ripple-active-opacity);
   transform: scale(0);
@@ -103,6 +137,19 @@
   height: var(--button-tiny-height);
   padding: var(--button-tiny-padding);
   text-transform: var(--button-tiny-text-transform);
+
+  & > .spinner {
+    height: 12px;
+    width: 12px;
+
+    &.endAlign {
+      margin-left: 6px;
+    }
+
+    &.startAlign {
+      margin-right: 6px;
+    }
+  }
 }
 
 .default {
@@ -117,6 +164,19 @@
   height: var(--button-huge-height);
   padding: var(--button-huge-padding);
   text-transform: var(--button-huge-text-transform);
+
+  & > .spinner {
+    height: 18px;
+    width: 18px;
+
+    &.endAlign {
+      margin-left: 6px;
+    }
+
+    &.startAlign {
+      margin-right: 6px;
+    }
+  }
 }
 
 /* button relevances */
@@ -398,5 +458,16 @@
   &.button:disabled,
   &.button:disabled:hover {
     border-color: var(--button-disabled-background-color);
+  }
+}
+
+@keyframes spinner {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(1turn);
   }
 }
