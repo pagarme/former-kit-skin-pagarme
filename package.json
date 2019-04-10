@@ -8,11 +8,13 @@
   "license": "CC-BY-4.0",
   "private": false,
   "scripts": {
-    "build:copy": "cpx -v $WATCH 'src/styles/**' dist/styles",
     "build:compile": "env NODE_ENV=production babel $WATCH src -d dist --ignore test,spec.js,test.js",
+    "build:copy": "cpx -v $WATCH 'src/styles/**' dist/styles",
     "build": "run-p build:copy build:compile",
-    "start": "env WATCH=-w run-p build:copy build:compile",
-    "lint": "eslint 'src/**/*.js'; stylelint 'src/**/*.css'"
+    "lint": "eslint 'src/**/*.js'; stylelint 'src/**/*.css'",
+    "prebuild": "rimraf ./dist",
+    "prepublish": "npm run build",
+    "start": "env WATCH=-w run-p build:copy build:compile"
   },
   "dependencies": {
     "emblematic-icons": "0.6.1",
