@@ -35,6 +35,7 @@ const UITabBar = require('./tab-bar/index.css')
 const UITable = require('./table/index.css')
 const UITag = require('./tag/index.css')
 const UITooltip = require('./tooltip/index.css')
+const UITruncate = require('./truncate/index.css')
 
 module.exports = {
   UIAlert,
@@ -74,4 +75,5 @@ module.exports = {
   UITable,
   UITag,
   UITooltip,
+  UITruncate,
 }
