@@ -37,7 +37,7 @@
     "react": "16.7.0",
     "react-dom": "16.7.0",
     "stylelint": "9.10.0",
-    "stylelint-config-pagarme-react": "1.2.0"
+    "stylelint-config-pagarme-react": "2.0.0"
   },
   "peerDependencies": {
     "react": "ˆ16.8.0",

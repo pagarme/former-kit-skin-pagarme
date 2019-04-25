@@ -10,6 +10,7 @@
           "define-mixin"
         ]
       }
-    ]
+    ],
+    "no-descending-specificity": null
   }
 }
