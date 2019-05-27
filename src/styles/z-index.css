@@ -4,8 +4,9 @@
   --date-selector-z-index: 10;
   --header-z-index: 100;
   --input-z-index: 1;
-  --modal-overlay-z-index: 1000;
+  --modal-overlay-z-index: 10000;
   --popover-z-index: 5;
+  --sidebar-z-index: 1000;
   --switch-bullet-z-index: 1;
   --textarea-z-index: 1;
   --tooltip-arrow-z-index: -1;

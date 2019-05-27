@@ -1,5 +1,6 @@
 @import "../colors.css";
 @import "../media.css";
+@import "../z-index.css";
 
 :root {
   --sidebar-collapsed-min-width: 78px;
@@ -66,5 +67,4 @@
   --sidebar-transition: width 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
 
   --sidebar-user-select: none;
-  --sidebar-z-index: 100000;
 }
