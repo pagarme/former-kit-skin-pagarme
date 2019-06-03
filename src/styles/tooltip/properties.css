@@ -8,7 +8,6 @@
   --tooltip-font-size: 12px;
   --tooltip-font-weight: normal;
   --tooltip-line-height: 1.5;
-  --tooltip-min-width: 200px;
   --tooltip-padding: var(--spacing-small);
   --tooltip-radius: 3px;
   --tooltip-text-color: var(--color-white);

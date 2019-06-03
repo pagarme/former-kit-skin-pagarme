@@ -17,7 +17,6 @@
   font-family: var(--sidebar-font-family);
   min-height: 100vh;
   user-select: var(--sidebar-user-select);
-  overflow: hidden;
 
   & > div {
     display: flex;
@@ -41,6 +40,7 @@
   min-width: var(--sidebar-collapsed-min-width);
   transition: var(--sidebar-transition);
   width: var(--sidebar-collapsed-width);
+  z-index: var(--sidebar-z-index);
 
   & header {
     justify-content: center;

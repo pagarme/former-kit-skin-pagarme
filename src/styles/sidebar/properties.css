@@ -1,5 +1,6 @@
 @import "../colors.css";
 @import "../media.css";
+@import "../z-index.css";
 
 :root {
   --sidebar-collapsed-min-width: 78px;
