@@ -16,7 +16,6 @@
   overflow: unset;
   position: relative;
   transform: var(--modal-content-transform);
-  width: var(--modal-inner-width);
 
   & .title,
   & .content,
@@ -124,4 +123,12 @@
   display: inherit;
   margin: 0;
   padding: 0;
+}
+
+.default {
+  width: var(--modal-inner-default-width);
+}
+
+.huge {
+  width: var(--modal-inner-huge-width);
 }
