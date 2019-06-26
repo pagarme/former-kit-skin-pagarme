@@ -49,3 +49,19 @@
   padding: var(--body-td-padding);
   position: relative;
 }
+
+.smallSize {
+  width: var(--column-td-size-small);
+}
+
+.mediumSize {
+  width: var(--column-td-size-medium);
+}
+
+.defaultSize {
+  width: var(--column-td-size-default);
+}
+
+.largeSize {
+  width: var(--column-td-size-large);
+}

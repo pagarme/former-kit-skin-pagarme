@@ -23,6 +23,11 @@
   --body-tr-odd-background-color: #f7f7f7;
   --body-tr-odd-border: var(--table-border);
 
+  --column-td-size-small: 74px;
+  --column-td-size-medium: 120px;
+  --column-td-size-default: 194px;
+  --column-td-size-large: 300px;
+
   --expandable-row-li-padding: 0 20px;
   --expandable-row-padding: 21px 24px 0 27px;
   --expandable-row-text-color: var(--color-light-chromium-100);
