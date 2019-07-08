@@ -31,14 +31,31 @@
   --context-switch-enter-border-style: solid;
   --context-switch-enter-border-width: 1px;
 
-  --spaced-switch-label-padding: var(--spacing-small);
+  --spaced-switch-tiny-spacing: var(--spacing-tiny);
+  --spaced-switch-small-spacing: var(--spacing-small);
+  --spaced-switch-medium-spacing: var(--spacing-medium);
+  --spaced-switch-large-spacing: var(--spacing-large);
 
-  --spaced-switch-enter-background-color-active: var(--color-light-greenish-150);
+  --spaced-switch-background: var(--color-white);
+  --spaced-switch-background-active: var(--color-light-greenish-150);
+  --spaced-switch-background-hover: var(--color-light-greenish-120);
+  --spaced-switch-background-checked: var(--color-light-greenish-gradient);
   --spaced-switch-checked-color: var(--color-white);
   --spaced-switch-disabled-color: var(--color-white);
 
-  --spaced-switch-label-background: var(--color-light-greenish-gradient);
-
   --spaced-switch-label-focus-border: 1px solid var(--color-light-greenish-150);
   --spaced-switch-label-focus-border-shadown: var(--color-light-greenish-150) 0 0 0 1px inset;
+
+  --low-relevance-spaced-switch-background: transparent;
+  --low-relevance-spaced-switch-background-active: var(--color-light-grey-50);
+  --low-relevance-spaced-switch-background-hover: var(--color-light-smoke-100);
+  --low-relevance-spaced-switch-background-checked: var(--color-light-smoke-50);
+  --low-relevance-spaced-switch-color: var(--color-light-coal-100);
+  --low-relevance-spaced-switch-checked-color: var(--color-light-carbon-40);
+
+  --low-relevance-spaced-switch-checked-label-border:
+    0 0 0 1px var(--color-white),
+    0 0 0 2px var(--color-light-steel-50);
+
+  --low-relevance-spaced-switch-label-focus-border-shadow: 0 0 0 1px var(--color-light-steel-50);
 }
