@@ -9,13 +9,13 @@
   --sidebar-collapsed-width: 78px;
   --sidebar-expanded-width: 222px;
 
-  --sidebar-background-color: var(--color-light-carbon-40);
+  --sidebar-background-color: var(--color-light-carbon-60);
 
   --sidebar-font-family: var(--title-font-family);
 
   --sidebar-header-height: 72px;
   --sidebar-header-text-color: var(--color-white);
-  --sidebar-header-padding: 15px;
+  --sidebar-header-padding: var(--spacing-small) var(--spacing-medium);
   --sidebar-header-border-bottom: 1px solid var(--color-light-steel-200);
 
   --sidebar-header-button-border: none;
