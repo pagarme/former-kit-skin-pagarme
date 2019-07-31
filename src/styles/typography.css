@@ -100,3 +100,17 @@ blockquote {
 }
 
 /* stylelint-enable selector-max-type */
+
+/* General typography classes */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
