@@ -17,7 +17,7 @@
   --input-textarea-border-radius: 3px;
   --input-textarea-border-style: solid;
   --input-textarea-border-width: 0 0 2px 0;
-  --input-textarea-caret-default-color: var(--color-light-chromium-100);
+  --input-textarea-caret-default-color: var(--color-light-steel-100);
   --input-textarea-height: calc(100% - 25px);
   --input-textarea-label-top: 0;
   --input-textarea-placeholder-opacity: 0;

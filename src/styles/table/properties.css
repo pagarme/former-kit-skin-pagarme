@@ -8,7 +8,7 @@
   --table-font-size: 14px;
   --table-width: 100%;
 
-  --body-td-color: var(--color-light-chromium-100);
+  --body-td-color: var(--color-light-steel-100);
   --body-td-font-size: 13px;
   --body-td-padding: var(--spacing-small);
 
@@ -25,7 +25,7 @@
 
   --expandable-row-li-padding: 0 20px;
   --expandable-row-padding: 21px 24px 0 27px;
-  --expandable-row-text-color: var(--color-light-chromium-100);
+  --expandable-row-text-color: var(--color-light-steel-100);
   --expandable-row-text-min-width: 50px;
   --expandable-row-text-padding-bottom: var(--spacing-medium);
   --expandable-row-title-color: var(--color-light-grey-100);

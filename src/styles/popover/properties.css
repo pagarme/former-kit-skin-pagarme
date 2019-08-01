@@ -88,7 +88,7 @@
   --popover-link-hover-background: var(--color-light-smoke-40);
   --popover-link-hover-border-color: var(--color-light-steel-100);
   --popover-link-padding: var(--spacing-small);
-  --popover-link-text-color: var(--color-light-chromium-100);
+  --popover-link-text-color: var(--color-light-steel-100);
 
   --popover-border-color-dark: var(--popover-color-dark);
   --popover-child-border-color-dark: var(--color-light-steel-200);

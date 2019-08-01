@@ -19,7 +19,7 @@
   --body-font-family: "Rubik", sans-serif;
   --body-link-color: var(--color-light-greenish-100);
   --letter-spacing: 0.02em;
-  --body-color: var(--color-light-chromium-100);
+  --body-color: var(--color-light-steel-100);
 }
 
 /* stylelint-disable selector-max-type */
