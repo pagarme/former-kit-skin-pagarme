@@ -31,7 +31,7 @@
   --expandable-row-title-color: var(--color-light-grey-100);
   --expandable-row-title-padding-bottom: 0;
 
-  --footer-row-font-weight: bold;
+  --footer-row-font-weight: 500;
   --footer-row-text-transform: uppercase;
 
   --head-th-active-color: var(--color-light-greenish-100);
