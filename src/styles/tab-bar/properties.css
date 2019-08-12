@@ -10,7 +10,7 @@
   --tabbar-tab-color: var(--color-light-steel-100);
   --tabbar-tab-font-family: var(--title-font-family);
   --tabbar-tab-font-size: 14px;
-  --tabbar-tab-font-weight: bold;
+  --tabbar-tab-font-weight: 500;
   --tabbar-tab-margin: var(--spacing-small);
   --tabbar-tab-padding: 10px;
   --tabbar-tab-width: auto;
