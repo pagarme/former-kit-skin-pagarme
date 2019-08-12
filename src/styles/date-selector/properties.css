@@ -38,13 +38,13 @@
   --date-selector-sidebar-h2-text-transform: uppercase;
 
   --date-selector-sidebar-input-border-width: 2px;
-  --date-selector-sidebar-input-font-weight: bold;
+  --date-selector-sidebar-input-font-weight: 500;
   --date-selector-sidebar-input-padding-left: calc(var(--spacing-tiny) - 2px);
 
   --date-selector-sidebar-label-border-left: 0 solid rgba(var(--color-black), 0);
   --date-selector-sidebar-label-color: var(--color-light-steel-100);
   --date-selector-sidebar-label-font-size: 12px;
-  --date-selector-sidebar-label-font-weight: bold;
+  --date-selector-sidebar-label-font-weight: 500;
   --date-selector-sidebar-label-margin-left: var(--spacing-tiny);
   --date-selector-sidebar-label-text-transform: uppercase;
   --date-selector-sidebar-label-transition:
@@ -70,7 +70,7 @@
   --date-selector-week-name-background: var(--color-light-silver-20);
   --date-selector-week-name-color: var(--color-light-greenish-100);
   --date-selector-week-name-font-size: 14px;
-  --date-selector-week-name-font-weight: bold;
+  --date-selector-week-name-font-weight: 500;
 
   --date-selector-separator: var(--color-light-platinum-50);
   --date-selector-separator-height: 14px;
