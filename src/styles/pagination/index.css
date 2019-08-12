@@ -95,7 +95,7 @@
   color: var(--pagination-input-color);
   font-family: inherit;
   font-size: inherit;
-  font-weight: bold;
+  font-weight: var(--pagination-input-font-weight);
   height: var(--pagination-input-height);
   left: var(--pagination-input-left);
   letter-spacing: var(--pagination-input-letter-spacing);
