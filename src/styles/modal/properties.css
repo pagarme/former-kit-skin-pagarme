@@ -25,6 +25,7 @@
   --modal-title-icon-spacing: var(--spacing-tiny);
   --modal-title-margin: 0;
   --modal-title-text-transform: uppercase;
+  --modal-title-font-weight: 500;
 
   --modal-section-background-color: var(--color-light-smoke-40);
 
