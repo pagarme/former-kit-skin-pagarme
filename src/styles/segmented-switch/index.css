@@ -33,7 +33,7 @@
   display: flex;
   font-family: var(--context-switch-font-family);
   font-size: var(--context-switch-label-font-size);
-  font-weight: 500;
+  font-weight: var(--context-switch-font-weight);
   height: var(--context-switch-label-height);
   letter-spacing: var(--context-switch-letter-spacing);
   padding: var(--context-switch-label-padding);
