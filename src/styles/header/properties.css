@@ -16,7 +16,7 @@
 
   --header-title-color: var(--color-light-greenish-100);
   --header-title-font-size: 18px;
-  --header-title-font-weight: 500;
+  --header-title-font-weight: var(--body-text-weight);
 
   --header-link-color: var(--color-light-grey-50);
 

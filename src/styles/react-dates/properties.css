@@ -16,7 +16,7 @@
   --calendar-day-picker-background-color: transparent;
   --calendar-day-picker-background: none;
   --calendar-day-picker-border: none;
-  --calendar-day-picker-font-weight: 500;
+  --calendar-day-picker-font-weight: var(--body-text-weight);
   --calendar-day-picker-header-text-transform: uppercase;
   --calendar-day-picker-header-top: 53px;
   --calendar-day-picker-prev-left: 22px;
@@ -43,14 +43,14 @@
   --calendar-week-name-border-width: 1px 0;
   --calendar-week-name-color: var(--color-light-greenish-100);
   --calendar-week-name-font-size: 12px;
-  --calendar-week-name-font-weight: 500;
+  --calendar-week-name-font-weight: var(--body-text-weight);
   --calendar-week-padding-bottom: 5px;
   --calendar-week-padding-top: 4px;
   --calendar-week-spacing: 3px;
 
   --calendar-active-color: var(--color-light-greenish-100);
   --calendar-day-selected-border-radius: 3px;
-  --calendar-day-selected-font-weight: 500;
+  --calendar-day-selected-font-weight: var(--body-text-weight);
   --calendar-day-selected-border-color: var(--color-light-greenish-150);
   --calendar-hovered-span: var(--color-light-greenish-20);
   --calendar-selected-span-background-color: var(--color-light-silver-40);

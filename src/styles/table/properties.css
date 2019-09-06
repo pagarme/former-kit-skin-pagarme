@@ -31,13 +31,13 @@
   --expandable-row-title-color: var(--color-light-grey-100);
   --expandable-row-title-padding-bottom: 0;
 
-  --footer-row-font-weight: 500;
+  --footer-row-font-weight: var(--body-text-weight);
   --footer-row-text-transform: uppercase;
 
   --head-th-active-color: var(--color-light-greenish-100);
   --head-th-color: var(--color-light-grey-100);
   --head-th-font-size: 12px;
-  --head-th-font-weight: 500;
+  --head-th-font-weight: var(--body-text-weight);
   --head-th-line-height: normal;
   --head-th-padding: var(--spacing-small);
   --head-th-separator-border: solid 1px #e1e5e8;

@@ -7,7 +7,7 @@
   --button-color: var(--color-white);
   --button-font-family: var(--title-font-family);
   --button-font-style: var(--title-font-style);
-  --button-font-weight: 500;
+  --button-font-weight: var(--body-text-weight);
   --button-letter-spacing: var(--letter-spacing);
   --button-user-select: none;
 
