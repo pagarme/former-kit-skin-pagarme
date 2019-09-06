@@ -20,9 +20,9 @@
   --dropdown-icon-size: 30px;
 
   --dropdown-label-color: var(--form-item-label-color);
-  --dropdown-label-font-size: var(--form-item-secondary-font-size);
+  --dropdown-label-font-size: var(--form-item-font-size);
 
-  --dropdown-secondary-text-font-size: var(--form-item-secondary-font-size);
+  --dropdown-secondary-text-font-size: var(--form-item-font-size);
   --dropdown-secondary-text-success-color: var(--color-light-success);
 
   --dropdown-focus-border-color: var(--color-light-greenish-100);
