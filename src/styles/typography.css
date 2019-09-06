@@ -10,6 +10,7 @@
   --display-4-font-size: 72px;
   --caption-font-size: 12px;
   --body-font-size: 16px;
+  --body-text-weight: 500;
   --blockquote-border-radius: 2px;
   --blockquote-border: 5px solid var(--color-light-greenish-100);
   --title-font-family: "Rubik", sans-serif;
