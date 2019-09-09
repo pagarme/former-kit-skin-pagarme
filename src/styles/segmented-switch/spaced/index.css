@@ -7,7 +7,7 @@
 .segmentedSwitch {
   box-sizing: border-box;
   display: inline-flex;
-  height: 40px;
+  height: var(--spaced-switch-height);
   user-select: none;
 }
 
@@ -30,11 +30,11 @@
   cursor: pointer;
   display: flex;
   font-family: var(--context-switch-font-family);
-  font-size: 15px;
-  font-weight: bold;
+  font-size: var(--context-switch-font-size);
+  font-weight: var(--context-switch-font-weight);
   height: var(--context-switch-label-height);
   letter-spacing: var(--context-switch-letter-spacing);
-  padding: 20px;
+  padding: var(--spaced-switch-label-padding);
   position: relative;
   white-space: nowrap;
 }

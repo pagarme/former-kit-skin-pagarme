@@ -91,6 +91,7 @@
   color: var(--modal-title-color);
   flex: 1;
   font-size: var(--modal-title-font-size);
+  font-weight: var(--modal-title-font-weight);
   margin: var(--modal-title-margin);
   text-transform: var(--modal-title-text-transform);
 }

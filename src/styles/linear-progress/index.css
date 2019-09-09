@@ -32,7 +32,7 @@
   display: inline-block;
   font-family: var(--progress-linear-number-font-family);
   font-size: var(--progress-linear-number-font-size);
-  font-weight: bold;
+  font-weight: var(--body-text-weight);
   height: 100%;
   margin-top: var(--progress-linear-number-margin-top);
   text-align: right;

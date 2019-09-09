@@ -1,4 +1,4 @@
-@import "./webfonts/assistant/index.css";
+@import "./webfonts/rubik/index.css";
 @import "./spacing.css";
 @import "./colors.css";
 
@@ -10,16 +10,17 @@
   --display-4-font-size: 72px;
   --caption-font-size: 12px;
   --body-font-size: 16px;
+  --body-text-weight: 500;
   --blockquote-border-radius: 2px;
   --blockquote-border: 5px solid var(--color-light-greenish-100);
-  --title-font-family: "Assistant", sans-serif;
+  --title-font-family: "Rubik", sans-serif;
   --title-color: var(--color-light-coal-100);
-  --title-font-weight: bold;
+  --title-font-weight: 500;
   --title-font-style: normal;
-  --body-font-family: "Assistant", sans-serif;
+  --body-font-family: "Rubik", sans-serif;
   --body-link-color: var(--color-light-greenish-100);
   --letter-spacing: 0.02em;
-  --body-color: var(--color-light-chromium-100);
+  --body-color: var(--color-light-steel-100);
 }
 
 /* stylelint-disable selector-max-type */
@@ -100,3 +101,17 @@ blockquote {
 }
 
 /* stylelint-enable selector-max-type */
+
+/* General typography classes */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}

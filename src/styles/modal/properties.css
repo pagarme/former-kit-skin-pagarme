@@ -1,5 +1,6 @@
 @import "../colors.css";
 @import "../spacing.css";
+@import "../typography.css";
 
 :root {
   --modal-actions-margin: var(--spacing-small);
@@ -25,6 +26,7 @@
   --modal-title-icon-spacing: var(--spacing-tiny);
   --modal-title-margin: 0;
   --modal-title-text-transform: uppercase;
+  --modal-title-font-weight: var(--body-text-weight);
 
   --modal-section-background-color: var(--color-light-smoke-40);
 

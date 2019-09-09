@@ -1,5 +1,6 @@
 @import "../colors.css";
 @import "../spacing.css";
+@import "../typography.css";
 
 :root {
   --steps-background-color: var(--color-light-smoke-40);
@@ -7,7 +8,7 @@
   --steps-border-radius: 3px;
 
   --steps-item-font-size: 14px;
-  --steps-item-font-weight: 900;
+  --steps-item-font-weight: var(--body-text-weight);
   --steps-item-padding: var(--spacing-tiny);
   --steps-item-text-align: center;
   --steps-item-text-transform: uppercase;
@@ -15,7 +16,7 @@
   --steps-item-indicator-color: var(--color-light-greenish-100);
   --steps-item-indicator-error-color: var(--color-light-red-100);
   --steps-item-indicator-font-size: 14px;
-  --steps-item-indicator-font-weight: 900;
+  --steps-item-indicator-font-weight: var(--body-text-weight);
   --steps-item-indicator-line-height: 20px;
   --steps-item-indicator-margin-right: var(--spacing-tiny);
   --steps-item-indicator-size: 20px;

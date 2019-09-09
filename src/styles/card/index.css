@@ -70,7 +70,6 @@
   display: inline-flex;
   font-size: var(--card-title-font-size);
   font-weight: var(--card-title-font-weight);
-  text-transform: var(--card-title-text-transform);
 }
 
 .title > h3 {

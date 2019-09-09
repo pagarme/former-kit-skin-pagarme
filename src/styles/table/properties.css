@@ -8,7 +8,7 @@
   --table-font-size: 14px;
   --table-width: 100%;
 
-  --body-td-color: var(--color-light-chromium-100);
+  --body-td-color: var(--color-light-steel-100);
   --body-td-font-size: 13px;
   --body-td-padding: var(--spacing-small);
 
@@ -25,19 +25,19 @@
 
   --expandable-row-li-padding: 0 20px;
   --expandable-row-padding: 21px 24px 0 27px;
-  --expandable-row-text-color: var(--color-light-chromium-100);
+  --expandable-row-text-color: var(--color-light-steel-100);
   --expandable-row-text-min-width: 50px;
   --expandable-row-text-padding-bottom: var(--spacing-medium);
-  --expandable-row-title-color: var(--color-light-steel-100);
+  --expandable-row-title-color: var(--color-light-grey-100);
   --expandable-row-title-padding-bottom: 0;
 
-  --footer-row-font-weight: bold;
+  --footer-row-font-weight: var(--body-text-weight);
   --footer-row-text-transform: uppercase;
 
   --head-th-active-color: var(--color-light-greenish-100);
-  --head-th-color: var(--color-light-steel-100);
+  --head-th-color: var(--color-light-grey-100);
   --head-th-font-size: 12px;
-  --head-th-font-weight: 600;
+  --head-th-font-weight: var(--body-text-weight);
   --head-th-line-height: normal;
   --head-th-padding: var(--spacing-small);
   --head-th-separator-border: solid 1px #e1e5e8;

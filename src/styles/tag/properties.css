@@ -8,7 +8,7 @@
   --tag-font-size: 12px;
   --tag-height: 26px;
   --tag-horizontal-padding: var(--spacing-small);
-  --tag-color: var(--color-light-chromium-100);
+  --tag-color: var(--color-light-steel-100);
   --tag-border: 1px dashed var(--color-light-coal-50);
   --tag-border-radius: 3px;
 }

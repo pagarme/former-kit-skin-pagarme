@@ -19,6 +19,7 @@
 
   --pagination-input-border: none;
   --pagination-input-color: inherit;
+  --pagination-input-font-weight: 600;
   --pagination-input-height: 100%;
   --pagination-input-left: 0;
   --pagination-input-letter-spacing: 0;
