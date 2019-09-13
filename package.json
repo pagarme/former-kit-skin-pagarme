@@ -17,8 +17,8 @@
     "start": "env WATCH=-w run-p build:copy build:compile"
   },
   "dependencies": {
-    "emblematic-icons": "0.6.1",
-    "react-dates": "18.4.0"
+    "emblematic-icons": "0.7.1",
+    "react-dates": "18.4.1"
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",
@@ -34,13 +34,13 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.14.3",
     "npm-run-all": "4.1.5",
-    "react": "16.7.0",
-    "react-dom": "16.7.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
     "stylelint": "10.1.0",
     "stylelint-config-pagarme-react": "2.0.0"
   },
   "peerDependencies": {
-    "react": "ˆ16.8.0",
-    "react-dom": "ˆ16.8.0"
+    "react": "ˆ16.9.0",
+    "react-dom": "ˆ16.9.0"
   }
 }
