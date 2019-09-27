@@ -11,7 +11,7 @@
   --context-switch-letter-spacing: 0.1em;
   --context-switch-text-transform: uppercase;
   --context-switch-font-weight: var(--body-text-weight);
-  --context-switch-font-size: 15px;
+  --context-switch-font-size: 12px;
 
   --context-switch-label-border: 1px solid transparent;
   --context-switch-label-border-radius: 3px;
