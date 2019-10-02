@@ -1,20 +1,24 @@
+/* stylelint-disable font-weight-notation */
+
 @font-face {
   font-family: "Rubik";
   src: url("./rubik-light.ttf") format("truetype");
-  font-weight: lighter;
+  font-weight: 100 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Rubik";
   src: url("./rubik-medium.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: 600 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Rubik";
   src: url("./rubik-regular.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 400 500;
   font-style: normal;
 }
+
+/* stylelint-enable font-weight-notation */
