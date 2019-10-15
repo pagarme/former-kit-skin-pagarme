@@ -102,7 +102,7 @@
   margin-right: var(--modal-title-icon-spacing);
 }
 
-.actions > * {
+.actions > *:not(:first-child) {
   margin-left: var(--modal-actions-margin);
 }
 
