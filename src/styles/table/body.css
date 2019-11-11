@@ -5,10 +5,7 @@
 }
 
 .tableBody .empty {
-  display: block;
-  padding-bottom: var(--table-body-empty-padding-bottom);
   position: relative;
-  width: 100%;
 }
 
 .tableBody .empty:before {
