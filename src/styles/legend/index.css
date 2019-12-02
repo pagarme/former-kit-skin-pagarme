@@ -14,8 +14,15 @@
   box-sizing: border-box;
   padding: var(--legend-label-padding);
   text-align: center;
-  text-transform: uppercase;
   width: auto;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 /* Add type selector to override normalize.css */

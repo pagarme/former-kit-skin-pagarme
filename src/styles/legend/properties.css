@@ -4,7 +4,7 @@
 :root {
   --legend-label-border-radius: 3px;
   --legend-label-default-color: var(--color-white);
-  --legend-label-font-size: 10px;
+  --legend-label-font-size: 11px;
   --legend-label-padding: 4px 6px;
   --legend-letter-spacing: var(--letter-spacing);
 
