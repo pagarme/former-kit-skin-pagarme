@@ -47,8 +47,8 @@
 
   --spaced-switch-label-focus-border: 1px solid var(--color-light-greenish-150);
   --spaced-switch-label-focus-border-shadown: var(--color-light-greenish-150) 0 0 0 1px inset;
-  --spaced-switch-label-padding: var(--spacing-medium);
-  --spaced-switch-height: 40px;
+  --spaced-switch-label-padding: var(--spacing-tiny);
+  --spaced-switch-height: auto;
 
   --low-relevance-spaced-switch-background: transparent;
   --low-relevance-spaced-switch-background-active: var(--color-light-grey-50);
