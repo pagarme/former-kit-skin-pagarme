@@ -24,6 +24,7 @@ const UIModal = require('./modal/index.css')
 const UIPagination = require('./pagination/index.css')
 const UIPopover = require('./popover/index.css')
 const UIRadioGroup = require('./radio-group/index.css')
+const UISecondaryLinearProgress = require('./linear-progress/secondary-linear-progress/index.css')
 const UISegmentedSwitch = require('./segmented-switch/index.css')
 const UISidebar = require('./sidebar/index.css')
 const UISnackbar = require('./snackbar/index.css')
@@ -64,6 +65,7 @@ module.exports = {
   UIPagination,
   UIPopover,
   UIRadioGroup,
+  UISecondaryLinearProgress,
   UISegmentedSwitch,
   UISidebar,
   UISnackbar,
