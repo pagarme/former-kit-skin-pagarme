@@ -36,6 +36,7 @@
   height: 100%;
   margin-top: var(--progress-linear-number-margin-top);
   text-align: right;
+  width: 100%;
 }
 
 .filledLabel {
