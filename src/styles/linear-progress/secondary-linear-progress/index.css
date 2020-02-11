@@ -1,0 +1,39 @@
+@import "../../webfonts/roboto/index.css";
+@import "../../colors.css";
+
+.linearProgress,
+.linearProgress * {
+  box-sizing: border-box;
+}
+
+.linearProgress {
+  align-items: center;
+  display: flex;
+  overflow: visible;
+  width: 100%;
+}
+
+.background {
+  background: var(--color-white);
+  border-radius: 8px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+  height: 12px;
+  width: 100%;
+}
+
+.fill {
+  background: var(--color-barney-purple-100);
+  border-radius: 8px;
+  height: 12px;
+}
+
+.number {
+  color: var(--color-barney-purple-200);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: start;
+  line-height: 16px;
+  margin-left: 12px;
+  width: 40px;
+}

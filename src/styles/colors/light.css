@@ -81,4 +81,7 @@
       var(--color-salmon-gradient-begin) 10%,
       var(--color-light-salmon-100) 90%
     );
+
+  --color-barney-purple-100: #8267d3;
+  --color-barney-purple-200: #6045af;
 }
