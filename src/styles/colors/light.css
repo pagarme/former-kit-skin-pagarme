@@ -82,6 +82,37 @@
       var(--color-light-salmon-100) 90%
     );
 
-  --color-barney-purple-100: #8267d3;
-  --color-barney-purple-200: #6045af;
+  --color-barney-purple-20: #dfd5ff;
+  --color-barney-purple-50: #8267d3;
+  --color-barney-purple-100: #6045af;
+  --color-barney-purple-200: #3f2787;
+  --color-beth-pink-20: #fbe5ec;
+  --color-beth-pink-50: #f55d8b;
+  --color-beth-pink-100: #df285f;
+  --color-beth-pink-200: #a71a44;
+  --color-birdperson-gray-500: #454550;
+  --color-birdperson-gray-600: #30313c;
+  --color-birdperson-gray-700: #1b1c29;
+  --color-birdperson-gray-800: #070817;
+  --color-morty-yellow-50: #f8cc43;
+  --color-morty-yellow-100: #f3b700;
+  --color-mrmeeseks-blue-20: #e2efff;
+  --color-mrmeeseks-blue-50: #5691d6;
+  --color-mrmeeseks-blue-100: #4079bb;
+  --color-mrmeeseks-blue-200: #235894;
+  --color-picklerick-green-20: #ecffce;
+  --color-picklerick-green-50: #7fcc00;
+  --color-picklerick-green-100: #65a300;
+  --color-picklerick-green-200: #4f7f00;
+  --color-snuffles-white: #ffffff;
+  --color-squanchy-gray-20: #f2f2f3;
+  --color-squanchy-gray-50: #cdcdd0;
+  --color-squanchy-gray-100: #a8a8ad;
+  --color-squanchy-gray-200: #8b8b92;
+  --color-squanchy-gray-300: #72737a;
+  --color-squanchy-gray-400: #595a63;
+  --color-summer-orange-20: #fae2d2;
+  --color-summer-orange-50: #f4893f;
+  --color-summer-orange-100: #ec6e16;
+  --color-summer-orange-200: #c25408;
 }
