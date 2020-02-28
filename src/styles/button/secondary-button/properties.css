@@ -1,0 +1,21 @@
+@import "../../spacing.css";
+@import "../../colors.css";
+@import "../../webfonts/roboto/index.css";
+
+:root {
+  --secondary-button-border-radius: 8px;
+  --secondary-button-font-family: "Roboto", sans-serif;
+  --secondary-button-font-weight: 500;
+
+  --secondary-button-default-text-transform: none;
+
+  --secondary-button-huge-font-size: 18px;
+  --secondary-button-huge-height: 64px;
+  --secondary-button-huge-text-transform: none;
+
+  --secondary-button-normal-relevance-background-color-active: var(--color-picklerick-green-200);
+  --secondary-button-normal-relevance-background-color-hover: var(--color-picklerick-green-200);
+  --secondary-button-normal-relevance-flat-background-color: var(--color-picklerick-green-100);
+
+  --secondary-button-disabled-background-color: var(--color-squanchy-gray-200);
+}
