@@ -126,10 +126,29 @@
   padding: 0;
 }
 
+.mobile {
+  width: var(--modal-inner-mobile-width);
+  max-width: var(--modal-inner-default-width);
+}
+
 .default {
   width: var(--modal-inner-default-width);
 }
 
 .huge {
   width: var(--modal-inner-huge-width);
+}
+
+.top {
+  align-self: flex-start;
+  margin-top: var(--modal-margin);
+}
+
+.center {
+  align-self: center;
+}
+
+.bottom {
+  align-self: flex-end;
+  margin-bottom: var(--modal-margin);
 }
