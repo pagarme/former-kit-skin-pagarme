@@ -3,23 +3,14 @@
 @import "../typography.css";
 
 :root {
-  --button-border-radius: 3px;
   --button-color: var(--color-white);
-  --button-font-family: var(--title-font-family);
-  --button-font-style: var(--title-font-style);
-  --button-font-weight: var(--body-text-weight);
-  --button-letter-spacing: var(--letter-spacing);
   --button-user-select: none;
 
   --button-default-font-size: 14px;
   --button-default-height: 32px;
   --button-default-padding: 0 var(--spacing-medium);
-  --button-default-text-transform: uppercase;
 
-  --button-huge-font-size: 16px;
-  --button-huge-height: 44px;
   --button-huge-padding: 0 48px;
-  --button-huge-text-transform: uppercase;
 
   --button-tiny-font-size: 12px;
   --button-tiny-height: 26px;
@@ -60,10 +51,7 @@
   --button-low-relevance-clean-color-active: var(--color-light-grey-100);
   --button-low-relevance-clean-color-focus: var(--color-light-iron-100);
 
-  --button-normal-relevance-background-color-hover: var(--color-light-greenish-120);
-  --button-normal-relevance-background-color-active: var(--color-light-greenish-150);
   --button-normal-relevance-boxshadow-focus: var(--color-light-greenish-150) 0 0 0 2px inset;
-  --button-normal-relevance-flat-background-color: var(--color-light-greenish-100);
   --button-normal-relevance-gradient: var(--color-light-greenish-gradient);
   --button-normal-relevance-outline-color: var(--color-light-greenish-100);
   --button-normal-relevance-outline-border-color: var(--color-light-greenish-100);
@@ -77,7 +65,6 @@
   --button-normal-relevance-clean-color-active: var(--color-light-greenish-150);
   --button-normal-relevance-clean-color-focus: var(--color-light-greenish-120);
 
-  --button-disabled-background-color: var(--color-light-silver-50);
   --button-disabled-color: var(--color-light-silver-100);
 
   --button-icon-start-margin:

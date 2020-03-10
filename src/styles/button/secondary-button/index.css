@@ -1,0 +1,223 @@
+@import "./properties.css";
+@import "../properties.css";
+
+.button {
+  align-items: center;
+  border-radius: var(--secondary-button-border-radius);
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.15);
+  color: var(--button-color);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: var(--secondary-button-font-family);
+  font-weight: var(--secondary-button-font-weight);
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  transform: translate3d(0, 0, 0);
+  vertical-align: text-top;
+  white-space: nowrap;
+  word-break: keep-all;
+}
+
+.ripple {
+  background-image: var(--button-ripple-background);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transform: scale(10);
+  transition: var(--button-ripple-transition);
+  width: 100%;
+}
+
+.spinner {
+  animation: spinner 0.8s linear infinite;
+  border: 1px solid currentColor;
+  border-radius: 100%;
+  border-top-color: transparent;
+  display: inline-flex;
+  height: 14px;
+  transition: all 0.2s;
+  width: 14px;
+
+  &.endAlign {
+    margin-left: 4px;
+  }
+
+  &.startAlign {
+    margin-right: 4px;
+  }
+}
+
+.spinnerOnly {
+  margin-right: 0;
+  position: absolute;
+}
+
+/* This is used to show only the loader spinner when the component is loading */
+
+.hiddenChildren > *:not(.spinner) {
+  visibility: hidden;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.button:active:not(:disabled) .ripple {
+  opacity: var(--button-ripple-active-opacity);
+  transform: scale(0);
+  transition: 0s;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button::-moz-focus-inner {
+  border: 0;
+}
+
+/* icon alignment */
+
+.button svg {
+
+  &:first-child {
+    margin: var(--button-icon-start-margin);
+  }
+
+  &:last-of-type:not(:first-child) {
+    margin: var(--button-icon-end-margin);
+  }
+}
+
+/* button icon */
+
+.button.iconButton {
+
+  &.tiny,
+  &.default,
+  &.huge {
+    padding: var(--button-icon-padding);
+  }
+
+  &.tiny {
+    width: var(--button-icon-width-tiny);
+  }
+
+  &.default {
+    width: var(--button-icon-width-default);
+  }
+
+  &.huge {
+    width: var(--button-icon-width-huge);
+  }
+
+  & svg {
+    margin: var(--button-only-icon-margin);
+  }
+}
+
+/* button sizes */
+
+.tiny {
+  font-size: var(--button-tiny-font-size);
+  height: var(--button-tiny-height);
+  padding: var(--button-tiny-padding);
+  text-transform: var(--button-tiny-text-transform);
+
+  & > .spinner {
+    height: 12px;
+    width: 12px;
+
+    &.endAlign {
+      margin-left: 6px;
+    }
+
+    &.startAlign {
+      margin-right: 6px;
+    }
+  }
+}
+
+.default {
+  font-size: var(--button-default-font-size);
+  height: var(--button-default-height);
+  padding: var(--button-default-padding);
+  text-transform: var(--secondary-button-default-text-transform);
+}
+
+.huge {
+  font-size: var(--secondary-button-huge-font-size);
+  height: var(--secondary-button-huge-height);
+  padding: var(--button-huge-padding);
+  text-transform: var(--secondary-button-huge-text-transform);
+
+  & > .spinner {
+    height: 18px;
+    width: 18px;
+
+    &.endAlign {
+      margin-left: 6px;
+    }
+
+    &.startAlign {
+      margin-right: 6px;
+    }
+  }
+}
+
+/* button relevances */
+
+.normalRelevance {
+
+  &.flat {
+    background-color: var(--secondary-button-normal-relevance-flat-background-color);
+
+    &:hover {
+      background-color: var(--secondary-button-normal-relevance-background-color-hover);
+    }
+
+    &:active {
+      background-color: var(--secondary-button-normal-relevance-background-color-active);
+    }
+  }
+}
+
+/* disabled button style */
+
+.button,
+.gradient {
+
+  &.button:disabled:hover,
+  &.button:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.flat {
+
+  &.button:disabled,
+  &.button:disabled:hover {
+    background-color: var(--secondary-button-disabled-background-color);
+    background-image: none;
+  }
+}
+
+@keyframes spinner {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(1turn);
+  }
+}
