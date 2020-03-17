@@ -1,0 +1,50 @@
+@import "../../colors.css";
+@import "../../typography.css";
+@import "../../webfonts/roboto/index.css";
+
+:root {
+  --secondary-dropdown-background-color: transparent;
+  --secondary-dropdown-border-color: var(--color-squanchy-gray-200);
+  --secondary-dropdown-border-style: solid;
+  --secondary-dropdown-border-radius: 6px;
+  --secondary-dropdown-border-width: 1px;
+  --secondary-dropdown-font-size: 14px;
+  --secondary-dropdown-font-family: "Roboto", sans-serif;
+  --secondary-dropdown-height: 43px;
+  --secondary-dropdown-line-height: 23px;
+  --secondary-dropdown-text-color: var(--color-birdperson-gray-600);
+
+  --secondary-huge-dropdown-height: 54px;
+  --secondary-huge-dropdown-icon-width: 55px;
+  --secondary-huge-dropdown-line-height: 21px;
+
+  --secondary-dropdown-select-height: var(--spacing-large);
+  --secondary-dropdown-select-padding-bottom: 11px;
+  --secondary-dropdown-select-padding-left: 16px;
+  --secondary-dropdown-select-padding-right: var(--spacing-large);
+  --secondary-dropdown-select-padding-top: 11px;
+
+  --secondary-huge-dropdown-select-padding-bottom: 17px;
+  --secondary-huge-dropdown-select-padding-top: 17px;
+
+  --secondary-dropdown-option-color: var(--color-birdperson-gray-600);
+
+  --secondary-dropdown-placeholder-color: var(--color-birdperson-gray-600);
+  --secondary-dropdown-placeholder-font-size: 12px;
+  --secondary-dropdown-placeholder-line-height: 12px;
+
+  --secondary-dropdown-secondary-text-font-size: 12px;
+
+  --secondary-dropdown-icon-color: var(--color-squanchy-gray-200);
+  --secondary-dropdown-icon-height: inherit;
+  --secondary-dropdown-icon-width: 55px;
+  --secondary-dropdown-icon-top: 0;
+
+  --secondary-dropdown-focus-border-color: var(--color-birdperson-gray-800);
+  --secondary-dropdown-focus-transition-time: 100ms;
+
+  --secondary-dropdown-error-color: var(--color-light-red-100);
+
+  --secondary-dropdown-color-disabled: var(--color-light-iron-50);
+  --secondary-dropdown-option-disabled-background: none;
+}

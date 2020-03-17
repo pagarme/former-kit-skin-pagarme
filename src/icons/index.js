@@ -9,6 +9,7 @@ const UIHeader = require('./header')
 const UIInput = require('./input')
 const UIInputForm = require('./form-fields/input')
 const UIPagination = require('./pagination')
+const UISecondaryDropdownForm = require('./form-fields/secondary-dropdown')
 const UISidebar = require('./sidebar')
 const UITable = require('./table')
 
@@ -24,6 +25,7 @@ module.exports = {
   UIInput,
   UIInputForm,
   UIPagination,
+  UISecondaryDropdownForm,
   UISidebar,
   UITable,
 }
