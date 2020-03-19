@@ -25,6 +25,7 @@ const UIPagination = require('./pagination/index.css')
 const UIPopover = require('./popover/index.css')
 const UIRadioGroup = require('./radio-group/index.css')
 const UISecondaryButton = require('./button/secondary-button/index.css')
+const UISecondaryDropdownForm = require('./form-fields/secondary-dropdown/index.css')
 const UISecondaryLinearProgress = require('./linear-progress/secondary-linear-progress/index.css')
 const UISegmentedSwitch = require('./segmented-switch/index.css')
 const UISidebar = require('./sidebar/index.css')
@@ -67,6 +68,7 @@ module.exports = {
   UIPopover,
   UIRadioGroup,
   UISecondaryButton,
+  UISecondaryDropdownForm,
   UISecondaryLinearProgress,
   UISegmentedSwitch,
   UISidebar,
