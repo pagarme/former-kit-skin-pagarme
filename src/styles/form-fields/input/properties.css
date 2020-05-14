@@ -55,7 +55,7 @@
   --input-textarea-focus-placeholder-opacity: 1;
   --input-textarea-focus-transition-time: 100ms;
 
-  --input-color-error: var(--color-light-error);
+  --input-color-error: var(--color-beth-pink-100);
 
   --input-color-disabled: var(--color-light-silver-100);
   --input-textarea-disabled-background: var(--color-light-silver-50);

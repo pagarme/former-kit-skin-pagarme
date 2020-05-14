@@ -55,11 +55,6 @@
   --color-light-carbon-40: #383838;
   --color-light-noir-100: #4d4f62;
 
-  --color-light-warning: var(--color-light-orange-100);
-  --color-light-error: var(--color-light-red-100);
-  --color-light-info: var(--color-light-purple-100);
-  --color-light-success: var(--color-light-blue-100);
-
   --color-greenish-gradient-end: #45babf;
   --color-salmon-gradient-begin: #fc8a5d;
 

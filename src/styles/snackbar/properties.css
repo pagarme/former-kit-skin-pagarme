@@ -13,8 +13,8 @@
 
   --snackbar-icon-color: var(--color-white);
 
-  --snackbar-error-color: var(--color-light-error);
-  --snackbar-info-color: var(--color-light-info);
-  --snackbar-success-color: var(--color-light-success);
-  --snackbar-warning-color: var(--color-light-warning);
+  --snackbar-error-color: var(--color-beth-pink-100);
+  --snackbar-info-color: var(--color-barney-purple-100);
+  --snackbar-success-color: var(--color-picklerick-green-100);
+  --snackbar-warning-color: var(--color-morty-yellow-100);
 }

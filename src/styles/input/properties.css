@@ -32,7 +32,7 @@
   --input-border-color-focus: var(--color-light-greenish-100);
   --input-border-color-transition: border-color 100ms ease-in-out;
 
-  --input-color-error: var(--color-light-error);
+  --input-color-error: var(--color-beth-pink-100);
 
   --input-dark-border-color-disabled: var(--color-light-grey-100);
   --input-light-border-color-disabled: var(--color-light-iron-50);
