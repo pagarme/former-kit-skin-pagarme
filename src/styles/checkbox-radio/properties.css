@@ -11,7 +11,7 @@
   --checkbox-radio-user-select: none;
 
   --checkbox-radio-input-background-color: var(--color-white);
-  --checkbox-radio-input-border-color: var(--color-light-platinum-100);
+  --checkbox-radio-input-border-color: var(--color-squanchy-gray-50);
   --checkbox-radio-input-border-style: solid;
   --checkbox-radio-input-border-width: 1px;
   --checkbox-radio-input-margin-right: var(--spacing-tiny);
@@ -19,29 +19,29 @@
 
   --checkbox-radio-transition-speed: 150ms ease-in;
 
-  --checkbox-radio-title-color: var(--color-light-steel-100);
+  --checkbox-radio-title-color: var(--color-squanchy-gray-400);
   --checkbox-radio-title-font-size: 14px;
 
   --checkbox-radio-secondary-text-font-size: 12px;
   --checkbox-radio-secondary-text-margin: 0 0 0 10px;
 
-  --checkbox-radio-title-checked: var(--color-light-greenish-100);
+  --checkbox-radio-title-checked: var(--color-picklerick-green-100);
 
-  --checkbox-radio-input-box-shadow-hover-focus: 2px 2px var(--color-light-green-50);
+  --checkbox-radio-input-box-shadow-hover-focus: 2px 2px var(--color-picklerick-green-50);
 
-  --checkbox-radio-input-border-color-hover: var(--color-light-green-50);
+  --checkbox-radio-input-border-color-hover: var(--color-picklerick-green-50);
 
-  --checkbox-radio-input-border-color-focus: var(--color-light-greenish-100);
+  --checkbox-radio-input-border-color-focus: var(--color-picklerick-green-100);
 
-  --checkbox-radio-input-border-color-active: var(--color-light-greenish-100);
-  --checkbox-radio-input-box-shadow-active: 2px 2px var(--color-light-greenish-100);
+  --checkbox-radio-input-border-color-active: var(--color-picklerick-green-100);
+  --checkbox-radio-input-box-shadow-active: 2px 2px var(--color-picklerick-green-100);
 
-  --checkbox-radio-color-error: var(--color-light-red-100);
-  --checkbox-radio-color-error-50: var(--color-light-red-50);
+  --checkbox-radio-color-error: var(--color-beth-pink-100);
+  --checkbox-radio-color-error-50: var(--color-beth-pink-50);
   --checkbox-radio-box-shadow-error: 2px 2px var(--checkbox-radio-color-error);
 
-  --checkbox-radio-background-color-disabled: var(--color-light-platinum-20);
-  --checkbox-radio-border-color-disabled: var(--color-light-iron-50);
-  --checkbox-radio-pseudo-element-color-disabled: var(--color-light-iron-100);
-  --checkbox-radio-title-color-disabled: var(--color-light-iron-100);
+  --checkbox-radio-background-color-disabled: var(--color-squanchy-gray-20);
+  --checkbox-radio-border-color-disabled: var(--color-squanchy-gray-200);
+  --checkbox-radio-pseudo-element-color-disabled: var(--color-squanchy-gray-50);
+  --checkbox-radio-title-color-disabled: var(--color-squanchy-gray-300);
 }
