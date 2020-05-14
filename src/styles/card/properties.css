@@ -15,7 +15,7 @@
     var(--spacing-medium);
   --card-graphic-padding: 0 0 var(--spacing-small);
 
-  --card-title-color: var(--color-light-coal-100);
+  --card-title-color: var(--color-birdperson-gray-500);
   --card-title-font-family: var(--title-font-family);
   --card-title-font-size: 14px;
   --card-title-font-weight: var(--title-font-weight);
@@ -30,26 +30,26 @@
 
   --card-subtitle-font-size: 14px;
   --card-subtitle-font-weight: normal;
-  --card-subtitle-color: var(--color-light-grey-100);
+  --card-subtitle-color: var(--color-squanchy-gray-300);
 
   --card-actions-spacing: var(--spacing-small);
 
-  --card-section-background-color: var(--color-light-smoke-40);
+  --card-section-background-color: var(--color-squanchy-gray-20);
 
-  --card-section-title-color: var(--color-light-steel-100);
+  --card-section-title-color: var(--color-birdperson-gray-500);
   --card-section-title-font-size: 14px;
   --card-section-title-font-weight: var(--title-font-weight);
   --card-section-title-text-transform: uppercase;
 
-  --card-section-title-icon-color: var(--color-light-greenish-100);
+  --card-section-title-icon-color: var(--color-picklerick-green-100);
   --card-section-title-icon-margin: 8px;
   --card-section-title-icon-size: 18px;
 
-  --card-section-subtitle-color: var(--color-light-steel-100);
+  --card-section-subtitle-color: var(--color-squanchy-gray-300);
   --card-section-subtitle-font-weight: normal;
   --card-section-subtitle-text-transform: initial;
 
-  --card-section-icon-box-background-color: var(--color-light-silver-50);
+  --card-section-icon-box-background-color: var(--color-squanchy-gray-20);
   --card-section-icon-box-size: 48px;
 
   --card-section-double-line-title-spacing: var(--spacing-tiny);
@@ -57,7 +57,7 @@
   --card-section-double-line-actions-margin: var(--spacing-medium);
   --card-section-double-line-actions-last-child-margin: var(--spacing-large);
 
-  --card-divider-border-color: var(--color-light-grey-20);
+  --card-divider-border-color: var(--color-squanchy-gray-20);
   --card-divider-border-style: solid;
   --card-divider-border-width: 1px 0 0;
   --card-divider-margin: 0 var(--spacing-medium) var(--spacing-medium);
