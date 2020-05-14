@@ -3,8 +3,8 @@
 @import "../typography.css";
 
 :root {
-  --header-background-color: var(--color-white);
-  --header-border-color: var(--color-light-platinum-50);
+  --header-background-color: var(--color-squanchy-gray-20);
+  --header-border-color: var(--color-squanchy-gray-20);
   --header-border-style: solid;
   --header-border-width: 0 0 1px;
   --header-height: 72px;
@@ -14,17 +14,17 @@
 
   --header-child-margin-left: var(--spacing-tiny);
 
-  --header-title-color: var(--color-light-greenish-100);
+  --header-title-color: var(--color-squanchy-gray-300);
   --header-title-font-size: 16px;
   --header-title-font-weight: var(--body-text-weight);
 
-  --header-link-color: var(--color-light-grey-50);
+  --header-link-color: var(--color-picklerick-green-100);
 
   --header-content-link-margin-right: var(--spacing-medium);
 
   --header-back-button-background-color: transparent;
   --header-back-button-border: none;
-  --header-back-button-color: var(--color-light-greenish-100);
+  --header-back-button-color: var(--color-picklerick-green-100);
   --header-back-button-font-size: 25px;
   --header-back-button-padding: 0;
 
