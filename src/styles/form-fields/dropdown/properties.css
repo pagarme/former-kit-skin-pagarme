@@ -10,7 +10,7 @@
   --dropdown-font-family: var(--form-item-font-family);
   --dropdown-font-size: var(--form-item-font-size);
   --dropdown-line-height: 37px;
-  --dropdown-text-color: var(--color-light-steel-100);
+  --dropdown-text-color: var(--color-squanchy-gray-400);
 
   --dropdown-select-padding-bottom: 6px;
   --dropdown-select-padding-left: 0;
@@ -25,12 +25,12 @@
   --dropdown-secondary-text-font-size: var(--form-item-font-size);
   --dropdown-secondary-text-success-color: var(--color-picklerick-green-100);
 
-  --dropdown-focus-border-color: var(--color-light-greenish-100);
+  --dropdown-focus-border-color: var(--color-picklerick-green-100);
   --dropdown-focus-transition-time: 100ms;
 
   --dropdown-error-color: var(--form-item-error-color);
   --dropdown-secondary-text-error-color: var(--color-beth-pink-100);
 
-  --dropdown-color-disabled: var(--color-light-iron-50);
+  --dropdown-color-disabled: var(--color-squanchy-gray-50);
   --dropdown-option-disabled-background: none;
 }
