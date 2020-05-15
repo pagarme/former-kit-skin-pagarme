@@ -52,7 +52,7 @@
   }
 
   &:active:after {
-    background-color: var(--color-light-steel-200);
+    background-color: var(--color-birdperson-gray-600);
   }
 }
 
@@ -78,7 +78,7 @@
 
   &:after {
     content: "";
-    background-image: var(--color-light-greenish-gradient);
+    background-image: var(--color-barney-purple-100);
     bottom: -1px;
     height: var(--tabbar-enter-border-height);
     left: 0;
