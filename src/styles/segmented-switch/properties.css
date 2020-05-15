@@ -3,7 +3,7 @@
 @import "../typography.css";
 
 :root {
-  --context-switch-backgound-color: var(--color-light-iron-20);
+  --context-switch-backgound-color: var(--color-squanchy-gray-20);
   --context-switch-border-radius: 3px;
   --context-switch-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   --context-switch-font-family: var(--title-font-family);
@@ -15,21 +15,21 @@
 
   --context-switch-label-border: 1px solid transparent;
   --context-switch-label-border-radius: 3px;
-  --context-switch-label-color: var(--color-light-grey-100);
+  --context-switch-label-color: var(--color-squanchy-gray-400);
   --context-switch-label-font-size: 10px;
   --context-switch-label-height: var(--spacing-medium);
   --context-switch-label-padding: 0 var(--spacing-tiny);
 
-  --context-switch-checked-background-color: var(--color-light-greenish-100);
+  --context-switch-checked-background-color: var(--color-barney-purple-100);
   --context-switch-checked-color: var(--color-white);
 
-  --context-switch-disabled-color: var(--color-light-chromium-100);
-  --context-switch-disabled-checked-background-color: var(--color-light-platinum-20);
-  --context-switch-disabled-checked-label-border: 1px solid var(--color-light-platinum-100);
-  --context-switch-disabled-checked-color: var(--color-light-grey-100);
+  --context-switch-disabled-color: var(--color-squanchy-gray-200);
+  --context-switch-disabled-checked-background-color: var(--color-squanchy-gray-50);
+  --context-switch-disabled-checked-label-border: 1px solid var(--color-squanchy-gray-50);
+  --context-switch-disabled-checked-color: var(--color-squanchy-gray-400);
 
-  --context-switch-enter-background-color: var(--color-light-greenish-120);
-  --context-switch-enter-border-color: var(--color-light-greenish-150);
+  --context-switch-enter-background-color: var(--color-barney-purple-200);
+  --context-switch-enter-border-color: var(--color-barney-purple-200);
   --context-switch-enter-border-style: solid;
   --context-switch-enter-border-width: 1px;
 
@@ -39,27 +39,27 @@
   --spaced-switch-large-spacing: var(--spacing-large);
 
   --spaced-switch-background: var(--color-white);
-  --spaced-switch-background-active: var(--color-light-greenish-150);
-  --spaced-switch-background-hover: var(--color-light-greenish-120);
-  --spaced-switch-background-checked: var(--color-light-greenish-gradient);
+  --spaced-switch-background-active: var(--color-barney-purple-200);
+  --spaced-switch-background-hover: var(--color-barney-purple-200);
+  --spaced-switch-background-checked: var(--color-barney-purple-100);
   --spaced-switch-checked-color: var(--color-white);
   --spaced-switch-disabled-color: var(--color-white);
 
-  --spaced-switch-label-focus-border: 1px solid var(--color-light-greenish-150);
-  --spaced-switch-label-focus-border-shadown: var(--color-light-greenish-150) 0 0 0 1px inset;
+  --spaced-switch-label-focus-border: 1px solid var(--color-barney-purple-200);
+  --spaced-switch-label-focus-border-shadown: var(--color-barney-purple-200) 0 0 0 1px inset;
   --spaced-switch-label-padding: var(--spacing-tiny);
   --spaced-switch-height: auto;
 
   --low-relevance-spaced-switch-background: transparent;
-  --low-relevance-spaced-switch-background-active: var(--color-light-grey-50);
-  --low-relevance-spaced-switch-background-hover: var(--color-light-smoke-100);
-  --low-relevance-spaced-switch-background-checked: var(--color-light-smoke-50);
-  --low-relevance-spaced-switch-color: var(--color-light-coal-100);
-  --low-relevance-spaced-switch-checked-color: var(--color-light-carbon-40);
+  --low-relevance-spaced-switch-background-active: var(--color-squanchy-gray-100);
+  --low-relevance-spaced-switch-background-hover: var(--color-squanchy-gray-50);
+  --low-relevance-spaced-switch-background-checked: var(--color-squanchy-gray-20);
+  --low-relevance-spaced-switch-color: var(--color-birdperson-gray-500);
+  --low-relevance-spaced-switch-checked-color: var(--color-birdperson-gray-600);
 
   --low-relevance-spaced-switch-checked-label-border:
     0 0 0 1px var(--color-white),
-    0 0 0 2px var(--color-light-steel-50);
+    0 0 0 2px var(--color-squanchy-gray-400);
 
-  --low-relevance-spaced-switch-label-focus-border-shadow: 0 0 0 1px var(--color-light-steel-50);
+  --low-relevance-spaced-switch-label-focus-border-shadow: 0 0 0 1px var(--color-squanchy-gray-400);
 }

@@ -41,7 +41,7 @@
 
 .relevance-normal .item input + .label {
   background-color: var(--spaced-switch-background);
-  border: 1px solid var(--color-light-greenish-100);
+  border: 1px solid var(--color-barney-purple-100);
   box-sizing: border-box;
   color: var(--context-switch-enter-background-color);
   border-style: solid;
@@ -50,19 +50,19 @@
   &:hover {
     color: var(--spaced-switch-checked-color);
     background-color: var(--context-switch-enter-background-color);
-    border-color: var(--color-light-greenish-150);
+    border-color: var(--color-barney-purple-200);
   }
 
   &:active {
     color: var(--spaced-switch-checked-color);
     background-color: var(--spaced-switch-background-active);
-    border-color: var(--color-light-greenish-150);
+    border-color: var(--color-barney-purple-200);
   }
 }
 
 .relevance-normal .item input:checked + .label {
-  background-image: var(--spaced-switch-background-checked);
-  border: 1px solid;
+  background-color: var(--spaced-switch-background-checked);
+  border: 1px solid var(--color-barney-purple-100);
   color: var(--spaced-switch-checked-color);
 }
 
