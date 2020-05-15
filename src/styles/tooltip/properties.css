@@ -3,8 +3,8 @@
 @import "../z-index.css";
 
 :root {
-  --tooltip-color: var(--color-black);
-  --tooltip-color-secondary: var(--color-light-greenish-100);
+  --tooltip-color: var(--color-birdperson-gray-700);
+  --tooltip-color-secondary: var(--color-picklerick-green-100);
   --tooltip-font-size: 12px;
   --tooltip-font-weight: normal;
   --tooltip-line-height: 1.5;
