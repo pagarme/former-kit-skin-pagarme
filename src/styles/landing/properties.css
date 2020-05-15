@@ -3,15 +3,15 @@
 :root {
   --landing-column-font-size: 14px;
 
-  --landing-dark-color: var(--color-white);
-  --landing-dark-primary-background-color: var(--color-light-carbon-40);
-  --landing-dark-secondary-background-color: var(--color-light-carbon-40);
-  --landing-dark-title-color: var(--color-white);
+  --landing-dark-color: var(--color-squanchy-gray-400);
+  --landing-dark-primary-background-color: var(--color-squanchy-gray-20);
+  --landing-dark-secondary-background-color: var(--color-squanchy-gray-20);
+  --landing-dark-title-color: var(--color-birdperson-gray-700);
 
-  --landing-light-color: var(--color-light-steel-100);
+  --landing-light-color: var(--color-squanchy-gray-400);
   --landing-light-primary-background-color: var(--color-white);
   --landing-light-secondary-background-color: var(--color-white);
-  --landing-light-title-color: var(--color-light-coal-100);
+  --landing-light-title-color: var(--color-birdperson-gray-700);
 
   --landing-box-shadow: none;
 }
