@@ -3,8 +3,8 @@
 @import "../typography.css";
 
 :root {
-  --steps-background-color: var(--color-light-smoke-40);
-  --steps-border: 1px solid var(--color-light-grey-20);
+  --steps-background-color: var(--color-squanchy-gray-20);
+  --steps-border: 1px solid var(--color-squanchy-gray-20);
   --steps-border-radius: 3px;
 
   --steps-item-font-size: 14px;
@@ -13,8 +13,8 @@
   --steps-item-text-align: center;
   --steps-item-text-transform: uppercase;
 
-  --steps-item-indicator-color: var(--color-light-greenish-100);
-  --steps-item-indicator-error-color: var(--color-light-red-100);
+  --steps-item-indicator-color: var(--color-picklerick-green-100);
+  --steps-item-indicator-error-color: var(--color-beth-pink-100);
   --steps-item-indicator-font-size: 14px;
   --steps-item-indicator-font-weight: var(--body-text-weight);
   --steps-item-indicator-line-height: 20px;
@@ -25,7 +25,7 @@
   --steps-item-arrow-left: -36px;
   --steps-item-arrow-left-border: var(--color-white);
   --steps-item-arrow-right: 0;
-  --steps-item-arrow-right-border: var(--color-light-platinum-50);
+  --steps-item-arrow-right-border: var(--color-squanchy-gray-20);
   --steps-item-arrow-top: 0;
   --steps-item-arrow-transform: rotate(45deg);
   --steps-item-arrow-width: 35px;
