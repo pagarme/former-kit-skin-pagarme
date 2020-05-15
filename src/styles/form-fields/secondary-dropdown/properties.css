@@ -43,8 +43,8 @@
   --secondary-dropdown-focus-border-color: var(--color-birdperson-gray-800);
   --secondary-dropdown-focus-transition-time: 100ms;
 
-  --secondary-dropdown-error-color: var(--color-light-red-100);
+  --secondary-dropdown-error-color: var(--color-beth-pink-100);
 
-  --secondary-dropdown-color-disabled: var(--color-light-iron-50);
+  --secondary-dropdown-color-disabled: var(--color-squanchy-gray-50);
   --secondary-dropdown-option-disabled-background: none;
 }
