@@ -4,20 +4,20 @@
   --progress-linear-height: auto;
   --progress-linear-width: 300px;
 
-  --progress-linear-back-background-color: var(--color-light-iron-50);
+  --progress-linear-back-background-color: var(--color-squanchy-gray-50);
   --progress-linear-back-border-radius: 3px;
   --progress-linear-back-height: 4px;
 
-  --progress-linear-fill-background: var(--color-light-greenish-gradient);
+  --progress-linear-fill-background: var(--color-picklerick-green-100);
 
-  --progress-linear-number-color: var(--color-light-steel-100);
+  --progress-linear-number-color: var(--color-squanchy-gray-400);
   --progress-linear-number-font-family: var(--title-font-family);
   --progress-linear-number-font-size: 14px;
   --progress-linear-number-margin-top: var(--spacing-tiny);
 
-  --progress-linear-number-color-filled: var(--color-greenish-gradient-end);
+  --progress-linear-number-color-filled: var(--color-picklerick-green-100);
 
-  --progress-linear-back-background-disabled: var(--color-light-iron-20);
-  --progress-linear-fill-background-disabled: var(--color-light-silver-100);
-  --progress-linear-number-color-disabled: var(--color-light-silver-100);
+  --progress-linear-back-background-disabled: var(--color-squanchy-gray-50);
+  --progress-linear-fill-background-disabled: var(--color-squanchy-gray-50);
+  --progress-linear-number-color-disabled: var(--color-squanchy-gray-50);
 }
