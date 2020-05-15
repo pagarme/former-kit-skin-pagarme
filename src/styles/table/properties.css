@@ -3,12 +3,12 @@
 @import "../spacing.css";
 
 :root {
-  --table-border: solid 1px #e1e5e8;
+  --table-border: solid 1px var(--color-squanchy-gray-20);
   --table-font-family: var(--body-font-family);
   --table-font-size: 14px;
   --table-width: 100%;
 
-  --body-td-color: var(--color-light-steel-100);
+  --body-td-color: var(--color-squanchy-gray-400);
   --body-td-font-size: 13px;
   --body-td-padding: var(--spacing-small);
 
@@ -17,35 +17,35 @@
   --body-tr-expanded-hover-border-width: 0 1px 1px;
   --body-tr-first-child-hover-border-width: 1px 0 1px 1px;
   --body-tr-height: 68px;
-  --body-tr-hover-border-color: var(--color-light-greenish-100);
+  --body-tr-hover-border-color: var(--color-squanchy-gray-100);
   --body-tr-hover-border-width: 1px 0;
   --body-tr-last-child-hover-border-width: 1px 1px 1px 0;
-  --body-tr-odd-background-color: #f7f7f7;
+  --body-tr-odd-background-color: var(--color-squanchy-gray-20);
   --body-tr-odd-border: var(--table-border);
 
   --expandable-row-li-padding: 0 20px;
   --expandable-row-padding: 21px 24px 0 27px;
-  --expandable-row-text-color: var(--color-light-steel-100);
+  --expandable-row-text-color: var(--color-squanchy-gray-400);
   --expandable-row-text-min-width: 50px;
   --expandable-row-text-padding-bottom: var(--spacing-medium);
-  --expandable-row-title-color: var(--color-light-grey-100);
+  --expandable-row-title-color: var(--color-squanchy-gray-200);
   --expandable-row-title-padding-bottom: 0;
 
   --footer-row-font-weight: var(--body-text-weight);
   --footer-row-text-transform: uppercase;
 
-  --head-th-active-color: var(--color-light-greenish-100);
-  --head-th-color: var(--color-light-grey-100);
+  --head-th-active-color: var(--color-barney-purple-100);
   --head-th-font-size: 12px;
+  --head-th-color: var(--color-squanchy-gray-400);
   --head-th-font-weight: var(--body-text-weight);
   --head-th-line-height: normal;
   --head-th-padding: var(--spacing-small);
-  --head-th-separator-border: solid 1px #e1e5e8;
+  --head-th-separator-border: solid 1px var(--color-squanchy-gray-50);
   --head-th-separator-height: calc(100% - 24px);
   --head-th-svg-margin: 10px;
   --head-th-text-transform: uppercase;
 
-  --head-tr-background-color: #f7f7f7;
+  --head-tr-background-color: var(--color-squanchy-gray-20);
   --head-tr-border: var(--table-border);
   --head-tr-height: 62px;
 
@@ -55,10 +55,10 @@
 
   --table-check-width: 54px;
 
-  --table-arrow-border: 1px solid var(--color-light-iron-50);
+  --table-arrow-border: 1px solid var(--color-squanchy-gray-50);
   --table-open-width: 60px;
 
-  --body-td-empty-background-color: var(--color-light-chromium-100);
+  --body-td-empty-background-color: var(--color-squanchy-gray-20);
   --body-td-empty-height: 2px;
   --body-td-empty-width: 50px;
   --table-body-empty-padding-bottom: var(--spacing-medium);
