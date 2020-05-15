@@ -3,11 +3,11 @@
 @import "../z-index.css";
 
 :root {
-  --popover-border-color: var(--color-light-grey-50);
+  --popover-border-color: var(--color-squanchy-gray-50);
   --popover-border-radius: 3px;
   --popover-border-style: solid;
   --popover-border-width: 1px;
-  --popover-child-border-color: var(--color-light-grey-50);
+  --popover-child-border-color: var(--color-white);
   --popover-child-border-style: solid;
   --popover-child-border-width:
     1px
@@ -71,8 +71,8 @@
 
   --popover-content-padding: var(--spacing-small);
 
-  --popover-link-active-background: var(--color-light-smoke-100);
-  --popover-link-active-border-color: var(--color-light-grey-50);
+  --popover-link-active-background: var(--color-squanchy-gray-20);
+  --popover-link-active-border-color: var(--color-white);
   --popover-link-border-radius-bottom:
     0
     0
@@ -83,20 +83,20 @@
     var(--popover-border-radius)
     0
     0;
-  --popover-link-focus-border-color: var(--color-light-steel-100);
+  --popover-link-focus-border-color: var(--color-white);
   --popover-link-font-size: 12px;
-  --popover-link-hover-background: var(--color-light-smoke-40);
-  --popover-link-hover-border-color: var(--color-light-steel-100);
+  --popover-link-hover-background: var(--color-squanchy-gray-20);
+  --popover-link-hover-border-color: var(--color-squanchy-gray-100);
   --popover-link-padding: var(--spacing-small);
-  --popover-link-text-color: var(--color-light-steel-100);
+  --popover-link-text-color: var(--color-birdperson-gray-500);
 
   --popover-border-color-dark: var(--popover-color-dark);
-  --popover-child-border-color-dark: var(--color-light-steel-200);
+  --popover-child-border-color-dark: var(--color-birdperson-gray-700);
   --popover-child-border-style-dark: dashed;
   --popover-child-border-width-dark: 1px 0 0;
-  --popover-color-dark: var(--color-light-carbon-100);
+  --popover-color-dark: var(--color-birdperson-gray-700);
   --popover-link-text-color-dark: var(--color-white);
-  --popover-link-text-color-hover-dark: var(--color-light-greenish-100);
+  --popover-link-text-color-hover-dark: var(--color-squanchy-gray-50);
 
   --popover-bottom-end-right: calc(var(--spacing-small) * -1);
   --popover-bottom-start-left: calc(var(--spacing-small) * -1);
