@@ -1,7 +1,7 @@
 const UIAlert = require('./alert/index.css')
 const UIAvatar = require('./avatar/index.css')
 const UIBulletSteps = require('./bullet-steps/index.css')
-const UIButton = require('./button/default/index.css')
+const UIButton = require('./button/index.css')
 const UICard = require('./card/index.css')
 const UICheckbox = require('./checkbox/index.css')
 const UICheckboxForm = require('./checkbox/index.css')
@@ -24,7 +24,6 @@ const UIModal = require('./modal/index.css')
 const UIPagination = require('./pagination/index.css')
 const UIPopover = require('./popover/index.css')
 const UIRadioGroup = require('./radio-group/index.css')
-const UISecondaryButton = require('./button/secondary-button/index.css')
 const UISecondaryDropdownForm = require('./form-fields/secondary-dropdown/index.css')
 const UISecondaryLinearProgress = require('./linear-progress/secondary-linear-progress/index.css')
 const UISegmentedSwitch = require('./segmented-switch/index.css')
@@ -67,7 +66,6 @@ module.exports = {
   UIPagination,
   UIPopover,
   UIRadioGroup,
-  UISecondaryButton,
   UISecondaryDropdownForm,
   UISecondaryLinearProgress,
   UISegmentedSwitch,
