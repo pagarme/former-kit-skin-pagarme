@@ -30,7 +30,6 @@
   --button-high-relevance-background-color-active: var(--color-light-salmon-150);
   --button-high-relevance-boxshadow-focus: var(--color-light-salmon-150) 0 0 0 2px inset;
   --button-high-relevance-flat-background-color: var(--color-light-salmon-100);
-  --button-high-relevance-gradient: var(--color-light-salmon-gradient);
   --button-high-relevance-outline-color: var(--color-light-salmon-100);
   --button-high-relevance-outline-border-color: var(--color-light-salmon-100);
   --button-high-relevance-outline-border-width: 1px;
@@ -47,7 +46,6 @@
   --button-low-relevance-background-color-active: var(--color-light-grey-100);
   --button-low-relevance-boxshadow-focus: #979797 0 0 0 2px inset;
   --button-low-relevance-flat-background-color: var(--color-light-grey-50);
-  --button-low-relevance-gradient: var(--color-light-grey-gradient);
   --button-low-relevance-outline-color: var(--color-light-grey-50);
   --button-low-relevance-outline-border-color: var(--color-light-grey-50);
   --button-low-relevance-outline-border-width: 1px;
@@ -64,7 +62,6 @@
   --button-normal-relevance-background-color-active: var(--color-light-greenish-150);
   --button-normal-relevance-boxshadow-focus: var(--color-light-greenish-150) 0 0 0 2px inset;
   --button-normal-relevance-flat-background-color: var(--color-light-greenish-100);
-  --button-normal-relevance-gradient: var(--color-light-greenish-gradient);
   --button-normal-relevance-outline-color: var(--color-light-greenish-100);
   --button-normal-relevance-outline-border-color: var(--color-light-greenish-100);
   --button-normal-relevance-outline-border-width: 1px;

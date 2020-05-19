@@ -184,7 +184,6 @@
 .normalRelevance {
 
   &.flat,
-  &.gradient,
   &.outline {
 
     &:hover {
@@ -196,24 +195,11 @@
     }
   }
 
-  &.flat,
-  &.gradient {
+  &.flat {
+    background-color: var(--button-normal-relevance-flat-background-color);
 
     &:focus:not(:active) {
       box-shadow: var(--button-normal-relevance-boxshadow-focus);
-    }
-  }
-
-  &.flat {
-    background-color: var(--button-normal-relevance-flat-background-color);
-  }
-
-  &.gradient {
-    background-image: var(--button-normal-relevance-gradient);
-
-    &:hover,
-    &.active {
-      background-image: none;
     }
   }
 
@@ -263,7 +249,6 @@
 .highRelevance {
 
   &.flat,
-  &.gradient,
   &.outline {
 
     &:hover {
@@ -275,24 +260,11 @@
     }
   }
 
-  &.flat,
-  &.gradient {
+  &.flat {
+    background-color: var(--button-high-relevance-flat-background-color);
 
     &:focus:not(:active) {
       box-shadow: var(--button-high-relevance-boxshadow-focus);
-    }
-  }
-
-  &.flat {
-    background-color: var(--button-high-relevance-flat-background-color);
-  }
-
-  &.gradient {
-    background-image: var(--button-high-relevance-gradient);
-
-    &:hover,
-    &.active {
-      background-image: none;
     }
   }
 
@@ -342,7 +314,6 @@
 .lowRelevance {
 
   &.flat,
-  &.gradient,
   &.outline {
 
     &:hover {
@@ -354,25 +325,11 @@
     }
   }
 
-  &.flat,
-  &.gradient {
+  &.flat {
+    background-color: var(--button-low-relevance-flat-background-color);
 
     &:focus:not(:active) {
       box-shadow: var(--button-low-relevance-boxshadow-focus);
-    }
-  }
-
-  &.flat {
-    background-color: var(--button-low-relevance-flat-background-color);
-  }
-
-  &.gradient {
-    background-image: var(--button-low-relevance-gradient);
-
-    &:hover,
-    &.active,
-    &.focus {
-      background-image: none;
     }
   }
 
@@ -422,7 +379,6 @@
 /* disabled button style */
 
 .button,
-.gradient,
 .clean,
 .outline {
 
@@ -434,8 +390,7 @@
 }
 
 .iconButton.outline,
-.flat,
-.gradient {
+.flat {
 
   &.button:disabled,
   &.button:disabled:hover {
