@@ -43,7 +43,7 @@
 
 .item input:checked + .label {
   background-color: var(--context-switch-checked-background-color);
-  border: 1px solid var(--color-light-greenish-100);
+  border: 1px solid var(--color-barney-purple-200);
   border-radius: var(--context-switch-label-border-radius);
   box-sizing: border-box;
   color: var(--context-switch-checked-color);
@@ -51,19 +51,19 @@
   &:hover,
   &:active {
     background-color: var(--context-switch-enter-background-color);
-    border-color: var(--color-light-greenish-150);
+    border-color: var(--color-barney-purple-200);
     border-style: solid;
     border-width: 1px;
   }
 
   &:active {
-    box-shadow: inset var(--color-light-greenish-150) 0 0 0 1px;
+    box-shadow: inset var(--color-barney-purple-200) 0 0 0 1px;
   }
 }
 
 .item input:focus + .label {
   background-color: var(--context-switch-enter-background-color);
-  border-color: var(--color-light-greenish-150);
+  border-color: var(--color-barney-purple-200);
   border-style: solid;
   border-width: 1px;
 }

@@ -1,22 +1,22 @@
 /* stylelint-disable font-weight-notation */
 
 @font-face {
-  font-family: "Rubik";
-  src: url("./rubik-light.ttf") format("truetype");
+  font-family: "Lato";
+  src: url("./Lato-Light.ttf") format("truetype");
   font-weight: 100 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Rubik";
-  src: url("./rubik-medium.ttf") format("truetype");
+  font-family: "Lato";
+  src: url("./Lato-Bold.ttf") format("truetype");
   font-weight: 600 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Rubik";
-  src: url("./rubik-regular.ttf") format("truetype");
+  font-family: "Lato";
+  src: url("./Lato-Regular.ttf") format("truetype");
   font-weight: 400 500;
   font-style: normal;
 }

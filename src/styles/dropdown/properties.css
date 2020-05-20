@@ -3,7 +3,7 @@
 
 :root {
   --dropdown-background-color: transparent;
-  --dropdown-border-color: var(--color-light-grey-50);
+  --dropdown-border-color: var(--color-squanchy-gray-50);
   --dropdown-border-style: solid;
   --dropdown-border-radius: 3px;
   --dropdown-border-width: 1px;
@@ -11,7 +11,7 @@
   --dropdown-font-family: var(--title-font-family);
   --dropdown-height: 32px;
   --dropdown-line-height: var(--spacing-large);
-  --dropdown-text-color: var(--color-light-steel-100);
+  --dropdown-text-color: var(--color-squanchy-gray-200);
 
   --dropdown-tiny-font-size: 12px;
   --dropdown-tiny-height: 26px;
@@ -23,25 +23,25 @@
   --dropdown-select-padding-right: var(--spacing-large);
   --dropdown-select-padding-top: 0;
 
-  --dropdown-option-color: var(--color-light-steel-100);
+  --dropdown-option-color: var(--color-squanchy-gray-300);
 
-  --dropdown-placeholder-color: var(--color-light-chromium-100);
+  --dropdown-placeholder-color: var(--color-squanchy-gray-100);
   --dropdown-placeholder-font-size: 12px;
   --dropdown-placeholder-line-height: 12px;
 
   --dropdown-secondary-text-font-size: 12px;
 
-  --dropdown-icon-border: 1px solid var(--color-light-grey-50);
-  --dropdown-icon-color: var(--color-light-steel-100);
+  --dropdown-icon-border: 1px solid var(--color-squanchy-gray-50);
+  --dropdown-icon-color: var(--color-birdperson-gray-500);
   --dropdown-icon-height: inherit;
   --dropdown-icon-width: var(--dropdown-height);
   --dropdown-icon-top: 0;
 
-  --dropdown-focus-border-color: var(--color-light-greenish-100);
+  --dropdown-focus-border-color: var(--color-birdperson-gray-500);
   --dropdown-focus-transition-time: 100ms;
 
-  --dropdown-error-color: var(--color-light-error);
+  --dropdown-error-color: var(--color-beth-pink-100);
 
-  --dropdown-color-disabled: var(--color-light-iron-50);
+  --dropdown-color-disabled: var(--color-squanchy-gray-20);
   --dropdown-option-disabled-background: none;
 }

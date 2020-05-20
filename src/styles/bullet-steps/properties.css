@@ -7,7 +7,7 @@
 
   --steps-item-margin: var(--spacing-medium);
 
-  --indicator-previous-background-color: var(--color-light-grey-100);
-  --indicator-current-background-color: var(--color-light-purple-100);
-  --indicator-next-background-color: var(--color-light-silver-100);
+  --indicator-previous-background-color: var(--color-squanchy-gray-200);
+  --indicator-current-background-color: var(--color-barney-purple-100);
+  --indicator-next-background-color: var(--color-squanchy-gray-50);
 }

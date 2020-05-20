@@ -4,7 +4,7 @@
 :root {
   --checkbox-input-border-radius: 3px;
 
-  --checkbox-check-border-color: var(--color-light-greenish-100);
+  --checkbox-check-border-color: var(--color-picklerick-green-100);
   --checkbox-check-border-style: solid;
   --checkbox-check-border-width: 0 0 2px 2px;
   --checkbox-check-height: 5px;

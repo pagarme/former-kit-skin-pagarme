@@ -1,19 +1,18 @@
 @import "./properties.css";
-@import "../properties.css";
 
 .button {
   align-items: center;
-  border-radius: var(--default-button-border-radius);
+  border-radius: var(--button-border-radius);
   border: none;
   box-sizing: border-box;
   color: var(--button-color);
   cursor: pointer;
   display: inline-flex;
-  font-family: var(--default-button-font-family);
-  font-style: var(--default-button-font-style);
-  font-weight: var(--default-button-font-weight);
+  font-family: var(--button-font-family);
+  font-style: var(--button-font-style);
+  font-weight: var(--button-font-weight);
   justify-content: center;
-  letter-spacing: var(--default-button-letter-spacing);
+  letter-spacing: var(--button-letter-spacing);
   overflow: hidden;
   position: relative;
   transform: translate3d(0, 0, 0);
@@ -157,14 +156,14 @@
   font-size: var(--button-default-font-size);
   height: var(--button-default-height);
   padding: var(--button-default-padding);
-  text-transform: var(--default-button-default-text-transform);
+  text-transform: var(--button-default-text-transform);
 }
 
 .huge {
-  font-size: var(--default-button-huge-font-size);
-  height: var(--default-button-huge-height);
+  font-size: var(--button-huge-font-size);
+  height: var(--button-huge-height);
   padding: var(--button-huge-padding);
-  text-transform: var(--default-button-huge-text-transform);
+  text-transform: var(--button-huge-text-transform);
 
   & > .spinner {
     height: 18px;
@@ -185,36 +184,22 @@
 .normalRelevance {
 
   &.flat,
-  &.gradient,
   &.outline {
 
     &:hover {
-      background-color: var(--default-button-normal-relevance-background-color-hover);
+      background-color: var(--button-normal-relevance-background-color-hover);
     }
 
     &:active {
-      background-color: var(--default-button-normal-relevance-background-color-active);
-    }
-  }
-
-  &.flat,
-  &.gradient {
-
-    &:focus:not(:active) {
-      box-shadow: var(--button-normal-relevance-boxshadow-focus);
+      background-color: var(--button-normal-relevance-background-color-active);
     }
   }
 
   &.flat {
-    background-color: var(--default-button-normal-relevance-flat-background-color);
-  }
+    background-color: var(--button-normal-relevance-flat-background-color);
 
-  &.gradient {
-    background-image: var(--button-normal-relevance-gradient);
-
-    &:hover,
-    &.active {
-      background-image: none;
+    &:focus:not(:active) {
+      box-shadow: var(--button-normal-relevance-boxshadow-focus);
     }
   }
 
@@ -264,7 +249,6 @@
 .highRelevance {
 
   &.flat,
-  &.gradient,
   &.outline {
 
     &:hover {
@@ -276,24 +260,11 @@
     }
   }
 
-  &.flat,
-  &.gradient {
+  &.flat {
+    background-color: var(--button-high-relevance-flat-background-color);
 
     &:focus:not(:active) {
       box-shadow: var(--button-high-relevance-boxshadow-focus);
-    }
-  }
-
-  &.flat {
-    background-color: var(--button-high-relevance-flat-background-color);
-  }
-
-  &.gradient {
-    background-image: var(--button-high-relevance-gradient);
-
-    &:hover,
-    &.active {
-      background-image: none;
     }
   }
 
@@ -343,7 +314,6 @@
 .lowRelevance {
 
   &.flat,
-  &.gradient,
   &.outline {
 
     &:hover {
@@ -355,25 +325,11 @@
     }
   }
 
-  &.flat,
-  &.gradient {
+  &.flat {
+    background-color: var(--button-low-relevance-flat-background-color);
 
     &:focus:not(:active) {
       box-shadow: var(--button-low-relevance-boxshadow-focus);
-    }
-  }
-
-  &.flat {
-    background-color: var(--button-low-relevance-flat-background-color);
-  }
-
-  &.gradient {
-    background-image: var(--button-low-relevance-gradient);
-
-    &:hover,
-    &.active,
-    &.focus {
-      background-image: none;
     }
   }
 
@@ -423,7 +379,6 @@
 /* disabled button style */
 
 .button,
-.gradient,
 .clean,
 .outline {
 
@@ -435,12 +390,11 @@
 }
 
 .iconButton.outline,
-.flat,
-.gradient {
+.flat {
 
   &.button:disabled,
   &.button:disabled:hover {
-    background-color: var(--default-button-disabled-background-color);
+    background-color: var(--button-disabled-background-color);
     background-image: none;
   }
 }
@@ -458,7 +412,7 @@
 
   &.button:disabled,
   &.button:disabled:hover {
-    border-color: var(--default-button-disabled-background-color);
+    border-color: var(--button-disabled-background-color);
   }
 }
 

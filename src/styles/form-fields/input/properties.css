@@ -3,7 +3,7 @@
 @import "../properties.css";
 
 :root {
-  --input-color: var(--color-light-steel-100);
+  --input-color: var(--color-birdperson-gray-500);
   --input-font-family: var(--title-font-family);
   --input-font-size: var(--form-item-font-size);
   --input-padding-bottom: var(--spacing-tiny);
@@ -13,11 +13,11 @@
   --input-container-padding: 4px;
   --input-container-textarea-padding-top: 25px;
 
-  --input-textarea-border-color: var(--color-light-grey-50);
+  --input-textarea-border-color: var(--color-squanchy-gray-50);
   --input-textarea-border-radius: 3px;
   --input-textarea-border-style: solid;
   --input-textarea-border-width: 0 0 2px 0;
-  --input-textarea-caret-default-color: var(--color-light-steel-100);
+  --input-textarea-caret-default-color: var(--color-birdperson-gray-500);
   --input-textarea-height: calc(100% - 25px);
   --input-textarea-label-top: 0;
   --input-textarea-placeholder-opacity: 0;
@@ -35,8 +35,8 @@
   --input-label-top: 20px;
   --input-label-transition-time: 0.1s;
 
-  --input-icon-active-color: var(--color-light-coal-50);
-  --input-icon-inactive-color: var(--color-light-chromium-100);
+  --input-icon-active-color: var(--color-birdperson-gray-500);
+  --input-icon-inactive-color: var(--color-squanchy-gray-200);
   --input-icon-margin: var(--spacing-small);
   --input-icon-padding: 22px;
 
@@ -46,18 +46,18 @@
   --input-secondary-text-font-size: var(--form-item-font-size);
   --input-secondary-text-margin-top: var(--spacing-tiny);
 
-  --input-textarea-hover-border-color: var(--color-light-greenish-100);
+  --input-textarea-hover-border-color: var(--color-squanchy-gray-200);
 
-  --input-label-color-focus: var(--color-light-greenish-100);
+  --input-label-color-focus: var(--color-birdperson-gray-500);
   --input-label-font-size-focus: var(--form-item-font-size);
-  --input-textarea-focus-border-color: var(--color-light-greenish-100);
-  --input-textarea-focus-placeholder-color: var(--color-light-chromium-100);
+  --input-textarea-focus-border-color: var(--color-birdperson-gray-500);
+  --input-textarea-focus-placeholder-color: var(--color-squanchy-gray-300);
   --input-textarea-focus-placeholder-opacity: 1;
   --input-textarea-focus-transition-time: 100ms;
 
-  --input-color-error: var(--color-light-error);
+  --input-color-error: var(--color-beth-pink-100);
 
-  --input-color-disabled: var(--color-light-silver-100);
-  --input-textarea-disabled-background: var(--color-light-silver-50);
-  --input-textarea-disabled-border-color: var(--color-light-iron-50);
+  --input-color-disabled: var(--color-squanchy-gray-200);
+  --input-textarea-disabled-background: var(--color-squanchy-gray-50);
+  --input-textarea-disabled-border-color: var(--color-squanchy-gray-100);
 }

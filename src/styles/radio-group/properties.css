@@ -4,7 +4,7 @@
 :root {
   --radio-group-input-border-radius: 50%;
 
-  --radio-group-bullet-background-color: var(--color-light-greenish-100);
+  --radio-group-bullet-background-color: var(--color-picklerick-green-100);
   --radio-group-bullet-size: 10px;
   --radio-group-bullet-spacing: 4px;
 }

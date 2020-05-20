@@ -2,12 +2,12 @@
 @import "../typography.css";
 
 :root {
-  --tabbar-border-color: var(--color-light-iron-50);
+  --tabbar-border-color: var(--color-squanchy-gray-20);
   --tabbar-border-style: solid;
   --tabbar-border-width: 0 0 1px;
   --tabbar-width: 100%;
 
-  --tabbar-tab-color: var(--color-light-steel-100);
+  --tabbar-tab-color: var(--color-squanchy-gray-400);
   --tabbar-tab-font-family: var(--title-font-family);
   --tabbar-tab-font-size: 14px;
   --tabbar-tab-font-weight: var(--body-text-weight);
@@ -20,12 +20,12 @@
   --tabbar-enter-border-height: 2px;
   --tabbar-enter-border-width: 100%;
 
-  --tabbar-hover-color: var(--color-light-steel-200);
-  --tabbar-hover-border-color: var(--color-light-steel-100);
+  --tabbar-hover-border-color: var(--color-barney-purple-100);
+  --tabbar-hover-color: var(--color-barney-purple-100);
 
-  --tabbar-active-color: var(--color-black);
-  --tabbar-active-border-color: var(--color-light-steel-200);
+  --tabbar-active-color: var(--color-barney-purple-100);
+  --tabbar-active-border-color: var(--color-barney-purple-100);
 
-  --tabbar-selected-color: var(--color-light-greenish-100);
-  --tabbar-selected-border-color: var(--color-light-greenish-gradient);
+  --tabbar-selected-color: var(--color-barney-purple-100);
+  --tabbar-selected-border-color: var(--color-barney-purple-10);
 }

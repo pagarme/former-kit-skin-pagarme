@@ -3,11 +3,11 @@
 
 :root {
   --pagination-background-color: var(--color-white);
-  --pagination-border-color: var(--color-light-platinum-100);
+  --pagination-border-color: var(--color-squanchy-gray-20);
   --pagination-border-radius: 3px;
   --pagination-border-style: solid;
   --pagination-border-width: 1px;
-  --pagination-color: var(--color-light-steel-100);
+  --pagination-color: var(--color-squanchy-gray-300);
   --pagination-font-family: var(--title-font-family);
   --pagination-font-size: 14px;
   --pagination-height: 32px;
@@ -35,14 +35,14 @@
 
   --pagination-button-enter-text-color: var(--color-white);
 
-  --pagination-button-hover-background-color: var(--color-light-greenish-120);
+  --pagination-button-hover-background-color: var(--color-barney-purple-100);
 
-  --pagination-button-focus-background-color: var(--color-light-greenish-50);
+  --pagination-button-focus-background-color: var(--color-barney-purple-200);
 
-  --pagination-button-active-background-color: var(--color-light-greenish-150);
+  --pagination-button-active-background-color: var(--color-barney-purple-100);
 
-  --pagination-error-border-color: rgba(var(--color-light-salmon-120), 1);
-  --pagination-label-error-background-color: var(--color-light-red-20);
+  --pagination-error-border-color: rgba(var(--color-beth-pink-100), 1);
+  --pagination-label-error-background-color: var(--color-beth-pink-20);
 
-  --pagination-disabled-background-color: var(--color-light-platinum-20);
+  --pagination-disabled-background-color: var(--color-squanchy-gray-50);
 }

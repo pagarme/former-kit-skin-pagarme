@@ -169,7 +169,7 @@
 }
 
 .disabled .label {
-  color: var(--color-light-silver-100);
+  color: var(--color-squanchy-gray-50);
 }
 
 .disabled * {
@@ -179,7 +179,7 @@
 .prev:disabled,
 .next:disabled {
   background-color: var(--pagination-disabled-background-color);
-  color: var(--color-light-iron-100);
+  color: var(--color-squanchy-gray-200);
   cursor: not-allowed;
 
   & svg {

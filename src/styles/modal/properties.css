@@ -8,7 +8,7 @@
   --modal-box-shadow-color: rgba(var(--color-black), 0.5);
   --modal-box-shadow: 3px 4px 10px 0 var(--modal-box-shadow-color);
   --modal-frame-background-color: var(--color-white);
-  --modal-frame-border-color: var(--color-light-grey-50);
+  --modal-frame-border-color: var(--color-squanchy-gray-20);
   --modal-frame-border: solid 1px rgba(var(--modal-frame-border-color), 0.4);
   --modal-inner-mobile-width: 90vw;
   --modal-inner-default-width: 580px;
@@ -22,16 +22,16 @@
     var(--spacing-small);
   --modal-child-first-child-padding: var(--spacing-small);
 
-  --modal-title-color: var(--color-light-steel-100);
+  --modal-title-color: var(--color-birdperson-gray-500);
   --modal-title-font-size: 14px;
   --modal-title-icon-spacing: var(--spacing-tiny);
   --modal-title-margin: 0;
   --modal-title-text-transform: uppercase;
   --modal-title-font-weight: var(--body-text-weight);
 
-  --modal-section-background-color: var(--color-light-smoke-40);
+  --modal-section-background-color: var(--color-squanchy-gray-20);
 
-  --modal-divider-border-color: var(--color-light-grey-20);
+  --modal-divider-border-color: var(--color-squanchy-gray-20);
   --modal-divider-border-style: solid;
   --modal-divider-border-width: 1px 0 0;
   --modal-divider-margin: 0 var(--spacing-small) var(--spacing-small);

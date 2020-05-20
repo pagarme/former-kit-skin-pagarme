@@ -35,7 +35,7 @@
   & .CalendarDay__blocked_calendar:hover {
     border: none;
     background: none;
-    color: var(--color-light-steel-50);
+    color: var(--color-squanchy-gray-100);
     cursor: not-allowed;
   }
 
@@ -176,6 +176,17 @@
     color: var(--calendar-day-color);
     border-color: var(--calendar-day-selected-border-color);
     background-color: var(--calendar-hovered-span);
+  }
+
+  & .CalendarDay__selected:hover {
+    background: var(--calendar-day-selected-border-color);
+    border-color: var(--calendar-day-selected-border-color);
+  }
+
+  & .CalendarDay__hovered_span:hover,
+  & .CalendarDay__hovered_span {
+    background: var(--calendar-hovered-span);
+    color: var(--calendar-active-color);
   }
 
   & .CalendarDay:active {

@@ -4,16 +4,16 @@
 
 :root {
   --date-selector-background-color: var(--color-white);
-  --date-selector-border-color: var(--color-light-iron-50);
+  --date-selector-border-color: var(--color-squanchy-gray-20);
   --date-selector-border-style: solid;
   --date-selector-border-radius: 3px;
   --date-selector-border-width: 1px;
-  --date-selector-box-shadow: 2px 2px 2px 0 rgba(var(--color-light-steel-100), 0.25);
+  --date-selector-box-shadow: 2px 2px 2px 0 rgba(var(--color-squanchy-gray-100), 0.25);
   --date-selector-font-size: 12px;
   --date-selector-user-select: none;
 
-  --date-selector-sidebar-active-color: var(--color-light-greenish-100);
-  --date-selector-sidebar-background: var(--color-light-smoke-40);
+  --date-selector-sidebar-active-color: var(--color-picklerick-green-100);
+  --date-selector-sidebar-background: var(--color-white);
   --date-selector-sidebar-border-radius:
     var(--date-selector-border-radius)
     0
@@ -30,7 +30,7 @@
     var(--spacing-medium)
     var(--spacing-small);
 
-  --date-selector-sidebar-h2-color: var(--color-light-steel-100);
+  --date-selector-sidebar-h2-color: var(--color-squanchy-gray-100);
   --date-selector-sidebar-h2-font-size: 10px;
   --date-selector-sidebar-h2-font-style: normal;
   --date-selector-sidebar-h2-font-weight: 200;
@@ -42,8 +42,8 @@
   --date-selector-sidebar-input-font-weight: var(--body-text-weight);
   --date-selector-sidebar-input-padding-left: calc(var(--spacing-tiny) - 2px);
 
-  --date-selector-sidebar-label-border-left: 0 solid rgba(var(--color-black), 0);
-  --date-selector-sidebar-label-color: var(--color-light-steel-100);
+  --date-selector-sidebar-label-border-left: 0 solid rgba(var(--color-birdperson-gray-500), 0);
+  --date-selector-sidebar-label-color: var(--color-birdperson-gray-500);
   --date-selector-sidebar-label-font-size: 12px;
   --date-selector-sidebar-label-font-weight: var(--body-text-weight);
   --date-selector-sidebar-label-margin-left: var(--spacing-tiny);
@@ -68,15 +68,15 @@
   --date-selector-sidebar-arrow-top: -8px;
   --date-selector-sidebar-arrow-transform: rotate(45deg);
 
-  --date-selector-week-name-background: var(--color-light-silver-20);
-  --date-selector-week-name-color: var(--color-light-greenish-100);
+  --date-selector-week-name-background: var(--color-squanchy-gray-100);
+  --date-selector-week-name-color: var(--color-picklerick-green-100);
   --date-selector-week-name-font-size: 14px;
   --date-selector-week-name-font-weight: var(--body-text-weight);
 
-  --date-selector-separator: var(--color-light-platinum-50);
+  --date-selector-separator: var(--color-squanchy-gray-100);
   --date-selector-separator-height: 14px;
   --date-selector-separator-width: 1px;
 
-  --date-selector-selected-days-color: var(--color-light-chromium-100);
+  --date-selector-selected-days-color: var(--color-squanchy-gray-100);
   --date-selector-selected-days-font-size: 12px;
 }

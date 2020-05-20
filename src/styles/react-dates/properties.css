@@ -4,15 +4,15 @@
 :root {
   --calendar-font-family: var(--title-font-family);
 
-  --calendar-icon-color: var(--color-light-grey-100);
+  --calendar-icon-color: var(--color-squanchy-gray-100);
   --calendar-icon-font-size: 12px;
 
   --calendar-day-box-shadow: none;
-  --calendar-day-color: var(--color-light-steel-100);
-  --calendar-day-font-size: 12px;
+  --calendar-day-color: var(--color-squanchy-gray-400);
   --calendar-day-font-weight: normal;
+  --calendar-day-font-size: 12px;
   --calendar-day-height: 23px;
-  --calendar-day-out-of-range-color: var(--color-light-steel-50);
+  --calendar-day-out-of-range-color: var(--color-squanchy-gray-200);
   --calendar-day-picker-background-color: transparent;
   --calendar-day-picker-background: none;
   --calendar-day-picker-border: none;
@@ -26,33 +26,33 @@
     border-radius 150ms ease-out,
     background-color 150ms ease-out;
 
-  --calendar-month-caption-color: var(--color-light-steel-100);
+  --calendar-month-caption-color: var(--color-birdperson-gray-500);
   --calendar-month-caption-font-size: 14px;
   --calendar-month-caption-padding: 15px 0 48px;
   --calendar-month-caption-text-transform: uppercase;
   --calendar-month-grid-background: none;
-  --calendar-month-separator-background-color: var(--color-light-smoke-40);
+  --calendar-month-separator-background-color: var(--color-squanchy-gray-200);
   --calendar-month-separator-height: 220px;
   --calendar-month-separator-transform: translateX(-12px) translateY(-70px);
   --calendar-month-separator-width: 1px;
   --calendar-month-transition: opacity 100ms ease-in-out;
 
-  --calendar-week-name-background-color: var(--color-light-smoke-40);
-  --calendar-week-name-border-color: var(--color-light-platinum-50);
+  --calendar-week-name-background-color: var(--color-white);
+  --calendar-week-name-border-color: var(--color-white);
   --calendar-week-name-border-style: solid;
   --calendar-week-name-border-width: 1px 0;
-  --calendar-week-name-color: var(--color-light-greenish-100);
+  --calendar-week-name-color: var(--color-barney-purple-100);
   --calendar-week-name-font-size: 12px;
   --calendar-week-name-font-weight: var(--body-text-weight);
   --calendar-week-padding-bottom: 5px;
   --calendar-week-padding-top: 4px;
   --calendar-week-spacing: 3px;
 
-  --calendar-active-color: var(--color-light-greenish-100);
+  --calendar-active-color: var(--color-picklerick-green-200);
   --calendar-day-selected-border-radius: 3px;
   --calendar-day-selected-font-weight: var(--body-text-weight);
-  --calendar-day-selected-border-color: var(--color-light-greenish-150);
-  --calendar-hovered-span: var(--color-light-greenish-20);
-  --calendar-selected-span-background-color: var(--color-light-silver-40);
-  --calendar-selected-span-color: var(--color-light-steel-100);
+  --calendar-day-selected-border-color: var(--color-picklerick-green-200);
+  --calendar-hovered-span: var(--color-picklerick-green-20);
+  --calendar-selected-span-background-color: var(--color-squanchy-gray-20);
+  --calendar-selected-span-color: var(--color-squanchy-gray-100);
 }

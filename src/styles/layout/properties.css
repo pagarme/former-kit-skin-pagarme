@@ -2,7 +2,7 @@
 @import "../spacing.css";
 
 :root {
-  --layout-background-color: var(--color-light-silver-20);
+  --layout-background-color: var(--color-squanchy-gray-20);
   --layout-children-padding-y: var(--spacing-small);
   --layout-children-padding-x: var(--spacing-medium);
 }

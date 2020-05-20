@@ -9,19 +9,19 @@
   --sidebar-collapsed-width: 78px;
   --sidebar-expanded-width: 222px;
 
-  --sidebar-background-color: var(--color-light-carbon-60);
+  --sidebar-background-color: var(--color-squanchy-gray-20);
 
   --sidebar-font-family: var(--title-font-family);
 
   --sidebar-header-height: 72px;
-  --sidebar-header-text-color: var(--color-white);
+  --sidebar-header-text-color: var(--color-birdperson-gray-500);
   --sidebar-header-padding: var(--spacing-small) var(--spacing-medium);
-  --sidebar-header-border-bottom: 1px solid var(--color-light-steel-200);
+  --sidebar-header-border-bottom: 1px solid var(--color-squanchy-gray-20);
 
   --sidebar-header-button-border: none;
-  --sidebar-header-button-focus-border: 1px solid var(--color-light-greenish-100);
+  --sidebar-header-button-focus-border: 1px solid var(--color-squanchy-gray-20);
   --sidebar-header-button-background: none;
-  --sidebar-header-button-color: var(--color-white);
+  --sidebar-header-button-color: var(--color-picklerick-green-100);
   --sidebar-header-button-padding: 0;
   --sidebar-collapsed-header-button-size: var(--spacing-medium);
 
@@ -30,7 +30,7 @@
   --sidebar-link-border-color: transparent;
   --sidebar-link-border-style: solid;
   --sidebar-link-border-width: 1px 0;
-  --sidebar-link-color: var(--color-white);
+  --sidebar-link-color: var(--color-birdperson-gray-500);
   --sidebar-link-margin: 0;
   --sidebar-link-padding: var(--spacing-medium);
   --sidebar-link-transition: all 225ms;
@@ -38,11 +38,11 @@
   --sidebar-link-icon-margin-right: var(--spacing-small);
   --sidebar-link-arrow-icon-margin-left: var(--spacing-tiny);
 
-  --sidebar-link-enter-background-color: var(--color-light-carbon-100);
-  --sidebar-link-enter-border-color: var(--color-light-greenish-100);
+  --sidebar-link-enter-background-color: var(--color-squanchy-gray-20);
+  --sidebar-link-enter-border-color: var(--color-squanchy-gray-20);
 
-  --sidebar-link-active-color: var(--color-light-greenish-100);
-  --sidebar-link-active-border-color: var(--color-light-steel-200);
+  --sidebar-link-active-color: var(--color-picklerick-green-100);
+  --sidebar-link-active-border-color: var(--color-squanchy-gray-20);
 
   --sidebar-sublink-padding:
     0
@@ -53,12 +53,12 @@
     0
     0
     var(--spacing-large);
-  --sidebar-sublink-active-color: var(--color-light-greenish-100);
-  --sidebar-sublink-before-background-color: var(--color-light-greenish-100);
+  --sidebar-sublink-active-color: var(--color-picklerick-green-100);
+  --sidebar-sublink-before-background-color: var(--color-squanchy-gray-20);
   --sidebar-sublink-before-left: 6px;
   --sidebar-sublink-before-width: 2px;
 
-  --sidebar-title-color: var(--color-white);
+  --sidebar-title-color: var(--color-birdperson-gray-500);
   --sidebar-title-font-size: 14px;
   --sidebar-title-line-height: 14px;
   --sidebar-title-margin: 0;
