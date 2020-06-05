@@ -139,6 +139,10 @@
   width: var(--modal-inner-huge-width);
 }
 
+.small {
+  width: var(--modal-inner-small-width);
+}
+
 .top {
   align-self: flex-start;
   margin-top: var(--modal-margin);
