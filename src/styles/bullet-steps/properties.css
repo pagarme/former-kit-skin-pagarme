@@ -2,12 +2,12 @@
 @import "../spacing.css";
 
 :root {
-  --indicator-height: 12px;
-  --indicator-width: 12px;
+  --indicator-height: 8px;
+  --indicator-width: 8px;
 
-  --steps-item-margin: var(--spacing-medium);
+  --steps-item-margin: var(--spacing-tiny);
 
-  --indicator-previous-background-color: var(--color-squanchy-gray-200);
-  --indicator-current-background-color: var(--color-barney-purple-100);
+  --indicator-previous-background-color: var(--color-squanchy-gray-100);
+  --indicator-current-background-color: var(--color-picklerick-green-100);
   --indicator-next-background-color: var(--color-squanchy-gray-50);
 }
