@@ -5,23 +5,18 @@
   --dropdown-background-color: transparent;
   --dropdown-border-color: var(--color-squanchy-gray-50);
   --dropdown-border-style: solid;
-  --dropdown-border-radius: 3px;
+  --dropdown-border-radius: 6px;
   --dropdown-border-width: 1px;
   --dropdown-font-size: 14px;
   --dropdown-font-family: var(--title-font-family);
-  --dropdown-height: 32px;
   --dropdown-line-height: var(--spacing-large);
-  --dropdown-text-color: var(--color-squanchy-gray-200);
-
-  --dropdown-tiny-font-size: 12px;
-  --dropdown-tiny-height: 26px;
-  --dropdown-tiny-icon-width: var(--dropdown-tiny-height);
+  --dropdown-text-color: var(--color-squanchy-gray-300);
 
   --dropdown-select-height: var(--spacing-large);
-  --dropdown-select-padding-bottom: 0;
-  --dropdown-select-padding-left: 8px;
+  --dropdown-select-padding-bottom: 3px;
+  --dropdown-select-padding-left: 12px;
   --dropdown-select-padding-right: var(--spacing-large);
-  --dropdown-select-padding-top: 0;
+  --dropdown-select-padding-top: 3px;
 
   --dropdown-option-color: var(--color-squanchy-gray-300);
 
@@ -33,15 +28,16 @@
 
   --dropdown-icon-border: 1px solid var(--color-squanchy-gray-50);
   --dropdown-icon-color: var(--color-birdperson-gray-500);
-  --dropdown-icon-height: inherit;
-  --dropdown-icon-width: var(--dropdown-height);
+  --dropdown-icon-height: 40px;
+  --dropdown-icon-width: 40px;
   --dropdown-icon-top: 0;
+  --dropdown-icon-right: 0;
 
   --dropdown-focus-border-color: var(--color-birdperson-gray-500);
   --dropdown-focus-transition-time: 100ms;
 
   --dropdown-error-color: var(--color-beth-pink-100);
 
-  --dropdown-color-disabled: var(--color-squanchy-gray-20);
+  --dropdown-color-disabled: var(--color-squanchy-gray-50);
   --dropdown-option-disabled-background: none;
 }

@@ -13,6 +13,7 @@
   --modal-inner-mobile-width: 90vw;
   --modal-inner-default-width: 580px;
   --modal-inner-huge-width: 880px;
+  --modal-inner-small-width: 352px;
   --modal-overlay-background: rgba(var(--color-black), 0.7);
   --modal-padding: var(--spacing-small);
   --modal-margin: var(--spacing-large);
