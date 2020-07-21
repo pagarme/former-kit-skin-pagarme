@@ -64,6 +64,7 @@
   --sidebar-title-margin: 0;
   --sidebar-title-text-transform: none;
 
+  --sidebar-position: relative;
   --sidebar-transition: width 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
 
   --sidebar-user-select: none;

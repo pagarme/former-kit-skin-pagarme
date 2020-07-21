@@ -54,6 +54,7 @@
 
 .expanded {
   min-width: var(--sidebar-expanded-min-width);
+  position: var(--sidebar-position);
   transition: var(--sidebar-transition);
   width: var(--sidebar-expanded-width);
 }
