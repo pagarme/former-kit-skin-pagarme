@@ -120,6 +120,7 @@
   resize: none;
   width: 100%;
   z-index: var(--textarea-z-index);
+  padding: var(--input-textarea-padding);
 }
 
 .container > textarea::placeholder,
@@ -147,6 +148,8 @@
   cursor: pointer;
   font-size: var(--input-icon-size);
   outline: none;
+  height: 24px;
+  width: 24px;
 }
 
 .multiline {
