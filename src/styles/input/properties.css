@@ -13,22 +13,22 @@
   --input-light-color: var(--color-squanchy-gray-300);
 
   --input-container-letter-spacing: var(--letter-spacing);
-  --input-container-padding: 17px 16px;
+  --input-container-padding: 0 11px;
 
   --input-font-family: var(--title-font-family);
-  --input-font-size: 14px;
+  --input-font-size: 12px;
 
   --input-height: var(--spacing-large);
 
-  --input-multiline-font-size: 14px;
+  --input-multiline-font-size: 12px;
   --input-multiline-line-height: 20px;
   --input-textarea-height: 100%;
-  --input-textarea-padding: 17px 32px 17px 0;
 
   --input-placeholder-color: var(--color-squanchy-gray-100);
 
   --input-icon-color: var(--color-squanchy-gray-100);
   --input-icon-size: 16px;
+  --input-icon-password-size: 12px;
 
   --input-border-color-focus: var(--color-birdperson-gray-500);
   --input-border-color-transition: border-color 100ms ease-in-out;
@@ -43,5 +43,11 @@
 
   --input-tiny-font-size: 12px;
   --input-tiny-height: 26px;
+  --input-tiny-container-padding: 0 9px;
   --input-tiny-icon-width: var(--input-tiny-height);
+
+  --input-huge-font-size: 14px;
+  --input-huge-height: 54px;
+  --input-huge-container-padding: 0 16px;
+  --input-huge-icon-password-size: 24px;
 }
