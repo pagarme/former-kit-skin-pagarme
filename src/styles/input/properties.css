@@ -4,7 +4,7 @@
 :root {
   --input-background-color: transparent;
 
-  --input-border-radius: 6px;
+  --input-border-radius: 3px;
   --input-border-style: solid;
   --input-border-width: 1px;
   --input-border-color: var(--color-squanchy-gray-100);
@@ -13,17 +13,16 @@
   --input-light-color: var(--color-squanchy-gray-300);
 
   --input-container-letter-spacing: var(--letter-spacing);
-  --input-container-padding: 17px 16px;
+  --input-container-padding: 0 5px;
 
   --input-font-family: var(--title-font-family);
-  --input-font-size: 14px;
+  --input-font-size: 12px;
 
   --input-height: var(--spacing-large);
 
-  --input-multiline-font-size: 14px;
+  --input-multiline-font-size: 12px;
   --input-multiline-line-height: 20px;
   --input-textarea-height: 100%;
-  --input-textarea-padding: 17px 32px 17px 0;
 
   --input-placeholder-color: var(--color-squanchy-gray-100);
 
