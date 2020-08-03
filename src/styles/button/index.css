@@ -136,6 +136,7 @@
   font-size: var(--button-tiny-font-size);
   height: var(--button-tiny-height);
   padding: var(--button-tiny-padding);
+  text-transform: var(--button-tiny-text-transform);
 
   & > .spinner {
     height: 12px;
@@ -155,12 +156,14 @@
   font-size: var(--button-default-font-size);
   height: var(--button-default-height);
   padding: var(--button-default-padding);
+  text-transform: var(--button-default-text-transform);
 }
 
 .huge {
   font-size: var(--button-huge-font-size);
   height: var(--button-huge-height);
   padding: var(--button-huge-padding);
+  text-transform: var(--button-huge-text-transform);
 
   & > .spinner {
     height: 18px;

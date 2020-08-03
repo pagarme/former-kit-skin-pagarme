@@ -3,25 +3,28 @@
 @import "../typography.css";
 
 :root {
-  --button-border-radius: 6px;
+  --button-border-radius: 3px;
   --button-color: var(--color-white);
   --button-font-family: var(--title-font-family);
   --button-font-style: var(--title-font-style);
-  --button-font-weight: bold;
+  --button-font-weight: var(--body-text-weight);
   --button-letter-spacing: var(--letter-spacing);
   --button-user-select: none;
 
   --button-default-font-size: 14px;
   --button-default-height: 32px;
   --button-default-padding: 0 var(--spacing-medium);
+  --button-default-text-transform: uppercase;
 
   --button-huge-font-size: 16px;
   --button-huge-height: 44px;
   --button-huge-padding: 0 48px;
+  --button-huge-text-transform: uppercase;
 
   --button-tiny-font-size: 12px;
   --button-tiny-height: 26px;
   --button-tiny-padding: 0 var(--spacing-tiny);
+  --button-tiny-text-transform: none;
 
   --button-high-relevance-background-color-hover: var(--color-barney-purple-50);
   --button-high-relevance-background-color-active: var(--color-barney-purple-200);
