@@ -13,20 +13,8 @@
   display: flex;
   font-family: var(--alert-font-family);
   font-size: var(--alert-font-size);
-  height: var(--alert-height);
+  padding: var(--alert-padding);
   width: 100%;
-}
-
-.dark {
-  background-color: var(--alert-dark-background-color);
-  border: var(--alert-dark-border);
-  color: var(--alert-dark-color);
-}
-
-.light {
-  background-color: var(--alert-light-background-color);
-  border: var(--alert-light-border);
-  color: var(--alert-light-color);
 }
 
 .content {
@@ -40,28 +28,29 @@
 .icon {
   align-items: center;
   border-radius: var(--alert-icon-border-radius);
-  color: var(--alert-icon-color);
   display: flex;
   font-size: var(--alert-icon-size);
   height: var(--alert-icon-height);
   justify-content: center;
-  margin-left: var(--alert-icon-margin-left);
-  margin-right: var(--alert-icon-margin-right);
-  width: var(--alert-icon-width);
+  padding-right: var(--alert-icon-padding-right);
 }
 
 .warning {
-  background-color: var(--alert-warning-color);
+  background-color: var(--alert-warning-background-color);
+  color: var(--alert-warning-color);
 }
 
 .info {
-  background-color: var(--alert-info-color);
+  background-color: var(--alert-info-background-color);
+  color: var(--alert-info-color);
 }
 
 .error {
-  background-color: var(--alert-error-color);
+  background-color: var(--alert-error-background-color);
+  color: var(--alert-error-color);
 }
 
 .success {
-  background-color: var(--alert-success-color);
+  background-color: var(--alert-success-background-color);
+  color: var(--alert-success-color);
 }
