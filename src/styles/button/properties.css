@@ -11,6 +11,9 @@
   --button-letter-spacing: var(--letter-spacing);
   --button-user-select: none;
 
+  --button-text-button-transform: lowercase;
+  --button-text-button-first-letter-transform: uppercase;
+
   --button-default-font-size: 14px;
   --button-default-height: 32px;
   --button-default-padding: 0 var(--spacing-medium);

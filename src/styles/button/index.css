@@ -22,6 +22,14 @@
   word-break: keep-all;
 }
 
+.textButton {
+  text-transform: var(--button-text-button-transform);
+}
+
+.textButton:first-letter {
+  text-transform: var(--button-text-button-first-letter-transform);
+}
+
 .ripple {
   background-image: var(--button-ripple-background);
   background-position: center;
