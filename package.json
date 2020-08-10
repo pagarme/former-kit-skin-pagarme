@@ -1,6 +1,6 @@
 {
   "name": "former-kit-skin-pagarme",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "A skin for former-kit based on Pagar.me's brand",
   "main": "dist/index.js",
   "repository": "https://github.com/pagarme/former-kit-skin-pagarme.git",
@@ -17,7 +17,7 @@
     "start": "env WATCH=-w run-p build:copy build:compile"
   },
   "dependencies": {
-    "emblematic-icons": "0.7.1",
+    "emblematic-icons": "0.11.0",
     "react-dates": "18.4.1"
   },
   "devDependencies": {

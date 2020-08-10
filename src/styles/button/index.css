@@ -413,6 +413,10 @@
   }
 }
 
+.fullWidth {
+  width: 100%;
+}
+
 @keyframes spinner {
 
   0% {
