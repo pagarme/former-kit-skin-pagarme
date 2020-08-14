@@ -1,0 +1,8 @@
+/* stylelint-disable font-weight-notation */
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./poppins-semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
