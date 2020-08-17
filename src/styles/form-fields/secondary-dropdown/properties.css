@@ -1,6 +1,5 @@
 @import "../../colors.css";
 @import "../../typography.css";
-@import "../../webfonts/roboto/index.css";
 
 :root {
   --secondary-dropdown-background-color: transparent;
@@ -9,7 +8,6 @@
   --secondary-dropdown-border-radius: 6px;
   --secondary-dropdown-border-width: 1px;
   --secondary-dropdown-font-size: 14px;
-  --secondary-dropdown-font-family: "Roboto", sans-serif;
   --secondary-dropdown-height: 43px;
   --secondary-dropdown-line-height: 23px;
   --secondary-dropdown-text-color: var(--color-birdperson-gray-600);
