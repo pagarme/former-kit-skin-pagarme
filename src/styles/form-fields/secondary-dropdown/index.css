@@ -2,7 +2,6 @@
 
 .dropdown * {
   box-sizing: border-box;
-  font-family: var(--secondary-dropdown-font-family);
 }
 
 .dropdown {
