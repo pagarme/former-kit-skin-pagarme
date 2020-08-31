@@ -13,6 +13,7 @@
   display: flex;
   font-family: var(--alert-font-family);
   font-size: var(--alert-font-size);
+  font-weight: bold;
   padding: var(--alert-padding);
   width: 100%;
 }
@@ -20,7 +21,7 @@
 .content {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   margin-right: var(--alert-content-margin-right);
 }
