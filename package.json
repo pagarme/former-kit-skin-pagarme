@@ -1,6 +1,6 @@
 {
   "name": "former-kit-skin-pagarme",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "description": "A skin for former-kit based on Pagar.me's brand",
   "main": "dist/index.js",
   "repository": "https://github.com/pagarme/former-kit-skin-pagarme.git",

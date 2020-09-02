@@ -6,7 +6,7 @@
 }
 
 .alert {
-  align-items: center;
+  align-items: flex-start;
   background-color: transparent;
   border-radius: var(--alert-border-radius);
   box-sizing: border-box;
@@ -21,7 +21,7 @@
 .content {
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   margin-right: var(--alert-content-margin-right);
 }
