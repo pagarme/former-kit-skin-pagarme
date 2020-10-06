@@ -1,3 +1,4 @@
+@import "../colors.css";
 @import "./properties.css";
 @import "./CardSection.css";
 
@@ -14,14 +15,16 @@
   padding: 0;
   width: 100%;
 
-  & .title,
-  & .content,
-  & .actions {
-    padding: var(--card-child-padding);
+  & .title {
+    padding: 24px 25px 0 25px;
+  }
 
-    &:first-child {
-      padding: var(--card-child-first-child-padding);
-    }
+  & .content {
+    padding: 25px;
+  }
+
+  & .actions {
+    padding: 11px 12px;
   }
 }
 
@@ -106,6 +109,7 @@
 .actions {
   display: flex;
   justify-content: flex-end;
+  background: var(--color-squanchy-gray-20);
 }
 
 .actions > * {

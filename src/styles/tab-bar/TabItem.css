@@ -13,7 +13,7 @@
   padding: var(--tabbar-tab-padding);
   position: relative;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: initial;
   user-select: none;
   width: var(--tabbar-tab-width);
 
