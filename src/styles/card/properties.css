@@ -17,8 +17,8 @@
 
   --card-title-color: var(--color-birdperson-gray-500);
   --card-title-font-family: var(--title-font-family);
-  --card-title-font-size: 14px;
-  --card-title-font-weight: var(--title-font-weight);
+  --card-title-font-size: 20px;
+  --card-title-font-weight: bold;
   --card-title-icon-margin: var(--spacing-tiny);
 
   --card-title-small-font-weight: normal;
@@ -32,7 +32,8 @@
   --card-subtitle-font-weight: normal;
   --card-subtitle-color: var(--color-squanchy-gray-300);
 
-  --card-actions-spacing: var(--spacing-small);
+  --card-actions-spacing: 12px;
+  --card-actions-padding: 11px 12px 11px 12px;
 
   --card-section-background-color: var(--color-squanchy-gray-20);
 

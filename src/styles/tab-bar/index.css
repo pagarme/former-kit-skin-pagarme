@@ -15,6 +15,6 @@
   border-style: var(--tabbar-border-style);
   border-width: var(--tabbar-border-width);
   display: flex;
-  justify-content: center;
+  justify-content: start;
   width: var(--tabbar-width);
 }
