@@ -19,6 +19,7 @@
   border-radius: var(--popover-border-radius);
   border-style: var(--popover-border-style);
   border-width: var(--popover-border-width);
+  box-shadow: var(--popover-box-shadow);
   display: block;
   position: absolute;
   z-index: var(--popover-z-index);
@@ -48,6 +49,10 @@
   position: absolute;
   transform: rotate(45deg);
   width: var(--popover-arrow-size);
+}
+
+.withoutArrow.popover:before {
+  display: none;
 }
 
 .popover > *:not(.menu) {

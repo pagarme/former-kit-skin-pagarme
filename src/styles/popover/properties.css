@@ -7,6 +7,7 @@
   --popover-border-radius: 3px;
   --popover-border-style: solid;
   --popover-border-width: 1px;
+  --popover-box-shadow: 4px 4px 15px 4px rgba(0, 0, 0, 0.1);
   --popover-child-border-color: var(--color-white);
   --popover-child-border-style: solid;
   --popover-child-border-width:
