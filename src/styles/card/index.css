@@ -15,16 +15,14 @@
   padding: 0;
   width: 100%;
 
-  & .title {
-    padding: 24px 25px 0 25px;
-  }
-
-  & .content {
-    padding: 25px;
-  }
-
+  & .title,
+  & .content,
   & .actions {
-    padding: 11px 12px;
+    padding: var(--card-child-padding);
+
+    &:first-child {
+      padding: var(--card-child-first-child-padding);
+    }
   }
 }
 
@@ -71,16 +69,8 @@
 .title > h2 {
   color: var(--card-title-color);
   display: inline-flex;
-}
-
-.large {
-  font-size: var(--card-title-large-font-size);
-  font-weight: var(--card-title-large-font-weight);
-}
-
-.default {
-  font-size: var(--card-title-default-font-size);
-  font-weight: var(--card-title-default-font-weight);
+  font-size: var(--card-title-font-size);
+  font-weight: var(--card-title-font-weight);
 }
 
 .title > h3 {
