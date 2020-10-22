@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.9.5](https://www.github.com/pagarme/former-kit-skin-pagarme/compare/v2.9.4...v2.9.5) (2020-10-22)
+
+
+### Bug Fixes
+
+* CircleCI config.yml ([156d462](https://www.github.com/pagarme/former-kit-skin-pagarme/commit/156d462a6ec102a6ee542b876ae5892acaf9d2d3))
+
 ### [2.9.4](https://www.github.com/pagarme/former-kit-skin-pagarme/compare/v2.9.3...v2.9.4) (2020-10-22)
 
 
