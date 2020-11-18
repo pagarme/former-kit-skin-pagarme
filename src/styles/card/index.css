@@ -107,7 +107,6 @@
 .actions {
   display: flex;
   justify-content: flex-end;
-  background: var(--color-squanchy-gray-20);
 }
 
 .actions > * {
