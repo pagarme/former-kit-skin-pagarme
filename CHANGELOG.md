@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.9.6](https://www.github.com/pagarme/former-kit-skin-pagarme/compare/v2.9.5...v2.9.6) (2020-11-18)
+
+
+### Bug Fixes
+
+* CardActions background color ([bd563e5](https://www.github.com/pagarme/former-kit-skin-pagarme/commit/bd563e57fa6c59846a157e6c0eeda61cd7ddd81f))
+
 ### [2.9.5](https://www.github.com/pagarme/former-kit-skin-pagarme/compare/v2.9.4...v2.9.5) (2020-10-22)
 
 
