@@ -1,0 +1,30 @@
+@import "../colors.css";
+@import "../typography.css";
+
+:root {
+  --radio-group-input-border-radius: 50%;
+
+  --radio-group-bullet-background-color: var(--color-picklerick-green-100);
+  --radio-group-bullet-size: 10px;
+  --radio-group-bullet-spacing: 4px;
+
+  /* sizes */
+
+  --radio-size-default-height: 16px;
+  --radio-size-default-width: 16px;
+  --radio-size-default-min-width: 16px;
+
+  --radio-size-default-bullet-height: 10px;
+  --radio-size-default-bullet-width: 10px;
+  --radio-size-default-bullet-top: 2px;
+  --radio-size-default-bullet-left: 2px;
+
+  --radio-size-huge-height: 24px;
+  --radio-size-huge-width: 24px;
+  --radio-size-huge-min-width: 24px;
+
+  --radio-size-huge-bullet-height: 16px;
+  --radio-size-huge-bullet-width: 16px;
+  --radio-size-huge-bullet-top: 3px;
+  --radio-size-huge-bullet-left: 3px;
+}

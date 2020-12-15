@@ -1,45 +1,7 @@
-@import "./properties.css";
 @import "../checkbox-radio/index.css";
-
-.label {
-  margin: var(--checkbox-radio-margin);
-}
-
-.label:last-child {
-  margin-right: 0;
-}
-
-.input {
-  border-radius: var(--radio-group-input-border-radius);
-}
-
-.input:before {
-  background-color: var(--radio-group-bullet-background-color);
-  border-radius: var(--radio-group-input-border-radius);
-  content: "";
-  height: var(--radio-group-bullet-size);
-  left: var(--radio-group-bullet-spacing);
-  position: absolute;
-  top: var(--radio-group-bullet-spacing);
-  transform: scale(0);
-  transition: transform var(--checkbox-radio-transition-speed);
-  width: var(--radio-group-bullet-size);
-}
-
-/* checked */
-
-.label input:checked + .input:before {
-  transform: scale(1);
-}
 
 /* error */
 
 .error .input:before {
   background-color: var(--checkbox-radio-color-error);
-}
-
-/* disabled */
-
-.disabled .input:before {
-  background-color: var(--checkbox-radio-pseudo-element-color-disabled);
 }
