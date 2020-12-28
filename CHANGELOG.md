@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.0](https://www.github.com/pagarme/former-kit-skin-pagarme/compare/v2.9.6...v2.10.0) (2020-12-28)
+
+
+### Features
+
+* add theme for Radio ([b348a6e](https://www.github.com/pagarme/former-kit-skin-pagarme/commit/b348a6edbc0b1b05a4db61b88528b33b52858e8c))
+
 ### [2.9.6](https://www.github.com/pagarme/former-kit-skin-pagarme/compare/v2.9.5...v2.9.6) (2020-11-18)
 
 
