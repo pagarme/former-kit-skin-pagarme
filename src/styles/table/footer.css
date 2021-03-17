@@ -1,4 +1,4 @@
-@import "./properties";
+@import "./properties.css";
 
 .footerCell {
   font-weight: var(--footer-row-font-weight);
