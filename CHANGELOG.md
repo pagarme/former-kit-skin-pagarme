@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.10.1](https://www.github.com/pagarme/former-kit-skin-pagarme/compare/v2.10.0...v2.10.1) (2021-03-19)
+
+
+### Bug Fixes
+
+* imports of css ([7d018c4](https://www.github.com/pagarme/former-kit-skin-pagarme/commit/7d018c4a23a91e59647faa9e2ec1c2933d2f2f84))
+
 ## [2.10.0](https://www.github.com/pagarme/former-kit-skin-pagarme/compare/v2.9.6...v2.10.0) (2020-12-28)
 
 
