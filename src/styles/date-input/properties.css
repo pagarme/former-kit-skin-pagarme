@@ -1,6 +1,6 @@
 @import "../colors.css";
 @import "../typography.css";
-@import "../spacing";
+@import "../spacing.css";
 
 :root {
   --date-input-background-color: var(--color-white);
