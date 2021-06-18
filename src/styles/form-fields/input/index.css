@@ -28,70 +28,85 @@
 
 .dark {
   color: var(--form-item-dark-color);
+  -webkit-text-fill-color: var(--form-item-dark-color);
 
   & .container > textarea,
   & .container > input {
     color: var(--form-placeholder-dark-color);
+    -webkit-text-fill-color: var(--form-placeholder-dark-color);
   }
 
   & .container > label {
     color: var(--form-item-dark-label-color);
+    -webkit-text-fill-color: var(--form-item-dark-label-color);
   }
 
   & .secondaryText {
     color: var(--form-item-dark-color);
+    -webkit-text-fill-color: var(--form-item-dark-color);
   }
 
   &.disabled .secondaryText {
     color: var(--form-dark-color-disabled);
+    -webkit-text-fill-color: var(--form-dark-color-disabled);
   }
 
   & .container > textarea:disabled,
   & .container > input:disabled {
     border-color: var(--form-dark-border-color-disabled);
     color: var(--form-dark-color-disabled);
+    -webkit-text-fill-color: var(--form-dark-color-disabled);
   }
 
   & .container > textarea:disabled ~ label,
   & .container > input:disabled ~ label {
     color: var(--form-dark-color-disabled);
+    -webkit-text-fill-color: var(--form-dark-color-disabled);
   }
 
   & .disabled .icon {
     color: var(--form-icon-color);
+    -webkit-text-fill-color: var(--form-icon-color);
   }
 }
 
 .light {
   color: var(--form-item-light-color);
+  -webkit-text-fill-color: var(--form-item-light-color);
 
   & .container > textarea,
   & .container > input {
     color: var(--form-placeholder-light-color);
+    -webkit-text-fill-color: var(--form-placeholder-light-color);
   }
 
   & .secondaryText {
     color: var(--form-item-light-color);
+    -webkit-text-fill-color: var(--form-item-light-color);
   }
 
   &.disabled .secondaryText {
     color: var(--form-light-color-disabled);
+    -webkit-text-fill-color: var(--form-light-color-disabled);
   }
 
   & .container > textarea:disabled,
   & .container > input:disabled {
     border-color: var(--form-light-border-color-disabled);
     color: var(--form-light-color-disabled);
+    -webkit-text-fill-color: var(--form-light-color-disabled);
   }
 
   & .disabled .secondaryText,
   & .container > textarea:disabled ~ label,
   & .container > input:disabled ~ label {
     color: var(--form-light-color-disabled);
+    -webkit-text-fill-color: var(--form-light-color-disabled);
   }
 
   & .disabled .icon {
     color: var(--form-icon-color);
+    -webkit-text-fill-color: var(--form-icon-color);
   }
 }
 
@@ -103,6 +118,7 @@
   border-style: var(--input-textarea-border-style);
   border-width: var(--input-textarea-border-width);
   color: var(--input-color);
+  -webkit-text-fill-color: var(--input-color);
   caret-color: var(--input-textarea-caret-default-color);
   display: block;
   font-size: var(--input-font-size);
@@ -131,6 +147,7 @@
 
 .container > label {
   color: var(--input-label-color);
+  -webkit-text-fill-color: var(--input-label-color);
   font-size: var(--input-label-font-size-default);
   pointer-events: none;
   position: absolute;
@@ -190,6 +207,7 @@
 .container > input:focus::placeholder {
   opacity: var(--input-textarea-focus-placeholder-opacity);
   color: var(--input-textarea-focus-placeholder-color);
+  -webkit-text-fill-color: var(--input-textarea-focus-placeholder-color);
   font-size: var(--input-font-size);
 }
 
@@ -202,6 +220,7 @@
 
 .container > textarea:focus ~ label,
 .container > input:focus ~ label {
+  -webkit-text-fill-color: var(--input-label-color-focus);
   color: var(--input-label-color-focus);
   font-size: var(--input-label-font-size-focus);
   top: var(--input-textarea-label-top);
@@ -213,10 +232,12 @@
   padding-top: var(--input-icon-padding);
   margin-right: var(--input-icon-margin);
   color: var(--input-icon-inactive-color);
+  -webkit-text-fill-color: var(--input-icon-inactive-color);
 }
 
 .active .icon {
   color: var(--input-icon-active-color);
+  -webkit-text-fill-color: var(--input-icon-active-color);
 }
 
 .displayPasswordIcon {
@@ -237,6 +258,7 @@
 .error .secondaryText,
 .error .contentPresent {
   color: var(--input-color-error);
+  -webkit-text-fill-color: var(--input-color-error);
 }
 
 .error textarea,
