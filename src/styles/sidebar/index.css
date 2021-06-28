@@ -17,6 +17,7 @@
   font-family: var(--sidebar-font-family);
   min-height: 100vh;
   user-select: var(--sidebar-user-select);
+  overflow-y: auto;
 
   & > div {
     display: flex;
