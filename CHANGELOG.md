@@ -1,5 +1,13 @@
 # Changelog
 
+### [2.10.2](https://www.github.com/pagarme/former-kit-skin-pagarme/compare/v2.10.1...v2.10.2) (2021-06-28)
+
+
+### Bug Fixes
+
+* **Sidebar:** add scroll auto ([cae63bd](https://www.github.com/pagarme/former-kit-skin-pagarme/commit/cae63bde010390c1dd05e5ddedd581f45f03975d))
+* add webkit rule to fix transparent color in safari ([eea2fae](https://www.github.com/pagarme/former-kit-skin-pagarme/commit/eea2faeae537e0489375c7cdc2ec63c146d172b7))
+
 ### [2.10.1](https://www.github.com/pagarme/former-kit-skin-pagarme/compare/v2.10.0...v2.10.1) (2021-03-19)
 
 
