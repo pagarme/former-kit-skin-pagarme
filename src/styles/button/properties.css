@@ -102,4 +102,6 @@
       transparent 10.01%
     );
   --button-ripple-transition: transform 0.4s, opacity 1s;
+
+  --button-inline-padding: 4px;
 }
