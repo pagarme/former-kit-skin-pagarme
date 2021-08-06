@@ -425,6 +425,11 @@
   width: 100%;
 }
 
+.inline {
+  padding: 0 var(--button-inline-padding);
+  height: auto;
+}
+
 @keyframes spinner {
 
   0% {
