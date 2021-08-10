@@ -13,9 +13,12 @@
   box-shadow: var(--modal-box-shadow);
   height: auto;
   outline: none;
-  overflow: unset;
+  overflow-y: auto;
+  overflow-x: unset;
   position: relative;
   transform: var(--modal-content-transform);
+  max-width: 98%;
+  max-height: 96%;
 
   & .title,
   & .content,
