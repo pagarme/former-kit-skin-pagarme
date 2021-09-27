@@ -1,0 +1,16 @@
+@import "../colors.css";
+@import "../spacing.css";
+
+:root {
+  --color-picker-border: var(--color-squanchy-gray-200);
+  --color-picker-background: var(--color-white);
+  --color-picker-font-weight: bold;
+  --color-picker-border-radius: var(--spacing-tiny);
+  --color-picker-container-border-radius: var(--spacing-tiny);
+  --color-picker-margin: var(--spacing-tiny);
+  --color-picker-max-width: 352px;
+  --color-picker-padding: var(--spacing-small);
+  --color-picker-text-padding: var(--spacing-small);
+  --color-picker-button-margin: var(--spacing-small);
+  --color-picker-color-width-height: var(--spacing-large);
+}

@@ -1,0 +1,65 @@
+@import "./properties.css";
+
+.color {
+  cursor: pointer;
+  width: var(--color-picker-color-width-height);
+  height: var(--color-picker-color-width-height);
+  border-radius: var(--color-picker-border-radius);
+  margin: var(--color-picker-margin);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-picker-border);
+  justify-content: space-between;
+  background: var(--color-picker-background);
+  border-radius: var(--color-picker-container-border-radius);
+  max-width: var(--color-picker-max-width);
+}
+
+.popover {
+  position: absolute;
+  z-index: 2;
+}
+
+.cover {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.textColor {
+  padding: var(--color-picker-text-padding);
+  font-weight: var(--color-picker-font-weight);
+  border-left: 1px solid var(--color-picker-border);
+}
+
+.textColor > input,
+.textColor > input:focus {
+  outline: none;
+  border: none;
+}
+
+.containerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.containerRigth {
+  display: flex;
+  align-items: center;
+}
+
+.buttonCancel {
+  margin: var(--color-picker-button-margin);
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
