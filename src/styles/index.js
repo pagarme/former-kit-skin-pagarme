@@ -6,6 +6,7 @@ const UICard = require('./card/index.css')
 const UICheckbox = require('./checkbox/index.css')
 const UICheckboxForm = require('./checkbox/index.css')
 const UICheckboxGroup = require('./checkbox-group/index.css')
+const UIColorPicker = require('./color-picker/index.css')
 const UIDateInput = require('./date-input')
 const UIDateSelector = require('./date-selector')
 const UIDropdown = require('./dropdown/index.css')
@@ -49,6 +50,7 @@ module.exports = {
   UICheckbox,
   UICheckboxForm,
   UICheckboxGroup,
+  UIColorPicker,
   UIDateInput,
   UIDateSelector,
   UIDropdown,
