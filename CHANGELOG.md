@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.11.0](https://www.github.com/pagarme/former-kit-skin-pagarme/compare/v2.10.1...v2.11.0) (2021-10-04)
+
+
+### Features
+
+* add style color picker ([4337381](https://www.github.com/pagarme/former-kit-skin-pagarme/commit/4337381f331274594ca0afbfed6889c2be26598d))
+* add style inline to buttons ([39f7347](https://www.github.com/pagarme/former-kit-skin-pagarme/commit/39f7347086caec969a438588ceb9b0115a1a4810))
+
+
+### Bug Fixes
+
+* add overflow and limit size to modal ([4ed0ba6](https://www.github.com/pagarme/former-kit-skin-pagarme/commit/4ed0ba64816b4610914a7e049af31aa6321a4735))
+* align itens of alert in center ([7838d8a](https://www.github.com/pagarme/former-kit-skin-pagarme/commit/7838d8a490308fbd90fa51948d9a03801d5229c3))
+* **Sidebar:** add scroll auto ([cae63bd](https://www.github.com/pagarme/former-kit-skin-pagarme/commit/cae63bde010390c1dd05e5ddedd581f45f03975d))
+* add webkit rule to fix transparent color in safari ([eea2fae](https://www.github.com/pagarme/former-kit-skin-pagarme/commit/eea2faeae537e0489375c7cdc2ec63c146d172b7))
+
 ### [2.10.1](https://www.github.com/pagarme/former-kit-skin-pagarme/compare/v2.10.0...v2.10.1) (2021-03-19)
 
 
