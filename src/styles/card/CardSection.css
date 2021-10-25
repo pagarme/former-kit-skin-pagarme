@@ -106,7 +106,6 @@
 
 .sectionIconBox {
   align-items: center;
-  background-color: var(--card-section-icon-box-background-color);
   border-radius: var(--card-border-radius);
   display: flex;
   height: var(--card-section-icon-box-size);
