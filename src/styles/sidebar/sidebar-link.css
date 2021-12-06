@@ -61,6 +61,11 @@
     position: relative;
   }
 
+  &.borderButton {
+    padding: var(--spacing-small) 0;
+    margin-left: var(--spacing-large);
+  }
+
   /* focus and hover */
 
   & button:focus:before,
@@ -120,4 +125,8 @@
   & svg {
     margin: 0;
   }
+}
+
+.borderButton {
+  border-left: 1px solid var(--color-birdperson-gray-500);
 }
