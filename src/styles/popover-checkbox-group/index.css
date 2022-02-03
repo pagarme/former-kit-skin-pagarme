@@ -1,0 +1,11 @@
+@import "../typography.css";
+
+.title {
+  font-size: var(--body-font-size);
+  font-weight: bold;
+  margin: 0 0 var(--spacing-medium) 0;
+}
+
+.container {
+  width: 210px;
+}

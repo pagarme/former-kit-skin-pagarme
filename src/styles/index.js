@@ -24,6 +24,7 @@ const UILinearProgress = require('./linear-progress/index.css')
 const UIModal = require('./modal/index.css')
 const UIPagination = require('./pagination/index.css')
 const UIPopover = require('./popover/index.css')
+const UIPopoverCheckboxGroup = require('./popover-checkbox-group/index.css')
 const UIRadio = require('./radio/index.css')
 const UIRadioGroup = require('./radio-group/index.css')
 const UISecondaryDropdownForm = require('./form-fields/secondary-dropdown/index.css')
@@ -68,6 +69,7 @@ module.exports = {
   UIModal,
   UIPagination,
   UIPopover,
+  UIPopoverCheckboxGroup,
   UIRadio,
   UIRadioGroup,
   UISecondaryDropdownForm,
