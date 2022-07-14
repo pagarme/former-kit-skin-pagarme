@@ -54,16 +54,10 @@
 
 .submenu > .link {
   list-style: none;
-  padding: var(--sidebar-sublink-padding);
 
   & button {
-    padding: var(--sidebar-sublink-button-padding);
     position: relative;
-  }
-
-  &.borderButton {
-    padding: var(--spacing-small) 0;
-    margin-left: var(--spacing-large);
+    padding: var(--sidebar-sublink-button-padding);
   }
 
   /* focus and hover */
@@ -78,6 +72,10 @@
     top: 0;
     width: var(--sidebar-sublink-before-width);
   }
+}
+
+.link li {
+  list-style: none;
 }
 
 .link button {
@@ -125,8 +123,4 @@
   & svg {
     margin: 0;
   }
-}
-
-.borderButton {
-  border-left: 1px solid var(--color-birdperson-gray-500);
 }

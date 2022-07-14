@@ -56,6 +56,11 @@ By following those commit conventions the release-please-action will automatical
 
 You're not required to merge this release pull request, but when you do it will trigger a workflow on CircleCI which will publish the new version of the package to NPM.
 
+if you can't get it through CI you need to have access to NPM publish and run
+```
+npm publish
+```
+
 ## Licensing
 
 See [LICENSE](LICENSE.md).

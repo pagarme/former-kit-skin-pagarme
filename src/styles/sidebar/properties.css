@@ -9,7 +9,7 @@
   --sidebar-collapsed-width: 78px;
   --sidebar-expanded-width: 222px;
 
-  --sidebar-background-color: var(--color-squanchy-gray-20);
+  --sidebar-background-color: var(--color-white);
 
   --sidebar-font-family: var(--title-font-family);
 
@@ -32,29 +32,28 @@
   --sidebar-link-border-width: 1px 0;
   --sidebar-link-color: var(--color-birdperson-gray-500);
   --sidebar-link-margin: 0;
-  --sidebar-link-padding: var(--spacing-medium);
+  --sidebar-link-padding: var(--spacing-small);
   --sidebar-link-transition: all 225ms;
 
   --sidebar-link-icon-margin-right: var(--spacing-small);
   --sidebar-link-arrow-icon-margin-left: var(--spacing-tiny);
 
-  --sidebar-link-enter-background-color: var(--color-squanchy-gray-20);
-  --sidebar-link-enter-border-color: var(--color-squanchy-gray-20);
+  --sidebar-link-enter-background-color: var(--color-white);
+  --sidebar-link-enter-border-color: none;
 
   --sidebar-link-active-color: var(--color-picklerick-green-100);
-  --sidebar-link-active-border-color: var(--color-squanchy-gray-20);
+  --sidebar-link-active-border-color: none;
 
   --sidebar-sublink-padding:
     0
     var(--spacing-medium)
     var(--spacing-medium);
   --sidebar-sublink-button-padding:
-    0
-    0
-    0
-    var(--spacing-large);
+    var(--spacing-small)
+    40px
+    var(--spacing-small);
   --sidebar-sublink-active-color: var(--color-picklerick-green-100);
-  --sidebar-sublink-before-background-color: var(--color-squanchy-gray-20);
+  --sidebar-sublink-before-background-color: var(--color-white);
   --sidebar-sublink-before-left: 6px;
   --sidebar-sublink-before-width: 2px;
 
