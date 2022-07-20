@@ -16,10 +16,10 @@
   --sidebar-header-height: 72px;
   --sidebar-header-text-color: var(--color-birdperson-gray-500);
   --sidebar-header-padding: var(--spacing-small) var(--spacing-medium);
-  --sidebar-header-border-bottom: 1px solid var(--color-squanchy-gray-20);
+  --sidebar-header-border-bottom: none;
 
   --sidebar-header-button-border: none;
-  --sidebar-header-button-focus-border: 1px solid var(--color-squanchy-gray-20);
+  --sidebar-header-button-focus-border: none;
   --sidebar-header-button-background: none;
   --sidebar-header-button-color: var(--color-picklerick-green-100);
   --sidebar-header-button-padding: 0;
@@ -27,9 +27,6 @@
 
   --sidebar-content-padding: var(--spacing-medium);
 
-  --sidebar-link-border-color: transparent;
-  --sidebar-link-border-style: solid;
-  --sidebar-link-border-width: 1px 0;
   --sidebar-link-color: var(--color-birdperson-gray-500);
   --sidebar-link-margin: 0;
   --sidebar-link-padding: var(--spacing-small);

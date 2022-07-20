@@ -3,9 +3,6 @@
 @import "./properties.css";
 
 .menu > .link {
-  border-color: var(--sidebar-link-border-color);
-  border-style: var(--sidebar-link-border-style);
-  border-width: var(--sidebar-link-border-width);
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -36,7 +33,6 @@
 
   &.active {
     background-color: var(--sidebar-link-enter-background-color);
-    border-color: var(--sidebar-link-active-border-color);
   }
 
   &.active .title { /* stylelint-disable-line selector-max-class */
@@ -48,7 +44,6 @@
   &.focused,
   &:hover {
     background-color: var(--sidebar-link-enter-background-color);
-    border-color: var(--sidebar-link-enter-border-color);
   }
 }
 
