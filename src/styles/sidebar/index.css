@@ -36,22 +36,6 @@
   margin: 0;
 }
 
-.collapsed {
-  min-width: var(--sidebar-collapsed-min-width);
-  transition: var(--sidebar-transition);
-  width: var(--sidebar-collapsed-width);
-  z-index: var(--sidebar-z-index);
-
-  & header {
-    justify-content: center;
-  }
-
-  & header svg {
-    height: var(--sidebar-collapsed-header-button-size);
-    width: var(--sidebar-collapsed-header-button-size);
-  }
-}
-
 .expanded {
   min-width: var(--sidebar-expanded-min-width);
   position: var(--sidebar-position);
