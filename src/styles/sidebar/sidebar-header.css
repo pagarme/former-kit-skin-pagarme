@@ -7,9 +7,6 @@
   height: var(--sidebar-header-height);
   justify-content: space-between;
   padding: var(--sidebar-header-padding);
-  position: absolute;
-  top: 0;
-  background: var(--sidebar-background-color);
 }
 
 .header :matches(h1, h2, h3, h4, h5) {
