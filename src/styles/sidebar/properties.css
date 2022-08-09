@@ -46,7 +46,7 @@
     var(--spacing-medium)
     var(--spacing-medium);
   --sidebar-sublink-button-padding:
-    var(--spacing-small)
+    var(--spacing-tiny)
     40px
     var(--spacing-small);
   --sidebar-sublink-active-color: var(--color-picklerick-green-100);
