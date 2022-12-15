@@ -1,4 +1,4 @@
-name: Lint tests and sonar
+name: deploy on npmjs
 
 on:
   push:
@@ -10,8 +10,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  lint:
-    name: Lint
+  deploy:
+    name: deploy
     runs-on: ubuntu-latest
     steps:
       -
