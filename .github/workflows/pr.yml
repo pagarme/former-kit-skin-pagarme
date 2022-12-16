@@ -1,4 +1,4 @@
-name: Lint tests and sonar
+name: Lint
 
 on:
   pull_request:
