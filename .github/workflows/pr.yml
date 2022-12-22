@@ -1,0 +1,31 @@
+name: Lint
+
+on:
+  pull_request:
+  push:
+    branches:
+    - master
+
+concurrency:
+  group: ${{github.workflows}}-${{github.ref}}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout project
+        uses: actions/checkout@v3
+      -
+        uses: actions/setup-node@v3
+        with:
+          node-version: 10
+          cache: 'yarn'
+      -
+        name: Install
+        run: yarn install --prefer-offline
+      -
+        name: Run lint
+        run: yarn lint
