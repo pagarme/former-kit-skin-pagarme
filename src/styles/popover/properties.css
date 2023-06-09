@@ -6,84 +6,57 @@
   --popover-border-color: var(--color-squanchy-gray-50);
   --popover-border-radius: 8px;
   --popover-border-style: solid;
-  --popover-border-width: 1px;
-  --popover-box-shadow: 4px 4px 15px 4px rgba(0, 0, 0, 0.1);
+  --popover-border-width: 0px;
+  --popover-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
   --popover-child-border-color: var(--color-white);
   --popover-child-border-style: solid;
-  --popover-child-border-width:
-    1px
-    0
-    0;
+  --popover-child-border-width: 1px 0 0;
   --popover-color: var(--color-white);
 
   --popover-arrow-bottom-center-left: calc(50% - var(--spacing-tiny));
-  --popover-arrow-bottom-radius:
-    var(--popover-border-radius)
-    0
-    0
-    0;
+  --popover-arrow-bottom-radius: var(--popover-border-radius) 0 0 0;
   --popover-arrow-bottom-start-left: var(--spacing-small);
   --popover-arrow-bottom-start-top: -9px;
-  --popover-arrow-left-background:
-    linear-gradient(
-      225deg,
-      var(--popover-color) 50%,
-      rgba(0, 0, 0, 0) 50%
-    );
+  --popover-arrow-left-background: linear-gradient(
+    225deg,
+    var(--popover-color) 50%,
+    rgba(0, 0, 0, 0) 50%
+  );
   --popover-arrow-left-end-bottom: var(--spacing-small);
   --popover-arrow-left-middle-top: calc(50% - var(--spacing-tiny));
-  --popover-arrow-left-radius:
-    0
-    var(--popover-border-radius)
-    0
-    0;
+  --popover-arrow-left-radius: 0 var(--popover-border-radius) 0 0;
   --popover-arrow-left-right: -9px;
   --popover-arrow-left-start-top: var(--spacing-small);
-  --popover-arrow-right-background:
-    linear-gradient(
-      45deg,
-      var(--popover-color) 50%,
-      rgba(0, 0, 0, 0) 50%
-    );
+  --popover-arrow-right-background: linear-gradient(
+    45deg,
+    var(--popover-color) 50%,
+    rgba(0, 0, 0, 0) 50%
+  );
   --popover-arrow-right-end-bottom: var(--spacing-small);
   --popover-arrow-right-left: -9px;
   --popover-arrow-right-middle-top: calc(50% - var(--spacing-tiny));
-  --popover-arrow-right-radius:
-    0
-    0
-    0
-    var(--popover-border-radius);
+  --popover-arrow-right-radius: 0 0 0 var(--popover-border-radius);
   --popover-arrow-right-start-top: var(--spacing-small);
   --popover-arrow-size: var(--spacing-small);
-  --popover-arrow-top-background:
-    linear-gradient(
-      315deg,
-      var(--popover-color) 50%,
-      rgba(0, 0, 0, 0) 50%
-    );
+  --popover-arrow-top-background: linear-gradient(
+    315deg,
+    var(--popover-color) 50%,
+    rgba(0, 0, 0, 0) 50%
+  );
   --popover-arrow-top-bottom: -9px;
   --popover-arrow-top-center-left: calc(50% - var(--spacing-tiny));
   --popover-arrow-top-end-right: var(--spacing-small);
-  --popover-arrow-top-radius:
-    0
-    0
-    var(--popover-border-radius) 0;
+  --popover-arrow-top-radius: 0 0 var(--popover-border-radius) 0;
   --popover-arrow-top-start-left: var(--spacing-small);
 
   --popover-content-padding: var(--spacing-small);
 
   --popover-link-active-background: var(--color-squanchy-gray-20);
   --popover-link-active-border-color: var(--color-white);
-  --popover-link-border-radius-bottom:
-    0
-    0
-    var(--popover-border-radius)
+  --popover-link-border-radius-bottom: 0 0 var(--popover-border-radius)
     var(--popover-border-radius);
-  --popover-link-border-radius-top:
-    var(--popover-border-radius)
-    var(--popover-border-radius)
-    0
-    0;
+  --popover-link-border-radius-top: var(--popover-border-radius)
+    var(--popover-border-radius) 0 0;
   --popover-link-focus-border-color: var(--color-white);
   --popover-link-font-size: 12px;
   --popover-link-hover-background: var(--color-squanchy-gray-20);
