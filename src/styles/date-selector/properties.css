@@ -43,18 +43,18 @@
   --date-selector-sidebar-input-padding-left: calc(var(--spacing-tiny) - 2px);
 
   --date-selector-sidebar-label-border-left: 0 solid rgba(var(--color-birdperson-gray-500), 0);
-  --date-selector-sidebar-label-color: var(--color-birdperson-gray-500);
-  --date-selector-sidebar-label-font-size: 12px;
+  --date-selector-sidebar-label-color: var(--color-birdperson-gray-700);
+  --date-selector-sidebar-label-font-size: 14px;
   --date-selector-sidebar-label-font-weight: var(--body-text-weight);
   --date-selector-sidebar-label-margin-left: var(--spacing-tiny);
-  --date-selector-sidebar-label-text-transform: uppercase;
+  --date-selector-sidebar-label-text-transform: capitalize;
   --date-selector-sidebar-label-transition:
     color 150ms cubic-bezier(0.47, 0, 0.75, 0.72),
     padding-left 150ms cubic-bezier(0.47, 0, 0.75, 0.72),
     font-weight 150ms cubic-bezier(0.47, 0, 0.75, 0.72),
     border-left-width 150ms cubic-bezier(0.47, 0, 0.75, 0.72),
     border-left-color 150ms cubic-bezier(0.47, 0, 0.75, 0.72);
-  --date-selector-sidebar-max-width: 160px;
+  --date-selector-sidebar-width: 192px;
   --date-selector-sidebar-label-width: 100%;
   --date-selector-sidebar-label-will-change:
     color,
