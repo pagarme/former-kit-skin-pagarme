@@ -20,8 +20,6 @@
   }
 
   & .CalendarDay {
-    border: var(--calendar-day-picker-border);
-    color: var(--calendar-day-color);
     font-size: var(--calendar-day-font-size);
     font-weight: var(--calendar-day-font-weight);
 
@@ -29,6 +27,10 @@
     height: var(--calendar-day-height) !important;
     transition: var(--calendar-day-transition);
     will-change: color background-color;
+    padding: 10px 0;
+    border: 1px solid transparent;
+    color: var(--color-birdperson-gray-500);
+    width: 35px;
   }
 
   & .CalendarDay__blocked_calendar,
@@ -118,6 +120,12 @@
     text-transform: var(--calendar-day-picker-header-text-transform);
   }
 
+  & .DayPicker_weekHeader ul li {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--color-birdperson-gray-500);
+  }
+
   & .DayPickerNavigation__horizontal {
     color: var(--calendar-active-color);
     position: relative;
@@ -141,7 +149,7 @@
 
   & .CalendarDay__selected_span {
     background-color: var(--calendar-selected-span-background-color);
-    color: var(--calendar-selected-span-color);
+    color: var(--color-birdperson-gray-500);
   }
 
   & .CalendarDay__selected_start,
@@ -157,19 +165,13 @@
   }
 
   & .CalendarDay__selected_start {
-    border-radius:
-      var(--calendar-day-selected-border-radius)
-      0
-      0
-      var(--calendar-day-selected-border-radius);
+    border-radius: 999px;
+    color: var(--color-white);
   }
 
   & .CalendarDay__selected_end {
-    border-radius:
-      0
-      var(--calendar-day-selected-border-radius)
-      var(--calendar-day-selected-border-radius)
-      0;
+    border-radius: 999px;
+    color: var(--color-white);
   }
 
   & .CalendarDay__selected_span:not([class*="start"]):hover {
@@ -186,11 +188,40 @@
   & .CalendarDay__hovered_span:hover,
   & .CalendarDay__hovered_span {
     background: var(--calendar-hovered-span);
-    color: var(--calendar-active-color);
+    color: var(--color-birdperson-gray-500);
+  }
+
+  & .CalendarDay__hovered_span {
+    background-color: var(--color-squanchy-gray-20);
+    border-radius: 0;
   }
 
   & .CalendarDay:active {
     background-color: lighten(var(--calendar-active-color), 30%);
     border-radius: var(--calendar-day-selected-border-radius);
+  }
+
+  & .CalendarDay_defaultCursor {
+    color: var(--color-squanchy-gray-300);
+  }
+
+  & .CalendarDay__default:not([class*="span"]) {
+    border-radius: 999px;
+  }
+
+  & .CalendarDay__firstDayOfWeek {
+    border-radius:
+      999px
+      0
+      0
+      999px;
+  }
+
+  & .CalendarDay__lastDayOfWeek {
+    border-radius:
+      0
+      999px
+      999px
+      0;
   }
 }

@@ -4,7 +4,7 @@
 
 :root {
   --popover-border-color: var(--color-squanchy-gray-50);
-  --popover-border-radius: 3px;
+  --popover-border-radius: 8px;
   --popover-border-style: solid;
   --popover-border-width: 1px;
   --popover-box-shadow: 4px 4px 15px 4px rgba(0, 0, 0, 0.1);
