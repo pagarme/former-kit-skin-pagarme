@@ -3,10 +3,8 @@
 
 :root {
   --calendar-font-family: var(--title-font-family);
-
   --calendar-icon-color: var(--color-squanchy-gray-100);
   --calendar-icon-font-size: 12px;
-
   --calendar-day-box-shadow: none;
   --calendar-day-color: var(--color-squanchy-gray-400);
   --calendar-day-font-weight: normal;
@@ -49,9 +47,9 @@
   --calendar-week-spacing: 3px;
 
   --calendar-active-color: var(--color-picklerick-green-100);
-  --calendar-day-selected-border-radius: 999px;
+  --calendar-day-selected-border-radius: 50%;
   --calendar-day-selected-font-weight: var(--body-text-weight);
-  --calendar-day-selected-border-color: var(--color-picklerick-green-50);
+  --calendar-day-selected-border-color: var(--color-picklerick-green-100);
   --calendar-hovered-span: var(--color-picklerick-green-20);
   --calendar-selected-span-background-color: var(--color-squanchy-gray-20);
   --calendar-selected-span-color: var(--color-squanchy-gray-100);
