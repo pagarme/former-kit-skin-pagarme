@@ -42,21 +42,21 @@
   --button-high-relevance-clean-color-active: var(--color-barney-purple-200);
   --button-high-relevance-clean-color-focus: var(--color-barney-purple-50);
 
-  --button-low-relevance-background-color-hover: var(--color-squanchy-gray-200);
-  --button-low-relevance-background-color-active: var(--color-squanchy-gray-300);
+  --button-low-relevance-background-color-hover: var(--color-squanchy-gray-50);
+  --button-low-relevance-background-color-active: var(--color-squanchy-gray-100);
   --button-low-relevance-boxshadow-focus: #979797 0 0 0 2px inset;
   --button-low-relevance-flat-background-color: var(--color-squanchy-gray-100);
-  --button-low-relevance-outline-color: var(--color-squanchy-gray-100);
+  --button-low-relevance-outline-color: var(--color-birdperson-gray-500);
   --button-low-relevance-outline-border-color: var(--color-squanchy-gray-100);
   --button-low-relevance-outline-border-width: 1px;
   --button-low-relevance-outline-color-enter: var(--color-white);
-  --button-low-relevance-outline-background-color-focus: var(--color-squanchy-gray-100);
+  --button-low-relevance-outline-background-color-focus: var(--color-squanchy-gray-20);
   --button-low-relevance-outline-border-color-focus: #979797;
   --button-low-relevance-outline-boxshadow-focus: #979797 0 0 0 1px inset;
-  --button-low-relevance-clean-color: var(--color-squanchy-gray-100);
-  --button-low-relevance-clean-color-hover: var(--color-squanchy-gray-200);
-  --button-low-relevance-clean-color-active: var(--color-squanchy-gray-300);
-  --button-low-relevance-clean-color-focus: var(--color-squanchy-gray-200);
+  --button-low-relevance-clean-color: var(--color-birdperson-gray-500);
+  --button-low-relevance-clean-color-hover: var(--color-birdperson-gray-600);
+  --button-low-relevance-clean-color-active: var(--color-birdperson-gray-700);
+  --button-low-relevance-clean-color-focus: var(--color-birdperson-gray-600);
 
   --button-normal-relevance-background-color-hover: var(--color-picklerick-green-50);
   --button-normal-relevance-background-color-active: var(--color-picklerick-green-200);
