@@ -84,12 +84,19 @@
   text-align: left;
   width: 100%;
   font-weight: bold;
+
+  &.separator {
+    border-top: 1px solid var(--sidebar-separator-border);
+    margin-top: var(--spacing-tiny);
+  }
 }
 
 .title {
+  display: flex;
+  width: 100%;
   align-items: center;
+  justify-content: space-between;
   color: var(--sidebar-title-color);
-  display: inline-flex;
   font-size: var(--sidebar-title-font-size);
   line-height: var(--sidebar-title-line-height);
   margin: var(--sidebar-title-margin);
