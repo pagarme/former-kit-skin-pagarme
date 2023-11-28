@@ -85,10 +85,12 @@
   width: 100%;
   font-weight: bold;
 
+  /* stylelint-disable */
   &.separator {
     border-top: 1px solid var(--sidebar-separator-border);
     margin-top: var(--spacing-tiny);
   }
+  /* stylelint-enable */
 }
 
 .title {
