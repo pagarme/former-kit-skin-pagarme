@@ -8,7 +8,7 @@
   --date-selector-border-style: solid;
   --date-selector-border-radius: 3px;
   --date-selector-border-width: 1px;
-  --date-selector-box-shadow: 2px 2px 2px 0 rgba(var(--color-squanchy-gray-100), 0.25);
+  --date-selector-box-shadow: 2px 2px 2px 0 rgba(168, 168, 173, 0.25);
   --date-selector-font-size: 12px;
   --date-selector-user-select: none;
 
@@ -42,7 +42,7 @@
   --date-selector-sidebar-input-font-weight: var(--body-text-weight);
   --date-selector-sidebar-input-padding-left: calc(var(--spacing-tiny) - 2px);
 
-  --date-selector-sidebar-label-border-left: 0 solid rgba(var(--color-birdperson-gray-500), 0);
+  --date-selector-sidebar-label-border-left: 0 solid rgba(69, 69, 80, 0);
   --date-selector-sidebar-label-color: var(--color-birdperson-gray-700);
   --date-selector-sidebar-label-font-size: 14px;
   --date-selector-sidebar-label-font-weight: var(--body-text-weight);

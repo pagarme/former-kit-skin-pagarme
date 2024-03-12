@@ -41,7 +41,7 @@
 
   --pagination-button-active-background-color: var(--color-barney-purple-100);
 
-  --pagination-error-border-color: rgba(var(--color-beth-pink-100), 1);
+  --pagination-error-border-color: rgba(223, 40, 95, 1);
   --pagination-label-error-background-color: var(--color-beth-pink-20);
 
   --pagination-disabled-background-color: var(--color-squanchy-gray-50);
