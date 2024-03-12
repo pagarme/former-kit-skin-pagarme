@@ -31,5 +31,5 @@
   --date-input-focus-color: var(--color-picklerick-green-100);
 
   --date-input-error-background: var(--color-beth-pink-20);
-  --date-input-error-color: rgba(var(--color-beth-pink-100), 1);
+  --date-input-error-color: rgba(223, 40, 95, 1);
 }

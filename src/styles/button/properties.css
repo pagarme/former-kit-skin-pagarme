@@ -98,7 +98,7 @@
   --button-ripple-background:
     radial-gradient(
       circle,
-      rgba(var(--color-black), 0.6) 10%,
+      rgba(0, 0, 0, 0.6) 10%,
       transparent 10.01%
     );
   --button-ripple-transition: transform 0.4s, opacity 1s;
